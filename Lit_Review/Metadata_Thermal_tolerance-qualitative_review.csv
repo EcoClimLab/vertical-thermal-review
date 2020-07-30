@@ -1,0 +1,13 @@
+field,description,categories,notes
+Source,Study from which record was entered. This study should be in our references folder.,,
+Study,Original study of the reported finding,,"may be a citation within source reference, and may be ones that we want to follow up on later"
+Location,location where the measurements were made ,,
+species,species on which measurements were made,,
+taxonomic_grouping,"how were leaves grouped in the analysis: compared within-individual, within-species, or across the whole forest community. ","individual, species, community","This isn't getting at how many individuals or species were measured, but what was the unit for comparison. For example, were sun leaves compared to shade leaves for the same individual, different individuals of the same species, or across species?"
+independent_variable_group,Independent variable category--from our perspective--measured in study. See methods document for details,"exposure, height, undiferrentiated",
+independent_variable,"Independent variable--from our perspective--measured in study. This will be some metric of exposure, height, or position within forest, as defined in method document. ",,"Temperature would NOT be a response variable. Rather, temperature sensitivity (or whole response curve) would be classified as a response variable."
+response_variable_group,"response variable group, as defined in methods document. ",,This will be used to sort variables into sections/ tables for the review
+response_variable,Response variable--from our perspective--measured in study. There can be many.,,
+finding,summary of finding (how response variable responds to exposure/height),,
+signficance,indicate whether finding was signficant,"significant, not_signficant, sometimes_signficant, unclear",
+notes,,,
