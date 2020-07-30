@@ -36,9 +36,9 @@ Kristina J. Anderson-Teixeira^1,2^*
 ## Introduction
 
 **As the climate warms, understanding forest responses to temperature is critical.**
-Forest canopy microclimate buffering is emerging as important for forest ecology in an era of climate change.
 
-- Forest canopies buffer temperatures and other conditions
+**Forest canopy microclimate buffering is emerging as important for forest ecology in an era of climate change.**
+Forest canopies buffer temperatures and other conditions
      - @zellweger_forest_2020 
 
 We’re seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change.
@@ -60,13 +60,59 @@ iv.	How does leaf metabolism respond to temperature in canopy and understory set
 
 v.	What are the implications of these patterns for the ecology and climate change responses of canopy versus understory trees? 
 
-*Our primary interest is the height gradient from the top of the canopy to the understory in forests. However, 
+*Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), we also review studies focused on exposure gradients.*
 
-![**Figure 1. (schematic of a forest summarizing most important gradients.** Current fig is just a rough illustration of how this might look – a draft figure that KAT had on hand illustrating hypotheses (ignore specific content). We could have a set of arrows for each of the major categories considered here. This would be a key figure, and should be beautifully illustrated—KAT could do a watercolor, or Nidhi could illustrate). ](figures_tables/schematic.png)
+![**Figure 1. (schematic of a forest summarizing most important gradients.** Current fig is just a rough illustration of how this might look – a draft figure that KAT had on hand illustrating hypotheses (ignore specific content). We could have a set of arrows for each of the major categories considered here. This would be a key figure, and should be beautifully illustrated—KAT could do a watercolor, or Nidhi could illustrate). ](schematic/schematic.png)
 
 ## The biophysical environment
 
-![**Figure 2. Vertical gradients in the biophysical environment, from NEON data.** Current figure is old version from Ian McGregor’s in-review paper, showing NEON data from SCBI. We could modify his code to analyze all forested NEON sites. We obviously wouldn’t present this much info per site. ](NEON_height_profiles/NEON_height_profile_temp.png)
+**Forest canopies have a buffering effect on multiple aspects of the understory climate (Fig. **2**).**
+Most notably, solar radiation decreases along a vertical profile from the top of the canopy to the forest floor (Fig. **2x**).
+- *@bonan_ecological_2016 reviews this and points to appropriate references*
+- (Mau et al. 2018?)
+-	Sunflecks: Leaky et al. 2003?
+
+Wind speeds are also higher at the top of the canopy (Fig. **2x**).
+- *(find some good refs for this/ fill in more specifics)*
+- @mcgregor_tree_nodate
+This results in higher boundary layer conductance, *DEFINE*, for canopy leaves [@martin_boundary_1999].
+
+Air temperature, $T_{air}$, is sometimes signficantly buffered by forest canopies (Fig. **2x**).
+Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019]. 
+Similarly, maximum air temperatures were higher above than below tropical forest canopies during wet seasons in Panama (Rey-Sánchez et al. 2016) and coastal Brazil (Fauset et al. 2018).
+However, similar maximum temperatures have been observed during the dry season in Panama (Rey-Sánchez et al. 2016) and in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
+Minimum $T_{air}$ is also buffered by forest canopies under some conditions. 
+Higher minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].
+However, similar minimum temperatures under forest canopies have been observed in tropical forests in Panama (Rey-Sánchez et al. 2016) and coastal Brazil (Fauset et al. 2018), as well as in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
+
+Humidity also varies across the forest vertical profile, being generally higher in the understory (Fig. **2x**).
+- DETAILS - REFS
+- @mcgregor_tree_nodate
+RH, in combination with temperature, determines vapor pressure deficit, $VPD$
+- $VPD$ is lower in understory of Atlantic forest during wet season (Fauset et al. 2018)
+This means that canopy leaves tend to be exposed to higher *evaporative demand*.
+
+Finally, carbon dioxide (CO~2~) concentrations tend to be higher in the understory. 
+-	Higher in understory, particularly at dusk (Koike et al. 2001).
+-	Higher in the understory overnight; difference persists during the day but is very small (Yang et al. 1999).
+Differences in concentration are by far most pronounced near ground level. 
+Given that differences are small during the day when photosynthesis is active, and that even nighttime differences are modest at the height of understory tree crowns, CO~2~ concentration is unlikely to have much effect on the energy balance and metabolism of leaves across the forest vertical gradient. 
+
+
+
+![**Figure 2. Vertical gradients in the biophysical environment, from NEON data.** Current placeholder figure is old version from Ian McGregor’s in-review paper, showing NEON data from SCBI. See issue 2: https://github.com/EcoClimLab/vertical-thermal-review/issues/2. ](NEON_height_profiles/NEON_height_profile_temp.png)
+
+**The strength of this buffering varies across forests, being influenced by both forest characteristics and the biophysical environment.**
+First, buffering increases with canopy cover.
+- greater cover --> lower max T and VPD, higher minT  [@davis_microclimatic_2019]
+- greater cover -->  lower max T [@zellweger_seasonal_2019]
+- [@thom_effects_2020]
+*Presumably, buffering would also be affected by canopy roughness, which affects turbulent air flow and the canopy boundary layer.*
+Taller trees don’t necessarily increase buffering [@zellweger_seasonal_2019]. 
+SCA species increase T buffering (Zelllweger et al. 2019) [@zellweger_seasonal_2019]
+The strength of buffering also varies with respect to geographic and climatic factors.
+- Distance to coast, topographic position, elevation [@zellweger_seasonal_2019]
+- [@davis_microclimatic_2019]
 
 ## Trait variation 
 
@@ -75,6 +121,8 @@ v.	What are the implications of these patterns for the ecology and climate chang
 ## Leaf metabolism and thermal stress
 
 ## Ecology
+
+![**Figure 4. Temperature sensitivity of tree growth for understory versus canopy trees.** Data from Helcoski et al. 2019.](SCBI_tree_rings/SCBIfig.png)
 
 ## Future Questions
 
