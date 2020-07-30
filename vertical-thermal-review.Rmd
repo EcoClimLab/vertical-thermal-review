@@ -94,7 +94,7 @@ This means that canopy leaves tend to be exposed to higher *evaporative demand*.
 
 Finally, carbon dioxide (CO~2~) concentrations tend to be higher in the understory. 
 -	Higher in understory, particularly at dusk (Koike et al. 2001).
--	Higher in the understory overnight; difference persists during the day but is very small (Yang et al. 1999).
+-	Higher in the understory overnight; difference persists during the day but is very small [@yang_spatial_1999].
 Differences in concentration are by far most pronounced near ground level. 
 Given that differences are small during the day when photosynthesis is active, and that even nighttime differences are modest at the height of understory tree crowns, CO~2~ concentration is unlikely to have much effect on the energy balance and metabolism of leaves across the forest vertical gradient. 
 
@@ -117,6 +117,28 @@ The strength of buffering also varies with respect to geographic and climatic fa
 ## Trait variation 
 
 ## Leaf temperature
+
+Many of the biophysical and trait variable reviewed above affect leaf temperature, $T_{leaf}$, which is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019] (Fig. 3).
+While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature.
+Large leaves can be significantly cooler than $T_{air}$ under low radiation with stomata open, and significantly hotter under high radiation with stomata closed.  
+Leaves with open stomata and high radiation loads maintain $T_{leaf}$ similar to $T_{air}$, with coolest leaves at intermediate sizes (~10mm).
+Shaded understory leaves should tend to maintain cooler daytime leaf temperatures for any given level of stomatal conductance.
+However, counteracting this, lower wind speed in understory would reduce latent heat loss.
+Thus, under hot conditions, canopy leaves exposed to higher wind speeds would be most effective at cooling when sufficient water is available to maintain high stomatal conductance; however, their $T_{leaf}$ can be highly elevated above $T_{air}$ when stomatal conductance is limiting.
+
+![**Figure 3. Leaf temperature in response to (a) XXX, (b) XXX (key trait or environmental variables).** Examples to be produced based on energy balance model using the tealeaves R package of @muir_tealeaves_2019: https://github.com/EcoClimLab/vertical-thermal-review/issues/6. Current placeholder shows figures from Campbell&Norman.](leaf_energy_balance/C&N_figures.png)
+Aligning with biophysical expectations, field observations have show that leaf temperatures are influenced by the biophysical environment and leaf traits.
+1.	Air T
+2.	Solar radiation
+3.	Leaf traits 
+
+When vertical gradients in the biopgysical environment and leaf traits combine to shape leaf energy budgets, $T_{leaf}$ often differs little from $T_{air}$ and between understory and canopy (Fig. **2?**).
+For instance... 	(Bolstad et al. 1999).
+Similarly, during the dry season in a tropical moist forest in Panama... (Rey-Sánchez et al. 2016).
+However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.
+-	(Slot et al. 2019) and refs therein
+-	(Fauset et al. 2018)
+Sun leaves can also be  cooled relative to $T_{air}$ more than shade leaves (Rey-Sánchez et al. 2016).
 
 ## Leaf metabolism and thermal stress
 
