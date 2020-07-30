@@ -1,0 +1,86 @@
+---
+title: ''
+output: word_document
+bibliography: references.bib
+csl: new-phytologist.csl
+
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+**Title:** Thermal sensitivity of canopy versus understory leaves: patterns, mechanisms, and ecological implications
+
+**Authors (so far):** 
+Nidhi Vinod^1^
+Martijn Slot^2^
+Kristina J. Anderson-Teixeira^1,2^* 
+
+
+**Author Affiliations:**
+
+1. Conservation Ecology Center; Smithsonian Conservation Biology Institute; Front Royal, VA 22630, USA
+
+2. Smithsonian Tropical Research Institute; Panama, Republic of Panama
+
+
+*corresponding author: teixeirak@si.edu; +1 540 635 6546
+
+\newpage
+
+## Abstract
+
+\newpage
+
+## Introduction
+
+**As the climate warms, understanding forest responses to temperature is critical.**
+Forest canopy microclimate buffering is emerging as important for forest ecology in an era of climate change.
+
+- Forest canopies buffer temperatures and other conditions
+     - @zellweger_forest_2020 
+
+We’re seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change.
+     - @zellweger_forest_2020 
+     - (Suggitt et al. 2018, Scheffers et. al 2014)
+    - Larger trees suffer more during drought (Bennett et al. 2015) and may be partially influenced by temperature
+
+**However, we lack a systematic understanding of biophysical and biological patterns across this gradient, how these affect leaf-level processes, and in turn how it affects ecology (Fig. 1).** 
+
+This review addresses the following questions:
+
+i.	How does the biophysical environment vary with height in forests?
+
+ii.	How do leaf traits vary with height (or between sun and shade leaves) in forests?
+
+iii.	How do biophysical environment and traits combine to affect leaf temperature?
+
+iv.	How does leaf metabolism respond to temperature in canopy and understory settings?
+
+v.	What are the implications of these patterns for the ecology and climate change responses of canopy versus understory trees? 
+
+*Our primary interest is the height gradient from the top of the canopy to the understory in forests. However, 
+
+![**Figure 1. (schematic of a forest summarizing most important gradients.** Current fig is just a rough illustration of how this might look – a draft figure that KAT had on hand illustrating hypotheses (ignore specific content). We could have a set of arrows for each of the major categories considered here. This would be a key figure, and should be beautifully illustrated—KAT could do a watercolor, or Nidhi could illustrate). ](figures_tables/schematic.png)
+
+## The biophysical environment
+
+![**Figure 2. Vertical gradients in the biophysical environment, from NEON data.** Current figure is old version from Ian McGregor’s in-review paper, showing NEON data from SCBI. We could modify his code to analyze all forested NEON sites. We obviously wouldn’t present this much info per site. ](NEON_height_profiles/NEON_height_profile_temp.png)
+
+## Trait variation 
+
+## Leaf temperature
+
+## Leaf metabolism and thermal stress
+
+## Ecology
+
+## Future Questions
+
+## Conclusions
+
+\newpage
+## References
+
+
