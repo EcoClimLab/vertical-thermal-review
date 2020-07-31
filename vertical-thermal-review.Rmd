@@ -48,7 +48,7 @@ We’re seeing increasing evidence that this impacts the ecology, with potential
 
 **However, we lack a systematic understanding of biophysical and biological patterns across this gradient, how these affect leaf-level processes, and in turn how it affects ecology (Fig. 1).** 
 
-This review addresses the following questions:
+**This review addresses the following questions:**
 
 i.	How does the biophysical environment vary with height in forests?
 
@@ -72,27 +72,28 @@ Most notably, solar radiation decreases along a vertical profile from the top of
 - (Mau et al. 2018?)
 -	Sunflecks: Leaky et al. 2003?
 
-Wind speeds are also higher at the top of the canopy (Fig. **2x**).
+**Wind speeds are also higher at the top of the canopy (Fig. **2x**).**
 - *(find some good refs for this/ fill in more specifics)*
 - @mcgregor_tree_nodate
 This results in higher boundary layer conductance, *DEFINE*, for canopy leaves [@martin_boundary_1999].
 
-Air temperature, $T_{air}$, is sometimes signficantly buffered by forest canopies (Fig. **2x**).
+**Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. **2x**).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019]. 
 Similarly, maximum air temperatures were higher above than below tropical forest canopies during wet seasons in Panama (Rey-Sánchez et al. 2016) and coastal Brazil (Fauset et al. 2018).
 However, similar maximum temperatures have been observed during the dry season in Panama (Rey-Sánchez et al. 2016) and in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
 Minimum $T_{air}$ is also buffered by forest canopies under some conditions. 
 Higher minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].
 However, similar minimum temperatures under forest canopies have been observed in tropical forests in Panama (Rey-Sánchez et al. 2016) and coastal Brazil (Fauset et al. 2018), as well as in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
+*(Add something about risk of freeze.)*
 
-Humidity also varies across the forest vertical profile, being generally higher in the understory (Fig. **2x**).
+**Humidity also varies across the forest vertical profile, being generally higher in the understory (Fig. **2x**).**
 - DETAILS - REFS
 - @mcgregor_tree_nodate
 RH, in combination with temperature, determines vapor pressure deficit, $VPD$
 - $VPD$ is lower in understory of Atlantic forest during wet season (Fauset et al. 2018)
 This means that canopy leaves tend to be exposed to higher *evaporative demand*.
 
-Finally, carbon dioxide (CO~2~) concentrations tend to be higher in the understory. 
+**Finally, carbon dioxide (CO~2~) concentrations tend to be higher in the understory.** 
 -	Higher in understory, particularly at dusk (Koike et al. 2001).
 -	Higher in the understory overnight; difference persists during the day but is very small [@yang_spatial_1999].
 Differences in concentration are by far most pronounced near ground level. 
@@ -116,9 +117,13 @@ The strength of buffering also varies with respect to geographic and climatic fa
 
 ## Trait variation 
 
+**Many traits vary with height and/or between sun and shade leaves on the same species (Table 1).**
+
+
 ## Leaf temperature
 
-Many of the biophysical and trait variable reviewed above affect leaf temperature, $T_{leaf}$, which is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019] (Fig. 3).
+**Many of the biophysical and trait variable reviewed above affect leaf temperature, $T_{leaf}$, which in turn has a strong influence on leaf metabolism (see following section).**
+$T_{leaf}$ is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019] (Fig. 3).
 While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature.
 Large leaves can be significantly cooler than $T_{air}$ under low radiation with stomata open, and significantly hotter under high radiation with stomata closed.  
 Leaves with open stomata and high radiation loads maintain $T_{leaf}$ similar to $T_{air}$, with coolest leaves at intermediate sizes (~10mm).
@@ -127,28 +132,101 @@ However, counteracting this, lower wind speed in understory would reduce latent 
 Thus, under hot conditions, canopy leaves exposed to higher wind speeds would be most effective at cooling when sufficient water is available to maintain high stomatal conductance; however, their $T_{leaf}$ can be highly elevated above $T_{air}$ when stomatal conductance is limiting.
 
 ![**Figure 3. Leaf temperature in response to (a) XXX, (b) XXX (key trait or environmental variables).** Examples to be produced based on energy balance model using the tealeaves R package of @muir_tealeaves_2019: https://github.com/EcoClimLab/vertical-thermal-review/issues/6. Current placeholder shows figures from Campbell&Norman.](leaf_energy_balance/C&N_figures.png)
-Aligning with biophysical expectations, field observations have show that leaf temperatures are influenced by the biophysical environment and leaf traits.
+**Aligning with biophysical expectations, field observations have show that leaf temperatures are influenced by the biophysical environment and leaf traits.**
 1.	Air T
 2.	Solar radiation
 3.	Leaf traits 
 
-When vertical gradients in the biopgysical environment and leaf traits combine to shape leaf energy budgets, $T_{leaf}$ often differs little from $T_{air}$ and between understory and canopy (Fig. **2?**).
+
+**When vertical gradients in the biopgysical environment and leaf traits combine to shape leaf energy budgets, $T_{leaf}$ often differs little from $T_{air}$ and between understory and canopy (Fig. **2?**).**
 For instance... 	(Bolstad et al. 1999).
 Similarly, during the dry season in a tropical moist forest in Panama... (Rey-Sánchez et al. 2016).
-However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.
+**However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.**
 -	(Slot et al. 2019) and refs therein
 -	(Fauset et al. 2018)
 Sun leaves can also be  cooled relative to $T_{air}$ more than shade leaves (Rey-Sánchez et al. 2016).
 
-## Leaf metabolism and thermal stress
+## Leaf metabolism and thermal responses
+
+Leaf metabolism is strongly shaped by leaf temperature, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. 1). 
+However, as we detail below, there are limited studies comparing thermal responses of sun and shade leaves.
+
+**Photosynthesis is generally higher in sun leaves-- a fact that is well-established (REFS) and observed in numerous field studies.**
+This is primarily driven by the greater light available to sun leaves.
+In response to the greater light availability, sun leaves have traits allowing greater photosynthetic rates at high light,  including ....
+The vertical gradient in photosythetic rates is also influenced by...
+
+**While sun and shade leaves differ dramatically in $A_{max}$, the temperature sensitivity of photosynthesis does not appear to differ substantially between sun and shade leaves**
+Biophysically, we might expect that sun leaves should tend to have a stronger temperature-dependence and higher temperature optima than shade leaves (Fig. 14.5; *revisit this!*) (Campbell and Norman 1998).
+However, this does not appear to be the case based on the limited number of field studies that have compared temperature sensitivity of photoshythesis in sun and shade leaves.
+For 3 species in Panama, (Slot et al. 2019) found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant.
+Mau et al. found no trend along a height gradient in Puerto Rico, and no significant trend in temperate trees (Mau et al. 2018).
+
+
+**Similar to photosynthesis, respiration tends to higher in sun leaves, but its temperature sensitivity appears to be similar between between sun and shade leaves.**
+(Bolstad et al. 1999) did a study at Coweeta, including elev gradient. Found 
+higher respiration (at reference T) in canopy leaves (@bolstad_foliar_1999). (*Martijn has some unpublished data on this that we might include: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
+At Coweeta, Q10 showed a variable pattern, with a slight tendency to increase down the canopy [@bolstad_foliar_1999]. (*Martijn has some unpublished data on this that we might include.unpublished data showing higher Q10 in shade than in sun leaves for 10 species or so. May make sense to include here: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
+Combining reference respiration and $Q_{10}$, @bolstad_foliar_1999 found  a modest net decrease in R for understory leaves relative to canopy leaves as T increases (*see their Fig. 1*).
+Thus, @bolstad_foliar_1999 found evidence of acclimation, but there remained a declining trend of respiration with elevation.
+
+
+**VOC production**
+
+**Leaf thermal tolerance (Tcrit/ T50)**
+- define.
+Typical values ~45-50$\circ$C, varying somewhat 
+across latitude/climate (O’sullivan et al. 2017),
+with elevation [@feeley_thermal_2020;  Slot unpublished data],
+with leaf traits [Sastry et al. 2018, @zhang_photosynthetic_2012].
+
+**Thermal tolerance (e.g., $T_{50}$) varies with exposure, but there are no studies isolating effect of height.**
+For two of three species studied in a tropical moist forest in Panama, $T_{50}$ was slightly lower for shade than sun-exposed leaves, both measured near ground level (Slot et al. 2019). 
+Similarly, for *Acacia Papyrocarpa* (Benth.) trees in an arid region of southern Australia, higher $T_{50}$ was observed in more exposed (North-facing) canopy positions (Curtis et al. 2019). 
+We're not aware of any other studies on this.
+
 
 ## Ecology
 
-![**Figure 4. Temperature sensitivity of tree growth for understory versus canopy trees.** Data from Helcoski et al. 2019.](SCBI_tree_rings/SCBIfig.png)
+**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism and its thermal responses scale up to affect whole-tree ecology in several ways.** First, vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in understory versus canopy conditions. 
+-	*Spring and fall leaf phenology in temperate deciduous forests (Augsburger). 	Mechanism: more moderate conditions (T, wind) in understory (REF).*
+*Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). One potential mechanism is lower temperature/hydraulic stress in understory*
+
+**Vertical gradients also affect tree growth and survival, and how these respond to climatic variation.**
+There are numerous demographic differences between understory and canopy trees, which have been linked to both the physical environment and plant traits (e.g., REFS), and we will not attempt to review those here.
+More interesting in this context is how these shape differences in the climatic sensitivity of growth and mortality.
+Many observations of larger trees suffering more during drought (Bennett et al. 2015).
+One likely mechanism behind this pattern is that the crowns of larger trees exist higher in the vertical profile and therefore are exposed to higher evaporative demand and solar radiation [@mcgregor_tree_nodate].
+Although drought is primarily a hydraulic problem, lack of water --> lower gs --> higher leaf T, so leaves face tradeoffs of water loss vs potentially damaging leafT.
+
+**There is also recently emerging evidence that understory trees tend to exhibit greater growth declines with $T_{air}$ under mesic conditions.** 
+In eight forests across the northeast United States, growth rates of understory trees declined sharply at higher $T_{air}$ (Rollinson et al., in review).
+Similarly, our previously unpublished analysis shows that in a broadleaf deciduous forest in Virginia, understory trees in a Mid-Atlantic forest responded more negatively to warmer $T_{air}$ than did canopy trees (Fig. **4**; Appendix **S3**). 
+This pattern is initially counter-intuitive in that sun-exposed leaves can experience greater elevation of $T_{leaf}$ over $T_{air}$ than shade leaves (Fig. **3?**). 
+However, given adequate moisture to sustain high $g_s$, canopy leaves exposed to more wind and lower humidity should be more effective at cooling when $T_{air}$ exceeds physiological optima (Fig. **3**).
+It is also possible that competition is accelerated under warmer temperatures.
+
+**Appears to affect community change under warming (Zellweger et al. 2020).**
+
+
+
+![**Figure 4. Temperature sensitivity of tree growth for understory versus canopy trees.** Analysis methods described in Appendix S3. Data from Helcoski et al. 2019.](SCBI_tree_rings/SCBIfig.png)
 
 ## Future Questions
 
+- Are patterns (in traits, metabolism, ecology) driven by tree height or exposure?
+
+- CO2 may lead to denser understory (Martijn)
+
 ## Conclusions
+
+## SI files
+
+Appendix S1. Methods for NEON vertical profiles
+
+Appendix S2. Methods for literature review
+
+Appendix S3. Methods for SCBI tree-ring analysis
 
 \newpage
 ## References
