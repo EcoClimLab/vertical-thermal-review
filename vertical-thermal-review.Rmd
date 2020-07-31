@@ -118,7 +118,38 @@ The strength of buffering also varies with respect to geographic and climatic fa
 ## Trait variation 
 
 **Many traits vary with height and/or between sun and shade leaves on the same species (Table 1).**
+Here, we focus on traits that are important for shaping leaf temperature ($T_{leaf}$) and thermal sensitivity.
 
+**Table 1. Summary of observed variation in thermally-relevant leaf traits with canopy height and/or between sun and shade leaves** ([*GitHub issue #9*](https://github.com/EcoClimLab/vertical-thermal-review/issues/9))
+
+
+Are traits shaped more by height or light?
+-	 “Height is more important than light in determining leaf morphology in a tropical forest” (Cavaleri et al. 2010)
+- 	(Cavaleri et al. 2008) 
+- from Martijn: "If I remember correctly, height and light exposure are closely correlated and things like LMA scale with both, but above a certain level of light exposure, the effect of additional light disappears, while the relationship of the morphological traits with height continues. I have often been a bit skeptical about assuming height drives morphology, as most of the work that convincingly shows that (and relates it to turgor pressure for example) is from 100 m tall redwoods."
+
+*Leaf area / characteristic dimension*:
+- Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected.
+
+*Max stomatal conductance*
+
+*Thermal time constant (probably not a lot out there)*
+-	Curtis et. al, 2018 – higher in more exposed leaves (heat up slower, cool slower)
+-	Michaeletz has used this in theoretical calculations (Michaeletz et al. 2016 and 2015?
+
+*Carotinoids* 
+-	photoprotective- disseminate heat, acclimate to high T. THese are proportional to irradiance 
+-	antioxidant scavenging function- protect against cellular damage
+- Königer et. al. 1995, and  Matsubara et al. 2009?
+
+*Isoprene production*
+-  Emission as a species trait- Tyeen Taylor, Marielle Smith 
+- The high temperature carbon compensation point of sun leaves is higher in isoprene emitting species than in non-emitting species, so it is to be expected that other aspects of heat tolerance will be similarly affected by isoprenes (https://doi.org/10.1111/pce.13564)
+-  Within species, isporene production scales with light/ T
+
+
+*Deciduous leaf habit* 
+- (Meakem et al. 2018) and refs therein
 
 ## Leaf temperature
 
@@ -136,7 +167,7 @@ Thus, under hot conditions, canopy leaves exposed to higher wind speeds would be
 1.	Air T
 2.	Solar radiation
 3.	Leaf traits 
-
+-  Michaletz et al have done some interesting work on leaf thermoregulation in relation to various leaf traits. I don’t think there is sun vs shade tests, but we could look at how this might translate, or how some of the traits he has calculated might differ between sun and shade leaves. For example, he has this thermal time constant parameter that is calculated from leaf mass per area, leaf dry matter content, and some environmental parameters. E.g.: DOI: 10.1038/nplants.2016.129, http://dx.doi.org/10.1016/j.tree.2015.09.006
 
 **When vertical gradients in the biopgysical environment and leaf traits combine to shape leaf energy budgets, $T_{leaf}$ often differs little from $T_{air}$ and between understory and canopy (Fig. **2?**).**
 For instance... 	(Bolstad et al. 1999).
