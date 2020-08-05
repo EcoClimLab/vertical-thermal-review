@@ -38,7 +38,7 @@ Kristina J. Anderson-Teixeira^1,2^*
 **As the climate warms, understanding forest responses to temperature is critical.**
 
 **Forest canopy microclimate buffering is emerging as important for forest ecology in an era of climate change.**
-Forest canopies buffer temperatures and other conditions
+Forest canopies buffer temperatures and other conditions 
      - @zellweger_forest_2020 
 
 We’re seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change.
