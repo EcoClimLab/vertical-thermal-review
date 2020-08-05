@@ -38,7 +38,7 @@ Kristina J. Anderson-Teixeira^1,2^*
 **As the climate warms, understanding forest responses to temperature is critical.**
 
 **Forest canopy microclimate buffering is emerging as important for forest ecology in an era of climate change.**
-Forest canopies buffer temperatures and other conditions 
+Forest canopies buffer temperatures and other conditions
      - @zellweger_forest_2020 
 
 We’re seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change.
@@ -129,7 +129,7 @@ Are traits shaped more by height or light?
 - from Martijn: "If I remember correctly, height and light exposure are closely correlated and things like LMA scale with both, but above a certain level of light exposure, the effect of additional light disappears, while the relationship of the morphological traits with height continues. I have often been a bit skeptical about assuming height drives morphology, as most of the work that convincingly shows that (and relates it to turgor pressure for example) is from 100 m tall redwoods."
 
 *Leaf area / characteristic dimension*:
-- Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected.
+- Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected. 
 
 *Max stomatal conductance*
 
