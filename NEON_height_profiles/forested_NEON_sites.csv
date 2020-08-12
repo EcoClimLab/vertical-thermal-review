@@ -1,8 +1,8 @@
 site,nlcd _class_1,nlcd _class_2,nlcd_class_3,nlcd_class_4,all_forest,nlcd_class_tower,include,notes
-BART,mixedForest,deciduousForest,evergreenForest,NA,1,(forest),1,
-BLAN,deciduousForest,pastureHay,NA, NA,0,,,
-BONA,deciduousForest,evergreenForest,mixedForest,woodyWetlands,1,,,
-CLBJ,deciduousForest,grasslandHerbaceous,NA,NA,0,,,
+BART,mixedForest,deciduousForest,evergreenForest,NA,1,"Eastern Deciduous Forest, Boreal ecotone",1,
+BLAN,deciduousForest,pastureHay,NA, NA,0,Primary ecosystem-shrubland and forest; secondary-agricultural land,,
+BONA,deciduousForest,evergreenForest,mixedForest,woodyWetlands,0,Spruce forest on permafrost,1,
+CLBJ,deciduousForest,grasslandHerbaceous,NA,NA,0,A mosaic of the Cross Timbers forest (oak-dominated)  and grasslands,,
 DEJU,evergreenForest,shrubScrub,woodyWetlands,NA,0,,,
 DELA,evergreenForest,woodyWetlands,NA,NA,0,,,
 GRSM,deciduousForest,evergreenForest,NA,NA,1,,,
