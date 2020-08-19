@@ -37,14 +37,20 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 **As the climate warms, understanding forest responses to temperature is critical.**
 
-**Forest canopy microclimate buffering is emerging as important for forest ecology in an era of climate change.**
-Forest canopies buffer temperatures and other conditions
-     - @zellweger_forest_2020 
 
-We’re seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change.
+**Forest canopy microclimate buffering is emerging as important for forest ecology in an era of climate change.**
+
+With increase in temperature, we are already seeing that temperate and tropical forest canopies are functioning beyond their photosynthetic threshold (Mau et al. 2020). Other effects of raising temperature on forests are seen in the form of larger trees suffering more during drought (Benett et al. 2015), increased tree mortality, lower tree growth leading to shorter younger trees (Nate McDowell et al.2020?) and large trees dying twice the rate of small trees (Stovall et al. 2019). Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature (Cornelius Senf et al. 2018) has shown to increase understory temperatures which raises concern for understory species and forest biodiversity (Zellweger et al. 2019, Defrenne et al. 2013).
+
+Forest canopies buffer temperatures and other conditions
+     - @zellweger_forest_2020 (Davis et al. 2019) 
+
+We’re seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species (Suggitt et al, Scheffers, Defrenne et al. 2013). 
      - @zellweger_forest_2020 
      - (Suggitt et al. 2018, Scheffers et. al 2014)
     - Larger trees suffer more during drought (Bennett et al. 2015) and may be partially influenced by temperature
+
+Understanding thermal sensitivity in vertical tree gradient and height from top of the canopy to understory will provide crucial insights for how raising temperature affects forest ecology and biodiversity.
 
 **However, we lack a systematic understanding of biophysical and biological patterns across this gradient, how these affect leaf-level processes, and in turn how it affects ecology (Fig. 1).** 
 
