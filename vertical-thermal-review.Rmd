@@ -40,7 +40,9 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 **Forest canopy microclimate buffering is emerging as important for forest ecology in an era of climate change.**
 
-With increase in temperature, we are already seeing that temperate and tropical forest canopies are functioning beyond their photosynthetic threshold (Mau et al. 2020). Other effects of raising temperature on forests are seen in the form of larger trees suffering more during drought (Benett et al. 2015), increased tree mortality, lower tree growth leading to shorter younger trees (Nate McDowell et al.2020?) and large trees dying twice the rate of small trees (Stovall et al. 2019). Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature (Cornelius Senf et al. 2018) has shown to increase understory temperatures which raises concern for understory species and forest biodiversity (Zellweger et al. 2019, Defrenne et al. 2013).
+With increase in temperature, we are already seeing that temperate and tropical forest canopies are functioning beyond their photosynthetic threshold (Mau et al. 2020). 
+Other effects of raising temperature on forests are seen in the form of larger trees suffering more during drought (Benett et al. 2015), increased tree mortality, lower tree growth leading to shorter younger trees (Nate McDowell et al.2020?) and large trees dying twice the rate of small trees (Stovall et al. 2019). 
+Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature (Cornelius Senf et al. 2018) has shown to increase understory temperatures which raises concern for understory species and forest biodiversity (Zellweger et al. 2019, Defrenne et al. 2013).
 
 Forest canopies buffer temperatures and other conditions
      - @zellweger_forest_2020 (Davis et al. 2019) 
