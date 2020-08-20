@@ -35,13 +35,12 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 ## Introduction
 
-**As the climate warms, understanding forest responses to temperature is critical.**
 Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF). 
 This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change (e.g., Bonan 2008).
-With increase in temperature, we are already seeing that temperate and tropical forest canopies are functioning beyond their photosynthetic threshold (Mau et al. 2020). 
-This, alongside cliamte change-driven disturbances such as drought, may contribute to globally observed phenomena including trends of increasing tree mortality (McDowell et al. 2020; REFS).
+With increases in temperature, temperate and tropical forest canopies are already functioning beyond their optimal photosynthetic threshold (Mau et al. 2020). 
+This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world (McDowell et al. 2020; REFS).
 
-**Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_forest_2020 ; Davis et al. 2019].**
+**Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
 Globally, we're seeing larger trees suffering more during drought (Benett et al. 2015; Stovall et al. 2019).
 Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (Nate McDowell et al.2020?). 
 Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature (Cornelius Senf et al. 2018) has shown to increase understory temperatures which raises concern for understory species and forest biodiversity (Zellweger et al. 2019, Defrenne et al. 2013).
