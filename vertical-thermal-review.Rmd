@@ -254,6 +254,9 @@ It is also possible that competition is accelerated under warmer temperatures.
 
 
 ![**Figure 4. Temperature sensitivity of tree growth for understory versus canopy trees.** Analysis methods described in Appendix S3. Data from Helcoski et al. 2019.](SCBI_tree_rings/SCBIfig.png)
+## Implications for Modeling / Scaling
+
+
 
 ## Future Questions
 
