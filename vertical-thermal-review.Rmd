@@ -150,13 +150,9 @@ Are traits shaped more by height or light?
 - Königer et. al. 1995, and  Matsubara et al. 2009?
 
 *Isoprene production*
--  Emission as a species trait- Tyeen Taylor, Marielle Smith 
-- The high temperature carbon compensation point of sun leaves is higher in isoprene emitting species than in non-emitting species, so it is to be expected that other aspects of heat tolerance will be similarly affected by isoprenes (https://doi.org/10.1111/pce.13564)
--  Within species, isporene production scales with light/ T
+-  Isoprene production *capability* as a trait (actual isoprene production is in section 4. I'm not sure whether Ty's content belongs here or in that section) 
 
 
-*Deciduous leaf habit* 
-- (Meakem et al. 2018) and refs therein
 
 ## Leaf temperature
 
@@ -214,9 +210,14 @@ Thus, @bolstad_foliar_1999 found evidence of acclimation, but there remained a d
 
 **VOC production**
 
+**Isoprene production**
+- high emission rates occur in the mid-canopy, and even from very small statured trees and shrubs, at a site in the Brazilian Amazon (Taylor et al., in prep).
+- The high temperature carbon compensation point of sun leaves is higher in isoprene emitting species than in non-emitting species, so it is to be expected that other aspects of heat tolerance will be similarly affected by isoprenes (https://doi.org/10.1111/pce.13564).
+-  Within species, isporene production scales with light/ T
+
 **Leaf thermal tolerance (Tcrit/ T50)**
 - define.
-Typical values ~45-50$\circ$C, varying somewhat 
+Typical values ~45-50$^\circ$C, varying somewhat 
 across latitude/climate (O’sullivan et al. 2017),
 with elevation [@feeley_thermal_2020;  Slot unpublished data],
 with leaf traits [Sastry et al. 2018, @zhang_photosynthetic_2012].
@@ -232,6 +233,7 @@ We're not aware of any other studies on this.
 **Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism and its thermal responses scale up to affect whole-tree ecology in several ways.** First, vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in understory versus canopy conditions. 
 -	*Spring and fall leaf phenology in temperate deciduous forests (Augsburger). 	Mechanism: more moderate conditions (T, wind) in understory (REF).*
 *Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). One potential mechanism is lower temperature/hydraulic stress in understory*
+- something on isoprene production?
 
 **Vertical gradients also affect tree growth and survival, and how these respond to climatic variation.**
 There are numerous demographic differences between understory and canopy trees, which have been linked to both the physical environment and plant traits (e.g., REFS), and we will not attempt to review those here.
