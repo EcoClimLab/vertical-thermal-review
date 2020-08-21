@@ -35,14 +35,14 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 ## Introduction
 
-Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF). 
-This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change (e.g., Bonan 2008).
+Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF).
+This has increased the severity and frequency of heat waves (Perkins et al. 2012) which is expected to have profound effects on forest biodiversity and ecosystem function (Feeley et al. 2020, REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change (e.g., Bonan 2008).
 With increases in temperature, temperate and tropical forest canopies are already functioning beyond their optimal photosynthetic threshold (Mau et al. 2020). 
 This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world (McDowell et al. 2020; REFS).
 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
 Globally, we're seeing larger trees suffering more during drought (Benett et al. 2015; Stovall et al. 2019).
-Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (Nate McDowell et al.2020?). 
+Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (Nate McDowell et al.2020). 
 Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature (Cornelius Senf et al. 2018) has shown to increase understory temperatures which raises concern for understory species and forest biodiversity (Zellweger et al. 2019, Defrenne et al. 2013).
 
 We’re seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species (Suggitt et al, Scheffers, Defrenne et al. 2013). 
@@ -72,15 +72,18 @@ v.	What are the implications of these patterns for the ecology and climate chang
 ## The biophysical environment
 
 **Forest canopies have a buffering effect on multiple aspects of the understory climate (Fig. **2**).**
-Most notably, solar radiation decreases along a vertical profile from the top of the canopy to the forest floor (Fig. **2x**).
+
+Most notably, light conditions vary across vertical tree gradient due to the variation in foliage density that limits light to lower canopy and understory (Mau et. al 2018, Fauset et al. 2017, Niinemets et al.., REFS).
+Solar radiation increases with canopy height (Mau et al. 2018, M.A. Caveleri et al , Niinemets, REFS) and decreases along a vertical profile from the top of the canopy to the forest floor such that the forest floor receives 1% of the above canopy values (Roberts et al. 1990)
+Radiation is an important variable in determining differences in leaf traits and responses to temperature (Mau et. al 2018, Fauset et al. 2017, Rey Sanchez et al. 2016, Doughty and Gouden 2008)
+(Fig. **2x**).
 - *@bonan_ecological_2016 reviews this and points to appropriate references*
-- (Mau et al. 2018?)
 -	Sunflecks: Leaky et al. 2003?
 
 **Wind speeds are also higher at the top of the canopy (Fig. **2x**).**
 - *(find some good refs for this/ fill in more specifics)*
 - @mcgregor_tree_nodate
-This results in higher boundary layer conductance, *DEFINE*, for canopy leaves [@martin_boundary_1999].
+This results in higher boundary layer conductance, *DEFINE*, for canopy leaves [@martin_boundary_1999].(Roberts et al. 1990)
 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. **2x**).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019]. 
