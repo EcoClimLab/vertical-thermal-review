@@ -5,6 +5,8 @@
 ## Aug-Sept. 2020
 ######################################################
 library(neonUtilities)
+library(data.table)
+
 library(lubridate)
 library(dplyr)
 library(tidyr)
@@ -23,8 +25,7 @@ library(ggplot2)
 #the function "loadByProduct" will load the data into R and collapse into one df (within a list).
 #it will not download/store anything on the computer, but working with large dfs will run slowly. Hence, it is a good idea to look at the 30min avg first.
 
-dp <- data.table(data = c("2DWSD", "RH", "SAAT", 
-                          "IRBT"),
+dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT"),
                  id = c("DP1.00001.001", "DP1.00098.001",
                         "DP1.00002.001", "DP1.00005.001"),
                  name = c("windSpeedMean", "RHMean",
@@ -53,7 +54,8 @@ sites <- c("BART","BONA","CLBJ","DEJU","DELA","GRSM","GUAN","HARV","JERC",
            "LENO","MLBS","ORNL","OSBS","SCBI","SERC","SJER","SOAP","STEI",
            "TALL","TEAK","TREE","UKFS","UNDE","WREF","YELL")
 
-site_data <- lapply(sites, function(x){
+# site_data <- pbapply::pblapply(sites, function(x){
+for(k in seq(along=sites)){
   vars <- list()
   for (i in seq(along=dp[,name])){
     
@@ -61,10 +63,14 @@ site_data <- lapply(sites, function(x){
     for (j in seq(1:nrow(date))){
       neon_tower <- 
         loadByProduct(dpID=dp[,id][i], 
-                      site=x,
+                      site=k,
                       package="basic", 
                       check.size = FALSE, avg=30,
-                      nCores = 2
+                      nCores = 2,
+                      startdate=paste0(date[,year][j], "-0", 
+                                       date[,month][j]),
+                      enddate = paste0(date[,year][j], "-0", 
+                                       date[,month][j])
                       #(use TRUE outside loop to see 
                       #how big the dowloads are)
                       )
@@ -100,8 +106,9 @@ site_data <- lapply(sites, function(x){
     vars[[i]] <- neon_data_all
   }
   names(vars) <- dp[,name]
-  return(vars)
-})
+  # return(vars)
+}
+)
 names(site_data)
 
 
