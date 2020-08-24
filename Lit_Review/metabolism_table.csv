@@ -1,14 +1,12 @@
 trait,symbol,units,response,forest type(s),reference(s)
 stomatal conductance,$g_s$,,sun > shade,tropical,Slot et al. 2019
 T of peak net stomatal conductance,$T_{opt}$ of $g_s$,$^\circ$C,,,
-,,,,,
+frequency of stomatal closure,,,increases with height,tropical,Roberts et al. 1990
 light-saturated net photosynthesis ,$A_{sat}$,,sun > shade,tropical,Slot et al. 2019
 ,,,,,
+thermal damage threshold,$T_{50}$,$^\circ$C,sun $\ge$ shade,tropical,Slot et al. 2019
 light compensation point,$LCP$,,sun > shade,tropical,Slot et al. 2019
-,,,,,
 dark respiration at reference T,$R_{dark} (T_{ref})$,,sun > shade,tropical,Slot et al. 2019
 ,,,sun > shade,temperate,Bolstad et al. 1999
 dark respiration,$R_{dark}$,,sun > shade,temperate,Bolstad et al. 1999
 temperature sensitivity of $R_{dark}$,$Q_{10}$,,sun $\ge$ shade,temperate,Bolstad et al. 1999
-,,,,,
-thermal damage threshold,$T_{50}$,$^\circ$C,sun $\ge$ shade,tropical,Slot et al. 2019

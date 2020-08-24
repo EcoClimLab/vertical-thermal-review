@@ -47,8 +47,7 @@ kable(metabolism_table, caption = "Table 2. (metabolism review)", format = "late
   column_spec(6, width = "4cm") %>%
   pack_rows("Stomatal conductance", 1, 3, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
   pack_rows("Photosynthesis", 4, 7, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
-  pack_rows("Respiration", 8, 12, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
-  pack_rows("Thermal tolerance", 13, 13, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
+  pack_rows("Respiration", 8, 11, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
   kable_styling(latex_options = c("scale_down", "hold_position"), protect_latex = T) 
   #NOTE: REFERENCES for this table need to go in the nocite section of header in the main doc!!!
 ```
