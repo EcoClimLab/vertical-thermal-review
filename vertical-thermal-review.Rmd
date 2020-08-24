@@ -12,9 +12,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Title:** Thermal sensitivity of canopy versus understory leaves: patterns, mechanisms, and ecological implications
 
-**Authors (so far):** 
+**Authors (so far, not necessarily in final order):** 
 Nidhi Vinod^1^
 Martijn Slot^2^
+Ian McGregor
+Elsa Ordway
+Marielle Smith
+Tyeen Taylor
 Kristina J. Anderson-Teixeira^1,2^* 
 
 
