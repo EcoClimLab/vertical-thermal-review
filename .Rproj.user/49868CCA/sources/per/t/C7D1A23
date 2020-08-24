@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1598188126999.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2528290962",
+    "id" : "C7D1A23",
+    "lastKnownWriteTime" : 1598228824,
+    "last_content_update" : 1598228822463,
+    "path" : "E:/Github_SCBI/vertical-thermal-review/scripts/new.R",
+    "project_path" : "scripts/new.R",
+    "properties" : {
+        "cursorPosition" : "10,11",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

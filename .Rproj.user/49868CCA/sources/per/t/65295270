@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1598198340682.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "65295270",
+    "lastKnownWriteTime" : 140698833649664,
+    "last_content_update" : 1598198340682,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "18C62170",
+        "caption" : "neon_data",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=neon_data&cache_key=18C62170",
+        "displayedObservations" : 89040,
+        "environment" : "",
+        "expression" : "neon_data",
+        "object" : "neon_data",
+        "preview" : 0,
+        "totalObservations" : 89040,
+        "variables" : 3
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
