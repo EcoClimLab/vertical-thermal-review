@@ -8,6 +8,9 @@ thermal damage threshold,$T_{50}$,$^\circ$C,sun $\ge$ shade,tropical,Slot et al.
 ,,,decreases with height*,savanna,"Curtis et. al, 2018"
 light compensation point,$LCP$,,sun > shade,tropical,Slot et al. 2019
 dark respiration at reference T,$R_{dark} (T_{ref})$,,sun > shade,tropical,Slot et al. 2019
-,,,sun > shade,temperate,Bolstad et al. 1999
-dark respiration,$R_{dark}$,,sun > shade,temperate,Bolstad et al. 1999
-temperature sensitivity of $R_{dark}$,$Q_{10}$,,sun $\ge$ shade,temperate,Bolstad et al. 1999
+,,$\mu$mol (kg leaf)$^{-1}$ s$^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
+,,$\mu$mol (m leaf)$^{-2}$ s$^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
+,,$\mu$mol (kg N)$^{-1}$ s$^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
+temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,sun $\le$ shade,temperate,Bolstad et al. 1999
+,,,,,
+(isoprenes),,,,,

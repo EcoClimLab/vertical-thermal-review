@@ -132,7 +132,8 @@ The strength of buffering also varies with respect to geographic and climatic fa
 **Many traits vary with height and/or between sun and shade leaves on the same species (Table 1).**
 Here, we focus on traits that are important for shaping leaf temperature ($T_{leaf}$) and thermal sensitivity.
 
-**Table 1. Summary of observed variation in thermally-relevant leaf traits with canopy height and/or between sun and shade leaves** ([*GitHub issue #9*](https://github.com/EcoClimLab/vertical-thermal-review/issues/9))
+![(*For latest version of table, see tables.pdf.*)](table1.png)
+
 
 
 Are traits shaped more by height or light?
@@ -191,7 +192,13 @@ Sun leaves can also be  cooled relative to $T_{air}$ more than shade leaves (Rey
 Leaf metabolism is strongly shaped by leaf temperature, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. 1). 
 However, as we detail below, there are limited studies comparing thermal responses of sun and shade leaves (Table 2).
 
-**Table 2. Summary of observed variation in leaf metabolism and thermal responses across the vertical gradient and/or between sun and shade leaves** ([*GitHub issue #9*](https://github.com/EcoClimLab/vertical-thermal-review/issues/9))
+![(*For latest version of table, see tables.pdf.*)](table2.png)
+
+
+*Stomatal conductance*
+
+
+*Photosynthesis*
 
 **Photosynthesis is generally higher in sun leaves-- a fact that is well-established (REFS) and observed in numerous field studies.**
 This is primarily driven by the greater light available to sun leaves.
@@ -204,22 +211,6 @@ However, this does not appear to be the case based on the limited number of fiel
 For 3 species in Panama, (Slot et al. 2019) found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant.
 Mau et al. found no trend along a height gradient in Puerto Rico, and no significant trend in temperate trees (Mau et al. 2018).
 
-
-**Similar to photosynthesis, respiration tends to higher in sun leaves, but its temperature sensitivity appears to be similar between between sun and shade leaves.**
-(Bolstad et al. 1999) did a study at Coweeta, including elev gradient. Found 
-higher respiration (at reference T) in canopy leaves (@bolstad_foliar_1999). (*Martijn has some unpublished data on this that we might include: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
-At Coweeta, Q10 showed a variable pattern, with a slight tendency to increase down the canopy [@bolstad_foliar_1999]. (*Martijn has some unpublished data on this that we might include.unpublished data showing higher Q10 in shade than in sun leaves for 10 species or so. May make sense to include here: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
-Combining reference respiration and $Q_{10}$, @bolstad_foliar_1999 found  a modest net decrease in R for understory leaves relative to canopy leaves as T increases (*see their Fig. 1*).
-Thus, @bolstad_foliar_1999 found evidence of acclimation, but there remained a declining trend of respiration with elevation.
-
-
-**VOC production**
-
-**Isoprene production**
-- high emission rates occur in the mid-canopy, and even from very small statured trees and shrubs, at a site in the Brazilian Amazon (Taylor et al., in prep).
-- The high temperature carbon compensation point of sun leaves is higher in isoprene emitting species than in non-emitting species, so it is to be expected that other aspects of heat tolerance will be similarly affected by isoprenes (https://doi.org/10.1111/pce.13564).
--  Within species, isporene production scales with light/ T
-
 **Leaf thermal tolerance (Tcrit/ T50)**
 - define.
 Typical values ~45-50$^\circ$C, varying somewhat 
@@ -231,6 +222,24 @@ with leaf traits [Sastry et al. 2018, @zhang_photosynthetic_2012].
 For two of three species studied in a tropical moist forest in Panama, $T_{50}$ was slightly lower for shade than sun-exposed leaves, both measured near ground level (Slot et al. 2019). 
 Similarly, for *Acacia Papyrocarpa* (Benth.) trees in an arid region of southern Australia, higher $T_{50}$ was observed in more exposed (North-facing) canopy positions (Curtis et al. 2019). 
 We're not aware of any other studies on this.
+
+*Respiration*
+
+**Similar to photosynthesis, respiration tends to higher in sun leaves, but its temperature sensitivity appears to be similar between between sun and shade leaves.**
+(Bolstad et al. 1999) did a study at Coweeta, including elev gradient. 
+Found higher respiration (at reference T) in canopy leaves (@bolstad_foliar_1999). (*Martijn has some unpublished data on this that we might include: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
+At Coweeta, Q10 showed a variable pattern, with a slight tendency to increase down the canopy [@bolstad_foliar_1999]. (*Martijn has some unpublished data on this that we might include.unpublished data showing higher Q10 in shade than in sun leaves for 10 species or so. May make sense to include here: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
+Combining reference respiration and $Q_{10}$, @bolstad_foliar_1999 found  a modest net decrease in R for understory leaves relative to canopy leaves as T increases (*see their Fig. 1*).
+Thus, @bolstad_foliar_1999 found evidence of acclimation, but there remained a declining trend of respiration with elevation.
+
+
+*VOC production*
+
+**Isoprene production**
+- high emission rates occur in the mid-canopy, and even from very small statured trees and shrubs, at a site in the Brazilian Amazon (Taylor et al., in prep).
+- The high temperature carbon compensation point of sun leaves is higher in isoprene emitting species than in non-emitting species, so it is to be expected that other aspects of heat tolerance will be similarly affected by isoprenes (https://doi.org/10.1111/pce.13564).
+-  Within species, isporene production scales with light/ T
+
 
 
 ## Ecology
@@ -259,6 +268,7 @@ It is also possible that competition is accelerated under warmer temperatures.
 
 
 ![**Figure 4. Temperature sensitivity of tree growth for understory versus canopy trees.** Analysis methods described in Appendix S3. Data from Helcoski et al. 2019.](SCBI_tree_rings/SCBIfig.png)
+
 ## Implications for Modeling / Scaling
 
 
