@@ -25,26 +25,29 @@ library(ggplot2)
 #the function "loadByProduct" will load the data into R and collapse into one df (within a list).
 #it will not download/store anything on the computer, but working with large dfs will run slowly. Hence, it is a good idea to look at the 30min avg first.
 
-dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT"),
+dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR", "SLRNR"),
                  id = c("DP1.00001.001", "DP1.00098.001",
-                        "DP1.00002.001", "DP1.00005.001"),
+                        "DP1.00002.001", "DP1.00005.001",
+                        "DP1.00024.001", "DP1.00023.001"),
                  name = c("windSpeedMean", "RHMean",
-                           "tempSingleMean", "bioTempMean"),
+                          "tempSingleMean", "bioTempMean",
+                          "PARMean", "SWIR"),
                  xlabs = c("Wind speed [m/s]", "RH [%]",
                            "Mean Air Temperature [°C]", 
-                           "Mean Infrared Biological Temperature [°C]"))
+                           "Mean Infrared Biological Temperature [°C]",
+                           "Photosynthetic Active Radiation",
+                           "Shortwave and longwave radiation"))
 
 date <- data.table("year" = c(rep(2016, 2), rep(2017, 2), 
                               rep(2018, 2), rep(2019, 2),
                               rep(2020, 2)),
                    "month" = c(rep(c(1,7), 5)))
 
-date <- data.table("year" = c(rep(2019, 2)),
-                   "month" = c(rep(c(1,7), 1)))
+# date <- data.table("year" = c(rep(2019, 2)),
+#                    "month" = c(rep(c(1,7), 1)))
 
 years <- c("2016", "2017", "2018", "2019", "2020")
 
-years <- c("2019")
 
 #2. Loop through and download data ####
 alldt <- list()
@@ -66,14 +69,14 @@ for(k in seq(along=sites)){
                       site=k,
                       package="basic", 
                       check.size = FALSE, avg=30,
-                      nCores = 2,
-                      startdate=paste0(date[,year][j], "-0", 
-                                       date[,month][j]),
-                      enddate = paste0(date[,year][j], "-0", 
-                                       date[,month][j])
+                      nCores = 2
+                      # startdate=paste0(date[,year][j], "-0",
+                      #                  date[,month][j]),
+                      # enddate = paste0(date[,year][j], "-0",
+                      #                  date[,month][j])
                       #(use TRUE outside loop to see 
                       #how big the dowloads are)
-                      )
+        )
       
       neon_data <- neon_tower[grepl(dp[,data][i], names(neon_tower))]
       neon_data <- as.data.table(neon_data)
@@ -96,10 +99,7 @@ for(k in seq(along=sites)){
       
       #filter neon_data and add day column
       neon_data <- neon_data[month(startDateTime) %in% c(1,7), 
-                             .(verticalPosition, 
-                                 startDateTime, 
-                                 get(dp[,name][i]))]
-      names(neon_data)[3] <- dp[,name][i]
+                             verticalPosition := as.numeric(verticalPosition)]
       
       neon_data_all <- rbind(neon_data_all, neon_data)
     } 
@@ -112,114 +112,114 @@ for(k in seq(along=sites)){
 names(site_data)
 
 
-  [, day := substr(startDateTime, 1, 10)]
-  
-  #the 10m air temperature values are completely off, and stop at 19 May 2018. The sensor is broken and hasn't been fixed
-  if (value == "tempSingleMean"){
-    neon_data_all$tempSingleMean <- 
-      ifelse(neon_data_all$verticalPosition == 10 & 
-               grepl("2018", neon_data_all$day), NA, 
-               neon_data_all$tempSingleMean)
-  }
-  
-  #put full df in list to run anova later
-  alldt[[i]] <- neon_data_all
-  
-  #get mean of values per month per verticalPosition
-  data_analy <- neon_data_all %>% 
-    group_by(day, verticalPosition) %>% 
-    summarize(test_max = max(get(value), na.rm=TRUE),
-              test_min = min(get(value), na.rm=TRUE))
-  
-  data_analy$test_max <- ifelse(grepl("Inf", data_analy$test_max), NA, data_analy$test_max)
-  data_analy$test_min <- ifelse(grepl("Inf", data_analy$test_min), NA, data_analy$test_min)
-  
-  data_analy$month <- NA
-  data_analy$month <- 
-    ifelse(grepl(paste0(years[[1]], "-05"), data_analy$day) |
-             grepl(paste0(years[[2]], "-05"), data_analy$day), "May",
-    ifelse(grepl(paste0(years[[1]], "-06"), data_analy$day) |
-             grepl(paste0(years[[2]], "-06"), data_analy$day), "June",
-    ifelse(grepl(paste0(years[[1]], "-07"), data_analy$day) |
-             grepl(paste0(years[[2]], "-07"), data_analy$day), "July", 
-                         "August")))
-  
-  #get rid of random days that aren't full dates
-  data_analy <- data_analy[grepl(".{10}", data_analy$day), ]
-  
-  data_analy <- data_analy %>%
-    group_by(month, verticalPosition) %>%
-    summarize(mmax = mean(test_max, na.rm=TRUE),
-              mmin = mean(test_min, na.rm=TRUE),
-              sd_max = sd(test_max, na.rm=TRUE),
-              sd_min = sd(test_min, na.rm=TRUE))
-              # quant_95 = quantile(test_max, c(0.95), na.rm=TRUE),
-              # quant_05 = quantile(test_min, c(0.05), na.rm=TRUE))
-  
-  #base ggplot, all months on same graph
-  data_analy$month_f <- factor(data_analy$month, levels=c("May", "June", "July", "August"))
-  
-  #CORRECT HEIGHTS (according to tower dimensions, not downloaded data)
-  data_analy$verticalPosition <-
-    ifelse(data_analy$verticalPosition == 10, 5.8,
-    ifelse(data_analy$verticalPosition == 20, 19.2,
-    ifelse(data_analy$verticalPosition == 30, 26,
-    ifelse(data_analy$verticalPosition == 40, 32.9,
-    ifelse(data_analy$verticalPosition == 50, 38,
-    ifelse(data_analy$verticalPosition == 60, 51.8,
-           data_analy$verticalPosition))))))
-  
-  data_analy$vertPos_jitter <- NA
-  
-  if(!i == 2){
-    data_analy$vertPos_jitter <- 
-      ifelse(data_analy$month == "May", data_analy$verticalPosition + 0.05,
-       ifelse(data_analy$month == "June", data_analy$verticalPosition + 0.25,
-       ifelse(data_analy$month == "July", data_analy$verticalPosition + 0.5,
-                                          data_analy$verticalPosition + 0.75)))
-  } else {
-    data_analy$vertPos_jitter <- 
-      ifelse(data_analy$month == "May" & data_analy$verticalPosition == 0, 
-             data_analy$verticalPosition + 0.05,
-      ifelse(data_analy$month == "June" & data_analy$verticalPosition == 0,
-              data_analy$verticalPosition + 0.25,
-      ifelse(data_analy$month == "July" & data_analy$verticalPosition == 0,
-             data_analy$verticalPosition + 0.5,
-      ifelse(data_analy$month == "August" & data_analy$verticalPosition == 0,
-             data_analy$verticalPosition + 0.75,
-      
-      ifelse(data_analy$month == "May" & data_analy$verticalPosition == 60, 
-             data_analy$verticalPosition - 0.75,
-      ifelse(data_analy$month == "June" & data_analy$verticalPosition == 60,
-                    data_analy$verticalPosition - 0.5,
-      ifelse(data_analy$month == "July" & data_analy$verticalPosition == 60,
-                           data_analy$verticalPosition - 0.25,
-                                  data_analy$verticalPosition - 0.05)))))))
-  }
-  
-  ##make plots and save to list
-  plotlist[[i]] <- local({
-    i <- i
+[, day := substr(startDateTime, 1, 10)]
+
+#the 10m air temperature values are completely off, and stop at 19 May 2018. The sensor is broken and hasn't been fixed
+if (value == "tempSingleMean"){
+  neon_data_all$tempSingleMean <- 
+    ifelse(neon_data_all$verticalPosition == 10 & 
+             grepl("2018", neon_data_all$day), NA, 
+           neon_data_all$tempSingleMean)
+}
+
+#put full df in list to run anova later
+alldt[[i]] <- neon_data_all
+
+#get mean of values per month per verticalPosition
+data_analy <- neon_data_all %>% 
+  group_by(day, verticalPosition) %>% 
+  summarize(test_max = max(get(value), na.rm=TRUE),
+            test_min = min(get(value), na.rm=TRUE))
+
+data_analy$test_max <- ifelse(grepl("Inf", data_analy$test_max), NA, data_analy$test_max)
+data_analy$test_min <- ifelse(grepl("Inf", data_analy$test_min), NA, data_analy$test_min)
+
+data_analy$month <- NA
+data_analy$month <- 
+  ifelse(grepl(paste0(years[[1]], "-05"), data_analy$day) |
+           grepl(paste0(years[[2]], "-05"), data_analy$day), "May",
+         ifelse(grepl(paste0(years[[1]], "-06"), data_analy$day) |
+                  grepl(paste0(years[[2]], "-06"), data_analy$day), "June",
+                ifelse(grepl(paste0(years[[1]], "-07"), data_analy$day) |
+                         grepl(paste0(years[[2]], "-07"), data_analy$day), "July", 
+                       "August")))
+
+#get rid of random days that aren't full dates
+data_analy <- data_analy[grepl(".{10}", data_analy$day), ]
+
+data_analy <- data_analy %>%
+  group_by(month, verticalPosition) %>%
+  summarize(mmax = mean(test_max, na.rm=TRUE),
+            mmin = mean(test_min, na.rm=TRUE),
+            sd_max = sd(test_max, na.rm=TRUE),
+            sd_min = sd(test_min, na.rm=TRUE))
+# quant_95 = quantile(test_max, c(0.95), na.rm=TRUE),
+# quant_05 = quantile(test_min, c(0.05), na.rm=TRUE))
+
+#base ggplot, all months on same graph
+data_analy$month_f <- factor(data_analy$month, levels=c("May", "June", "July", "August"))
+
+#CORRECT HEIGHTS (according to tower dimensions, not downloaded data)
+data_analy$verticalPosition <-
+  ifelse(data_analy$verticalPosition == 10, 5.8,
+         ifelse(data_analy$verticalPosition == 20, 19.2,
+                ifelse(data_analy$verticalPosition == 30, 26,
+                       ifelse(data_analy$verticalPosition == 40, 32.9,
+                              ifelse(data_analy$verticalPosition == 50, 38,
+                                     ifelse(data_analy$verticalPosition == 60, 51.8,
+                                            data_analy$verticalPosition))))))
+
+data_analy$vertPos_jitter <- NA
+
+if(!i == 2){
+  data_analy$vertPos_jitter <- 
+    ifelse(data_analy$month == "May", data_analy$verticalPosition + 0.05,
+           ifelse(data_analy$month == "June", data_analy$verticalPosition + 0.25,
+                  ifelse(data_analy$month == "July", data_analy$verticalPosition + 0.5,
+                         data_analy$verticalPosition + 0.75)))
+} else {
+  data_analy$vertPos_jitter <- 
+    ifelse(data_analy$month == "May" & data_analy$verticalPosition == 0, 
+           data_analy$verticalPosition + 0.05,
+           ifelse(data_analy$month == "June" & data_analy$verticalPosition == 0,
+                  data_analy$verticalPosition + 0.25,
+                  ifelse(data_analy$month == "July" & data_analy$verticalPosition == 0,
+                         data_analy$verticalPosition + 0.5,
+                         ifelse(data_analy$month == "August" & data_analy$verticalPosition == 0,
+                                data_analy$verticalPosition + 0.75,
+                                
+                                ifelse(data_analy$month == "May" & data_analy$verticalPosition == 60, 
+                                       data_analy$verticalPosition - 0.75,
+                                       ifelse(data_analy$month == "June" & data_analy$verticalPosition == 60,
+                                              data_analy$verticalPosition - 0.5,
+                                              ifelse(data_analy$month == "July" & data_analy$verticalPosition == 60,
+                                                     data_analy$verticalPosition - 0.25,
+                                                     data_analy$verticalPosition - 0.05)))))))
+}
+
+##make plots and save to list
+plotlist[[i]] <- local({
+  i <- i
   graph <-
     data_analy %>%
-      arrange(verticalPosition) %>%
-      ggplot() +
-      scale_color_manual(values = c("darkorange", "red", "darkgreen", "blue"), 
-                         name = "Month") +
-      geom_point(aes(x = mmax, y = vertPos_jitter, color = month_f), 
-                 shape=19, position = "jitter") +
-      geom_point(aes(x = mmin, y = vertPos_jitter, color = month_f), 
-                 shape=17, position = "jitter") +
-      geom_path(aes(x = mmax, y = vertPos_jitter, color = month_f, 
-                    linetype = "Max"), size = 1) +
-      geom_path(aes(x = mmin, y = vertPos_jitter, color = month_f, 
-                    linetype = "Min"), size = 1) +
-      ggplot2::geom_errorbarh(aes(xmin=mmax-sd_min, xmax=mmax+sd_max, y=vertPos_jitter, color = month_f, linetype = "Max", height=0.8)) +
-      ggplot2::geom_errorbarh(aes(xmin=mmin-sd_min, xmax=mmin+sd_max, y=vertPos_jitter, color = month_f, linetype = "Min", height=0.8)) +
-      labs(x = dp$xlabs[[i]], y = "Height [m]") +
-      scale_y_continuous(breaks = scales::pretty_breaks(n = 6), limits=c(0,60)) +
-      theme_bw() +
-      guides(linetype = guide_legend("Line type"))
+    arrange(verticalPosition) %>%
+    ggplot() +
+    scale_color_manual(values = c("darkorange", "red", "darkgreen", "blue"), 
+                       name = "Month") +
+    geom_point(aes(x = mmax, y = vertPos_jitter, color = month_f), 
+               shape=19, position = "jitter") +
+    geom_point(aes(x = mmin, y = vertPos_jitter, color = month_f), 
+               shape=17, position = "jitter") +
+    geom_path(aes(x = mmax, y = vertPos_jitter, color = month_f, 
+                  linetype = "Max"), size = 1) +
+    geom_path(aes(x = mmin, y = vertPos_jitter, color = month_f, 
+                  linetype = "Min"), size = 1) +
+    ggplot2::geom_errorbarh(aes(xmin=mmax-sd_min, xmax=mmax+sd_max, y=vertPos_jitter, color = month_f, linetype = "Max", height=0.8)) +
+    ggplot2::geom_errorbarh(aes(xmin=mmin-sd_min, xmax=mmin+sd_max, y=vertPos_jitter, color = month_f, linetype = "Min", height=0.8)) +
+    labs(x = dp$xlabs[[i]], y = "Height [m]") +
+    scale_y_continuous(breaks = scales::pretty_breaks(n = 6), limits=c(0,60)) +
+    theme_bw() +
+    guides(linetype = guide_legend("Line type"))
   
   if(i != 1){
     graph <- graph + theme(axis.title.y = element_blank(), axis.text.y=element_blank(), axis.ticks.y = element_blank())
@@ -249,7 +249,7 @@ names(site_data)
     assign(paste0(dp$data[[i]], "_plot"), graph)
   }
   print(graph)
-  })
+})
 }
 
 names(alldt) <- dp$value[1:3]
