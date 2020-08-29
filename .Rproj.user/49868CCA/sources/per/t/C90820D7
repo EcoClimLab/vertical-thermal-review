@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1598719270881.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2700068999",
+    "id" : "C90820D7",
+    "lastKnownWriteTime" : 1598739664,
+    "last_content_update" : 1598739664044,
+    "path" : "E:/Github_SCBI/vertical-thermal-review/scripts/get_neon_data.R",
+    "project_path" : "scripts/get_neon_data.R",
+    "properties" : {
+        "cursorPosition" : "18,0",
+        "scrollLine" : "14",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
