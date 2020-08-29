@@ -1,0 +1,24 @@
+{
+    "id": "CE83E683",
+    "path": "/Volumes/Ian ICS/Github_SCBI/vertical-thermal-review/scripts/vertical_height_neon.R",
+    "project_path": "scripts/vertical_height_neon.R",
+    "type": "r_source",
+    "hash": "2097424873",
+    "contents": "",
+    "dirty": false,
+    "created": 1598309779511.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "cursorPosition": "71,32",
+        "scrollLine": "61"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1598314897,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1598314897294,
+    "read_only": false,
+    "read_only_alternatives": []
+}
