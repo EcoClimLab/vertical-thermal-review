@@ -1,0 +1,50 @@
+ /*SITE SPECIFIC CSS*/
+
+.featurePanel {
+	background-image: url(//academic.oup.com/data/sitebuilderassetsoriginals/images/bioscience/bioscience_feature_panel.jpg);
+}
+.featurePanel .featurePanelInner {
+	background: rgba(0, 0, 0, 0.6);
+}
+.featurePanel p {
+	color: #f6f6f6 !important;
+}
+.featurePanel h3 {
+	color: #f6f6f6 !important;
+}
+.featurePanel a {
+	color: #f6f6f6 !important;
+}
+.featurePanel a:hover {
+	color: #f6f6f6 !important;
+}
+.journal-bg {
+	background-color: #000000;
+}
+.journal-header .journal-logo {
+	width: 280px;
+}
+.journal-header .society-logo {
+	width: 210px;
+}
+.journal-footer.journal-bg {
+	background-color: #333333;
+}
+img.journal-footer-affiliations-logo {
+	width: 280px;
+}
+#cloudCMS .panels .widget-dynamic-title::after, #cloudCMS .panels .widgetHead h3::after, #cloudCMS .rowHead h3::after{
+	background-color: #000000;
+}
+#cloudCMS .row:nth-child(4):not(.relatedJournals) {
+	background-color: #000000;
+}
+#cloudCMS .row:nth-child(4):not(.relatedJournals) .rowHead h3 {
+	color: #ffffff;
+}
+#cloudCMS .row:nth-child(4):not(.relatedJournals) .rowHead h3::after {
+	background-color: #ffffff;
+}
+.society-links-logo img {
+	width: 250px;	
+}

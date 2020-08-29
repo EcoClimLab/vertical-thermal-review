@@ -1,0 +1,2190 @@
+
+We use cookies to enhance your experience on our website.By continuing to use our website, you are agreeing to our use of cookies. You can change your cookie settings at any time. Find out more Skip to Main Content
+Oxford University Press
+
+    Search Menu
+    Account Menu
+    Menu
+    Sign In
+    Register
+
+Navbar Search Filter This issue All Tree Physiology All Journals Mobile Microsite Search Term Search
+
+    Sign In
+    Register
+
+    Issues
+    More Content
+        Advance articles
+        Archive
+        Commentaries
+        Featured articles
+        Methods papers
+        Letters
+    Submit
+        Author Guidelines
+        Submission Site
+        Open Access
+    Purchase
+    Alerts
+    About
+        About Tree Physiology
+        Editorial Board
+        Advertising and Corporate Services
+        Journals Career Network
+        Self-Archiving Policy
+        Dispatch Dates
+        Terms and Conditions
+
+Tree Physiology
+
+    Issues
+    More Content
+        Advance articles
+        Archive
+        Commentaries
+        Featured articles
+        Methods papers
+        Letters
+    Submit
+        Author Guidelines
+        Submission Site
+        Open Access
+    Purchase
+    Alerts
+    About
+        About Tree Physiology
+        Editorial Board
+        Advertising and Corporate Services
+        Journals Career Network
+        Self-Archiving Policy
+        Dispatch Dates
+        Terms and Conditions
+
+Close
+search filter This issue All Tree Physiology All Journals search input Search
+Advanced Search
+Search Menu
+Article Navigation
+Close mobile search navigation
+Article Navigation
+Issue Cover
+Volume 34
+Issue 2
+February 2014
+Article Contents
+
+    Abstract
+    Introduction
+    Materials and methods
+    Results
+    Discussion
+    Conclusions and implications
+    Conflict of interest
+    Funding
+    Acknowledgments
+    References
+
+    < Previous
+    Next >
+
+Article Navigation
+Light drives vertical gradients of leaf morphology in a sugar maple ( Acer saccharum ) forest
+Adam P. Coble ,
+Adam P. Coble 1
+School of Forest Resources and Environmental Science, Michigan Technological University, U.J. Noblet Building, 1400 Townsend Dr, Houghton, MI 49931, USA
+1 Corresponding author ( apcoble@mtu.edu )
+Search for other works by this author on:
+Oxford Academic
+PubMed
+Google Scholar
+Molly A. Cavaleri
+Molly A. Cavaleri
+School of Forest Resources and Environmental Science, Michigan Technological University, U.J. Noblet Building, 1400 Townsend Dr, Houghton, MI 49931, USA
+Search for other works by this author on:
+Oxford Academic
+PubMed
+Google Scholar
+Tree Physiology , Volume 34, Issue 2, February 2014, Pages 146–158, https://doi.org/10.1093/treephys/tpt126
+Published:
+14 February 2014
+Article history
+Received:
+19 July 2013
+Accepted:
+20 December 2013
+Published:
+14 February 2014
+
+    pdf PDF
+    Split View
+    Views
+        Article contents
+        Figures & tables
+    Cite
+    Cite
+
+    Adam P. Coble, Molly A. Cavaleri, Light drives vertical gradients of leaf morphology in a sugar maple ( Acer saccharum ) forest, Tree Physiology , Volume 34, Issue 2, February 2014, Pages 146–158, https://doi.org/10.1093/treephys/tpt126
+    Select Format Download citation
+    Close
+    Permissions Icon Permissions
+    Share
+        Email
+        Twitter
+        Facebook
+        More
+
+Navbar Search Filter This issue All Tree Physiology All Journals Mobile Microsite Search Term Search
+
+    Sign In
+    Register
+
+Close
+search filter This issue All Tree Physiology All Journals search input Search
+Advanced Search
+Search Menu
+Abstract
+
+Leaf mass per area (LMA, g m −2 ) is an essential trait for modeling canopy function due to its strong association with photosynthesis, respiration and leaf nitrogen. Leaf mass per area, which is influenced by both leaf thickness and density (LMA = thickness × density), generally increases from the bottom to the top of tree canopies, yet the mechanisms behind this universal pattern are not yet resolved. For decades, the light environment was assumed to be the most influential driver of within-canopy variation in LMA, yet recent evidence has shown hydrostatic gradients to be more important in upper canopy positions, especially in tall evergreen trees in temperate and tropical forests. The aim of this study was to disentangle the importance of various environmental drivers on vertical LMA gradients in a mature sugar maple ( Acer saccharum Marshall) forest. We compared LMA, leaf density and leaf thickness relationships with height, light and predawn leaf water potential ( Ψ Pre ) within a closed and an exposed canopy to assess leaf morphological traits at similar heights but different light conditions. Contrary to our expectations and recent findings in the literature, we found strong evidence that light was the primary driver of vertical gradients in leaf morphology. At similar heights (13–23 m), LMA was greater within the exposed canopy than the closed canopy, and light had a stronger influence over LMA compared with Ψ Pre . Light also had a stronger influence over both leaf thickness and density compared with Ψ Pre ; however, the increase in LMA within both canopy types was primarily due to increasing leaf thickness with increasing light availability. This study provides strong evidence that canopy structure and crown exposure, in addition to height, should be considered as a parameter for determining vertical patterns in LMA and modeling canopy function.
+Issue Section:
+Research Papers
+Introduction
+
+The physiological function of leaves is strongly related to leaf morphological traits. Leaf mass per area (LMA, g m −2 ), in particular, is correlated with photosynthetic capacity, respiration and leaf nitrogen, and reflects overall leaf investment strategies of plants ( Reich et al. 1997 , Wright et al. 2004 ). Canopy process models that predict the forest response of carbon and water budgets to short- and long-term changes in environmental conditions use within-canopy patterns of LMA to describe three-dimensional representations of canopy structure and function ( Hanson et al. 2004 , Medlyn 2004 ). From landscape to global spatial scales, LMA is used as a model parameter for estimating global gross primary productivity and evapotranspiration ( Ryu et al. 2011 ). At the global scale, LMA is also useful for converting nitrogen on a mass basis to nitrogen on an area basis in numerous models ( Schulze et al. 1994 , Wright et al. 2004 , Ryu et al. 2011 ). Due to its ubiquity as an input parameter in vegetation dynamics models, LMA represents a powerful linkage between scales in hierarchical model analyses of carbon, nutrients and water fluxes through forests.
+
+Leaf mass per area increases with height within tree canopies, but the mechanisms are not yet resolved ( Hutchison et al. 1986 , Hollinger 1989 , Ellsworth and Reich 1993 , Bond et al. 1999 , Koch et al. 2004 , Ishii et al. 2008 , Cavaleri et al. 2010 ). In early experiments on small plants, leaves exposed to greater light intensity were thicker as a result of a thicker palisade mesophyll cell layer ( Nobel et al. 1975 , Boardman 1977 , Nobel 1977 , Smith and Nobel 1978 , Chabot et al. 1979 ). In many canopy studies, vertical light gradients in canopies have been implicated as a primary driver for increasing LMA with height ( Hutchison et al. 1986 , Hollinger 1989 , Ellsworth and Reich 1993 , Niinemets 1997 , Bond et al. 1999 , Niinemets et al. 1999 , 2001 ). Experimental studies that manipulated canopy light environments provided further evidence of adjustments in LMA in response to the light environment ( Brooks et al. 1994 , Jones and Thomas 2007 , Ishii and Ohsugi 2011 ).
+
+Recent studies, however, have attributed the LMA–height gradient to increasing xylem tension with height in tall trees ( Marshall and Monserud 2003 , Koch et al. 2004 , Ishii et al. 2008 , Cavaleri et al. 2010 ). Decreasing water potential with height imposes constraints on leaf turgor pressure ( Woodruff et al. 2004 , Meinzer et al. 2008 ), a requirement for leaf cell expansion and division. Reduced turgor pressure could result in smaller, denser leaves with densely packed cells, and subsequently, greater LMA ( Hsiao 1973 ). This mechanism has been suggested for leaves at the tops of tall trees where water must be transported across long distances prior to reaching the upper canopy, whereas LMA lower in the canopy has been found to be primarily limited by light ( Koch et al. 2004 , Woodruff et al. 2004 , Ishii et al. 2008 , Cavaleri et al. 2010 ). More recent field observations and experimental studies of leaf morphological and anatomical traits of Robinia pseudoacacia L. and Sequoia sempervirens (Lamb. ex D. Don) Endl. provide further evidence that vertical gradients in water potential limit leaf expansion, and therefore LMA ( Oldham et al. 2010 , Zhang et al. 2011 a , 2011 b , 2011 c ).
+
+Factors that dictate vertical gradients in leaf morphology such as light and water stress may be mediated by forest type, tree height and canopy structure. In temperate needle-leaved forests ( Koch et al. 2004 , Ishii et al. 2008 ), temperate and tropical broadleaved evergreen forests ( England and Attiwill 2006 , Cavaleri et al. 2010 , Coble et al. 2014 ), and temperate deciduous trees ( Zhang et al. 2011 c ), vertical gradients in leaf morphology have been attributed to hydrostatic constraints on leaf development. Constraints on leaf development via water stress were most apparent in very tall trees such as S. sempervirens ( Koch et al. 2004 , Ishii et al. 2008 ); however, light and exposure have been suggested to be more influential than hydrostatic constraints in other temperate deciduous tree species ( Ellsworth and Reich 1993 , Sack et al. 2006 ). For example, leaves growing on the exterior of the crown of open-grown trees for many temperate deciduous species have significantly greater LMA compared with leaves growing in the interior portions of the crown ( Sack et al. 2006 ). Also, stands that are more open (i.e., greater light availability at the forest floor) tend to have more gradual increases in LMA with height compared with closed-canopy conditions, which suggests that canopy structure and crown exposure may determine the limiting factors in leaf development such as light or water ( Burgess and Dawson 2007 ).
+
+Two components of LMA, leaf thickness and density (LMA = thickness × density), have been found to respond independently to environmental conditions and influence mass and area-based photosynthetic capacity ( Witkowski and Lamont 1991 , Niinemets 1999 ). Leaf thickness is a result of the number of layers and length of palisade cells, and is largely assumed to be controlled by light conditions ( Nobel 1977 , Smith and Nobel 1978 , Chabot et al. 1979 ). In contrast, leaf density is a result of cell wall thickness, cell size and the amount of air space between cells, which is likely dictated by rates of cell expansion and division ( Hsiao 1973 , Witkowski and Lamont 1991 ). Consequently, structural adjustments at the cellular level, as indicated by leaf density, exert control over cell wall elasticity, an important factor associated with a plant's ability to tolerate water stress ( Niinemets 2001 ). Due to their potential for independent responses to light and water stress, thickness and density are promising traits that may help tease apart the effects of light and water stress on LMA in tree canopies.
+
+We investigated the primary environmental drivers of vertical patterns in leaf morphology in a mature sugar maple ( Acer saccharum Marshall) forest in Upper Peninsula, Michigan, within an exposed canopy and a closed canopy. This allowed for comparisons of leaf morphology at different levels of light availability but similar heights within the canopy. Previous investigations of mechanisms associated with vertical leaf morphological gradients in temperate deciduous forests did not analyze leaf water potential and have primarily focused on canopy light conditions ( Hutchison et al. 1986 , Hollinger 1989 , Ellsworth and Reich 1993 , Niinemets et al. 1999 ). However, there is increasing evidence that the water potential gradient may be more influential in determining leaf morphology, primarily in upper canopy positions. Furthermore, sugar maple is sensitive to change in water status, as evident by the lack of osmotic adjustment and concomitant declines in turgor pressure with decreasing leaf water potential during dry conditions ( Bahari et al. 1985 , Abrams 1988 , Ellsworth and Reich 1992 , Kubiske and Abrams 1994 ). We tested the following hypotheses:
+
+    Predawn water potential ( Ψ Pre ) has a stronger influence over LMA compared with the light environment.
+
+    The response of foliar morphology to light availability is constrained by water relations in the upper canopy and by light availability in the lower canopy.
+
+    The two components of LMA respond independently to different environmental gradients, such that changes in leaf thickness primarily correspond to variation in light availability, whereas leaf density primarily responds to water stress.
+
+Materials and methods
+Study site and sampling design
+
+The study was conducted at an ‘uncut control’ stand that is part of a study area divided into nine silvicultural experimental trials at the Michigan Technological University Ford Forestry Center near Alberta, MI, USA (46.65°N, 88.48°W). The mean annual temperature and precipitation in this region were 4.9 °C and 879 mm, respectively ( Burton et al. 2012 ). The uncut control consisted primarily of sugar maple ( A. saccharum ) but also includes Ulmus americana L., Tilia americana L., Betula alleghaniensis Britton and Ostrya virginiana (Mill.) K. Koch. This forest has had several historical disturbances, including at least two heavy cutovers between 1850 and 1900, fire circa 1910 and a high-grade harvest in 1938. Following the high-grade harvest in 1938, no trees have been cut or removed from the uncut control stand except for U. americana trees in the 1980s as part of a sanitation cut ( Campione et al. 2012 ). The soils in the area are classified as Alouez gravelly coarse sandy loams. In 2009, the mean height of the stand was 23.0 m and the mean height to live crown was 13.8 m. From 1956 through 1988, the basal area per acre was 24–31 m 2  ha −1 and the density was 297–309 trees ha −1 ( Erickson et al. 1990 ). In 2009, the basal area was 33 m 2  ha −1 and the density was 264 trees ha −1 .
+
+At the uncut control stand, three horizontal steel cable zip-lines were installed 15 m above the ground. The three zip-lines were anchored to three ‘node’ trees 21–26 m apart, allowing canopy access at and below the cables (Figure 1 ). Two to three vertical transects were designated to each zip-line, and six to 21 sampling locations (dependent on the number of accessible branches) were assigned to each transect. This allowed sampling from the same location throughout the collection period. One to five trees were accessible along transects below the zip-lines. At each cable, Tandem Cable pulleys (Petzl, Crolles, France) were installed on the zip-line and linked with two steel carabiners. A static climbing rope was knotted to the steel carabiners and was used for climbing with an ascender and belay device. An additional rope was attached to the tandem pulley, threaded through a single pulley attached to the node tree, and was accessible at the ground. This system allowed the climber to be moved along a two-dimensional plane below each cable through the canopy by a person from the ground. Arborist-style climbing techniques were used to access the canopy above 15 m up to 30 m for the three node trees and a nearby dominant tree next to the zip-line system. To sample from seedlings and saplings (sample heights ranging from 0.6 to 1.9 m), we established a horizontal transect on the ground through the middle of the zip-line system (Figure 1 ) and selected seedling or sapling leaves located closest to each 2-m interval along the transect. We constructed a 19-m mobile aluminum walk-up tower (Upright, Inc., Selma, CA, USA) 65 m north of the zip-line in the same stand (Figure 1 ), to access leaves exposed to greater light conditions at similar heights as the zip-line. Four trees were sampled from the tower, ranging from 13 to 24 m. The canopy opens considerably above ∼14 m where the upper canopy of the smaller trees and the southeast-, south- and southwest-facing portions of the crown of the largest tree are exposed to open sky. The tower and zip-line sites will be herein referred to as the ‘exposed canopy’ and ‘closed canopy’, respectively. Table 1 summarizes the number of sampling points, trees, mean tree height, and the range of tree heights within each canopy type. Sampling from more trees at multiple exposed canopies would have made for an ideal comparison; however, we were constrained by time and resources for dismantling and reconstructing the tower at multiple locations.
+Table 1.
+
+Number of sampling points and trees, mean tree height and tree height range by canopy type.
+Canopy type .  	Number of sampling points .  	Number of trees .  	Mean tree height (m) .  	Tree height range (m) . 
+Closed canopy  	131  	21  	12.2 ± 2.6  	0.6–34.7 
+Exposed canopy  	28  	4  	16.3 ± 2.5  	12.7–23.8 
+Canopy type .  	Number of sampling points .  	Number of trees .  	Mean tree height (m) .  	Tree height range (m) . 
+Closed canopy  	131  	21  	12.2 ± 2.6  	0.6–34.7 
+Exposed canopy  	28  	4  	16.3 ± 2.5  	12.7–23.8 
+Open in new tab
+Table 1.
+
+Number of sampling points and trees, mean tree height and tree height range by canopy type.
+Canopy type .  	Number of sampling points .  	Number of trees .  	Mean tree height (m) .  	Tree height range (m) . 
+Closed canopy  	131  	21  	12.2 ± 2.6  	0.6–34.7 
+Exposed canopy  	28  	4  	16.3 ± 2.5  	12.7–23.8 
+Canopy type .  	Number of sampling points .  	Number of trees .  	Mean tree height (m) .  	Tree height range (m) . 
+Closed canopy  	131  	21  	12.2 ± 2.6  	0.6–34.7 
+Exposed canopy  	28  	4  	16.3 ± 2.5  	12.7–23.8 
+Open in new tab
+Figure 1.
+Map of the study site that includes the zip-line system, tower, sampled trees and the sapling transect. The sampled trees were grouped into four height classes and were designated a symbol for each height class. The size of the symbols does not correspond to stem or crown diameter, and the distance from the zip-line to the tower is not drawn to scale.
+Open in new tab Download slide
+
+Map of the study site that includes the zip-line system, tower, sampled trees and the sapling transect. The sampled trees were grouped into four height classes and were designated a symbol for each height class. The size of the symbols does not correspond to stem or crown diameter, and the distance from the zip-line to the tower is not drawn to scale.
+Figure 1.
+Map of the study site that includes the zip-line system, tower, sampled trees and the sapling transect. The sampled trees were grouped into four height classes and were designated a symbol for each height class. The size of the symbols does not correspond to stem or crown diameter, and the distance from the zip-line to the tower is not drawn to scale.
+Open in new tab Download slide
+
+Map of the study site that includes the zip-line system, tower, sampled trees and the sapling transect. The sampled trees were grouped into four height classes and were designated a symbol for each height class. The size of the symbols does not correspond to stem or crown diameter, and the distance from the zip-line to the tower is not drawn to scale.
+
+Leaves were sampled from the end of May through mid-August 2012 at the zip-line sampling area (closed canopy) and from mid-August through late August 2012 at the tower (exposed canopy). We collected five leaves at each sampling location: two leaves were used for Ψ pre and morphological measurements (LMA, leaf density), two for morphological measurements only, and one for anatomical (leaf thickness) and morphological measurements. One of the five leaves collected at each sampling location for anatomical analysis was also used to determine relationships between leaf thickness, LMA and density. Individual leaves at each sampling point were collected by cutting near the base of the petiole, but leaves at the tops of trees were collected by cutting small branches with a telescoping pole-pruner because climbing to these leaves was physically impossible.
+Height and light measurements
+
+At each sampling location, height above the ground was measured using a tape measure, and the light environment or ‘canopy openness’ was measured as diffuse non-interceptance (DIFN %), the fraction of radiation that is transmitted through the canopy ( Norman and Welles 1983 ), using two plant canopy analyzers (LAI-2000 and LAI-2200, LI-COR, Inc., Lincoln, NE, USA). Studies have found that DIFN as measured by the LAI-2000 was strongly correlated with percent above-canopy photosynthetic photon flux density as measured by quantum sensors ( Machado and Reich 1999 ). Light measurements were made following sunrise until 1 h after sunrise or during overcast conditions. Below-canopy measurements were collected with the LAI-2200, while above-canopy measurements were simultaneously collected with the LAI-2000 mounted on a tripod at 30-s intervals in an open field ∼400 m from the site. Prior to and following the below-canopy measurements, we collected two to three light measurements with the LAI-2200 next to the LAI-2000 in order to calibrate open measurements collected by the LAI-2000. At each sampling point, we collected two light measurements, and used the average for all further analyses. We used a 180° view cap for all measurements to prevent climbing ropes and the tower from obstructing the view. Diffuse non-interceptance for each sampling point was estimated by matching open- and below-canopy readings closest in time using FV2200 software (LI-COR, Inc.). The FV2200 software also was used to adjust the open readings (LAI-2000) based on the two to three measurements collected with the LAI-2200 prior to and after below-canopy readings. We assumed a 100% DIFN for leaves collected at the tops of the trees (pole-pruner collection method) because light measurements using the LAI-2200 were not possible for these leaves.
+Leaf mass per area and density measurements
+
+Leaf mass per area and density measurements were made on all leaves that were collected in this study. Leaves were placed in a sealed plastic bag with a moist paper towel and temporarily stored in an ice chest. Leaves were scanned using a bench-top leaf area meter (Li-3100, LI-COR, Inc.) to estimate leaf surface area. Using Archimedes' principle, we derived leaf volume by immersing fresh leaves in a beaker of water placed on a balance. Each leaf was folded and clamped by a short straw with slits cut into the end. The straw was attached to an articulating stand with an iron base located on the lab bench next to the beaker and balance. The articulating stand was tapped and rotated to remove air bubbles trapped under the leaf. We wanted to capture the volume in substomatal chambers and intercellular air space but not the air bubbles attached to the outside of the leaf. Leaf volume was always adjusted to account for the volume of water displaced by the straw (0.03 cm 3 ), and the straw was inserted into the water at a consistent depth. Leaves were dried at 65 °C for 48 h and weighed to the nearest 0.1 mg. Leaf mass per area was calculated as leaf dry mass (g) divided by leaf area (m 2 ), and density was calculated as leaf dry mass (g) divided by leaf volume (cm 3 ).
+Leaf water potential
+
+Two of the five leaves were collected between 04 : 30 and 06 : 30 h for in situ measurements of Ψ Pre using a pressure chamber (PMS Instrument, Co., Corvallis, OR, USA). Leaves collected for Ψ Pre were cut near the base of the petiole, immediately placed in a sealed plastic bag with a moist paper towel and stored in an ice chest until measurements were taken. For leaves collected at the tops of trees with a telescoping pole-pruner, Ψ Pre measurements were taken from the woody tissue. It was not possible to cut at the base of the petiole with the telescoping pole fully extended. This method of collection occurred for 0.6% of leaf samples, whereas 99.4% of the leaf samples were cut at the base of the petiole. All leaf water potential measurements were made within 1 h of leaf collection. A pilot study found no significant differences in leaf water potential for leaves stored up to 75 min (one-way ANOVA, df = 14, F  = 0.872, P   = 0.513). After water potential measurements, leaves were stored at 2 °C until LMA and leaf densities were measured for each leaf in the lab as described above.
+Leaf thickness measurements
+
+For a subset of 76 leaves from the exposed canopy and closed canopy, a small section of leaf (∼16 × 8 mm) was cut from the right lobe of the leaves and placed in a formaldehyde–acetic acid–ethanol solution prior to volume, area and dry mass measurements. Each leaf section was cut into two or three equal-sized sections and embedded in paraffin. Using a microtome (Finesse 325, Thermo Shandon, Pittsburgh, PA, USA), leaf specimens in each block were exposed and each leaf section was cut at 5 μm perpendicular to the adaxial leaf surface. Three transverse cuts on the block were made to produce six to nine leaf transverse sections. Between each leaf section, 200 μm of the block were sliced off. Leaf transverse sections were placed on slides, stained with hematoxylin and eosin in an automatic stainer (Model Linistain GLX, Thermo Shandon), and covered with a coverslip. We collected 10 images at ×20 magnification from three leaf transverse sections per leaf and randomly selected one image per set of 10 images (three images per leaf). Using ImageJ software ( Schneider et al. 2012 ), we created a grid of lines on each image that produced five evenly spaced vertical lines that were randomly offset. We measured leaf thickness (15 measurements per leaf) at each of the vertical lines and averaged these measurements to obtain one thickness measurement per leaf for 76 leaves. Leaf thickness was measured by image analysis because the resolution achieved (10 −8  m) by this method was required for this study and was much greater than the resolution offered by digital calipers (10 −5  m).
+
+We could not measure Ψ Pre and thickness on the same leaves because there was evidence of damage to the anatomical structure of leaves that had experienced high pressures in the pressure chamber. To estimate the thickness for leaves where we also measured Ψ Pre , we developed a model for predicting leaf thickness using the parameters leaf density and LMA, all measured on the same leaf [thickness = 37.8 + 1.82(LMA) − 79.0(density); R 2  = 0.915, P   < 0.001]. Previous studies have estimated thickness by dividing LMA by density (LMA = thickness × density); however, the estimated thickness values using this approach were weakly correlated with thickness measurements using the microtome approach ( R 2  = 0.064, P   = 0.027, data not shown). Due to the strong predictive power of LMA and density, we calculated thickness (‘predicted thickness’) using the multiple regression model for leaves collected in the study to compare relationships between predicted thickness and Ψ Pre and partial R 2 values for relationships between predicted thickness, light and Ψ Pre . Actual thickness measurements using anatomical methods were used to compare relationships between thickness, height and light between canopy types and compare correlations and partial R 2 values between LMA, thickness and density (Tables 3 and 5 ).
+Statistical analysis
+
+Statistical analyses were conducted using R statistical software ( R Development Core Team 2013 ). Relationships between leaf morphological parameters, Ψ Pre , leaf height and light were examined using regression analysis. Comparisons of these relationships between the two canopy types (closed canopy and exposed canopy) were made using ANCOVA. Within each canopy type, we compared the contribution of light and Ψ Pre to the full model for predicting LMA, leaf thickness and leaf density using partial R 2 values. We also compared the contribution of leaf thickness and leaf density to the full model for predicting LMA using partial R 2 values. The last analysis mentioned above included leaves where LMA, leaf density and leaf thickness were all measured on the same leaves at the closed canopy and exposed canopy. For all statistical analysis, light (Tables 2–4 ), LMA, leaf density and leaf thickness values (Tables 3–5 ) were natural log-transformed (ln). However, these variables were not transformed in the figures because the untransformed data were more easily interpreted. Light was log-transformed because light displayed curved, asymptotic relationships with LMA, leaf density and leaf thickness and an exponential relationship with height. Leaf mass per area, leaf density and leaf thickness were log-transformed because these parameters displayed exponential relationships with height and Ψ Pre . Log-transformation of these parameters satisfied regression assumptions and allowed us to develop linear models for ANCOVA and partial R 2 analyses. To eliminate the timing of sample collection as a possible source of difference in LMA between the two canopy types, we compared a subsample of LMA values collected only in August at the closed ( n  = 35) and exposed ( n  = 54) canopies within heights of 17–21 m using one-way ANOVA.
+Table 2.
+
+Summary of ANCOVA results for test of height, canopy type (CT) and height × CT effects on light [(ln) %DIFN] and Ψ Pre (MPa).
+Source .  	(ln)Light .  	Ψ Pre . 
+.  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio . 
+Height  	1  	52.10  	419.63***  	1  	1.56  	305.01*** 
+CT  	1  	4.87  	39.20***  	1  	0.61  	119.15*** 
+Height × CT  	1  	12.80  	103.07***  	1  	0.00  	0.00 
+Error  	155  	0.12  	  	314  	0.01  	 
+Source .  	(ln)Light .  	Ψ Pre . 
+.  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio . 
+Height  	1  	52.10  	419.63***  	1  	1.56  	305.01*** 
+CT  	1  	4.87  	39.20***  	1  	0.61  	119.15*** 
+Height × CT  	1  	12.80  	103.07***  	1  	0.00  	0.00 
+Error  	155  	0.12  	  	314  	0.01  	 
+
+Degrees of freedom (df), mean square, F -ratio and level of significance are listed for main, interaction and error terms. Analysis included two CTs (closed and exposed canopy). * P  < 0.05, ** P  < 0.01, *** P  < 0.001.
+Open in new tab
+Table 2.
+
+Summary of ANCOVA results for test of height, canopy type (CT) and height × CT effects on light [(ln) %DIFN] and Ψ Pre (MPa).
+Source .  	(ln)Light .  	Ψ Pre . 
+.  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio . 
+Height  	1  	52.10  	419.63***  	1  	1.56  	305.01*** 
+CT  	1  	4.87  	39.20***  	1  	0.61  	119.15*** 
+Height × CT  	1  	12.80  	103.07***  	1  	0.00  	0.00 
+Error  	155  	0.12  	  	314  	0.01  	 
+Source .  	(ln)Light .  	Ψ Pre . 
+.  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio . 
+Height  	1  	52.10  	419.63***  	1  	1.56  	305.01*** 
+CT  	1  	4.87  	39.20***  	1  	0.61  	119.15*** 
+Height × CT  	1  	12.80  	103.07***  	1  	0.00  	0.00 
+Error  	155  	0.12  	  	314  	0.01  	 
+
+Degrees of freedom (df), mean square, F -ratio and level of significance are listed for main, interaction and error terms. Analysis included two CTs (closed and exposed canopy). * P  < 0.05, ** P  < 0.01, *** P  < 0.001.
+Open in new tab
+Table 3.
+
+Summary of ANCOVA results for test of height, CT and height × CT effects on LMA (g m −2 ), density (g cm −3 ) and thickness (μm); light, CT and light × CT effects on LMA, density and thickness; and Ψ Pre , CT and Ψ Pre  × CT effects on LMA, density and thickness.
+Source .  	(ln)LMA .  	(ln)Density .  	(ln)Thickness . 
+.  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio . 
+Height  	1  	77.94  	2571.38***  	1  	44.78  	874.95***  	1  	3.59  	256.69*** 
+CT  	1  	13.78  	454.46***  	1  	33.19  	648.47***  	1  	0.32  	23.18*** 
+Height × CT  	1  	9.45  	311.58***  	1  	6.89  	134.60***  	1  	0.57  	41.28*** 
+Error  	895  	0.04  	  	889  	0.05  	  	72  	0.01  	 
+(ln)Light  	1  	92.92  	2702.99***  	1  	67.43  	1380.06***  	1  	4.18  	240.69*** 
+CT  	1  	4.02  	116.79***  	1  	19.12  	391.41***  	1  	0.02  	1.03 
+(ln)Light × CT  	1  	0.60  	17.35***  	1  	0.36  	7.45**  	1  	0.05  	2.76 
+Error  	895  	0.03  	  	889  	0.05  	  	72  	0.02  	 
+Ψ Pre   	1  	12.92  	258.07***  	1  	10.24  	203.57***  	1  	5.57  	231.62*** †  
+CT  	1  	3.39  	67.76***  	1  	8.24  	163.92***  	1  	0.81  	33.77*** †  
+Ψ Pre  × CT  	1  	0.51  	10.09**  	1  	0.47  	9.36**  	1  	0.29  	12.08*** †  
+Error  	314  	0.05  	  	314  	0.05  	  	314  	0.02  	 
+Source .  	(ln)LMA .  	(ln)Density .  	(ln)Thickness . 
+.  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio . 
+Height  	1  	77.94  	2571.38***  	1  	44.78  	874.95***  	1  	3.59  	256.69*** 
+CT  	1  	13.78  	454.46***  	1  	33.19  	648.47***  	1  	0.32  	23.18*** 
+Height × CT  	1  	9.45  	311.58***  	1  	6.89  	134.60***  	1  	0.57  	41.28*** 
+Error  	895  	0.04  	  	889  	0.05  	  	72  	0.01  	 
+(ln)Light  	1  	92.92  	2702.99***  	1  	67.43  	1380.06***  	1  	4.18  	240.69*** 
+CT  	1  	4.02  	116.79***  	1  	19.12  	391.41***  	1  	0.02  	1.03 
+(ln)Light × CT  	1  	0.60  	17.35***  	1  	0.36  	7.45**  	1  	0.05  	2.76 
+Error  	895  	0.03  	  	889  	0.05  	  	72  	0.02  	 
+Ψ Pre   	1  	12.92  	258.07***  	1  	10.24  	203.57***  	1  	5.57  	231.62*** †  
+CT  	1  	3.39  	67.76***  	1  	8.24  	163.92***  	1  	0.81  	33.77*** †  
+Ψ Pre  × CT  	1  	0.51  	10.09**  	1  	0.47  	9.36**  	1  	0.29  	12.08*** †  
+Error  	314  	0.05  	  	314  	0.05  	  	314  	0.02  	 
+
+Degrees of freedom (df), mean square, F -ratio and level of significance are listed for main, interaction and error terms. Analysis included two CTs (closed and exposed canopy). * P  < 0.05, ** P  < 0.01, *** P  < 0.001; † Predicted values were used for ANCOVA of Ψ Pre and interaction effects on thickness.
+Open in new tab
+Table 3.
+
+Summary of ANCOVA results for test of height, CT and height × CT effects on LMA (g m −2 ), density (g cm −3 ) and thickness (μm); light, CT and light × CT effects on LMA, density and thickness; and Ψ Pre , CT and Ψ Pre  × CT effects on LMA, density and thickness.
+Source .  	(ln)LMA .  	(ln)Density .  	(ln)Thickness . 
+.  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio . 
+Height  	1  	77.94  	2571.38***  	1  	44.78  	874.95***  	1  	3.59  	256.69*** 
+CT  	1  	13.78  	454.46***  	1  	33.19  	648.47***  	1  	0.32  	23.18*** 
+Height × CT  	1  	9.45  	311.58***  	1  	6.89  	134.60***  	1  	0.57  	41.28*** 
+Error  	895  	0.04  	  	889  	0.05  	  	72  	0.01  	 
+(ln)Light  	1  	92.92  	2702.99***  	1  	67.43  	1380.06***  	1  	4.18  	240.69*** 
+CT  	1  	4.02  	116.79***  	1  	19.12  	391.41***  	1  	0.02  	1.03 
+(ln)Light × CT  	1  	0.60  	17.35***  	1  	0.36  	7.45**  	1  	0.05  	2.76 
+Error  	895  	0.03  	  	889  	0.05  	  	72  	0.02  	 
+Ψ Pre   	1  	12.92  	258.07***  	1  	10.24  	203.57***  	1  	5.57  	231.62*** †  
+CT  	1  	3.39  	67.76***  	1  	8.24  	163.92***  	1  	0.81  	33.77*** †  
+Ψ Pre  × CT  	1  	0.51  	10.09**  	1  	0.47  	9.36**  	1  	0.29  	12.08*** †  
+Error  	314  	0.05  	  	314  	0.05  	  	314  	0.02  	 
+Source .  	(ln)LMA .  	(ln)Density .  	(ln)Thickness . 
+.  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio .  	df .  	Mean square .  	F -ratio . 
+Height  	1  	77.94  	2571.38***  	1  	44.78  	874.95***  	1  	3.59  	256.69*** 
+CT  	1  	13.78  	454.46***  	1  	33.19  	648.47***  	1  	0.32  	23.18*** 
+Height × CT  	1  	9.45  	311.58***  	1  	6.89  	134.60***  	1  	0.57  	41.28*** 
+Error  	895  	0.04  	  	889  	0.05  	  	72  	0.01  	 
+(ln)Light  	1  	92.92  	2702.99***  	1  	67.43  	1380.06***  	1  	4.18  	240.69*** 
+CT  	1  	4.02  	116.79***  	1  	19.12  	391.41***  	1  	0.02  	1.03 
+(ln)Light × CT  	1  	0.60  	17.35***  	1  	0.36  	7.45**  	1  	0.05  	2.76 
+Error  	895  	0.03  	  	889  	0.05  	  	72  	0.02  	 
+Ψ Pre   	1  	12.92  	258.07***  	1  	10.24  	203.57***  	1  	5.57  	231.62*** †  
+CT  	1  	3.39  	67.76***  	1  	8.24  	163.92***  	1  	0.81  	33.77*** †  
+Ψ Pre  × CT  	1  	0.51  	10.09**  	1  	0.47  	9.36**  	1  	0.29  	12.08*** †  
+Error  	314  	0.05  	  	314  	0.05  	  	314  	0.02  	 
+
+Degrees of freedom (df), mean square, F -ratio and level of significance are listed for main, interaction and error terms. Analysis included two CTs (closed and exposed canopy). * P  < 0.05, ** P  < 0.01, *** P  < 0.001; † Predicted values were used for ANCOVA of Ψ Pre and interaction effects on thickness.
+Open in new tab
+Table 4.
+
+For each CT, sample size, regression coefficients and R 2 values are displayed for the log–log regressions between leaf morphological parameters (LMA, density and predicted thickness) and light, log-linear relationships between leaf morphological parameters and Ψ Pre , and multiple regressions including both terms.
+Response variable .  	CT .  	n .  	(ln)Light only .  	Ψ Pre only .  	(ln)Light and Ψ Pre .  	Partial R 2 for adding: . 
+.  	.  	.  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	β 2 .  	R 2 .  	(ln)Light .  	Ψ Pre . 
+(ln)LMA  	Closed canopy  	262  	4.4***  	0.32***  	0.60  	3.1***  	−1.8***  	0.49  	4.0***  	0.23***  	−0.82***  	0.64  	0.15  	0.04 
+  	Exposed canopy  	55  	4.6***  	0.36***  	0.81  	2.7***  	−2.9***  	0.41  	4.0***  	0.30***  	−1.1***  	0.85  	0.44  	0.05 
+(ln)Density  	Closed canopy  	262  	−0.84***  	0.24***  	0.36  	−1.8***  	−1.4***  	0.31  	−1.3***  	0.16***  	−0.72***  	0.40  	0.08  	0.03 
+  	Exposed canopy  	55  	−0.43***  	0.28***  	0.74  	−2.0***  	−2.4***  	0.45  	−1.0***  	0.23***  	−1.1***  	0.81  	0.36  	0.07 
+(ln)Predicted thickness  	Closed canopy  	262  	5.0***  	0.21***  	0.58  	4.2***  	−1.2***  	0.47  	4.7***  	0.15***  	−0.53***  	0.62  	0.15  	0.04 
+  	Exposed canopy  	55  	5.1***  	0.25***  	0.79  	3.8***  	−2.0***  	0.39  	4.7***  	0.22***  	−0.72***  	0.83  	0.44  	0.04 
+Response variable .  	CT .  	n .  	(ln)Light only .  	Ψ Pre only .  	(ln)Light and Ψ Pre .  	Partial R 2 for adding: . 
+.  	.  	.  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	β 2 .  	R 2 .  	(ln)Light .  	Ψ Pre . 
+(ln)LMA  	Closed canopy  	262  	4.4***  	0.32***  	0.60  	3.1***  	−1.8***  	0.49  	4.0***  	0.23***  	−0.82***  	0.64  	0.15  	0.04 
+  	Exposed canopy  	55  	4.6***  	0.36***  	0.81  	2.7***  	−2.9***  	0.41  	4.0***  	0.30***  	−1.1***  	0.85  	0.44  	0.05 
+(ln)Density  	Closed canopy  	262  	−0.84***  	0.24***  	0.36  	−1.8***  	−1.4***  	0.31  	−1.3***  	0.16***  	−0.72***  	0.40  	0.08  	0.03 
+  	Exposed canopy  	55  	−0.43***  	0.28***  	0.74  	−2.0***  	−2.4***  	0.45  	−1.0***  	0.23***  	−1.1***  	0.81  	0.36  	0.07 
+(ln)Predicted thickness  	Closed canopy  	262  	5.0***  	0.21***  	0.58  	4.2***  	−1.2***  	0.47  	4.7***  	0.15***  	−0.53***  	0.62  	0.15  	0.04 
+  	Exposed canopy  	55  	5.1***  	0.25***  	0.79  	3.8***  	−2.0***  	0.39  	4.7***  	0.22***  	−0.72***  	0.83  	0.44  	0.04 
+
+* P  < 0.05, ** P  < 0.01, *** P  < 0.001.
+Open in new tab
+Table 4.
+
+For each CT, sample size, regression coefficients and R 2 values are displayed for the log–log regressions between leaf morphological parameters (LMA, density and predicted thickness) and light, log-linear relationships between leaf morphological parameters and Ψ Pre , and multiple regressions including both terms.
+Response variable .  	CT .  	n .  	(ln)Light only .  	Ψ Pre only .  	(ln)Light and Ψ Pre .  	Partial R 2 for adding: . 
+.  	.  	.  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	β 2 .  	R 2 .  	(ln)Light .  	Ψ Pre . 
+(ln)LMA  	Closed canopy  	262  	4.4***  	0.32***  	0.60  	3.1***  	−1.8***  	0.49  	4.0***  	0.23***  	−0.82***  	0.64  	0.15  	0.04 
+  	Exposed canopy  	55  	4.6***  	0.36***  	0.81  	2.7***  	−2.9***  	0.41  	4.0***  	0.30***  	−1.1***  	0.85  	0.44  	0.05 
+(ln)Density  	Closed canopy  	262  	−0.84***  	0.24***  	0.36  	−1.8***  	−1.4***  	0.31  	−1.3***  	0.16***  	−0.72***  	0.40  	0.08  	0.03 
+  	Exposed canopy  	55  	−0.43***  	0.28***  	0.74  	−2.0***  	−2.4***  	0.45  	−1.0***  	0.23***  	−1.1***  	0.81  	0.36  	0.07 
+(ln)Predicted thickness  	Closed canopy  	262  	5.0***  	0.21***  	0.58  	4.2***  	−1.2***  	0.47  	4.7***  	0.15***  	−0.53***  	0.62  	0.15  	0.04 
+  	Exposed canopy  	55  	5.1***  	0.25***  	0.79  	3.8***  	−2.0***  	0.39  	4.7***  	0.22***  	−0.72***  	0.83  	0.44  	0.04 
+Response variable .  	CT .  	n .  	(ln)Light only .  	Ψ Pre only .  	(ln)Light and Ψ Pre .  	Partial R 2 for adding: . 
+.  	.  	.  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	β 2 .  	R 2 .  	(ln)Light .  	Ψ Pre . 
+(ln)LMA  	Closed canopy  	262  	4.4***  	0.32***  	0.60  	3.1***  	−1.8***  	0.49  	4.0***  	0.23***  	−0.82***  	0.64  	0.15  	0.04 
+  	Exposed canopy  	55  	4.6***  	0.36***  	0.81  	2.7***  	−2.9***  	0.41  	4.0***  	0.30***  	−1.1***  	0.85  	0.44  	0.05 
+(ln)Density  	Closed canopy  	262  	−0.84***  	0.24***  	0.36  	−1.8***  	−1.4***  	0.31  	−1.3***  	0.16***  	−0.72***  	0.40  	0.08  	0.03 
+  	Exposed canopy  	55  	−0.43***  	0.28***  	0.74  	−2.0***  	−2.4***  	0.45  	−1.0***  	0.23***  	−1.1***  	0.81  	0.36  	0.07 
+(ln)Predicted thickness  	Closed canopy  	262  	5.0***  	0.21***  	0.58  	4.2***  	−1.2***  	0.47  	4.7***  	0.15***  	−0.53***  	0.62  	0.15  	0.04 
+  	Exposed canopy  	55  	5.1***  	0.25***  	0.79  	3.8***  	−2.0***  	0.39  	4.7***  	0.22***  	−0.72***  	0.83  	0.44  	0.04 
+
+* P  < 0.05, ** P  < 0.01, *** P  < 0.001.
+Open in new tab
+Table 5.
+
+For both CTs pooled together, sample size, regression coefficients and R 2 values are displayed for the linear regressions between LMA, thickness and density and multiple regressions including both terms.
+Response .  	n .  	Thickness only .  	Density only .  	Thickness and density .  	Partial R 2 for adding: . 
+.  	.  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	β 2 .  	R 2 .  	Thickness .  	Density . 
+LMA  	75  	−18***  	0.66***  	0.89  	6.6***  	132***  	0.80  	−15***  	0.43***  	62***  	0.96  	0.16  	0.07 
+Response .  	n .  	Thickness only .  	Density only .  	Thickness and density .  	Partial R 2 for adding: . 
+.  	.  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	β 2 .  	R 2 .  	Thickness .  	Density . 
+LMA  	75  	−18***  	0.66***  	0.89  	6.6***  	132***  	0.80  	−15***  	0.43***  	62***  	0.96  	0.16  	0.07 
+
+* P  < 0.05, ** P  < 0.01, *** P  < 0.001.
+Open in new tab
+Table 5.
+
+For both CTs pooled together, sample size, regression coefficients and R 2 values are displayed for the linear regressions between LMA, thickness and density and multiple regressions including both terms.
+Response .  	n .  	Thickness only .  	Density only .  	Thickness and density .  	Partial R 2 for adding: . 
+.  	.  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	β 2 .  	R 2 .  	Thickness .  	Density . 
+LMA  	75  	−18***  	0.66***  	0.89  	6.6***  	132***  	0.80  	−15***  	0.43***  	62***  	0.96  	0.16  	0.07 
+Response .  	n .  	Thickness only .  	Density only .  	Thickness and density .  	Partial R 2 for adding: . 
+.  	.  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	R 2 .  	β 0 .  	β 1 .  	β 2 .  	R 2 .  	Thickness .  	Density . 
+LMA  	75  	−18***  	0.66***  	0.89  	6.6***  	132***  	0.80  	−15***  	0.43***  	62***  	0.96  	0.16  	0.07 
+
+* P  < 0.05, ** P  < 0.01, *** P  < 0.001.
+Open in new tab
+Results
+Differences in the light and hydrostatic environment by canopy type
+
+Light increased exponentially with height within both the closed canopy and the exposed canopy (Figure 2 a). We observed marked differences in the light environment (DIFN %) between the closed canopy and the exposed canopy at greater heights (Figure 2 a). Above 10 m in height, we observed an abrupt increase in light with height at the exposed canopy relative to the closed canopy (Figure 2 a). The ANCOVA indicated significant height and canopy-type effects on (ln)light and a significant height × canopy-type interaction (Table 2 ). The intercept of the relationship between (ln)light and height was significantly smaller at the exposed canopy compared with the closed canopy ( P  < 0.001). The relationship between height and Ψ Pre was negatively linear for both canopy types (Figure 2 b). There was a significant height and canopy-type effect on Ψ Pre but the interaction height ×  Ψ Pre was not significant ( P  = 0.993, Table 2 ). Predawn water potential declined by 0.011 MPa per meter increase in height. The intercept of Ψ Pre –height relationships at the closed canopy (−0.19 MPa) was significantly greater than the intercept at the exposed canopy (−0.29 MPa, P  < 0.001).
+Figure 2.
+Relationships between light and height (a) and ΨPre and height (b) at two canopy types: closed canopy and exposed canopy. Regression models: (a) closed canopy, DIFN = −0.124 + 0.164 × exp(0.033 × height); exposed canopy, DIFN = −0.071 + 0.038 × exp(0.151 × height); and (b) closed canopy, ΨPre = −0.190 − 0.011 × height; exposed canopy, ΨPre = −0.288 − 0.011 × height.
+Open in new tab Download slide
+
+Relationships between light and height (a) and Ψ Pre and height (b) at two canopy types: closed canopy and exposed canopy. Regression models: (a) closed canopy, DIFN = −0.124 + 0.164 × exp (0.033 × height) ; exposed canopy, DIFN = −0.071 + 0.038 × exp (0.151 × height) ; and (b) closed canopy, Ψ Pre  = −0.190 − 0.011 × height; exposed canopy, Ψ Pre  = −0.288 − 0.011 × height.
+Figure 2.
+Relationships between light and height (a) and ΨPre and height (b) at two canopy types: closed canopy and exposed canopy. Regression models: (a) closed canopy, DIFN = −0.124 + 0.164 × exp(0.033 × height); exposed canopy, DIFN = −0.071 + 0.038 × exp(0.151 × height); and (b) closed canopy, ΨPre = −0.190 − 0.011 × height; exposed canopy, ΨPre = −0.288 − 0.011 × height.
+Open in new tab Download slide
+
+Relationships between light and height (a) and Ψ Pre and height (b) at two canopy types: closed canopy and exposed canopy. Regression models: (a) closed canopy, DIFN = −0.124 + 0.164 × exp (0.033 × height) ; exposed canopy, DIFN = −0.071 + 0.038 × exp (0.151 × height) ; and (b) closed canopy, Ψ Pre  = −0.190 − 0.011 × height; exposed canopy, Ψ Pre  = −0.288 − 0.011 × height.
+Leaf mass per area relationships with height, light and Ψ Pre
+
+Leaf mass per area increased exponentially with height (Figure 3 a). Above 10 m, the trend lines diverge and leaves within the exposed canopy had greater LMA than the closed canopy (Figure 3 a). The ANCOVA indicated significant height, canopy type and interaction (height × canopy type) effects on (ln)LMA (Table 3 ). The relationship between LMA and light was log-linear, and the increase in LMA with increasing light availability was most pronounced at low light (<25% DIFN, Figure 3 b). Above 25% DIFN, the increase in LMA with light was greater within the exposed canopy than the closed canopy (Figure 3 b). We observed significant (ln)light, canopy type and interaction [ln(light) × canopy type] effects on (ln)LMA (Table 3 ). Leaf mass per area exponentially decreased with Ψ Pre (Figure 3 c). There were significant Ψ Pre , canopy type and interaction ( Ψ Pre  × canopy type) effects on (ln)LMA (Table 3 ). Intercepts were significantly different between canopy types for relationships between (ln)LMA and height, (ln)light and Ψ Pre ( P  < 0.01). (ln)Light explained more variation in (ln)LMA than for Ψ Pre for the closed canopy and the exposed canopy (Table 4 ). Based on partial R 2 values, adding ln(light) to the Ψ Pre models showed a 0.15–0.44 increase in R 2 over the Ψ Pre model, whereas adding Ψ Pre to the ln(light) model showed only a 0.05 increase in R 2 over the ln(light) model (Table 4 ). In our post hoc analysis of LMA values collected in August at both the exposed and closed canopy at 17–21 m, we found that mean LMA at the exposed canopy was significantly greater ( P  < 0.001, F  = 267) than LMA at the closed canopy.
+Figure 3.
+Relationships between LMA and height (a), light (b) and ΨPre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, LMA = 15.919 + 13.564 × exp(0.050 × height); exposed canopy, LMA = 0.539 + 19.077 × exp(0.078 × height); (b) closed canopy, LMA = 73.004 + 13.889 × (ln)DIFN; exposed canopy, LMA = 97.334 + 21.521 × (ln)DIFN; and (c) closed canopy, LMA = 23.425 × exp(−1.796 × ΨPre); exposed canopy, LMA = 20.114 × exp(−2.354×ΨPre).
+Open in new tab Download slide
+
+Relationships between LMA and height (a), light (b) and Ψ Pre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, LMA = 15.919 + 13.564 × exp (0.050 × height) ; exposed canopy, LMA = 0.539 + 19.077 × exp (0.078 × height) ; (b) closed canopy, LMA = 73.004 + 13.889 × (ln)DIFN; exposed canopy, LMA = 97.334 + 21.521 × (ln)DIFN; and (c) closed canopy, LMA = 23.425 × exp ( − 1.796 ×  Ψ Pre ) ; exposed canopy, LMA = 20.114 × exp ( − 2.354× Ψ Pre ) .
+Figure 3.
+Relationships between LMA and height (a), light (b) and ΨPre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, LMA = 15.919 + 13.564 × exp(0.050 × height); exposed canopy, LMA = 0.539 + 19.077 × exp(0.078 × height); (b) closed canopy, LMA = 73.004 + 13.889 × (ln)DIFN; exposed canopy, LMA = 97.334 + 21.521 × (ln)DIFN; and (c) closed canopy, LMA = 23.425 × exp(−1.796 × ΨPre); exposed canopy, LMA = 20.114 × exp(−2.354×ΨPre).
+Open in new tab Download slide
+
+Relationships between LMA and height (a), light (b) and Ψ Pre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, LMA = 15.919 + 13.564 × exp (0.050 × height) ; exposed canopy, LMA = 0.539 + 19.077 × exp (0.078 × height) ; (b) closed canopy, LMA = 73.004 + 13.889 × (ln)DIFN; exposed canopy, LMA = 97.334 + 21.521 × (ln)DIFN; and (c) closed canopy, LMA = 23.425 × exp ( − 1.796 ×  Ψ Pre ) ; exposed canopy, LMA = 20.114 × exp ( − 2.354× Ψ Pre ) .
+Thickness and density
+
+Density displayed similar trends with height, light and Ψ Pre among canopy types to those observed for LMA (Figure 4 ). Leaf density exponentially increased with height, displayed a log-linear increase with light and exponentially decreased with Ψ Pre (Figure 4 ). The main effects [height, (ln)light, Ψ Pre and canopy type] and interaction terms [(height × canopy type, ln(light) × canopy type, Ψ Pre  × canopy type)] were all significant explanatory variables for (ln)density (Table 3 ). Intercepts were significantly different ( P  < 0.001) for (ln)density–(ln)light relationships, but not for height ( P  = 0.35) and Ψ Pre ( P  = 0.26). Partial R 2 values for adding (ln)light (0.08–0.36) to the full model for predicting (ln)density were greater compared with adding Ψ Pre (0.03–0.07, Table 4 ).
+Figure 4.
+Relationships between leaf density and height (a), light (b) and ΨPre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, density = 0.182 + 0.031 × exp(0.069 × height); exposed canopy, density = 0.008 + 0.178 × exp(0.061 × height); (b) closed canopy, density = 0.418 + 0.069 × (ln)DIFN; exposed canopy, density = 0.637 + 0.118 × (ln)DIFN; and (c) closed canopy, density = 0.169 × 
+Open in new tab Download slide
+
+Relationships between leaf density and height (a), light (b) and Ψ Pre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, density = 0.182 + 0.031 × exp (0.069 × height) ; exposed canopy, density = 0.008 + 0.178 × exp (0.061 × height) ; (b) closed canopy, density = 0.418 + 0.069 × (ln)DIFN; exposed canopy, density = 0.637 + 0.118 × (ln)DIFN; and (c) closed canopy, density = 0.169 × 
+
+exp ( − 1.288 ×  Ψ Pre ) ; exposed canopy, density = 0.164 × exp ( − 2.097 ×  Ψ Pre ) .
+Figure 4.
+Relationships between leaf density and height (a), light (b) and ΨPre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, density = 0.182 + 0.031 × exp(0.069 × height); exposed canopy, density = 0.008 + 0.178 × exp(0.061 × height); (b) closed canopy, density = 0.418 + 0.069 × (ln)DIFN; exposed canopy, density = 0.637 + 0.118 × (ln)DIFN; and (c) closed canopy, density = 0.169 × 
+Open in new tab Download slide
+
+Relationships between leaf density and height (a), light (b) and Ψ Pre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, density = 0.182 + 0.031 × exp (0.069 × height) ; exposed canopy, density = 0.008 + 0.178 × exp (0.061 × height) ; (b) closed canopy, density = 0.418 + 0.069 × (ln)DIFN; exposed canopy, density = 0.637 + 0.118 × (ln)DIFN; and (c) closed canopy, density = 0.169 × 
+
+exp ( − 1.288 ×  Ψ Pre ) ; exposed canopy, density = 0.164 × exp ( − 2.097 ×  Ψ Pre ) .
+
+Thickness and predicted thickness also followed similar trends with height, light and Ψ Pre to those observed for both LMA and density (Figure 5 ). The interaction terms height × canopy type and Ψ Pre  × canopy type were significant, but not the interaction term ln(light) × canopy type (Table 3 ). Intercepts for all relationships were significantly different between canopy types ( P  < 0.05). (ln)Light explained more variation in predicted leaf thickness than did Ψ Pre (Table 4 ). Partial R 2 values for adding (ln)light (0.15–0.44) to the full model for predicting (ln)thickness were greater compared with adding Ψ Pre (0.04, Table 4 ).
+Figure 5.
+Relationships between leaf thickness and height (a), light (b) and ΨPre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, thickness = 48.427 + 23.893 × exp(0.047 × height); exposed canopy, thickness = 19.924 + 35.906 × exp(0.066 × height); (b) closed canopy, thickness = 141.865 + 20.928 × (ln)DIFN; exposed canopy, thickness = 159.936 + 27.809 × (ln)DIFN; and (c) closed canopy, thickness = 63.716 × exp(−1.206 × ΨPre); exposed canopy, thickness = 51.190 × exp(−1.770 × ΨPre).
+Open in new tab Download slide
+
+Relationships between leaf thickness and height (a), light (b) and Ψ Pre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, thickness = 48.427 + 23.893 × exp (0.047 × height) ; exposed canopy, thickness = 19.924 + 35.906 × exp (0.066 × height) ; (b) closed canopy, thickness = 141.865 + 20.928 × (ln)DIFN; exposed canopy, thickness = 159.936 + 27.809 × (ln)DIFN; and (c) closed canopy, thickness = 63.716 × exp ( − 1.206 ×  Ψ Pre ) ; exposed canopy, thickness = 51.190 × exp ( − 1.770 ×  Ψ Pre ) .
+Figure 5.
+Relationships between leaf thickness and height (a), light (b) and ΨPre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, thickness = 48.427 + 23.893 × exp(0.047 × height); exposed canopy, thickness = 19.924 + 35.906 × exp(0.066 × height); (b) closed canopy, thickness = 141.865 + 20.928 × (ln)DIFN; exposed canopy, thickness = 159.936 + 27.809 × (ln)DIFN; and (c) closed canopy, thickness = 63.716 × exp(−1.206 × ΨPre); exposed canopy, thickness = 51.190 × exp(−1.770 × ΨPre).
+Open in new tab Download slide
+
+Relationships between leaf thickness and height (a), light (b) and Ψ Pre (c) at closed canopy and exposed canopy. Regression models: (a) closed canopy, thickness = 48.427 + 23.893 × exp (0.047 × height) ; exposed canopy, thickness = 19.924 + 35.906 × exp (0.066 × height) ; (b) closed canopy, thickness = 141.865 + 20.928 × (ln)DIFN; exposed canopy, thickness = 159.936 + 27.809 × (ln)DIFN; and (c) closed canopy, thickness = 63.716 × exp ( − 1.206 ×  Ψ Pre ) ; exposed canopy, thickness = 51.190 × exp ( − 1.770 ×  Ψ Pre ) .
+
+While both leaf morphological components correlated strongly with LMA, thickness explained more of the variability in LMA than did leaf density (Table 5 ). The partial R 2 values for adding thickness (0.16) to the full model for predicting LMA were greater compared with adding density (0.07, Table 5 ). The high R 2 of the full model (LMA = β 0  + β 1 thickness + β 2 density, R 2  = 0.96, Table 5 ) corroborates high precision of the independent measures of LMA, thickness and density because LMA = thickness × density. However, we provided strong evidence that sugar maple leaf thickness should not be estimated using this equation (see Materials and methods).
+Discussion
+Light controls LMA
+
+If gradients in water potential were driving changes in LMA (Hypothesis 1), we would expect LMA to be more closely correlated with leaf water potential than with light, and we also would expect water potential to explain more of the variation in LMA. Our results did not support our first hypothesis that water potential would have a stronger influence over leaf morphology compared with light, but did support the findings of early canopy research conducted in sugar maple and temperate deciduous forests where light strongly influenced leaf morphological gradients with height ( Hutchison et al. 1986 ; Hollinger 1989 ; Ellsworth and Reich 1993 ; Niinemets et al. 1999 ). Multiple lines of evidence from this study have revealed that light is driving changes in LMA in the sugar maple stand. The relationships between LMA and height were strikingly different between the closed and exposed canopy and reflect patterns of light–height relationships among canopy types. Despite similar sampling heights at the closed and exposed canopy, LMA was greater at the exposed canopy where light availability was greater. Secondly, our model comparison for each canopy type showed that light explained more variation in LMA than water potential did in the full model [ln(LMA) = ln(light) +  Ψ Pre ].
+
+Within forest canopies, a linear increase in LMA with height was observed among mixed conifers ( Marshall and Monserud 2003 ), Sequoiadendron giganteum (Lindl.) J. Buchholz (conifer), Eucalyptus diversicolor F. Muell. (broadleaf evergreen; Burgess and Dawson 2007 ) and tropical evergreen forests ( Cavaleri et al. 2010 ), while other studies have found an exponential increase in LMA with height in S. sempervirens ( Koch et al. 2004 , Burgess and Dawson 2007 , Ishii et al. 2008 ) and Pseudotsuga menziesii (Mirb.) Franco, both conifers ( Woodruff et al. 2004 ). Burgess and Dawson (2007) discuss differences in height–LMA relationships of two closely related species, S. giganteum and S. sempervirens , which displayed a linear and an exponential increase in LMA, respectively. Burgess and Dawson (2007) speculate that open stand conditions of the S. giganteum resulted in a more gradual change in LMA with height, suggesting that variation in light and exposure (i.e., temperature, wind speed and humidity) as a result of canopy structure may influence the profile of the LMA–height relationship. In the case of very tall trees, an exponential increase in LMA may be the result of extreme environmental gradients from the lower branches to the top of the trees, coupled with extraordinary gravitational resistances to sap flow. In our study, we did not anticipate these extreme gradients in water potential because the range of tree heights was 25–34 m, whereas the height of S. sempervirens trees in other studies was 85–113 m ( Koch et al. 2004 , Ishii et al. 2008 ). We did, however, observe steeper gradients in LMA with height within the exposed canopy, likely as a result of more dramatic changes in light availability compared with the closed canopy where light availability gradients were more gradual with height. Thus, the relative changes in light availability with height as influenced by canopy structure and crown exposure seem to be critical for determining LMA–height profiles.
+Constraints on leaf morphology in the upper canopy
+
+If the response of LMA to light availability was constrained by water relations in the upper canopy (Hypothesis 2), we would expect no difference in LMA between different light environments at the same heights in the upper canopy. Our results did not support our second hypothesis. In recent studies in temperate needle-leaved and tropical broadleaved evergreen forests, vertical gradients in LMA have been linked to xylem water potential or height, suggesting that leaf morphology is mostly determined by water relations in upper canopies, while light is important only under low light conditions ( Koch et al. 2004 , Ishii et al. 2008 , Cavaleri et al. 2010 ). Ishii et al. (2008) found that LMA of S. sempervirens leaves did not respond to light above 15% canopy openness, while Cavaleri et al. (2010) reported a threshold of 22% diffuse transmittance in a tropical forest. Contrary to these results, we found that LMA continued to increase at higher light availability, particularly within the exposed canopy, suggesting that morphological adjustments to light were not constrained by low water potential in the upper canopy of this sugar maple forest.
+
+Sugar maple tends to grow at sites with high moisture availability (wet-mesic) and has a lower propensity for osmotic adjustment during drier years relative to species that can tolerate lower moisture availability ( Bahari et al. 1985 , Abrams 1988 , Ellsworth and Reich 1992 , Kubiske and Abrams 1994 ). Limited osmotic adjustment can lead to decreased leaf turgor pressure in wet-mesic species during dry conditions compared with xeric species ( Kubiske and Abrams 1994 ). Contrary to these findings, osmotic adjustment under water-stress conditions was observed for sugar maple seedlings ( Kolb et al. 1991 ). Likewise, our preliminary results show a significant trend of decreasing osmotic potential at full and zero turgor with height and an increase in turgor pressure with height within the exposed canopy (data not shown). We speculate that lower Ψ Pre values in the upper canopy observed in this study did not impose major water limitations on sugar maple leaf development. Based on trend lines, we observed Ψ Pre values from −0.20 to −0.55 MPa for sugar maple leaves (Figure 2 b), which were similar to Ψ Pre values (always greater than −0.50 MPa) reported by Ellsworth and Reich (1993) for dominant and sub-canopy sugar maple trees. Ellsworth and Reich (1992) observed large declines in both net photosynthesis and stomatal conductance when Ψ Pre reached −1.80 MPa for sugar maple seedlings growing under high light conditions. This value was also near the turgor loss point (−1.87 MPa; Ellsworth and Reich 1992 ). This provides some indication that sugar maple leaves growing under high light conditions (tops of trees at exposed and closed canopy) in this study were not water stressed.
+Leaf thickness and leaf density response to light and water stress
+
+If leaf thickness and density responded independently to light and water stress, respectively (Hypothesis 3), we would expect thickness to be more closely correlated to light conditions and density to be more closely correlated to leaf water potential. Our results did not support our third hypothesis, as light appeared to directly influence variation in both leaf thickness and density. Under high light conditions, sugar maple leaves were denser and thicker compared with leaves growing under low light conditions. Witkowski and Lamont (1991) found that leaf thickness and density varied independently in response to resource gradients (light, moisture and nutrients) and suggested that thickness and density should be considered separately because of these potentially independent responses and confounding relationships with LMA. Our conclusions for sugar maple leaf thickness and density are not consistent with those species studied by Witkowski and Lamont (1991) . Our findings were consistent with Niinemets et al. (1999) , who found that leaf thickness and density of two temperate deciduous species ( Tilia cordata Mill. and Populus tremula L.) increased with increasing light availability. Our results were inconsistent with findings of an increase in thickness but not density for Pinus strobus L., Picea abies (L.) Karst. and Pinus sylvestris L. ( Niinemets 1997 , Niinemets et al. 2001 , Leal and Thomas 2003 ). Sugar maple LMA appears to respond primarily to gradients in light through changes in thickness, as indicated by partial R 2 analysis (Table 5 ). Thicker ‘sun leaves’ typically have a two-cell-layered and thicker palisade tissue as a result of periclinal cell division and elongation ( Yano and Terashima 2004 ). Leaves growing in high light intensity also tend to have greater volume occupied by mesophyll cells and less volume of air space ( Chabot and Chabot 1977 , Chabot et al. 1979 ), which may explain why sugar maple leaves growing in the upper canopy may have greater density in this study.
+Additional possible sources of variation
+
+We showed that light explained much of the variation in LMA, density and thickness, but other factors may contribute to variation in leaf morphological traits. The timing of collection may be one potential source of variation. Cell wall thickness and total cellulose and hemicelluloses have been found to increase following full leaf expansion ( Miyazawa et al. 2003 ), which may contribute to changes in LMA or density. In fact, LMA has been shown to increase rapidly following leaf expansion in the spring but reaching a constant level after a few weeks to a month ( Miyazawa et al. 1998 , 2003 , Miyazawa and Terashima 2001 ). However, we found that LMA was significantly greater at the exposed canopy compared with the closed canopy for leaves collected in August and at similar heights (17–21 m). This suggests that the greater LMA observed at the exposed canopy relative to those observed at the closed canopy (at similar heights) was not associated with seasonal changes.
+
+While an attempt was made to eliminate any potential sources of error during volume measurements, small air pockets trapped around the leaf's waxy cuticle, lower epidermis, or major and minor veins may have contributed to greater variation observed for density, as this would affect the volume measurements. This may also explain why thickness values as measured by ImageJ were weakly correlated with thickness values estimated with LMA and density.
+
+Other potential sources of variation in LMA between the two canopy types include differences in soil water availability and/or exposure to wind, neither of which were measured in this study. In an extensive review of factors that influence LMA, Poorter et al. (2009) found that LMA moderately increases with decreasing water availability. This finding was likely a consequence of more tightly packed cells and reduced air space in the mesophyll of leaves growing under water-stress conditions ( Poorter et al. 2009 ). The two sites displayed slight differences in the leaf water potential gradient (different intercepts of the relationship between height and Ψ Pre ). However, the increase in LMA with height was greater within the exposed canopy, yet declines in leaf water potential with height were identical among sites. Trees growing in wind-exposed sites have been found to have lower LMA and cell wall mass per unit area ( Nagano et al. 2009 ). In contrast, Niklas (1996) found that the slopes of the relationship between leaf mass and area of sugar maple at wind-exposed and wind-protected sites were identical, suggesting that LMA was not affected by wind exposure. Future investigation of seasonal, soil water availability and wind effects on LMA for sugar maple is required, particularly at different levels of light availability. Finally, we recognize that the limited sample size at the exposed canopy could potentially impact the interpretation of our results. With a limited sample size, we may have under- or overestimated the canopy type and interaction effects. Thus, current understanding of leaf morphological traits along vertical canopy gradients would benefit from a more robust test of differences in leaf morphology at closed and exposed canopy conditions.
+Conclusions and implications
+
+Recent research suggests that the hydrostatic gradient in trees limits leaf growth and development through reduced turgor pressure. However, our study in a sugar maple stand corroborates studies that attributed vertical gradients in leaf morphology to natural light gradients that exist in tree canopies. For a given height, LMA, leaf thickness and leaf density were greater within the exposed canopy than within closed canopy conditions, especially at the highest heights. Also, we observed stronger contributions of light to all leaf morphology models. These results suggest that greater leaf density may not be exclusively linked to water stress, and light may play a major role in determining LMA, leaf density and leaf thickness. Our results are contrary to recent studies on conifers and tropical trees, suggesting that deciduous broadleaf trees may have different mechanisms at work than either needle-leaf or broadleaf evergreens. Further work that compares the plasticity and biophysical constraints on leaf morphology of evergreen versus deciduous species will advance our understanding of potential mechanisms that control leaf morphology.
+
+Adjustments in leaf structure in response to increasing light may affect the capacity of leaves to assimilate CO 2 . Previous work in sugar maple forests showed that LMA was strongly and positively correlated with area-based maximum photosynthetic capacity and leaf nitrogen ( Ellsworth and Reich 1993 ). Thus, our findings of greater LMA within the exposed canopy suggest that trees growing adjacent to canopy gaps with exposed crowns are probably more productive due to greater light availability and morphological adjustments to maximize CO 2 assimilation. Since modeling of whole-stand carbon gain must account for height-related variation in leaf morphology, this study will broaden our understanding of the factors that contribute to variation in leaf morphology. Through the application of LiDAR (light detection and ranging), attributes of canopy structure such as canopy height and cover across a large spatial scale can be estimated with a high degree of confidence ( Ritchie et al. 1995 , Lefsky et al. 2002 ). Thus, field-based measurements that identify relationships between physiological traits, LMA and height linked with LiDAR estimations of stand structure may allow for modeling of forest productivity across larger spatial and temporal scales.
+Conflict of interest
+
+None declared.
+Funding
+
+Research was sponsored by the National Institute of Food and Agriculture US Department of Agriculture McIntire-Stennis Cooperative Forestry Research Program (Grant 32100-06098) and the Ecosystem Science Center at Michigan Technological University.
+Acknowledgments
+
+The authors thank Dr Kevyn Juneau, the Portage Health Histology Lab, Dr Victor Busov, Bethany Blease, Jonathan Fournier, James Schmierer, Alex Collins, Ryan Priest, Mickey Jarvi, Kayla Griffith and Katy Crass for their assistance in the lab and field. The authors also thank James Rivard and James Schmierer for providing stand height data. The authors thank ABEE, Inc. for installing a safe and effective zip-line system.
+References
+
+Abrams
+MD
+(
+1988
+)
+Sources of variation in osmotic potentials with special reference to North American tree species
+.
+For Sci
+34
+:
+1030
+–
+1046
+.
+
+OpenURL Placeholder Text
+
+WorldCat
+ 
+
+Bahari
+ZA
+Pallardy
+SG
+Parker
+WC
+(
+1985
+)
+Photosynthesis, water relations, and drought adaptation in six woody species of oak-hickory forests in central Missouri
+.
+For Sci
+31
+:
+557
+–
+569
+.
+
+OpenURL Placeholder Text
+
+WorldCat
+ 
+
+Boardman
+NK
+(
+1977
+)
+Comparative photosynthesis of Sun and shade plants
+.
+Annu Rev Plant Physiol
+28
+:
+355
+–
+377
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Bond
+BJ
+Farnsworth
+BT
+Coulombe
+RA
+Winner
+WE
+(
+1999
+)
+Foliage physiology and biochemistry in response to light gradients in conifers with varying shade tolerance
+.
+Oecologia
+120
+:
+183
+–
+192
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Brooks
+JR
+Hinckley
+TM
+Sprugel
+DG
+(
+1994
+)
+Acclimation responses of mature Abies amabilis Sun foliage to shading
+.
+Oecologia
+100
+:
+316
+–
+324
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Burgess
+SSO
+Dawson
+TE
+(
+2007
+)
+Predicting the limits to tree height using statistical regressions of leaf traits
+.
+New Phytol
+174
+:
+626
+–
+636
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Burton
+AJ
+Jarvey
+JC
+Jarvi
+MP
+Zak
+DR
+Pregitzer
+(
+2012
+)
+Chronic N deposition alters root respiration-tissue N relationship in northern hardwood forests
+.
+Glob Change Biol
+18
+:
+258
+–
+266
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Campione
+MA
+Nagel
+LM
+Webster
+CR
+(
+2012
+)
+Herbaceous-layer community dynamics along a harvest-intensity gradient after 50 years of consistent management
+.
+Open J For
+2
+:
+97
+–
+109
+.
+
+OpenURL Placeholder Text
+
+WorldCat
+ 
+
+Cavaleri
+MA
+Oberbauer
+SF
+Clark
+DB
+Clark
+DA
+Ryan
+MG
+(
+2010
+)
+Height is more important than light in determining leaf morphology in a tropical forest
+.
+Ecology
+91
+:
+1730
+–
+1739
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Chabot
+BF
+Chabot
+JF
+(
+1977
+)
+Effects of light and temperature on leaf anatomy and photosynthesis in Fragaria vesca
+.
+Oecologia
+26
+:
+363
+–
+377
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Chabot
+BF
+Jurik
+TW
+Chabot
+JF
+(
+1979
+)
+Influence of instantaneous and integrated light-flux density on leaf anatomy and photosynthesis
+.
+Am J Bot
+66
+:
+940
+–
+945
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Coble
+AP
+Autio
+A
+Cavaleri
+MA
+Binkley
+D
+Ryan
+MG
+(
+2014
+)
+Converging patterns of vertical variability in leaf morphology and nitrogen across seven Eucalyptus plantations in Brazil and Hawaii, USA
+.
+Trees Struct Funct
+28
+:
+1
+–
+15
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Ellsworth
+DS
+Reich
+PB
+(
+1992
+)
+Water relations and gas exchange of Acer saccharum seedlings in contrasting natural light and water regimes
+.
+Tree Physiol
+10
+:
+1
+–
+20
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Ellsworth
+DS
+Reich
+PB
+(
+1993
+)
+Canopy structure and vertical patterns of photosynthesis and related leaf traits in a deciduous forest
+.
+Oecologia
+96
+:
+169
+–
+178
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+England
+JR
+Attiwill
+PM
+(
+2006
+)
+Changes in leaf morphology and anatomy with tree age and height in the broadleaved evergreen species, Eucalyptus regnans F. Muell
+.
+Trees Struct Funct
+20
+:
+79
+–
+90
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Erickson
+MD
+Reed
+DD
+Mroz
+GD
+(
+1990
+)
+Stand development and economic analysis of alternative cutting methods in northern hardwoods: 32-year results
+.
+North J Appl For
+7
+:
+153
+–
+158
+.
+
+OpenURL Placeholder Text
+
+WorldCat
+ 
+
+Hanson
+PJ
+Amthor
+JS
+Wullschleger
+SD
+et al.  (
+2004
+)
+Oak forest carbon and water simulations: model intercomparisons and evaluations against independent data
+.
+Ecol Monogr
+74
+:
+443
+–
+489
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Hollinger
+DY
+(
+1989
+)
+Canopy organization and foliage photosynthetic capacity in a broad-leaved evergreen montane forest
+.
+Funct Ecol
+3
+:
+53
+–
+62
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Hsiao
+TC
+(
+1973
+)
+Plant responses to water stress
+.
+Annu Rev Plant Phys
+24
+:
+519
+–
+570
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Hutchison
+BA
+Matt
+DR
+Mcmillen
+RT
+Gross
+LJ
+Tajchman
+SJ
+Norman
+JM
+(
+1986
+)
+The architecture of a deciduous forest canopy in eastern Tennessee, USA
+.
+J Ecol
+74
+:
+635
+–
+646
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Ishii
+H
+Ohsugi
+Y
+(
+2011
+)
+Light acclimation potential and carry-over effects vary among three evergreen tree species with contrasting patterns of leaf emergence and maturation
+.
+Tree Physiol
+31
+:
+819
+–
+830
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Ishii
+HT
+Jennings
+GM
+Sillett
+SC
+Koch
+GW
+(
+2008
+)
+Hydrostatic constraints on morphological exploitation of light in tall Sequoia sempervirens trees
+.
+Oecologia
+156
+:
+751
+–
+763
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Jones
+TA
+Thomas
+SC
+(
+2007
+)
+Leaf-level acclimation to gap creation in mature Acer saccharum trees
+.
+Tree Physiol
+27
+:
+281
+–
+290
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Koch
+GW
+Sillett
+SC
+Jennings
+GM
+Davis
+SD
+(
+2004
+)
+The limits to tree height
+.
+Nature
+428
+:
+851
+–
+854
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Kolb
+TE
+McCormick
+LH
+Shumway
+DL
+(
+1991
+)
+Physiological responses of pear thrips—damaged sugar maples to light and water stress
+.
+Tree Physiol
+9
+:
+401
+–
+413
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Kubiske
+ME
+Abrams
+MD
+(
+1994
+)
+Ecophysiological analysis of woody species in contrasting temperate communities during wet and dry years
+.
+Oecologia
+98
+:
+303
+–
+312
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Leal
+DB
+Thomas
+SC
+(
+2003
+)
+Vertical gradients and tree-to-tree variation in shoot morphology and foliar nitrogen in an old-growth Pinus strobus stand
+.
+Can J For Res
+33
+:
+1304
+–
+1314
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Lefsky
+MA
+Cohen
+WB
+Parker
+GG
+Harding
+DJ
+(
+2002
+)
+Lidar remote sensing for ecosystem studies
+.
+BioScience
+52
+:
+19
+–
+30
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Machado
+JL
+Reich
+PB
+(
+1999
+)
+Evaluation of several measures of canopy openness as predictors of photosynthetic photon flux density in deeply shaded conifer-dominated forest understory
+.
+Can J For Res
+29
+:
+1438
+–
+1444
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Marshall
+JD
+Monserud
+RA
+(
+2003
+)
+Foliage height influences specific leaf area of three conifer species
+.
+Can J For Res
+33
+:
+164
+–
+170
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Medlyn
+B
+(
+2004
+)
+A MAESTRO retrospective
+. In:
+Mencuccini
+M
+Grace
+J
+Moncrieff
+J
+McNaughton
+KG
+(eds)
+Forests at the land–atmosphere interface
+.
+CABI Publishing
+,
+Wallingford, UK
+, pp
+105
+–
+121
+.
+
+Google Scholar
+
+Google Preview
+OpenURL Placeholder Text
+
+WorldCat
+COPAC
+ 
+
+Meinzer
+FC
+Bond
+BJ
+Karanian
+JA
+(
+2008
+)
+Biophysical constraints on leaf expansion in a tall conifer
+.
+Tree Physiol
+28
+:
+197
+–
+206
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Miyazawa
+SI
+Terashima
+I
+(
+2001
+)
+Slow development of leaf photosynthesis in an evergreen broad-leaved tree, Castanopsis sieboldii : Relationships between leaf anatomical characteristics and photosynthetic rate
+.
+Plant Cell Environ
+24
+:
+279
+–
+291
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Miyazawa
+S-I
+Satomi
+S
+Terashima
+I
+(
+1998
+)
+Slow leaf development of evergreen broad-leaved tree species in Japanese warm temperate forests
+.
+Ann Bot (London)
+82
+:
+859
+–
+869
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Miyazawa
+SI
+Makino
+A
+Terashima
+I
+(
+2003
+)
+Changes in mesophyll anatomy and sink–source relationships during leaf development in Quercus glauca , an evergreen tree showing delayed leaf greening
+.
+Plant Cell Environ
+26
+:
+745
+–
+755
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Nagano
+S
+Nakano
+T
+Hikosaka
+K
+Maruta
+E
+(
+2009
+)
+Needle traits of an evergreen, coniferous shrub growing at wind-exposed and protected sites in a mountain region: does Pinus pumila produce needles with greater mass per area under wind-stress conditions?
+Plant Biol
+11
+:
+94
+–
+100
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Niinemets
+U
+(
+1997
+)
+Distribution patterns of foliar carbon and nitrogen as affected by tree dimensions and relative light conditions in the canopy of Picea abies
+.
+Trees
+11
+:
+144
+–
+154
+.
+
+OpenURL Placeholder Text
+
+WorldCat
+ 
+
+Niinemets
+U
+(
+1999
+)
+Components of leaf dry mass per area—thickness and density—alter leaf photosynthetic capacity in reverse directions in woody plants
+.
+New Phytol
+144
+:
+35
+–
+47
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Niinemets
+U
+(
+2001
+)
+Global-scale climatic controls of leaf dry mass per area, density, and thickness in trees and shrubs
+.
+Ecology
+82
+:
+453
+–
+469
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Niinemets
+U
+Kull
+O
+Tenhunen
+JD
+(
+1999
+)
+Variability in leaf morphology and chemical composition as a function of canopy light environment in coexisting deciduous trees
+.
+Int J Plant Sci
+160
+:
+837
+–
+848
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Niinemets
+U
+Ellsworth
+DS
+Lukjanova
+A
+Tobias
+M
+(
+2001
+)
+Site fertility and the morphological and photosynthetic acclimation of Pinus sylvestris needles to light
+.
+Tree Physiol
+21
+:
+1231
+–
+1244
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Niklas
+KJ
+(
+1996
+)
+Differences between Acer saccharum leaves from open and wind-protected sites
+.
+Ann Bot (Lond)
+78
+:
+61
+–
+66
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Nobel
+PS
+(
+1977
+)
+Internal leaf area and cellular CO 2 resistance—photosynthetic implications of variations with growth-conditions and plant species
+.
+Physiol Plant
+40
+:
+137
+–
+144
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Nobel
+PS
+Zaragoza
+LJ
+Smith
+WK
+(
+1975
+)
+Relation between mesophyll surface-area, photosynthetic rate, and illumination level during development for leaves of Plectranthus parviflorus Henckel
+.
+Plant Physiol
+55
+:
+1067
+–
+1070
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Norman
+JM
+Welles
+JM
+(
+1983
+)
+Radiative transfer in an array of canopies
+.
+Agron J
+75
+:
+481
+–
+488
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Oldham
+AR
+Sillett
+SC
+Tomescu
+AMF
+Koch
+GW
+(
+2010
+)
+The hydrostatic gradient, not light availability, drives height-related variation in Sequoia sempervirens (Cupressaceae) leaf anatomy
+.
+Am J Bot
+97
+:
+1087
+–
+1097
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Poorter
+H
+Niinemets
+U
+Poorter
+L
+Wright
+IJ
+Villar
+R
+(
+2009
+)
+Causes and consequences of variation in leaf mass per area (LMA): a meta-analysis
+.
+New Phytol
+182
+:
+565
+–
+588
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+R Development Core Team
+(
+2013
+)
+R: A language and environment for statistical computing
+.
+R Foundation for Statistical Computing
+,
+Vienna, Austria
+.
+www.R-project.org (8 June 2011, date last accessed)
+.
+
+Google Scholar
+
+Reich
+PB
+Walters
+MB
+Ellsworth
+DS
+(
+1997
+)
+From tropics to tundra: global convergence in plant functioning
+.
+Proc Natl Acad Sci USA
+94
+:
+13730
+–
+13734
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Ritchie
+JC
+Humes
+KS
+Weltz
+MA
+(
+1995
+)
+Laser altimeter measurements at Walnut Gulch watershed, Arizona
+.
+J Soil Water Conserv
+50
+:
+440
+–
+442
+.
+
+OpenURL Placeholder Text
+
+WorldCat
+ 
+
+Ryu
+Y
+Baldocchi
+DD
+Kobayashi
+H
+et al.  (
+2011
+)
+Integration of MODIS land and atmosphere products with a coupled-process model to estimate gross primary productivity and evapotranspiration from 1 km to global scales
+.
+Glob Biogeochem Cycle
+25
+:
+1
+–
+24
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Sack
+L
+Melcher
+PJ
+Liu
+WH
+Middleton
+E
+Pardee
+T
+(
+2006
+)
+How strong is intracanopy leaf plasticity in temperate deciduous trees?
+Am J Bot
+93
+:
+829
+–
+839
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Schneider
+CA
+Rasband
+WS
+Eliceiri
+KW
+(
+2012
+)
+NIH Image to ImageJ: 25 years of image analysis
+.
+Nat Methods
+9
+:
+671
+–
+675
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Schulze
+ED
+Kelliher
+FM
+Korner
+C
+Lloyd
+J
+Leuning
+R
+(
+1994
+)
+Relationships among maximum stomatal conductance, ecosystem surface conductance, carbon assimilation rate, and plant nitrogen nutrition—a global ecology scaling exercise
+.
+Annu Rev Ecol Syst
+25
+:
+629
+–
+660
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Smith
+WK
+Nobel
+PS
+(
+1978
+)
+Influence of irradiation, soil–water potential, and leaf temperature on leaf morphology of a desert broadleaf, Encelia farinosa Gray (Compositae)
+.
+Am J Bot
+65
+:
+429
+–
+432
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Witkowski
+ETF
+Lamont
+BB
+(
+1991
+)
+Leaf specific mass confounds leaf density and thickness
+.
+Oecologia
+88
+:
+486
+–
+493
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Woodruff
+DR
+Bond
+BJ
+Meinzer
+FC
+(
+2004
+)
+Does turgor limit growth in tall trees?
+Plant Cell Environ
+27
+:
+229
+–
+236
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Wright
+IJ
+Reich
+PB
+Westoby
+M
+et al.  (
+2004
+)
+The worldwide leaf economics spectrum
+.
+Nature
+428
+:
+821
+–
+827
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Yano
+S
+Terashima
+I
+(
+2004
+)
+Developmental process of sun and shade leaves in Chenopodium album L
+.
+Plant Cell Environ
+27
+:
+781
+–
+793
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Zhang
+Y
+Equiza
+MA
+Zheng
+Q
+Tyree
+MT
+(
+2011
+a )
+Factors controlling plasticity of leaf morphology in Robinia pseudoacacia L. III: biophysical constraints on leaf expansion under long-term water stress
+.
+Physiol Plant
+143
+:
+367
+–
+374
+.
+
+Google Scholar
+Crossref
+Search ADS
+PubMed
+
+WorldCat
+ 
+
+Zhang
+Y
+Equiza
+MA
+Zheng
+Q
+Tyree
+MT
+(
+2011
+b )
+Factors controlling plasticity of leaf morphology in Robinia pseudoacacia L. II: the impact of water stress on leaf morphology of seedlings grown in a controlled environment chamber
+.
+Ann For Sci
+69
+:
+39
+–
+47
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+
+Zhang
+Y
+Zheng
+Q
+Tyree
+MT
+(
+2011
+c )
+Factors controlling plasticity of leaf morphology in Robinia psuedoacacia L. I: height-associated variation in leaf structure
+.
+Ann For Sci
+69
+:
+29
+–
+37
+.
+
+Google Scholar
+Crossref
+Search ADS
+
+WorldCat
+ 
+© The Author 2014. Published by Oxford University Press. All rights reserved. For Permissions, please email: journals.permissions@oup.com
+Download all slides
+710 Views
+21 Citations
+View Metrics
+×
+Email alerts
+Article activity alert
+Advance article alerts
+New issue alert
+Receive exclusive offers and updates from Oxford Academic
+Related articles in
+
+    Web of Science
+    Google Scholar
+
+Citing articles via
+Web of Science (22)
+Google Scholar
+Crossref
+
+    Latest
+    Most Read
+    Most Cited
+
+Differences in carbon and nitrogen metabolism between male and female Populus cathayana in response to deficient nitrogen
+Hydraulic traits of Neotropical canopy liana and tree species across a broad range of wood density: implications for predicting drought mortality with models
+Salinity has little effect on photosynthetic and respiratory responses to seasonal temperature changes in black mangrove ( Avicennia germinans ) seedlings
+Juniperus communis populations exhibit low variability in hydraulic safety and efficiency
+Photosynthetic capacity of male and female Hippophae rhamnoides plants along an elevation gradient in eastern Qinghai-Tibetan Plateau, China
+
+    About Tree Physiology
+    Editorial Board
+    Author Guidelines
+    Facebook
+    Twitter
+
+    Purchase
+    Recommend to your Library
+    Advertising and Corporate Services
+    Journals Career Network
+
+Tree Physiology
+
+    Online ISSN 1758-4469
+    Copyright © 2020 Oxford University Press
+
+    About Us
+    Contact Us
+    Careers
+    Help
+    Access & Purchase
+    Rights & Permissions
+    Open Access
+
+Connect
+
+    Join Our Mailing List
+    OUPblog
+    Twitter
+    Facebook
+    YouTube
+    Tumblr
+
+Resources
+
+    Authors
+    Librarians
+    Societies
+    Sponsors & Advertisers
+    Press & Media
+    Agents
+
+Explore
+
+    Shop OUP Academic
+    Oxford Dictionaries
+    Epigeum
+    OUP Worldwide
+    University of Oxford
+
+Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide
+Oxford University Press
+
+    Copyright © 2020 Oxford University Press
+    Cookie Policy
+    Privacy Policy
+    Legal Notice
+    Site Map
+    Accessibility
+    Get Adobe Reader
+
+Close
+This Feature Is Available To Subscribers Only
+
+Sign In or Create an Account
+Close
+
+This PDF is available to Subscribers Only
+View Article Abstract & Purchase Options
+
+For full access to this pdf, sign in to an existing account, or purchase an annual subscription.
+Close
+Scholarly IQ

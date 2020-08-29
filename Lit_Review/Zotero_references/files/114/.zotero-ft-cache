@@ -1,0 +1,1109 @@
+TOLERANCE TO SHADE, DROUGHT, AND WATERLOGGING OF TEMPERATE NORTHERN HEMISPHERE TREES AND SHRUBS - Niinemets - 2006 - Ecological Monographs - Wiley Online Library
+
+    Skip to Article Content
+    Skip to Article Information
+
+COVID-19 Impact: Information for print subscribers
+Access by Smithsonian Institution
+The Ecological Society of America
+The Ecological Society of America
+Access by Smithsonian Institution
+Search within
+
+    Search term
+    Advanced Search Citation Search
+    Search term
+    Advanced Search Citation Search
+    Search term
+    Advanced Search Citation Search
+
+Login / Register
+
+    Journals
+        Ecology
+        Ecological Applications
+        Ecological Monographs
+        Frontiers in Ecology and the Environment
+        Ecosphere
+        Open access
+        The Bulletin of the Ecological Society of America
+
+    Become a Member
+    ESA.org
+
+Journal list menu
+
+    Journal
+    Articles
+
+Ecological Monographs
+Volume 76, Issue 4 Ecological Monographs
+Article
+Full Access
+TOLERANCE TO SHADE, DROUGHT, AND WATERLOGGING OF TEMPERATE NORTHERN HEMISPHERE TREES AND SHRUBS
+Ülo Niinemets
+
+Department of Plant Physiology, University of Tartu, Riia 23, 51011 Tartu, Estonia
+
+Centro di Ecologia Alpina, I-38040 Viote del Monte Bondone (TN), Italy
+Search for more papers by this author
+Fernando Valladares
+
+Instituto de Recursos Naturales, Centro de Ciencias Medioambientales, C.S.I.C., Serrano 115 dpdo., E-28006 Madrid, Spain
+
+4  Corresponding author. E‐mail: valladares@ccma.csic.es
+Search for more papers by this author
+Ülo Niinemets
+
+Department of Plant Physiology, University of Tartu, Riia 23, 51011 Tartu, Estonia
+
+Centro di Ecologia Alpina, I-38040 Viote del Monte Bondone (TN), Italy
+Search for more papers by this author
+Fernando Valladares
+
+Instituto de Recursos Naturales, Centro de Ciencias Medioambientales, C.S.I.C., Serrano 115 dpdo., E-28006 Madrid, Spain
+
+4  Corresponding author. E‐mail: valladares@ccma.csic.es
+Search for more papers by this author
+First published: 01 November 2006
+https://doi-org.smithsonian.idm.oclc.org/10.1890/0012-9615(2006)076[0521:TTSDAW]2.0.CO;2
+Citations: 405
+
+Corresponding Editor: M. J. Lechowicz
+About
+
+        Figures
+        References
+        Related
+        Information
+    PDF PDF
+
+Sections
+
+    Abstract
+    Introduction
+    Materials and Methods
+    Results
+    Discussion
+    Conclusions
+    Acknowledgments
+    APPENDIX A
+    APPENDIX B
+    Supporting Information
+    Literature Cited
+    Citing Literature
+
+PDF PDF
+Tools
+
+    Request permission
+    Export citation
+    Add to favorites
+    Track citation
+
+Share Share
+
+Give access
+Share full text access
+Close modal
+
+Share full-text access
+Please review our Terms and Conditions of Use and check box below to share full-text version of article.
+I have read and accept the Wiley Online Library Terms and Conditions of Use
+Shareable Link
+
+Use the link below to share a full-text version of this article with your friends and colleagues. Learn more.
+Copy URL
+
+Share a link
+Share on
+
+    Email
+    Facebook
+    Twitter
+    Linked In
+    Reddit
+    Wechat
+
+Abstract
+
+Lack of information on ecological characteristics of species across different continents hinders development of general world‐scale quantitative vegetation dynamic models. We constructed common scales of shade, drought, and waterlogging tolerance for 806 North American, European/West Asian, and East Asian temperate shrubs and trees representing about 40% of the extant natural Northern Hemisphere species pool. These scales were used to test the hypotheses that shade tolerance is negatively related to drought and waterlogging tolerances, and that these correlations vary among continents and plant functional types. We observed significant negative correlations among shade and drought tolerance rankings for all data pooled, and separately for every continent and plant functional type, except for evergreen angiosperms. Another significant trade‐off was found for drought and waterlogging tolerance for all continents, and for evergreen and deciduous angiosperms, but not for gymnosperms. For all data pooled, for Europe and East Asia, and for evergreen and deciduous angiosperms, shade tolerance was also negatively associated with waterlogging tolerance. Quantile regressions revealed that the negative relationship between shade and drought tolerance was significant for species growing in deep to moderate shade and that the negative relationship between shade and waterlogging tolerance was significant for species growing in moderate shade to high light, explaining why all relationships between different tolerances were negative according to general regression analyses. Phylogenetic signal in the tolerance to any one of the three environmental factors studied was significant but low, with only 21–24% of cladogram nodes exhibiting significant conservatism. The inverse relationships between different tolerances were significant in phylogenetically independent analyses both for the overall pool of species and for two multispecies genera (Pinus and Quercus) for which reliable molecular phylogenies were available. Only 2.6–10.3% of the species were relatively tolerant to two environmental stresses simultaneously (tolerance value ≥3), and only three species were tolerant to all three stresses, supporting the existence of functional trade‐offs in adjusting to multiple environmental limitations. These trade‐offs represent a constraint for niche differentiation, reducing the diversity of plant responses to the many combinations of irradiance and water supply that are found in natural ecosystems.
+Introduction
+
+Differential tolerance to environmental stress among plants is a crucial aspect underlying geographic patterns of vegetation and a central concept to understanding the structure and dynamics of terrestrial ecosystems ( Mooney et al. 2002 ). Tolerance to a given stress has a physiological basis but it is strongly affected by many environmental factors, which has led to the distinction between physiological and ecological tolerances. The tolerance to a given stress is typically reduced by other co‐occurring stresses or by biotic factors such as herbivores, pests, and competition from neighbor plants. For example shade tolerance is reduced by mildew in many temperate forest species such as oaks ( Rackham 2003 ), and by drought in woody seedlings ( Battaglia et al. 2000 , Sánchez‐Gómez et al. 2006 b ). However, knowledge of the tolerance to the primary abiotic stresses is still scant for many important wild plants and tolerance to simultaneous stresses is poorly understood despite the ubiquitous coexistence of multiple stresses in nature ( Hall and Harcombe 1998 , Battaglia et al. 2000 , Niinemets and Valladares 2004 ). Due at least in part to these knowledge gaps, few attempts have been made to develop a general theory of succession and dynamics for main vegetation types across the globe, and the existing diversity of theories on vegetation dynamics is associated with the lack of a common intercontinental stress tolerance scale ( Bugmann and Solomon 1995 , Bugmann and Cramer 1998 , Peng 2000 , Glenz 2005 ).
+
+Since multiple stresses co‐occur, the many combinations of different severities for different stresses generate many potential niches and provide a larger framework for an advanced understanding of species coexistence than species segregation according tolerance to one single stress ( Sack 2004 , Sánchez‐Gómez et al. 2006 a ). However, not all the possible combinations of environmental drivers are frequent in natural conditions. In fact, shaded sites tend to be moist, and plants from waterlogged sites do not usually experience root zone drought and low air humidity. We argue that even though the frequency is not the same for all the possible combinations of stress intensity, significant interactions of three important and widespread stress factors for vegetation (i.e., shade, drought, and waterlogging) do occur in nature. For instance, drought not only occurs under high light but also, and with potentially severe effects, in the shade ( Tschaplinski et al. 1998 , Valladares and Pearcy 2002 , Hastwell and Facelli 2003 , Sack et al. 2003 ); waterlogging occurs both under high light and in the shade, many flooded areas include drier microsites, and in certain areas waterlogging alternates with severe drought ( Streng et al. 1989 , Hall and Harcombe 1998 , Silvertown et al. 2001 , Glenz 2005 ). Thus, selection could favor most if not all polytolerance strategies since there are niches available. Consequently, the main limitation for these polytolerance strategies would be physiological and morphological trade‐offs that prevent species from achieving simultaneous tolerance to more than one stress. Although some of these compromises have been shown in certain experimental studies dealing with a limited number of species ( Sack 2004 , Sánchez‐Gómez et al. 2006 a ), the extent and generality of these trade‐offs is poorly known despite many theoretical considerations ( Tilman 1988 , Smith and Huston 1989 ).
+
+General occurrence of inverse gradients of water and light availabilities has led to suggestions that species' shade and drought tolerances are negatively associated ( Smith and Huston 1989 , Abrams 1994 , Kubiske et al. 1996 , Niinemets and Kull 1998 , Niinemets and Valladares 2004 ). Existence of inverse correlations between ecological requirements of species involves the ad hoc hypothesis that being tolerant to a certain environmental factor involves a cost such that the plant cannot adjust simultaneously to multiple environmental stresses. In fact, shade and drought tolerance involve conflicting requirements for biomass investment in foliage and branches for efficient light capture vs. biomass investment in roots for efficient water uptake, and reductions in total foliage area and enhanced leaf clumping to reduce evaporation ( Valladares 2003 , Cescatti and Niinemets 2004 ). This hypothesis has been supported by some experimental studies (e.g., Kubiske et al. 1996 , Niinemets and Kull 1998 , Sánchez‐Gómez et al. 2006 a ,  b ) but not others (e.g., Coomes and Grubb 2000 , Sack and Grubb 2002 , Sack 2004 ). Conclusive testing of this hypothesis is of paramount significance to understanding species dispersal along natural water and light availability gradients. A trade‐off between shade tolerance and drought tolerance would imply a constraint on niche differentiation in coexisting species, while no trade‐off would indicate greater scope for niche differentiation ( Sack 2004 ).
+
+Depending on site topography and soil texture, certain habitats are significantly influenced by waterlogging, which results in low oxygen concentration in the soil. An excess of water in the soil may paradoxically cause water stress symptoms in plants ( Lambers et al. 1998 ). Flooding and waterlogging can alternate with drought and they may differentially affect open and understory habitats. This means that the relationship between shade and drought tolerance for a given set of plant species can be modified by their differential waterlogging tolerance. Overall, there are few woody plant species that can tolerate long‐term low soil oxygen availabilities, and even these species form a sparse canopy in heavy stress conditions ( Talbot and Etherington 1987 , Kozlowski et al. 1991 ). There are many potential conflicts in developing functional strategies to cope simultaneously with waterlogging and other stresses such as shade or drought. Tolerance to waterlogging can be achieved by an overall enhanced root turnover and by the maintenance of numerous metabolically costly meristematic cells in stems and roots for adventitious root formation ( Kozlowski 1997 , Eissenstat and Volder 2005 ), which is not compatible with survival and growth under low light. In fact, teasing apart the interactions between light and waterlogging in a study of seedlings and saplings growing in river floodplains in Texas, USA, proved complex because waterlogging tolerance interacted with many life history traits and stress tolerance capacities of the plants ( Streng et al. 1989 , Hall and Harcombe 1998 ). Compromises between plant traits that augment waterlogging tolerance and those that increase shade or drought tolerance, though, predict a negative correlation between waterlogging and these other stresses.
+
+The aim of this study was to explore the tolerance to three important stresses (shade, drought, and waterlogging) in an ample number of species sharing a general growth form (self‐supporting trees and shrubs) and occurring over a wide geographical area (temperate zone of the Northern Hemisphere). An extensive review of studies, syntheses, and databases was carried out with this aim in mind, and information on the tolerance to these stresses of several hundreds of woody species was compiled. This information was then critically inspected to remove unreliable values and cross‐calibrated to generate homogeneous rankings of species' tolerances according to a uniform five‐level scale. An initial critical task in our study was to construct common scales of species' shade, drought, and waterlogging tolerance for dominant species in European/West Asian, North American, and East Asian temperate forest ecosystems. Using these intercontinental shade, waterlogging, and drought tolerance rankings, we then tested the hypotheses of an inverse correlation between species' shade and drought tolerance, and the modification of this correlation by species' waterlogging tolerance. These inverse correlations would indicate that polytolerance was not favored over evolutionary time due to functional trade‐offs that prevent maximal tolerance to more than one stress factor. The influence of leaf habit (evergreen vs. deciduous) on these correlations was also explored because leaf habit has been shown to be a key element in the adaptation of plants to cope with limiting factors ( Press 1999 ).
+
+The ranking of species according to their tolerance for these three stress factors led to the identification of general functional groups among coexisting plant species. A functional group is a nonphylogenetic classification resulting in a grouping of organisms that respond in a similar way to environmental factors ( Gitay and Noble 1994 ). But phylogenetic signal (i.e., the tendency for related species to resemble each other) is ubiquitous ( Blomberg et al. 2003 ), and ultimately all the species of a given community or region share a common ancestor at some point in their phylogeny. Thus, we argue that there is always a phylogenetic signal that can be found in the traits of any group of species. The phylogenetic signal is thus a continuous characteristic and neither of the extremes (0% or 100% of phylogenetic signal) is likely ( Blomberg et al. 2003 ). We explored the phylogenetic signal in our data set taking into account that phylogeny is a source of historical information that can be used to generalize functional relationships across the species more efficiently ( Westoby 1999 ).
+
+It must be recognized that there are inherent limitations in a study like the present one, primarily deriving from the lack of information on many potentially interesting species and from the heterogeneity across both continents and authors in approaches to scoring stress tolerance. Another limitation is imposed by the fact that most research on the stress tolerance of woody plants has been focused on juveniles, and the age of the plant can affect many functional aspects of a given species, including its stress tolerance ( Battaglia and Reid 1993 , Cavender‐Bares and Bazzaz 2000 ). For instance, shade tolerance has been shown to decrease with age in certain species ( Condit et al. 1999 , Lusk 2004 ), while drought tolerance is usually larger in saplings and adults than in seedlings ( Cavender‐Bares and Bazzaz 2000 , Castro et al. 2004 , Mediavilla and Escudero 2004 ). Even though the empirical knowledge on the ontogenetic changes in stress tolerance is fragmentary, there are theoretical bases to support some of these changes ( Grubb 1998 ). Nevertheless, these ontogenetic effects are expected to play a marginal role in comparative rankings of stress tolerance of large numbers of species such as the present one, since stress tolerance of adults is broadly correlated with that of seedlings, as has been well‐documented for the shade tolerance of temperate trees ( Ellenberg 1996 , Reich et al. 2003 ).
+Materials and Methods
+The data set of species ecological requirements
+
+An extensive data set of species' shade, drought, and waterlogging tolerance estimates was constructed to include important trees and shrubs with different foliage physiognomy (conifers, deciduous and evergreen broadleaf species) on all three continents. The entire data set consists of 806 temperate Northern Hemisphere woody taxa and species nomenclature follows the latest version of the W 3 TROPICOS database ( Missouri Botanical Garden 2005 ) along with the Flora of China Checklist ( available online ). 5
+
+We tried to keep the scope of the experimental unit, “species,” comparable for all cases. Due to infraspecific taxa and microspecies, the initial data set included 5% more taxa. Several data sources provided estimates of ecological potentials of subspecies or species varieties ( Ellenberg 1991 ). The estimates of ecological potentials for species varieties and subspecies were in most cases averaged. Infraspecific taxa were used only for species populations widely separated geographically that also exhibited significant differentiation in ecological potentials (Alnus incana and A. viridis from Europe vs. A. incana ssp. rugosa , A. incana ssp. tenuifolia , and A. viridis ssp. sinuata from North America; Betula pubescens from the northern and central part of Europe vs. B. pubsecens ssp. carpatica from the southeastern part of Europe), and for the two Pinus contorta subspecies contorta and latifolia that have different site preference and important divergence in crown form, and foliage and cone morphology ( Burns and Honkala 1990 ).
+
+Due to apomixis and/or hybridization and polyploidization, the taxonomy and genetic origin of several woody species genera such as Acer, Crataegus, Rosa , Rubus , Sorbus, and Ulmus is complex and species definition differs among authors ( Richens 1980 , Timmermann 1992 , Armstrong and Sell 1996 , Carrión Vilches et al. 2000 , King and Ferris 2002 , Whitley et al. 2003 , Collada et al. 2004 , Robertson et al. 2004 ). A number of studies reported estimates of ecological potentials of endemic polyploid hybrid species or microspecies (e.g., Hill et al. [1999 ] reports ecological potentials for 14 endemic British Sorbus species), while other data sources reported estimates for corresponding aggregated species. Given that microspecies have limited range of dispersal ( Pilgrim et al. 2004 ), and there is often a continuum in traits among hybrid species due to multiple hybridization events ( King and Ferris 2002 , Whitley et al. 2003 , Robertson et al. 2004 ), microspecies were grouped together as corresponding aggregate species or species hybrids on the basis of recent genetic studies ( Armstrong and Sell 1996 , Whitley et al. 2003 , Robertson et al. 2004 ). The values of the ecological potentials of grouped microspecies were averaged.
+
+Out of the 806 species in the final data set, 566 were winter deciduous and 240 were evergreen. The data set included 118 gymnosperms of which 11 species and interspecific hybrids from the genera Gingko , Larix, Metasequoia , and Taxodium are winter deciduous. In terms of origins, 364 species were native to North America, 262 to Europe/West Asia, and 211 to East Asia ( Appendix A ). The data set included five interspecific hybrids between North American and European species: Aesculus × carnea (A. hippocastanum × A. pavia), Crataegus × lavallei (C. stipulacea × C. crus‐galli), Laburnum × watereri (L. alpinum × L. anagyroides), Platanus × acerifolia (P. orientalis × P. occidentalis), and Populus × canadensis (P. nigra × P. deltoides). The data set also included an interspecific hybrid Larix × eurolepis (L. decidua × L. kaempferi) of European/East Asian origin. In addition to these intercontinental hybrids, 25 species were native to both North America and Europe ( Appendix A ). Overall, the data set covers 40% of extant native Northern Hemisphere woody vegetation (73% of North American, 69% of European/West Asian, and 23% of East Asian woody species; Qian and Ricklefs 1999 , 2000 , Ricklefs et al. 2004 ).
+Construction of uniform tolerance rankings for Northern Hemisphere
+
+Shade, drought, and waterlogging tolerance rankings of species were first developed separately for every continent using an extensive selection of published tolerance rankings, and cross‐calibrating every tolerance ranking using species present in several tolerance rankings. The continent‐specific rankings were further converted to word‐scale shade, drought, and waterlogging rankings using tolerance estimates for more than a hundred native and introduced widespread species that were available for two or more continents ( Figs. 1 , 2 ). Data from different sources and different environmental conditions led to different rankings of tolerance for a given species. Here we use the average, always after detailed cross‐calibration of the different data sets using common species. The standard error, which is given for species with rankings available from two or more studies ( Appendix A ), reflects this dispersion. To control for erroneous data, estimates of the species requirement in any single data set that differed by more than two levels from the general species mean were removed, and the corrected species mean value was calculated. Basic steps followed for the cross‐calibration among different sources are given in the following section; a more detailed description of the process followed to get a common scale of tolerance and a list of the original sources of information are provided in Appendix B .
+figure image
+Figure 1
+Open in figure viewer PowerPoint
+
+(A) Relationships between the shade tolerance scoring developed for temperate species in North America and the species light requirement developed in Europe (Ellenberg's light indicator value; Ellenberg 1991 ), and (B) relationships between the North American shade tolerance ranking and the species scoring developed in East Asia. Data points in (A) correspond to native, naturalized, or widely occurring species in both North America and Europe. In (B), the shade tolerance estimates derived for introduced East Asian species in North America and Europe are regressed against the shade tolerance estimates determined for the same species growing in the native habitats in East Asia. The dashed line in (B) denotes the 1:1 relationship. The correlation in (A) was employed to convert the shade tolerance estimates of North American and European species to a common scale, while the regression in (B) was employed to calibrate the East Asian species rankings
+figure image
+Figure 2
+Open in figure viewer PowerPoint
+
+(A) Correlations between the waterlogging tolerance rankings of temperate species developed in North America and Europe, and (B) correlations between the drought tolerance ranking developed in North America and species moisture indicator value developed in Europe. Data points are as described for Fig. 1 A. The dashed line in (A) is for the 1:1 relationship. The regressions in (A) and (B) were used to obtain common waterlogging and drought tolerance scales for North American and European species
+Derivation of shade tolerance scales
+
+From the many possible definitions of shade tolerance (survival, growth, completion of life cycle, optimal physiological performance, etc.; e.g., Grime 1979 , Smith and Huston 1989 , Woodward 1990 , Grubb 1998 , Reich et al. 2003 , Valladares et al. 2005 a ), shade tolerance is taken here as the capacity for growth in the shade. Since shade comprises a range of light availabilities from very dark to rather bright environments, shade tolerance is ideally defined by the minimum light at which a given species is able to grow. Shade tolerance of woody plants is most frequently provided for the juveniles of each species and thus the values obtained here apply primarily to seedlings and saplings. Even though many species have been shown to change their shade tolerance during their lifetime, with a tendency for a decreasing tolerance with age, in most cases the relative rankings of coexisting species do not change from seedlings to adults ( Yevstigneyev 1990 , Grubb 1998 , Kitajima and Bolker 2003 ). The five‐level scale used for shade tolerance (1, very intolerant; 2, intolerant; 3, moderately tolerant; 4, tolerant; 5, very tolerant) corresponds approximately to the following light availabilities expressed as percentage of full sunlight: 1, >50%; 2, 25–50%; 3, 10–25%; 4, 5–10%; 5, 2–5%.
+
+We used the five‐level shade tolerance scale of Baker (1949) as the starting point for the North American species. This shade tolerance ranking is based on actual measurements of minimum light availability of species location ( Wiesner 1907 , Zon and Graves 1911 ), further modified to include a wide range of foresters' opinions on species biology. Because it includes a large number of important species, it is commonly used in classifying tree light requirements in comparative studies of life history traits in North American tree species ( Kobe et al. 1995 , Coomes and Grubb 2000 , Walters and Reich 2000 ). Data for nine additional data sets covering more species and providing additional data for the species included by Baker were used to construct a more complete and robust data set for North America ( Tables 1 , 2 ; see Appendix B for details).
+Table 1. Studies that provided the estimates of shade tolerance for native and introduced plants on different continents
+table image
+Table 2. Comparison of various shade‐tolerance scorings
+table image
+
+For European species, we used the species ranking of Ellenberg (1991) , which is commonly employed to characterize species' potential to grow in the understory ( Niinemets and Kull 1994 , Coomes and Grubb 2000 , Cornwell and Grubb 2003 ). Ellenberg's ecological indicator values for light characterize species' natural dispersal along the habitats of varying light availability, and vary for woody species from values of three to nine, giving a seven‐level scale ( Ellenberg 1991 , Hill et al. 1999 , 2000 ). These values are derived from actual measurements of light availability in a species' habitat. To improve the shade tolerance estimates of important European trees and increase the scope of the data set, 11 additional shade tolerance scorings were included and cross‐calibrated as detailed in Appendix B and Tables 1 , 2 .
+
+For East Asian species, we used the study of Kikuzawa (1984) augmented by the assessments of species successional position in Koike (1988) and Maruyama (1978) and from various comparative studies reporting species' successional sequence and species; tolerance of understory shade (e.g., Kohyama 1984 , Ohsawa et al. 1986 , Kikuzawa 1988 , Peters 1992 , 1997 , Kamijo and Okutomi 1995 a ,  b , Ozaki and Ohsawa 1995 , Peters et al. 1995 , Sumida 1995 , Tanouchi and Yamamoto 1995 , Nakashizuka and Iida 1996 , Tanouchi 1996 , Ohsawa and Nitta 1997 , Suzuki 1997 , Hiroki and Ichino 1998 , Lei et al. 1998 , Ke and Werger 1999 , Masaki 2002 , Hiroki 2003 , Ishii et al. 2003 , Nanami et al. 2004 ; Table 1 ; see Appendix B for details). The greater woody species richness in East Asia relative to Europe and North America, which prevents the development of straightforward rankings of the species, and the lack of a standard classification of shade tolerance on this continent imposed obvious limitations to the reliable inclusion of many Asian species in our data set.
+
+To derive a common shade tolerance scale for North American and European species, we used the species present in both data sets and derived a linear regression between the shade tolerance and the light requirement scorings ( Fig. 1 A). This regression equation was employed to convert the estimates of light requirement of European species to the common five‐level shade tolerance scale (1, very intolerant; 5, very tolerant). Ultimately, the different shade tolerance estimates of species common in both data sets were averaged.
+
+For 149 East Asian native species we obtained corresponding shade tolerance estimates for the same species introduced to North America and/or Europe ( Table 1 ). We employed linear regression analysis to test whether the five‐level scale of shade tolerance developed in the native habitat of the species corresponds to the five‐level scale developed previously for the North American and European species. This analysis demonstrates that both the shade tolerance scorings obtained in species' native and foreign locations were strongly related with minor deviations from the 1:1 line ( Fig. 1 B). The final shade tolerance ranking for the East Asian species was obtained as the mean of the shade tolerance estimates determined in the native habitats and for these species growing on other continents. This ranking was critically revised further by Professors Kihachiro Kikuzawa, Tohru Nakashizuka, Masahiko Ohsawa, and Tsutom Hiura (see Acknowledgments ), and we believe that the best possible shade tolerance scale for East Asian species was obtained.
+Comparative waterlogging tolerance estimates
+
+The definitions of species' waterlogging tolerance (i.e., tolerance of reduced root‐zone soil oxygen availabilities) vary strongly from study to study ( Bell and Johnson 1974 , Whitlow and Harris 1979 , Bratkovich et al. 1993 , Kuhns and Rupp 2000 ). This large variation in definitions is partly associated with inherent differences in response of temperate species to waterlogging depending on whether the waterlogging is during winter or during the growing season, whether the water is flowing or standing, and the degree to which soil oxygen contents decrease and soil redox potential is altered ( Bratkovich et al. 1993 , Crawford 1996 , Pezeshki et al. 1996 , 1997 ). We adopt the qualitative waterlogging tolerance scale of Whitlow and Harris (1979) : 5, very tolerant (survives deep, prolonged waterlogging for more than one year); 4, tolerant (survives deep waterlogging for one growing season); 3, moderately tolerant (survives waterlogging or saturated soils for 30 consecutive days during the growing season); 2, intolerant (tolerates one to two weeks of waterlogging during the growing season); 1, very intolerant (does not tolerate water‐saturated soils for more than a few days during the growing season). Although waterlogging tolerance is often considered synonymous with flooding tolerance, we note that flooding impact in riparian ecosystems also involves, in addition, sand/gravel depositions around the tree base and various mechanical stresses ( Naiman et al. 1998 , Bendix and Hupp 2000 ).
+
+Waterlogging tolerance rankings for the North American species were obtained from Bell and Johnson (1974) , Minore (1979) , Whitlow and Harris (1979) revised using the data from White (1973) , Barnes (1991) , Tesche (1992) , Bratkovich et al. (1993) , Iles and Gleason (1994) , USDA NRCS (1996) , Kuhns and Rupp (2000) , and from the online USDA Plants database Version 3.5 ( USDA NRCS 2005 ). All data sets were cross‐calibrated as detailed in Appendix B . The refinement of final rankings of species with similar waterlogging tolerance according to large data sets was achieved by using the studies on dispersal of species along wetland–upland continua as well as ecophysiological common garden investigations ( Hosner 1958 , Harms et al. 1980 , Jones and Sharitz 1989 , Jones et al. 1994 , Ranney 1994 , Ranney and Bir 1994 , Yin et al. 1994 , Hoagland et al. 1996 , Naiman et al. 1998 , Bendix and Hupp 2000 , Dale and Ware 2004 ).
+
+For the European species, waterlogging tolerance estimates were obtained from Prentice and Helmisaari (1991) , Tesche (1992) , Merritt (1994) , Schaffrath (2000) , Glenz (2005) , the Biological Flora of British Isles review series published regularly by the Journal of Ecology (1941–2005) , from studies of comparative waterlogging tolerance ( Frye and Grosse 1992 , Tapper 1993 , 1996 , Ranney 1994 , Ranney and Bir 1994 , van Splunder et al. 1995 , Anonymous 1996 , Siebel and Blom 1998 , Siebel et al. 1998 , van Splunder 1998 , Burkart 2001 , Karrenberg et al. 2002 , Kreuzwieser et al. 2002 ), and country‐specific floras (e.g., Vaga et al. 1960 , Oberdorfer et al. 1994 ). Linear regressions were employed to cross‐calibrate the data sets. Details of number of species from each source and cross‐calibration statistics are given in Appendix B . The obtained scale was further converted to the five‐level scale derived for North American species using the species common in both North American and European waterlogging tolerance assessments ( Fig. 2 A).
+
+Among the North American and European data sets, cross‐calibrated waterlogging tolerance estimates were available for 90 East Asian species. Further data of species waterlogging tolerance were obtained from Nikolov and Helmisaari (1992; comparative data for nine European and East Asian species), from the online databases Virtual Plant Tags ( Dirr 2005 ) and Plants for a Future ( Morris 2005 ), and from comparative ecophysiological studies ( Tsukahara 1985 , Takahashi et al. 1988 , Ranney 1994 , Ranney and Bir 1994 , Terazawa and Kikuzawa 1994 , Yamamoto et al. 1995 , Sakio 2003 ). Ecophysiological comparative studies were also employed to revise the initial estimates obtained from online databases. Using the cross‐calibrated values, all waterlogging estimates were converted to a common scale, and a mean waterlogging tolerance estimate was calculated for every species. The final ranking of East Asian species was critically reviewed by Professors Kihachiro Kikuzawa, Tohru Nakashizuka , Masahiko Ohsawa, and Tsutom Hiura (see Acknowledgments ), and the tolerance rankings were adjusted by ±0.25–1.0 tolerance units for a total of 26% of species in response to their expert suggestions.
+Determination of drought tolerance rankings
+
+Drought tolerance can be achieved by a diverse array of structural and physiological traits, and plant rankings according to drought tolerance are often based on different combinations of traits and evidence. The three major bases for species rankings are physiological tolerance to water stress, morphological and life cycle strategies to cope with scant water, and the water availability estimated on the sites where the species more frequently occur ( Hsiao 1973 , Ludlow 1989 , Ellenberg 1996 , Chaves et al. 2002 , Sack 2004 , Valladares et al. 2005 b ). For this reason, our drought tolerance rankings (1, very intolerant; 2, intolerant; 3, moderately tolerant; 4, tolerant; 5, very tolerant) are based on site characteristics of species dispersal and physiological potentials of species. The relevant site features considered are total annual precipitation, ratio of precipitation to potential evapotranspiration (P:PET ratio), and duration of the dry period. Plant physiological potentials are characterized by minimum soil water potential that can be tolerated over the long term with <50% of foliage damage or dieback ( Larcher 1994 ). The five‐level scale used for drought tolerance approximately corresponded with the following values for each category rank: 1, >600 mm precipitation with little variation during growing season, P:PET ratio of >3.0, few days of drought, and greater than −0.3 MPa soil water potential; 2, 500–600 mm precipitation, variation of precipitation distribution during growing season characterized by coefficient of variation <10%, P:PET ratio of 1.5:3 , few weeks of drought, and from −0.3 to −0.8 MPa soil water potential; 3, 400–500 mm precipitation with a growing season coefficient of variation of 10–15%, P:PET ratio of 0.8:1.5, up to one month of drought, and from −0.8 to −1.5 MPa soil water potential; 4, 300–400 mm precipitation with a growing season coefficient of variation of 20–25%, P:PET ratio of 0.5:0.8, two to three months of drought, and from −1.5 to −3 MPa soil water potential; 5, <300 mm precipitation with a growing season coefficient of variation >25%, P:PET ratio of <0.5, more than three months of drought, and less than −3 MPa soil water potential. Since plants found in a dry area can be on locally wet soils and vice versa, and plants previously exposed to a dry period can tolerate lower soil water potential than those not exposed to it ( Kozlowski et al. 1991 , Larcher 1995 , Valladares and Pearcy 1997 ), the rank assigned to a given species is the one corresponding to the lowest score (lowest tolerance) for each of these four categories. This yields a more conservative estimate of the real drought tolerance of the species. As with shade and waterlogging tolerance, different drought tolerance scales were cross‐calibrated using the species common in specific data sets, and a mean drought tolerance score was determined for each species.
+
+For the North American species, the drought tolerance rankings were derived from Minore (1979) , Meerow and Norcini (1997) , Kuhns and Rupp (2000) , Cerny et al. (2002) , the online USDA Plants database ( USDA NRCS 2005 ), and from comparative studies on species' drought tolerance (e.g., Abrams 1990 , Ni and Pallardy 1991 , Ranney et al. 1991 , Tyree and Alexander 1993 , Abrams et al. 1994 , Kubiske and Abrams 1994 , Sperry et al. 1994 , Kubiske et al. 1996 , Linton et al. 1998 , Loewenstein and Pallardy 1998 ). The drought tolerance scales were cross‐calibrated in a similar manner as shade and waterlogging tolerance scales. Appendix B provides the details of cross‐calibration and data sources.
+
+For the European species, data on species' drought tolerance were obtained from species rankings provided by Ellenberg (1991 , 1996 ), Jahn (1991) , Brzeziecki and Kienast (1994) , Otto (1994) , Brzeziecki (1995) , and Hill et al. (1999) , and from comparative ecophysiological studies (e.g., Ranney et al. 1991 , Acherar and Rambal 1992 , Epron et al. 1993 , Epron 1997 , Aasamaa and Sôber 2001 , Aasamaa et al. 2004 , Cochard et al. 2004 ). Details of data sets used and homogenization of data sets are reported in Appendix B . The European and North American species were converted to a common scale by a linear regression based on the species scored on both continents ( Fig. 2 B).
+
+As with the waterlogging tolerance ranks, cross‐calibrated estimates of species' drought tolerance were available for 90 East Asian species in the North American and European data sets. Drought tolerance assessments of East Asian species relative to European species were also provided for 30 species by Percival and Sheriffs (2002) and for nine species by Nikolov and Helmisaari (1992) . Additional data of species' drought tolerance were obtained from studies comparing species biology ( Maruyama and Toyama 1987 , Ranney et al. 1991 , Liang et al. 1995 ) and from the online databases Plant Virtual Tags ( Dirr 2005 ) and Plants for a Future ( Morris 2005 ). Using the cross‐calibrated values, all drought tolerance assessments were converted to a common scale, and averages were calculated. On the basis of critical assessment of the East Asian drought tolerance scale by Professors Kihachiro Kikuzawa, Tohru Nakashizuka, Masahiko Ohsawa, and Tsutom Hiura (see Acknowledgments ), the tolerance rankings were adjusted by ±0.25–1.0 tolerance units for a total of 17% of the species.
+Phylogenetic signal and phylogenetically independent contrasts
+
+We tested for the presence of phylogenetic signal in the comparative data set of species' tolerance to shade, drought, and waterlogging. The term “phylogenetic signal” refers to the tendency of related species to resemble each other ( Blomberg and Garland 2002 ). Since different methods frequently yield different results, phylogenetic signal was estimated by two complementary approaches: (1) by the correlation between the phylogenetic and the tolerance matrices of distances among the species, and (2) by calculating the average magnitude of phylogenetically independent contrasts over the phylogenetic tree using the analysis of traits module in the PHYLOCOM software ( Ackerly 2004 ). Trait conservatism was estimated using the mean values of the contrasts (see Garland [1991] in Blomberg and Garland [2002 ]) also using PHYLOCOM. For quantification of association between the phylogenetic distance matrix and each of the tolerance distance matrices a Mantel test ( Sokal and Rohlf 1995 ) was carried out with the software Mantel Nonparametric Test Calculator 2.0 (Adam Liedloff, Queensland University of Technology, Australia). The values of Z (Mantel coefficient), g (standard normal variate) and r (correlation coefficient) were calculated from the two matrices specified. The obtained values of g were then compared with critical values for the most common levels of significance ( P = 0.01, P = 0.025, and P = 0.05). The program also generated a user‐specified number of random permutations of the first matrix to determine the possible variation within the data. In our case, 1000 random iterations were calculated for each distance (or dissimilarity) matrix and the values of g and Z were obtained in each case from the randomized distribution. Euclidean distances were used for the matrices and the zeros of the diagonal were excluded from the analyses as recommended by Legendre and Legendre (1983) .
+
+The phylogenetic signal was estimated for both the whole set of species where reliable phylogenetic information was available up to the level of genera, and separately for two genera (Quercus and Pinus) for which reliable phylogenetic information could be found down to species level. These two genera were selected to have one representative of each of the two main groups of woody plants (gymnosperms and angiosperms), and because both Quercus, with over 500 extant species, and Pinus, with over 100 extant species, are ecologically important as major components of many temperate forests.
+
+The ANALYSIS OF TRAITS (AOT, Version 3.0) module of PHYLOCOM ( Ackerly 2004 ) was used to explore the phylogenetic signal and to carry out node‐level analyses of trait means and diversification. Phylomatic, a tool associated with PHYLOCOM ( Ackerly 2004 ) was used to generate the initial tree in the Newick format; the obtained tree was checked and corrected manually for species not yet included in the web database. Phylogenetic signal was estimated in AOT by the average divergence deviation relative to the null hypothesis (randomizations of trait values across the tips of the tree). If closely related species are highly divergent, there will be many large contrasts near the tips of the tree, while if the trait evolution is conserved, the divergence will be small. To handle polytomies, AOT used standard deviation of the descendent trait means. Significance testing for the patterns of traits conservatism was conducted by randomization of trait values across the tips of the phylogeny; 10 000 randomizations were carried out for the results presented here. For the tolerance to each of the three stresses studied here, the percentage of nodes exhibiting significant conservatism and divergence, and the mean divergence and age of these nodes, were calculated. Conservatism was taken as significant when standard deviation was significant in the low tail of the null distribution, and divergence was significant when standard deviation was significant in the high tail of the null distribution. Mean divergence was expressed as standard deviation of values at daughter nodes and age was expressed as percentage of relative age across the tree, with 100% being the root and 0% being the tips of the tree.
+
+Quantitative information to build the phylogenetic tree and the phylogenetic distance matrix was obtained from Soltis et al. (2000) for angiosperm plants, from Schmidt and Schneider‐Poetsch (2002) for gymnosperms, from Manos et al. (1999) for the genus Quercus, and from Liston et al (1999) for the genus Pinus. The concurrent species of our data set and those phylogenetic studies were, for the genus Quercus, Q. acutissima, Q. agrifolia,Q. alba, Q. cerris, Q. chrysolepis,Q. ilex, Q. palustris,Q. robur, Q. rubra, Q. turbinella, and Q. virginiana, and for the genus Pinus, P. albicaulis, P. aristata,P. attenuata, P. bungeana, P. cembra, P. contorta,P. coulteri, P. echinata,P. halepensis, P. lambertiana,P. parviflora, P. ponderosa,P. resinosa, P. strobus,P. sylvestris, P. thunbergii,P. virginiana, and P. wallichiana.
+
+With the phylogenetic information of these species of Quercus and Pinus, phylogenetic independent contrasts ( Felsenstein 1985 ) were carried out to remove the influence of phylogeny on the relationships between the tolerances to shade, drought, and waterlogging. The software PDAP (Phenotypic Diversity Analysis Programs, Version 6.0, by T. Garland, Jr., P. E. Midford, J. A. Jones, A. W. Dickerman, and R. Diaz‐Uriarte), which is described in Garland et al. (1993) , was used. The independent contrasts were carried out with the module PDTREE ( Garland et al. 1999 ). PDTREE allows the user to enter and edit a phylogenetic tree and associated phenotypic data for the species at its tips, which in our case were the values of tolerance to shade, drought, and waterlogging. Since only two phenotypic values can be entered at each tip and node, three trees per genus were used to estimate pairwise correlations between the tolerances to the three environmental factors. Branch lengths from the molecular phylogenies of the species of Quercus and Pinus were directly taken from the bibliography ( Liston et al. 1999 , Manos et al. 1999 ). A Brownian motion model of evolution was assumed. Multifurcations (polytomies) were only found for the Pinus tree and these were handled as described in Purvis and Garland (1993) . Felsenstein's pairwise independent differences (contrasts) were standardized by dividing each contrast by the standard deviation of the contrast (i.e., square root of the sum of the lengths of the branches of the phylogenetic tree). Correlations between traits were also estimated in phylogenetically independent contrasts using the AOT module of PHYLOCOM. The significance was obtained using n − 2 degrees of freedom in a table R, where n is the number of internal nodes providing contrasts, because randomization of tip values breaks down patterns of trait conservatism ( Lapointe and Garland 2001 ). This approach was used for both the whole data set of species and the species of Quercus and Pinus listed above.
+Data analysis
+
+All tolerance scales were derived from independent observations on species' ecological potentials and thus satisfy the primary criterion of the statistical analysis. The bivariate relationships between shade, drought, and waterlogging tolerance estimates were explored by standardized major axis regressions using the program (S)MATR 1.0 ( Falster et al. 2003 ). Standardized major axis (SMA) regression estimates the residuals from the line in both x and y dimensions ( Warton and Weber 2002 ); SMA regression is an appropriate method for fitting the data if the functional relationships between the variables is not known a priori, and if both x and y variables are measured with a certain degree of error. In addition, SMA regressions are particularly pertinent for comparison of bivariate relationships among groups of data, because SMA fitting avoids flattening of the slope as the correlation between the variables decreases ( Wright and Cannon 2001 , Warton and Weber 2002 ).
+
+The SMA regressions between species groups were compared by (S)MATR 1.0 ( Falster et al. 2003 ). This program first uses a maximum‐likelihood ratio developed by Warton and Weber (2002) to test for the slope differences of SMA regressions. (The equivalent test in ordinary ANCOVA is the separate slope model.) Whenever slopes are found not to be different, the analysis is continued according to standard ANCOVA (common slope model) to test for difference among the intercepts. All relationships were considered significant at P < 0.05.
+
+Quantile regression, a powerful technique to examine ecological patterns ( Cade and Noon 2003 ), was used to explore the relationships between tolerances over the entire surface of the scatter diagrams. Quantile regression is based on least absolute values and the model is fit by minimizing the sum of the absolute values of the residuals; the technique is very resistant to outliers and allows for the exploration of relationships from the edges of the diagrams by estimating quantiles of the dependent variable ranging from 0% to 100% ( Scharf et al. 1998 ). Quantile regression was carried out with the software Blossom, Version 2005.05.26 ( Cade and Richards 2005 ).
+Results
+Tolerance scales
+
+Ten species rankings were employed to derive the final mean shade tolerance estimate for North American species, while 13 shade tolerance rankings were used for European species, and three major rankings along with a series of detailed succession and ecophysiological studies were used for East Asian species ( Table 1 ). For all sets of data, various shade tolerance scorings were strongly correlated ( Table 2 for North American and European data sets; r = 0.91 for Kikuzawa [1984] vs. East Asian mean ranking; r = 0.89 for Koike [1988] vs. mean; and r = 0.92 for Maruyama [1978] vs. mean; P < 0.001 for all), demonstrating a strong convergence of different species' shade tolerance rankings and the reliability of the derived mean species value.
+
+In addition, cross‐calibration of shade tolerance scales among different continents and available data of shade tolerance of naturalized species on specific continents further enhanced the reliability and extension of the data set. Certainly, including shade tolerance estimates for species naturalized in foreign habitats introduces some uncertainty. In particular, exotic species may become more tolerant in foreign habitats due to hybridization with native species and following gene flow by introgression into exotic species populations ( Milne and Abbott 2000 ), as well as due to selection of more tolerant varieties by gardeners. However, we compared the shade tolerance estimates of species in natural and introduced habitat using paired t tests and found that the shade tolerance in the introduced habitat did not differ significantly from that in native habitat. For instance, P > 0.7, for comparison of shade tolerance estimates of North American species growing in native habitat and in Europe.
+
+We obtained reliable drought and waterlogging tolerance scales for North American and European/East Asian species using a series of revised assessments of species' performance (13 extensive data sets for North America and 13 for Europe along with a series of case studies). All data sets were strongly correlated, and these correlations were employed to cross‐calibrate the data sets and calculate the mean tolerance estimates (see Appendix B for the statistics). Using the mean values effectively reduces the study‐to‐study bias in species' scorings, thereby enhancing the reliability of final tolerance estimates. Further using these cross‐calibrated mean values for species in every continent, we used species native on several continents as well as introduced species to develop global waterlogging and drought tolerance scales ( Fig. 2 ). As with shade tolerance, we did not observe any statistical difference among the drought and waterlogging tolerance estimates of the species in their native and introduced habitat ( P > 0.5), suggesting that we have obtained general and unbiased intercontinental drought and waterlogging tolerance scales.
+Correlations between species' shade, drought, and waterlogging tolerances
+
+Pooling all data, we observed negative correlations between species' shade and drought tolerance, shade and waterlogging tolerance, and drought and waterlogging tolerance ( Table 3 A, Figs. 3 ‐‐ 5 ). The negative correlations between shade and drought tolerance ( Figs. 3 A–C, 4A) and drought and waterlogging tolerance ( Figs. 3 G–I, 4C) were significant for all continents, and a negative correlation was also found between species' shade and waterlogging tolerance for the European ( Fig. 3 E) and East Asian ( Fig. 3 F) data sets.
+figure image
+Figure 3
+Open in figure viewer PowerPoint
+
+Correlations between species' shade tolerance and drought tolerance (A–C) and waterlogging tolerance (D–F), and between species' drought and waterlogging tolerance (G–I) for 806 temperate woody species from North America (A, D, G; n = 339), Europe/West Asia (B, E, H; n = 256), and East Asia (C, F; n = 211). Data were fitted by standardized major axis (SMA) regressions (see Table 3 for pooled regressions) using the program (S)MATR 1.0 ( Falster et al. 2003 ), and the regressions for all continents are shown in Fig. 4 . The statistically nonsignificant regression in (D) is shown by a dotted line. Data encircled in (B) correspond to species with high waterlogging tolerance and low drought tolerance, and the inset demonstrates the correlation for a truncated data set containing only species with waterlogging tolerance estimate <2.5 ( P < 0.001). Error bars show ± se of separate independent assessments for the same species. A full species list with tolerance values is provided in Appendix A
+figure image
+Figure 4
+Open in figure viewer PowerPoint
+
+Regressions for the correlations of (A) shade tolerance with drought tolerance, (B) shade tolerance with waterlogging tolerance, and (C) drought tolerance with waterlogging tolerance shown in Fig. 3 . Insets provide the slopes of the standardized major axis (SMA) regressions with 95% confidence intervals ( Falster et al. 2003 ). Slopes with the same letter are not significantly different ( P > 0.05) according to the maximum‐likelihood ratio test of Warton and Weber (2002; see also Falster et al. 2003 )
+figure image
+Figure 5
+Open in figure viewer PowerPoint
+
+Quantile regressions for (A) shade tolerance vs. drought tolerance, (B) shade tolerance vs. waterlogging tolerance, and (C) drought tolerance vs. waterlogging tolerance. Lines are estimates based on least absolute values for 12 quantiles (from top to bottom: 99%, 95%, 90%, 85%, 75%, 50%, 25%, 20%, 15%, 10%, 5%, and 1%). Solid lines indicate significant regressions ( P < 0.001); dotted lines indicate nonsignificant regressions. Panels D–F illustrate, in a simplified way, the corresponding polygonal pattern of each relationship
+Table 3. Bivariate relationships between shade, drought, and waterlogging tolerance estimates for 806 temperate shrub and tree species: standardized major axis regressions
+table image
+
+Due to the simultaneous negative correlations between species' shade and waterlogging tolerance ( Fig. 3 E) and drought and waterlogging tolerance ( Fig. 3 H), in particular for the European data set, several species were apparently outliers in Fig. 3 B. These shade intolerant species with high waterlogging tolerance had low drought tolerance, and interestingly, most of them belonged to the family Ericaceae, which contains many dominant species in raised bogs. The negative correlation between species' shade and drought tolerance was improved when species with waterlogging tolerance >2.5 were removed from the data set (inset in Fig. 3 B for European data set; for all data pooled, r 2 = 0.303 for the truncated vs. r 2 = 0.082 for the entire data set; Table 3 A). The role of waterlogging tolerance in the relationship between shade and drought tolerance was further assessed by linear multiple regression with all data. In this regression, both drought ( P < 0.001) and waterlogging tolerance ( P < 0.001) were negatively associated with shade tolerance ( r 2 = 0.176).
+
+Comparisons of the standardized major axis (SMA) regression slopes for the relationships between shade and drought tolerance ranked the continents according to the slope as East Asia < North America < Europe ( Fig. 4 A; P < 0.005 for comparisons between East Asian data set with other two, and P = 0.051 for the comparison between European and North American data sets). The East Asian data set also had significantly more negative slope for the shade vs. waterlogging tolerance relationship ( P < 0.001). The slopes were not different among the continents for the drought vs. waterlogging tolerance relationship ( Fig. 4 C; P > 0.8), but the elevation of the regression line was significantly lower for the East Asian than for the North American and European data sets ( Fig. 4 C; P < 0.001).
+
+In these comparisons, the species native to both Europe and North America (mostly species from Ericaceae and Salicaceae families) and intercontinental hybrids of European and North American origin, and European and East Asian origin ( n = 30) were considered as part of the European data set. When these species with wide distribution and the intercontinental hybrids were considered as part of the flora of other continents, the negative correlation between species' shade and waterlogging tolerance was significant both for European ( r 2 = 0.022, P = 0.023) and North American ( r 2 = 0.012, P = 0.039) data sets, further demonstrating the importance of wide distribution Ericaceae with specific physiological potentials.
+
+Quantile regression revealed that these negative relationships were not always significant across the entire scatter diagram ( Fig. 5 ). High light species exhibited a wide range of drought tolerances, so the negative relationship between shade and drought tolerance was significant only for species growing in moderate to deep shade ( Fig. 5 A,  D). The relationship between shade and waterlogging tolerances was weak, being significant only for the lowest quantiles (i.e., for species growing in moderate shade to high light). By contrast, the negative relationship between drought and waterlogging tolerances was significant for all quantiles, except for the 99% (i.e., for some exceptional species tolerating extreme drought; Fig. 5 C, F).
+Functional type and tolerance to shade, drought, and waterlogging
+
+To determine the extent to which the correlations between species' ecological potentials are modified by various functional types, we quantified the relationships among tolerance estimates separately for gymnosperms (mostly needle‐leaved species in our data set, except for Ginkgo biloba, which is a broad‐leaved species) and angiosperms (mostly broad‐leaved species with the exception of some needle‐leaved species such as Erica and Calluna from Ericaceae). These relationships were also explored separately for evergreen and deciduous angiosperms (mostly broad‐leaved species).
+
+Species' shade and drought tolerance was correlated both for gymnosperms and angiosperms ( Fig. 6 A, Table 3 B). The slope of this relationship was significantly greater for gymnosperms than for angiosperms ( Table 3 B). However, the correlations between species' shade and waterlogging tolerance ( Fig. 6 B, Table 3 B) and drought and waterlogging tolerance ( Fig. 6 B, Table 3 B) were significant only for angiosperms. Due to the lack of simultaneous correlations between shade and waterlogging and drought and waterlogging tolerance, the explained variance of shade vs. drought tolerance was much larger for gymnosperms ( r 2 = 0.466) than for angiosperms ( r 2 = 0.035).
+figure image
+Figure 6
+Open in figure viewer PowerPoint
+
+Comparison of the relationships between (A, D) shade and drought tolerance, (B, E) shade and waterlogging tolerance, and (C, F) drought and waterlogging tolerance. In panels A–C, gymnosperms (open circles) and angiosperms (solid circles) are compared, and in panels D–F, deciduous (open circles) and evergreen (solid circles) angiosperms are compared. Data were fitted by standardized major axis (SMA) regressions ( Falster et al. 2003 ). The regression statistics are provided in Table 3 B and C. Nonsignificant regression lines ( P > 0.05) for gymnosperms in B and C are not shown. Error bars represent ± se . Gymnosperm species are mostly conifers, while angiosperm species are mainly broad‐leaved (Appendix A)
+
+Among the angiosperms, the slope of the shade vs. drought tolerance relationship was not significantly different between deciduous and evergreen broad‐leaved species, but evergreens had significantly larger shade tolerance at a common drought tolerance ( Fig. 6 D, Table 3 C): For shade tolerance vs. waterlogging tolerance, the correlations were not significantly different among evergreen and deciduous species ( Fig. 6 E, Table 3 C). The slope of drought vs. waterlogging tolerance was more negative in evergreen species ( Fig. 6 F, Table 3 C). When the species with relatively high waterlogging tolerance (>2.5) were removed from the data set (mostly Ericaceae), the correlation between shade and drought tolerance was significantly stronger for both evergreen ( n = 101, r 2 = 0.337, P < 0.001) and deciduous species ( n = 403, r 2 = 0.227, P < 0.001). Again, evergreens had a larger intercept than deciduous species ( P < 0.001), while the SMA slopes did not differ among the groups ( P > 0.8).
+Simultaneous tolerance to several environmental factors
+
+There were only a few species that were tolerant to more than one limiting factor (tolerance index for two variables ≥3). Eighty‐three species (10.3% of total species number) were both shade and drought tolerant (e.g., Aucuba japonica, Buxus sempervirens, Quercus ilex, Ostrya spp., some Sorbus spp., Taxus baccata), 32 species (4% of total) both shade and waterlogging tolerant (e.g., Acer rubrum, A. saccharinum, Aesculus turbinata, Chamaecyparis thyoides, Clethra alnifolia, several Fraxinus spp., several Ilex spp., Persea borbonia, Pinus glabra, Planera aquatica, Ulmus davidiana), and 21 species (2.6% of total; e.g., Amelanchier laevis, Pinus serotina, Rhus copallina, Tamarix ramosissima, Taxodium distichum, Vaccinium vitis‐idaea) were both drought and waterlogging tolerant. There were only three species that were tolerant to all three environmental limitations (tolerance index for all variables ≥3): Amelanchier laevis, Rhododendron periclymenoides, Rhododendron viscosum. Yet, the mean tolerance value (shade, waterlogging, drought) was 3.0–3.5 for these species, suggesting that polytolerant plants were not very tolerant to any of these limitations.
+
+We calculated the overall tolerance (sum of all three indices), and the coefficients of variation (standard deviation per sample mean) for all the tolerance estimates and overall tolerance to further characterize the extent of polytolerance within the entire data set. The coefficients of variation were 0.407 for shade, 0.367 for drought, and 0.524 for waterlogging tolerance, while the coefficient for variation for the sum of all three tolerance indices was 0.152. This low variation in overall tolerance further underscores the inherent trade‐offs between species' adaptation to interacting environmental limitations and low degree of polytolerance. “Polyintolerance” was also rare, with only some genera like Betula and Larix including species that were tolerant neither to shade nor drought nor waterlogging.
+Phylogenetic signal and influence of phylogeny on correlations among tolerances
+
+Phylogenetic signal, estimated as the correlation between the phylogenetic and the tolerance matrices of distances among species, was significant for the tolerance of any of the three environmental factors studied ( Table 4 ). Between 22% and 24% of the nodes of the phylogenetic tree exhibited trait conservatism (i.e., stress tolerance was more similar among related species than expected by chance) and only 6–8% of the nodes exhibited significant divergence ( Table 5 ). Divergence occurred at branches closer to the root of the phylogenetic tree than conservatism, which was observed in bifurcations nearer the tips ( Table 5 ). Phylogenetic signal was significant for the whole data set of species, and for the 18 species of Pinus for which we could obtain reliable phylogenetic information, but not for the 11 species of Quercus with available phylogenetic information. This phylogenetic signal was generally low with the correlation coefficients (Pearson's r ) of 0.026–0.147. The exception was shade tolerance in Pinus species ( r = 0.404).
+Table 4. Phylogenetic signal estimated by the correlation between the phylogenetic and the tolerance matrices of distances among species in shade, drought, and waterlogging tolerances in the whole species data set, and in the genera Quercus and Pinus
+table image
+Table 5. Percentage of cladogram nodes exhibiting significant conservatism and divergence, mean divergence, and mean age for the nodes for shade, drought, and waterlogging tolerances in the whole data set
+table image
+
+The inverse relationships between stress tolerance estimates were significant in phylogenetically independent contrasts carried out with the whole set of species (AOT module of PHYLOCOM). The correlations ranged from −0.1 (drought vs. waterlogging tolerance) to −0.37 (shade vs. drought tolerance; P < 0.01 for all). The strongest relationship was between shade and drought, and this relationship was also significant in species‐level phylogenetically independent contrasts in both Pinus and Quercus ( Figs. 7 , 8 ). Among the rest of the pairwise inverse relationships between tolerance estimates, only drought and waterlogging tolerance were significantly correlated in Pinus. While significant divergences and convergences in stress tolerance in Quercus occurred near the tips (i.e., within sections and subgenera), an interesting significant divergence in drought tolerance was found in Pinus, with species of the subgenus Pinus being more drought tolerant than species of the subgenus Strobus ( Figs. 7 , 8 ).
+figure image
+Figure 7
+Open in figure viewer PowerPoint
+
+(A) Phylogenetically independent relationships between shade and drought tolerance, (B) shade and waterlogging tolerance, and (C) drought and waterlogging tolerance for the species of the genus Quercus represented in panel E. The data points are the Felsenstein's pairwise independent contrasts ( Felsenstein 1985 ) standardized with respect to the standard deviation of the contrast. Nonsignificant ( P > 0.05) regression lines are not shown. (D) Phylogenetically independent correlation coefficients (Pearson's r ) obtained with the PHYLOCOM analysis of trait routine (see Materials and Methods : Phylogenetic signal and phylogenetically independent contrasts ). Key to abbreviations: Sh, shade; Dr, drought; Wl; waterlogging. Solid bars indicate significant correlations. (E) The Quercus phylogenetic tree is derived from the data in Manos et al. (1999) . Arrows indicate nodes at which significant divergence (D) or conservatism (C) was obtained for the three tolerances
+figure image
+Figure 8
+Open in figure viewer PowerPoint
+
+(A) Phylogenetically independent relationships between shade and drought tolerance, (B) shade and waterlogging tolerance, and (C) drought and waterlogging tolerance for the species of the genus Pinus represented in panel E; data points are as described in Fig. 7 . Nonsignificant ( P > 0.05) regressions are not shown. (D) Phylogenetically independent correlation coefficients (Pearson's r ) obtained with PHYLOCOM analysis of trait routine, as described in Fig. 7 . (E) The Pinus phylogenetic tree was obtained from the data of Liston et al (1999). Arrows indicate nodes at which significant divergence (D) or conservatism (C) was observed for the three tolerances
+Discussion
+Plant shade tolerance rankings
+
+Any stress factor that decreases the ability of plants to use available light will increase the minimum daily light dose that the plant requires to survive under given conditions. Therefore, there is no single minimum light level that an individual of a particular species tolerates; “shade tolerance” is not an absolute but rather a relative term ( Spurr and Barnes 1980 ). Nutrient and water availabilities, and air and soil temperature are potentially capable of affecting shade tolerance ( Tilman 1993 , Bazzaz and Wayne 1994 ), and they vary in gradients of irradiance across gap–understory continuum. Thus, species' dispersal across light gradients is determined by a complex interplay of various edaphic and climatic factors. Due to this interplay of species' minimum light requirements with other environmental factors, reliable relative rankings of species' shade tolerance potentials are invaluable in trying to understand forest development and diversity.
+
+We revised an extensive set of published shade tolerance scorings, and constructed a common intercontinental scale of shade tolerance. Surprisingly, the shade tolerance rankings of woody species, most of which are based on foresters' and ecologists' knowledge of species behavior, and only very few on some quantitative work on species dispersal across understory habitats, have remained remarkably constant for more than a century ( Table 2 ). This general agreement of species classification further corroborates the suggestion that the relative light requirements of species vary considerably less than the absolute ones.
+
+Very few studies have tried to develop comparative shade tolerance rankings for different continents ( Peters 1997 ), and even these rankings are limited to a few dominant species. For construction of the intercontinental shade tolerance scale, we used shade tolerance rankings for species native on several continents (North America/Europe) and the data of shade tolerance of introduced species (North America/Europe/East Asia) to cross‐calibrate the shade tolerance rankings developed on different continents. Statistical tests suggested that the shade tolerance of species did not differ significantly in foreign and native habitats, possibly because most species have been introduced during a relatively short time period of 50–200 years. Further detailed studies suggest that European introduced species that have escaped from cultivation (such as the tolerant to very tolerant species Acer platanoides, tolerant to medium tolerant species Acer pseudoplatanus, and intolerant species Rhamnus catharctica) appear to occur in similar habitats and canopy positions as in their respective native habitats ( Webb and Kaunzinger 1993 , Kloeppel and Abrams 1995 , Hoffman and Kearns 1997 , Mehrhoff et al. 2003 ). The same appears to be valid for North American species such as Picea sitchensis and Pseudotsuga menziesii widely cultivated in Europe or Robinia pseudacacia and Symphoricarpus albus naturalized in Europe ( Hermann 1987 ). A series of widespread Asian species such as Ailanthus altissima or Lonicera japonica also occur in similar habitats across the globe ( Hoffman and Kearns 1997 , Mehrhoff et al. 2003 ).
+
+The obtained shade tolerance scale further agrees with global distribution patterns of species at the extremes of the shade tolerance rankings as illustrated by Alnus, Betula, and Salix species being in the majority of forests among the most intolerant species, and Acer and Fagus species typically among the most tolerant woody components. In fact, minimum light availabilities in late successional temperate Fagus forests are very similar across the globe ( Peters 1997 ), further corroborating that F. crenata, F. grandifolia, and F. sylvatica should be classified as very shade tolerant. These data collectively suggest that the global shade tolerance scale we have derived is robust.
+Plant waterlogging and drought tolerance rankings
+
+Significant negative correlation exists between air humidity and the distance from streams and wetlands ( Chen et al. 1999 ), implying that the way the species respond to gradual changes from excess to limiting water availabilities may significantly modify forest succession along these gradients, and in interaction with shade tolerance determine the forest chronosequence in any specific site with given water availability. Therefore, extended forest gap models also use estimates of species' drought and waterlogging tolerance to predict forest succession ( Bugmann and Cramer 1998 ). Reliable estimates of species' drought and waterlogging tolerance have been noted as primary limitations to further development of these models ( Bugmann and Solomon 1995 , Bugmann and Cramer 1998 ). Species' potentials to cope with drought and waterlogging stress are often characterized in succession models using a coarse scale of tolerant/intolerant or by adding the gradation intermediate ( Prentice and Helmisaari 1991 ). Such coarse scale assessments may be adequate for understanding the performance of species assemblages during moderate stress events. More refined species rankings may be needed to predict species' survival during extreme stress periods that occur only infrequently, but that greatly influence community composition.
+
+In this context, the assessment of stress tolerance at the extremes becomes especially important. Even in our detailed and uniform classification, many species tended to aggregate at the lowest extreme of waterlogging tolerance (e.g., Fig. 3 D,  G), partly because not many species are tolerant, but also suggesting that the resolution of the tolerance scale could be improved at the lower range (tolerance = 1, very intolerant). At the higher end of our waterlogging tolerance scale, the North American data set stands out as having more species than European or East Asian data set. While waterlogging tolerance scales specifically developed for Europe include several species with waterlogging ranked as 5, very tolerant ( Glenz 2005 ), these values are diminished when the data sets are cross‐calibrated to a common scale for the entire Northern Hemisphere. The most waterlogging‐tolerant trees in swamp forests in the lowlands of cool temperate and warm temperate Europe are Alnus glutinosa, and Populus and Salix species, while Japanese wet forests are characterized by Alnus japonica, Fraxinus mandshurica, Ulmus davidiana, and Salix species. None of these forests are comparable, however, to the extreme swamp forests of Taxodium in the southeast United States that can be flooded all year ( Shidei 1974 ). Thus, the lack of very waterlogging‐tolerant species in Europe and East Asia in the cross‐calibrated rankings corresponds to reality.
+
+As with waterlogging tolerance, many species tended to cluster at the lower end of the cross‐calibrated drought tolerance scale (see Fig. 3 A,  G, for sample graphs). Given that the climatic change scenarios predict increasing shortage of water in certain geographic locations, and more frequent waterlogging in other locations ( Albritton et al. 2001 ), it is important to improve the resolution of this data set in the extremes. Comparative ecophysiological studies like those of van Splunder et al. ( van Splunder et al. 1995 , 1996 , van Splunder 1998 ) on European Salicaceae species, and common garden experiments of Ranney and colleagues on waterlogging tolerance of a series of North American, European, and East Asian Betula and Prunus species ( Ranney 1994 , Ranney and Bir 1994 ) and drought tolerance of Betula species ( Ranney et al. 1991 ) provide invaluable means to fine‐tune the tolerance rankings of closely related species and develop reliable succession models for communities such as riparian forests. We conclude that future comparative ecophysiological studies are needed to refine the resolution of drought and waterlogging scales for species at the upper and lower limits of tolerance.
+Inverse correlations between species' ecological potentials
+
+An inverse correlation between species' shade and drought tolerance has been hypothesized in several studies ( Smith and Huston 1989 , Abrams 1994 , Kubiske et al. 1996 ), but tests of this hypothesis are conflicting. Kubiske et al. (1996) investigated gas‐exchange physiology in six species of varying shade and drought tolerance and found a stronger effect of drought on leaf physiology in shade tolerant than in intolerant species. In contrast, Sack (2004) found a similar effect of drought on growth in 12 species of varying shade and drought tolerance.
+
+We observed an inverse correlation between species' shade and drought tolerance for 806 species covering the major dominants in North American, European/West Asian, and East Asian temperate woody ecosystems ( Table 3 A), as well as separately for every continent ( Figs. 3 A–C, 4A), and plant functional type ( Fig. 6 A, D, Table 3 B, C), except for the evergreen angiosperms ( Fig. 6 D, Table 3 C). This relationship had wide scatter with significant variation of drought tolerance at a given shade tolerance, and thus confirmed the suggestion that the correlation between drought and shade tolerance is not absolute ( Sack 2004 ).
+
+However, the large variability for all data pooled was also associated with correlations between shade and waterlogging tolerance ( Figs. 3 E, 6 B, E, Table 3 ), and drought and waterlogging tolerance ( Figs. 3 G–I, 4C, 6C, F, Table 3 ). The latter correlation agrees with previous observations for tropical species ( ter Steege 1994 ). These negative correlations essentially mean that certain shade intolerant species, instead of being drought tolerant were waterlogging tolerant (see Fig. 3 B,  E, H), further underscoring the importance of trade‐offs among species in terms of their ecological potentials. When species from the family Ericaceae were removed from the global data set, the correlations were improved significantly.
+
+Among the different plant functional types, the strongest correlation between shade and drought tolerance was for gymnosperms ( Fig. 6 A, Table 3 B), which did not exhibit a correlation between shade and waterlogging ( Fig. 6 B) and drought and waterlogging ( Fig. 6 C) tolerance. In fact, only Taxodium distichum was characterized by a high degree of waterlogging tolerance, while Chamaecyparis thyoides, Larix gmelinii, Pinus contorta ssp. contorta , P. elliotti, P. glabra, P. serotina, P. sibirica , and P. sylvestris were moderately tolerant of waterlogging. This low number of waterlogging‐tolerant species in gymnosperms demonstrates that not only the ecological and physiological trade‐offs, but also phylogeny and historical factors may constrain the viable combinations of ecological potentials in species.
+
+It is striking that the correlations among species' shade and drought tolerance and waterlogging and drought tolerance were observed for all continents ( Figs. 3 , 4 ), and among most plant functional types. It is further remarkable that the standardized major axis regressions fitted to the data ( Fig. 4 A–C, Table 3 ) differed only to a minor extent among the continents and functional types. Part of these intercontinental and functional type differences were associated with the existence of a negative relationship between shade and waterlogging tolerance in a specific subset of data, primarily the species of Ericaceae. Despite the significant phylogenetic signal found in the tolerance to each environmental limitation ( Table 4 ), the negative correlations were also significant in phylogenetic independent contrasts for species in the genera Pinus and Quercus, particularly for the shade–drought tolerance relationship ( Fig. 5 ). All these findings support the generality of the trade‐offs in the tolerances to different limiting factors.
+Simultaneous tolerance to shade and drought
+
+Certain species appeared to be tolerant of both drought and shade ( Appendix A ), a simultaneous tolerance that is difficult to understand given the conflicting requirements for efficient light capture (large leaf area, enhanced biomass investment aboveground) and drought avoidance (low leaf area, enhanced biomass investment in roots). However, none of the species tolerant of both shade and drought were very tolerant to either of these limitations, which indicates that this trade‐off inevitably shaped the observed patterns to at least some degree. Interestingly, essentially all of the species tolerant of both shade and drought were those colonizing relatively warm habitats (minimum winter T > −15°C) extending from the temperate deciduous forests to warm temperate forests at the transition to Mediterranean habitats (see Plate 1 ). This suggests that the species tolerant of both shade and drought may require extended growing periods to construct a canopy that can support high leaf area, even though this leaf area may be drought stressed during a significant part of the year. For several East Asian shade‐tolerant broad‐leaved evergreens colonizing the understories of deciduous canopy trees, daily winter photosynthesis when the overstory is leafless has been estimated to occasionally exceed the daily photosynthesis in summer when the overstory is fully active ( Miyazawa and Kikuzawa 2005 ), further underscoring the importance of extended growing season in broad‐leaved shade‐tolerant evergreens. Our data set contained 23 broad‐leaved evergreen species such as Arbutus menziesii, Aucuba japonica, Lithocarpus densiflorus, and Quercus acuta, Q. glauca, and Q. ilex that were both shade and drought tolerant. In Sack (2004) , the shade‐tolerant species included were broad‐leaved evergreens (Buxus sempervirens, Hedera helix, and Ruscus aculeatus) that are also drought tolerant, but competitive only in habitats with an extended growing season. Thus, the noncorrelation between shade tolerance and drought tolerance observed in this study ( Sack 2004 ) relies on the presence of evergreen broad‐leaved species of warmer habitats.
+figure image
+Figure Plate 1
+Open in figure viewer PowerPoint
+
+Many dry, Mediterranean forests such as this one in Alto Tajo Natural Park (central Spain) exhibit a remarkably poor understory due, at least in part, to the combination of drought and shade coupled with a short growth period imposed by extreme temperatures. Dominant canopy species are Quercus ilex and Pinus nigra, and the woody flora in shaded and dry sites is represented only by scattered individuals of Arctostaphylos uva‐ursi and Buxus sempervirens. Photo credit: F. Valladares
+
+Interestingly, only four gymnosperms, Abies firma, Calocedrus decurrens, Taxus baccata, and Tsuga sieboldii, are both shade and drought tolerant; but again, these gymnosperms are characteristic of warm temperate or oceanic temperate forests with extended growing season. In contrast, other shade‐tolerant Abies, Picea, or Tsuga species that dominate cool temperate forests, where the length of growing season is similar for deciduous and evergreen species, are not drought tolerant. This evidence further underscores the importance of extended growing season in simultaneous tolerance to shade and drought. It also confirms the infrequency of polytolerance; none of the species in our data set was simultaneously tolerant to drought, shade, and low winter temperatures.
+Polytolerance: rarity and possible implications
+
+Several species that were moderately tolerant (tolerance value ≥3.0) simultaneously to several environmental factors such as Acer negundo (shade/drought), Lonicera xylosteum (shade/drought), Prunus padus (shade/waterlogging), Rhododendron ponticum (shade/drought), and Tamarix ramosissima (waterlogging/drought), have been reported as invasive outside their natural areas ( Randall and Marinelli 1996 , Mooney and Hobbs 2000 ). However, the three plant species in our study that were simultaneously tolerant to all three environmental limitations (Amelanchier laevis, Rhododendron periclymenoides, and Rhododendron viscosum, with tolerance value for all characteristics ≥3.0) are species with very limited invasive potential, suggesting that polytolerance is not associated with invasiveness. Besides, the mean tolerance value was 3.0–3.5 for these species suggesting that polytolerant plants were not very tolerant to any of these environmental limitations. Being simultaneously tolerant to several environmental limitations could imply a lack of full adaptation to each particular limitation.
+Conclusions
+
+Limited and often biased information on species' ecological potentials and scarcity of comparative information on species' ecological potentials on different continents has hampered the development of general world‐scale vegetation dynamic models. All temperate forests in the Northern Hemisphere are physiognomically similar, often sharing species from the same genera at various stages of succession (Alnus, Betula, Pinus, and Populus in early‐successional forests and Abies, Acer, Fagus, and Picea in late‐successional forests), suggesting similar performance of temperate forests on different continents and possibilities for common general patterns at broad geographical scales.
+
+With a few exceptions, the negative correlations among shade, drought, and waterlogging tolerance were significant for our global data set as well as within each functional or phylogenetic group considered. These negative correlations indicate that the number of possible combinations of ecological potentials in a species is limited by trade‐offs between tolerance to differing environmental limitations. In fact, and as the data demonstrate, few species are characterized by simultaneous tolerance to two environmental factors, and even fewer are moderately tolerant to three environmental factors. Although most species commonly cope with multiple environmental limitations, polytolerance has not been frequently achieved during the evolution of trees and shrubs of the Northern Hemisphere. The trade‐offs among the tolerances to different limiting factors found here represent a constraint for niche differentiation of coexisting species since they reduce the diversity of plant responses to the many combinations of irradiance and water supply that are found in natural ecosystems.
+Acknowledgments
+
+We are grateful to Kihachiro Kikuzawa (Kyoto University, Kyoto, Japan), Tohru Nakashizuka (Research Institute for Humanity and Nature, Kyoto, Japan), Masahiko Ohsawa (University of Tokyo, Tokyo, Japan), and Tsutom Hiura (University of Hokkaido, Sapporo, Japan) for illuminating discussions on succession in East Asian forests and for critical review of East Asian tolerance rankings. David Ackerly and Peter Grubb generously contributed many thoughtful comments, corrections, and suggestions on species biology. Thanks are also due to Miguel Verdú and to David Tena for help with the phylogenetic analyses, and to Pablo Vargas for providing essential articles on molecular phylogenies of plants. This analysis was partly funded by the Estonian Ministry of Education and Science (Grant 0182468As03), the Spanish Ministry of Education and Science (Grant RASINV CGL2004‐04884‐C02‐02/BOS), the Spanish Council for Scientific Research (CSIC), and the Estonian Academy of Sciences (collaborative project between research institutions of CSIC and research institutions in Estonia).
+
+5  〈 http://mobot.mobot.org/W3T/Search/foc.html 〉
+APPENDIX A
+
+A table showing shade, drought, and waterlogging tolerance for 806 species of woody plants from the temperate Northern Hemisphere ( Ecological Archives M076‐020‐A1 ).
+APPENDIX B
+
+Additional details on the protocol followed and the original sources used to build the tolerance data set and to standardize the rankings of tolerance obtained from different sources and for species from different continents ( Ecological Archives M076‐020‐A2 ).
+Supporting Information
+Filename 	Description
+https://dx-doi-org.smithsonian.idm.oclc.org/10.6084/m9.figshare.c.3309258 	Research data pertaining to this article is located at figshare.com:
+
+Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.
+Literature Cited
+
+    Aasamaa, K. , and A. Sôber . 2001 . Hydraulic conductance and stomatal sensitivity to changes of leaf water status in six deciduous tree species . Biologia Plantarum 44 : 65 – 73 .
+    Crossref Web of Science® Google Scholar
+    Aasamaa, K. , A. Sôber , W. Hartung , and Ü. Niinemets . 2004 . Drought acclimation of two deciduous tree species of different layers in a temperate forest canopy . Trees: Structure and Function 18 : 93 – 101 .
+    Crossref Web of Science® Google Scholar
+    Abrams, M. D. 1990 . Adaptations and responses to drought in Quercus species of North America . Tree Physiology 7 : 227 – 238 .
+    Crossref PubMed Web of Science® Google Scholar
+    Abrams, M. D. 1994 . Genotypic and phenotypic variation as stress adaptations in temperate tree species: a review of several case studies . Tree Physiology 14 : 833 – 842 .
+    Crossref PubMed Web of Science® Google Scholar
+    Abrams, M. D. , M. E. Kubiske , and S. A. Mostoller . 1994 . Relating wet and dry year ecophysiology to leaf structure in contrasting temperate tree species . Ecology 75 : 123 – 133 .
+    Wiley Online Library Web of Science® Google Scholar
+    Acherar, M. , and S. Rambal . 1992 . Comparative water relations of four Mediterranean oak species . Vegetatio 99–100 : 177 – 184 .
+    Crossref Web of Science® Google Scholar
+    Ackerly, D. D. 2004 . ANALYSIS OF TRAITS (AOT), Version 3.0: a module of PHYLOCOM, and Version 3.21 by C. O. Webb, S. Kempel, D. D. Ackerly, and S. W. Kempel 〈 http://www.phylodiversity.net/phylocom 〉.
+    Google Scholar
+    Albritton, D. L. et al. 2001 . Technical summary . Pages 21 – 83 in IPCC third assessment report: contributions of IPCC working groups. Summaries for policymakers and technical summaries from the three working group reports Geneva, Switzerland. 〈 http://www.epa.gov/oppeoee1/globalwarming/publications/reference/index.html 〉.
+    Google Scholar
+    Anonymous. 1996 . Auwälder in Südbayern. Standörtliche Grundlagen und Bestockungsverhältnisse im Staatswald. LWF Bericht, 9 . Bayerische Landesanstalt für Wald und Forstwirtschaft, Freising .
+    Google Scholar
+    Armstrong, J. V. , and P. D. Sell . 1996 . A revision of the British elms (Ulmus L., Ulmaceae): the historical background . Botanical Journal of the Linnean Society 120 : 39 – 50 .
+    Wiley Online Library Web of Science® Google Scholar
+    Baker, F. S. 1949 . A revised tolerance table . Journal of Forestry 47 : 179 – 181 .
+    Wiley Online Library Google Scholar
+    Barnes, B. V. 1991 . Deciduous forests of North America . Pages 219 – 344 in E. Röhrig, B. Ulrich, editors Temperate deciduous forests. Ecosystems of the world, 7 Elsevier, Amsterdam, The Netherlands.
+    Google Scholar
+    Battaglia, L. L. , S. A. Fore , and R. R. Sharitz . 2000 . Seedling emergence, survival and size in relation to light and water availability in two bottomland hardwood species . Journal of Ecology 88 : 1041 – 1050 .
+    Wiley Online Library Web of Science® Google Scholar
+    Battaglia, M. , and J. B. Reid . 1993 . Ontogenetic variation in frost resistance of Eucalyptus delegatensis R. T. Baker . Australian Journal of Botany 41 : 137 – 141 .
+    Crossref Web of Science® Google Scholar
+    Bazzaz, F. A. , and P. M. Wayne . 1994 . Coping with environmental heterogeneity: the physiological ecology of tree seedling regeneration across the gap–understory continuum . Pages 349 – 390 in M. M. Caldwell, R. W. Pearcy, editors Exploitation of environmental heterogeneity by plants. Ecophysiological processes above- and belowground. Physiological ecology. A series of monographs, texts, and treatises Academic Press, San Diego, California, USA.
+    Google Scholar
+    Bell, D. T. , and E. L. Johnson . 1974 . Flood-caused tree mortality around Illinois reservoirs . Transactions of the Illinois State Academy of Science 67 : 28 – 37 .
+    CAS PubMed Web of Science® Google Scholar
+    Bendix, J. , and C. R. Hupp . 2000 . Hydrological and geomorphological impacts on riparian plant communities . Hydrological Processes 14 : 2977 – 2990 .
+    Wiley Online Library Web of Science® Google Scholar
+    Blomberg, S. P. , and T. Garland Jr . 2002 . Tempo and mode in evolution: phylogenetic inertia, adaptation and comparative methods . Journal of Evolutionary Biology 15 : 899 – 910 .
+    Wiley Online Library Web of Science® Google Scholar
+    Blomberg, S. P. , T. Garland Jr. , and A. R. Ives . 2003 . Testing for phylogenetic signal in comparative data: behavioral traits are more labile . International Journal of Organic Evolution 57 : 717 – 745 .
+    Wiley Online Library PubMed Web of Science® Google Scholar
+    Bratkovich, S. , L. Burban , S. Katovich , C. Locey , J. Pokorny , and R. Wiest . 1993 . Flooding and its effect on trees: information packet Forest Resources Management and Forest Health Protection, USDA Forest Service, Northeastern Area State and Private Forestry, St. Paul, Minnesota, USA. 〈 http://www.na.fs.fed.us/spfo/pubs/nresource/flood/cover.html 〉.
+    Google Scholar
+    Brzeziecki, B. 1995 . Skale nominalne wymagan klimatycznych gatunków drzew lesnych. (Nominal scales for climatic requirements of forest tree species) . Sylwan 139 : 53 – 65 .
+    Google Scholar
+    Brzeziecki, B. , and F. Kienast . 1994 . Classifying the life-history strategies of trees on the basis of the Grimian model . Forest Ecology and Management 69 : 167 – 187 .
+    Crossref Web of Science® Google Scholar
+    Bugmann, H. , and W. Cramer . 1998 . Improving the behaviour of forest gap models along drought gradients . Forest Ecology and Management 103 : 247 – 263 .
+    Crossref Web of Science® Google Scholar
+    Bugmann, H. K. M. , and A. M. Solomon . 1995 . The use of a European forest model in North America: a study of ecosystem response to climate gradients . Journal of Biogeography 22 : 477 – 484 .
+    Crossref Web of Science® Google Scholar
+    Burkart, M. 2001 . River corridor plants (Stromtalpflanzen) in Central European lowland: a review of a poorly understood plant distribution pattern . Global Ecology and Biogeography 10 : 449 – 468 .
+    Wiley Online Library Web of Science® Google Scholar
+    Burns, R. M. , and B. H. Honkala . 1990 . Silvics of North America. Agricultural Handbook 654 USDA Forest Service, Washington, D.C., USA.
+    Google Scholar
+    Cade, B. S. , and B. R. Noon . 2003 . A gentle introduction to quantile regression for ecologists . Frontiers in Ecology and the Environment 1 : 412 – 420 .
+    Wiley Online Library Web of Science® Google Scholar
+    Cade, B. S. , and J. D. Richards . 2005 . User manual for Blossum statistical software U.S. Department of Interior, U.S. Geological Survey, Reston, Virginia, USA.
+    Google Scholar
+    Carrión Vilches, M. A. , P. Sánchez Gómez , and J. Güemes Heras . 2000 . Primera aproximación al significado taxonómico de la variabilidad foliar de Acer opalus gr. en la Península Ibérica (First approach to the taxonomic meaning of the foliar variability of Acer opalus gr. in Iberian Peninsula) . Portugaliae Acta Biologica, Series A 19 : 239 – 248 .
+    Google Scholar
+    Castro, J. , R. Zamora , J. A. Hodar , J. M. Gomez , and L. Gomez-Aparicio . 2004 . Benefits of using shrubs as nurse plants for reforestation in Mediterranean mountains: a 4-year study . Restoration Ecology 12 : 352 – 358 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Cavender-Bares, J. , and F. A. Bazzaz . 2000 . Changes in drought response strategies with ontogeny in Quercus rubra: implications for scaling from seedlings to mature trees . Oecologia 124 : 8 – 18 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Cerny, T. A. , M. Kuhns , K. L. Kopp , and M. Johnson . 2002 . Efficient irrigation of trees and shrubs Utah State University Extension, Logan, Utah, USA. Electronic Publishing, HG-523. 〈 http://extension.usu.edu/files/gardpubs/hg523.html 〉.
+    Google Scholar
+    Cescatti, A. , and Ü. Niinemets . 2004 . Sunlight capture. Leaf to landscape . Pages 42 – 85 in W. K. Smith, T. C. Vogelmann, C. Chritchley, editors Photosynthetic adaptation. Chloroplast to landscape. Ecological Studies, 178 Springer Verlag, Berlin, Germany.
+    Google Scholar
+    Chaves, M. M. , J. S. Pereira , J. Maroco , M. L. Rodrigues , C. P. P. Ricardo , M. L. Osorio , I. Carvalho , T. Faria , and C. Pinheiro . 2002 . How plants cope with water stress in the field: photosynthesis and growth . Annals of Botany 89 : 907 – 916 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Chen, J. , S. Saunders , T. Crow , R. J. Naiman , K. Brosofske , G. Mroz , B. Brookshire , and J. F. Franklin . 1999 . Microclimate in forest ecosystem and landscape ecology . BioScience 49 : 288 – 297 .
+    Crossref Web of Science® Google Scholar
+    Cochard, H. , F. Froux , S. Mayr , and C. Coutand . 2004 . Xylem wall collapse in water-stressed pine needles . Plant Physiology 134 : 401 – 408 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Collada, C. , P. Fuentes-Utrilla , L. Gil , and M. T. Cervera . 2004 . Characterization of microsatellite loci in Ulmus minor Miller and cross-amplification in U. glabra Hudson and U. laevis Pall . Molecular Ecology Notes 4 : 731 – 732 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Condit, R. , P. S. Ashton , N. Manokaran , J. V. LaFrankie , S. P. Hubbell , and R. B. Foster . 1999 . Dynamics of the forest communities at Pasoh and Barro Colorado: comparing two 50-ha plots. Philosophical Transactions of the Royal Society of London . Series B, Biological Sciences 354 : 1739 – 1748 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Coomes, D. A. , and P. J. Grubb . 2000 . Impacts of root competition in forests and woodlands: a theoretical framework and review of experiments . Ecological Monographs 70 : 171 – 207 .
+    Wiley Online Library Web of Science® Google Scholar
+    Cornwell, W. K. , and P. J. Grubb . 2003 . Regional and local patterns in plant species richness with respect to resource availability . Oikos 100 : 417 – 428 .
+    Wiley Online Library Web of Science® Google Scholar
+    Crawford, R. M. M. 1996 . Whole plant adaptations to fluctuating water tables . Folia Geobotanica et Phytotaxonomica 31 : 7 – 24 .
+    Crossref Web of Science® Google Scholar
+    Dale, E. E. Jr. , and S. Ware . 2004 . Distribution of wetland tree species in relation to a flooding gradient and backwater vs. streamside location in Arkansas, USA . Journal of the Torrey Botanical Society 131 : 177 – 186 .
+    Crossref Web of Science® Google Scholar
+    Dirr, M. 2005 . Virtual plant tags. Steve Cissel, Green Industry Yellow Pages, Inc 〈 http://www.virtualplanttags.com 〉.
+    Google Scholar
+    Eissenstat, D. M. , and A. Volder . 2005 . The efficiency of nutrient acquisition over the life of a root . Pages 185 – 220 in H. BassiriRad, editor Nutrient acquisition by plants: an ecological perspective . Ecological Studies, 181 Springer Verlag, Berlin, Germany.
+    Crossref Google Scholar
+    Ellenberg, H. 1991 . Zeigerwerte der Gefäßpflanzen (ohne Rubus ) . Pages 9 – 166 in H. Ellenberg, R. Düll, V. Wirth, W. Werner, D. Paulißen, editors Zeigerwerte von Pflanzen in Mitteleuropa. Scripta Geobotanica, 18 Erich Goltze KG, Göttingen, Germany.
+    Google Scholar
+    Ellenberg, H. 1996 . Vegetation Mitteleuropas mit den Alpen in ökologischer, dynamischer und historischer Sicht. Fifth edition Verlag Eugen Ulmer, Stuttgart, Germany.
+    Google Scholar
+    Epron, D. 1997 . Effects of drought on photosynthesis and on the thermotolerance of photosystem II in seedlings of cedar (Cedrus atlantica and C. libani) . Journal of Experimental Botany 48 : 1835 – 1841 .
+    Crossref CAS Web of Science® Google Scholar
+    Epron, D. , E. Dreyer , and G. Aussenac . 1993 . A comparison of photosynthetic responses to water stress in seedlings from 3 oak species: Quercus petraea (Matt.) Liebl., Q. rubra L. and Q. cerris L . Annales des Sciences Forestieres 50 : 48 – 60 .
+    Crossref Google Scholar
+    Falster, D. S. , D. I. Warton , and I. J. Wright . 2003 . (S)MATR: standardized major axis tests and routines. Version 1.0 Department of Biological Sciences, Macquarie University, Sydney, Australia. 〈 http://www.bio.mq.edu.au/SMATR 〉.
+    Google Scholar
+    Felsenstein, J. 1985 . Phylogenies and the comparative method . American Naturalist 125 : 1 – 15 .
+    Crossref Web of Science® Google Scholar
+    Fowells, H. A. 1965 . Silvics of forest trees of the United States. Agriculture handbook, No. 271 U.S. Department of Agriculture Forest Service, Washington, D.C., USA.
+    Google Scholar
+    Frye, J. , and W. Grosse . 1992 . Growth responses to flooding and recovery of deciduous trees. Zeitschrift für Naturforschung, Section C . Journal of Biosciences 47c : 683 – 689 .
+    Google Scholar
+    Garland, T. Jr. , A. W. Dickerman , C. M. Janis , and J. A. Jones . 1993 . Phylogenetic analysis of covariance by computer simulation . Systematic Biology 42 : 265 – 292 .
+    Crossref Web of Science® Google Scholar
+    Garland, T. Jr. , P. E. Midford , and A. R. Ives . 1999 . An introduction to phylogenetically based statistical methods, with a new method for confidence intervals on ancestral states . American Zoologist 39 : 374 – 388 .
+    Crossref Web of Science® Google Scholar
+    Gayer, K. 1898 . Der Waldbau. vierte, verbesserte Auflage edition Verlagsbuchhandlung Paul Parey, Berlin, Germany.
+    Google Scholar
+    Gitay, H. , and I. R. Noble . 1994 . What are functional types and how should we seek them? Pages 3 – 19 in T. M. Smith, H. H. Shugart, F. I. Woodward, editors Plant functional types. Their relevance to ecosystem properties and global change. International Geosphere–Biosphere Programme book series, 1 Cambridge University Press, Cambridge, UK.
+    Google Scholar
+    Glenz, C. 2005 . Process-based, spatially-explicit modelling of riparian forest dynamics in Central Europe—tool for decisionmaking in river restoration École Polytechnique Fédérale de Lausanne, Lausanne, France.
+    Web of Science® Google Scholar
+    Graham, S. A. 1954 . Scoring tolerance of forest trees. University of Michigan Research Note 4 School of Natural Resources, University of Michigan, Ann Arbor, Michigan, USA.
+    Google Scholar
+    Grime, J. P. 1979 . Plant strategies and vegetation processes Wiley, New York, New York, USA.
+    Google Scholar
+    Grubb, P. J. 1998 . A reassessment of the strategies of plants which cope with shortages of resources . Perspectives in Plant Ecology, Evolution and Systematics 1 : 3 – 31 .
+    Crossref Google Scholar
+    Hall, R. B. W. , and P. A. Harcombe . 1998 . Flooding alters apparent position of floodplain saplings on a light gradient . Ecology 79 : 847 – 855 .
+    Wiley Online Library Web of Science® Google Scholar
+    Harms, W. R. , H. T. Schreuder , D. D. Hook , and C. L. Brown . 1980 . The effects of flooding on the swamp forest in Lake Ocklawaha, Florida . Ecology 61 : 1412 – 1421 .
+    Wiley Online Library Web of Science® Google Scholar
+    Hastwell, G. T. , and J. M. Facelli . 2003 . Differing effects of shade-induced facilitation on growth and survival during the establishment of a chenopod shrub . Journal of Ecology 91 : 941 – 950 .
+    Wiley Online Library Google Scholar
+    Hermann, R. K. 1987 . North American tree species in Europe . Journal of Forestry 85 : 27 – 32 .
+    Web of Science® Google Scholar
+    Hicks, D. J. , and B. F. Chabot . 1985 . Deciduous forest . Pages 257 – 277 in B. F. Chabot, H. A. Mooney, editors Physiological ecology of North American plant communities Chapman and Hall, New York, New York, USA.
+    Crossref Google Scholar
+    Hill, M. O. , J. O. Mountford , D. B. Roy , and R. G. H. Bunce . 1999 . Ellenberg's indicator values for British plants Centre for Ecology and Hydrology, Huntingdon, Cambs, UK.
+    Google Scholar
+    Hill, M. O. , D. B. Roy , J. O. Mountford , and R. G. H. Bunce . 2000 . Extending Ellenberg's indicator values to a new area: an algorithmic approach . Journal of Applied Ecology 37 : 3 – 15 .
+    Wiley Online Library Web of Science® Google Scholar
+    Hiroki, S. 2003 . Early life history stage and segregative distribution of Fagaceae in Japan . Pages 14 – 14 in Integration of silviculture and genetics in creating and sustaining oak forests Joint meeting of IUFRO working groups Genetics of Quercus and improvement and silviculture of oaks. OAK 2003, Tsukuba, Japan.
+    Google Scholar
+    Hiroki, S. , and K. Ichino . 1998 . Comparison of growth habits under various light conditions between two climax species, Castanopsis sieboldii and Castanopsis cuspidata, with special reference to their shade tolerance . Ecological Research 13 : 65 – 72 .
+    Wiley Online Library Web of Science® Google Scholar
+    Hoagland, B. W. , L. R. Sorrels , and S. M. Glenn . 1996 . Woody species composition of floodplain forests of the Little River, McCurtain and LeFlore Counties, Oklahoma . Proceedings of the Oklahoma Academy of Science 76 : 23 – 29 .
+    Google Scholar
+    Hoffman, R. , and K. Kearns . 1997 . Wisconsin manual of control recommendations for ecologically invasive plants Wisconsin Department of Natural Resources, Madison, Wisconsin, USA.
+    Google Scholar
+    Hosner, J. F. 1958 . The effects of complete inundation upon seedlings of six bottomland tree species . Ecology 39 : 371 – 373 .
+    Wiley Online Library Web of Science® Google Scholar
+    Hsiao, T. C. 1973 . Plant responses to water stress . Annual Review of Plant Physiology 24 : 519 – 570 .
+    Crossref CAS Web of Science® Google Scholar
+    Iles, J. , and M. Gleason . 1994 . Understanding the effects of flooding on trees. Sustainable urban landscapes, 1 Iowa State University Extension, Urbandale, Iowa, USA. 〈 http://www.extension.iastate.edu/Publications/SUL1.pdf 〉.
+    Google Scholar
+    Ishii, H. , M. Ooishi , Y. Maruyama , and T. Koike . 2003 . Acclimation of shoot and needle morphology and photosynthesis of two Picea species to differences in soil nutrient availability . Tree Physiology 23 : 453 – 461 .
+    Crossref PubMed Web of Science® Google Scholar
+    Ivanov, L. A. , and N. L. Kossovich . 1932 . O rabote assimilyatsionnovo apparata drevesnyh porod. II . Botanicheskii Zhurnal 17 : 3 – 71 .
+    Google Scholar
+    Jahn, G. 1991 . Temperate deciduous forests of Europe . Pages 377 – 502 in E. Röhrig, B. Ulrich, editors Temperate deciduous forests. Ecosystems of the world, 7 Elsevier, Amsterdam, The Netherlands.
+    Web of Science® Google Scholar
+    Jones, R. H. , and R. R. Sharitz . 1989 . Potential advantages and disadvantages of germinating early for trees in floodplain forests . Oecologia 81 : 443 – 449 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Jones, R. H. , R. R. Sharitz , P. M. Dixon , D. S. Segal , and R. L. Schneider . 1994 . Woody plant regeneration in four floodplain forests . Ecological Monographs 64 : 345 – 367 .
+    Wiley Online Library PubMed Web of Science® Google Scholar
+    Journal of Ecology. 1941–2005 . The biological flora British Ecological Society, London, UK. 〈 http://www.open.ac.uk/OU/Academic/Biology/JEcolol/Bflora.htm 〉.
+    Google Scholar
+    Kamijo, T. , and K. Okutomi . 1995a . Distribution of Castanopsis forest and Persea forest and its causal factors on the southern part of Izu Islands . Journal of Phytogeography and Taxonomy 43 : 67 – 73 .
+    Google Scholar
+    Kamijo, T. , and K. Okutomi . 1995b . Seedling establishment of Castanopsis cuspidata var. sieboldii and Persea thunbergii on lava and scoria of the 1962 eruption on Miyake-jima Island, the Izu Islands . Ecological Research 10 : 235 – 242 .
+    Wiley Online Library Web of Science® Google Scholar
+    Karrenberg, S. , P. J. Edwards , and J. Kollmann . 2002 . The life history of Salicaceace living in the active zone of floodplains . Freshwater Biology 47 : 733 – 748 .
+    Wiley Online Library Web of Science® Google Scholar
+    Ke, G. , and M. J. A. Werger . 1999 . Different responses to shade of evergreen and deciduous oak seedlings and the effect of acorn size . Acta Oecologica 20 : 579 – 586 .
+    Crossref Web of Science® Google Scholar
+    Kikuzawa, K. 1984 . Leaf survival of woody plants in deciduous broad-leaved forests. 2. Small trees and shrubs . Canadian Journal of Botany 62 : 2551 – 2556 .
+    Crossref Web of Science® Google Scholar
+    Kikuzawa, K. 1988 . Leaf survivals of tree species in deciduous broad-leaved forests . Plant Species Biology 3 : 67 – 76 .
+    Wiley Online Library Google Scholar
+    King, R. A. , and C. Ferris . 2002 . A variable minisatellite sequence in the chloroplast genome of Sorbus L. (Rosaceae: Maloideae) . Genome 45 : 570 – 576 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Kitajima, K. , and B. M. Bolker . 2003 . Testing performance and rank reversals among coexisting species: crossover point irradiance analysis by Sack and Grubb (2001) and alternatives . Functional Ecology 17 : 276 – 281 .
+    Wiley Online Library Web of Science® Google Scholar
+    Kloeppel, B. D. , and M. D. Abrams . 1995 . Ecophysiological attributes of the native Acer saccharum and the exotic Acer platanoides in urban oak forests in Pennsylvania, USA . Tree Physiology 15 : 739 – 746 .
+    Crossref PubMed Web of Science® Google Scholar
+    Kobe, R. K. , S. W. Pacala , J. A. Silander Jr. , and C. D. Canham . 1995 . Juvenile tree survivorship as a component of shade tolerance . Ecological Applications 5 : 517 – 532 .
+    Wiley Online Library Web of Science® Google Scholar
+    Kohyama, T. 1984 . Regeneration and coexistence of two Abies species dominating subalpine forests in central Japan . Oecologia 62 : 156 – 161 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Koike, T. 1988 . Leaf structure and photosynthetic performance as related to the forest succession of deciduous broad-leaved trees . Plant Species Biology 3 : 77 – 87 .
+    Wiley Online Library Google Scholar
+    Kozlowski, T. T. 1997 . Responses of woody plants to flooding and salinity. Tree physiology monograph, No. 1 Heron Publishing, Victoria, British Columbia, Canada.
+    Google Scholar
+    Kozlowski, T. T. , P. J. Kramer , and S. G. Pallardy . 1991 . The physiological ecology of woody plants. Physiological ecology. A series of monographs, texts, and treatises Academic Press, San Diego, California, USA.
+    Google Scholar
+    Kreuzwieser, J. , S. Fürniss , and H. Rennenberg . 2002 . Impact of waterlogging on the N-metabolism of flood tolerant and nontolerant tree species . Plant, Cell and Environment 25 : 1039 – 1049 .
+    Wiley Online Library Web of Science® Google Scholar
+    Kubiske, M. E. , and M. D. Abrams . 1994 . Ecophysiological analysis of woody species in contrasting temperate communities during wet and dry years . Oecologia 98 : 303 – 312 .
+    Crossref Web of Science® Google Scholar
+    Kubiske, M. E. , M. D. Abrams , and S. A. Mostoller . 1996 . Stomatal and nonstomatal limitations of photosynthesis in relation to the drought and shade tolerance of tree species in open and understory environments . Trees: Structure and Function 11 : 76 – 82 .
+    Crossref Web of Science® Google Scholar
+    Kuhns, M. , and L. Rupp . 2000 . Selecting and planting landscape trees. Electronic Publishing, NR-460 Utah State University Extension, Logan, Utah, USA. 〈 http://extension.usu.edu/files/natrpubs/nr460.html 〉.
+    Google Scholar
+    Lambers, H. , F. S. Chapin III , and T. L. Pons . 1998 . Plant physiological ecology Springer Verlag, New York, New York, USA.
+    Crossref Google Scholar
+    Lapointe, F. J. , and T. Garland Jr . 2001 . A generalized permutation model for the analysis of cross-species data . Journal of Classification 18 : 109 – 127 .
+    Crossref Web of Science® Google Scholar
+    Larcher, W. 1994 . Ökophysiologie der Pflanzen. Leben, Leistung und Streßbewältigung der Pflanzen in ihrer Umwelt. UTB für Wissenschaft: Große Reihe, Fifth edition Verlag Eugen Ulmer, Stuttgart, Germany.
+    Google Scholar
+    Larcher, W. 1995 . Physiological plant ecology. Ecophysiology and stress physiology of functional groups Springer Verlag, Berlin, Germany.
+    Google Scholar
+    Legendre, P. , and L. Legendre . 1983 . Numerical ecology Elsevier, Amsterdam, The Netherlands.
+    Google Scholar
+    Lei, T. T. , R. Tabuchi , M. Kitao , K. Takahashi , and T. Koike . 1998 . Effects of season, weather and vertical position on the variation in light quantity and quality in a Japanese decidous broadleaf forest . Journal of Sustainable Forestry 6 : 35 – 55 .
+    Crossref Google Scholar
+    Liang, N. , K. Maruyama , and Y. Huang . 1995 . Interactions of elevated CO 2 and drought stress in gas exchange and water-use efficiency in three temperate deciduous tree species . Photosynthetica 31 : 529 – 539 .
+    Web of Science® Google Scholar
+    Linton, M. J. , J. S. Sperry , and D. G. Williams . 1998 . Limits to water transport in Juniperus osteosperma and Pinus edulis: implications for drought tolerance and regulation of transpiration . Functional Ecology 12 : 906 – 911 .
+    Wiley Online Library Web of Science® Google Scholar
+    Liston, A. , W. A. Robinso , D. Piñero , and E. R. Alvarez-Buylla . 1999 . Phylogenetics of Pinus (Pinaceae) based on nuclear ribosomal DNA internal transcribed spacer region sequences . Molecular Phylogenetics and Evolution 11 : 95 – 109 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Loewenstein, N. J. , and S. G. Pallardy . 1998 . Drought tolerance, xylem sap abscisic acid and stomatal conductance during soil drying: a comparison of young plants of four temperate deciduous angiosperms . Tree Physiology 18 : 421 – 430 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Ludlow, M. M. 1989 . Strategies of response to water stress . Pages 269 – 281 in K. H. Kreeb, H. Richter, T. M. Hinckley, editors Structural and functional responses to environmental stresses: water shortage SPB Academic Publishers, The Hague, The Netherlands.
+    Web of Science® Google Scholar
+    Lusk, C. H. 2004 . Leaf area and growth of juvenile temperate evergreens in low light: species of contrasting shade tolerance change rank during ontogeny . Functional Ecology 18 : 820 – 828 .
+    Wiley Online Library Web of Science® Google Scholar
+    Manos, P. S. , J. J. Doyle , and K. C. Nixon . 1999 . Phylogeny, biogeography, and processes of molecular differentiation in Quercus subgenus Quercus (Fagaceae) . Molecular Phylogenetics and Evolution 12 : 333 – 349 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Maruyama, K. 1978 . Ecological studies on natural beech forest. 32. Shoot elongation characteristics and phenological behavior of forest trees in natural beech forest . Bulletin of the Niigata University Forests 11 : 1 – 30 .
+    Google Scholar
+    Maruyama, K. , and Y. Toyama . 1987 . Effect of water stress on photosynthesis and transpiration in three tall deciduous trees . Journal of the Japanese Forest Society 69 : 165 – 170 .
+    Google Scholar
+    Masaki, T. 2002 . Structure and dynamics . Pages 53 – 65 in T. Nakashizuka, Y. Matsumoto, editors Diversity and interaction in a temperate forest community—Ogawa Forest Reserve of Japan. Ecological Studies, 158 Springer Verlag, Berlin, Germany.
+    Crossref Google Scholar
+    Mediavilla, S. , and A. Escudero . 2004 . Stomatal responses to drought of mature trees and seedlings of two co-occurring Mediterranean oaks . Forest Ecology and Management 187 : 281 – 294 .
+    Crossref Web of Science® Google Scholar
+    Meerow, A. W. , and J. G. Norcini . 1997 . Native trees for North Florida Date first printed September 1989; reviewed June 1997 and October 2003. Department of Environmental Horticulture, Florida Cooperative Extension Service, Institute of Food and Agricultural Sciences, University of Florida, Gainesville, Florida, USA. 〈 http://edis.ifas.ufl.edu/ 〉.
+    Web of Science® Google Scholar
+    Mehrhoff, L. J. , K. J. Metzler , and E. E. Corrigan . 2003 . Non-native and potentially invasive vascular plants in Conneticut Center for Conservation and Biodiversity, University of Conneticut, Storrs, Connecticut, USA.
+    Google Scholar
+    Merritt, A. 1994 . Wetlands, industry and wildlife. A manual of principles and practices The Wildfowl and Wetlands Trust, Slimbridge, Gloucester, UK.
+    Google Scholar
+    Milne, R. I. , and R. J. Abbott . 2000 . Origin and evolution of invasive naturalized material of Rhododendron ponticum L. in the British Isles . Molecular Ecology 9 : 541 – 556 .
+    Wiley Online Library CAS PubMed Web of Science® Google Scholar
+    Minore, D. 1979 . Comparative autecological characteristics of northwestern tree species: a literature review. USDA Forest Service Technical Report, PNW-87 Pacific Northwest Forest and Range Experiment Station, Portland, Oregon, USA.
+    Google Scholar
+    Missouri Botanical Garden. 2005 . W3TROPICOS: Missouri Botanical Garden's VAST (VAScular Tropicos) nomenclatural database revision 1.5 Missouri Botanical Garden, St. Louis, Missouri, USA. 〈 http://mobot.mobot.org/W3T/Search/vast.html 〉.
+    Google Scholar
+    Miyazawa, Y. , and K. Kikuzawa . 2005 . Winter photosynthesis by saplings of evergreen broadleaved trees in a deciduous temperate forest . New Phytologist 165 : 857 – 866 .
+    Wiley Online Library CAS PubMed Web of Science® Google Scholar
+    Mooney, H. A. , F. S. Chapin III , and P. A. Matson . 2002 . Principles of terrestrial ecosystem ecology Springer Verlag, New York, New York, USA.
+    Google Scholar
+    Mooney, H. A. , and R. J. Hobbs . 2000 . Invasive species in a changing world Island Press, Washington, D.C., USA.
+    Google Scholar
+    Morozov, G. F. 1903 . Forest dendrology. Attitude of tree species to light. On the types of of tree stands. A conspectus of lectures Lesnoi Institute, St. Peterburg, Russia.
+    Google Scholar
+    Morris, R. , editor 2005 . Plants for a future. Edible medicinal and useful plants for a healthier world Plants for a Future Foundation. Charity No. 1057719, Lerryn, Lostwithiel, Cornwall, PL22 0QJ. 〈 http://pfaf.org/ 〉.
+    Google Scholar
+    Naiman, R. J. , K. L. Fetherston , S. McKay , and J. Chen . 1998 . Riparian forests . Pages 289 – 323 in R. J. Naiman, E. Bilby, editors River ecology and management: lessons from the Pacific coastal ecoregion Springer Verlag, New York, New York, USA.
+    Crossref Google Scholar
+    Nakashizuka, T. , and S. Iida . 1996 . Composition, dynamics and disturbance regime of temperate deciduous forests in monsoon Asia . Pages 23 – 30 in T. Hirose, B. H. Walker, H. A. Mooney, A. Kratochwil, editors Global change and terrestrial ecosystems in monsoon Asia. Tasks for vegetation science Kluwer Academic Publishers, Dordrecht, The Netherlands.
+    Google Scholar
+    Nanami, S. , H. Kawaguchi , R. Tateno , C. Li , and S. Katagiri . 2004 . Sprouting traits and population structure of co-occurring Castanopsis species in an evergreen broad-leaved forest in southern China . Ecological Research 19 : 341 – 348 .
+    Wiley Online Library Web of Science® Google Scholar
+    Ni, B.-R. , and S. G. Pallardy . 1991 . Response of gas exchange to water stress in seedlings of woody angiosperms . Tree Physiology 8 : 1 – 9 .
+    Crossref PubMed Web of Science® Google Scholar
+    Niinemets, Ü. , and K. Kull . 1994 . Leaf weight per area and leaf size of 85 Estonian woody species in relation to shade tolerance and light availability . Forest Ecology and Management 70 : 1 – 10 .
+    Crossref Web of Science® Google Scholar
+    Niinemets, Ü. , and O. Kull . 1998 . Stoichiometry of foliar carbon constituents varies along light gradients in temperate woody canopies: implications for foliage morphological plasticity . Tree Physiology 18 : 467 – 479 .
+    Crossref PubMed Web of Science® Google Scholar
+    Niinemets, Ü. , and F. Valladares . 2004 . Photosynthetic acclimation to simultaneous and interacting environmental stresses along natural light gradients: optimality and constraints . Plant Biology 6 : 254 – 268 .
+    Wiley Online Library CAS PubMed Web of Science® Google Scholar
+    Nikolov, N. , and H. Helmisaari . 1992 . Silvics of the circumpolar boreal forest tree species . Pages 13 – 84 in H. H. Shugart, R. Leemans, G. B. Bonan, editors A system analysis of the global boreal forest Cambridge University Press, Cambridge, UK.
+    Crossref Google Scholar
+    Oberdorfer, E. , T. Müller , D. Korneck , W. Lippert , E. Patzke , and H. E. Weber . 1994 . Pflanzensoziologische Exkursionsflora. UTB für Wissenschaft: Uni-Taschenbücher, 1828, Seventh edition Verlag Eugen Ulmer, Stuttgart, Germany.
+    Google Scholar
+    Ohsawa, M. , and I. Nitta . 1997 . Patterning of subtropical/warm-temperate evergreen broad-leaved forests in East Asian mountains with special reference to shoot phenology . Tropics 6 : 317 – 334 .
+    Crossref Google Scholar
+    Ohsawa, M. , P. R. Shakya , and M. Numata . 1986 . Distribution and succession of west Himalaya forest types in the eastern part of the Nepal Himalaya . Mountain Research and Development 6 : 143 – 157 .
+    Crossref Web of Science® Google Scholar
+    Otto, H.-J. 1994 . Waldökologie Verlag Eugen Ulmer, Stuttgart, Germany.
+    Google Scholar
+    Ozaki, K. , and M. Ohsawa . 1995 . Successional change of forest pattern along topographical gradients in warm-temperate mixed forests in Mt. Kiyosumi, central Japan . Ecological Research 10 : 223 – 234 .
+    Wiley Online Library Web of Science® Google Scholar
+    Peng, C. H. 2000 . From static biogeographical model to dynamic global vegetation model: a global perspective on modelling vegetation dynamics . Ecological Modelling 135 : 33 – 54 .
+    Crossref CAS Web of Science® Google Scholar
+    Percival, G. C. , and C. N. Sheriffs . 2002 . Identification of drought-tolerant woody perennials using chlorophyll fluorescence . Journal of Arboriculture 28 : 215 – 222 .
+    Google Scholar
+    Peters, R. 1992 . Ecology of beech forests in the Northern Hemisphere Dissertation. Landbouwuniversiteit Wageningen, The Netherlands.
+    Google Scholar
+    Peters, R. 1997 . Beech forests. Geobotany Kluwer Academic Publishers, Dordrecht, The Netherlands.
+    Crossref Google Scholar
+    Peters, R. , H. Tanaka , M. Shibata , and T. Nakashizuka . 1995 . Light climate and growth in shade-tolerant Fagus crenata, Acer mono and Carpinus cordata . Ecoscience 2 : 67 – 74 .
+    Crossref Web of Science® Google Scholar
+    Pezeshki, S. R. , R. D. DeLaune , and J. F. Meeder . 1997 . Carbon assimilation and biomass partitioning in Avicennia germinans and Rhizophora mangle seedlings in response to soil redox conditions . Environmental and Experimental Botany 37 : 161 – 171 .
+    Crossref CAS Web of Science® Google Scholar
+    Pezeshki, S. R. , J. H. Pardue , and R. D. DeLaune . 1996 . Leaf gas exchange and growth of flood-tolerant and flood-sensitive tree species under low soil redox conditions . Tree Physiology 16 : 453 – 458 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Pilgrim, E. S. , M. J. Crawley , and K. Dolphin . 2004 . Patterns of rarity in the native British flora . Biological Conservation 120 : 165 – 174 .
+    Crossref Web of Science® Google Scholar
+    Prentice, I. C. , and H. Helmisaari . 1991 . Silvics of North-European trees: compilation, comparisons and implications for forest succession modelling . Forest Ecology and Management 42 : 79 – 93 .
+    Crossref Web of Science® Google Scholar
+    Press, M. C. 1999 . Research review. The functional significance of leaf structure: a search for generalizations . New Phytologist 143 : 213 – 219 .
+    Wiley Online Library Web of Science® Google Scholar
+    Purvis, A. , and T. Garland Jr . 1993 . Polytomies in comparative analyses of continuous data . Systematic Biology 42 : 569 – 575 .
+    Crossref Web of Science® Google Scholar
+    Qian, H. , and R. E. Ricklefs . 1999 . A comparison of the taxonomic richness of vascular plants in China and the United States . American Naturalist 154 : 160 – 181 .
+    Crossref PubMed Web of Science® Google Scholar
+    Qian, H. , and R. E. Ricklefs . 2000 . Large-scale processes and the Asian bias in species diversity of temperate plants . Nature 407 : 180 – 182 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Rackham, O. 2003 . Ancient woodland: its history, vegetation and uses in England. Second edition Castlepoint Press, Dalbeattie, UK.
+    Google Scholar
+    Randall, J. M. , and J. Marinelli . 1996 . Invasive plants, weeds of the global garden Brooklyn Botanical Garden, New York, New York, USA.
+    Google Scholar
+    Ranney, T. G. 1994 . Differential tolerance of eleven Prunus taxa to root zone flooding . Journal of Environmental Horticulture 12 : 138 – 141 .
+    Google Scholar
+    Ranney, T. G. , and R. E. Bir . 1994 . Comparative flood tolerance of birch rootstocks . Journal of the American Society for Horticultural Science 119 : 43 – 48 .
+    Web of Science® Google Scholar
+    Ranney, T. G. , R. E. Bir , and W. A. Skroch . 1991 . Comparative drought resistance among six species of birch (Betula): influence of mild water stress on water relations and leaf gas exchange . Tree Physiology 8 : 351 – 360 .
+    Crossref Web of Science® Google Scholar
+    Reich, P. B. , I. J. Wright , J. Cavender-Bares , J. M. Craine , J. Oleksyn , M. Westoby , and M. B. Walters . 2003 . The evolution of plant functional variation: traits, spectra and strategies . International Journal of Plant Sciences 164 : s143 – 164 .
+    Crossref Web of Science® Google Scholar
+    Richens, R. 1980 . On fine distinctions in Ulmus L . Taxon 29 : 305 – 312 .
+    Wiley Online Library Web of Science® Google Scholar
+    Ricklefs, R. E. , H. Qian , and P. S. White . 2004 . The region effect on mesoscale plant species richness between eastern Asia and eastern North America . Ecography 27 : 129 – 136 .
+    Wiley Online Library Web of Science® Google Scholar
+    Robertson, A. , A. C. Newton , and R. A. Ennos . 2004 . Multiple hybrid origins, genetic diversity and population genetic structure of two endemic Sorbus taxa on the Isle of Arran, Scotland . Molecular Ecology 13 : 123 – 134 .
+    Wiley Online Library CAS PubMed Web of Science® Google Scholar
+    Sack, L. 2004 . Responses of temperate woody seedlings to shade and drought: do trade-offs limit potential niche differentiation? Oikos 107 : 107 – 127 .
+    Wiley Online Library Web of Science® Google Scholar
+    Sack, L. , and P. J. Grubb . 2002 . The combined impacts of deep shade and drought on the growth and biomass allocation of shade tolerant woody seedlings . Oecologia 131 : 175 – 185 .
+    Crossref PubMed Web of Science® Google Scholar
+    Sack, L. , P. J. Grubb , and T. Marañón . 2003 . The functional morphology of juvenile plants tolerant of strong summer drought in shaded forest understories in southern Spain . Plant Ecology 168 : 139 – 163 .
+    Crossref Web of Science® Google Scholar
+    Sakio, H. 2003 . Effects of flooding on the growth of seedlings of some deciduous tree species . Page 6 in Integration of silviculture and genetics in creating and sustaining oak forests. Joint meeting of IUFRO working groups Genetics of Quercus and improvement and silviculture of oaks. OAK 2003, Tsukuba, Japan.
+    Google Scholar
+    Sánchez-Gómez, D. , F. Valladares , and M. A. Zavala . 2006a . Performance of seedlings of Mediterranean woody species under experimental gradients of irradiance and water availability: trade-offs and evidence for niche differentiation . New Phytologist 170 : 795 – 806 .
+    Wiley Online Library PubMed Web of Science® Google Scholar
+    Sánchez-Gómez, D. , M. A. Zavala , and F. Valladares . 2006b . Survival responses to irradiance are differentially influenced by drought in seedlings of forest tree species of the temperate-Mediterranean transition zone . Acta Oecologica in press. .
+    Crossref Web of Science® Google Scholar
+    Schaffrath, J. 2000 . Auswirkungen des extremen Sommerhochwassers des Jahres 1997 auf die Gehölzwegetation in der Oderaue bei Frakfurt (O) . Naturschutz und Landespflege in Brandenburg 9 : 4 – 13 .
+    Google Scholar
+    Scharf, F. S. , F. Juanes , and M. Sutherland . 1998 . Inferring ecological relationships from the edges of scatter diagrams: comparison of regression techniques . Ecology 79 : 448 – 460 .
+    Wiley Online Library Web of Science® Google Scholar
+    Schmidt, M. , and A. W. Schneider-Poetsch . 2002 . The evolution of gymnosperms redrawn by phytochrome genes: the Gnetatae appear at the base of gymnosperms . Journal of Molecular Evolution 54 : 715 – 724 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Shidei, T. 1974 . Forest vegetation zones . Pages 87 – 124 in M. Numata, editor The flora and vegetation of Japan Kodansha, Tokyo, Japan.
+    Google Scholar
+    Siebel, H. N. , and C. W. P. M. Blom . 1998 . Effects of irregular flooding on the establishment of tree species . Acta Botanica Neerlandica 47 : 231 – 240 .
+    Web of Science® Google Scholar
+    Siebel, H. N. , M. v. Wijk , and C. W. P. M. Blom . 1998 . Can tree seedlings survive increased flood levels of rivers? Acta Botanica Neerlandica 46 : 219 – 230 .
+    Google Scholar
+    Silvertown, J. , M. Dodd , and D. Gowing . 2001 . Phylogeny and the niche structure of meadow plant communities . Journal of Ecology 79 : 448 – 460 .
+    Google Scholar
+    Smith, J. K. , editor 2004 . Fire effects information system (FEIS). FEIS plants species reviews U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station, Fire Sciences Laboratory, Missoula, Montana, USA. 〈 http://www.fs.fed.us/database/feis 〉.
+    Google Scholar
+    Smith, T. , and M. Huston . 1989 . A theory of the spatial and temporal dynamics of plant communities . Vegetatio 83 : 49 – 69 .
+    Crossref Web of Science® Google Scholar
+    Sokal, R. R. , and F. J. Rohlf . 1995 . Biometry. The principles and practice of statistics in biological research. Third edition W. H. Freeman, New York, New York, USA.
+    Google Scholar
+    Soltis, D. E. et al. 2000 . Angiosperm phylogeny inferred from 18S rDNA, rbc L, and atp B sequences . Botanical Journal of the Linnean Society 133 : 381 – 461 .
+    Wiley Online Library Web of Science® Google Scholar
+    Sperry, J. S. , K. L. Nichols , J. E. M. Sullivan , and S. E. Eastlack . 1994 . Xylem embolism in ring-porous, diffuse-porous, and coniferous trees of northern Utah and interior Alaska . Ecology 75 : 1736 – 1752 .
+    Wiley Online Library Web of Science® Google Scholar
+    Spurr, S. H. , and B. V. Barnes . 1980 . Forest ecology. Third edition John Wiley and Sons, Toronto, Canada.
+    Google Scholar
+    Stange, C. , D. Ogle , and L. St. John . 2002 . Tree planting, care and management . USDA Natural Resources Conservation Service Technical Notes, 42 USDA NRCS, Boise, Idaho, USA.
+    Google Scholar
+    Streng, D. R. , J. S. Glitzenstein , and P. A. Harcombe . 1989 . Woody seedling dynamics in an East Texas floodplain forest . Ecological Monographs 59 : 177 – 204 .
+    Wiley Online Library Web of Science® Google Scholar
+    Sumida, A. 1995 . Three-dimensional structure of a mixed broad-leaved forest in Japan . Vegetatio 119 : 67 – 80 .
+    Web of Science® Google Scholar
+    Suzuki, E. 1997 . The dynamics of old Cryptomeria japonica forest on Yakushima Island . Tropics 6 : 421 – 428 .
+    Crossref Google Scholar
+    Takahashi, K. , Y. Fujimura , and T. Koike . 1988 . Tolerance of deciduous broad-leaved trees in Hokkaido to flooding. II. Seasonal change of the tolerance . Transactions of the meeting in Hokkaido branch of the Japanese Forestry Society 36 : 99 – 101 .
+    Google Scholar
+    Talbot, R. J. , and J. R. Etherington . 1987 . Comparative studies of plant growth and distribution in relation to waterlogging. XIII. The effect of Fe 2+ on photosynthesis and respiration of Salix caprea and S. cinerea ssp. oleifolia . New Phytologist 105 : 575 – 583 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Tanouchi, H. 1996 . Survival and growth of two coexisting evergreen oak species after germination under different light conditions . International Journal of Plant Sciences 157 : 516 – 522 .
+    Crossref Web of Science® Google Scholar
+    Tanouchi, H. , and S. Yamamoto . 1995 . Structure and regeneration of canopy species in an old-growth evergreen broad-leaved forest of Aya district, southwestern Japan . Vegetatio 117 : 51 – 60 .
+    Crossref Web of Science® Google Scholar
+    Tapper, P.-G. 1993 . The replacement of Alnus glutinosa by Fraxinus excelsior during succession related to regenerative differences . Ecography 16 : 212 – 218 .
+    Wiley Online Library Web of Science® Google Scholar
+    Tapper, P.-G. 1996 . Tree dynamics in a successional Alnus–Fraxinus woodland . Ecography 19 : 237 – 244 .
+    Wiley Online Library Web of Science® Google Scholar
+    Terazawa, K. , and K. Kikuzawa . 1994 . Effects of flooding on leaf dynamics and other seedling responses in flood-tolerant Alnus japonica and flood-intolerant Betula platyphylla var. japonica . Tree Physiology 14 : 251 – 261 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    ter Steege, H. 1994 . Flooding and drought tolerance in seeds and seedlings of two Mora species segregated along a soil hydrological gradient in the tropical rain forest of Guyana . Oecologia 100 : 356 – 367 .
+    Crossref PubMed Web of Science® Google Scholar
+    Tesche, M. 1992 . Klimaresistenz . Pages 279 – 306 in H. Lyr, H. J. Fiedler, W. Tranquillini, editors Physiologie und Ökologie der Gehölze Gustav Fischer Verlag, Jena, Germany.
+    Google Scholar
+    Tilman, D. 1988 . Plant strategies and the dynamics and structure of plant communities . Monographs in population biology, 26 Princeton University Press, Princeton, New Jersey, USA.
+    Google Scholar
+    Tilman, D. 1993 . Community diversity and succession: the roles of competition, dispersal, and habitat modification . Pages 327 – 344 in E.-D. Schulze, H. A. Mooney, editors Biodiversity and ecosystem function. Ecological studies, 99 Springer Verlag, Berlin, Germany.
+    Web of Science® Google Scholar
+    Timmermann, G. 1992 . Rosa L. 1753 . Pages 64 – 101 in O. Sebald, S. Seybold, G. Philippi, editors Die Farn- und Blütenpflanzen Baden-Württembergs Verlag Eugen Ulmer, Stuttgart, Germany.
+    Google Scholar
+    Tschaplinski, T. J. , G. M. Gebre , and T. L. Shirshac . 1998 . Osmotic potential of several hardwood species as affected by manipulation of throughfall precipitation in an upland oak forest during a dry year . Tree Physiology 18 : 291 – 298 .
+    Crossref PubMed Web of Science® Google Scholar
+    Tsukahara, H. 1985 . Studies of the flood tolerance of some tree species . Bulletin of the Yamagata University, Agricultural Science 9 : 425 – 448 .
+    Google Scholar
+    Tyree, M. T. , and J. D. Alexander . 1993 . Hydraulic conductivity of branch junctions in three temperate tree species . Trees: Structure and Function 7 : 156 – 159 .
+    Crossref Web of Science® Google Scholar
+    USDA NRCS. 1996 . Chapter 16. Streambank and shoreline protection . In National engineering field handbook, Part 650 U.S. Department of Agriculture, Natural Resources Conservation Service, Washington, D.C., USA.
+    Google Scholar
+    USDA NRCS. 2005 . The PLANTS Database, Version 3.5 Data compiled from various sources by Mark W. Skinner. National Plant Data Center, Information Technology Center, Baton Rouge, Louisiana, USA. 〈 http://plants.usda.gov 〉.
+    Google Scholar
+    Vaga, A. , editor 1960 . Eesti NSV floora Eesti Riiklik Kirjastus/Valgus, Tallinn, Estonia.
+    Google Scholar
+    Valladares, F. 2003 . Light heterogeneity and plants: from ecophysiology to species coexistence and biodiversity . Pages 439 – 471 in K. Esser, U. Lüttge, W. Beyschlag, F. Hellwig, editors Progress in botany Springer Verlag, Berlin, Germany.
+    Crossref Google Scholar
+    Valladares, F. , S. Arrieta , I. Aranda , D. Lorenzo , D. Tena , D. Sánchez-Gómez , F. Suarez , and J. A. Pardos . 2005a . Shade tolerance, photoinhibition sensitivity and phenotypic plasticity of Ilex aquifolium in continental-Mediterranean sites . Tree Physiology 25 : 1041 – 1052 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Valladares, F. , I. Dobarro , D. Sánchez-Gómez , and R. W. Pearcy . 2005b . Photoinhibition and drought in Mediterranean woody saplings: scaling effects and interactions in sun and shade phenotypes . Journal of Experimental Botany 56 : 483 – 494 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Valladares, F. , and R. W. Pearcy . 1997 . Interactions between water stress, sun–shade acclimation, heat tolerance and photoinhibition in the sclerophyll Heteromeles arbutifolia . Plant, Cell and Environment 20 : 25 – 36 .
+    Wiley Online Library Web of Science® Google Scholar
+    Valladares, F. , and R. W. Pearcy . 2002 . Drought can be more critical in the shade than in the sun: a field study of carbon gain and photo-inhibition in a Californian shrub during a dry El Niño year . Plant, Cell and Environment 25 : 749 – 759 .
+    Wiley Online Library Web of Science® Google Scholar
+    van Splunder, I. 1998 . Floodplain forest recovery. Softwood development in relation to hydrology, riverbank morphology and management Dissertation. Katholieke Universiteit, Nijmgen, Japan.
+    Google Scholar
+    van Splunder, I. , H. Coops , L. A. C. J. Voesenek , and C. W. P. M. Blom . 1995 . Establishment of alluvial forest species in floodplains: the role of dispersal timing, germination characteristics and water-level fluctuations . Acta Botanica Neerlandica 44 : 269 – 278 .
+    Wiley Online Library Google Scholar
+    van Splunder, I. , L. A. C. J. Voesenek , H. Coops , X. J. A. de Vries , and C. W. P. M. Blom . 1996 . Morphological responses of seedlings of four species of Salicaceae to drought . Canadian Journal of Botany 74 : 1988 – 1995 .
+    Crossref Google Scholar
+    Walter, H. 1968 . Die Vegetation der Erde in öko-physiologischer Betrachtung G. Fischer, Stuttgart, Germany.
+    Google Scholar
+    Walters, M. B. , and P. B. Reich . 2000 . Seed size, nitrogen supply, and growth rate affect tree seedling survival in deep shade . Ecology 81 : 1887 – 1901 .
+    Wiley Online Library Web of Science® Google Scholar
+    Warming, E. 1909 . Oecology of plants. An introduction to the study of plant communities Oxford University Press, Oxford, UK.
+    Google Scholar
+    Warton, D. I. , and N. C. Weber . 2002 . Common slope tests for bivariate errors-in variables models . Biometrical Journal 44 : 161 – 174 .
+    Wiley Online Library Web of Science® Google Scholar
+    Webb, S. L. , and C. K. Kaunzinger . 1993 . Biological invasion of the Drew University (New Jersey) Forest Preserve by Norway maple (Acer platanoides L) . Bulletin of the Torrey Botanical Club 120 : 334 – 343 .
+    Crossref Web of Science® Google Scholar
+    Westoby, M. 1999 . Generalization in functional plant ecology: the species sampling problem, plant ecology strategy schemes, and phylogeny . Pages 847 – 872 in F. I. Pugnaire, F. Valladares, editors Handbook of functional plant ecology Marcel Dekker, New York, New York, USA.
+    Google Scholar
+    White, P. S. 1983 . Corner's rules in eastern deciduous trees: allometry and its implications for the adaptive architecture of trees . Bulletin of the Torrey Botanical Club 110 : 203 – 212 .
+    Crossref Web of Science® Google Scholar
+    White, R. M. 1973 . Plant tolerance for standing water: an assessment . Cornell Plantations 28 : 50 – 52 .
+    Google Scholar
+    Whitley, R. E. , S. Black-Samuelsson , and D. Clapham . 2003 . Development of microsatellite markers for the European white elm (Ulmus laevis Pall.) and cross-species amplification within the genus Ulmus . Molecular Ecology Notes 3 : 598 – 600 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Whitlow, T. H. , and R. W. Harris . 1979 . Flood tolerance in plants: a state-of-the-art review National Technical Information Service, U.S. Deptartment of Commerce, Washington, D.C., USA.
+    Google Scholar
+    Wiesner, J. 1907 . Der Lichtgenuss der Pflanzen. Photometrische und physiologische Untersuchungen mit besonderer Rücksichtnahme auf Lebensweise, geographische Verbreitung und Kultur der Pflanzen Verlag von Wilhelm Engelmann, Leipzig, Germany.
+    Crossref Google Scholar
+    Woodward, F. I. 1990 . From ecosystems to genes: the importance of shade tolerance . Trends in Ecology and Evolution 5 : 111 – 114 .
+    Crossref Web of Science® Google Scholar
+    Wright, I. J. , and K. Cannon . 2001 . Relationships between leaf lifespan and structural defences in a low-nutrient, sclerophyll flora . Functional Ecology 15 : 351 – 359 .
+    Wiley Online Library Web of Science® Google Scholar
+    Yamamoto, F. , T. Sakata , and K. Terazawa . 1995 . Physiological, morphological and anatomical responses of Fraxinus mandshurica seedlings to flooding . Tree Physiology 15 : 713 – 719 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Yevstigneyev, O. I. 1990 . Fitotsenotipy i otnosheniye listvennyh derevyev k svetu. (Phytocoenotypes and the behaviour of deciduous trees with respect to light.) Dissertation. Moskovskii Gosudarstvennyi Pedagogicheskii Institut imeni V. I. Lenina, Moscow, Russia.
+    Web of Science® Google Scholar
+    Yin, Y. , J. C. Nelson , G. V. Swenson , H. A. Langrehr , and T. A. Blackburn . 1994 . Tree mortality in the upper Mississippi river and floodplain following an extreme flood in 1993 . Pages 41 – 60 in Long term resource monitoring program, 1993 flood observations National Biological Service, Environmental Management Technical Center, Onalaska, Wisconsin, USA.
+    Web of Science® Google Scholar
+    Zon, R. , and H. S. Graves . 1911 . Light in relation to tree growth. U.S. Department of Agriculture, Forest Service, Bulletin 92 Government Printing Office, Washington, D.C., USA.
+    Google Scholar
+
+Citing Literature
+Number of times cited according to CrossRef: 405
+
+    Anthony R. Taylor, Bilei Gao, Han Y.H. Chen, The effect of species diversity on tree growth varies during forest succession in the boreal forest of central Canada, Forest Ecology and Management, 10.1016/j.foreco.2019.117641, 455 , (117641), (2020).
+    Crossref
+    Masumi Hisano, Han Y. H. Chen, Spatial variation in climate modifies effects of functional diversity on biomass dynamics in natural forests across Canada, Global Ecology and Biogeography, 10.1111/geb.13060, 29 , 4, (682-695), (2020).
+    Wiley Online Library
+    Diego Rodríguez de Prado, Roberto San Martín, Felipe Bravo, Celia Herrero de Aza, Potential climatic influence on maximum stand carrying capacity for 15 Mediterranean coniferous and broadleaf species, Forest Ecology and Management, 10.1016/j.foreco.2019.117824, 460 , (117824), (2020).
+    Crossref
+    Laura J. Williams, Jeannine Cavender‐Bares, Alain Paquette, Christian Messier, Peter B. Reich, Light mediates the relationship between community diversity and trait plasticity in functionally and phylogenetically diverse tree mixtures, Journal of Ecology, 10.1111/1365-2745.13346, 108 , 4, (1617-1634), (2020).
+    Wiley Online Library
+    M. Steckel, M. del Río, M. Heym, J. Aldea, K. Bielak, G. Brazaitis, J. Černý, L. Coll, C. Collet, M. Ehbrecht, A. Jansons, A. Nothdurft, M. Pach, M. Pardos, Q. Ponette, D.O.J. Reventlow, R. Sitko, M. Svoboda, P. Vallet, B. Wolff, H. Pretzsch, Species mixing reduces drought susceptibility of Scots pine (Pinus sylvestris L.) and oak (Quercus robur L., Quercus petraea (Matt.) Liebl.) – Site water supply and fertility modify the mixing effect, Forest Ecology and Management, 10.1016/j.foreco.2020.117908, 461 , (117908), (2020).
+    Crossref
+    Shan Luo, Bernhard Schmid, Cameron Wagg, Yuxin Chen, Bin Jiang, Minxia Liang, Xubing Liu, Shixiao Yu, Community‐wide trait means and variations affect biomass in a biodiversity experiment with tree seedlings, Oikos, 10.1111/oik.07273, 129 , 6, (799-810), (2020).
+    Wiley Online Library
+    Kirsten Thonicke, Maik Billing, Werner Bloh, Boris Sakschewski, Ülo Niinemets, Josep Peñuelas, J. Hans C. Cornelissen, Yusuke Onoda, Peter Bodegom, Michael E. Schaepman, Fabian D. Schneider, Ariane Walz, Simulating functional diversity of European natural forests along climatic gradients, Journal of Biogeography, 10.1111/jbi.13809, 47 , 5, (1069-1085), (2020).
+    Wiley Online Library
+    Camille Meeussen, Sanne Govaert, Thomas Vanneste, Kim Calders, Kurt Bollmann, Jörg Brunet, Sara A.O. Cousins, Martin Diekmann, Bente J. Graae, Per-Ola Hedwall, Sruthi M. Krishna Moorthy, Giovanni Iacopetti, Jonathan Lenoir, Sigrid Lindmo, Anna Orczewska, Quentin Ponette, Jan Plue, Federico Selvi, Fabien Spicher, Matteo Tolosano, Hans Verbeeck, Kris Verheyen, Pieter Vangansbeke, Pieter De Frenne, Structural variation of forest edges across Europe, Forest Ecology and Management, 10.1016/j.foreco.2020.117929, 462 , (117929), (2020).
+    Crossref
+    Eric J. Gustafson, Christel C. Kern, Brian R. Miranda, Brian R. Sturtevant, Dustin R. Bronson, John M. Kabrick, Climate adaptive silviculture strategies: How do they impact growth, yield, diversity and value in forested landscapes?, Forest Ecology and Management, 10.1016/j.foreco.2020.118208, 470-471 , (118208), (2020).
+    Crossref
+    Xavier Morin, Thomas Damestoy, Maude Toigo, Bastien Castagneyrol, Hervé Jactel, François de Coligny, Céline Meredieu, Using forest gap models and experimental data to explore long-term effects of tree diversity on the productivity of mixed planted forests, Annals of Forest Science, 10.1007/s13595-020-00954-0, 77 , 2, (2020).
+    Crossref
+    Sonia Condés, Ana Aguirre, Miren del Río, Crown plasticity of five pine species in response to competition along an aridity gradient, Forest Ecology and Management, 10.1016/j.foreco.2020.118302, 473 , (118302), (2020).
+    Crossref
+    Soňa Zimová, Laura Dobor, Tomáš Hlásny, Werner Rammer, Rupert Seidl, Reducing rotation age to address increasing disturbances in Central Europe: Potential and limitations, Forest Ecology and Management, 10.1016/j.foreco.2020.118408, 475 , (118408), (2020).
+    Crossref
+    C. Kuehne, M.B. Russell, A.R. Weiskittel, J.A. Kershaw, Comparing strategies for representing individual-tree secondary growth in mixed-species stands in the Acadian Forest region, Forest Ecology and Management, 10.1016/j.foreco.2019.117823, 459 , (117823), (2020).
+    Crossref
+    Christopher J. Dunn, James D. Johnston, Matthew J. Reilly, John D. Bailey, Rebecca A. Miller, How does tree regeneration respond to mixed‐severity fire in the western Oregon Cascades, USA?, Ecosphere, 10.1002/ecs2.3003, 11 , 1, (2020).
+    Wiley Online Library
+    Brian M. Hoven, Kathleen S. Knight, Valerie E. Peters, David L. Gorchov, Release and suppression: forest layer responses to emerald ash borer (Agrilus planipennis)-caused ash death, Annals of Forest Science, 10.1007/s13595-019-0895-y, 77 , 1, (2020).
+    Crossref
+    Leen Depauw, Michael P. Perring, Dries Landuyt, Sybryn L. Maes, Haben Blondeel, Emiel De Lombaerde, Guntis Brūmelis, Jörg Brunet, Déborah Closset‐Kopp, Janusz Czerepko, Guillaume Decocq, Jan den Ouden, Radosław Gawryś, Werner Härdtle, Radim Hédl, Thilo Heinken, Steffi Heinrichs, Bogdan Jaroszewicz, Martin Kopecký, Ilze Liepiņa, Martin Macek, František Máliš, Wolfgang Schmidt, Simon M. Smart, Karol Ujházy, Monika Wulf, Kris Verheyen, Light availability and land‐use history drive biodiversity and functional changes in forest herb layer communities, Journal of Ecology, 10.1111/1365-2745.13339, 108 , 4, (1411-1425), (2020).
+    Wiley Online Library
+    Emiel De Lombaerde, Haben Blondeel, Lander Baeten, Dries Landuyt, Michael P. Perring, Leen Depauw, Sybryn L. Maes, Bin Wang, Kris Verheyen, Light, temperature and understorey cover predominantly affect early life stages of tree seedlings in a multifactorial mesocosm experiment, Forest Ecology and Management, 10.1016/j.foreco.2020.117907, 461 , (117907), (2020).
+    Crossref
+    Víctor Resco de Dios, Víctor Resco de Dios, Plant Carbon Economies and the Dynamics of Wildland Fuels, Plant-Fire Interactions, 10.1007/978-3-030-41192-3_6, (93-115), (2020).
+    Crossref
+    Víctor Resco de Dios, Víctor Resco de Dios, The Evolution of Physiological Adaptations in a Flammable Planet, Plant-Fire Interactions, 10.1007/978-3-030-41192-3_4, (53-73), (2020).
+    Crossref
+    Núria Aquilué, Élise Filotas, Dylan Craven, Marie‐Josée Fortin, Lluís Brotons, Christian Messier, Evaluating forest resilience to global threats using functional response traits and network properties, Ecological Applications, 10.1002/eap.2095, 30 , 5, (2020).
+    Wiley Online Library
+    Carmen L. Tubbesing, Robert A. York, Scott L. Stephens, John J. Battles, Rethinking fire‐adapted species in an altered fire regime, Ecosphere, 10.1002/ecs2.3091, 11 , 3, (2020).
+    Wiley Online Library
+    Sivajanani Sivarajah, Sean C. Thomas, Sandy M. Smith, Evaluating the ultraviolet protection factors of urban broadleaf and conifer trees in public spaces, Urban Forestry & Urban Greening, 10.1016/j.ufug.2020.126679, (126679), (2020).
+    Crossref
+    Lucas Cifuentes, Flavio Moreno Hurtado, Juan Diego León-Peláez, Horacio Paz, Drought resistance traits predict tree species performance in a humid tropical landscape, but their importance shifts between managed cover types, Forest Ecology and Management, 10.1016/j.foreco.2020.118160, 468 , (118160), (2020).
+    Crossref
+    Constantin M. Zohner, Lidong Mo, Thomas A. M. Pugh, Jean‐Francois Bastin, Thomas W. Crowther, Interactive climate factors restrict future increases in spring productivity of temperate and boreal trees, Global Change Biology, 10.1111/gcb.15098, 26 , 7, (4042-4055), (2020).
+    Wiley Online Library
+    Brent R. Coleman, Adam R. Martin, Naresh V. Thevathasan, Andrew M. Gordon, Marney E. Isaac, Leaf trait variation and decomposition in short-rotation woody biomass crops under agroforestry management, Agriculture, Ecosystems & Environment, 10.1016/j.agee.2020.106971, 298 , (106971), (2020).
+    Crossref
+    Nica Huber, Harald Bugmann, Valentine Lafond, Capturing ecological processes in dynamic forest models: why there is no silver bullet to cope with complexity, Ecosphere, 10.1002/ecs2.3109, 11 , 5, (2020).
+    Wiley Online Library
+    Yali Yuan, Zhihong Sun, Astrid Kännaste, Ming Guo, Guomo Zhou, Ülo Niinemets, Isoprenoid and aromatic compound emissions in relation to leaf structure, plant growth form and species ecology in 45 East-Asian urban subtropical woody species, Urban Forestry & Urban Greening, 10.1016/j.ufug.2020.126705, (126705), (2020).
+    Crossref
+    Alexander Krings, Distinguishing Seedlings of Pines of Piedmont Upland Grassland Systems, Castanea, 10.2179/0008-7475.85.1.33, 85 , 1, (33), (2020).
+    Crossref
+    Yaogeng Wang, Rolf W. Sparidans, Wenlong Li, Maria C. Lebre, Jos H. Beijnen, Alfred H. Schinkel, OATP1A/1B, CYP3A, ABCB1, and ABCG2 limit oral availability of the NTRK inhibitor larotrectinib, while ABCB1 and ABCG2 also restrict its brain accumulation, British Journal of Pharmacology, 10.1111/bph.15034, 177 , 13, (3060-3074), (2020).
+    Wiley Online Library
+    Wolfram Knapp, Guerickes Versuch mit den Großen Magdeburger Halbkugeln und den Pferden, Vakuum in Forschung und Praxis, 10.1002/vipr.202000738, 32 , 3, (33-39), (2020).
+    Wiley Online Library
+    Olaf Thomas Bouman, Leaf chlorophyll plasticity in advanced regeneration of co-occurring Acer pensylvanicum and Fagus grandifolia beneath deciduous forest canopy, Flora, 10.1016/j.flora.2019.151531, 263 , (151531), (2020).
+    Crossref
+    Hannah E. Ormshaw, Tim P. Duval, Response of thicket swamp species to soil moisture levels: Implications for restoration, Ecological Engineering, 10.1016/j.ecoleng.2020.105911, 153 , (105911), (2020).
+    Crossref
+    Andrzej M. Jagodziński, Marcin K. Dyderski, Paweł Horodecki, Differences in biomass production and carbon sequestration between highland and lowland stands of Picea abies (L.) H. Karst. and Fagus sylvatica L., Forest Ecology and Management, 10.1016/j.foreco.2020.118329, 474 , (118329), (2020).
+    Crossref
+    Hayley A. Bibaud, Mark J. Ducey, Michael J. Simmons, Hannah C. McCarthy, Riley N. Bibaud, Thomas D. Lee, Factors limiting the success of invasive glossy buckthorn (Frangula alnus) in New Hampshire’s eastern white pine – hardwood forests, Forest Ecology and Management, 10.1016/j.foreco.2020.118345, 474 , (118345), (2020).
+    Crossref
+    Marcin K. Dyderski, Łukasz Pawlik, Spatial distribution of tree species in mountain national parks depends on geomorphology and climate, Forest Ecology and Management, 10.1016/j.foreco.2020.118366, 474 , (118366), (2020).
+    Crossref
+    W L Mason, T Connolly, What influences the long-term development of mixtures in British forests?, Forestry: An International Journal of Forest Research, 10.1093/forestry/cpaa003, (2020).
+    Crossref
+    H. Pretzsch, T. Grams, K. H. Häberle, K. Pritsch, T. Bauerle, T. Rötzer, Growth and mortality of Norway spruce and European beech in monospecific and mixed-species stands under natural episodic and experimentally extended drought. Results of the KROOF throughfall exclusion experiment, Trees, 10.1007/s00468-020-01973-0, (2020).
+    Crossref
+    Tim Pettenkofer, Reiner Finkeldey, Markus Müller, Konstantin V. Krutovsky, Barbara Vornam, Ludger Leinemann, Oliver Gailing, Genetic variation of introduced red oak (Quercus rubra) stands in Germany compared to North American populations, European Journal of Forest Research, 10.1007/s10342-019-01256-5, (2020).
+    Crossref
+    Qian Wang, Anna Lintunen, Ping Zhao, Weijun Shen, Yann Salmon, Xia Chen, Lei Ouyang, Liwei Zhu, Guangyan Ni, Dan Sun, Xinquan Rao, Teemu Hölttä, Assessing Environmental Control of Sap Flux of Three Tree Species Plantations in Degraded Hilly Lands in South China, Forests, 10.3390/f11020206, 11 , 2, (206), (2020).
+    Crossref
+    Mirjana Sipek, Aleksandra Perčin, Željka Zgorelec, Nina Sajna, Morphological plasticity and ecophysiological response of ground ivy ( Glechoma hederacea , Lamiaceae) in contrasting natural habitats within its native range , Plant Biosystems - An International Journal Dealing with all Aspects of Plant Biology, 10.1080/11263504.2020.1727981, (1-12), (2020).
+    Crossref
+    Kevin L O’Hara, John J Battles, Variation in leaf area index in complex mixed-conifer forests in California’s Sierra Nevada: implications for stocking control, Forestry: An International Journal of Forest Research, 10.1093/forestry/cpaa007, (2020).
+    Crossref
+    Marcin K. Dyderski, Andrzej M. Jagodziński, Impact of Invasive Tree Species on Natural Regeneration Species Composition, Diversity, and Density, Forests, 10.3390/f11040456, 11 , 4, (456), (2020).
+    Crossref
+    Alexandra K. Urza, Peter J. Weisberg, Thomas Dilts, Evidence of widespread topoclimatic limitation for lower treelines of the Intermountain West, United States, Ecological Applications, 10.1002/eap.2158, 0 , 0, (2020).
+    Wiley Online Library
+    Nils Hoffmann, Steffi Heinrichs, Peter Schall, Torsten Vor, Climatic factors controlling stem growth of alien tree species at a mesic forest site: a multispecies approach, European Journal of Forest Research, 10.1007/s10342-020-01295-3, (2020).
+    Crossref
+    Alonso Marquez, Jan Wysocki, Jay Pandit, Daniel Batlle, An update on ACE2 amplification and its therapeutic potential, Acta Physiologica, 10.1111/apha.13513, 0 , 0, (2020).
+    Wiley Online Library
+    Yang Liu, Ying Cui, Liyan Lu, Yufeng Gong, Wen Han, Guishun Piao, Natural indole‐containing alkaloids and their antibacterial activities, Archiv der Pharmazie, 10.1002/ardp.202000120, 0 , 0, (2020).
+    Wiley Online Library
+    Mohsen Bahmani‐Oskooee, Toan Luu Duc Huynh, Muhammad Ali Nasir, On the asymmetric effects of exchange‐rate volatility on trade flows: Evidence from US–UK Commodity Trade, Scottish Journal of Political Economy, 10.1111/sjpe.12257, 0 , 0, (2020).
+    Wiley Online Library
+    Jong Bin Jung, Hyun Jung Kim, Ji Sun Jung, Jong Woo Kim, Pil Sun Park, Differences in climate and drought response of the exotic plantation species Abies firma, Cryptomeria japonica , and Chamaecyparis obtusa in southern Korea , Journal of Forest Research, 10.1080/13416979.2020.1784371, (1-9), (2020).
+    Crossref
+    L. A. Marshall, D. A. Falk, Demographic trends in community functional tolerance reflect tree responses to climate and altered fire regimes, Ecological Applications, 10.1002/eap.2197, 0 , 0, (2020).
+    Wiley Online Library
+    Victoria Stokes, Gary Kerr, Thomas Connolly, Underplanting is a practical silvicultural method for regenerating and diversifying conifer stands in Britain, Forestry: An International Journal of Forest Research, 10.1093/forestry/cpaa027, (2020).
+    Crossref
+    Gauthier Ligot, Philippe Balandier, Sophie Schmitz, Hugues Claessens, Transforming even-aged coniferous stands to multi-aged stands: an opportunity to increase tree species diversity?, Forestry: An International Journal of Forest Research, 10.1093/forestry/cpaa004, (2020).
+    Crossref
+    Brice B. Hanberry, Marc D. Abrams, Mary A. Arthur, J. Morgan Varner, Reviewing Fire, Climate, Deer, and Foundation Species as Drivers of Historically Open Oak and Pine Forests and Transition to Closed Forests, Frontiers in Forests and Global Change, 10.3389/ffgc.2020.00056, 3 , (2020).
+    Crossref
+    Laura García de Jalón, Jean-Marc Limousin, Franck Richard, Arthur Gessler, Martina Peter, Stephan Hättenschwiler, Alexandru Milcu, Microhabitat and ectomycorrhizal effects on the establishment, growth and survival of Quercus ilex L. seedlings under drought, PLOS ONE, 10.1371/journal.pone.0229807, 15 , 6, (e0229807), (2020).
+    Crossref
+    Mohammed Y. Khdiar, Paul A. Barber, Giles E. StJ. Hardy, Chris Shaw, Emma J. Steel, Cameron McMains, Treena I. Burgess, Association of Phytophthora with Declining Vegetation in an Urban Forest Environment, Microorganisms, 10.3390/microorganisms8070973, 8 , 7, (973), (2020).
+    Crossref
+    Tommaso Jucker, Julia Koricheva, Leena Finér, Olivier Bouriaud, Giovanni Iacopetti, David A. Coomes, Good things take time—Diversity effects on tree growth shift from negative to positive during stand development in boreal forests, Journal of Ecology, 10.1111/1365-2745.13464, 0 , 0, (2020).
+    Wiley Online Library
+    Eric B. Searle, Han Y. H. Chen, Complementarity effects are strengthened by competition intensity and global environmental change in the central boreal forests of Canada, Ecology Letters, 10.1111/ele.13411, 23 , 1, (79-87), (2019).
+    Wiley Online Library
+    Marion Jourdan, Georges Kunstler, Xavier Morin, How neighbourhood interactions control the temporal stability and resilience to drought of trees in mountain forests, Journal of Ecology, 10.1111/1365-2745.13294, 108 , 2, (666-677), (2019).
+    Wiley Online Library
+    Cristina C. Bastias, Daniel A. Truchado, Fernando Valladares, Raquel Benavides, Olivier Bouriaud, Helge Bruelheide, Andrea Coppi, Leena Finér, Teresa E. Gimeno, Bogdan Jaroszewicz, Michael Scherer‐Lorenzen, Federico Selvi, Marcelino De la Cruz, Species richness influences the spatial distribution of trees in European forests, Oikos, 10.1111/oik.06776, 129 , 3, (380-390), (2019).
+    Wiley Online Library
+    Artur Stefanski, Raimundo Bermudez, Kerrie M. Sendall, Rebecca A. Montgomery, Peter B. Reich, Surprising lack of sensitivity of biochemical limitation of photosynthesis of nine tree species to open‐air experimental warming and reduced rainfall in a southern boreal forest, Global Change Biology, 10.1111/gcb.14805, 26 , 2, (746-759), (2019).
+    Wiley Online Library
+    Paige E. Copenhaver‐Parry, Charles J. W. Carroll, Patrick H. Martin, Matthew V. Talluto, Multi‐scale integration of tree recruitment and range dynamics in a changing climate, Global Ecology and Biogeography, 10.1111/geb.13012, 29 , 1, (102-116), (2019).
+    Wiley Online Library
+    Teresa Morán‐López, Aarón González‐Castro, Juan Manuel Morales, Manuel Nogales, Behavioural complementarity among frugivorous birds and lizards can promote plant diversity in island ecosystems, Functional Ecology, 10.1111/1365-2435.13476, 34 , 1, (182-193), (2019).
+    Wiley Online Library
+    Hedvig K. Nenzén, David T. Price, Yan Boulanger, Anthony R. Taylor, Dominic Cyr, Elizabeth Campbell, Projected climate change effects on Alberta's boreal forests imply future challenges for oil sands reclamation, Restoration Ecology, 10.1111/rec.13051, 28 , 1, (39-50), (2019).
+    Wiley Online Library
+    Robert Muscarella, Samira Kolyaie, Douglas C. Morton, Jess K. Zimmerman, María Uriarte, Effects of topography on tropical forest structure depend on climate context, Journal of Ecology, 10.1111/1365-2745.13261, 108 , 1, (145-159), (2019).
+    Wiley Online Library
+    Jed Immanuel Lloren, Lenore Fahrig, Joseph R. Bennett, Thomas A. Contreras, Jenny L. McCune, The influence of landscape context on short‐ and long‐term forest change following a severe ice storm, Journal of Ecology, 10.1111/1365-2745.13255, 108 , 1, (224-238), (2019).
+    Wiley Online Library
+    Alissa J. Brown, Christopher J. Payne, Peter S. White, Robert K. Peet, Shade tolerance and mycorrhizal type may influence sapling susceptibility to conspecific negative density dependence, Journal of Ecology, 10.1111/1365-2745.13237, 108 , 1, (325-336), (2019).
+    Wiley Online Library
+    Jens Kattge, Gerhard Bönisch, Sandra Díaz, Sandra Lavorel, Iain Colin Prentice, Paul Leadley, Susanne Tautenhahn, Gijsbert D. A. Werner, Tuomas Aakala, Mehdi Abedi, Alicia T. R. Acosta, George C. Adamidis, Kairi Adamson, Masahiro Aiba, Cécile H. Albert, Julio M. Alcántara, Carolina Alcázar C, Izabela Aleixo, Hamada Ali, Bernard Amiaud, Christian Ammer, Mariano M. Amoroso, Madhur Anand, Carolyn Anderson, Niels Anten, Joseph Antos, Deborah Mattos Guimarães Apgaua, Tia‐Lynn Ashman, Degi Harja Asmara, Gregory P. Asner, Michael Aspinwall, Owen Atkin, Isabelle Aubin, Lars Baastrup‐Spohr, Khadijeh Bahalkeh, Michael Bahn, Timothy Baker, William J. Baker, Jan P. Bakker, Dennis Baldocchi, Jennifer Baltzer, Arindam Banerjee, Anne Baranger, Jos Barlow, Diego R. Barneche, Zdravko Baruch, Denis Bastianelli, John Battles, William Bauerle, Marijn Bauters, Erika Bazzato, Michael Beckmann, Hans Beeckman, Carl Beierkuhnlein, Renee Bekker, Gavin Belfry, Michael Belluau, Mirela Beloiu, Raquel Benavides, Lahcen Benomar, Mary Lee Berdugo‐Lattke, Erika Berenguer, Rodrigo Bergamin, Joana Bergmann, Marcos Bergmann Carlucci, Logan Berner, Markus Bernhardt‐Römermann, Christof Bigler, Anne D. Bjorkman, Chris Blackman, Carolina Blanco, Benjamin Blonder, Dana Blumenthal, Kelly T. Bocanegra‐González, Pascal Boeckx, Stephanie Bohlman, Katrin Böhning‐Gaese, Laura Boisvert‐Marsh, William Bond, Ben Bond‐Lamberty, Arnoud Boom, Coline C. F. Boonman, Kauane Bordin, Elizabeth H. Boughton, Vanessa Boukili, David M. J. S. Bowman, Sandra Bravo, Marco Richard Brendel, Martin R. Broadley, Kerry A. Brown, Helge Bruelheide, Federico Brumnich, Hans Henrik Bruun, David Bruy, Serra W. Buchanan, Solveig Franziska Bucher, Nina Buchmann, Robert Buitenwerf, Daniel E. Bunker, Jana Bürger, Sabina Burrascano, David F. R. P. Burslem, Bradley J. Butterfield, Chaeho Byun, Marcia Marques, Marina C. Scalon, Marco Caccianiga, Marc Cadotte, Maxime Cailleret, James Camac, Jesús Julio Camarero, Courtney Campany, Giandiego Campetella, Juan Antonio Campos, Laura Cano‐Arboleda, Roberto Canullo, Michele Carbognani, Fabio Carvalho, Fernando Casanoves, Bastien Castagneyrol, Jane A. Catford, Jeannine Cavender‐Bares, Bruno E. L. Cerabolini, Marco Cervellini, Eduardo Chacón‐Madrigal, Kenneth Chapin, F. Stuart Chapin, Stefano Chelli, Si‐Chong Chen, Anping Chen, Paolo Cherubini, Francesco Chianucci, Brendan Choat, Kyong‐Sook Chung, Milan Chytrý, Daniela Ciccarelli, Lluís Coll, Courtney G. Collins, Luisa Conti, David Coomes, Johannes H. C. Cornelissen, William K. Cornwell, Piermaria Corona, Marie Coyea, Joseph Craine, Dylan Craven, Joris P. G. M. Cromsigt, Anikó Csecserits, Katarina Cufar, Matthias Cuntz, Ana Carolina Silva, Kyla M. Dahlin, Matteo Dainese, Igor Dalke, Michele Dalle Fratte, Anh Tuan Dang‐Le, Jirí Danihelka, Masako Dannoura, Samantha Dawson, Arend Jacobus Beer, Angel De Frutos, Jonathan R. De Long, Benjamin Dechant, Sylvain Delagrange, Nicolas Delpierre, Géraldine Derroire, Arildo S. Dias, Milton Hugo Diaz‐Toribio, Panayiotis G. Dimitrakopoulos, Mark Dobrowolski, Daniel Doktor, Pavel Dřevojan, Ning Dong, John Dransfield, Stefan Dressler, Leandro Duarte, Emilie Ducouret, Stefan Dullinger, Walter Durka, Remko Duursma, Olga Dymova, Anna E‐Vojtkó, Rolf Lutz Eckstein, Hamid Ejtehadi, James Elser, Thaise Emilio, Kristine Engemann, Mohammad Bagher Erfanian, Alexandra Erfmeier, Adriane Esquivel‐Muelbert, Gerd Esser, Marc Estiarte, Tomas F. Domingues, William F. Fagan, Jaime Fagúndez, Daniel S. Falster, Ying Fan, Jingyun Fang, Emmanuele Farris, Fatih Fazlioglu, Yanhao Feng, Fernando Fernandez‐Mendez, Carlotta Ferrara, Joice Ferreira, Alessandra Fidelis, Bryan Finegan, Jennifer Firn, Timothy J. Flowers, Dan F. B. Flynn, Veronika Fontana, Estelle Forey, Cristiane Forgiarini, Louis François, Marcelo Frangipani, Dorothea Frank, Cedric Frenette‐Dussault, Grégoire T. Freschet, Ellen L. Fry, Nikolaos M. Fyllas, Guilherme G. Mazzochini, Sophie Gachet, Rachael Gallagher, Gislene Ganade, Francesca Ganga, Pablo García‐Palacios, Verónica Gargaglione, Eric Garnier, Jose Luis Garrido, André Luís Gasper, Guillermo Gea‐Izquierdo, David Gibson, Andrew N. Gillison, Aelton Giroldo, Mary‐Claire Glasenhardt, Sean Gleason, Mariana Gliesch, Emma Goldberg, Bastian Göldel, Erika Gonzalez‐Akre, Jose L. Gonzalez‐Andujar, Andrés González‐Melo, Ana González‐Robles, Bente Jessen Graae, Elena Granda, Sarah Graves, Walton A. Green, Thomas Gregor, Nicolas Gross, Greg R. Guerin, Angela Günther, Alvaro G. Gutiérrez, Lillie Haddock, Anna Haines, Jefferson Hall, Alain Hambuckers, Wenxuan Han, Sandy P. Harrison, Wesley Hattingh, Joseph E. Hawes, Tianhua He, Pengcheng He, Jacob Mason Heberling, Aveliina Helm, Stefan Hempel, Jörn Hentschel, Bruno Hérault, Ana‐Maria Hereş, Katharina Herz, Myriam Heuertz, Thomas Hickler, Peter Hietz, Pedro Higuchi, Andrew L. Hipp, Andrew Hirons, Maria Hock, James Aaron Hogan, Karen Holl, Olivier Honnay, Daniel Hornstein, Enqing Hou, Nate Hough‐Snee, Knut Anders Hovstad, Tomoaki Ichie, Boris Igić, Estela Illa, Marney Isaac, Masae Ishihara, Leonid Ivanov, Larissa Ivanova, Colleen M. Iversen, Jordi Izquierdo, Robert B. Jackson, Benjamin Jackson, Hervé Jactel, Andrzej M. Jagodzinski, Ute Jandt, Steven Jansen, Thomas Jenkins, Anke Jentsch, Jens Rasmus Plantener Jespersen, Guo‐Feng Jiang, Jesper Liengaard Johansen, David Johnson, Eric J. Jokela, Carlos Alfredo Joly, Gregory J. Jordan, Grant Stuart Joseph, Decky Junaedi, Robert R. Junker, Eric Justes, Richard Kabzems, Jeffrey Kane, Zdenek Kaplan, Teja Kattenborn, Lyudmila Kavelenova, Elizabeth Kearsley, Anne Kempel, Tanaka Kenzo, Andrew Kerkhoff, Mohammed I. Khalil, Nicole L. Kinlock, Wilm Daniel Kissling, Kaoru Kitajima, Thomas Kitzberger, Rasmus Kjøller, Tamir Klein, Michael Kleyer, Jitka Klimešová, Joice Klipel, Brian Kloeppel, Stefan Klotz, Johannes M. H. Knops, Takashi Kohyama, Fumito Koike, Johannes Kollmann, Benjamin Komac, Kimberly Komatsu, Christian König, Nathan J. B. Kraft, Koen Kramer, Holger Kreft, Ingolf Kühn, Dushan Kumarathunge, Jonas Kuppler, Hiroko Kurokawa, Yoko Kurosawa, Shem Kuyah, Jean‐Paul Laclau, Benoit Lafleur, Erik Lallai, Eric Lamb, Andrea Lamprecht, Daniel J. Larkin, Daniel Laughlin, Yoann Le Bagousse‐Pinguet, Guerric Maire, Peter C. Roux, Elizabeth Roux, Tali Lee, Frederic Lens, Simon L. Lewis, Barbara Lhotsky, Yuanzhi Li, Xine Li, Jeremy W. Lichstein, Mario Liebergesell, Jun Ying Lim, Yan‐Shih Lin, Juan Carlos Linares, Chunjiang Liu, Daijun Liu, Udayangani Liu, Stuart Livingstone, Joan Llusià, Madelon Lohbeck, Álvaro López‐García, Gabriela Lopez‐Gonzalez, Zdeňka Lososová, Frédérique Louault, Balázs A. Lukács, Petr Lukeš, Yunjian Luo, Michele Lussu, Siyan Ma, Camilla Maciel Rabelo Pereira, Michelle Mack, Vincent Maire, Annikki Mäkelä, Harri Mäkinen, Ana Claudia Mendes Malhado, Azim Mallik, Peter Manning, Stefano Manzoni, Zuleica Marchetti, Luca Marchino, Vinicius Marcilio‐Silva, Eric Marcon, Michela Marignani, Lars Markesteijn, Adam Martin, Cristina Martínez‐Garza, Jordi Martínez‐Vilalta, Tereza Mašková, Kelly Mason, Norman Mason, Tara Joy Massad, Jacynthe Masse, Itay Mayrose, James McCarthy, M. Luke McCormack, Katherine McCulloh, Ian R. McFadden, Brian J. McGill, Mara Y. McPartland, Juliana S. Medeiros, Belinda Medlyn, Pierre Meerts, Zia Mehrabi, Patrick Meir, Felipe P. L. Melo, Maurizio Mencuccini, Céline Meredieu, Julie Messier, Ilona Mészáros, Juha Metsaranta, Sean T. Michaletz, Chrysanthi Michelaki, Svetlana Migalina, Ruben Milla, Jesse E. D. Miller, Vanessa Minden, Ray Ming, Karel Mokany, Angela T. Moles, Attila Molnár, Jane Molofsky, Martin Molz, Rebecca A. Montgomery, Arnaud Monty, Lenka Moravcová, Alvaro Moreno‐Martínez, Marco Moretti, Akira S. Mori, Shigeta Mori, Dave Morris, Jane Morrison, Ladislav Mucina, Sandra Mueller, Christopher D. Muir, Sandra Cristina Müller, François Munoz, Isla H. Myers‐Smith, Randall W. Myster, Masahiro Nagano, Shawna Naidu, Ayyappan Narayanan, Balachandran Natesan, Luka Negoita, Andrew S. Nelson, Eike Lena Neuschulz, Jian Ni, Georg Niedrist, Jhon Nieto, Ülo Niinemets, Rachael Nolan, Henning Nottebrock, Yann Nouvellon, Alexander Novakovskiy, Kristin Odden Nystuen, Anthony O'Grady, Kevin O'Hara, Andrew O'Reilly‐Nugent, Simon Oakley, Walter Oberhuber, Toshiyuki Ohtsuka, Ricardo Oliveira, Kinga Öllerer, Mark E. Olson, Vladimir Onipchenko, Yusuke Onoda, Renske E. Onstein, Jenny C. Ordonez, Noriyuki Osada, Ivika Ostonen, Gianluigi Ottaviani, Sarah Otto, Gerhard E. Overbeck, Wim A. Ozinga, Anna T. Pahl, C. E. Timothy Paine, Robin J. Pakeman, Aristotelis C. Papageorgiou, Evgeniya Parfionova, Meelis Pärtel, Marco Patacca, Susana Paula, Juraj Paule, Harald Pauli, Juli G. Pausas, Begoña Peco, Josep Penuelas, Antonio Perea, Pablo Luis Peri, Ana Carolina Petisco‐Souza, Alessandro Petraglia, Any Mary Petritan, Oliver L. Phillips, Simon Pierce, Valério D. Pillar, Jan Pisek, Alexandr Pomogaybin, Hendrik Poorter, Angelika Portsmuth, Peter Poschlod, Catherine Potvin, Devon Pounds, A. Shafer Powell, Sally A. Power, Andreas Prinzing, Giacomo Puglielli, Petr Pyšek, Valerie Raevel, Anja Rammig, Johannes Ransijn, Courtenay A. Ray, Peter B. Reich, Markus Reichstein, Douglas E. B. Reid, Maxime Réjou‐Méchain, Victor Resco Dios, Sabina Ribeiro, Sarah Richardson, Kersti Riibak, Matthias C. Rillig, Fiamma Riviera, Elisabeth M. R. Robert, Scott Roberts, Bjorn Robroek, Adam Roddy, Arthur Vinicius Rodrigues, Alistair Rogers, Emily Rollinson, Victor Rolo, Christine Römermann, Dina Ronzhina, Christiane Roscher, Julieta A. Rosell, Milena Fermina Rosenfield, Christian Rossi, David B. Roy, Samuel Royer‐Tardif, Nadja Rüger, Ricardo Ruiz‐Peinado, Sabine B. Rumpf, Graciela M. Rusch, Masahiro Ryo, Lawren Sack, Angela Saldaña, Beatriz Salgado‐Negret, Roberto Salguero‐Gomez, Ignacio Santa‐Regina, Ana Carolina Santacruz‐García, Joaquim Santos, Jordi Sardans, Brandon Schamp, Michael Scherer‐Lorenzen, Matthias Schleuning, Bernhard Schmid, Marco Schmidt, Sylvain Schmitt, Julio V. Schneider, Simon D. Schowanek, Julian Schrader, Franziska Schrodt, Bernhard Schuldt, Frank Schurr, Galia Selaya Garvizu, Marina Semchenko, Colleen Seymour, Julia C. Sfair, Joanne M. Sharpe, Christine S. Sheppard, Serge Sheremetiev, Satomi Shiodera, Bill Shipley, Tanvir Ahmed Shovon, Alrun Siebenkäs, Carlos Sierra, Vasco Silva, Mateus Silva, Tommaso Sitzia, Henrik Sjöman, Martijn Slot, Nicholas G. Smith, Darwin Sodhi, Pamela Soltis, Douglas Soltis, Ben Somers, Grégory Sonnier, Mia Vedel Sørensen, Enio Egon Sosinski, Nadejda A. Soudzilovskaia, Alexandre F. Souza, Marko Spasojevic, Marta Gaia Sperandii, Amanda B. Stan, James Stegen, Klaus Steinbauer, Jörg G. Stephan, Frank Sterck, Dejan B. Stojanovic, Tanya Strydom, Maria Laura Suarez, Jens‐Christian Svenning, Ivana Svitková, Marek Svitok, Miroslav Svoboda, Emily Swaine, Nathan Swenson, Marcelo Tabarelli, Kentaro Takagi, Ulrike Tappeiner, Rubén Tarifa, Simon Tauugourdeau, Cagatay Tavsanoglu, Mariska Beest, Leho Tedersoo, Nelson Thiffault, Dominik Thom, Evert Thomas, Ken Thompson, Peter E. Thornton, Wilfried Thuiller, Lubomír Tichý, David Tissue, Mark G. Tjoelker, David Yue Phin Tng, Joseph Tobias, Péter Török, Tonantzin Tarin, José M. Torres‐Ruiz, Béla Tóthmérész, Martina Treurnicht, Valeria Trivellone, Franck Trolliet, Volodymyr Trotsiuk, James L. Tsakalos, Ioannis Tsiripidis, Niklas Tysklind, Toru Umehara, Vladimir Usoltsev, Matthew Vadeboncoeur, Jamil Vaezi, Fernando Valladares, Jana Vamosi, Peter M. Bodegom, Michiel Breugel, Elisa Van Cleemput, Martine Weg, Stephni Merwe, Fons Plas, Masha T. Sande, Mark Kleunen, Koenraad Van Meerbeek, Mark Vanderwel, Kim André Vanselow, Angelica Vårhammar, Laura Varone, Maribel Yesenia Vasquez Valderrama, Kiril Vassilev, Mark Vellend, Erik J. Veneklaas, Hans Verbeeck, Kris Verheyen, Alexander Vibrans, Ima Vieira, Jaime Villacís, Cyrille Violle, Pandi Vivek, Katrin Wagner, Matthew Waldram, Anthony Waldron, Anthony P. Walker, Martyn Waller, Gabriel Walther, Han Wang, Feng Wang, Weiqi Wang, Harry Watkins, James Watkins, Ulrich Weber, James T. Weedon, Liping Wei, Patrick Weigelt, Evan Weiher, Aidan W. Wells, Camilla Wellstein, Elizabeth Wenk, Mark Westoby, Alana Westwood, Philip John White, Mark Whitten, Mathew Williams, Daniel E. Winkler, Klaus Winter, Chevonne Womack, Ian J. Wright, S. Joseph Wright, Justin Wright, Bruno X. Pinho, Fabiano Ximenes, Toshihiro Yamada, Keiko Yamaji, Ruth Yanai, Nikolay Yankov, Benjamin Yguel, Kátia Janaina Zanini, Amy E. Zanne, David Zelený, Yun‐Peng Zhao, Jingming Zheng, Ji Zheng, Kasia Ziemińska, Chad R. Zirbel, Georg Zizka, Irié Casimir Zo‐Bi, Gerhard Zotz, Christian Wirth, TRY plant trait database – enhanced coverage and open access, Global Change Biology, 10.1111/gcb.14904, 26 , 1, (119-188), (2019).
+    Wiley Online Library
+    J. Ignacio Ramirez, Patrick A. Jansen, Jan den Ouden, Leo Goudzwaard, Lourens Poorter, Long-term effects of wild ungulates on the structure, composition and succession of temperate forests, Forest Ecology and Management, 10.1016/j.foreco.2018.09.049, 432 , (478-488), (2019).
+    Crossref
+    M. Steckel, M. Heym, B. Wolff, D.O.J. Reventlow, H. Pretzsch, Transgressive overyielding in mixed compared with monospecific Scots pine (Pinus sylvestris L.) and oak (Quercus robur L., Quercus petraea (Matt.) Liebl.) stands – Productivity gains increase with annual water supply, Forest Ecology and Management, 10.1016/j.foreco.2019.02.038, 439 , (81-96), (2019).
+    Crossref
+    Astrid Vannoppen, Vincent Kint, Quentin Ponette, Kris Verheyen, Bart Muys, Tree species diversity impacts average radial growth of beech and oak trees in Belgium, not their long-term growth trend, Forest Ecosystems, 10.1186/s40663-019-0169-z, 6 , 1, (2019).
+    Crossref
+    Jennifer A. Santoro, Anthony W. D'Amato, Structural, compositional, and functional responses to tornado and salvage logging disturbance in southern New England hemlock-hardwood forests, Forest Ecology and Management, 10.1016/j.foreco.2019.04.039, 444 , (138-150), (2019).
+    Crossref
+    Mirko Grotti, Francesco Chianucci, Nicola Puletti, Most Jannatul Fardusi, Cristiano Castaldi, Piermaria Corona, Spatio-temporal variability in structure and diversity in a semi-natural mixed oak-hornbeam floodplain forest, Ecological Indicators, 10.1016/j.ecolind.2019.04.014, 104 , (576-587), (2019).
+    Crossref
+    M. Jourdan, F. Lebourgeois, X. Morin, The effect of tree diversity on the resistance and recovery of forest stands in the French Alps may depend on species differences in hydraulic features, Forest Ecology and Management, 10.1016/j.foreco.2019.117486, 450 , (117486), (2019).
+    Crossref
+    Autumn E. Sabo, Jodi A. Forrester, Julia I. Burton, Phillip D. Jones, David J. Mladenoff, Eric L. Kruger, Ungulate exclusion accentuates increases in woody species richness and abundance with canopy gap creation in a temperate hardwood forest, Forest Ecology and Management, 10.1016/j.foreco.2018.11.004, 433 , (386-395), (2019).
+    Crossref
+    Lance A. Vickers, William H. McWilliams, Benjamin O. Knapp, Anthony W. D'Amato, Michael R. Saunders, Stephen R. Shifley, John M. Kabrick, Daniel C. Dey, David R. Larsen, James A. Westfall, Using a tree seedling mortality budget as an indicator of landscape-scale forest regeneration security, Ecological Indicators, 10.1016/j.ecolind.2018.06.028, 96 , (718-727), (2019).
+    Crossref
+    Zhili Liu, Feng Jiang, Fengri Li, Guangze Jin, Coordination of intra and inter-species leaf traits according to leaf phenology and plant age for three temperate broadleaf species with different shade tolerances, Forest Ecology and Management, 10.1016/j.foreco.2018.12.008, 434 , (63-75), (2019).
+    Crossref
+    Dominik Thom, William S. Keeton, Stand structure drives disparities in carbon storage in northern hardwood-conifer forests, Forest Ecology and Management, 10.1016/j.foreco.2019.03.053, 442 , (10-20), (2019).
+    Crossref
+    T. Rötzer, M.A. Rahman, A. Moser-Reischl, S. Pauleit, H. Pretzsch, Process based simulation of tree growth and ecosystem services of urban trees under present and future climate conditions, Science of The Total Environment, 10.1016/j.scitotenv.2019.04.235, 676 , (651-664), (2019).
+    Crossref
+    Samuel P. Knapp, Christopher R. Webster, Christel C. Kern, Can group selection with legacy retention change compositional trajectories in conventionally managed hardwoods?, Forest Ecology and Management, 10.1016/j.foreco.2019.06.005, 448 , (174-186), (2019).
+    Crossref
+    Christian Kuehne, Aaron R. Weiskittel, Justin Waskiewicz, Comparing performance of contrasting distance-independent and distance-dependent competition metrics in predicting individual tree diameter increment and survival within structurally-heterogeneous, mixed-species forests of Northeastern United States, Forest Ecology and Management, 10.1016/j.foreco.2018.11.002, 433 , (205-216), (2019).
+    Crossref
+    F. Attorre, E. Sciubba, M. Vitale, A thermodynamic model for plant growth, validated with Pinus sylvestris data, Ecological Modelling, 10.1016/j.ecolmodel.2018.10.022, 391 , (53-62), (2019).
+    Crossref
+    Carmen L. Tubbesing, Danny L. Fry, Gary B. Roller, Brandon M. Collins, Varvara A. Fedorova, Scott L. Stephens, John J. Battles, Strategically placed landscape fuel treatments decrease fire severity and promote recovery in the northern Sierra Nevada, Forest Ecology and Management, 10.1016/j.foreco.2019.01.010, 436 , (45-55), (2019).
+    Crossref
+    Lluís Coll, Aitor Ameztegui, Elevation modulates the phenotypic responses to light of four co-occurring Pyrenean forest tree species, Annals of Forest Science, 10.1007/s13595-019-0831-1, 76 , 2, (2019).
+    Crossref
+    Nicholas A. Barber, Anna K. Farrell, Ryan C. Blackburn, Jonathan T. Bauer, Anna M. Groves, Lars A. Brudvig, Holly P. Jones, Grassland restoration characteristics influence phylogenetic and taxonomic structure of plant communities and suggest assembly mechanisms, Journal of Ecology, 10.1111/1365-2745.13250, 107 , 5, (2105-2120), (2019).
+    Wiley Online Library
+    Jesús Rodríguez-Calcerrada, Roberto L Salomón, Guillermo G Gordaliza, José C Miranda, Eva Miranda, Enrique G de la Riva, Luis Gil, Respiratory costs of producing and maintaining stem biomass in eight co-occurring tree species, Tree Physiology, 10.1093/treephys/tpz069, 39 , 11, (1838-1854), (2019).
+    Crossref
+    Maryam Gharehaghaji, Scott Kobal, Rachel Reklau, Emily S. Minor, Management slows down invasion by non-native plants but does not prevent community change over 35 years in urban forests of the Midwestern USA, Forest Ecology and Management, 10.1016/j.foreco.2019.06.028, 448 , (424-431), (2019).
+    Crossref
+    Haruki Nakajima, Region-wide mass mortality of Japanese oak due to ambrosia beetle infestation: Mortality factors and change in oak abundance, Forest Ecology and Management, 10.1016/j.foreco.2019.117468, 449 , (117468), (2019).
+    Crossref
+    Emiel De Lombaerde, Kris Verheyen, Hans Van Calster, Lander Baeten, Tree regeneration responds more to shade casting by the overstorey and competition in the understorey than to abundance per se, Forest Ecology and Management, 10.1016/j.foreco.2019.117492, 450 , (117492), (2019).
+    Crossref
+    Brice B. Hanberry, Recent shifts in shade tolerance and disturbance traits in forests of the eastern United States, Ecological Processes, 10.1186/s13717-019-0187-3, 8 , 1, (2019).
+    Crossref
+    Jacob J. Muller, Linda M. Nagel, Brian J. Palik, Forest adaptation strategies aimed at climate change: Assessing the performance of future climate-adapted tree species in a northern Minnesota pine ecosystem, Forest Ecology and Management, 10.1016/j.foreco.2019.117539, 451 , (117539), (2019).
+    Crossref
+    Victor Danneyrolles, Sébastien Dupuis, Gabriel Fortin, Marie Leroyer, André de Römer, Raphaële Terrail, Mark Vellend, Yan Boucher, Jason Laflamme, Yves Bergeron, Dominique Arseneault, Stronger influence of anthropogenic disturbance than climate change on century-scale compositional changes in northern forests, Nature Communications, 10.1038/s41467-019-09265-z, 10 , 1, (2019).
+    Crossref
+    Diane Saint-Laurent, Lisane Arsenault-Boucher, Jean-Sébastien Berthelot, Contrasting Effects of Flood Disturbance on Alluvial Soils and Riparian Tree Structure and Species Composition in Mixed Temperate Forests, Air, Soil and Water Research, 10.1177/1178622119872773, 12 , (117862211987277), (2019).
+    Crossref
+    Aaron R. Weiskittel, Christian Kuehne, Evaluating and modeling variation in site-level maximum carrying capacity of mixed-species forest stands in the Acadian Region of northeastern North America, The Forestry Chronicle, 10.5558/tfc2019-026, 95 , 03, (171-182), (2019).
+    Crossref
+    Laura M. Ladwig, Jennifer L. Chandler, Peter W. Guiden, Jonathan J. Henn, Extreme winter warm event causes exceptionally early bud break for many woody species, Ecosphere, 10.1002/ecs2.2542, 10 , 1, (2019).
+    Wiley Online Library
+    Cassandra Allsup, Richard Lankau, Migration of soil microbes may promote tree seedling tolerance to drying conditions, Ecology, 10.1002/ecy.2729, 100 , 9, (2019).
+    Wiley Online Library
+    Marie‐Hélène Brice, Kevin Cazelles, Pierre Legendre, Marie‐Josée Fortin, Disturbances amplify tree community responses to climate change in the temperate–boreal ecotone, Global Ecology and Biogeography, 10.1111/geb.12971, 28 , 11, (1668-1681), (2019).
+    Wiley Online Library
+    Yingji Pan, Ellen Cieraad, Peter M. Bodegom, Are ecophysiological adaptive traits decoupled from leaf economics traits in wetlands?, Functional Ecology, 10.1111/1365-2435.13329, 33 , 7, (1202-1210), (2019).
+    Wiley Online Library
+    Stefan J. Kupers, Christian Wirth, Bettina M. J. Engelbrecht, Andrés Hernández, Richard Condit, S. Joseph Wright, Nadja Rüger, Performance of tropical forest seedlings under shade and drought: an interspecific trade-off in demographic responses, Scientific Reports, 10.1038/s41598-019-55256-x, 9 , 1, (2019).
+    Crossref
+    В.Н. Шанин, V.N. Shanin, Parameterization of Productivity Model for the Most Common Trees Species in European Part of Russia for Simulation of Forest Ecosystem Dynamics, Математическая биология и биоинформатикаMathematical Biology and Bioinformatics, 10.17537/2019.14.54, 14 , 1, (54-76), (2019).
+    Crossref
+    Liang Wei, Chonggang Xu, Steven Jansen, Hang Zhou, Bradley O Christoffersen, William T Pockman, Richard S Middleton, John D Marshall, Nate G McDowell, A heuristic classification of woody plants based on contrasting shade and drought strategies, Tree Physiology, 10.1093/treephys/tpy146, (2019).
+    Crossref
+    Andrea C. Westerband, Aurora K. Kagawa-Viviani, Kari K. Bogner, David W. Beilman, Tiffany M. Knight, Kasey E. Barton, Seedling drought tolerance and functional traits vary in response to the timing of water availability in a keystone Hawaiian tree species, Plant Ecology, 10.1007/s11258-019-00917-0, (2019).
+    Crossref
+    See more
+
+Publication cover image
+
+Volume 76 , Issue 4
+
+November 2006
+
+Pages 521-547
+
+    Figures
+    References
+    Related
+    Information
+
+Close Figure Viewer
+Return to Figure
+Previous Figure Next Figure
+Caption
+back
+The Ecological Society of America Logo
+© 2020 Ecological Society of America. All rights reserved.
+
+    Advertising
+
+    Media Kit
+
+    About the ESA
+
+ESA Headquarters
+1990 M Street, NW
+Suite 700
+Washington, DC 20036
+phone 202-833-8773
+email: esajournals@esa.org
+© 2020 Ecological Society of America. All rights reserved.
+Additional links
+About Wiley Online Library
+
+    Privacy Policy
+    Terms of Use
+    Cookies
+    Accessibility
+
+Help & Support
+
+    Contact Us
+
+Opportunities
+
+    Subscription Agents
+    Advertisers & Corporate Partners
+
+Connect with Wiley
+
+    The Wiley Network
+    Wiley Press Room
+
+Copyright © 1999-2020 John Wiley & Sons, Inc . All rights reserved
+Wiley Home Page
+Log in with your society membership
+Log in with ESA
+Log in to Wiley Online Library
+Email or Customer ID
+Password
+Forgot password?
+NEW USER > INSTITUTIONAL LOGIN >
+Change Password
+Old Password
+New Password
+Too Short Weak Medium Strong Very Strong Too Long
+Password Changed Successfully
+
+Your password has been changed
+Create a new account
+Email or Customer ID
+Returning user
+Forgot your password?
+
+Enter your email address below.
+Email or Customer ID
+
+Please check your email for instructions on resetting your password. If you do not receive an email within 10 minutes, your email address may not be registered, and you may need to create a new Wiley Online Library account.
+Request Username
+
+Can't sign in? Forgot your username?
+
+Enter your email address below and we will send you your username
+Email or Customer ID
+Close
+
+If the address matches an existing account you will receive an email with instructions to retrieve your username
+Close crossmark popup
+

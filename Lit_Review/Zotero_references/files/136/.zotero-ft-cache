@@ -1,0 +1,868 @@
+Within‐canopy variation in the rate of development of photosynthetic capacity is proportional to integrated quantum flux density in temperate deciduous trees - NIINEMETS - 2004 - Plant, Cell &amp; Environment - Wiley Online Library
+
+    Skip to Article Content
+    Skip to Article Information
+
+COVID-19 Impact: Information for print subscribers
+Access By Smithsonian Institution
+Wiley Online Library
+Wiley Online Library
+Access by Smithsonian Institution
+Search within
+
+    Search term
+    Advanced Search Citation Search
+    Search term
+    Advanced Search Citation Search
+
+Login / Register
+Plant, Cell & Environment
+Volume 27, Issue 3 Plant, Cell & Environment
+Free Access
+Within‐canopy variation in the rate of development of photosynthetic capacity is proportional to integrated quantum flux density in temperate deciduous trees
+Ü. NIINEMETS
+
+Corresponding Author
+
+Department of Plant Physiology, Institute of Molecular and Cell Biology, University of Tartu, Riia 23, Tartu 51010, Estonia,
+
+Centro di Ecologia Alpina, I‐38040 Viote del Monte Bondone (TN), Italy,
+*Fax: 00372 7 366021; e‐mail: ylo@zbi.ee Search for more papers by this author
+O. KULL
+
+Department of Applied Ecology, Institute of Botany and Ecology, University of Tartu, Lai 40, Tartu 51010, Estonia and
+Search for more papers by this author
+J. D. TENHUNEN
+
+LS Pflanzenökologie, University of Bayreuth, D‐95440, Bayreuth, Germany
+Search for more papers by this author
+Ü. NIINEMETS
+
+Corresponding Author
+
+Department of Plant Physiology, Institute of Molecular and Cell Biology, University of Tartu, Riia 23, Tartu 51010, Estonia,
+
+Centro di Ecologia Alpina, I‐38040 Viote del Monte Bondone (TN), Italy,
+*Fax: 00372 7 366021; e‐mail: ylo@zbi.ee Search for more papers by this author
+O. KULL
+
+Department of Applied Ecology, Institute of Botany and Ecology, University of Tartu, Lai 40, Tartu 51010, Estonia and
+Search for more papers by this author
+J. D. TENHUNEN
+
+LS Pflanzenökologie, University of Bayreuth, D‐95440, Bayreuth, Germany
+Search for more papers by this author
+First published: 18 February 2004
+https://doi-org.smithsonian.idm.oclc.org/10.1111/j.1365-3040.2003.01143.x
+Citations: 108
+About
+
+        Figures
+        References
+        Related
+        Information
+    PDF PDF
+
+Sections
+
+    ABSTRACT
+    INTRODUCTION
+    MATERIALS AND METHODS
+    RESULTS
+    DISCUSSION
+    CONCLUSIONS
+    ACKNOWLEDGMENTS
+    REFERENCES
+    APPENDIX
+    Citing Literature
+
+PDF PDF
+Tools
+
+    Request permission
+    Export citation
+    Add to favorites
+    Track citation
+
+Share Share
+
+Give access
+Share full text access
+Close modal
+
+Share full-text access
+Please review our Terms and Conditions of Use and check box below to share full-text version of article.
+I have read and accept the Wiley Online Library Terms and Conditions of Use
+Shareable Link
+
+Use the link below to share a full-text version of this article with your friends and colleagues. Learn more.
+Copy URL
+
+Share a link
+Share on
+
+    Email
+    Facebook
+    Twitter
+    Linked In
+    Reddit
+    Wechat
+
+ABSTRACT
+
+The present study was undertaken to test for the hypothesis that the rate of development in the capacity for photosynthetic electron transport per unit area ( J max;A ), and maximum carboxylase activity of Rubisco ( V cmax;A ) is proportional to average integrated daily quantum flux density ( Q int ) in a mixed deciduous forest dominated by the shade‐intolerant species Populus tremula L., and the shade‐tolerant species Tilia cordata Mill. We distinguished between the age‐dependent changes in net assimilation rates due to modifications in leaf dry mass per unit area ( M A ), foliar nitrogen content per unit dry mass ( N M ), and fractional partitioning of foliar nitrogen in the proteins of photosynthetic electron transport ( F B ), Rubisco ( F R ) and in light‐harvesting chlorophyll‐protein complexes ( V cmax;A  ∝  M A N M F R ; J max;A  ∝  M A N M F B ). In both species, increases in J max;A and V cmax;A during leaf development were primarily determined by nitrogen allocation to growing leaves, increases in leaf nitrogen partitioning in photosynthetic machinery, and increases in M A . Canopy differences in the rate of development of leaf photosynthetic capacity were mainly controlled by the rate of change in M A . There was only small within‐canopy variation in the initial rate of biomass accumulation per unit Q int (slope of M A versus leaf age relationship per unit Q int ), suggesting that canopy differences in the rate of development of J max;A and V cmax;A are directly proportional to Q int . Nevertheless, M A , nitrogen, J max;A and V cmax;A of mature leaves were not proportional to Q int because of a finite M A in leaves immediately after bud‐burst (light‐independent component of M A ). M A , leaf chlorophyll contents and chlorophyll : N ratio of mature leaves were best correlated with the integrated average quantum flux density during leaf development, suggesting that foliar photosynthetic apparatus, once developed, is not affected by day‐to‐day fluctuations in Q int . However, for the upper canopy leaves of P. tremula and for the entire canopy of T. cordata , there was a continuous decline in N contents per unit dry mass in mature non‐senescent leaves on the order of 15–20% for a change of leaf age from 40 to 120 d, possibly manifesting nitrogen reallocation to bud formation. The decline in N contents led to similar decreases in leaf photosynthetic capacity and foliar chlorophyll contents. These data demonstrate that light‐dependent variation in the rate of developmental changes in M A determines canopy differences in photosynthetic capacity, whereas foliar photosynthetic apparatus is essentially constant in fully developed leaves.
+INTRODUCTION
+
+Light‐saturated leaf photosynthetic rates scale positively with average integrated quantum flux density ( Q int ; definition of all symbols is provided in the Appendix ) in plant canopies (e.g. Niinemets & Tenhunen 1997 ; Le Roux et al . 2001 ; Meir et al . 2002 ), increasing the whole canopy photosynthetic productivity for a given total nitrogen and biomass investment in foliage. Although the positive relations between photosynthetic capacity and Q int are invariably found in experimental studies, there is an ongoing debate of whether the observed acclimation patterns lead to an optimal partitioning of plant resources ( Badeck 1995 ; Hollinger 1996 ; Meir et al . 2002 ). For a theoretically optimal distribution of nitrogen and photosynthetic biomass, leaf photosynthetic capacity should vary in direct proportion with Q int ( Field 1983 ; Farquhar 1989 ; Sands 1995 ). Existence of such a ‘full acclimation’ pattern in canopy photosynthesis profiles would allow one to use big leaf models to predict canopy photosynthesis (e.g. Amthor 1994 ), thereby significantly simplifying determination of canopy photosynthetic productivity for varying canopy nitrogen contents and above‐canopy quantum flux densities.
+
+The ‘full acclimation’ hypothesis requires that the photosynthetic capacity versus Q int relationship is linear and passes through the origin, but experimental studies demonstrate that both of these criteria are generally violated such that there is no direct proportionality between integrated quantum flux density and maximum assimilation rate ( Badeck 1995 ; Hollinger 1996 ; Niinemets & Tenhunen 1997 ; Meir et al . 2002 ). Analysing the partial determinants of foliage photosynthetic capacity variation in tree canopies, Meir et al . (2002 ) concluded that the lack of proportionality between Q int and acclimation in photosynthetic capacity is primarily because the leaves have a minimum leaf dry mass per unit area ( M A ) and nitrogen content such that mature leaves always possess a certain photosynthetic activity. Currently, it is not fully understood what determines species minimum M A and leaf photosynthesis, and how variable are these important canopy photosynthesis characteristics in time.
+
+A central, but not fully appreciated aspect of acclimation is the pertinent time‐scale for the alterations in leaf structure and function. There is a large intra‐ and interspecific variability in changes in foliar photosynthetic capacity during leaf development between different canopy layers ( Reich, Walters & Ellsworth 1991 ; Hamerlynck & Knapp 1996 ; Wilson, Baldocchi & Hanson 2000 ), but the timing and controls of these canopy differences are still poorly understood. Although the leaf primordia may be already differentiated in the bud ( Hansen 1959 ; Eschrich, Burchardt & Essiamah 1989 ; Uemura et al . 2000 ), light conditions during bud‐burst and leaf development may strongly modify the structure and physiology of mature leaves ( Hansen 1959 ; Goulet & Bellefleur 1986 ; Kimura et al . 1998 ; Uemura et al . 2000 ). Furthermore, the initial canopy differences in leaf structure and physiology are considerably less than the final differences after leaf maturation ( DeJong & Doyle 1985 ; Labrecque et al . 1989 ; Kimura et al . 1998 ). This experimental evidence ( DeJong & Doyle 1985 ; Labrecque et al . 1989 ; Kimura et al . 1998 ; Uemura et al . 2000 ) jointly suggests that the rate of leaf development is significantly higher in the upper canopy, implying that the canopy gradient in photosynthetic capacity forming during leaf maturation may be proportional to intercepted light. Thus, the optimality concept may hold for M A and photosynthetic capacity changes in developing leaves, even though there is no ‘full acclimation’ of mature leaves. Increases in leaf photosynthetic capacity during leaf development are associated with increases in M A ( Reich et al . 1991 ; Wilson et al . 2000 ; Frak et al . 2001 ), decreases in foliar nitrogen contents per unit dry mass ( Reich et al . 1991 ), and increases in nitrogen partitioning in photosynthetic proteins ( Makino, Mae & Ohira 1984 ; Wilson et al . 2000 ), but the relative importance of these determinants of temporal variation in leaf photosynthetic capacity has not been characterized.
+
+A further relevant feature of acclimation is the stability of foliar structure and photosynthesis profiles in the fully developed canopy. Mature leaves acclimated to a certain integrated quantum flux density during their growth may re‐acclimate to a new light environment after being shaded ( Frak et al . 2001 ) or when a gap has formed in the overstorey ( Naidu & DeLucia 1997 ; Frak et al . 2001 ). Furthermore, there is a large day‐to‐day variability as well as gradual seasonal changes in above‐canopy Q int . The implications of potential environmental modifications on foliage net assimilation rates have been investigated by theoretical models ( Kull & Kruijt 1999 ). Although such hypothetical changes in foliar functioning are of paramount significance for parameterization of ecosystem‐level flux models, the kinetic constants of acclimation of fully mature leaves have rarely been investigated in the field ( Naidu & DeLucia 1997 ; Frak et al . 2001 ; Niinemets et al . 2003 ).
+
+We studied variation in M A , nitrogen and chlorophyll contents, nitrogen partitioning in the components of the photosynthetic machinery, and photosynthetic capacity from bud‐burst till leaf senescence in canopies of northern temperate shade‐intolerant early successional Populus tremula L., and shade‐tolerant late‐successional Tilia cordata Mill. The primary task of our study (1) was to determine whether the rate of leaf morphological and photosynthetic development varies within the canopy. After establishing important canopy differences in the rate of leaf development, we further asked (2) whether differences in leaf photosynthetic capacity development are proportional to Q int , and (3) whether these differences primarily result from the variation in the rate of physiological development that affects the photosynthetic capacity per unit dry mass, or from the rate of development of M A that alters the content of photosynthetic biomass per unit leaf area. Finally, we asked (4) how stable are foliar structure, chemistry and physiology versus Q int relations during the season. Although there is a wide consensus that foliar photosynthetic characteristics are modified by canopy gradients in Q int , this analysis separates the dynamics of leaf development from absolute values of leaf structure and physiological capacity at a certain point during the growing season.
+MATERIALS AND METHODS
+Study site
+
+The mixed deciduous forest was located in Järvselja, Estonia (58°22′ N, 27°20′ E, elevation 38–40 m). The stand has a leaf area index of about 6 m 2 m −2 , and is dominated by P. tremula and Betula pendula Roth. in the upper layer (17–27 m), and by T. cordata in the lower layer (4–17 m). The uppermost leaves in the lower canopy layer receive about 20–30% of above‐canopy light, while less than 5% of light reaches the forest floor. The soil is a moderately acidic (pH in 1  m KCl solution of 4.19 ± 0.10 for the A horizon) loamy gleyed pseudopodsol. A detailed overview of the study area is provided in Niinemets et al . (1998 ).
+
+The growing season lasts approximately 130 d with the date of bud‐burst in mid‐May, and intensive leaf fall starting at the end of September The study was conducted during the years 1995–97. In 1995, the bud‐burst was on 8 May for B. pendula , 14 May for T. cordata , and 16 May for P. tremula . For all species, the bud‐burst was 3 days earlier in 1996, and 2 days earlier in 1997 than in 1995. All deciduous species at the site produce only a single flush of leaves, and the leaves are maintained for the entire growing season.
+Foliar sampling for morphological and chemical analyses
+
+Foliage was sampled from the top to the bottom of the canopy to cover the full range of forest light environments. Average (± SE) height of the sampled P. tremula trees was 25.0 ± 1.7 m ( n  = 4), and 15.1 ± 0.7 m in T. cordata ( n  = 4). Access to the foliage was provided by permanent scaffoldings (height 25 m) located at the site. The group of P. tremula trees included in the analysis belonged likely to the same clone ( Dickmann & Isebrands 2001 ). As the initial analysis of variance ( anova ) demonstrated no tree effect on studied variables ( P   > 0.2), possible tree‐to‐tree variability in light acclimation and leaf development is not considered in the current study. Thus, our experimental design investigates the natural variation in foliar variables rather than uses statistics to separate artificial treatment effects ( Hurlbert 1984 ).
+
+In 1995, the foliage was sampled in weekly intervals starting from June 3. Once every month, the samples were taken from 20 different canopy locations per species. In all remaining occasions, foliage was taken from four locations in the canopies of both species. In 1996, and in 1997 we collected primarily the early season foliage to achieve a finer resolution in developmental modifications in foliage structural, chemical and physiological variables.
+
+For morphological and nitrogen analyses, four to nine leaves were taken from each sample location, enclosed in plastic bags and transported on ice to the laboratory, where they were stored at −18 °C until the analysis. For pigment determinations, leaf discs of 1.03 cm 2 were removed in situ by a cork‐borer, put in vials and plunged immediately in liquid nitrogen.
+Temperature and light estimations
+
+Air temperature was continuously measured at eight canopy heights with shielded temperature sensors [K2607 thermometer adaptor (Velleman Kits NV, Gavere, Belgium) based on LM3911 thermistor (National Semiconductor, Santa Clara, CA, USA)].
+
+Hemispherical photographs were taken above each leaf cluster included in the analysis. From the photographs, the fraction of penetrating diffuse ( I D ) integrated daily quantum flux density was calculated for completely overcast sky conditions, and the fraction of potentially available direct integrated daily quantum flux density ( I B ) was determined for summer solstice and for 30 and 60 d from summer solstice as described in Anderson (1964 ). Photosynthetically active quantum flux density ( Q ) was measured in 18 canopy locations with home‐made quantum sensors ( Niinemets et al . 1998 ) in 1 min steps and daily integrated values, Q D ( D ), were calculated. Q D ( D ) averaged over a certain number of days provides average integrated daily quantum flux density ( Q int ; mol m −2  d −1 ). Hemispheric photographs were also taken above each quantum sensor at monthly intervals, allowing us to calculate Q int for each leaf from the regression equations of Q int  =  aI D  +  bI B , where a and b are the regression coefficients.
+
+The integrated quantum flux density ( Q int ) was determined as an average Q D ( D ) of 5 d following bud‐burst for the leaves younger than 10 d, as an average Q D ( D ) of 10 d after bud‐burst for older developing leaves, and as an average of 30 d following bud‐burst for mature leaves. The influence of varying the time period of Q int calculation on the stability of relationships obtained was separately analysed as detailed in the Results. For these analyses, the regression coefficients a and b were calculated by averaging Q D ( D ) over varying number of days, and using representative hemispheric photographs taken at different times during the season.
+
+Because the canopy leaf area was invariable after completion of leaf expansion growth, the values of I D and I B were essentially constant during most of the growing season. However, there were fast changes in canopy light environment in the beginning and at the end of the growing season that were not captured with a necessary resolution using monthly hemispheric images. For periods of rapid leaf area changes, canopy transmittances for each quantum sensor were determined from the sensor readings, and the estimates of I D by monthly hemispheric photographs were corrected with these measured transmittance values. These apparent values of I D were employed to calculate average integrated quantum flux density as Q int  =  aI D , where a is the regression coefficient.
+
+Due to breaks in line power supply, light measurements were incomplete for approximately 10% of days. The gaps in measurements were filled using a linear regression between above‐canopy Q D ( D ) determined in Järvselja and daily global solar radiation ( R G ; MJ m −2 ) measured in a nearby meteorological station (58°16′ N, 26°28′ E). Across the seasons, the regression equation obtained was Q D ( D ) = 2.035 R G ( r 2  = 0.94).
+
+To examine the possible interaction between seasonal changes in foliar structural and photosynthetic variables with Q int , upper and lower canopy leaves were examined separately. The entire light range was about 15–100% of above‐canopy light in P. tremula , and about 3–30% for T. cordata . In P. tremula , the upper canopy leaves were defined as those receiving at least 75%, and lower canopy leaves less than 35% of above‐canopy light. In T. cordata , the upper canopy leaves intercepted more than 15%, and lower canopy leaves less than 10% of above‐canopy light. This strategy coupled to direct measurements of integrated quantum flux density avoided bias that may result from a random sampling of foliage during the season.
+Photosynthesis measurements
+
+Foliar structural and chemical analyses were accompanied by gas‐exchange measurements in all years using the apparatus and procedures described in detail in Niinemets et al . (1999 ). In short, shoots with four to five leaves were excised under water, transported to the laboratory within an hour after removal, recut in water, and stabilized in dim light before the measurements. In both species, the shoots were taken in the upper and lower canopy thirds at each sampling event. Hemispherical photographs above the shoots were also taken to assess the shoot light environment.
+
+A two‐channel gas‐exchange system was used to measure net assimilation rate ( A ) versus intercellular CO 2 mole fraction ( C i ) response curves at a quantum flux density of 1000  µ mol m −2  s −1 and leaf temperature of 26 ± 1 °C, while maintaining leaf to air water vapour deficit less than 0.016 mol mol −1 . Every leaf was stabilized for 10–20 min at an ambient CO 2 mole fraction of 325  µ mol mol −1 in the reference channel, before changing the CO 2 mole fraction in the other channel. CO 2 versus A responses were started with the lowest CO 2 mole fraction, stepwise increasing the CO 2 mole fraction. Farquhar, von Caemmerer & Berry (1980 ) photosynthesis model parameters – the maximum carboxylase activity of Rubisco ( V cmax;A ) and the capacity for photosynthetic electron transport ( J max;A ) were calculated according to Niinemets et al . (1999 ). In the calculations of J max;A , the initial quantum yield of photosynthetic electron transport for an incident light, α (mol mol −1 ) was determined as a product of leaf absorptance ( θ ) and a constant quantum yield of 0.292 mol electrons (mol quanta) −1 for absorbed light ( Ehleringer & Björkman 1977 ). The latter value has been determined from CO 2 uptake measurements in non‐photorespiratory conditions ( Ehleringer & Björkman 1977 ), assuming that four mole electrons are required to fix one mole CO 2 . Studies demonstrate that the quantum yields for CO 2 assimilation and photosynthetic electron transport are independent of temperature in such conditions ( Ku & Edwards 1978 ; Ehleringer & Pearcy 1983 ). Leaf absorptance was either measured with an integrating sphere, or calculated from species‐specific non‐linear correlations between θ and leaf chlorophyll content determined separately for both species. The measurements of V cmax;A were converted to 25 °C using standard Rubisco temperature characteristics ( Niinemets & Tenhunen 1997 ), while species average temperature response of photosynthetic electron transport ( Niinemets, Oja & Kull 1999 ) was employed for J max;A .
+
+In 1995, the measurements were conducted once weekly or bi‐weekly from 8 June until 26 September. Due to the size limits of the circular clip‐on type gas‐exchange cuvettes, the minimum leaf diameter for measuring gas‐exchange was 3.5 cm. This size was achieved in approximately 6–8 d after bud‐burst. Because of technical problems at the beginning of 1995, early season changes in leaf photosynthetic characteristics were further studied in 1996 and in 1997. A total of 65 A – C i response curves were measured over the years 1995–97. In addition to these data, we also included J max;A measurements by gas‐exchange techniques in fully developed non‐senescent leaves during the 1997 growing season from Niinemets et al . (1999 ). Estimates of J max;A from the same canopy height class, and for a given date were averaged.
+
+As the leaves photosynthesizing at low temperatures at the end of growing season essentially lacked stomatal control ( Niinemets et al . 1999 ), laboratory measurements of A – C i curves were not possible. Therefore, J max;A during leaf senescence was inferred from in situ measurements of the effective quantum yield of photosystem II ( Φ PSII ; Genty, Briantais & Baker 1989 ) by pulse‐amplitude modulated fluorometer PAM 2000 (H. Waltz GmbH, Effeltrich, Germany). The measurements were conducted between 1000–1200 h to avoid photo‐inhibitory decreases in Φ PSII . Although all photosynthetic partial reactions are tightly coupled, and the rate of linear electron transport is down‐regulated in conditions of Rubisco‐limitation, the effective quantum yield of PSII provides generally a reliable estimate of foliar photosynthetic capacity ( Edwards & Baker 1993 ). It has been previously demonstrated that gas‐exchange and electron transport measurements in ambient CO 2 and light conditions may be successfully employed to derive the Farquhar et al . model parameters by reverse modeling ( Niinemets & Tenhunen 1997 ; Kosugi, Shibata & Kobashi 2003 ), supporting the validity of the maximum linear electron transport rates determined by chlorophyll fluorescence. Nevertheless, Φ PSII may only partly describe the true photosynthetic capacity in conditions of strong interacting stresses that lead to inhibition of linear electron transport. To allow for an independent assessment, J max;A values derived from chlorophyll fluorescence are depicted by different symbols in the figures.
+Nitrogen investments in photosynthetic compounds
+
+To separate the structural and biochemical controls on foliar photosynthesis capacity, we write the maximum Rubisco carboxylase activity per unit leaf area, V cmax;A , as ( Niinemets & Tenhunen 1997 ):
+
+V cmax;A   =  6.25  V cr   M A   F R   N M
+(1)
+
+where V cr is the specific activity of Rubisco (the maximum rate of ribulose‐1,5‐bisphosphate carboxylation per unit Rubisco protein), M A is leaf dry mass per unit area (g m −2 ), N M is leaf nitrogen content per unit dry mass (g g −1 ), F R is the fraction of leaf nitrogen in Rubisco, and 6.25 converts nitrogen content to Rubisco protein content. The specific activity of Rubisco has been demonstrated to be essentially constant for C 3 plants ( Woodrow & Berry 1988 ; Spreitzer 1999 ). We used a value of V cr  = 20.5  µ mol CO 2  (g Rubisco) −1 s −1 at 25 °C derived from Jordan & Ogren (1984 ).
+
+Analogously, the capacity for photosynthetic electron transport per unit area, J max;A , is expressed as:
+
+J max;A   =  8.06  J mc   M A   F B   N M
+(2)
+
+where J mc is the capacity for photosynthetic electron transport per unit cytochrome f (mol e –  (mol cyt f) −1  s −1 ) and F B is the fraction of leaf nitrogen in ‘bioenergetics’. The value of F B reflects the content of cytochrome f, ferredoxin NADP reductase (FNR), and the coupling factor (CF), which are the proteins limiting the rate of linear electron transport ( Evans & Seemann 1989 ). Assuming a constant 1 : 1 : 1.2 molar ratio for cyt f : FNR : CF, an investment of 1 g N in bioenergetics is equivalent to 8.06  µ mol cyt f. ( Evans & Seemann 1989 ). We use a value of J mc  = 156 mol e –  (mol cyt f) −1  s −1 at 25 °C ( Niinemets & Tenhunen 1997 ). Numerous studies support the fixed stoichiometry of rate‐limiting proteins of photosynthetic electron transport (e.g. Evans 1988 ; Evans & Seemann 1989 ).
+Chlorophyll estimations
+
+Chlorophyll a and b contents of 1995 samples were determined by high pressure liquid chromatography (HPLC) as described in full detail in Niinemets et al . (1998 ). For the samples taken in 1996 and 1997, the chlorophylls were extracted with buffered (sodium phosphate buffer, 2.5 m m , pH = 7.8) 80% aqueous acetone (v/v), and chlorophyll concentrations were calculated from the extinction measurements (CE 3040 UV/Vis spectrophotometer; Cecil Instruments Ltd, Cambridge, UK) using the equations of Porra, Thompson & Kriedmann (1989 ). Cross‐calibrations of the HPLC and spectrophotometric methods demonstrated that both techniques yielded accurate estimates of leaf chlorophyll contents.
+Leaf area, dry mass and nitrogen determinations
+
+Leaf lamina perimeter was traced with a computer digitizer (QD‐1212; QTronix, Taiwan), and the area was calculated by using home‐written software. Leaves were dried at 70 °C for at least 48 h. The petiole and lamina were separately weighted, and lamina dry mass per unit area was calculated ( M A ). An average M A was computed for all leaves in the leaf cluster. The lamina nitrogen contents were estimated with an elemental analyser (CHN‐O‐Rapid; Foss Heraeus GmbH, Hanau, Germany). Overall, more than 500 leaf samples were analysed for M A and N.
+Simulation of the sensitivity of foliar net assimilation rates to modifications in leaf structural and chemical variables
+
+To illustrate the significance of variations in leaf nitrogen partitioning, leaf N content and leaf structure on net assimilation rate versus nitrogen relations, we employed the Farquhar et al . (1980 ) photosynthesis model to simulate the influence of extreme values of leaf structural and chemical characteristics on foliar photosynthesis. The Farquhar et al . (1980 ) model was parameterized according to Niinemets & Tenhunen (1997 ), and the simulations were conducted for a leaf temperature of 25 °C, intercellular CO 2 mole fraction of 250  µ mol mol −1 , and incident quantum flux density of 1000  µ mol m −2  s −1 . The day respiration rate was determined from a correlation with V cmax;A ( Niinemets & Tenhunen 1997 ).
+Statistical analyses of the experimental data
+
+Simple linear regression analyses were employed to test for statistical significance of leaf structure, chemistry and photosynthesis versus average integrated daily quantum flux density ( Q int ) relationships using standard least squares method ( Wilkinson 1990 ). The dependencies of leaf variables on Q int at different sampling dates were compared by covariation analyses ( ancova ). First, separate‐slope covariation analysis was conducted to test for slope differences. Whenever the interaction term (sampling date) ×  Q int , was insignificant, the analysis was continued according to a common slope model ( Sokal & Rohlf 1995 ). Because Q int may be determined over different periods of days preceding foliar sampling, covariation analyses were also employed to test for the statistical significance of slope and intercept differences between the day‐specific regressions. Covariation analyses were further used to test for the differences in the rate of development of leaf structural and photosynthetic characteristics between the upper and lower canopy leaves. One‐way anova was used to compare leaf characteristics of fully mature non‐senescent leaves (leaf age 40–120 d from the bud‐burst) between the upper and lower canopy layers. All statistical comparisons were considered significant at P  < 0.05.
+Generalization of the patterns in leaf development in broad‐leaved deciduous trees
+
+We compared the rates of morphological and physiological leaf development observed in the current study with previous estimates in temperate deciduous trees that form only one leaf cohort in the beginning of the growing season. The rate of development of leaf structure was estimated as the slope of M A versus leaf age relationship ( J M ; g m −2  d −1 ), while the rate of development of leaf photosynthetic capacity was estimated as the slope of V cmax;A versus leaf age. Only developing leaves younger than 40 d were used to calculate the rates of M A and V cmax;A development. For this analysis, V cmax;A was determined from leaf net assimilation rates and standardized to 25 °C as described in Niinemets & Tenhunen (1997 ). Altogether it was possible to derive the rates of structural and physiological leaf development for 15 previous observations from six independent studies (11 species, of which four species were represented by both upper and lower canopy measurements).
+
+Linear regression analysis was used to test for the correlation between the rates of leaf morphological (slope of M A versus leaf age relationship, J M ) and photosynthetic (slope of V cmax;A versus leaf age relationship) development. Combining results from several independent studies can lead to biased conclusions due to influential data or outliers that may result from study‐to‐study differences in the experimental design ( Gurevitch & Hedges 1993 ). Leverages and Studentized residuals were calculated to check for the possible regression artifacts ( Belsley, Kuh & Welsch 1980 ). As none of the data points had both a high leverage and Studentized residual, this analysis suggested that the observed correlation was not affected by the outlying observations. As a more radical approach, we removed values higher or lower than 75% of the mean J M from the dataset ( Sokal & Rohlf 1995 ). Linear regression between J M and the slope of V cmax;A versus leaf age was significant for both the full ( r 2  = 0.86, P  < 0.001, n  = 19) and the truncated dataset ( r 2  = 0.71, P  < 0.001, n  = 14), indicating that this relationship was robust and did not significantly depend on the extreme values included.
+RESULTS
+Variation in canopy light and temperature environment
+
+The average (± SD) integrated daily quantum flux density for the entire growing season (14 May to 1 October) was similar for 1995 (37.3 ± 14.3 mol m −2  d −1 ) and 1997 (35.9 ± 15.0 mol m −2  d −1 ) seasons, but somewhat lower for 1996 (32.7 ± 13.0 mol m −2  d −1 ). The day‐to‐day differences in light environment were large, with the coefficient of variation (standard deviation per sample mean) for the entire growing season (14 May to 1 October) of 38% for 1995, 40% for 1996, and 42% for 1997 ( Fig. 1a ).
+image
+Figure 1
+Open in figure viewer PowerPoint
+
+Seasonal variation in above‐canopy daily integrated quantum flux density, Q D ( D ), for the growing seasons 1995–97 (a), and changes in relative incident quantum flux density in mid‐ and lower canopy due to leaf area development during the growing season 1996 (b). The arrow denotes the Julian day of bud‐burst for Tilia cordata .
+
+The fraction of light available at different heights in the canopy was larger in the beginning of the season, and decreased with canopy leaf area development ( Fig. 1b ), whereas the early and mid‐season differences in light availability were relatively larger for the lower than for the upper canopy leaves. However, because the coexisting canopy trees of B. pendula flushed earlier than the trees of either P. tremula or T. cordata , the seasonal variation in canopy light environment was less in the foliage of the lower canopy species T. cordata .
+
+There may be significant effects of year‐to‐year differences in canopy microclimate on the rate of leaf development and on the Q int versus leaf structure and function relationships (e.g. Wilson et al . 2000, Wilson, Baldocchi & Hanson 2001 ). We cannot test conclusively for such effects with our data, because the dates of sampling in various years were only partly overlapping. Thus, the potential effects of year‐to‐year variability in climatic conditions are present as unexplained variance in our data. Nevertheless, Wilson et al . (2001 ) demonstrate that there is essentially no year‐effect on leaf development once the differences in the date of bud‐burst are accounted for. In our study, the data for different years were intermixed after the leaf‐to‐leaf variability in light environment and differences in the date of leaf bud‐burst were taken into account, suggesting that such year‐to‐year variations did not bias our main conclusions.
+
+Daily average air temperature was not correlated with Q int in open plant canopies during leaf development, whereas there was a significant interaction between Q int and average temperature after full leaf development ( Fig. 2 ). Thus, it is unlikely that canopy differences in temperature influenced canopy variations in the rate of leaf development in our study.
+image
+Figure 2
+Open in figure viewer PowerPoint
+
+Correlations between daily average air temperature and average integrated daily quantum flux density ( Q int ) during leaf growth (average for 1–15 d from bud‐burst; open symbols) and in fully developed canopy (46–107 d from bud‐burst; filled symbols) for 1996 growing season. Linear regression equations along with significance estimates are also provided. The error bars provide ± SE.
+Modification of leaf dry mass per unit area ( M A ) by light and leaf age
+
+Directly after bud‐burst, there were only minor differences in M A between the upper and lower canopy leaves in P. tremula ( Fig. 3a ), but larger differences in T. cordata ( Fig. 3b ). For both upper and lower canopy leaves of P. tremula , M A strongly increased during the first 35–40 d after bud burst ( D B ; Fig. 3a ), but M A increased only in the upper canopy leaves of T. cordata ( Fig. 3b ). In fact, M A of the lower canopy leaves of T. cordata was slightly larger directly after bud‐burst than a week later ( Fig. 3b ). The rate of increase in M A (the slope of M A versus D B ) was significantly larger for the upper canopy leaves in both species according to covariation analyses ( P  < 0.001).
+image
+Figure 3
+Open in figure viewer PowerPoint
+
+Variation in leaf dry mass per unit area ( M A ) in dependence on leaf age ( D B , days from bud‐burst) in Populus tremula (a) and Tilia cordata (b). The M A versus leaf age relations for the first 40 d were fitted by linear regressions. All relationships were significant at P  < 0.001, except for T. cordata lower canopy leaves ( P  > 0.5). In P. tremula , the upper canopy leaves (height 23.5–27 m) intercepted on average (± SD) 82.4 ± 6.0% of above‐canopy light, and this percentage was 27.6 ± 10% for the lower canopy leaves (14–20 m). In T. cordata , the upper canopy leaves (14–17 m) intercepted 19.6 ± 5.0% of above‐canopy light, and the lower canopy leaves (4–10 m) 8.1 ± 3.1% of above‐canopy light.
+
+To assess the importance of leaf light environment in explaining the differences in the rate of change in M A , we calculate the initial rate of biomass accumulation ( χ M , g mol −1 ) per unit average integrated quantum flux density:
+image (3)
+
+where J M (g m −2  d −1 ) is the slope of M A versus D B ( D B range of 0–40) relationship, and Q int (mol m −2  d −1 ) is the average integrated quantum flux density during this period. Values of χ M for the upper (0.055 ± 0.007 g mol −1 ; ± SE determined from the standard error of the regression slope) and lower (0.072 ± 0.013 g mol −1 ) canopy leaves of P. tremula were similar, but χ M was considerably larger for the upper than for the lower canopy leaves of T. cordata (0.056 ± 0.010 g mol −1 versus 0.010 ± 0.018 g mol −1 ). Discarding the initial exceptionally large value of M A yields a χ M of 0.034 ± 0.021 g mol −1 for the lower canopy leaves of T. cordata . Thus, similar values of χ M for the entire canopy support the hypothesis of the primary role of light in controlling the rate of leaf development.
+Stability of M A versus light relationships
+
+For developing leaves of both P. tremula ( Fig. 4a ) and T. cordata ( Fig. 4b ), the slope of M A versus Q int relationship increased with increasing leaf age, paralleling canopy differences in the rate of leaf development ( Fig. 3 , Table 1 , separate‐slope ancova analysis). The intercept of M A versus Q int relations also increased with D B in P. tremula ( Fig. 4a ). In T. cordata , the intercept was lower for 2‐week‐old‐leaves than for leaves directly after bud‐burst, and approached the initial value with further leaf aging ( Fig. 4c , Table 1 , ancova ).
+image
+Figure 4
+Open in figure viewer PowerPoint
+
+Light‐related changes in M A at different dates during the growing season in P. tremula (a, b) and Tilia cordata (c, d). The average integrated quantum flux density ( Q int ) was determined as the average for 5 d following bud‐burst for May 15 ( D B  = 3 d), for 10 d for the rest of May and June data ( D B  = 17–40) and as an average for 30 d following bud‐burst for all other data. The linear regression equations are given in Table 1 .
+Table 1. Relationships between leaf dry mass per unit area ( M A , g m −2 ) and average integrated daily quantum flux density ( Q int , mol m −2  d −1 ) a at various times during the growing season in Populus tremula and Tilia cordata : results of linear regression analyses
+Days from bud‐burst 	P. tremula 	T. cordata 	n
+Intercept
+(g m −2 ) 	Slope
+(g d mol −1 ) b 	r 2 	Intercept
+(g m −2 ) 	Slope
+(g d mol −1 ) b 	r 2
+  3 	27.7 	0.430 a 	0.77 	22.2 	1.55 a 	0.78 	16
+ 17–19 	35.7 	1.028 b 	0.84 	12.4 	2.91 b 	0.80 	24
+ 25–40 	46.8 	1.26 c 	0.80 	15.4 	3.93 c 	0.90 	20
+ 56–69 	52.5 	1.19 bc 	0.84 	21.1 	2.68 b 	0.71 	28
+ 77–99 	50.5 	1.21 bc 	0.87 	19.9 	2.79 b 	0.70 	32
+107–121 	50.7 	1.20 bc 	0.81 	17.8 	2.98 b 	0.73 	28
+133–142 	32.8 	1.61 c 	0.87 	11.7 	2.63 bc 	0.95 	10
+
+    All intercepts and slopes are statistically significant at P  < 0.001. n denotes the sample size for both species. a Q int was averaged over 5 d following bud burst for 15 May data, 10 d for 31 May, and June data, and over 30 d for the rest of the data. The date of bud‐burst was 12 May for both species. b The slopes with the same letter are not statistically different at P  < 0.05 according to separate‐slope covariation analyses.
+
+In mature non‐senescent leaves ( D B range of 40–121 d), the M A versus Q int relations were seemingly stable with minor differences between the sampling dates, but there was evidence of a moderate decline in M A in senescent leaves ( Fig. 4b & d , Table 1 , ancova ). For all mature leaves pooled, the coefficient of determination ( r 2 ) that measures the amount of variation in M A that is explained by linear regression of M A on Q int , was only weakly altered by using different time spans for average integrated daily quantum flux density calculation in both P. tremula ( Fig. 5 ) and T. cordata (data not shown). Due to temporal changes in above‐canopy Q int ( Fig. 1a ), the intercepts and slopes of the M A versus Q int relationships were dependent on the number of days included in average Q int calculation ( P  < 0.01 for slope and intercept differences between the extremes). However, for Q int values determined as an average for more than 20 d after bud‐burst ( Fig. 5a ), or preceding leaf sampling ( Fig. 5b ) these changes were less than 1% for the intercept and about 5% for the slope, demonstrating that the M A versus Q int relationship is robust for mature leaves.
+image
+Figure 5
+Open in figure viewer PowerPoint
+
+Slope and intercept of M A versus Q int relations for the mature non‐senescent leaves of P. tremula ( Fig. 3b , D B range of 55–121 d) in dependence on the number of days for Q int calculation. Integrated daily quantum flux density was averaged for varying time periods following (a) leaf formation or (b) leaf maturation ( D B  = 55 d). The explained variances ( r 2 ) of the linear regressions for the shortest and longest time periods used in Q int calculation are also provided.
+Seasonal changes in foliar nitrogen contents
+
+Leaf nitrogen content per unit dry mass ( N M ) changed rapidly during leaf development and senescence, and varied considerably less in mature leaves ( Fig. 6a & b ). The average (± SD) N M for the mature leaves ( D B range of 40–120) was 2.30 ± 0.20% for the upper, and 2.18 ± 0.10% for the lower canopy leaves of P. tremula (the means are significantly different at P  < 0.005 according to anova , n  = 26), and 2.67 ± 0.28% for the upper and 2.61 ± 0.26% for the lower canopy leaves of T. cordata (the means are not statistically different, P  > 0.06, n  = 26). However, there was a continuous decline in N M of mature leaves of the upper canopy in P. tremula (inset in Fig. 6a ), and for all leaves in T. cordata (inset in Fig. 6b ). For the upper canopy leaves of P. tremula , the regression equations predicted that the change in N M in mature leaves was about 15% for an increase in leaf age from 30 to 120 d. The corresponding decline in N M was about 20% for the leaves of T. cordata .
+image
+Figure 6
+Open in figure viewer PowerPoint
+
+Nitrogen content per unit dry mass (a, b), area (c, d), and individual leaf (e, f) relative to leaf age in P. tremula (a, c, e) and T. cordata (b, d, f) leaves from the upper and lower canopy, and for fresh leaf litter. Upper and lower canopy was defined as in Fig. 3 . Nitrogen content per dry mass versus D B relations for a D B range of 35–120 d were fitted by linear (a) or second‐order polynomial (b) regressions. The insets in (a) and (b) demonstrate these relationships in a finer resolution.
+
+Changes in N per unit leaf area ( N A ) of mature and senescent leaves followed the trends in N M ( Fig. 6c & d ). However, the early season values of N A were strongly modified by increases in M A (cf. Figs 3, 6c & d ) such that the initial decline in N A was followed by an increase to a maximum value ( Fig. 6c & d ). As Fig. 6e and f demonstrate, about 20–30% of leaf N was present after bud‐burst, and developmental modifications in N A resulted from large nitrogen exports to maturing leaves in both species. These data ( Fig. 6e & f ) further indicate that there is real net export of N out of fully mature non‐senescent leaves during the growing season.
+Leaf chlorophyll contents in relation to Q int and leaf age
+
+Leaf chlorophyll content per unit dry mass ( Chl M ) changed less than either M A ( Fig. 3 ) or N M ( Fig. 6 ) in developing leaves ( Fig. 7a & b ). Early season modifications in the chlorophyll contents per unit area ( Chl A ) were larger due to simultaneous increases in M A , especially for the upper canopy leaves ( Fig. 7c & d ). Both Chl M and Chl A declined rapidly in senescing foliage ( Fig. 7a–d ). There was also a slight, but significant decrease in chlorophyll contents of mature leaves in the upper canopy of P. tremula , and for both the upper and lower canopy of T. cordata ( Fig. 7a–d ).
+image
+Figure 7
+Open in figure viewer PowerPoint
+
+Variation of foliar chlorophyll content per unit dry mass (a, b), area (c, d), and chlorophyll to nitrogen ratio (e, f) with leaf age in the upper and lower canopy of P. tremula (a, c, e) and T. cordata (b, d, f). Upper and lower canopy was defined as in Fig. 3 . Relationships of chlorophyll content, and chlorophyll to N ratio ( Chl/N ) with D B of mature non‐senescent leaves ( D B range 35–120 d) were fitted by linear regressions. Non‐significant regressions ( P  > 0.05) are given by a broken line.
+
+Chlorophyll to N ratio ( Chl/N ) was low just after bud‐burst and reached a stable value 7–14 d after bud‐burst ( Figs 7e & f ). In mature leaves, Chl/N was invariable ( Figs 7e & f ), indicating that decreases in foliar chlorophyll contents were directly associated with nitrogen retranslocation out of the leaves ( Fig. 6 ).
+
+Both Chl M ( Fig. 7a & b ) and Chl/N ( Fig. 7e & f ) were larger in the lower canopy leaves. The intercept of Chl M ( Fig. 8a & c , Table 2 , ancova ) and Chl/N ( Fig. 8e & g ) versus Q int relations increased with advancing leaf development, reflecting the increase in Chl M and greater nitrogen investments in light harvesting. The slopes of these relationships also varied in developing leaves, but the variability was minor, except for larger differences in Chl/N ratio directly after bud‐burst and several days following bud‐burst ( Fig. 8a, c, e & g , Table 2 , ancova ). This demonstrates that the light‐sensitivities of Chl M and nitrogen investment in light harvesting are similar for all stages of leaf development. In mature non‐senescent leaves of P. tremula , the slopes of Chl M and Chl / N versus Q int relationship tended to become more negative with increasing leaf age, primarily as the result of moderately lower Chl M and Chl / N ratio in the upper canopy leaves ( Fig. 8b & f , Table 2 ). The variability in Chl M versus Q int was larger in T. cordata , and there was evidence of a general decrease in the slope of Chl M versus Q int relationship with the age of mature non‐senescent leaves ( Fig. 8d , Table 2 , ancova ). No clear age‐dependent trend in the slopes and intercepts of Chl / N versus Q int relations was observed in non‐senescent leaves of T. cordata ( Fig. 8f & g ). In senescent leaves, Chl M and Chl / N versus light relations were unstable ( Fig. 8b, d, f & h ). According to visual observations, there were both green and yellow leaves in different canopy light environments during the initial stages of senescence.
+image
+Figure 8
+Open in figure viewer PowerPoint
+
+Effects of Q int on foliar chlorophyll content per unit dry mass (a–d), and chlorophyll to N ratio (e–h) in P. tremula (a, b, e, f) and T. cordata (c, d, g, h) leaves of different age. Q int was determined as the average of 5 d following bud‐burst for the first sampling date at D B  = 3 d (May 15), for 10 d for the rest of May and June data ( D B   = 17–40) and as an average for 30 d after bud‐burst for other sampling dates. The linear regression equations of chlorophyll per mass versus Q int relations are given in Table 2 . Non‐significant relationships ( P  > 0.05) are shown by a broken line.
+Table 2. Leaf chlorophyll content per unit dry mass ( µ mol g −1 ) in dependence on Q int (mol m −2  d −1 ) a for leaves of different age in P. tremula and T. cordata : results of linear regression analyses
+Days from bud‐burst 	P. tremula 	T. cordata 	n
+Intercept
+( µ mol g −1 ) 	Slope
+( µ mol g −1  d m 2  mol −1 ) b 	r 2 	P 	Intercept
+( µ mol g −1 ) 	Slope
+( µ mol g −1  d m 2  mol −1 ) b 	r 2 	P
+  3 	8.18 	−0.0958 ab 	0.44 	0.01 	11.3 	−0.636 ab 	0.47 	0.003 	16
+ 17–19 	9.27 	−0.0812 a 	0.50 	0.001 	17.5 	−0.925 ab 	0.58 	0.001 	21
+ 25–40 	8.89 	−0.0925 a 	0.66 	0.001 	17.3 	−0.975 a 	0.81 	0.001 	20
+ 56–69 	8.31 	−0.0882 a 	0.58 	0.001 	15.9 	−0.729 a 	0.49 	0.001 	28
+ 77–99 	8.88 	−0.117 a 	0.77 	0.001 	15.2 	−0.615 a 	0.31 	0.002 	32
+107–121 	9.05 	−0.143 b 	0.83 	0.001 	13.7 	−0.554 b 	0.43 	0.001 	28
+133–142 	−0.068 	0.0901 c 	0.14 	0.2 	−0.624 	0.534 c 	0.71 	0.05 	10
+
+    a Q int was averaged over 5 d following bud burst for 15 May data, 10 d for 31 May, and June data, and over 30 d for the rest of the data. The date of bud‐burst was 12 May for both species.
+    b The slopes with the same letter are not statistically different at P  < 0.05 according to separate‐slope covariation analyses.
+
+We explored the effects of previous vis‐à‐vis current light environment on Chl M and Chl / N versus Q int relations in mature leaves by averaging Q int over various days preceding leaf sampling. For all mature leaves pooled ( D B range of 55–121 d), r 2 of these relations increased with increasing the length of time period prior to sampling that was used for Q int determination ( Fig. 9 ). However, even the regressions with average integrated quantum flux density of 60 d before leaf sampling explained less of the total variation in Chl M and Chl / N than the relationships with average integrated quantum flux density during leaf development ( Fig. 9 ). This suggests that Chl M and Chl / N are determined in early season, and that Chl M and Chl / N versus light relations of fully mature leaves are not significantly altered by day‐to‐day and month‐to‐month variabilities in Q int .
+image
+Figure 9
+Open in figure viewer PowerPoint
+
+The fraction of variance explained ( r 2 ) of the chlorophyll per unit dry mass, and chlorophyll to N ratio versus Q int relationships for the mature non‐senescent leaves of P. tremula ( Fig. 8b & f; D B range of 55–121 d) in relation to the number of days included to determine the average integrated daily quantum flux density. Also included are the r 2 values for regressions with Q int estimated as an average over 30 d following bud‐burst.
+Modification of foliar photosynthetic capacity by light and leaf age
+
+There were minor initial canopy differences in the capacity for photosynthetic electron transport per unit area ( J max;A Fig. 10a & b ) and in the maximum Rubisco carboxylase activity per unit area ( V cmax;A ; data not shown, inset in Fig. 10c ). Canopy differences in foliar photosynthetic capacity increased progressively with leaf maturation, and stabilized in approximately 40‐day‐old leaves with only small decreases in the capacities until the onset of leaf senescence ( Fig. 10a & b ). The capacities per unit dry mass changed similarly during the season ( Fig. 10c & d ), but there was only a minor canopy variation in the mass‐based photosynthetic capacity. According to anova , average (± SD) photosynthetic electron transport capacity per unit dry mass ( J max;M ) of mature leaves ( D B range of 40–120) was not significantly different ( P  > 0.3) between the upper (1.67 ± 0.35  µ mol g −1  s −1 ) and lower (1.76 ± 0.23  µ mol g −1 s −1 ) canopy in P. tremula ( n  = 14 for both upper and lower canopy), but was moderately larger ( P  < 0.01) in the upper (2.08 ± 0.20  µ mol g −1  s −1 ) than in the lower (1.77 ± 0.26  µ mol g −1  s −1 ) canopy of T. cordata ( n  = 13 for both upper and lower canopy). However, the maximum Rubisco carboxylase activity per unit dry mass ( V cmax;M ) was larger ( P  < 0.005) in the lower (0.67 ± 0.06  µ mol g −1  s −1 ) than in the upper (0.56 ± 0.10  µ mol g −1  s −1 ) canopy of P. tremula , but no differences ( P  > 0.3) were observed between the upper (0.72 ± 0.05  µ mol g −1  s −1 ) and lower (0.67 ± 0.11  µ mol g −1 s −1 ) canopy of T. cordata .
+image
+Figure 10
+Open in figure viewer PowerPoint
+
+Light‐saturated rate of photosynthetic electron transport per unit area ( J max;A ; a, b) and dry mass ( J max;M ; c, d) relative to leaf age in P. tremula (a, c) and T. cordata (b, d) leaves from the upper (open symbols) and lower canopy (filled symbols). The upper and lower canopy is defined as in Fig. 3 . The capacity for photosynthetic electron transport was derived from gas‐exchange measurements (circles), except for the last measurement date (triangles). The latter values were derived from chlorophyll fluorescence measurements. The initial rise in (a) and (b) ( D B  ≤ 35 d), was fitted by linear regression. The non‐significant regression ( r 2  = 0.34, P > 0.1) in (b) is drawn by a broken line. The inset in (c) demonstrates the correlation between J max;A and the maximum carboxylase activity of Rubisco per unit area ( V cmax;A ).
+Variation in nitrogen investments in photosynthetic machinery
+
+Seasonal changes in foliar photosynthetic capacity were partly explained by modifications in the fractional nitrogen investment in bioenergetics ( F B , Fig. 11a & b ) that determines the capacity for light‐reactions of photosynthesis at a common M A and leaf nitrogen content ( Eqn 2) ; and in fractional nitrogen investment in Rubisco ( F R , insets in Fig. 11a & b ) that determines the capacity for dark reactions of photosynthesis ( Eqn 1) . The ratio of F R / F B was slightly larger in the mature than in young leaves in the upper canopy of T. cordata ( r 2  = 0.47, P  < 0.05 for a linear regression between F R / F B and D B ) and was independent of D B in other cases ( P  > 0.2), demonstrating that the fractional distribution of N among chloroplast proteins was essentially constant in time.
+image
+Figure 11
+Open in figure viewer PowerPoint
+
+Seasonal variation in the fraction of leaf nitrogen in bioenergetics ( Eqn 2) and in Rubisco ( Eqn 1 , insets) for the upper and lower canopy leaves of P. tremula (a) and T. cordata (b). The upper and lower canopy is defined as in Fig. 3 and data presentation as in Fig. 10 .
+
+In accordance with previous observations ( Reich et al . 1991 ), the correlations of foliar photosynthetic capacity per unit dry mass with N M ( r 2  = 0.01 for J max;M , and r 2  = 0.12 for V cmax;M ) and photosynthetic capacity per area with N A ( r 2  = 0.74 for J max;A and r 2  = 0.65 for V cmax;A ) were considerably weaker if all data were pooled, than after removal of the early season data (for mass basis: r 2  = 0.58 for J max;M , and r 2  = 0.35 for V cmax;M ; for area basis: r 2  = 0.87 for both J max;A and V cmax;A ).
+
+Influence of the extreme variations in leaf structural and chemical characteristics on foliar photosynthesis is simulated in Fig. 12 . This simulation demonstrates a large variation in leaf photosynthesis due to differences in nitrogen partitioning, and underscores the importance of fractional leaf nitrogen investments in photosynthetic machinery for prediction of net assimilation rates. According to this simulation, differences in nitrogen partitioning also explain the weak mass‐based nitrogen versus net photosynthesis relationship for the entire season.
+image
+Figure 12
+Open in figure viewer PowerPoint
+
+Simulated net assimilation rate in dependence on leaf nitrogen content for a representative early season leaf (open symbols), and mature‐leaf (filled symbols). The variation in N content per area at a given N content per dry mass ( N M ) was achieved by varying leaf dry mass per unit area ( M A ) from 20 to 60 g m −2 for the developing leaf and from 20 to 110 g m −2 for the mature leaf. Seasonal variation in fractional nitrogen investments in Rubisco ( F R ; Eqn 1) and bioenergetics ( F B ; Eqn 2) is illustrated in Fig. 11 .
+Is M A controlling canopy differences in photosynthesis development?
+
+Canopy differences in photosynthetic nitrogen investments were small. In fully mature leaves of P. tremula , F B  = 0.055 ± 0.011 for the upper and F B  = 0.064 ± 0.006 for the lower canopy ( P  < 0.05 for the difference between the means, anova ), while F R  = 0.182 ± 0.028 for the upper and F R  = 0.231 ± 0.016 for the lower canopy ( P  < 0.001, n  = 14 for both upper and lower canopy). In T. cordata , F B  = 0.0590 ± 0.005 for the upper and F B  = 0.054 ± 0.003 for the lower canopy ( P  > 0.09), and F R  = 0.199 ± 0.021 for the upper and F R  = 0.197 ± 0.023 for the lower canopy ( P  > 0.8, n  = 13 for both upper and lower canopy). Small canopy differences in apparent nitrogen investments ( Fig. 11a & b ), nitrogen contents ( Fig. 6a & b ) and the photosynthetic capacities per unit dry mass ( Fig. 10c & d ) collectively suggest that large canopy differences in the rate of development of photosynthetic capacity per unit area ( Fig. 10a & b ) were primarily associated with changes in M A as the capacity per area = (capacity per mass) ×  M A .
+DISCUSSION
+Early seasonal changes in M A in canopies of deciduous tree species
+
+We observed minor initial differences in M A between the upper and lower canopy leaves in P. tremula ( Fig. 3a ), but larger early season differences in T. cordata ( Fig. 3b ). Relatively small canopy variation in M A in the beginning of season agrees with the experimental evidence that M A is primarily determined by the light environment during leaf expansion growth ( Hansen 1959 ; Goulet & Bellefleur 1986 ; Kimura et al . 1998 ). However, previous‐year light environment may also partly affect M A in some species ( Eschrich et al . 1989 ; Labrecque et al . 1989 ), possibly explaining larger canopy variation in T. cordata . Nevertheless, there was a significant canopy light gradient already during the bud‐burst in both P. tremula and T. cordata , albeit smaller than after completion of leaf expansion ( Fig. 1b ). Thus, foliage structural differences in our study can also be explained by the current leaf light environment alone.
+
+After bud‐burst, there was a monotonic increase in M A for all leaves of P. tremula and for the upper canopy leaves of T. cordata ( Fig. 3 ). Such monotonic changes in M A are in agreement with the majority of observations ( Koike 1990 ; Reich et al . 1991 ; Oleksyn et al . 2000 ; Wilson et al . 2000 ). For lower canopy leaves of T. cordata , M A was slightly higher directly after bud‐burst and was essentially constant thereafter ( Fig. 3b ). This may be related to more densely packed mesophyll in young leaves ( Dengler 1980 ; Tichá 1985 ), and to the circumstance that foliar thickness changes considerably less in shaded than in fully exposed leaves during leaf growth ( Dengler 1980 ). An alternative possibility is a proportionally larger volume fraction of mid‐rib in the young shaded leaves, laminas of which are initially thinner than those of the exposed leaves.
+
+Contrary to our study, Jurik (1986b ) and Hamerlynck & Knapp (1996 ) report a continuous decrease in M A for approximately 20 d after bud‐burst, followed by a monotonic increase. Such long‐lasting early season decreases in M A are not in accord with most of the experimental observations, and probably represent experimental artifacts due to measuring the projected area of folded and rolled rather than unfolded leaf laminas.
+
+Of course, not only light but also temperature affects leaf structural development. Given that in dense plant canopies there are often significant temperature gradients that interfere with light in the canopy ( Niinemets, Oja & Kull 1999 ; Baldocchi, Wilson & Gu 2002 ), temperature effects may be particularly important in interpreting the results of the current study. However, the correlation between temperature and Q int was not significant during leaf development ( Fig. 2 ), suggesting that such an environmental interaction did not bias the conclusions of our study. Furthermore, temperature primarily affects leaf expansion growth, and increases in temperature may actually result in a lower M A ( Nobel, Zaragoza & Smith 1975 ; Körner & Larcher 1988 ; Tardieu, Granier & Muller 1999 ) rather than in enhanced M A as was observed in our study. Thus, this evidence collectively suggests that canopy variation in morphological development was primarily determined by light rather than by temperature.
+Stability of M A versus Q int relationships in mature leaves
+
+Developmental changes in M A were faster in the upper than in the lower canopy ( Fig. 3 ). As the result of differing rates of leaf development, the slopes of M A versus integrated quantum flux density ( Q int ) relationships increased until leaf maturation ( Fig. 4a & b ). In mature leaves, M A versus Q int relationship was essentially invariable ( Fig. 4b & d ), and the best correlation was achieved with the integrated quantum flux averaged over the 20–30 d from bud‐burst ( Fig. 5 ), corroborating the suggestion that M A is determined during leaf development. Minor changes in M A of mature leaves have been observed after radical artificial changes in leaf light conditions ( Naidu & DeLucia 1997 ; Frak et al . 2001 ; Niinemets et al . 2003 ), further demonstrating that M A of mature non‐senescent leaves and for a given canopy position is essentially a constant in northern temperate tree species.
+Seasonal changes in foliar nitrogen
+
+Seasonal changes in leaf nitrogen contents per unit dry mass ( N M ) were characterized by three distinct phases ( Fig. 6a & b ): (1) fast decreases in N M in developing leaves, during which the rates of leaf carbon accumulation exceed the rates of nitrogen export; (2) relatively stable N M contents in mature leaves; and (3) rapid changes in N M after the onset of leaf senescence. Similar phases of N M changes can also be distinguished in other deciduous trees ( le Tacon & Toutain 1973 ). Because there was a minor canopy variation in nitrogen contents per unit dry mass (cf. Fig. 6a & b and 6c–f ), the upper and lower canopy differences in leaf nitrogen contents per unit area ( N A ) and per individual leaf are directly related to differences in M A .
+
+Even in mature leaves, in particular for the upper canopy leaves ( Fig. 6a & b ), N M , N A and nitrogen content per leaf continuously decreased. Overall, there is a high turnover rate of leaf proteins, and continuous import of inorganic nitrogen in the leaf via xylem, and export of amino acids via phloem ( Feller & Fischer 1994 ). Thus, the net decrease in N M in mature leaves hints at slowing down of inorganic nitrogen delivery rate and/or reduced synthesis rate of leaf proteins. In herb and grass species, foliar protein and nitrogen contents decline immediately after the leaf attains a peak physiological activity ( Hidema et al . 1992 ; Mae et al . 1993 ; Takeuchi et al . 2002 ). Reduced protein synthesis rates after leaf maturation have also been observed in seedlings and saplings of deciduous trees producing multiple leaf flushes during the season ( Vapaavuori & Vuorinen 1989 ; Valjakka et al . 1999 ). A general feature of developing plant canopies with short‐living leaves is that the older leaves become overtopped by younger leaves during canopy developing. Such a shading by upper canopy leaves has been highlighted as the primary signal of leaf senescence in plants with short leaf life‐span ( Hikosaka 1996 ). Artificial shading experiments in tree canopies with long‐living leaves also demonstrate that shading leads to decreased foliar nitrogen contents in long‐living leaves ( Saur, Nambiar & Fife 2000 ). Given that the average above‐canopy quantum flux densities continuously decrease after summer solstice ( Fig. 1a ), mid‐seasonal declines in foliar nitrogen contents may be associated with decreases in quantum flux density in our study.
+
+The net nitrogen export from the mature leaves rises the question of what happens with the remobilized nitrogen? Studies demonstrate that shading results in more efficient nitrogen mobilization if there is a strong competition for nitrogen by growing organs (see Ono, Terashima & Watanabe 1996 for a discussion). In northern temperate trees, such a competing late‐seasonal nitrogen sink is present in growing buds.
+Age‐ and light‐dependent modifications in foliar chlorophylls
+
+Foliar chlorophyll contents as well as chlorophyll to N ( Chl / N ) ratios increased in early season ( Fig. 7 ) compatible with previous observations of enhanced synthesis rates of chloroplast proteins in developing leaves ( Hidema et al . 1992 ; Mae et al . 1993 ). In mature leaves, chlorophyll contents declined slightly ( Fig. 7a–d ), whereas Chl / N ratio was essentially constant ( Fig. 7e & f ). This demonstrates that decreases in chlorophyll contents were directly associated with mid‐ and late‐seasonal re‐mobilization of leaf nitrogen contents.
+
+Directly after the bud‐burst, there was a small canopy gradient in foliar chlorophyll contents and Chl / N ratio ( Fig. 8a, e, c & g ). The gradient was augmented during leaf development, indicating that the synthesis rates of chlorophyll‐protein complexes were more rapid in the lower canopy, leading to the sharp chlorophyll and Chl / N ratio gradient in the canopies of both species.
+
+Literature indicates that the light‐harvesting chlorophyll‐protein complexes are effectively dismantled in response to long‐term stress effects ( Andersson & Aro 1997 ), resulting in decreases in foliar chlorophyll contents ( Kyparissis, Petropoulou & Manetas 1995 ). However, in mature leaves, there was a N‐related overall decline in chlorophylls, but essentially no day‐to‐day or week‐to‐week fluctuations in leaf chlorophyll and Chl / N ratio. In fact, chlorophyll and Chl / N versus Q int relations of mature leaves were best correlated with the average integrated quantum flux density during leaf development ( Fig. 9 ). This suggests that the kinetic constants for the acclimation of thylakoid protein stoichiometry are significantly longer than days or weeks for leaves of northern temperate trees. Although it is widely acknowledged that foliar acclimation responses are more rapid in grass and herb species, a similar time‐independence of Chl / N versus light relations has previously been reported for the herb Medicago sativa canopy ( Evans 1993 ).
+Development of leaf photosynthesis capacities at different light availabilities: does it end up with optimality?
+
+The rapid increase of leaf photosynthetic capacities in developing leaves ( Fig. 10 ) agrees with previous observations ( Jurik 1986a ; Koike 1990 ; Reich et al . 1991 ; Hamerlynck & Knapp 1996 ; Wilson et al . 2000 ). These rapid modifications are partly associated with increased M A ( Fig. 3 , Miyazawa, Satomi & Terashima 1998 ) that brings about larger nitrogen contents per unit area. Fast developmental changes are also dependent on enhanced nitrogen partitioning in rate limiting proteins of photosynthetic machinery ( Fig. 11 ). Increases in leaf nitrogen investments in bioenergetics ( Fig. 11 ) and in Rubisco (insets in Fig. 11 ) modify foliar photosynthesis capacity three‐fold, while increases in M A increase leaf nitrogen contents by 1.2‐ to 1.5‐fold, demonstrating that changes in nitrogen partitioning alter more importantly the early season leaf photosynthesis rates than anatomical modifications.
+
+Apart from the relevance of changes in leaf nitrogen partitioning for the development of photosynthetic activity of the entire canopy ( Figs 11 & 12 ), it is important that there is also a large canopy gradient in the development rates of foliar photosynthesis. While nitrogen partitioning characteristics changed simultaneously in high and low light‐developed leaves ( Figs 10c, d & 11 ), canopy differences in M A changes were primarily responsible for the canopy gradient in the rate of development of leaf photosynthetic capacity ( Fig. 10a & b ). This concurs with the evidence demonstrating that the variation in photosynthetic capacity within the canopy light gradients results from accumulation of photosynthetic tissue per unit leaf area with increasing Q int , that is primarily associated with modifications in M A ( Niinemets & Tenhunen 1997 ; Le Roux et al . 2001 ; Meir et al . 2002 ).
+
+According to the ‘full acclimation’ hypothesis ( Field 1983 ; Farquhar 1989 ; Badeck 1995 ), M A (or nitrogen) versus Q int relationship should go through the origin for optimal partitioning of leaf resources. However, there is always a certain minimum M A that differs between species ( Kull & Niinemets 1993 ; Niinemets et al . 1998 ; Meir et al . 2002 ), and may vary within species (e.g. Niinemets & Tenhunen 1997 ) such that this kind of ‘full optimality’ is not possible ( Gutschick & Wiegel 1988 ). Nevertheless, our study demonstrated that the light use efficiency for biomass accumulation was essentially constant for all leaves in the canopy. Although we cannot conclusively rule out the influence of previous year light environment on leaf development, our data seem to support the hypothesis that structural adjustments during leaf growth do occur in proportion with Q int .
+
+To assess whether foliar photosynthetic capacities satisfy the same optimality criterion, we calculate the light use efficiency for J max;A changes ( χ J , µ mol mol −1  s −1 ) as the slope of J max;A versus D B ( D B range of 0–40) divided by average integrated quantum flux density ( Q int ). The values of χ J −0.24 ± 0.06  µ mol mol −1  s −1 (± SE determined from the standard error of the regression slope) for the upper, and 0.35 ± 0.10  µ mol mol −1  s −1 for the lower canopy leaves of P. tremula , and 0.34 ± 0.12  µ mol mol −1  s −1 for the upper, and 0.24 ± 0.11  µ mol mol −1  s −1 for the lower canopy leaves of T. cordata – were similar throughout the canopy. Analogous constancy was also observed for V cmax;A acclimation (data not shown). These observations collectively indicate that temporal modifications in foliar photosynthetic capacity are proportional to intercepted integrated quantum flux density, and as such, support the optimality argument. Even leaf photosynthetic capacity develops in proportion with Q int , the whole canopy photosynthesis profiles are not optimized for a given total biomass in leaves, because the leaves have an initial ( Fig. 3 ) or minimum ( Meir et al . 2002 ) M A .
+
+From a general perspective, a strong positive correlation between the changes in M A and foliar photosynthetic capacity is observed across the deciduous tree species ( Fig. 13 ), demonstrating that the rate of development in M A may be employed as a universal index for early seasonal modifications in foliar photosynthetic capacity. Although the plasticity for changes in nitrogen partitioning to integrated quantum flux density may vary between the species ( Niinemets & Tenhunen 1997 ; Le Roux et al . 2001 ), the general relationship obtained across species grown in sites of varying temperature and water limitations as well as incident radiation ( Fig. 13 ) further demonstrates that changes in M A provide the major way to reach a correspondence between leaf environment and photosynthetic capacity in tree leaves ( Niinemets & Tenhunen 1997 ; Evans & Poorter 2001 ). Given that increases in M A result both in a larger photosynthetic biomass per unit leaf area, and a lower internal liquid‐phase resistance to CO 2 diffusion ( Terashima, Miyazawa & Hanba 2001 ), such an important role of M A is not unexpected.
+image
+Figure 13
+Open in figure viewer PowerPoint
+
+Coordinated developmental changes in maximum Rubisco carboxylase activity per unit area ( V cmax;A ) and leaf dry mass per unit area ( M A ) in temperate deciduous trees in early season (0–40 d after bud‐burst): correlation between the rate of V cmax;A development (slope of V cmax;A versus D B ) and the rate of M A development (slope of M A versus D B ). Data were derived from the current study ( P. tremula , T. cordata ), and Hamerlynck & Knapp (1996 ; Quercus macrocarpa , Q. muehlenbergii ), Jurik (1986a, b ; Acer saccharum , Fagus grandifolia , Q. rubra ), Oleksyn et al . (2000 ; Betula pendula ), Reich et al . (1991 ; A. rubrum , Q. ellipsoidalis ), Schulte (1993 ; F. sylvatica ), Wilson et al . (2000 ; A. rubrum , Q. alba ). Data were fitted by a linear regression.
+
+The synthesis depicted in Fig. 13 included tree species that produce only one leaf flush in the beginning of season. However, recent evidence demonstrates that M A may drive the canopy leaf photosynthetic adjustment also in dynamic situations when the lower leaves become gradually shaded by upper leaves ( Walcroft et al . 2002 ) further enhancing the generality of our conclusion.
+Mid‐seasonal changes in leaf photosynthesis capacities
+
+Day‐to‐day fluctuations in Q int in tree canopies have motivated construction of dynamic tree leaf acclimation models ( Kull & Kruijt 1999 ). However, such models have not been tested with field data. We observed a general weak trend of decreasing foliar photosynthetic capacity in fully mature leaves ( Fig. 10 ). A similar summer decline in photosynthetic capacity has been noted previously ( Wilson et al . 2000, 2001 ). In our data, this was explained by decreases in foliar nitrogen contents rather than by day‐to‐day differences in leaf light environment. In general, the plasticity for alterations in foliar photosynthetic capacity after changes in Q int decreases with increasing leaf age ( Frak et al . 2001 ; Yamashita, Koike & Ishida 2002 ). Minor changes in photosynthetic capacity of mature leaves after large changes in leaf light environment have been observed, especially if the transfer to a new light environment occurred shortly after leaf maturation ( Naidu & DeLucia 1997 ; Frak et al . 2001 ). In our study, no such modifications were evident, possibly because the time‐constants for changes in photosynthetic capacity are larger than the duration of significant light fluctuations in the field. Furthermore, part of the changes in photosynthetic capacity and nitrogen in mature leaves after alterations of Q int ( Pearcy & Sims 1994 ; Naidu & DeLucia 1997 ; Frak et al . 2001 ) are apparently not directly associated with light‐dependent re‐allocation of leaf resources, but may result from shifts in timing of leaf senescence ( Hidema et al . 1992 ; Mae et al . 1993 ). This evidence along with our measurements suggest that foliar photosynthesis rates of mature leaves of temperate deciduous trees have a limited capacity for adjustment to changed light environments, inherently constraining the optimality of canopy photosynthesis.
+CONCLUSIONS
+
+The development of leaf photosynthetic machinery may continue for more than 30 d after bud‐burst ( Miyazawa & Terashima 2001 ), implying that ecosystem‐level estimates of photosynthetic productivity strongly depend on accurate understanding of time‐dependent changes in the distribution of photosynthetic capacity along the canopy ( Wilson et al . 2001 ). Early season leaf development and leaf adjustment to canopy light gradients is associated with a series of anatomical, chemical and physiological alterations. Our study demonstrates that the rates of developmental changes in M A and leaf photosynthetic capacity per unit intercepted quantum flux density are essentially constant for the entire canopy in northern temperate tree species. This is in agreement with the optimization of canopy photosynthesis via reallocation of resources to achieve a proportionality between the intercepted light and M A . However, leaves always have a finite M A , and nitrogen content. Due to the existence of the light‐independent component of M A (the minimum M A , sensu Meir et al . 2002 ), ‘full optimization’, implying a proportionality between photosynthetic capacity and integrated quantum flux density for all leaves in the canopy at any fixed point of time during the growing season, is principally not possible. Yet, knowing the initial M A , the apparent constancy of acclimation rate per intercepted light allows one to predict the canopy gradients of foliar photosynthetic capacity from early season leaf Q int values.
+
+Our study also demonstrates that foliar photosynthetic capacity is less variable in field conditions than thought previously (e.g. Kull & Kruijt 1999 ). Leaf dry mass per unit area, chlorophyll and photosynthesis of mature leaves are mainly determined by the light availability during leaf development, and these characteristics are essentially unaffected by natural fluctuations in above‐canopy Q int during the season. The constancy of the acclimation state of foliar photosynthetic apparatus in mature tree leaves significantly simplifies estimation of seasonal carbon balance of forest canopies.
+ACKNOWLEDGMENTS
+
+We thank Bart Kruijt, Steve Long and anonymous reviewers for their insightful comments on the manuscript, Wolfgang Bilger, Urmas Kalla, Andres Kink, Pille Mänd, Boris Niinemets, Eve Niinemets, Anu Sõber, Jaak Sõber and Kalle Sõber for helping us in the field and laboratory, and Anne Jõeveer for providing unpublished solar radiation data for Tõravere Actinometric Station. The study was partly supported by the Estonian Science Foundation (grants 4584 and 5466) and the Estonian Ministry of Education and Science (grant 0182468As03).
+REFERENCES
+
+    Amthor J.S. ( 1994 ) Scaling CO 2 ‐photosynthesis relationships from the leaf to the canopy . Photosynthesis Research 39 , 321 – 350 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Anderson M.C. ( 1964 ) Studies of the woodland light climate. I. The photographic computation of light conditions . Journal of Ecology 52 , 27 – 41 .
+    Crossref Web of Science® Google Scholar
+    Andersson B. & Aro E.‐M. ( 1997 ) Proteolytic activities and proteases of plant chloroplasts . Physiologia Plantarum 100 , 780 – 793 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Badeck F.‐W. ( 1995 ) Intra‐leaf gradient of assimilation rate and optimal allocation of canopy nitrogen: a model on the implications of the use of homogeneous assimilation functions . Australian Journal of Plant Physiology 22 , 425 – 439 .
+    Crossref CAS Web of Science® Google Scholar
+    Baldocchi D.D. , Wilson K.B. & Gu L. ( 2002 ) How the environment, canopy structure and canopy physiological functioning influence carbon, water and energy fluxes of a temperate broad‐leaved deciduous forest – an assessment with the biophysical model CANOAK . Tree Physiology 22 , 1065 – 1077 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Belsley D.A. , Kuh E. & Welsch R.E. ( 1980 ) Regression Diagnostics: Identifying Influential Data and Sources of Collinearity . John Wiley & Sons, New York, USA.
+    Wiley Online Library Google Scholar
+    DeJong T.M. & Doyle J.F. ( 1985 ) Seasonal relationships between leaf nitrogen content (photosynthetic capacity) and leaf canopy light exposure in peach ( Prunus persica ) . Plant, Cell and Environment 8 , 701 – 706 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Dengler N.G. ( 1980 ) Comparative histological basis of sun and shade leaf dimorphism in Helianthus annuus . Canadian Journal of Botany 58 , 717 – 730 .
+    Crossref Web of Science® Google Scholar
+    Dickmann D.I. & Isebrands J.G. ( 2001 ) Poplar clones: an introduction and caution . In Poplar Culture in North America (eds D.I. Dickmann , J.G. Isebrands , J.E. Eckenwalder & J. Richardson ), pp. 309 – 324 . NRC Research Press, Ottawa, Canada.
+    Google Scholar
+    Edwards G.E. & Baker N.R. ( 1993 ) Can CO 2 assimilation in maize leaves be predicted accurately from chlorophyll fluorescence analysis? Photosynthesis Research 37 , 89 – 102 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Ehleringer J. & Björkman O. ( 1977 ) Quantum yields for CO 2 uptake in C 3 and C 4 plants. Dependence on temperature, CO 2 and O 2 concentration . Plant Physiology 59 , 86 – 90 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Ehleringer J. & Pearcy R.W. ( 1983 ) Variation in quantum yield for CO 2 uptake among C 3 and C 4 plants . Plant Physiology 73 , 555 – 559 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Eschrich W. , Burchardt R. & Essiamah S. ( 1989 ) The induction of sun and shade leaves of the European beech ( Fagus sylvatica L.): anatomical studies . Trees: Structure and Function 3 , 1 – 10 .
+    Crossref Web of Science® Google Scholar
+    Evans J.R. ( 1988 ) Acclimation by the thylakoid membranes to growth irradiance and the partitioning of nitrogen between soluble and thylakoid proteins . In Ecology of Photosynthesis in Sun and Shade (eds J.R. Evans , S. Von Caemmerer & W.W. Adams ), pp. 93 – 106 . CSIRO, Melbourne, Australia.
+    Google Scholar
+    Evans J.R. ( 1993 ) Photosynthetic acclimation and nitrogen partitioning within a lucerne canopy. II. Stability through time and comparison with a theoretical optimum . Australian Journal of Plant Physiology 20 , 69 – 82 .
+    Crossref CAS Web of Science® Google Scholar
+    Evans J.R. & Poorter H. ( 2001 ) Photosynthetic acclimation of plants to growth irradiance: the relative importance of specific leaf area and nitrogen partitioning in maximizing carbon gain . Plant, Cell and Environment 24 , 755 – 767 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Evans J.R. & Seemann J.R. ( 1989 ) The allocation of protein nitrogen in the photosynthetic apparatus: costs, consequences, and control . In Photosynthesis. Proceedings of the C.S. French Symposium on Photosynthesis held in Stanford, California, July 17–23, 1988 (ed. W.R. Briggs ) Plant Biology, 8, pp. 183 – 205 . Alan R. Liss, Inc., New York, USA.
+    Google Scholar
+    Farquhar G.D. ( 1989 ) Models of integrated photosynthesis of cells and leaves . Philosophical Transactions of the Royal Society of London. Series B – Biological Sciences 323 , 357 – 367 .
+    Crossref CAS Web of Science® Google Scholar
+    Farquhar G.D. , Von Caemmerer S. & Berry J.A. ( 1980 ) A biochemical model of photosynthetic CO 2 assimilation in leaves of C 3 species . Planta 149 , 78 – 90 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Feller U. & Fischer A. ( 1994 ) Nitrogen metabolism in senescing leaves . CRC Critical Reviews in Plant Sciences 13 , 241 – 273 .
+    CAS Web of Science® Google Scholar
+    Field C. ( 1983 ) Allocating leaf nitrogen for the maximization of carbon gain: leaf age as a control on the allocation program . Oecologia 56 , 341 – 347 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Frak E. , Le Roux X. , Millard P. , Dreyer E. , Jaouen G. , Saint‐Joanis B. & Wendler R. ( 2001 ) Changes in total leaf nitrogen and partitioning of leaf nitrogen drive photosynthetic acclimation to light in fully developed walnut leaves . Plant, Cell and Environment 24 , 1279 – 1288 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Genty B. , Briantais J.‐M. & Baker N.R. ( 1989 ) The relationship between the quantum yield of photosynthetic electron transport and quenching of chlorophyll fluorescence . Biochimica et Biophysica Acta 990 , 87 – 92 .
+    Crossref CAS Web of Science® Google Scholar
+    Goulet F. & Bellefleur P. ( 1986 ) Leaf morphology plasticity in response to light environment in deciduous tree species and its implication on forest succession . Canadian Journal of Forest Research 16 , 1192 – 1195 .
+    Crossref Web of Science® Google Scholar
+    Gurevitch J. & Hedges L.V. ( 1993 ) Meta‐analysis: combining the results of independent experiments . In Design and Analysis of Ecological Experiments (eds S.M. Scheiner & J. Gurevitch ), pp. 378 – 398 . Chapman & Hall, New York, USA.
+    Google Scholar
+    Gutschick V.P. & Wiegel F.W. ( 1988 ) Optimizing the canopy photosynthetic rate by patterns of investment in specific leaf mass . The American Naturalist 132 , 67 – 86 .
+    Crossref Web of Science® Google Scholar
+    Hamerlynck E.P. & Knapp A.K. ( 1996 ) Early season cuticular conductance and gas exchange in two oaks near the western edge of their range . Trees: Structure and Function 10 , 403 – 409 .
+    Crossref Web of Science® Google Scholar
+    Hansen H.C. ( 1959 ) Der Einfluß des Lichtes auf die Bildung von Licht‐ und Schattenblättern der Buche, Fagus silvatica . Physiologia Plantarum 12 , 545 – 550 .
+    Wiley Online Library Web of Science® Google Scholar
+    Hidema J. , Makino A. , Kurita Y. , Mae T. & Ojima K. ( 1992 ) Changes in the levels of chlorophyll and light‐harvesting chlorophyll a / b protein of PS II in rice leaves aged under different irradiances from full expansion through senescence . Plant and Cell Physiology 33 , 1209 – 1214 .
+    CAS Web of Science® Google Scholar
+    Hikosaka K. ( 1996 ) Effects of leaf age, nitrogen nutrition and photon flux density on the organization of the photosynthetic apparatus in leaves of a vine ( Ipomoea tricolor Cav.) grown horizontally to avoid mutual shading of leaves . Planta 198 , 144 – 150 .
+    Crossref CAS Web of Science® Google Scholar
+    Hollinger D.Y. ( 1996 ) Optimality and nitrogen allocation in a tree canopy . Tree Physiology 16 , 627 – 634 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Hurlbert S.H. ( 1984 ) Pseudoreplication and the design of ecological field experiments . Ecological Monographs 54 , 187 – 211 .
+    Wiley Online Library Web of Science® Google Scholar
+    Jordan D.B. & Ogren W.L. ( 1984 ) The CO 2 /O 2 specificity of ribulose 1,5‐bisphosphate carboxylase/oxygenase. Dependence on ribulosebisphosphate concentration, pH and temperature . Planta 161 , 308 – 313 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Jurik T.W. ( 1986a ) Seasonal patterns of leaf photosynthetic capacity in successional northern hardwood tree species . American Journal of Botany 73 , 131 – 138 .
+    Crossref PubMed Web of Science® Google Scholar
+    Jurik T.W. ( 1986b ) Temporal and spatial patterns of specific leaf weight in successional northern hardwood tree species . American Journal of Botany 73 , 1083 – 1092 .
+    Crossref Web of Science® Google Scholar
+    Kimura K. , Ishida A. , Uemura A. , Matsumoto Y. & Terashima I. ( 1998 ) Effects of current‐year and previous‐year PPFDs on shoot gross morphology and leaf properties in Fagus japonica . Tree Physiology 18 , 459 – 466 .
+    Crossref PubMed Web of Science® Google Scholar
+    Koike T. ( 1990 ) Autumn coloring, photosynthetic performance and leaf development of deciduous broad‐leaved trees in relation to forest succession . Tree Physiology 7 , 21 – 32 .
+    Crossref PubMed Web of Science® Google Scholar
+    Körner C. & Larcher W. ( 1988 ) Plant life in cold climates . In Plants and Temperature (eds S.P. Long & F.I. Woodward ) Symposium of the Society of Experimental Biology, 42, pp. 25 – 57 . The Company of Biologists Limited, Cambridge, UK.
+    Web of Science® Google Scholar
+    Kosugi Y. , Shibata S. & Kobashi S. ( 2003 ) Parameterization of the CO 2 and H 2 O gas exchange of several temperate deciduous broad‐leaved trees at the leaf scale considering seasonal changes . Plant, Cell and Environment 26 , 285 – 301 .
+    Wiley Online Library Web of Science® Google Scholar
+    Ku S.‐B. & Edwards G.E. ( 1978 ) Oxygen inhibition of photosynthesis. III. Temperature dependence of quantum yield and its relation to O 2 /CO 2 solubility ratio . Planta 140 , 1 – 6 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Kull O. & Kruijt B. ( 1999 ) Acclimation of photosynthesis to light: a mechanistic approach . Functional Ecology 13 , 24 – 36 .
+    Wiley Online Library Web of Science® Google Scholar
+    Kull O. & Niinemets Ü. ( 1993 ) Variation in leaf morphometry and nitrogen concentration in Betula pendula Roth., Corylus avellana L. & Lonicera xylosteum L . Tree Physiology 12 , 311 – 318 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Kyparissis A. , Petropoulou Y. & Manetas Y. ( 1995 ) Summer survival of leaves in a soft‐leaved shrub ( Phlomis fruticosa L., Labiatae ) under Mediterranean field conditions: avoidance of photoinhibitory damage through decreased chlorophyll contents . Journal of Experimental Botany 46 , 1825 – 1831 .
+    Crossref CAS Web of Science® Google Scholar
+    Labrecque M. , Bellefleur P. , Simon J.‐P. & Popovich S. ( 1989 ) Influence of light conditions on the predetermination of foliar characteristics in Betula alleghaniensis Britton . Annales des Sciences Forestieres 46 , 497 – 501 .
+    Crossref Web of Science® Google Scholar
+    Le Roux X. , Walcroft A.S. , Daudet F.A. , Sinoquet H. , Chaves M.M. , Rodrigues A. & Osorio L. ( 2001 ) Photosynthetic light acclimation in peach leaves: importance of changes in mass: area ratio, nitrogen concentration, and leaf nitrogen partitioning . Tree Physiology 21 , 377 – 386 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Mae T. , Thomas H. , Gay A.P. , Makino A. & Hidema J. ( 1993 ) Leaf development in Lolium temulentum : photosynthesis and photosynthetic proteins in leaves senescing under different irradiances . Plant and Cell Physiology 34 , 391 – 399 .
+    CAS Web of Science® Google Scholar
+    Makino A. , Mae T. & Ohira K. ( 1984 ) Relation between nitrogen and ribulose‐1,5‐bisphosphate carboxylase in rice leaves from emergence through senescence . Plant and Cell Physiology 25 , 429 – 437 .
+    CAS Web of Science® Google Scholar
+    Meir P. , Kruijt B. , Broadmeadow M. , Barbosa E. , Kull O. , Carswell F. , Nobre A. & Jarvis P.G. ( 2002 ) Acclimation of photosynthetic capacity to irradiance in tree canopies in relation to leaf nitrogen concentration and leaf mass per unit area . Plant, Cell and Environment 25 , 343 – 357 .
+    Wiley Online Library Web of Science® Google Scholar
+    Miyazawa S.‐I. & Terashima I. ( 2001 ) Slow development of leaf photosynthesis in an evergreen broad‐leaved tree, Castanopsis sieboldii : relationships between leaf anatomical characteristics and photosynthetic rate . Plant, Cell and Environment 24 , 279 – 291 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Miyazawa S.‐I. , Satomi S. & Terashima I. ( 1998 ) Slow leaf development of evergreen broad‐leaved tree species in Japanese warm temperate forests . Annals of Botany 82 , 859 – 869 .
+    Crossref Web of Science® Google Scholar
+    Naidu S.L. & DeLucia E.H. ( 1997 ) Acclimation of shade‐developed leaves on saplings exposed to late‐season canopy gaps . Tree Physiology 17 , 367 – 376 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Niinemets Ü. & Tenhunen J.D. ( 1997 ) A model separating leaf structural and physiological effects on carbon gain along light gradients for the shade‐tolerant species Acer saccharum . Plant, Cell and Environment 20 , 845 – 866 .
+    Wiley Online Library Web of Science® Google Scholar
+    Niinemets Ü. , Bilger W. , Kull O. & Tenhunen J.D. ( 1998 ) Acclimation to high irradiance in temperate deciduous trees in the field: changes in xanthophyll cycle pool size and in photosynthetic capacity along a canopy light gradient . Plant, Cell and Environment 21 , 1205 – 1218 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Niinemets Ü. , Kollist H. , García‐Plazaola J.I. & Becerril J.M. ( 2003 ) Do the capacity and kinetics for modification of xanthophyll cycle pool size depend on growth irradiance in temperate trees? Plant, Cell and Environment 26 , 1787 – 1801 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Niinemets Ü. , Oja V. & Kull O. ( 1999 ) Shape of leaf photosynthetic electron transport versus temperature response curve is not constant along canopy light gradients in temperate deciduous trees . Plant, Cell and Environment 22 , 1497 – 1514 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Niinemets Ü. , Sôber A. , Kull O. , Hartung W. & Tenhunen J.D. ( 1999 ) Apparent controls on leaf conductance by soil water availability and via light‐acclimation of foliage structural and physiological properties in a mixed deciduous, temperate forest . International Journal of Plant Sciences 160 , 707 – 721 .
+    Crossref Web of Science® Google Scholar
+    Nobel P.S. , Zaragoza L.T. & Smith W.K. ( 1975 ) Relation between mesophyll surface area, photosynthetic rate, and illumination level during development for leaves of Plectranthus parviflorus Henckel . Plant Physiology 55 , 1067 – 1070 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Oleksyn J. , Žytkowiak R. , Reich P.B. , Tjoelker M.G. & Karolewski P. ( 2000 ) Ontogenetic patterns of leaf CO 2 exchange, morphology and chemistry in Betula pendula trees . Trees: Structure and Function 14 , 271 – 281 .
+    Crossref Web of Science® Google Scholar
+    Ono K. , Terashima I. & Watanabe A. ( 1996 ) Interaction between nitrogen deficit of a plant and nitrogen content in the old leaves . Plant and Cell Physiology 37 , 1083 – 1089 .
+    Crossref CAS Web of Science® Google Scholar
+    Pearcy R.W. & Sims D.A. ( 1994 ) Photosynthetic acclimation to changing light environments: scaling from the leaf to the whole plant . In Exploitation of Environmental Heterogeneity by Plants. Ecophysiological Processes Above‐ and Below‐ground (eds M.M. Caldwell & R.W. Pearcy ) Physiological Ecology. A Series of Monographs, Texts, and Treatises, pp. 145 – 174 . Academic Press, San Diego, CA, USA.
+    Crossref Google Scholar
+    Porra R.J. , Thompson W.A. & Kriedemann P.E. ( 1989 ) Determination of accurate extinction coefficients and simultaneous equations for assaying chlorophyll a and b extracted with four different solvents: verification of the concentration of chlorophyll standards by atomic absorption spectroscopy . Biochimica et Biophysica Acta 975 , 384 – 394 .
+    Crossref CAS Web of Science® Google Scholar
+    Reich P.B. , Walters M.B. & Ellsworth D.S. ( 1991 ) Leaf age and season influence the relationships between leaf nitrogen, leaf mass per area and photosynthesis in maple and oak trees . Plant, Cell and Environment 14 , 251 – 259 .
+    Wiley Online Library Web of Science® Google Scholar
+    Sands P.J. ( 1995 ) Modelling canopy production. I. Optimal distribution of photosynthetic resources . Australian Journal of Plant Physiology 22 , 593 – 601 .
+    Crossref CAS Web of Science® Google Scholar
+    Saur E. , Nambiar E.K.S. & Fife D.N. ( 2000 ) Foliar nutrient retranslocation in Eucalyptus globulus . Tree Physiology 20 , 1105 – 1112 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Schulte M. ( 1993 ) Saisonale und interannuelle Variabilität des CO 2 ‐Gaswechsels von Buchen ( Fagus sylvatica L.) – Bestimmung von C‐Bilanzen mit Hilfe eines empirischen Modells . Ph.D. Dissertation. Universität Göttingen, Göttingen, Germany.
+    Google Scholar
+    Sokal R.R. & Rohlf F.J. ( 1995 ) Biometry. The Principles and Practice of Statistics in Biology Research , 3rd edn . W.H. Freeman, New York, USA.
+    Google Scholar
+    Spreitzer R.J. ( 1999 ) Questions about the complexity of chloroplast ribulose‐1,5‐bisphosphate carboxylase/oxygenase . Photosynthesis Research 60 , 29 – 42 .
+    Crossref CAS Web of Science® Google Scholar
+    Le Tacon F. & Toutain F. ( 1973 ) Variations saisonnières et stationnelles de la teneur en éléments minéraux des feuilles de hŸtre ( Fagus sylvatica ) dans l’est de la France. (Variations of the mineral level in beech ( Fagus sylvatica ) leaves in the eastern part of France according to season and site) . Annales des Sciences Forestieres 30 , 1 – 29 .
+    Crossref CAS Google Scholar
+    Takeuchi A. , Yamaguchi T. , Hidema J. , Strid A. & Kumagai T. ( 2002 ) Changes in synthesis and degradation of Rubisco and LHCII with leaf age in rice ( Oryza sativa L.) growing under supplementary UV‐B radiation . Plant, Cell and Environment 25 , 695 – 706 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Tardieu F. , Granier C. & Muller B. ( 1999 ) Research review. Modelling leaf expansion in a fluctuating environment: are changes in specific leaf area a consequence of changes in expansion rate? The New Phytologist 143 , 33 – 44 .
+    Wiley Online Library Web of Science® Google Scholar
+    Terashima I. , Miyazawa S.‐I. & Hanba Y.T. ( 2001 ) Why are sun leaves thicker than shade leaves? – Consideration based on analyses of CO 2 diffusion in the leaf . Journal of Plant Research 114 , 93 – 105 .
+    Crossref CAS Web of Science® Google Scholar
+    Tichá I. ( 1985 ) Ontogeny of leaf morphology and anatomy . In Photosynthesis During Leaf Development (ed. Z. Šesták ) Tasks for Vegetation Science, 11, pp. 16 – 50 . Dr W. Junk Publishers, Dordrecht, The Netherlands.
+    Crossref Google Scholar
+    Uemura A. , Ishida A. , Nakano T. , Terashima I. , Tanabe H. & Matsumoto Y. ( 2000 ) Acclimation of leaf characteristics of Fagus species to previous‐year and current‐year solar irradiances . Tree Physiology 20 , 945 – 951 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Valjakka M. , Luomala E.‐M. , Kangasjärvi J. & Vapaavuori E. ( 1999 ) Expression of photosynthesis‐ and senescence‐related genes during leaf development and senescence in silver birch ( Betula pendula ) seedlings . Physiologia Plantarum 106 , 302 – 310 .
+    Wiley Online Library CAS Web of Science® Google Scholar
+    Vapaavuori E.M. & Vuorinen A.H. ( 1989 ) Seasonal variation in the photosynthetic capacity of a willow ( Salix cv. Aquatica gigantea ) canopy. I. Changes in the activity and amount of ribulose 1,5‐bisphosphate carboxylase‐oxygenase and the content of nitrogen and chlorophyll at different levels in the canopy . Tree Physiology 5 , 423 – 444 .
+    Crossref CAS PubMed Web of Science® Google Scholar
+    Walcroft A. , Le Roux X. , Diaz‐Espejo A. , Dones N. & Sinoquet H. ( 2002 ) Effects of crown development on leaf irradiance, leaf morphology and photosynthetic capacity in a peach tree . Tree Physiology 22 , 929 – 938 .
+    Crossref PubMed Web of Science® Google Scholar
+    Wilkinson L. ( 1990 ) Systat: the System for Statistics. Systat, Inc, Evanston, IL, USA.
+    Google Scholar
+    Wilson K.B. , Baldocchi D.D. & Hanson P.J. ( 2000 ) Spatial and seasonal variability of photosynthetic parameters and their relationship to leaf nitrogen in a deciduous forest . Tree Physiology 20 , 565 – 578 .
+    Crossref PubMed Web of Science® Google Scholar
+    Wilson K.B. , Baldocchi D.D. & Hanson P.J. ( 2001 ) Leaf age affects the seasonal pattern of photosynthetic capacity and net ecosystem exchange of carbon in a deciduous forest . Plant, Cell and Environment 24 , 571 – 583 .
+    Wiley Online Library Web of Science® Google Scholar
+    Woodrow I.E. & Berry J.A. ( 1988 ) Enzymatic regulation of photosynthetic CO 2 fixation in C 3 plants . Annual Review of Plant Physiology and Plant Molecular Biology 39 , 533 – 594 .
+    Crossref CAS Web of Science® Google Scholar
+    Yamashita N. , Koike N. & Ishida A. ( 2002 ) Leaf ontogenetic dependence of light acclimation in invasive and native subtropical trees of different successional status . Plant, Cell and Environment 25 , 1341 – 1356 .
+    Wiley Online Library Web of Science® Google Scholar
+
+APPENDIX
+Definition of abbreviations
+
+A ( µ mol m −2  s −1 ) 	net assimilation rate
+Chl / N (mol mol −1 ) 	chlorophyll to N ratio
+Chl A (mmol m −2 ) 	chlorophyll content per unit area
+Chl M ( µ mol g −1 ) 	chlorophyll content per unit dry mass
+C i (µmol mol −1 ) 	intercellular CO 2 mole fraction
+D B (d) 	days from bud‐burst
+F B (g g −1 ) 	fraction of leaf nitrogen in rate‐limiting proteins of photosynthetic electron transport
+F R (g g −1 ) 	fraction of leaf nitrogen in Rubisco
+I B 	average fraction of potentially available direct integrated daily quantum flux density
+I D 	average fraction of penetrating diffuse integrated daily quantum flux density
+J max;A ( µ mol m −2  s −1 ) 	capacity for photosynthetic electron transport per unit area
+J max;M ( µ mol g −1  s −1 ) 	capacity for photosynthetic electron transport per unit dry mass
+J mc (mol (mol cyt f) −1  s −1 ) 	capacity for photosynthetic electron transport per unit cytochrome f
+M A (g m −2 ) 	leaf dry mass per unit area
+N A (g m −2 ) 	leaf nitrogen content per unit area
+N M (g g −1 ) 	foliar nitrogen content per unit dry mass
+Q ( µ mol m −2  s −1 ) 	photosynthetically active quantum flux density (400–700 nm)
+Q D ( D ) (mol m −2  d −1 ) 	daily integrated photosynthetic quantum flux density for day D
+Q int (mol m −2  d −1 ) 	average integrated daily photosynthetic quantum flux density
+R G (MJ m −2 ) 	global solar radiation
+Rubisco 	Ribulose 1,5‐bisphosphate carboxylase/oxygenase
+V cmax;A ( µ mol m −2  s −1 ) 	maximum carboxylase activity of Rubisco per unit area
+V cmax;M ( µ mol g −1  s −1 ) 	maximum carboxylase activity of Rubisco per unit dry mass
+V cr ( µ mol g −1  s −1 ) 	specific activity of Rubisco
+α (mol mol −1 ) 	initial quantum yield of photosynthetic electron transport for an incident light
+χ J ( µ mol mol −1  s −1 ) 	initial rate ( D B range of 0–40) of increase of J max;A during leaf development per unit Q int
+χ M (g mol −1 ) 	initial rate of increase of M A ( Φ M ) per unit Q int
+θ 	leaf absorptance for photosynthetically active quantum flux density (400–700 nm)
+Φ PSII (mol mol −1 ) 	effective quantum yield of photosystem II
+J M (g m −2  d −1 ) 	slope of M A versus D B ( D B range of 0–40)
+
+Citing Literature
+Number of times cited according to CrossRef: 108
+
+    Diana Eckert, Anna Monrad Jensen, Lianhong Gu, The maximum carboxylation rate of Rubisco affects CO2 refixation in temperate broadleaved forest trees, Plant Physiology and Biochemistry, 10.1016/j.plaphy.2020.06.052, (2020).
+    Crossref
+    Guangman Song, Quan Wang, Jia Jin, Leaf Photosynthetic Capacity of Sunlit and Shaded Mature Leaves in a Deciduous Forest, Forests, 10.3390/f11030318, 11 , 3, (318), (2020).
+    Crossref
+    Daniele Ribeiro Contin, Eduardo Habermann, Vani Maria Alves, Carlos Alberto Martinez, Effect of different irradiance levels on anatomy and growth of two Malvaceae species during two seasons, Brazilian Journal of Botany, 10.1007/s40415-020-00609-4, (2020).
+    Crossref
+    Gordon Bonan, , Climate Change and Terrestrial Ecosystem Modeling, 10.1017/9781107339217, (2019).
+    Crossref
+    M Yasin, E Rosenqvist, S M Jensen, C Andreasen, The importance of reduced light intensity on the growth and development of six weed species, Weed Research, 10.1111/wre.12352, 59 , 2, (130-144), (2019).
+    Wiley Online Library
+    C. Bacour, F. Maignan, N. MacBean, A. Porcar‐Castell, J. Flexas, C. Frankenberg, P. Peylin, F. Chevallier, N. Vuichard, V. Bastrikov, Improving Estimates of Gross Primary Productivity by Assimilating Solar‐Induced Fluorescence Satellite Retrievals in a Terrestrial Biosphere Model Using a Process‐Based SIF Model, Journal of Geophysical Research: Biogeosciences, 10.1029/2019JG005040, 124 , 11, (3281-3306), (2019).
+    Wiley Online Library
+    Mitsutoshi Kitao, Hiroyuki Tobita, Satoshi Kitaoka, Hisanori Harayama, Kenichi Yazaki, Masabumi Komatsu, Evgenios Agathokleous, Takayoshi Koike, Light Energy Partitioning under Various Environmental Stresses Combined with Elevated CO2 in Three Deciduous Broadleaf Tree Species in Japan, Climate, 10.3390/cli7060079, 7 , 6, (79), (2019).
+    Crossref
+    Ying Guo, Jing Guo, Xin Shen, Guibin Wang, Tongli Wang, Predicting the Bioclimatic Habitat Suitability of Ginkgo biloba L. in China with Field-Test Validations, Forests, 10.3390/f10080705, 10 , 8, (705), (2019).
+    Crossref
+    Qiang Liu, Longfei Xie, Fengri Li, Dynamic Simulation of the Crown Net Photosynthetic Rate for Young Larix olgensis Henry Trees, Forests, 10.3390/f10040321, 10 , 4, (321), (2019).
+    Crossref
+    Qiang Liu, Lihu Dong, Fengri Li, Modification of a photosynthetic light-response (PLR) model for modeling the vertical gradient in the response of crown PLR curves, Canadian Journal of Forest Research, 10.1139/cjfr-2018-0438, (2019).
+    Crossref
+    Mirko Umberto Granata, Francesco Bracco, Rosangela Catoni, Phenotypic plasticity of two invasive alien plant species inside a deciduous forest in a strict nature reserve in Italy, Journal of Sustainable Forestry, 10.1080/10549811.2019.1670678, (1-19), (2019).
+    Crossref
+    M H Nunes, S Both, B Bongalov, C Brelsford, S Khoury, D F R P Burslem, C Philipson, N Majalap, T Riutta, D A Coomes, M E J Cutler, Changes in leaf functional traits of rainforest canopy trees associated with an El Niño event in Borneo, Environmental Research Letters, 10.1088/1748-9326/ab2eae, 14 , 8, (085005), (2019).
+    Crossref
+    Mitsutoshi Kitao, Satoshi Kitaoka, Hisanori Harayama, Evgenios Agathokleous, Qingmin Han, Akira Uemura, Naoyuki Furuya, Satoshi Ishibashi, Sustained growth suppression in forest-floor seedlings of Sakhalin fir associated with previous-year springtime photoinhibition after a winter cutting of canopy trees, European Journal of Forest Research, 10.1007/s10342-018-1159-3, (2019).
+    Crossref
+    Mitsutoshi Kitao, Satoshi Kitaoka, Hisanori Harayama, Hiroyuki Tobita, Evgenios Agathokleous, Hajime Utsugi, Canopy nitrogen distribution is optimized to prevent photoinhibition throughout the canopy during sun flecks, Scientific Reports, 10.1038/s41598-017-18766-0, 8 , 1, (2018).
+    Crossref
+    Shahar Pincovici, Amnon Cochavi, Arnon Karnieli, Jhonathan Ephrath, Shimon Rachmilevitch, Source-sink relations of sunflower plants as affected by a parasite modifies carbon allocations and leaf traits, Plant Science, 10.1016/j.plantsci.2018.03.022, 271 , (100-107), (2018).
+    Crossref
+    Q. Liu, L.H. Dong, F.R. Li, Modeling net CO 2 assimilation ( A N ) within the crown of young planted Larix olgensis trees , Canadian Journal of Forest Research, 10.1139/cjfr-2018-0151, 48 , 9, (1085-1098), (2018).
+    Crossref
+    Jiayan Ye, Yifan Jiang, Linda-Liisa Veromann-Jürgenson, Ülo Niinemets, Petiole gall aphid (Pemphigus spyrothecae) infestation of Populus × petrovskiana leaves alters foliage photosynthetic characteristics and leads to enhanced emissions of both constitutive and stress-induced volatiles, Trees, 10.1007/s00468-018-1756-2, (2018).
+    Crossref
+    Yifan Jiang, Linda‐Liisa Veromann‐Jürgenson, Jiayan Ye, Ülo Niinemets, Oak gall wasp infections of Quercus robur leaves lead to profound modifications in foliage photosynthetic and volatile emission characteristics, Plant, Cell & Environment, 10.1111/pce.13050, 41 , 1, (160-175), (2017).
+    Wiley Online Library
+    Muhammad Yasin, Eva Rosenqvist, Christian Andreasen, The Effect of Reduced Light Intensity on Grass Weeds, Weed Science, 10.1017/wsc.2017.17, 65 , 5, (603-613), (2017).
+    Crossref
+    Trevor F. Keenan, Ülo Niinemets, Global leaf trait estimates biased due to plasticity in the shade, Nature Plants, 10.1038/nplants.2016.201, 3 , 1, (2016).
+    Crossref
+    G. Puglielli, L. Varone, L. Gratani, R. Catoni, Specific leaf area variations drive acclimation of Cistus salvifolius in different light environments, Photosynthetica, 10.1007/s11099-016-0235-5, 55 , 1, (31-40), (2016).
+    Crossref
+    Troy S. Magney, Jan U.H. Eitel, Kevin L. Griffin, Natalie T. Boelman, Heather E. Greaves, Case M. Prager, Barry A. Logan, Guang Zheng, Lixia Ma, Elizabeth A. Fortin, Ruth Y. Oliver, Lee A. Vierling, LiDAR canopy radiation model reveals patterns of photosynthetic partitioning in an Arctic shrub, Agricultural and Forest Meteorology, 10.1016/j.agrformet.2016.02.007, 221 , (78-93), (2016).
+    Crossref
+    Ülo Niinemets, Leaf age dependent changes in within-canopy variation in leaf functional traits: a meta-analysis, Journal of Plant Research, 10.1007/s10265-016-0815-2, 129 , 3, (313-338), (2016).
+    Crossref
+    Ülo Niinemets, Within-Canopy Variations in Functional Leaf Traits: Structural, Chemical and Ecological Controls and Diversity of Responses, Canopy Photosynthesis: From Basics to Applications, 10.1007/978-94-017-7291-4_4, (101-141), (2016).
+    Crossref
+    Thijs L. Pons, Regulation of Leaf Traits in Canopy Gradients, Canopy Photosynthesis: From Basics to Applications, 10.1007/978-94-017-7291-4_5, (143-168), (2016).
+    Crossref
+    Fátima Míguez, Beatriz Fernández-Marín, Antonio Hernández, José Maria Becerril, José Ignacio García-Plazaola, Does age matter under winter photoinhibitory conditions? A case study in stems and leaves of European mistletoe (Viscum album), Functional Plant Biology, 10.1071/FP14083, 42 , 2, (175), (2015).
+    Crossref
+    Filippo Bussotti, Martina Pollastrini, Evaluation of leaf features in forest trees: Methods, techniques, obtainable information and limits, Ecological Indicators, 10.1016/j.ecolind.2014.12.010, 52 , (219-230), (2015).
+    Crossref
+    Dongliang Xiong, Jia Chen, Tingting Yu, Wanlin Gao, Xiaoxia Ling, Yong Li, Shaobing Peng, Jianliang Huang, SPAD-based leaf nitrogen estimation is impacted by environmental factors and crop leaf characteristics, Scientific Reports, 10.1038/srep13389, 5 , 1, (2015).
+    Crossref
+    Anna M. Jensen, Jeffrey M. Warren, Paul J. Hanson, Joanne Childs, Stan D. Wullschleger, Needle age and season influence photosynthetic temperature response and total annual carbon uptake in mature Picea mariana trees , Annals of Botany, 10.1093/aob/mcv115, 116 , 5, (821-832), (2015).
+    Crossref
+    Daisuke Sugiura, Koichiro Sawakami, Mikiko Kojima, Hitoshi Sakakibara, Ichiro Terashima, Masaki Tateno, Roles of gibberellins and cytokinins in regulation of morphological and physiological traits in Polygonum cuspidatum responding to light and nitrogen availabilities, Functional Plant Biology, 10.1071/FP14212, 42 , 4, (397), (2015).
+    Crossref
+    T. Dong, J. Li, Y. Zhang, H. Korpelainen, U. Niinemets, C. Li, Partial shading of lateral branches affects growth, and foliage nitrogen- and water-use efficiencies in the conifer Cunninghamia lanceolata growing in a warm monsoon climate, Tree Physiology, 10.1093/treephys/tpv036, 35 , 6, (632-643), (2015).
+    Crossref
+    Ülo Niinemets, Zhihong Sun, Eero Talts, Controls of the quantum yield and saturation light of isoprene emission in different‐aged aspen leaves, Plant, Cell & Environment, 10.1111/pce.12582, 38 , 12, (2707-2720), (2015).
+    Wiley Online Library
+    Eliane Gomes Alves, Peter Harley, José Francisco de C. Gonçalves, Carlos Eduardo da Silva Moura, Kolby Jardine, Effects of light and temperature on isoprene emission at different leaf developmental stages of eschweilera coriacea in central Amazon, Acta Amazonica, 10.1590/S0044-59672014000100002, 44 , 1, (9-18), (2014).
+    Crossref
+    Ülo Niinemets, Trevor Keenan, Photosynthetic responses to stress in Mediterranean evergreens: Mechanisms and models, Environmental and Experimental Botany, 10.1016/j.envexpbot.2013.11.008, 103 , (24-41), (2014).
+    Crossref
+    R. Pieruschka, H. Albrecht, O. Muller, J. A. Berry, D. Klimov, Z. S. Kolber, Z. Malenovsky, U. Rascher, Daily and seasonal dynamics of remotely sensed photosynthetic efficiency in tree canopies, Tree Physiology, 10.1093/treephys/tpu035, 34 , 7, (674-685), (2014).
+    Crossref
+    Mitsutoshi Kitao, Masabumi Komatsu, Yasutomo Hoshika, Kenichi Yazaki, Kenichi Yoshimura, Saori Fujii, Takafumi Miyama, Yuji Kominami, Seasonal ozone uptake by a warm-temperate mixed deciduous and evergreen broadleaf forest in western Japan estimated by the Penman–Monteith approach combined with a photosynthesis-dependent stomatal model, Environmental Pollution, 10.1016/j.envpol.2013.09.023, 184 , (457-463), (2014).
+    Crossref
+    Ülo Niinemets, Mari Tobias, Scaling Light Harvesting from Moss “Leaves” to Canopies, Photosynthesis in Bryophytes and Early Land Plants, 10.1007/978-94-007-6988-5_9, (151-171), (2014).
+    Crossref
+    N. Legner, S. Fleck, C. Leuschner, Within-canopy variation in photosynthetic capacity, SLA and foliar N in temperate broad-leaved trees with contrasting shade tolerance, Trees, 10.1007/s00468-013-0947-0, 28 , 1, (263-280), (2013).
+    Crossref
+    M. Pollastrini, V. Holland, W. Brüggemann, J. Koricheva, I. Jussila, M. Scherer‐Lorenzen, S. Berger, F. Bussotti, Interactions and competition processes among tree species in young experimental mixed forests, assessed with chlorophyll fluorescence and leaf morphology, Plant Biology, 10.1111/plb.12068, 16 , 2, (323-331), (2013).
+    Wiley Online Library
+    Jaume Flexas, Christine Scoffoni, Jorge Gago, Lawren Sack, Leaf mesophyll conductance and leaf hydraulic conductance: an introduction to their measurement and coordination, Journal of Experimental Botany, 10.1093/jxb/ert319, 64 , 13, (3965-3981), (2013).
+    Crossref
+    Lawren Sack, Christine Scoffoni, Grace P. John, Hendrik Poorter, Chase M. Mason, Rodrigo Mendez-Alonzo, Lisa A. Donovan, How do leaf veins influence the worldwide leaf economic spectrum? Review and synthesis, Journal of Experimental Botany, 10.1093/jxb/ert316, 64 , 13, (4053-4080), (2013).
+    Crossref
+    Clara Tinoco Ojanguren, Michael L. Goulden, Photosynthetic acclimation within individual Typha latifolia leaf segments, Aquatic Botany, 10.1016/j.aquabot.2013.08.007, 111 , (54-61), (2013).
+    Crossref
+    F. JAVIER CANO, DAVID SÁNCHEZ‐GÓMEZ, JESÚS RODRÍGUEZ‐CALCERRADA, CHARLES R. WARREN, LUIS GIL, ISMAEL ARANDA, Effects of drought on mesophyll conductance and photosynthetic limitations at different tree canopy layers, Plant, Cell & Environment, 10.1111/pce.12103, 36 , 11, (1961-1980), (2013).
+    Wiley Online Library
+    A.B. Iandolino, R.W. Pearcy, L.E. Williams, Simulating three‐dimensional grapevine canopies and modelling their light interception characteristics, Australian Journal of Grape and Wine Research, 10.1111/ajgw.12036, 19 , 3, (388-400), (2013).
+    Wiley Online Library
+    Kenichi Yoshimura, Influences of phenological differences on leaf-level carbon budget between the upper and lower crown of Lyonia ovalifolia , Botany, 10.1139/cjb-2012-0129, 91 , 1, (25-33), (2013).
+    Crossref
+    D. Sugiura, M. Tateno, Concentrative nitrogen allocation to sun-lit branches and the effects on whole-plant growth under heterogeneous light environments, Oecologia, 10.1007/s00442-012-2558-7, 172 , 4, (949-960), (2012).
+    Crossref
+    Ajaz Lone, Altamash Bashir, Salil K. Tewari, Quantitative Estimation of Genetic Variability in Morphological Characteristics of Eastern Cottonwood ( Populus deltoides Bartr.) Clones , Journal of Sustainable Forestry, 10.1080/10549811.2011.599100, 31 , 7, (607-619), (2012).
+    Crossref
+    Juliette Louis, Hélène Genet, Sylvie Meyer, Kamel Soudani, Pierre Montpied, Arnaud Legout, Erwin Dreyer, Zoran G. Cerovic, Eric Dufrêne, Tree age-related effects on sun acclimated leaves in a chronosequence of beech (Fagus sylvatica) stands, Functional Plant Biology, 10.1071/FP11248, 39 , 4, (323), (2012).
+    Crossref
+    R. Desotgiu, M. Pollastrini, C. Cascio, G. Gerosa, R. Marzuoli, F. Bussotti, Chlorophyll a fluorescence analysis along a vertical gradient of the crown in a poplar (Oxford clone) subjected to ozone and water stress, Tree Physiology, 10.1093/treephys/tps062, 32 , 8, (976-986), (2012).
+    Crossref
+    Katrine Heinsvig Kjaer, Carl-Otto Ottosen, Bo Nørregaard Jørgensen, Timing growth and development of Campanula by daily light integral and supplemental light level in a cost-efficient light control system, Scientia Horticulturae, 10.1016/j.scienta.2012.06.026, 143 , (189-196), (2012).
+    Crossref
+    Mitsutoshi Kitao, J. Barbro Winkler, Markus Löw, Angela J. Nunn, Daniel Kuptz, Karl-Heinz Häberle, Ilja M. Reiter, Rainer Matyssek, How closely does stem growth of adult beech (Fagus sylvatica) relate to net carbon gain under experimentally enhanced ozone stress?, Environmental Pollution, 10.1016/j.envpol.2012.03.014, 166 , (108-115), (2012).
+    Crossref
+    Mitsutoshi Kitao, Satoshi Kitaoka, Masabumi Komatsu, Hajime Utsugi, Hiroyuki Tobita, Takayoshi Koike, Yutaka Maruyama, Leaves of Japanese oak (Quercus mongolica var. crispula) mitigate photoinhibition by adjusting electron transport capacities and thermal energy dissipation along the intra‐canopy light gradient, Physiologia Plantarum, 10.1111/j.1399-3054.2012.01609.x, 146 , 2, (192-204), (2012).
+    Wiley Online Library
+    JORGE A. PRIETO, GAËTAN LOUARN, JORGE PEREZ PEÑA, HERNÁN OJEDA, THIERRY SIMONNEAU, ERIC LEBON, A leaf gas exchange model that accounts for intra‐canopy variability by considering leaf nitrogen content and local acclimation to radiation in grapevine (Vitis vinifera L.), Plant, Cell & Environment, 10.1111/j.1365-3040.2012.02491.x, 35 , 7, (1313-1328), (2012).
+    Wiley Online Library
+    Zhihong Sun, Lucian Copolovici, Ülo Niinemets, Can the capacity for isoprene emission acclimate to environmental modifications during autumn senescence in temperate deciduous tree species Populus tremula?, Journal of Plant Research, 10.1007/s10265-011-0429-7, 125 , 2, (263-274), (2011).
+    Crossref
+    L. Hallik, Ü. Niinemets, O. Kull, Photosynthetic acclimation to light in woody and herbaceous species: a comparison of leaf structure, pigment content and chlorophyll fluorescence characteristics measured in the field, Plant Biology, 10.1111/j.1438-8677.2011.00472.x, 14 , 1, (88-99), (2011).
+    Wiley Online Library
+    TIINA TOSENS, ÜLO NIINEMETS, VIVIAN VISLAP, HILLAR EICHELMANN, PILAR CASTRO DÍEZ, Developmental changes in mesophyll diffusion conductance and photosynthetic capacity under different light and water availabilities in Populus tremula: how structure constrains function, Plant, Cell & Environment, 10.1111/j.1365-3040.2011.02457.x, 35 , 5, (839-856), (2011).
+    Wiley Online Library
+    Steffen M. Noe, Veljo Kimmel, Katja Hüve, Lucian Copolovici, Miguel Portillo-Estrada, Ülle Püttsepp, Kalev Jõgiste, Ülo Niinemets, Lukas Hörtnagl, Georg Wohlfahrt, Ecosystem-scale biosphere–atmosphere interactions of a hemiboreal mixed forest stand at Järvselja, Estonia, Forest Ecology and Management, 10.1016/j.foreco.2010.09.013, 262 , 2, (71-81), (2011).
+    Crossref
+    Christiane Roscher, Werner L. Kutsch, Olaf Kolle, Waldemar Ziegler, Ernst-Detlef Schulze, Adjustment to the light environment in small-statured forbs as a strategy for complementary resource use in mixtures of grassland species, Annals of Botany, 10.1093/aob/mcr044, 107 , 6, (965-979), (2011).
+    Crossref
+    Gianni Fila, Ivan Sartorato, Using Leaf Mass per Area as predictor of light interception and absorption in crop/weed monoculture or mixed stands, Agricultural and Forest Meteorology, 10.1016/j.agrformet.2011.01.004, 151 , 5, (575-584), (2011).
+    Crossref
+    Ü. Niinemets, U. Kuhn, P. C. Harley, M. Staudt, A. Arneth, A. Cescatti, P. Ciccioli, L. Copolovici, C. Geron, A. Guenther, J. Kesselmeier, M. T. Lerdau, R. K. Monson, J. Peñuelas, Estimation of isoprenoid emission factors from enclosure studies: measurements, data processing, quality and standardized measurement protocols, Biogeosciences Discussions, 10.5194/bgd-8-4633-2011, 8 , 3, (4633-4725), (2011).
+    Crossref
+    Ü. Niinemets, U. Kuhn, P. C. Harley, M. Staudt, A. Arneth, A. Cescatti, P. Ciccioli, L. Copolovici, C. Geron, A. Guenther, J. Kesselmeier, M. T. Lerdau, R. K. Monson, J. Peñuelas, Estimations of isoprenoid emission capacity from enclosure studies: measurements, data processing, quality and standardized measurement protocols, Biogeosciences, 10.5194/bg-8-2209-2011, 8 , 8, (2209-2246), (2011).
+    Crossref
+    Lalith D. B. Suriyagoda, Hans Lambers, Megan H. Ryan, Michael Renton, Effects of leaf development and phosphorus supply on the photosynthetic characteristics of perennial legume species with pasture potential: modelling photosynthesis with leaf development, Functional Plant Biology, 10.1071/FP09284, 37 , 8, (713), (2010).
+    Crossref
+    F. Maunoury-Danger, C. Fresneau, T. Eglin, D. Berveiller, C. Francois, C. Lelarge-Trouverie, C. Damesin, Impact of carbohydrate supply on stem growth, wood and respired CO2  13C: assessment by experimental girdling, Tree Physiology, 10.1093/treephys/tpq039, 30 , 7, (818-830), (2010).
+    Crossref
+    Ali Ghasemzadeh, Hawa Z. E. Jaafar, Asmah Rahmat, Synthesis of Phenolics and Flavonoids in Ginger (Zingiber officinale Roscoe) and Their Effects on Photosynthesis Rate, International Journal of Molecular Sciences, 10.3390/ijms11114539, 11 , 11, (4539-4555), (2010).
+    Crossref
+    Ü. Niinemets, A. Arneth, U. Kuhn, R. K. Monson, J. Peñuelas, M. Staudt, The emission factor of volatile isoprenoids: stress, acclimation, and developmental responses, Biogeosciences, 10.5194/bg-7-2203-2010, 7 , 7, (2203-2223), (2010).
+    Crossref
+    Ü. Niinemets, A. Arneth, U. Kuhn, R. K. Monson, J. Peñuelas, M. Staudt, The emission factor of volatile isoprenoids: stress, acclimation, and developmental responses, Biogeosciences Discussions, 10.5194/bgd-7-1529-2010, 7 , 2, (1529-1574), (2010).
+    Crossref
+    Hiroyuki Muraoka, Nobuko Saigusa, Kenlo N. Nasahara, Hibiki Noda, Jun Yoshino, Taku M. Saitoh, Shin Nagai, Shohei Murayama, Hiroshi Koizumi, Effects of seasonal and interannual variations in leaf photosynthesis and canopy leaf area index on gross primary production of a cool-temperate deciduous broadleaf forest in Takayama, Japan, Journal of Plant Research, 10.1007/s10265-009-0270-4, 123 , 4, (563-576), (2009).
+    Crossref
+    Hiroyuki Tobita, Hajime Utsugi, Mitsutoshi Kitao, Masazumi Kayama, Akira Uemura, Satoshi Kitaoka, Yutaka Maruyama, Variation in photoinhibition among Sasa senanensis, Quercus mongolica, and Acer mono in the understory of a deciduous broad-leaved forest exposed to canopy gaps caused by typhoons, Trees, 10.1007/s00468-009-0400-6, 24 , 2, (307-319), (2009).
+    Crossref
+    Ülo Niinemets, Niels P. R. Anten, Packing the Photosynthetic Machinery: From Leaf to Canopy, Photosynthesis in silico, 10.1007/978-1-4020-9237-4_16, (363-399), (2009).
+    Crossref
+    Juliette Louis, Sylvie Meyer, Florence Maunoury-Danger, Chantal Fresneau, Emmanuelle Meudec, Zoran G. Cerovic, Seasonal changes in optically assessed epidermal phenolic compounds and chlorophyll contents in leaves of sessile oak (Quercus petraea): towards signatures of phenological stage, Functional Plant Biology, 10.1071/FP09010, 36 , 8, (732), (2009).
+    Crossref
+    Lianhong Gu, Wilfred M. Post, Dennis D. Baldocchi, T. Andrew Black, Andrew E. Suyker, Shashi B. Verma, Timo Vesala, Steve C. Wofsy, Characterizing the Seasonal Dynamics of Plant Community Photosynthesis Across a Range of Vegetation Types, Phenology of Ecosystem Processes, 10.1007/978-1-4419-0026-5, (35-58), (2009).
+    Crossref
+    Lea Hallik, Olevi Kull, Ülo Niinemets, Anne Aan, Contrasting correlation networks between leaf structure, nitrogen and chlorophyll in herbaceous and woody canopies, Basic and Applied Ecology, 10.1016/j.baae.2008.08.001, 10 , 4, (309-318), (2009).
+    Crossref
+    M. A. Shahba, W. L. Bauerle, Growth temperature modulates the spatial variability of leaf morphology and chemical elements within crowns of climatically divergent Acer rubrum genotypes, Tree Physiology, 10.1093/treephys/tpp024, 29 , 7, (869-877), (2009).
+    Crossref
+    A. Perez-Martin, J. Flexas, M. Ribas-Carbó, J. Bota, M. Tomás, J. M. Infante, A. Diaz-Espejo, Interactive effects of soil water deficit and air vapour pressure deficit on mesophyll conductance to CO2 in Vitis vinifera and Olea europaea, Journal of Experimental Botany, 10.1093/jxb/erp145, 60 , 8, (2391-2405), (2009).
+    Crossref
+    S. Meyer, J. Louis, N. Moise, T. Piolot, X. Baudin, Z. G. Cerovic, Developmental changes in spatial distribution of in vivo fluorescence and epidermal UV absorbance over Quercus petraea leaves, Annals of Botany, 10.1093/aob/mcp144, 104 , 4, (621-633), (2009).
+    Crossref
+    María M. González-Real, He-Qin Liu, Alain Baille, Influence of fruit sink strength on the distribution of leaf photosynthetic traits in fruit-bearing shoots of pepper plants (Capsicum annuum L.), Environmental and Experimental Botany, 10.1016/j.envexpbot.2009.01.005, 66 , 2, (195-202), (2009).
+    Crossref
+    Ülo Niinemets, Antonio Díaz-Espejo, Jaume Flexas, Jeroni Galmés, Charles R. Warren, Role of mesophyll diffusion conductance in constraining potential photosynthetic productivity in the field, Journal of Experimental Botany, 10.1093/jxb/erp036, 60 , 8, (2249-2270), (2009).
+    Crossref
+    Mitsutoshi Kitao, Markus Löw, Christian Heerdt, Thorsten E.E. Grams, Karl-Heinz Häberle, Rainer Matyssek, Effects of chronic elevated ozone exposure on gas exchange responses of adult beech trees (Fagus sylvatica) as related to the within-canopy light gradient, Environmental Pollution, 10.1016/j.envpol.2008.09.016, 157 , 2, (537-544), (2009).
+    Crossref
+    Elizabeth L. Stephens, Sonali Saha, Eric S. Menges, Intracanopy variation in leaf morphology and physiology in dominant shrubs of Florida’s xeric uplands, Botany, 10.1139/B08-117, 87 , 1, (112-125), (2009).
+    Crossref
+    Hendrik Poorter, Ülo Niinemets, Lourens Poorter, Ian J. Wright, Rafael Villar, Causes and consequences of variation in leaf mass per area (LMA): a meta‐analysis, New Phytologist, 10.1111/j.1469-8137.2009.02830.x, 182 , 3, (565-588), (2009).
+    Wiley Online Library
+    P. A. Nortes, M. M. Gonzalez-Real, G. Egea, A. Baille, Seasonal effects of deficit irrigation on leaf photosynthetic traits of fruiting and non-fruiting shoots in almond trees, Tree Physiology, 10.1093/treephys/tpn032, 29 , 3, (375-388), (2009).
+    Crossref
+    Hiroyuki Muraoka, Hiroshi Koizumi, Satellite Ecology (SATECO)—linking ecology, remote sensing and micrometeorology, from plot to regional scale, for the study of ecosystem structure and function, Journal of Plant Research, 10.1007/s10265-008-0188-2, 122 , 1, (3-20), (2008).
+    Crossref
+    Eve Eensalu, Priit Kupper, Arne Sellin, Märt Rahi, Anu Sõber, Olevi Kull, Do stomata operate at the same relative opening range along a canopy profile of Betula pendula?, Functional Plant Biology, 10.1071/FP07258, 35 , 2, (103), (2008).
+    Crossref
+    Gaëlle Damour, Marc Vandame, Laurent Urban, Long-term drought modifies the fundamental relationships between light exposure, leaf nitrogen content and photosynthetic capacity in leaves of the lychee tree (Litchi chinensis), Journal of Plant Physiology, 10.1016/j.jplph.2007.10.014, 165 , 13, (1370-1378), (2008).
+    Crossref
+    Lea Hallik, Olevi Kull, Light Acclimation of Leaf Chlorophyll Content, Photosynthesis. Energy from the Sun, 10.1007/978-1-4020-6709-9, (1295-1297), (2008).
+    Crossref
+    Achim Walter, Plant Growth Dynamics: Analysis of Basic Spatial and Temporal Growth Patterns on the Background of Photosynthetic Energy Gain and Interactions with the Environment, Plant Growth Signaling, 10.1007/978-3-540-77590-4, (63-88), (2008).
+    Crossref
+    Bibliography, Physiology of Woody Plants, 10.1016/B978-012088765-1.50015-4, (379-440), (2008).
+    Crossref
+    H. Davi, C. Barbaroux, E. Dufrêne, C. François, P. Montpied, N. Bréda, F. Badeck, Modelling leaf mass per area in forest canopy as affected by prevailing radiation conditions, Ecological Modelling, 10.1016/j.ecolmodel.2007.09.012, 211 , 3-4, (339-349), (2008).
+    Crossref
+    Hans Pretzsch, Tobias Mette, Linking stand-level self-thinning allometry to the tree-level leaf biomass allometry, Trees, 10.1007/s00468-008-0231-x, 22 , 5, (611-622), (2008).
+    Crossref
+    JÖRG KRUSE, MARK A. ADAMS, Three parameters comprehensively describe the temperature response of respiratory oxygen reduction, Plant, Cell & Environment, 10.1111/j.1365-3040.2008.01809.x, 31 , 7, (954-967), (2008).
+    Wiley Online Library
+    R. Grote, Ü. Niinemets, Modeling volatile isoprenoid emissions – a story with split ends, Plant Biology, 10.1055/s-2007-964975, 10 , 1, (8-28), (2008).
+    Wiley Online Library
+    H. Eichelmann, V. Oja, B. Rasulov, E. Padu, I. Bichele, H. Pettai, ü. Niinemets, A. Laisk, Development of Leaf Photosynthetic Parameters in Betula pendula Roth Leaves: Correlations with Photosystem I Density, Plant Biology, 10.1055/s-2004-820874, 6 , 3, (307-318), (2008).
+    Wiley Online Library
+    ü. Niinemets, F. Valladares, Photosynthetic Acclimation to Simultaneous and Interacting Environmental Stresses Along Natural Light Gradients: Optimality and Constraints, Plant Biology, 10.1055/s-2004-817881, 6 , 3, (254-268), (2008).
+    Wiley Online Library
+    Hiroyuki Muraoka, Hiroshi Koizumi, Chapter 18 Leaf and Shoot Ecophysiological Properties and Their Role in Photosynthetic Carbon gain of Cool-Temperate Deciduous Forest Trees, Global Climate Change and Response of Carbon Cycle in the Equatorial Pacific and Indian Oceans and Adjacent Landmasses, 10.1016/S0422-9894(06)73018-5, (417-443), (2007).
+    Crossref
+    Robert Pearcy, Responses of Plants to Heterogeneous Light Environments, Functional Plant Ecology, Second Edition, 10.1201/9781420007626.ch7, (2007).
+    Crossref
+    Paul B. Alton, Peter North, Interpreting shallow, vertical nitrogen profiles in tree crowns: A three-dimensional, radiative-transfer simulation accounting for diffuse sunlight, Agricultural and Forest Meteorology, 10.1016/j.agrformet.2007.04.006, 145 , 1-2, (110-124), (2007).
+    Crossref
+    William L. Bauerle, Joseph D. Bowden, G. Geoff Wang, The influence of temperature on within-canopy acclimation and variation in leaf photosynthesis: spatial acclimation to microclimate gradients among climatically divergent Acer rubrum L. genotypes, Journal of Experimental Botany, 10.1093/jxb/erm177, 58 , 12, (3285-3298), (2007).
+    Crossref
+    STANISLAUS J. SCHYMANSKI, MICHAEL L. RODERICK, MURUGESU SIVAPALAN, LINDSAY B. HUTLEY, JASON BERINGER, A test of the optimality approach to modelling canopy properties and CO2 uptake by natural vegetation, Plant, Cell & Environment, 10.1111/j.1365-3040.2007.01728.x, 30 , 12, (1586-1598), (2007).
+    Wiley Online Library
+    ÜLO NIINEMETS, Photosynthesis and resource distribution through plant canopies, Plant, Cell & Environment, 10.1111/j.1365-3040.2007.01683.x, 30 , 9, (1052-1071), (2007).
+    Wiley Online Library
+    ANTONIO DIAZ‐ESPEJO, EMILIO NICOLÁS, JOSÉ ENRIQUE FERNÁNDEZ, Seasonal evolution of diffusional limitations and photosynthetic capacity in olive under drought, Plant, Cell & Environment, 10.1111/j.1365-3040.2007.001686.x, 30 , 8, (922-933), (2007).
+    Wiley Online Library
+
+Publication cover image
+
+Volume 27 , Issue 3
+
+February 2004
+
+Pages 293-313
+
+    Figures
+    References
+    Related
+    Information
+
+Close Figure Viewer
+Return to Figure
+Previous Figure Next Figure
+Caption
+back
+Additional links
+About Wiley Online Library
+
+    Privacy Policy
+    Terms of Use
+    Cookies
+    Accessibility
+
+Help & Support
+
+    Contact Us
+
+Opportunities
+
+    Subscription Agents
+    Advertisers & Corporate Partners
+
+Connect with Wiley
+
+    The Wiley Network
+    Wiley Press Room
+
+Copyright © 1999-2020 John Wiley & Sons, Inc . All rights reserved
+Wiley Home Page
+
+The full text of this article hosted at iucr.org is unavailable due to technical difficulties.
+Log in to Wiley Online Library
+Email or Customer ID
+Password
+Forgot password?
+NEW USER > INSTITUTIONAL LOGIN >
+Change Password
+Old Password
+New Password
+Too Short Weak Medium Strong Very Strong Too Long
+Password Changed Successfully
+
+Your password has been changed
+Create a new account
+Email or Customer ID
+Returning user
+Forgot your password?
+
+Enter your email address below.
+Email or Customer ID
+
+Please check your email for instructions on resetting your password. If you do not receive an email within 10 minutes, your email address may not be registered, and you may need to create a new Wiley Online Library account.
+Request Username
+
+Can't sign in? Forgot your username?
+
+Enter your email address below and we will send you your username
+Email or Customer ID
+Close
+
+If the address matches an existing account you will receive an email with instructions to retrieve your username
+Close crossmark popup

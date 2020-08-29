@@ -1,0 +1,1634 @@
+
+Article PDF Available
+Overstory and understory leaf area index as indicators of forest response to ice storm damage
+
+    April 2003
+    Ecological Indicators 3(1):49-64
+
+DOI: 10.1016/S1470-160X(03)00010-4
+Authors:
+Ian Olthof
+Ian Olthof
+
+    32.34
+
+Douglas J. King at Carleton University
+Douglas J. King
+
+    34.7
+    Carleton University
+
+R.A. Lautenschlager
+R.A. Lautenschlager
+Download full-text PDF Read full-text
+Download full-text PDF
+Read full-text
+Download citation
+Copy link Link copied
+Read full-text
+Download citation
+Copy link Link copied
+Citations (28)
+References (37)
+Figures (8)
+Abstract and Figures
+Leaf area index (LAI) was measured with the tracing radiation and architecture of canopies (TRAC) optical instrument in three consecutive summers from 1999 to 2001 in sugar maple forests across eastern Ontario to monitor recovery from ice storm damage suffered in January 1998. The study sites were experimental blocks of the Ontario Ministry of Natural Resources (OMNR) designed for measurement and monitoring of the effects of fertilizer and lime treatments on maple recovery. Understory vegetation survey data, collected in 1999 and again in 2001, were converted to understory gap fraction, and processed in the same manner as the TRAC data to obtain understory LAI. Subtraction of understory LAI from total LAI measured with the TRAC allowed monitoring of productive, overstory trees tapped for syrup production. Annual LAI measurements and LAI change were evaluated in relation to percent crown loss estimates and plot treatments. Understory, overstory and total LAI increased from year-to-year in most plots. Of the single year measurements, total LAI measured in 1999 was significantly related to damage, while 2000 and 2001 LAI accounted for progressively less of the variation in damage, indicating a change in canopy condition between seasons. Understory LAI increased dramatically in response to overstory crown loss, while overstory increased more in absolute terms, but less in relative terms. Between-season LAI change was more significantly related to damage than any of the annual LAI measurements to which it was compared, indicating that LAI response is a better indicator of damage than single year LAI. LAI change was not, however, significantly related to plot treatment.
+Block locations and numbers in productive sugar bushes, across southeastern Ontario.
+Block locations and numbers in productive sugar bushes, across southeastern Ontario.
+… 
+Understory vegetation gap fraction (GF) calculation from line intercept data of length L. Species 1-4 intercept along segments Sp 1-4 , with overlap between species 1 and 2 at Ov 1 and between species 2 and 3 at Ov 2 .
+Understory vegetation gap fraction (GF) calculation from line intercept data of length L. Species 1-4 intercept along segments Sp 1-4 , with overlap between species 1 and 2 at Ov 1 and between species 2 and 3 at Ov 2 .
+… 
+Example of 1999-2001 LAI change (Z A = 0.7 LAI increase) with 95% confidence interval of measurement precision indicating certainty of measured LAI increase in the grey area.
+Example of 1999-2001 LAI change (Z A = 0.7 LAI increase) with 95% confidence interval of measurement precision indicating certainty of measured LAI increase in the grey area.
+… 
+From 1999 to 2001 average plot LAI by layer (N = 80)
+From 1999 to 2001 average plot LAI by layer (N = 80)
+… 
+LAI measurement through the summer of 2001 shows decreasing LAI late into the growing season. Julian day and month are shown on the x-axis.
++3
+LAI measurement through the summer of 2001 shows decreasing LAI late into the growing season. Julian day and month are shown on the x-axis.
+… 
+Figures - uploaded by Douglas J. King
+Author content
+All figure content in this area was uploaded by Douglas J. King
+Content may be subject to copyright.
+ResearchGate Logo
+
+Discover the world's research
+
+    17+ million members
+    135+ million publications
+    700k+ research projects
+
+Join for free
+Content uploaded by Douglas J. King
+Author content
+All content in this area was uploaded by Douglas J. King on Oct 26, 2017
+Content may be subject to copyright.
+Download full-text PDF
+Ecological Indicators 3 (2003) 49–64
+Overstory and understory leaf area index as indicators
+of forest response to ice storm damage
+Ian Olthof a , ∗ , Douglas J. King b , R.A. Lautenschlager c
+a Department of Geography and Envir onmental Studies, Carleton University, 1125 Colonel By Drive, Ottawa, Ont., Canada K1S 5B6
+b Department of Geography and Envir onmental Studies, Carleton University, 1125 Colonel By Drive, Ottawa, Ont., Canada K1S 5B6
+c Atlantic Canada Conservation Data Centre, P .O. Box 6416, Sackville , NB, Canada E4L 1G6
+Abstract
+Leaf area index (LAI) was measured with the tracing radiation and architecture of canopies (TRAC) optical instrument
+in three consecutive summers from 1999 to 2001 in sugar maple forests across eastern Ontario to monitor recovery from
+ice storm damage suffered in January 1998. The study sites were experimental blocks of the Ontario Ministry of Natural
+Resources (OMNR) designed for measurement and monitoring of the effects of fertilizer and lime treatments on maple
+recovery . Understory vegetation survey data, collected in 1999 and again in 2001, were con verted to understory gap fraction,
+and processed in the same manner as the TRAC data to obtain understory LAI. Subtraction of understory LAI from total
+LAI measured with the TRAC allowed monitoring of producti ve, overstory trees tapped for syrup production. Annual LAI
+measurements and LAI change were evaluated in relation to percent crown loss estimates and plot treatments. Understory ,
+overstory and total LAI increased from year-to-year in most plots. Of the single year measurements, total LAI measured
+in 1999 was signiﬁcantly related to damage, while 2000 and 2001 LAI accounted for progressively less of the variation in
+damage, indicating a change in canopy condition between seasons. Understory LAI increased dramatically in response to
+overstory crown loss, while ov erstory increased more in absolute terms, but less in relative terms. Between-season LAI change
+was more signiﬁcantly related to damage than any of the annual LAI measurements to which it was compared, indicating that
+LAI response is a better indicator of damage than single year LAI. LAI change was not, however , signiﬁcantly related to plot
+treatment.
+© 2003 Elsevier Science Ltd. All rights reserved.
+Keywor ds: Leaf area index; Ice storm; Forest damage; Understory; Overstory
+1. Introduction
+Between 4 and 9 January 1998, up to 100 mm of
+freezing rain fell in eastern Canada and the northeast-
+ern United States. The area of ice accumulation was
+approximately 10 million ha, although forest damage
+∗ Corresponding author.
+E-mail addresses: iolthof@ccs.carleton.ca (I. Olthof),
+doug king@carleton.ca (D.J. King), rlautenschlager@mta.ca
+(R.A. Lautenschlager).
+was highly variable and patchy ( Irland, 1998 ). Such
+ice storms typically result when a moist warm air mass
+over-rides a near surface air mass of below zero tem-
+perature. Rain froze on impact causing ice to build
+up on surfaces ( Stewart and King, 1990 ), resulting in
+downed hydro lines and broken tree branches and bent
+or broken boles. Damage was dependent on species,
+crown height and morphology , and ice accumulation.
+Ice storms are one of the few recurring regional scale
+natural phenomena in eastern temperate forests that are
+responsible for damaging trees. They generally occur
+1470-160X/03/$ – see front matter © 2003 Elsevier Science Ltd. All rights reserved.
+doi:10.1016/S1470-160X(03)00010-4
+50 I. Olthof et al. / Ecological Indicator s 3 (2003) 49–64
+with high frequency (every 20–100 years) in the east-
+ern United States and the region from eastern Ontario
+to the Atlantic Provinces of Canada. Howev er, a storm
+of the magnitude and spatial extent of the 1998 ice
+storm is estimated to have a return period of at least
+500 years ( Smith, 1998 ). Forest response and adapta-
+tion to such damage has not been rigorously studied
+over the long-term ( Stabb, 1998 ).
+Following the 1998 ice storm, the Ontario Ministry
+of Natural Resources (OMNR) embarked on a project
+designed to examine the potential to aid the recovery
+of sugar maple bushes managed for syrup production.
+A ‘maple experiment’ was designed, consisting of fer-
+tilizer and lime treatments over a range of sugar maple
+site and damage classes ( Lautenschlager and Nielsen,
+1999 ). In addition, in some unmanaged stands, herbi-
+cide treatments were applied. Response to treatments
+was evaluated from 1999 to 2001 in relation to dam-
+age. Speciﬁc components examined ( Lautenschlager
+and Nielsen, 1999 ) included: (1) sap and root starch
+amounts and composition; (2) soils and foliar nutri-
+tion; (3) crown condition ( Lautenschlager and Winters,
+2001 ); (4) ground and understory vegetation compo-
+sition and cover ( Lautenschlager et al., 2003 ); and (5)
+in this paper, understory and overstory leaf area inde x
+(LAI).
+This paper presents the results from summer LAI
+measurement in the maple experiment plots from
+1999 to 2001, coupled with understory vegetation sur-
+vey data collected in 1999 and 2001. Results of total
+LAI change between 1999 and 2000 were presented
+by Olthof et al. (2001) . In that paper, increasing
+LAI beyond the 95% measurement precision bounds
+was observed in 10 of the 32 plots measured, while
+non-signiﬁcant increases were noted in an additional
+18 plots. LAI change was unrelated to plot treat-
+ment, but weakly related to damage and understory
+abundance in the 0–7 m height range ( Olthof et al.,
+2001 ). This paper builds on that work by monitoring
+the response of different vertical layers to damage,
+exploring the effects of drought on LAI measurement
+and examining longer-term trends.
+The objective of this part of the maple experiment
+was to develop methods for monitoring canopy change
+in relation to both the damage sustained and treat-
+ments, and to identify potential causes for observed
+variations. Speciﬁc objectives of this study were
+to:
+1. measure total canopy LAI using optical instrumen-
+tation for the 1999, 2000 and 2001 growing sea-
+sons;
+2. determine understory LAI from line intercept vege-
+tation data for the 1999 and 2001 growing seasons;
+3. separate understory LAI (objective 2) from total
+canopy LAI (objective 1) to obtain ov erstory LAI
+for 1999 and 2001;
+4. evaluate relations of annual LAI and LAI change
+in the plots with initial crown loss estimates made
+following the storm, and assess fertilizer and lime
+treatment effects on LAI change.
+2. Leaf area index as an indicator of canopy
+response to damage
+Forest damage is often assessed by aggregating in-
+dividual tree-based visual estimates of crown loss to
+a plot or stand level ( Irland, 1998; Boulet et al., 2000;
+Lautenschlager and Winters, 2001 ). While such mea-
+surements can estimate the damage of a particular set
+of trees, they do not represent damage of the entire
+canopy. Critical canop y damage information exists in
+gaps between crowns and in the three-dimensional fo-
+liage distribution that individual crown loss estimates
+do not capture. Visual estimates of cro wn loss can pro-
+vide consistent (precise) damage assessment immedi-
+ately following the disturbance event. Ho wever , their
+use can be problematic in monitoring recovery from
+damage because they are determined relative to an es-
+timated pre-disturbance crown volume. Shortly after a
+damaging event, wounds and within-crown gaps from
+broken branches can easily be seen from the ground to
+estimate pre-disturbance crown volume. As crowns ﬁll
+in or die back further, pre-disturbance crown v olume
+becomes increasingly difﬁcult to visualize. Addition-
+ally, wounds may become obscured by ne w growth and
+stain so that they are not easily seen from the ground.
+For these reasons, visual estimation of crown loss
+cannot be effectively used as a response indicator of
+structural change following the damage event. A suit-
+able indicator for monitoring the response to damage
+must be: (1) signiﬁcantly related to the initial dam-
+age condition (accurate) and (2) repeatable (precise)
+through time. Conceptually, instrument-based mea-
+surement should be more accurate and precise than
+visual estimates because bias for a given assessor or
+I. Olthof et al. / Ecological Indicator s 3 (2003) 49–64 51
+among assessors is not present as long as instrument
+calibration and use remain constant ( Olthof et al.,
+2001 ). Therefore, an instrument-based measurement
+that is signiﬁcantly related to initial damage estimates
+should provide the best indicator for monitoring
+canopy response to damage. T o meet these criteria,
+optical instrument measurement of leaf area index,
+deﬁned as half the total leaf area per unit ground sur-
+face area ( Chen and Black, 1992 ), was selected for
+this study to complement individual tree-based dam-
+age measurements and to monitor canopy response to
+damage.
+2.1. Summary of the theory and instrumentation
+for LAI optical measurement
+Instrument-based optical measurement of the
+canopy gap fraction and gap size distribution has
+been widely applied to assess forest structural param-
+eters such as LAI ( W elles, 1990; Chason et al., 1991;
+Chen and Cihlar, 1995; Herbert and Fo wnes, 1997;
+Kucharik et al., 1998) . T wo broad categories of op-
+tical instruments exist for measuring LAI that either
+sample the canopy hemispherically or along transects.
+The former category of instruments is most widely
+used, and includes the LiCor, 1989 LAI-2000 (Licor
+Inc., Lincoln, NE) and hemispherical photography
+( Planchais and Pontailler, 1999 ). These instruments
+obtain the canopy gap fraction at multiple zenith
+and azimuth angles simultaneously to estimate LAI.
+Measurements with these instruments are most reli-
+able when performed under diffuse sky conditions
+to minimize direct scattering of sunlight off leaves
+and trunks. Such sky conditions occur at dawn and
+dusk or in rare instances when cloud cover is low and
+uniform. The LAI-2000 instrument also requires an
+above canopy reference measurement (usually taken
+in a nearby clearing) to calculate the canopy gap
+fraction. In an operational setting where measure-
+ments need to be performed in many plots separated
+by large distances, as was the case in this study , the
+required sky conditions for hemispherical canopy
+measurement can be a constraint.
+The second category of optical instruments makes
+use of direct sunlight transmitted through gaps in the
+canopy. Such instruments include the tracing radiation
+and architecture of canopies (TRAC; Third W ave En-
+gineering, Nepean, Ont.) used in this study. Measure-
+ments are acquired at a rate of 32 s − 1 along transects
+to obtain a proﬁle of light penetrating the canopy. Sun-
+ﬂecks that are projected onto the sensor where canopy
+gaps occur in the sun’s direction are proportional to
+the sizes of the gaps being measured. Therefore, below
+canopy sunﬂeck information can be used to obtain the
+gap fraction and distribution of gap sizes in the canopy
+( Chen and Cihlar, 1995 ). This type of optical instru-
+ment requires direct sunlight to produce sharp and
+consistent sunﬂecks and shadows, howev er scattered
+clouds can be tolerated if they do not pass in front of
+the sun during measurement. These operational con-
+ditions were less constrictive for this study than the
+necessary sky conditions for hemispheric canopy mea-
+surement.
+Whether canopy gap information is obtained from
+hemispheric or line-transect measurements, the gap
+fraction is converted to LAI and mean leaf inclina-
+tion angle (the average angle between leaves and the
+zenith angle) based on the relationship noted by Miller
+(1967) . Gap fraction measurements at multiple zenith
+angle are necessary to obtain an exact measure of
+foliage angle distribution or its projection coefﬁcient
+G ( θ ) on a plane perpendicular to zenith angle θ ( W elles
+and Norman, 1991 ). In the case of line-transect, mea-
+surements must be performed several times over the
+course of the day to obtain data for multiple zenith
+angles since the gap fraction is derived from data ac-
+quired at a single (solar) zenith angle. When this is not
+operationally feasible as was the case in this study, a
+spherical foliage orientation distribution is assumed,
+because it represents many real canopy types well and
+its projected foliage surface remains (almost) constant
+( G(θ) = 0 . 5) with angle θ ( W arren-Wilson and Reeve,
+1959 ).
+Effective LAI (LAI e ) is obtained from the gap frac-
+tion and projection coefﬁcient ( Eq. (1) ), and assumes a
+random spatial distribution of foliage elements ( Chen
+and Cihlar, 1995 ).
+LAI e =−
+cos θ
+G(θ) ln[GF] (1)
+The assumption of random foliage distribution in
+space is met only in speciﬁc types of vegetation. A
+number of techniques have been devised to account for
+the effect of non-randomness, or foliage ‘clumping’
+on effective LAI estimates. The most reliable estimate
+of foliage clumping is obtained through both direct
+52 I. Olthof et al. / Ecological Indicator s 3 (2003) 49–64
+and indirect estimates of LAI, with the clumping index
+equal to the ratio of indirect to direct measurement
+(LAI e /LAI) ( Kucharik et al., 1997 ). This clumping
+index ( Ω ) can then be used to convert ef fective LAI
+obtained from hemispherical measurement by most
+commercial instruments such as the LAI-2000 ( Chen
+and Cihlar, 1995 ), to real LAI for the non-random case
+using Eq. (2) . Both Eqs. (1) and (2) assume that the
+contribution from woody material is negligible.
+LAI e = Ω LAI (2)
+Methods exist to estimate clumping from either the
+gap size distribution ( Chen and Cihlar, 1995 ) or the ra-
+tio of indirect and direct LAI measurement ( Kucharik
+et al., 1997 ). Regardless of the method, the clumping
+index ranges from 0 for a non-random distribution (ex-
+treme case: stacked foliage) to 1 for a perfectly random
+distribution. Thus, for random canopies, LAI e equals
+LAI. In clumped canopies, LAI e underestimates LAI,
+as leaves are grouped more in bundles than the random
+case with the same gap fraction, and there is usually a
+greater proportion of larger gaps. Underestimations of
+LAI using indirect measurement have been reported
+consistently in forests with non-random foliage dis-
+tributions ( Planchais and Pontailler, 1999; Kucharik
+et al., 1998; Herbert and Fownes, 1997; Chen and
+Black, 1992; Chason et al., 1991 ).
+LAI may be a more suitable indicator for damage
+monitoring than effective LAI due to the relation be-
+tween clumping and damage. Damage tends to de-
+crease the degree of randomness (increased clump-
+ing) with which residual foliage is distributed through
+space ( Olthof et al., 2001 ). Large gaps are more likely
+to result from damage where susceptible species or
+crown structures occur ( Irland, 1998 ). Branches and
+trees that are highly susceptible to damage do not oc-
+cur randomly over the scale of measurement in this
+study. The result is that damage tends to be ‘patchy’
+or clumped in nature ( Bruederle and Stearns, 1985 ).
+A comparison between TRAC and hemispherical
+gap fraction measurement was conducted by Leblanc
+et al. (2002) in a mixed forest, and showed good agree-
+ment between the two when the hemispherical gap
+fraction was obtained at the same view angle as the
+solar zenith angle of the TRAC. In Leblanc and Chen
+(2001) , a comparison was made between LAI e values
+obtained from the LAI-2000 and TRAC instruments
+of deciduous canopies, and the measurements agreed
+when comparisons were made at similar zenith view
+angles through the canopy. Such direct comparisons
+are difﬁcult, as line-transect and hemispherical instru-
+ments ‘see’ the canopy differently ( Leblanc et al.,
+2002 ), making identical canopy sampling with both
+types of instrument impossible.
+3. Methods
+The OMNR established 38 treatment blocks in a va-
+riety of management, site and damage classes in sugar
+maple bushes across eastern Ontario ( Fig. 1 )t oa d -
+dress the economic and ecologic concerns of maple
+syrup producers stemming from the 1998 ice storm
+( Lautenschlager and Nielsen, 1999 ). Each block is
+100 m on a side and is divided into four 50 m × 50 m
+plots, consisting of one control and three randomly
+assigned fertilizer, lime, or fertilizer + lime treatments
+applied in the spring of 1999 ( T able 1 ). In three of the
+blocks, herbicide was applied to evaluate its potential
+for suppression of understory growth and competition
+for resources with overstory trees.
+3.1. F orest damage measur ement
+The OMNR provided visual damage estimates (per-
+cent crown loss) that had been acquired in the fall of
+1998 for six focus trees in each plot. The plot average
+of these was used as the damage estimate in statistical
+Table 1
+OMNR plot treatments for sugar maple ice damage study in eastern
+Ontario
+Treatment
+Non-herbicide blocks ( n = 34)
+A No treatment
+B 500 kg dolomitic lime + 50 kg phosphorus + 50 kg
+potassium
+C 50 kg phosphorus + 50 kg potassium
+D 500 kg dolomitic lime
+Herbicide blocks ( n = 3)
+A No treatment
+B 500 kg dolomitic lime + 50 kg phosphorus + 50 kg
+potassium and herbicide (Vision ® ) control
+C 500 kg dolomitic lime + 50 kg phosphorus + 50 kg
+potassium
+D Herbicide treatment (Vision ® )
+I. Olthof et al. / Ecological Indicator s 3 (2003) 49–64 53
+Fig. 1. Block locations and numbers in productive sugar bushes, across southeastern Ontario.
+modelling. T able 2 shows the block average damage
+estimate (the average of the four plot damage esti-
+mates in each block). Estimates of crown loss were
+unavailable for three blocks (39, 41 and 44).
+3.2. LAI measurement
+Three parallel 50 m transects spaced 10 m apart
+were installed in each treatment plot in an east–west
+direction for LAI measurement. Measurements were
+taken along the same transects in three consecutive
+summers from 1999 to 2001. Metal ﬂags marked 10 m
+intervals along the transects so that radiance proﬁles
+obtained with the TRAC could be registered to kno wn
+distances in the forest. Transects were always set up
+in the northern portion of the plot to ensure that radi-
+ation incident upon the transect was passing through
+the canopy in the plot, as the solar zenith was always
+at approximately 40 ◦ during measurement.
+Since the solar azimuth must be within 20 ◦ of per-
+pendicular to the transect, and measurement must be
+performed under direct sunlight, transects were always
+set up east–west in a given plot before the day of mea-
+surement. This allowed measurements to be taken dur-
+ing a cloud free or partly cloudy period between 11
+a.m. and 3 p.m. ( ± 2 h of solar noon) when the solar
+azimuth was within an acceptable range relative to the
+transect orientation.
+LAI was measured in 144 plots (36 blocks × 4 treat-
+ments per block) over the course of the three sum-
+mers and was analyzed on a plot basis. Due to large
+distances between blocks, they could not all be mea-
+sured each year; block subsets were analyzed for indi-
+vidual years and for analysis of LAI change between
+54 I. Olthof et al. / Ecological Indicators 3 (2003) 49–64
+Table 2
+Blocks in which LAI was measured and for which LAI data were
+analyzed
+Blocks Damage (%) Blocks where LAI
+was measured
+1999 2000 2001
+1 68 (x)
+26 9 x x
+3 4 1 xxx
+5 10 (x) (x)
+6 9 (x) (x)
+73 4 x
+8 37 x (x)
+9 6 1 xxx
+10 17 x
+11 60 x (x)
+12 64 x x
+13 51 x (x)
+14 70 x (x)
+15 37 x x
+16 56 x (x)
+17 21 x (x)
+19 10 (x) (x)
+20 10 (x)
+21 77 x x
+22 32 x (x)
+23 35 x x
+24 45 x x
+25 28 x x
+26 62 x x
+27 69 x x
+28 29 x x
+29 35 (x)
+30 72 x x x
+3 1 6 xxx
+32 12 x x
+3 9 xxx
+40 35 x x x
+41 x (x)
+42 64 x x x
+43 46 x x x
+4 4 xxx
+N 33 23 22 31
+Mean % damage 42 46 39 43
+(x): removed from analysis, see Section 3.2 .
+years. T able 2 shows the blocks measured in each year.
+T wenty-three of the 36 blocks were measured in the
+summer of 1999, and the remaining 13 blocks were
+measured in 2000. Nine of the blocks that were mea-
+sured in 1999 were re-measured in 2000 and 2001. In
+2001, 31 blocks were measured, 20 of which had been
+measured in 1999, and 20 in 2000.
+Every effort was made to re-measure blocks in 2000
+and 2001 at the same time of day and on the same date
+as in 1999. In many plots, LAI was measured more
+than once during a single day or measured on a few
+days to evaluate the TRA C instrument precision and
+sensitivity to solar zenith angle ( Olthof et al., 2001 ).
+Where such repeat measurements were taken, an av-
+erage was calculated to represent LAI of the plot for
+that year.
+3.2.1. LAI samples analyzed
+Percent crown loss for samples of blocks in which
+LAI was measured in more than 1 year revealed differ -
+ences among samples. The sample of 20 blocks used
+for the 1999–2001 change analysis had a higher mean
+percent crown loss than all blocks combined ( N = 33),
+while blocks measured in 2000 had a lower percent
+crown loss. The net effect was that the two samples
+means were 1.86 standard scores apart. T o mitigate this
+problem, three blocks (5, 6, 19) from the 2000 sam-
+ple that had the lowest damage and that could not be
+used in the 1999–2001 change analysis (they were not
+measured in 1999) were removed. The remaining 19
+blocks that were used as the 2000 LAI measurement
+sample had a similar distribution of damage scores to
+the 1999–2001 sample ( T able 2 ). Other blocks were
+removed from the 1999 or 2001 sets if they were not
+measured both years.
+3.3. Ground ve getation survey
+Near-ground vegetation survey data were collected
+by the OMNR during the summer of 1999 (second
+growing season after the storm) and 2001 (fourth
+growing season after the storm). A line intercept
+method ( Canﬁeld, 1941 ) was used along randomly
+located lines in each plot.
+In 1999, near-ground vegetation was surveyed along
+ﬁve 10-m lines per plot. In 2001, the number of lines
+was increased to 20 per plot, while each line mea-
+sured 5 m in length. This change was made in order
+to better capture the species richness of near-ground
+vegetation in 2001, and was not considered to have
+produced any bias in ground vegetation cover between
+years. V egetation was recorded by species and lay-
+ers as well as the start–end distance in centimetres
+on each line. All green or mostly green vegetation
+less than 7 m in height that crossed the line (projected
+I. Olthof et al. / Ecological Indicators 3 (2003) 49–64 55
+vertically) was recorded. A metre stick and height pole
+were used to determine vegetation heights, which were
+subsequently assigned to one of three layers (0.0–0.5,
+0.5–2.0, and 2.0–7.0 m) ( Lautenschlager et al., 2003 ).
+Because the TRAC was held at 1.5 m height, only the
+ground vegetation surveyed in the 2.0–7.0 m layer that
+was ‘seen’ by the TRAC was used in this analysis.
+3.3.1. Calculation of ground ve getation LAI
+Near-ground vegetation LAI was calculated using
+Eq. (1) and subtracted from the total canopy LAI above
+1.5 m (hereafter termed ‘total LAI’) as measured by
+the TRAC. For Eq. (1) , the understory gap fraction
+and G ( θ ) parameters had to be determined.
+T o determine understory gap fraction an analy-
+sis of the line-intercept ground vegetation data was
+conducted. Because near-ground vegetation distances
+were recorded along each line ( L ) by species (Sp) as
+well as by layer, plots could have o verlap (Ov) be-
+tween different species occurring in the same layer . A
+schematic illustrating such conditions is presented in
+Fig. 2 . This resulted in percent cover values exceed-
+ing 100% in cases where the overlap between species
+exceeded the gap fraction. Therefore, overlap between
+species was eliminated on a plot-by-plot basis to
+obtain near-ground vegetation gap fraction estimates.
+Start and end distances of ground vegetation in-
+terception on a line were provided in a spreadsheet
+for each species occurring in each layer. The data
+were sorted in ascending order by line number and by
+start distance along the line. A set of ﬁelds consisting
+of Boolean operators was used to determine overlap
+Fig. 2. Understory vegetation gap fraction (GF) calculation from line intercept data of length L . Species 1–4 intercept along segments
+Sp 1 – 4 , with overlap between species 1 and 2 at Ov 1 and between species 2 and 3 at Ov 2 .
+given all possible combinations of species occurrence
+within the layer. T otal ov erlap was summed for all
+lines within a plot and was subsequently subtracted
+from the sum of distances obtained from the start and
+end points to obtain vertically projected cover of all
+species along all lines. Subtraction of cover from the
+summed length of all lines, divided by the summed
+length of all lines gave the understory gap fraction
+( Eq. (3) ).
+GF understory =   m
+i = 1 L i −   n
+j = 1 Sp j −  Ov
+k = 1 Ov k 
+ m
+i = 1 L i (3)
+where GF is plot gap fraction; L line length for lines
+i = 1t o m in a plot; Sp species intercept length along
+line L for intercept lengths j = 1t o n ; and Ov is
+overlap length between species for overlap lengths k =
+1t oO v .
+The projection coefﬁcient, G ( θ ), varies slightly with
+zenith angle for an assumed spherical foliage distribu-
+tion ( W arren-Wilson and Reeve, 1959 ). Near-ground
+vegetation gap fraction was obtained vertically (i.e. at
+0 ◦ zenith), while the TRAC data were obtained at a
+mean zenith angle of 40 ◦ . The projection coefﬁcient,
+G(θ) = 0 . 5, for the TRAC data assumed a spheri-
+cal foliage distribution. For the understory vegetation,
+G ( θ ) was obtained from a graph in W elles and Norman
+(1991) showing changes in the projection coefﬁcient
+with zenith angle for different mean leaf angles. The
+curve for which G(θ) = 0 . 5a t4 0
+◦ zenith angle corre-
+sponded to a mean leaf angle of 45 ◦ . This curve was
+56 I. Olthof et al. / Ecological Indicators 3 (2003) 49–64
+projected to a zenith angle of 0 ◦ (vertically) to give
+G(θ) = 0 . 6 for the understory.
+T o use Eq. (2) for conversion of effecti ve LAI from
+Eq. (1) to actual LAI, clumping indices for under-
+story vegetation in each plot had to be determined.
+The clumping indices obtained from TRAC measure-
+ments of the entire canopy above 1.5 m were assumed
+to be representative of the understory 2.0–7.0 m layer.
+Mean clumping values were 0.83 in 1999, increasing
+to 0.86 in 2001, which is not signiﬁcant but may indi-
+cate a trend towards increasing gap size randomness
+since the ice storm. T ypically, clumping v alues varied
+by less than 5% within a given year for a giv en range
+of solar zenith angles, producing similar variations in
+LAI calculated from effective LAI using Eq. (2) . When
+subtracting understory LAI from total LAI, the effects
+of errors in the assumed understory clumping indices
+should not be great since understory contributions to
+total LAI were low compared to overstory contribu-
+tions.
+3.4. TRAC precision analysis
+The repeatability of TRAC measurement is mainly
+inﬂuenced by: (1) deviations from the assumed ran-
+dom leaf angle distribution (with associated projection
+coefﬁcient G ( θ ) of 0.5), (2) the portion of the canopy
+being sampled (which can vary during the 4 h mea-
+surement window), and (3) phenological stage. The
+ﬁrst two are related to the time of day, while the latter
+is related to the date in the growing season that mea-
+surements are taken (given that phenology can vary
+year-to-year based on climate conditions). As a result,
+there is a certain amount of variability in TRAC LAI
+measurement, which can be quantiﬁed by repeatedly
+sampling single plots.
+T o address precision related to sun angle (1 and
+2 above), Olthof et al. (2001) sampled 29 plots re-
+peatedly (either two or three times) within the 2000
+growing season. Eighteen of the 29 plots had repeated
+measurements taken at different times during the same
+day, while the remaining 11 plots had repeated mea-
+surements taken over a span of sev eral days over which
+LAI was assumed to remain constant.
+The differences of repeat TRAC measurements
+( N = 112) formed a precision distribution that was
+normal. The two-tailed 95% conﬁdence limits for
+the precision distribution were determined, from the
+standard deviation ( ± 1.96 × σ ), to be ± 1.20, and were
+conﬁrmed by 104 of 112 (93%) of repeat differences
+within the calculated 95% conﬁdence interval. This
+error represents 23% of the mean LAI measured
+in 2000, and is similar to the 1 σ range of 14% for
+broadleaf stands reported in Fernandes et al. (2001) .
+In evaluation of phenological effects, analysis of
+variance revealed that changes in solar zenith angle
+caused the largest variation in repeated differences, as
+within day repeated measurements exhibited greater
+variance than among dates ( F -test, α = 0 . 08) ( Olthof
+et al., 2001 ). Leblanc and Chen (2001) showed sea-
+sonal LAI variation measured with the LAI-2000
+under diffuse illumination conditions in two temper-
+ate deciduous forests. Between 13 June 1997 and 5
+September 1997 (the typical summer growing season
+as used in this study) they found that LAI varied by
+1.2 and 0.9 at the two sites, peaking in mid-July and
+gradually declining until mid-September. Olthof et al.
+(2001) also show that between-season LAI change
+after a disturbance such as the ice storm is great
+enough to mask within-season LAI variability due to
+phenology and the sun’s position.
+3.5. LAI change analysis
+T otal LAI change was evaluated between consecu-
+tive years and for the period from 1999 to 2001. For
+the 20 blocks (80 plots) measured in 1999 and 2001,
+the understory vegetation data were used to separate
+the contributions of understory and overstory layers
+to total LAI and to LAI change. T otal LAI measured
+with the TRAC in 1999 and 2001 was con verted to
+overstory LAI by subtracting understory contributions
+to LAI obtained from ground vegetation surveys in
+those years. LAI change was calculated by subtract-
+ing 1999 LAI from 2001 LAI (2001 LAI − 1999 LAI )o n
+a plot-by-plot basis for overstory and understory lay-
+ers separately. Positi ve change indicated an increase
+in LAI while negative change indicated a decrease in
+LAI in the 2-year period.
+The signiﬁcance of the observed change was eval-
+uated using the TRAC precision distribution of repeat
+differences as determined in Olthof et al. (2001) . Only
+overstory change was ev aluated in this manner, and
+did not account for precision errors in the measure-
+ment of ground vegetation. It was assumed that since
+ground vegetation was measured directly , there would
+I. Olthof et al. / Ecological Indicators 3 (2003) 49–64 57
+Fig. 3. Example of 1999–2001 LAI change ( Z A = 0 . 7 LAI increase) with 95% conﬁdence interval of measurement precision indicating
+certainty of measured LAI increase in the grey area.
+be relatively little error in its measurement. Percent-
+age certainty with which LAI increased or decreased,
+based on a one-tailed normal probability distribution
+of repeat differences (precision) was assigned to each
+plot ( Fig. 3 ).
+3.6. P ercent LAI change
+The damage measure used in this study is a normal-
+ized measure of crown loss since it is estimated rela-
+tive to a pre-disturbance crown v olume. LAI change
+should also be normalized in order to make a compar-
+ison with damage more relevant and meaningful. Be-
+cause pre-storm LAI data were unavailable, overstory
+and total LAI change were normalized by dividing
+the 2001–1999 LAI differences by the 2001 LAI data,
+which should most closely approximate pre-storm LAI
+due to an overall increase since the ice storm. Under-
+story LAI was normalized in a similar fashion with
+1999 understory LAI data, which should most closely
+approximate pre-storm understory LAI. However , in
+the ﬁeld we noticed a very dynamic and immediate re-
+sponse of understory vegetation to increased light lev-
+els, leading to the suspicion that 1999 understory LAI
+may have changed too much since the ice storm to be
+a useful approximation of pre-storm LAI. By normal-
+izing LAI change in this manner, percent crown loss
+was compared to percent LAI change, both relative to
+an estimated pre-storm condition.
+3.7. Statistical analyses
+Pearson correlation analysis was used to evaluate
+relations between 1998 crown loss (damage) as the
+dependent variable and the following variables: single
+date total LAI for 1999, 2000 and 2001, and absolute
+and relative change in overstory , understory and to-
+tal LAI for the period of 1999–2001. The difference
+in measurement scales between damage estimated at
+the crown level, and single date canopy LAI was not
+expected to produce strong (predictive) relations be-
+tween the two measurements. Relations were evalu-
+ated instead for the ability of LAI to act as an indicator
+of damage for monitoring recovery . Therefore, all sig-
+niﬁcant ( P< 0 . 05) relations are reported, regardless
+of their strength.
+Separate two-way analyses of variance (ANO V A)
+were used to determine if understory or overstory
+58 I. Olthof et al. / Ecological Indicators 3 (2003) 49–64
+LAI change was related to plot treatment, with blocks
+as replicates in a randomized design ( Snedecor and
+Cochran, 1980 ). Assumptions for ANOV A include
+normality of observations on the dependent variable
+within each group and homogeneity of variance (equal
+population variances) among groups. Because group
+sizes were constant at 20 plots per treatment and 4
+treatments per block, neither within group variance
+nor normality were considered to signiﬁcantly affect
+the actual type I error rate ( Stevens, 1992 ). Scheffe’s
+post hoc test assuming equal variances was used
+to determine if any signiﬁcant differences existed
+between individual treatment pairs.
+4. Results and discussion
+4.1. LAI change
+4.1.1. Aggre gated results
+Av erage total LAI increased from 4.54 in 1999 to
+5.25 in 2000, and again to 5.52 in 2001 ( T able 3 ).
+LAI increment was more than 2.5 times as great be-
+tween 1999 and 2000 (0.71) as it was between 2000
+and 2001 (0.27). This indicates that LAI may be sta-
+bilizing to pre-ice storm levels four growing seasons
+after the event. Lower LAI increment between 2000
+and 2001 was also due to a drought that affected
+eastern Ontario in the summer of 2001 ( Parker and
+Lautenschlager, 2002 ), causing many trees to shed
+leaves. Further analysis of its effect is gi ven in 4.1.3.
+LAI increases were noted between 1999 and 2001
+for both understory and overstory layers separately ,
+contributing to a mean total LAI increase of nearly
+1.0 ( T able 3 ). In absolute terms, understory LAI con-
+tributed about 0.44 to the increase in total LAI and
+Table 3
+From 1999 to 2001 average plot LAI by layer ( N = 80)
+Understory Overstory Total
+1999 2001 1999 2001 1999 2000 a 2001
+Minimum 0 0.19 2.63 2.59 2.87 2.99 3.16
+Maximum 0.8 1.4 6.49 6.98 6.67 7.06 7.89
+Mean 0.23 0.67 4.31 4.85 4.54 5.25 5.52
+Understory vegetation survey was not conducted in 2000, thus
+only total LAI as measured with the TRAC is shown for that year .
+a N = 76.
+overstory contributed the remaining 0.54. In relativ e
+terms, understory LAI increased by nearly 300%,
+while overstory increased by approximately 13%.
+These results indicate that leaf area is recovering
+from damage suffered during the 1998 ice storm event
+in the majority of sugar maple plots. The dramatic in-
+crease in understory LAI was caused mainly by in-
+creased light levels reaching this layer ( Parker and
+Lautenschlager, 2002 ), and is supported by the sig-
+niﬁcant relation between damage and 2001 under-
+story LAI (see below). It is suspected that much of
+the understory measured in 2001 was already estab-
+lished in 1999 but was too short to be detected by the
+TRAC. This is conﬁrmed by a signiﬁcant decrease in
+the 0.0–0.5 m ground vegetation layer ab undance from
+1999 to 2001, which is likely caused by increased
+shading from the layers above. These results are sim-
+ilar to those of King et al. (2002) , for an ice storm
+study in southern Quebec, which showed that estab-
+lished near-ground vegetation took advantage of in-
+creased overstory openness, producing large increases
+in height and foliage in the 1998–2000 period, while
+new ground vegetation amounts decreased.
+The contributions of understory and overstory to the
+overall increase in LAI correspond to light attenuation
+in forested canopies. Overstory layers, which receive
+the most direct sunlight have exhibited greater abso-
+lute increases in LAI, while understory layers imme-
+diately below have increased slightly less. Both layers
+respond to damage, with understory responding more
+than overstory in relative terms, while o verstory has
+responded more in absolute terms.
+4.1.2. Individual plot analysis of LAI change
+Individual plot LAI response varied between 1999
+and 2001 for both overstory and understory layers
+( T able 4 ). In 20 of 80 plots, overstory exhibited de-
+creased LAI, while understory LAI decreased in only
+three plots. Although 25% of plots showed reduced
+overstory LAI, we were 95% certain in only four cases
+that the observed decreases were real based on the
+measurement precision of ± 1.2. Relaxing this strict
+conﬁdence deﬁnition to a lower but still reasonable
+level of 80%, the number of plots showing real de-
+creased overstory LAI was 10. If plot LAI responses
+are considered to be representative of block health,
+then block 15 appears to be declining, as three of
+four treatment plots have decreased LAI beyond 95%
+I. Olthof et al. / Ecological Indicators 3 (2003) 49–64 59
+Table 4
+Understory and overstory LAI change (1999–2001) by treatment
+Blocks Treatment A Treatment B Treatment C Treatment D
+Understory Overstory Overstory
+signiﬁcance
+(%)
+Understory Overstory Overstory
+signiﬁcance
+(%)
+Understory Overstory Overstory
+signiﬁcance
+(%)
+Understory Overstory Overstory
+signiﬁcance
+(%)
+2 0.49 0.88 93 0.84 0.39 74 0.54 0.59 83 0.61 0.53 81
+3 0.32 0.45 77 0.89 1.00 > 95 0.60 − 0.38 74 0.19 − 0.03 52
+9 0.49 1.49 > 95 0.13 1.17 > 95 0.56 2.34 > 95 0.86 1.60 > 95
+12 0.45 0.92 94 0.24 2.63 > 95 0.31 1.20 > 95 0.83 0.39 74
+15 0.41 − 0.32 70 0.96 − 1.46 > 95 0.39 − 1.52 > 95 0.69 − 1.03 > 95
+21 0.42 0.92 93 0.13 1.30 > 95 0.09 1.04 > 95 0.57 2.32 > 95
+23 0.52 0.85 92 0.70 0.97 95 0.79 0.54 81 0.84 1.44 > 95
+24 0.00 0.69 87 0.17 0.94 94 0.12 0.83 92 0.52 0.42 76
+25 0.74 − 0.63 85 0.17 − 0.64 85 − 0.18 0.06 54 − 0.03 − 0.27 67
+26 0.39 1.14 > 95 0.84 0.74 89 0.43 1.15 > 95 0.42 1.70 > 95
+27 0.85 0.55 82 0.18 0.84 92 0.53 0.33 71 0.46 − 0.06 54
+28 0.22 − 0.04 52 0.25 2.25 > 95 0.30 0.09 56 0.70 − 0.88 93
+30 0.76 0.68 87 0.23 1.48 > 95 0.55 0.98 > 95 0.43 1.20 > 95
+31 0.06 0.53 81 0.26 0.06 54 0.31 0.32 70 0.04 0.43 76
+32 0.28 − 0.24 65 − 0.01 0.52 81 0.26 0.48 78 0.15 0.72 88
+39 0.54 0.52 81 0.31 − 0.69 87 0.81 1.54 > 95 0.44 0.09 56
+40 0.11 0.51 80 0.30 − 0.67 86 0.55 − 0.07 54 0.20 0.80 91
+42 a 0.73 1.26 > 95 1.04 1.01 > 95 0.63 1.05 > 95 0.89 0.38 73
+43 a 0.42 2.25 > 95 0.59 0.16 61 0.20 0.60 84 0.75 − 0.08 56
+44 a 0.25 − 0.78 90 0.48 − 0.26 67 0.48 − 1.08 > 95 0.37 0.37 73
+Mean 0.42 0.58 83 0.43 0.59 83 0.41 0.51 80 0.50 0.50 79
+The signiﬁcance level of measured overstory LAI change is also noted based on the precision analysis described in the text.
+a Herbicide blocks.
+60 I. Olthof et al. / Ecological Indicators 3 (2003) 49–64
+certainty, while the control plot has also declined
+though not as signiﬁcantly. At 80% certainty , blocks
+25 and 44 displayed decreasing LAI in two of four
+blocks.
+T wenty-seven of 80 plots exhibited increased ov er-
+story LAI beyond the 95% certainty threshold. Blocks
+9 and 21 improved by more than this threshold in all
+four plots, while blocks 12, 23, 26, 30, and 42 in-
+creased by at least this amount in three of four plots.
+At 80% certainty, the number of plots sho wing in-
+creased overstory LAI was 36. All plots in blocks 9,
+21, 23, 26, 30, and 42 were deemed to have increased
+in LAI beyond the 80% threshold, while three of four
+plots increased in blocks 2, 12, and 24.
+4.1.3. Effects of drought on 2001 LAI
+T o examine the effect that drought may have had on
+LAI in the summer of 2001, LAI measured in 2001 was
+plotted against the measurement day since 1 January
+2001 ( Fig. 4 ). A signiﬁcant relation between LAI and
+measurement date ( R =− 0 . 361, N = 124) existed,
+indicating a trend of decreasing LAI later into the sum-
+mer. This relation may simply hav e been due to bias
+in the selection of measurement dates for higher and
+lower LAI plots, or to changes in the sun’s position
+Fig. 4. LAI measurement through the summer of 2001 shows decreasing LAI late into the growing season. Julian day and month are
+shown on the x -axis.
+over the course of the summer . However , when 1999
+and 2000 LAI plot data were arranged in the order of
+the 2001 measurement date, the same decreasing trend
+was not observed. Therefore, no bias was introduced,
+suggesting that the trend of decreasing LAI late into
+the growing season must have been due to drought.
+The effects of drought can also be assessed by ex-
+amining Fig. 5 . The intercept of a best-ﬁt line through
+the data on the LAI change axis indicates that for an
+undamaged stand, a LAI decrease of approximately
+one was expected. The effects of the drought on
+LAI change were removed by regressing LAI change
+against damage, and adding the residual variation to
+a baseline LAI value obtained from the mean LAI
+of blocks 11, 39 and 41, which were measured in
+late June before the drought. A drought factor was
+obtained by calculating the percent increase of total
+LAI after the correction, and this factor was applied
+to understory and overstory LAI separately , assuming
+that both layers were equally affected.
+An examination of the descriptive statistics of 2001
+LAI measurements obtained after the drought was ac-
+counted for revealed an increase in total LAI between
+2000 and 2001 of 0.54, which was closer to the 0.71
+increase observed between 1999 and 2000 ( T able 5 ).
+I. Olthof et al. / Ecological Indicators 3 (2003) 49–64 61
+Fig. 5. 1999–2001 percent total LAI change vs. 1998 visual crown loss estimates (DAMA GE). Block numbers are noted on the right side,
+with the four plots per block represented by the associated symbols in the graph.
+The intercept of LAI change plotted against damage
+was close to zero after the application of the drought
+correction. However , given the noise in the data pre-
+sented in Fig. 5 , the correction was not perfect and did
+not signiﬁcantly improve 2001 LAI or LAI change re-
+lations with damage. Thus, all relations presented in
+this paper are of non-drought corrected data.
+Fig. 4 shows mean LAI decreasing linearly from
+approximately six in late June to ﬁve in early Septem-
+ber. Block 15 was measured on July 31 in 2001 at
+almost the midpoint of the 2001 measurement pe-
+riod. Therefore, we could expect approximately half a
+Table 5
+2001 average plot LAI data after drought correction ( N = 80)
+Understory Overstory T otal
+Minimum 0.22 3.13 3.94
+Maximum 1.45 7.07 8.18
+Mean 0.70 5.09 5.79
+unit of leaf area decrease to be accounted for by the
+drought. The removal of the effect of drought from
+LAI decrease by applying the drought correction to
+block 15 reduced the number of plots in signiﬁcant de-
+cline beyond the 95% conﬁdence interval from three to
+two.
+4.2. LAI and LAI-change relations with damag e
+4.2.1. Annual LAI versus damage
+T able 6 shows signiﬁcant relations between single
+year LAI measurements and damage. Overstory LAI
+and total LAI for 1999, and total LAI for 2000 were
+signiﬁcantly ( P< 0 . 01) related to 1998 crown loss
+estimates. The 2001 overstory LAI and total LAI were
+not signiﬁcantly related to damage. This demonstrates
+that in the second and third summers following the ice
+storm, LAI is a good indicator of damage estimated in
+the autumn immediately following the ice storm event.
+As the canopy responds by recovering, stabilizing,
+62 I. Olthof et al. / Ecological Indicators 3 (2003) 49–64
+Table 6
+Signiﬁcant Pearson correlations ( r ) between damage and LAI
+( N = 72)
+1999 2000 a 2001
+Overstory T otal T otal Understory
+Damage − 0.445 − 0.448 − 0.323 0.28
+Signiﬁcance
+(two-tailed) < 0.001 < 0.001 0.007 0.017
+a N = 68.
+or declining further, LAI gradually explains less of
+the variation in the initial damage condition. By the
+fourth summer, LAI no longer accounts for a signiﬁ-
+cant amount of variance in the 1998 damage estimate.
+The reduction in the amount of damage variance ac-
+counted for by LAI through time indicates progressive
+LAI change between seasons, so that by the fourth
+summer after the ice storm LAI is measuring a canopy
+condition that is different from the damaged condition
+immediately following the storm.
+Understory LAI in 2001 was also signiﬁcantly re-
+lated to damage. This relation shows the response of
+understory vegetation to increased light levels caused
+by canopy damage. Thus, understory generally re-
+ceived more light in highly damaged plots ( Parker and
+Lautenschlager, 2002 ) and responded with relativ ely
+high LAI increment.
+4.2.2. 1999–2001 LAI change versus damage
+The signiﬁcant relations between damage and
+1999–2001 LAI change in understory, o verstory and
+total canopy layers ( T able 7 ) indicate a dependence of
+LAI change on the degree of damage sustained. These
+direct relations show that more heavily damaged plots
+are responding with greater increases in LAI than less
+damaged plots and are therefore recovering in the
+short term. Percent LAI change of overstory and total
+Table 7
+Pearson correlations ( r ) between damage and 1999–2001 LAI change ( N = 72)
+Absolute LAI change Percent LAI change a
+Understory Overstory T otal Understory Overstory Total
+Damage 0.351 0.422 0.518 0.159 0.445 0.561
+Signiﬁcance (two-tailed) 0.003 < 0.001 < 0.001 0.188 < 0.001 < 0.001
+a See Section 3.6 .
+canopy layers was more signiﬁcantly related to dam-
+age than absolute LAI change. For understory LAI,
+absolute change was signiﬁcantly related to damage,
+while percent LAI change was not. This conﬁrms our
+suspicion of the inappropriateness of 1999 understory
+LAI as an approximation of pre-storm understory
+LAI due a time lapse of more than one full growing
+season between the storm and the 1999 understory
+vegetation survey , and the dramatic response of un-
+derstory vegetation to overstory damage. Plots from
+block 15 appear below the best-ﬁt line between dam-
+age and percent change in total LAI ( Fig. 5 ) and have
+decreased overstory LAI ( T able 4 ). Overstory LAI of
+the four plots from block 15 does not appear to be
+recovering from moderate damage sustained, while
+understory vegetation is increasing as in most other
+plots.
+Results outlined above suggest that percent change
+in total canopy LAI is a better indicator of ice storm
+canopy damage than any of the single date measures to
+which it was compared. However , LAI measurements
+were only initiated in the second growing season after
+the ice storm and progressive change in LAI was noted
+between successive summers. If LAI were measured
+in the ﬁrst growing season following disturbance, it
+alone may have been a good indicator of damage, and
+changes in LAI in subsequent years may have provided
+even stronger relations with damage than those found
+here. In addition, change in LAI over longer periods
+normalized to a future year when LAI is more certain
+to have stabilized should provide stronger relations
+with damage.
+When forest damage needs to be assessed, a base-
+line of pre-event data is rarely av ailable to determine
+the magnitude of change caused by any particular dis-
+turbance. Instead, LAI response can be monitored as
+an indicator of recovery , and to project back in time to
+estimate damage incurred. Such projections will not
+I. Olthof et al. / Ecological Indicators 3 (2003) 49–64 63
+likely replace visual estimation of crown loss on an
+operational basis because the latter is easier to obtain.
+However , they will provide a means to study the cy-
+cle of LAI increase, stabilization, and decrease due to
+disturbance.
+Sugar maples have no speciﬁc adaptations worth
+mentioning to cope with ice storm damage, though
+there is little doubt that they have dev eloped a certain
+resilience, not to damage itself, as they have consis-
+tently been classiﬁed as intermediate to highly suscep-
+tible to damage from ice loading ( Hauer et al., 1994;
+V an Dyke, 1999 ), but in their ability to recover bet-
+ter than certain other species, depending on site and
+vigour prior to damage ( Boulet et al., 2000 ). On a
+suitable site for maple growth, trees can lose between
+50 and 75% of their crown and may still survive with
+varying degrees of infection and growth suppression.
+Above 75% crown loss, trees hav e a low chance of sur-
+vival ( Coons, 1999; Boulet et al., 2000 ). In this study, 7
+of 20 blocks used for the temporal analysis had greater
+than 50% crown loss, and one had more than 75%
+crown loss. Therefore, the probability of survival for
+the trees in this study is generally quite high, and the
+relations between damage and LAI change might not
+apply to more heavily damaged stands than those used
+in this study. Ho wever , because maples are shade tol-
+erant causing a wide age distribution in natural stands,
+it is strongly suspected that there should almost always
+be sufﬁcient sub-canopy maple for stand-level LAI to
+increase immediately following severe ice storm dam-
+age. In this study, the most hea vily damaged block
+(#21), in which probability of tree mortality should
+have been high due to 77% average cro wn loss, expe-
+rienced some of the largest increases in overstory LAI
+from 1999 to 2001.
+4.3. Tr eatment effects on LAI change
+Plot LAI response by treatment revealed slight
+differences among treatments for both overstory
+and understory layers ( T able 4 ). Tw o-way analysis
+of variance revealed signiﬁcant dif ferences among
+blocks, but none among treatments. Scheffe’s post
+hoc tests showed no signiﬁcant differences between
+treatment pairs for any possible overstory or un-
+derstory treatment combination. Therefore, no treat-
+ment effects on LAI response have been detected to
+date.
+5. Conclusions
+Optical measurement of LAI is a useful indicator
+for monitoring canopy response to structural damage
+suffered from a catastrophic disturbance, such as an
+ice storm. LAI measurement with the TRAC has been
+demonstrated to be sufﬁciently accurate as an indi-
+cator of damage, because it is signiﬁcantly related
+to the initial damage condition in spite of discrepan-
+cies between the scales of crown and canopy mea-
+surements. T otal LAI measured by the TRAC changed
+progressively through time, from the damaged condi-
+tion following the event to one that is not signiﬁcantly
+related to the initial damage estimate 4 years later.
+Between-season LAI change suggests that measure-
+ment immediately after a disturbance may be a better
+indicator of damage than measurement 1 year later,
+as was tested here. It can also be concluded that LAI
+change is a better indicator of damage than any of the
+single date LAI measurements to which it was com-
+pared. When all plots were combined, LAI increased
+in both understory and overstory layers through time,
+leading to the conclusion that overall, forests are re-
+covering in the short term from ice storm damage. By
+examining LAI change on a plot-by-plot basis in rela-
+tion to LAI measurement precision, a conﬁdence level
+was assigned to the observed changes for each plot.
+Seasonal weather variation such as drought can affect
+LAI and perhaps mask the longer-term trend towards
+recovery in certain cases. Therefore, a longer tempo-
+ral series of measurements is required to fully evalu-
+ate recovery relative to pre-disturbance LAI. Finally ,
+no treatment effects on LAI response were observed,
+although this might also require a longer time series
+of LAI measurements.
+Acknowledgements
+W e thank Cathy Nielsen, Geoff McV ey, John
+Winters, Peter Neave, Da ve Bland, Trudy V aittinen,
+Mark Sunohara, Chris Butson, Sylvain LeBlanc and
+Dendron Resource Surveys Inc., for their support.
+Funding for this project has been provided under
+the Canada–Ontario Agreement for the Ice Storm
+Economic Recovery Assistance Program, Annex A,
+Assistance for the Agricultural Sector and Rural
+Communities in eastern Ontario. This program is
+jointly funded by the Government of Canada and
+64 I. Olthof et al. / Ecological Indicators 3 (2003) 49–64
+the Government of Ontario. Additional scholarship
+and grant funding was provided by the Natural Sci-
+ences and Engineering Research Council of Canada
+(NSERC) to I. Olthof and D. King.
+References
+Boulet, B., Trottier, F ., Roy, G., 2000. Management of Ice Damaged
+Stands. Ministry of Natural Resources, Government of Quebec.
+ISBN: 2-550-35993-3. Dist. Code: 2000-3070.
+Bruederle, L.P ., Stearns, F.W ., 1985. Ice storm damage to a
+southwestern Wisconsin mesic forest. Bull. T orrey Bot. Club
+112, 167–175.
+Canﬁeld, R., 1941. Application of the line intercept method for
+sampling vegetation. J. For . 39, 388–394.
+Chason, J.W., Baldocchi, D.D., Huston, M.A., 1991. A comparison
+of direct and indirect methods for estimating forest canopy leaf
+area. Agric. For. Meteorol. 57, 107–128.
+Chen, J.M., Black, T.A., 1992. Deﬁning leaf area index for non-ﬂat
+leaves. Plant Cell Environ. 15, 421–429.
+Chen, J.M., Cihlar, J., 1995. Plant canopy gap-size analysis theory
+for improving optical measurements of leaf area index. Appl.
+Optics 34, 6211–6222.
+Coons, C.F., 1999. Ef fect of Ice Storm Damage and Other Stressors
+on Sugar Bush Health and Sap Productivity-Literature Review
+and Synthesis. Eastern Ontario Model Forest Information
+Report, 77 pp.
+Fernandes, R., White, H.P ., Leblanc, S., Pavlic, G., McNairn, H.,
+Chen, J.M., Hall, R.J., 2001. Examination of error propagation
+in relationships between leaf area index and spectral vegetation
+indices from Landsat TM and ETM. In: Proceedings of the
+23rd Canadian Remote Sensing Symposium, Quebec City,
+Que., August 2001. Canadian Remote Sensing Society, Ottawa,
+pp. 41–51.
+Hauer, R.J., Hruska, M.C., Dawson, J.O., 1994. Trees and
+Ice Storms: the Development of Ice Storm Resistant Urban
+Tree Populations. University of Ne w Hampshire Cooperative
+Extension, University of New Hampshire, US Department of
+Agriculture. http://ceinfo.unh.edu/icestorm.htm .
+Herbert, D.A., Fownes, J.H., 1997. Effects of leaf aggregation in
+a broad-leaf canopy on estimates of leaf area index by the
+gap-fraction method. For. Ecol. Manage. 97, 277–282.
+Irland, L.C., 1998. Ice storm 1998 and the forests of the northeast:
+a preliminary assessment. J. For. 96, 32–40.
+King, D.J., Olthof, I., Pellikka, P .K.E., Seed, E.D., Butson, C.,
+2002. Evaluation of forest damage and change following an
+extreme ice storm using remote sensing and environmental data.
+Kucharik, C.J., Norman, J.M., Murdock, L.M., Gower, S.T .,
+1997. Characterizing canopy non-randomness with a multiband
+vegetation imager (MVI). J. Geophys. Res. 102, 29455–29473.
+Kucharik, C.J., Norman, J.M., Gower, S.T ., 1998. Measurements
+of leaf orientation, light distribution and sunlit leaf area in a
+boreal aspen forest. Agric. For. Meteorol. 91, 127–148.
+Lautenschlager, R.A., Nielsen, C., 1999. Ontario’s forest science
+efforts following the 1998 ice storm. For . Chron. 75, 633–641.
+Lautenschlager, R.A., Winters, J.A., 2001. Quantifying ice damage
+by counting branches on damaged sugar maple trees. For.
+Chron. 77, 627–642.
+Lautenschlager, R.A., Pedlar, J.H., Nielsen, C., 2003. Ef fects of
+damage, post-damage fertilization, and/or competition control
+on near-ground vegetation in managed sugar maple stands in
+southeastern Ontario.
+Leblanc, S.G., Chen, J.M., 2001. A practical scheme for correcting
+multiple scattering effects on optical LAI measurements. Agric.
+For. Meteorol. 110, 125–139.
+Leblanc, S.G., Fernandes, R., Chen, J.M., 2002. Recent advan-
+cements in optical ﬁeld leaf area index, foliage heterogeneity,
+and foliage angular distribution measurements. In: Proceedings
+of the 24th Canadian Remote Sensing Symposium, Toronto,
+Ont., June 2002. Canadian Remote Sensing Society, Ottawa,
+pp. 2902–2904.
+LiCor Inc., 1989. LAI-2000 Plant Canopy Analyzer—Technical
+Information. LiCor Inc., Lincoln, NE, USA.
+Miller, J.B., 1967. A formula for average foliage density . Aust. J.
+Bot. 15, 141–144.
+Olthof, I., King, D.J., Lautenschlager, R.A., 2001. Leaf area index
+change in ice storm damaged sugar maple stands. For. Chron.
+77, 627–635.
+Parker, B., Lautenschlager , R.A., 2002. The effect of ice damage
+on understory microclimate of sugar maple ( Acer saccharum
+Marsh) stands in southeastern Ontario.
+Planchais, I., Pontailler, J.Y ., 1999. Validity of leaf areas and angles
+estimated in a beech forest from analysis of gap frequencies,
+using hemispherical photographs and a plant canopy analyzer.
+Ann. For. Sci. 56, 1–10.
+Smith, W.H., 1998. Relation to disease and decay . In: Irland, L.C.
+(Ed.), Ice Storm 1998 and the Forests of the Northeast. J. For.
+9, 36–37.
+Snedecor, G.W ., Cochran, W .G., 1980. Statistical Methods, seventh
+ed. The Iowa State University Press, Ames, 507 pp.
+Stabb, M., 1998. Seal of approval. Nat. Can. Summer, 28–31.
+Stevens, J.M., 1992. Applied Multivariate Statistics for the Social
+Sciences, second ed. Lawrence Erlbaum Associates, NJ, 629 pp.
+Stewart, R.E., King, P ., 1990. Precipitation type transition regions
+in winter storms over southern Ontario. J. Geophys. Res. 95,
+22 355–22 368.
+V an Dyke, Olesia. R.P .F., 1999. A Literature Re view of Ice Storm
+Impacts on Forests in Eastern North America. Landmark
+Consulting, SCSS Technical Report #112.
+Warren-W ilson, J., Reeve, J.E., 1959. Analysis of the spatial
+distribution of foliage by two-dimensional point quadrats. New
+Phytol. 58, 92–101.
+Welles, J.M., 1990. Some indirect methods of estimating canopy
+structure. Remote Sens. Rev. 5, 31–43.
+Welles, J.M., Norman, J.M., 1991. Instrument for indirect
+measurement of canopy architecture. Agron. J. 83, 818–825.
+Further reading
+V an Gardingen, P .R., Jackson, G.E., Hernandez-Daumas, S.,
+Russell, G., Sharp, L., 1999. Leaf area index estimates obtained
+for clumped canopies using hemispherical photography. Agric.
+For. Meteorol. 94, 243–257.
+Citations (28)
+References (37)
+... The understory LAI is generally composed of shrubs and herbaceous elements and is important for estimating the surface runoff and nutrient availability of the underlying soil (Arora, 2002;. The entire vertical LAI profile can be derived from the canopy transmittance at different heights (Kumagai et al., 2006; Olthof et al., 2003) . The understory LAI can then be calculated by subtracting the overstory LAI from the total canopy LAI. ...
+An Overview of Global Leaf Area Index (LAI): Methods, Products, Validation, and Applications
+Article
+
+    Apr 2019
+    REV GEOPHYS
+
+    Hongliang Fang
+    Baret Frederic Baret Frederic
+    Stephen Edward Plummer Stephen Edward Plummer
+    Gabriela Schaepman-Strub Gabriela Schaepman-Strub
+
+Leaf area index (LAI) is a critical vegetation structural variable and is essential in the feedback of vegetation to the climate system. The advancement of the global Earth Observation has enabled the development of global LAI products and boosted global Earth system modeling studies. This overview provides a comprehensive analysis of LAI field measurements and remote sensing estimation methods, the product validation methods and product uncertainties, and the application of LAI in global studies. First, the paper clarifies some definitions related to LAI and introduces methods to determine LAI from field measurements and remote sensing observations. After introducing some major global LAI products, progresses made in temporal compositing and prospects for future LAI estimation are analyzed. Subsequently, the overview discusses various LAI product validation schemes, uncertainties in global moderate resolution LAI products, and high resolution reference data. Finally, applications of LAI in global vegetation change, land surface modeling, and agricultural studies are presented. It is recommended that (1) continued efforts are taken to advance LAI estimation algorithms and provide high temporal and spatial resolution products from current and forthcoming missions; (2) further validation studies be conducted to address the inadequacy of current validation studies, especially for underrepresented regions and seasons; and (3) new research frontiers, such as machine learning algorithms, light detection and ranging technology, and unmanned aerial vehicles be pursued to broaden the production and application of LAI.
+View
+Show abstract
+... Studies on ice storm effects on forests have focused on tree damage (Burner and Ares, 2003), forest management after disturbance, forest dynamics (Olthof et al., 2003) , understory recovery patterns (Takahashi et al., 2007), vegetation dynamics and regeneration (Yorks and Adams, 2003;Holladay et al., 2006;Hou and Xue, 2016), tree species growth (Smolnik et al., 2006) and forest communities (Lloyd, 2000;Yorks and Adams, 2003). However, knowledge of soil, especially soil microbial functional diversity responses to forest gaps is limited (Ou et al., 2009). ...
+Effects of forest gaps on soil microbial diversity in a Cunninghamia lanceolata stand after a severe ice storm
+Article
+Full-text available
+
+    Jan 2018
+
+    Z. Wang
+    Lan Pan Lan Pan
+    L. Xue
+
+This study compared soil microbial community functional diversity of different size gaps in a Cunninghamia lanceolata stand to help ecological restoration of stands suffering from ice-snow damage. The functional diversity of soil microbial communities was studied using Biolog-Eco-Plates. We found gap size had a significant effect on average well color development (AWCD) and on the Shannon index of soil microbial diversity. Compared with large gaps, small gaps had higher AWCD. The ten gaps were divided into three groups by cluster analysis and principal component analysis (PCA): group 1 reflected large gaps, while groups 2 and 3 reflected small gaps. Thirty-one sole carbon sources were divided into three groups by PCA. Using an eigenvector greater than 0.5 as a standard for checking carbon (C) sources, nineteen kinds of C sources included in principal components 1 and 2 had a relatively high influence on the soil microbial community, including carbohydrates, amino acids and carboxylic acids. This indicates that the use by soil microorganisms of carboxylic acids, sugars and amino acids was greater than other C sources. These findings suggest that gap size played a key role in the soil microbial diversity after a natural disturbance.
+View
+Show abstract
+... This question can be solved by studying forest regeneration after disturbance events that cause the damage of canopy at a large spatial scale. For instance, snow damage reduces tree branch length, canopy crown size and total tree stature, and leaves a matrix of forest gaps of assorted sizes, thus increasing light availability to the forest understory to a varying degree (Rhoads et al., 2002; Olthof et al., 2003; Wu et al., 2011). However, snow damage to the forest canopy is common at mid and high latitudes (Lemon, 1961), but this rarely happens at lower latitudes, especially in subtropical forests (Wu et al., 2011). ...
+Canopy openness and topographic habitat drive tree seedling recruitment after snow damage in an old-growth subtropical forest
+Article
+Full-text available
+
+    Dec 2018
+    FOREST ECOL MANAG
+
+    Xiaoyang Song Xiaoyang Song
+    J. Aaron Hogan J. Aaron Hogan
+    Luxiang Lin Luxiang Lin
+    Jie Yang Jie Yang
+
+We investigated the relative and combined effect of topography and light environment on the recruitment of seedlings in a subtropical forest after snow damage to the canopy. The tree seedling community in an old-growth subtropical forest was monitored using 500 2 m × 2 m seedling plots at six-month intervals for 2 years. With a focus on recruitment following canopy damage, we related abiotic and biotic environmental variables to seedling dynamics, and we tested if significant topographic and light habitat associations were present for seedlings recruiting via a torus translation test. Then, we used variance partitioning to examine the relative effects of spatial, topographic and light variables on the temporal assemblages of seedlings. A total of 3047 seedlings from 58 species recruited in the first 2 years following snow damage. At the community level, increases in seedling abundance and richness were positively correlated with canopy openness and negatively correlated with elevation. At the species level, both pioneer and late-successional tree species had more recruits in high light environment than in low light environment. 84.3% of the recruiting seedlings were significantly associated to either light environment (35.7%), topography (26.5%) or both (22.1%). Despite this, at the plot level, spatial variables (PCNM) explained the majority of the variability in seedling composition over time. Our results suggest that snow damage to the canopy increases species richness and abundance via light-facilitated seedling recruitment , and that the composition of recruiting seedlings was largely spatially dependent. Topographic habitat filtering acts as a persistent force in determining the recruitment of seedlings and increases in strength with increased light-facilitated seedling recruitment. Our results highlight that, in this subtropical forest, both light requirement and topographic specialization interact over time to play a key role in promoting coexistence of tree species through selection of individuals at the seedling stage. We also suggest exploring the possibilities of management intervention to speed up the recovery of this forest.
+View
+Show abstract
+... Other tree-ring approaches were used recently to reconstruct past climatic variations, mostly with chemical indicators Stott, 2011, 2008;Brienen et al., 2012). The disturbance of tree-ring patterns to reconstruct storms is seldom in international literature: one study identified past hailstorm marks using damage made in tree trunks (Hohl et al., 2002), and few others studied records of ice storms (Lafon and Speer, 2002; Olthof et al., 2003; Travis and Meentemeyer, 1991). Here, in the absence of coastal erosion and exposed roots, we focus on tree stems and adapt the tree-ring method previously used for geomorphic processes on slopes (e.g. ...
+Sedimentological and dendrochronological indicators of coastal storm risk in western France
+Article
+Full-text available
+
+    Jul 2018
+    ECOL INDIC
+
+    Pierre Pouzet Pierre Pouzet
+    Marc Robin Marc Robin
+    Armelle Decaulne Armelle Decaulne
+    Mohamed Maanan Mohamed Maanan
+
+This paper compares results from two different environmental methods to observe past storm impacts: the back coastal barrier stratigraphical and dendrochronological archives. With a detailed historical database of the past 50 years storm observations, we discuss the combination of results from these two methods in a coastal study located in western France. The study shows that neither tree ring nor sedimentological results build a complete storm chronology by themselves. However, the combination of the two is sufficient to detect the strongest storms, which caused marine flooding. Comparing them with an accurate impact of storm chronology, extracted from written sources to test their robustness, we show that the combination of these two approaches offer a complete dataset. From this exhaustive historical sequence ranging from 1955 to 2016, three winters with major storms are highlighted in Traicts du Croisic: 1990, 1978 and 1972. Combining dendrochronology and sedimentology therefore enables a better understanding of extreme storm occurrences.
+View
+Show abstract
+... We documented a novel outbreak of a strongly invasive alien branched herb in the interior of a primary montane forest following snow damage to the forest canopy. Snow damage changed forest structure by directly damaging tree branches, canopy crowns and occasionally tree trunks, leaving a patchwork of forest gaps of differing sizes (Rhoads et al., 2002; Olthof et al., 2003; Wu et al., 2011). Leaf cover decreased significantly as a result, and high light conditions in the understorey (Fig. S2) promoted the germination of the invasive species (Fig. 1). ...
+Snow damage to the canopy facilitates alien weed invasion in a subtropical montane primary forest in southwestern China
+Article
+Full-text available
+
+    May 2017
+    FOREST ECOL MANAG
+
+    Xiaoyang Song Xiaoyang Song
+    J. Aaron Hogan J. Aaron Hogan
+    Calum Brown Calum Brown
+    Jie Yang Jie Yang
+
+Climate-mediated disturbance often promotes the invasion of non-native species, which impact local ecosystems by altering community structure and composition. In subtropical forests, the formation of canopy gaps, which allow for rapid regeneration in the understorey, strongly affects successional dynamics. However, the role of canopy gaps in promoting invasive species into forest interiors has not been extensively studied. We examined the relationship between canopy disturbance and the germination of Ageratina adenophora (Asteraceae), a non-native branched herb species, using seedling population data from a 20-Ha forest dynamics plot in southwest China. The species was first recorded in 2015, after extensive snow-damage to the forest canopy. Our hypothesis was that canopy gaps increase light availability on the forest floor, thereby facilitating the germination and subsequent invasion by the non-native branched herb into the forest interior. Field measurements of the Leaf Area Index before and after the snow damage was combined with measurements of canopy gaps and associated light conditions. Biotic factors (tree seedling species richness, herb species richness and herb coverage), abiotic factors (elevation, slope, convexity and soil moisture), and the density and spatial distribution of A. adenophora were also measured ten months after the snow damage. Seedling germination experiments were conducted in the lab to test the relationship between light availability and the germination of the invasive branched herb, showing the branched herb to be light demanding. Using spatial statistical methods, we found significant relationships between densities of recruiting A. adenophora and canopy gaps, with high densities of the invasive branched herb recruiting into gap areas. We conclude that light availability shapes the distribution of A. Adenophora in the understorey in this subtropical evergreen montane forest. Our results illustrate that disturbances leading to canopy damage can promote the establishment and proliferation of invasive understorey species in forest interiors, providing a rapid route to colonization.
+View
+Show abstract
+... Gradient traits (climate, soil, water, altitude, biotic, biochemical) ST, FD [101,103,124,[251][252][253][254] Structural ST Spatial distribution, configuration patterns, structure, heterogeneity, homogeneity, diversity (alpha, beta, gamma diversity), abundance, Connectivity, neighbourhood relationship, area, density, size, shape, extent of forest areas; Spatial distribution of biochemical ST, phylogenetic ST, individual, forest tree species, communities, forest ecosystem, forest types ST, FD [27,84,89,115,142,143,187,[255][256][257][258][259][260][261][262][263][264][265][266] Fragmentation ST, FD [267][268][269][270][271][272] 2.5 D/3 D architecture & layering, Canopy volume ST, FD [74,110,113,257,[273][274][275][276][277][278][279][280][281][282][283] Leaf Area Index (LAI) ST, FD [131, [284] [285][286][287][288][289][290][291][292] Scaling traits TD, ST, FD [317,318] Phylogenetic information of traits TD, ST, FD [89,319] ...
+Understanding Forest Health with Remote Sensing -Part I - A Review of Spectral Traits, Processes and Remote-Sensing Characteristics
+Article
+Full-text available
+
+    Dec 2016
+
+    Angela Lausch Angela Lausch
+    Stefan Erasmi Stefan Erasmi
+    Douglas J. King Douglas J. King
+    Marco Heurich Marco Heurich
+
+Anthropogenic stress and disturbance of forest ecosystems (FES) has been increasing at all scales from local to global. In rapidly changing environments, in-situ terrestrial FES monitoring approaches have made tremendous progress but they are intensive and often integrate subjective indicators for forest health (FH). Remote sensing (RS) bridges the gaps of these limitations, by monitoring indicators of FH on different spatio-temporal scales, and in a cost-effective, rapid, repetitive and objective manner. In this paper, we provide an overview of the definitions of FH, discussing the drivers, processes, stress and adaptation mechanisms of forest plants, and how we can observe FH with RS. We introduce the concept of spectral traits (ST) and spectral trait variations (STV) in the context of FH monitoring and discuss the prospects, limitations and constraints. Stress, disturbances and resource limitations can cause changes in FES taxonomic, structural and functional diversity; we provide examples how the ST/STV approach can be used for monitoring these FES characteristics. We show that RS based assessments of FH indicators using the ST/STV approach is a competent, affordable, repetitive and objective technique for monitoring. Even though the possibilities for observing the taxonomic diversity of animal species is limited with RS, the taxonomy of forest tree species can be recorded with RS, even though its accuracy is subject to certain constraints. RS has proved successful for monitoring the impacts from stress on structural and functional diversity. In particular, it has proven to be very suitable for recording the short-term dynamics of stress on FH, which cannot be cost-effectively recorded using in-situ methods. This paper gives an overview of the ST/STV approach, whereas the second paper of this series concentrates on discussing in-situ terrestrial monitoring, in-situ RS approaches and RS sensors and techniques for measuring ST/STV for FH.
+View
+Show abstract
+Effects of an experimental ice storm on forest canopy structure
+Article
+
+    Nov 2019
+    CAN J FOREST RES
+
+    Robert T. Fahey
+    Jeff W. Atkins
+    John Law Campbell John Law Campbell
+    Paul G. Schaberg
+
+Intermediate disturbances are an important component of many forest disturbance regimes, with effects on canopy structure and related functions that are highly dependent on the nature and intensity of the perturbation. Ice storms are an important disturbance mechanism in temperate forests that often result in moderate-severity, diffuse canopy damage. However, it has not previously been possible to distinguish the specific effect of ice storm intensity (as ice accretion) from predisturbance stand characteristics and physiographic factors. In this study, we utilized a novel experimental ice storm treatment to evaluate the effects of variable ice accretion levels on forest canopy structure. Our results verified significant impacts of ice storm disturbance on near-term canopy structural reorganization. Canopy openness, light transmission, and complexity increased significantly relative to predisturbance baselines and undisturbed controls. We documented variable impacts with disturbance intensity, as significant canopy changes largely occurred with ice accretion levels of ≥12.7 mm. Repeated ice storm disturbance (two consecutive years) had marginal, rather than compounding, effects on forest canopy structure. Our findings are relevant to understanding how ice storms can affect near-term forest canopy structural reorganization and ecosystem processes and add to a growing base of knowledge on the effects of intermediate disturbances on canopy structure.
+View
+Show abstract
+Carbon Dynamics at Harvard Forest: Ecological Responses to Changes in the Growing Season: Regional Case Studies from Three Continents
+Chapter
+
+    Jan 2019
+
+    Lauren Kathleen Sanchez
+
+Our understanding of forest carbon dynamics is a crucial component of global carbon management given the potential impacts from future climatic changes. Observed increases in carbon storage in New England forests are not fully understood, and explanations range from increased atmospheric nitrogen deposition to longer growing seasons. These explanations highlight the importance of investigating the phenological and ecosystem function responses to increases in the growing season. Responses were modeled and studied at Harvard Forest, a temperate deciduous forest located in Petersham, MA. Ongoing biometric and eddy flux measurements at the forest provided 17 years of data for this study. Measurements included biometry components, such as leaf area index (LAI) and aboveground woody biomass, and the eddy flux parameters, including carbon flux and measurements of PAR and vapor pressure deficit (VPD). Structural equation modeling (SEM) was used to analyze these data and investigate their whole ecosystem direct and indirect interactions. SEM allowed for analyses that addressed the complexity of forest ecosystems and their components. Growing season length was a significant driver of carbon uptake, and was heavily influenced by soil temperatures below the surface. Analyses of the eddy flux data resulted in a model that accurately portrayed the interactions between the eddy flux components and the growing season (GFI = 0.90). Further, the best-fit integrated model simulated an ecological 1-year time lag between the eddy flux and biometry data (GFI = 0.78). This study presents a basis for SEM analyses with the biometry and eddy flux measurements at Harvard Forest. Further research is needed to investigate the ecosystem function responses to changes in the growing season.
+View
+Show abstract
+The effects of some soil properties and topography on some functional traits of Stachys lavandulifolia Vahl. in Angemar rangeland, Lasem watershed
+Article
+Full-text available
+
+    Jan 2015
+
+    mansoureh kargar
+    Zeinab Jafarian Zeinab Jafarian
+    R. Tamartash
+    Seyed Jalil Alavi Seyed Jalil Alavi
+
+Using ecological indicators for assessing and monitoring the ecosystem status is highly important. This study aimed to investigate the effects of some soil and topography properties on functional traits of Stachys lavandulifolia including species leaf area index, leaf dry matter content and plant height in Angemar rangeland. Thirty soil samples were collected from 0-30 cm of soil surface and their physical and chemical characteristics were measured in the laboratory . Chi-square test ( Pearson) and multiple regressions were used to analyze the data . According to the results, leaf dry matter of the species was not correlated to the measured physiographic factors ( altitude, aspect and slope ). There were significant correlations between leaf area index of the species with pH, nitrogen content and sand percentage of soil samples. Results indicated that dry matter content had significant correlations ( P<0.05) with pH , organic carbon, phosphorus and clay percentage of the soil samples . There was also a significant correlation between the species height and their leaf area index ( P < 0.05, R2= 0.417).
+View
+Show abstract
+Impacts of Forest Gaps on Soil Properties After a Severe Ice Storm in a Cunninghamia lanceolata Stand
+Article
+
+    Jun 2016
+    PEDOSPHERE
+
+    Jianxin XU
+    Li Xue
+    Zhiyao SU
+
+During January-February 2008, a severe ice storm caused significant damages to forests in southern China, creating canopy gaps and changing soil nutrient availability and enzyme activity. To understand the relationships between gap size, changes in the soil environment and the effects that these changes have on soil processes, we investigated the effects of gap size on soil chemical and biological properties in the forest gaps in a Cunninghamia lanceolata stand in northern Guangdong Province, southern China. Ten naturally created gaps, five large (80-100 m2) and five small (30-40 m2), were selected in the stand of C. lanceolata. The large gaps showed a significant increase in light transmission ratio and air and soil temperatures and a decline in soil moisture, organic matter, N and P compared with the small gaps and the adjacent canopy-covered plots in the 0-10 cm soil. The differences in organic matter and nutrient levels found between the large and small gaps and the canopy-covered plots may be related to changes in environmental conditions. This indicated rapid litter decomposition and increased nutrient leaching in the large gaps. Moreover, the lowest levels of catalase, acid phosphatase and urease activities occurred in large gaps because of the decline in their soil fertility. Large forest gaps may have a region of poor fertility, reducing soil nutrient availability and enzyme activity within the C. lanceolata stand.
+View
+Show abstract
+Show more
+Trees and Ice Storms: The Development of Ice Storm-Resistant Urban Tree Populations
+Technical Report
+Full-text available
+
+    Jan 1996
+
+    Richard Hauer Richard Hauer
+    Mary C. Hruska
+    Jeffrey Dawson Jeffrey Dawson
+
+Severe ice storms occur every year in the United States and Canada, particularly in the Midwestern and eastern regions of the United States. Along with fires and wind, ice storms are a frequent and major natural disturbance factor in eastern deciduous forests. Likewise ice storms are responsible for deaths and injuries of people and cause dramatic damage and tree loss to urban forests. Ice storms annually result in millions of dollars in loss, and potentially billions of dollars in losses for extreme and widespread ice storms. Damage to electric distribution systems, blocked roadways, and property damage from fallen trees and limbs pose safety concerns and disrupt normal community functions. Tree species vary in their resistance to ice accumulation. Certain characteristics, such as weak branch junctures indicated by included bark, dead and decaying branches, a broad crown, and fine branching, increase a tree’s susceptibility to ice storm damage. Planting a diverse urban forest that includes trees resistant to ice storms and performing regular tree maintenance to avoid or remove structural weaknesses will reduce damage caused by severe ice storms. Management plans for urban trees should incorporate information on the ice storm susceptibility of trees in order to: limit potential ice damage; to reduce hazards resulting from ice damage; and to restore urban tree populations following ice storms. Susceptibility ratings of species commonly planted in urban areas are presented in this publication for use in developing and maintaining healthy urban tree populations.
+View
+Show abstract
+The effect of ice damage and post-damage fertilization and competition control on understory microclimate of sugar maple ( Acer saccharum Marsh.) stands
+Article
+Full-text available
+
+    Feb 2003
+    FOREST CHRON
+
+    William Parker William Parker
+
+The influence of ice damage, fertilization, and herbicide treatments on understory microclimate was examined in several sugar maple stands during three growing seasons. Stands with greater initial crown damage and lower leaf area index had higher understory light levels, elevated air temperatures and lower humidity. Ice damage had comparatively less effect on the below-ground environment. Stands with higher damage and lower leaf area index exhibited higher soil temperature and lower soil moisture availability in certain years. The strength and significance of the relationships of canopy features with microclimatic variables diminished over time with canopy recovery and growth of understory vegetation. Fertilization treatment effects on stand microclimate were not apparent, but competition control reduced understory leaf area, increased soil temperature, and had minimal influence on soil moisture status.
+View
+Show abstract
+Ice Storm Damage to a Southern Wisconsin Mesic Forest
+Article
+
+    Apr 1985
+
+    Leo P Bruederle Leo P Bruederle
+    Forest W. Stearns
+
+In 1976, an extensive ice storm struck southern Wisconsin, resulting in substantial damage to the upland forest at the University of Wisconsin-Milwaukee Cedar-Sauk Field Station. Strong northeasterly winds following the storm (80.6 km/hour) exacerbated the damage. A forest fuel sampling technique was modified to measure the volume of macro-litter resulting from the ice storm. The canopy was photographed using both wide-angle and fish-eye lenses to determine the effect upon the overstory. Macro-litter volume was determined to be 19.35 m3/ha, accounting for a loss of approximately 35% of the canopy. Damage was uneven and was influenced by topographic and climatic factors; inclination and aspect of slope, as well as wind were found to be of particular importance. Species susceptibility to glaze varied considerably. Susceptibility was quantified by preparing a ratio of the observed macro-litter volume with the expected volume based upon the relative dominance of each species in the stand. Ratio products ranged from 1.55 for Ulmus rubra, the most susceptible species, to 0.17 for Ostrya virginiana. Factors responsible for species susceptibility include growth form, mechanical properties of wood, tree age and degree of decay, and position in the canopy.
+View
+Show abstract
+Quantifying ice damage by counting branches on damaged sugar maple trees
+Article
+
+    Aug 2001
+    FOREST CHRON
+
+    R.A. Lautenschlager
+    John A. Winters
+
+We quantified the productive capacity of sugar maple crowns by counting branches (third order and epicormic) on damaged trees following the 1998 ice storm in southeastern Ontario. The covariates derived from branch counts provided greater statistical confidence, for explaining post-damage root starch and sap (volume and sweetness) production, than did crown damage estimates. When combined with predictive equations for leaf area and biomass per branch, branch counts produce estimates of foliar biomass for individual trees, regardless of the amount of damage received. Although visual estimates of crown damage seem appropriate for documenting stand-level injury, those interested in individual tree responses or comparing damage among trees should consider counting branches as a way to quantify the productive capacity of trees with or without damage.
+View
+Show abstract
+Leaf area index change in ice storm damaged sugar maple stands
+Article
+Full-text available
+
+    Aug 2001
+    FOREST CHRON
+
+    Ian Olthof Ian Olthof
+    Douglas J. King Douglas J. King
+    R.A. Lautenschlager
+
+Changes in Leaf Area Index (LAI) between the summers of 1999 and 2000 were measured using the TRAC optical instrument in sugar maple stands damaged by the 1998 ice storm. Changes were determined to be significant if they were greater than the 95% bounds of the instrument precision. They were evaluated in relation to 1998 canopy damage estimates, 1999 stand treatments (lime, fertilizer, lime + fertilizer, herbicide, none), and 1999 understory vegetation cover. Results show that LAI change is significantly related to overstory damage, and understory abundance in the 0-7-m height range. Plot treatments were not related to these LAI changes, possibly due to the short time interval between application and LAI measurement.
+View
+Show abstract
+Precipitation type transition regions in winter storms over southern Ontario
+Article
+
+    Dec 1990
+    J GEOPHYS RES
+
+    Ronald E. Stewart
+    Patrick King
+
+Two winter storms passed through the Toronto area during November and December 1987. Information from radar, rawinsonde, and surface observations was analyzed in order to determine the kinematic flow fields and thermodynamic environment in the vicinity of the transition at the surface between snow and rain. This region was also linked to heavy precipitation and thunder. Updrafts preferentially occurred over the snow region, and deep near-0°C layers occurred in the transition region. Observations are consistent with a mesoscale circulation initiated by melting snow and possibly with the occurrence of symmetric instability. It is further suggested that large, possibly wet, snowflakes being formed within such deep near-0°C layers would contribute to the radar detection of precipitation bands near the precipitation transition region.
+View
+Show abstract
+Statistical Methods, Iowa State University Press
+Article
+
+    Jan 1989
+
+    G. W. and Snedecor
+    W. G. (Eds.). Cochran
+
+View
+Relation to Disease and Decay
+Article
+
+    W. H. Smith
+
+View
+Ontario''s forest science e orts following the 1998 ice storm
+Article
+
+    Aug 1999
+    FOREST CHRON
+
+    R.A. Lautenschlager
+    Cathy Nielsen
+
+The 1998 ice storm, which caused extensive damage to forests from eastern Ontario to the Canadian Maritimes, led to a variety of economic and ecological questions from governments, concerned publics, and stakeholder groups. Here we outline how the Ontario Ministry of Natural Resources, working with other organizations, developed short- and longer-term responses to those questions. Efforts have already produced: 1) a low-level aerial storey of forests damaged; 2) extension notes for homeowners, landowners, maple syrup producers, plantation owners, natural resource agencies, and municipalities; 3) information for media and natural resource education groups; 4) standardized techniques and training for assessing damage and making recommendations; 5) literature reviews and synthesis; and 6) management guidelines. In addition, a manipulative experiment in sugar maple stands has been initiated to document: 1) the effects of tapping on sugar maple recovery; 2) the potential of remedial treatments (fertilizer additions alone or in combination) to speed recovery or mitigate further damage; 3) the effects of both damage and potential remedial treatments on sap production; and 4) selected ecological consequences of damage and remedial treatments. Research to examine the effects of damage to woodlots and plantations will: 1) quantify damage in plots representing a variety of forest types, many established and assessed before the storm; 2) examine disease, stain, decay, and insect damage probabilities in broadleaf and conifer stands; 3) document insect responses to damage in red pine plantations; 4) develop economically based decision-support tools for local through regional management decisions, for damaged pine and maple stands; and 5) document the biological and economic consequences of post-damage salvage and 'cleanup' operations. To date, science efforts have provided short-term recommendations related to specific stakeholder concerns, while the research will develop new knowledge related to ice damage and potential remedial treatments.
+View
+Show abstract
+Management of Ice Storm Damaged Stands
+Article
+
+    B. Boulet
+    F. Trottier
+    G. Roy
+
+View
+Show more
+Advertisement
+Recommendations
+Project
+UAV Photogrammetry for Mapping and Monitoring of Northern Permafrost Landscapes
+
+    Robert H Fraser Robert H Fraser
+    Jurjen van der Sluijs Jurjen van der Sluijs
+    Trevor C Lantz Trevor C Lantz
+    [...]
+    Jon F. Tunnicliffe Jon F. Tunnicliffe
+
+Investigate the advantages, challenges, and best practices for acquiring high resolution imagery from multicopters to create detailed point clouds, orthomosaics, and terrain models of northern land scapes. Integrate these UAV-based outputs with field measurements and satellite imagery to conduct spatial scaling of environmental parameters. ... [more]
+View project
+Project
+Current Projects: Hyperspectral tundra vegetation productivity; UAV multi/hyperspectral imaging for farming & water quality; Farmland dynamics & biodiversity; Grassland/forage classification; Forested wetland vegetation/hydrology characterization.
+
+    Douglas J. King Douglas J. King
+
+Various. Contact for more information.
+View project
+Project
+Impacts of spatial heterogeneity in farmlands on ecosystem services and biodiversity
+
+    Scott W. Mitchell Scott W. Mitchell
+    Lenore Fahrig Lenore Fahrig
+    Douglas J. King Douglas J. King
+    [...]
+    Joseph R Bennett Joseph R Bennett
+
+View project
+Project
+Radar Applications in Forestry
+
+    Bannari Abdou Bannari Abdou
+    Douglas J. King Douglas J. King
+    Heiko Balzter Heiko Balzter
+    [...]
+    Lorraine Tighe Lorraine Tighe
+
+View project
+Article
+Ice storm damage: Effects of competition and fertilization on the growth of sugar maple trees
+February 2003 · Forestry Chronicle
+
+    R.A. Lautenschlager
+    John A. Winters
+    John Pedlar
+    Cathy M Nielsen
+
+Treatment plots in blocks established in productive sugar maple (Acer saccharum) bushes throughout southeastern Ontario were used to quantify effects of fertilizers, vegetation control and interactions on maple growth following the 1998 ice storm. Treatments were applied during the spring of 1999. Increment cores from six mature sugar maple trees in each plot in each block were extracted and ... [Show full abstract] examined during October 2001. Maple growth was highly variable before the storm, but fell to a 30-year low during both the first and second year after the storm. Growth reductions increased with increasing crown damage. Treatment-related statistical differences were marginal; however, the data suggest that phosphorus and potassium additions and competition control improved the growth of ice-damaged mature sugar maple trees. The combination of competition control and fertilization increased growth of ice-damaged maple the most.
+Read more
+Article
+Full-text available
+Leaf area index change in ice storm damaged sugar maple stands
+August 2001 · Forestry Chronicle
+
+    Ian Olthof Ian Olthof
+    Douglas J. King Douglas J. King
+    R.A. Lautenschlager
+
+Changes in Leaf Area Index (LAI) between the summers of 1999 and 2000 were measured using the TRAC optical instrument in sugar maple stands damaged by the 1998 ice storm. Changes were determined to be significant if they were greater than the 95% bounds of the instrument precision. They were evaluated in relation to 1998 canopy damage estimates, 1999 stand treatments (lime, fertilizer, lime + ... [Show full abstract] fertilizer, herbicide, none), and 1999 understory vegetation cover. Results show that LAI change is significantly related to overstory damage, and understory abundance in the 0-7-m height range. Plot treatments were not related to these LAI changes, possibly due to the short time interval between application and LAI measurement.
+View full-text
+Article
+Ontario's Forest Science Research and Extension Efforts after the 1998 Ice Storm
+January 2007 · Journal of Forestry -Washington-
+
+    R.A. Lautenschlager
+    Cathy Nielsen
+
+The 1998 ice storm devastated major portions of south central Canada and the northeastern United States. After the storm, Ontario developed major communication and forest-focused research efforts designed to improve understanding of the short- and longer-term ecological consequences of the storm, its economic consequences, and proactive approaches that could be developed to reduce damage in the ... [Show full abstract] future. This article summarizes results from the major aspects of that effort: (1) communications, (2) a fertilizer/competition control experiment designed to aid sugar maple recovery and document the physiological and stand-level ecological consequences of those treatments, and (3) the consequences of both damage and postdamage management in woodlots, including plantations.
+Read more
+Article
+Quantifying ice damage by counting branches on damaged sugar maple trees
+August 2001 · Forestry Chronicle
+
+    R.A. Lautenschlager
+    John A. Winters
+
+We quantified the productive capacity of sugar maple crowns by counting branches (third order and epicormic) on damaged trees following the 1998 ice storm in southeastern Ontario. The covariates derived from branch counts provided greater statistical confidence, for explaining post-damage root starch and sap (volume and sweetness) production, than did crown damage estimates. When combined with ... [Show full abstract] predictive equations for leaf area and biomass per branch, branch counts produce estimates of foliar biomass for individual trees, regardless of the amount of damage received. Although visual estimates of crown damage seem appropriate for documenting stand-level injury, those interested in individual tree responses or comparing damage among trees should consider counting branches as a way to quantify the productive capacity of trees with or without damage.
+Read more
+Discover more
+Download citation
+What type of file do you want?
+RIS
+BibTeX
+Plain Text
+What do you want to download?
+Citation only
+Citation and abstract
+Download
+RG Logo
+ResearchGate iOS App
+Get it from the App Store now.
+Install
+Keep up with your stats and more
+Access scientific knowledge from anywhere
+ResearchGate Logo
+or
+Discover by subject area
+
+    Recruit researchers
+    Join for free
+    Login
+    Email
+    Tip: Most researchers use their institutional email address as their ResearchGate login
+    Password Forgot password?
+    Keep me logged in
+    Log in
+    or
+    Continue with LinkedIn
+    Continue with Google
+    Welcome back! Please log in.
+    Email
+    · Hint
+    Tip: Most researchers use their institutional email address as their ResearchGate login
+    Password Forgot password?
+    Keep me logged in
+    Log in
+    or
+    Continue with LinkedIn
+    Continue with Google
+    No account? Sign up
+
+App Store
+Company
+About us
+News
+Careers
+Support
+Help Center
+Business solutions
+Advertising
+Recruiting
+© 2008-2020 ResearchGate GmbH. All rights reserved.
+
+    Terms
+    Privacy
+    Copyright
+    Imprint
+

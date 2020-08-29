@@ -1,0 +1,875 @@
+
+
+Cookie Notice
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners in accordance with our Privacy Policy . You can manage your preferences in 'Manage Cookies'.
+Close
+OK
+Manage Cookies
+
+    Your Privacy
+
+    Strictly Necessary Cookies
+
+    Performance & Analytics Cookies
+
+    Functional Cookies
+
+    Targeting Cookies
+
+    More Information
+
+Privacy Preference Centre
+
+Active
+
+Always Active
+Save Settings
+Allow All
+Skip to main content
+
+Advertisement
+Advertisement
+
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript.
+
+    nature
+    nature communications
+    articles
+    article
+
+A Nature Research Journal
+Menu
+Nature Communications Nature Communications
+Search E-alert Submit My Account Login
+
+    PDF
+
+Tree height explains mortality risk during an intense drought
+Close menu
+Search
+Article search
+Search
+
+Advanced search
+Quick links
+
+    Explore articles by subject
+    Find a job
+    Guide to authors
+    Editorial policies
+
+Close menu Close menu
+Nature Communications menu
+
+    News & Comment
+    Research
+
+    Browse Articles
+    Browse Collections
+    Browse Subjects
+
+    About the journal
+    Submit
+    Journal policies
+    Editors' Highlights
+    Contact
+    Videos
+    Top Articles of 2019
+
+Nature Research menu
+Our Journals
+
+    Nature
+    Nature Communications
+    Nature Protocols
+    Scientific Reports
+    View all journals
+
+Subjects
+
+    Biological Sciences
+    Scientific Community & Society
+    Earth & Environmental Sciences
+    Health Sciences
+    Physical Sciences
+    View all subjects
+
+More
+
+    Contact us
+    Authors & Referees
+    Librarians
+    Advertisers
+    Press
+    About Nature Research
+
+Close menu
+
+    Article
+    Open Access
+    Published: 26 September 2019
+
+Tree height explains mortality risk during an intense drought
+
+    Atticus E. L. Stovall   ORCID: orcid.org/0000-0001-9512-3318 1 , 2 ,
+    Herman Shugart   ORCID: orcid.org/0000-0002-1766-8379 2 &
+    Xi Yang   ORCID: orcid.org/0000-0002-5095-6735 2  
+
+Nature Communications volume  10 , Article number:  4385 ( 2019 ) Cite this article
+
+    5948 Accesses
+
+    19 Citations
+
+    98 Altmetric
+
+    Metrics details
+
+    A Matters Arising to this article was published on 07 July 2020
+
+Abstract
+
+Forest mortality is accelerating due to climate change and the largest trees may be at the greatest risk, threatening critical ecological, economic, and social benefits. Here, we combine high-resolution airborne LiDAR and optical data to track tree-level mortality rates for ~2 million trees in California over 8 years, showing that tree height is the strongest predictor of mortality during extreme drought. Large trees die at twice the rate of small trees and environmental gradients of temperature, water, and competition control the intensity of the height-mortality relationship. These findings suggest that future persistent drought may cause widespread mortality of the largest trees on Earth.
+Download PDF
+Introduction
+
+Drought is likely to become more widespread, prolonged, and extreme over the next century 1 . Tropical 2 , 3 , temperate 4 , and boreal 5 forests are already experiencing historically unprecedented drought accompanied with massive increases in tree mortality 6 . Severe drought conditions strongly increase ambient temperature and decrease precipitation, which in concert push trees to their physiological limits 7 by increasing vapor pressure deficit (VPD) 8 . Widespread tree death changes ecosystem structure and produces consequent feedbacks in surface energy balance, which reduces the capacity of forests to mediate climate and exacerbates drought conditions 9 . Large trees contribute to the most substantial tree-related micro-climatological benefits 10 —highlighting the necessity for constraining mortality expectations of these trees to better predict future vegetation-climate feedbacks.
+
+Extreme drought may intensify height-dependent tree mortality 11 , drastically shifting future ecosystem structure and demographics. The main mechanisms of tree death during drought are carbon starvation and hydraulic failure 12 —both of which are exacerbated by the presence of biotic agents 13 (e.g., beetles). Theoretical 14 and empirical 11 , 15 , 16 work indicates an increased risk for large trees under drought stress. However, higher mortality in small trees is reported, as well 4 , 5 , 17 , 18 . This disagreement in past mortality studies highlights the system-dependent response of trees during drought. Past work has relied on global aggregation of plot-level datasets to compile sufficient observations for a confident assessment of risk factors 11 , 19 , but these syntheses are across past observations, which are limited in their extent and/or sample size. Spatially extensive tree-level assessments in specific forest types are needed to substantially improve future predictions of global tree mortality 20 .
+
+To this end, we track the mortality of 1.8 million trees in conifer-dominated forests over 8 years during one of the most severe and prolonged droughts recorded in the Southwest of North America to determine the primary cause of tree death. We combine high-resolution (sub-meter) airborne three-dimensional and optical data for over 40,000 ha within the southern Sierra Nevada forest to locate individual trees and assess mortality across the landscape. We identify and track crown-level tree mortality (88% accuracy, Supplementary Figs.  1 – 4 ) in the high-resolution airborne imagery for each acquisition year and, during the highest mortality period (2014–2016), test biological, topographic, soil, and climatological variables as drivers of tree-level mortality probability and mortality rate. We find that tree height is the single most important predictor of tree death during drought. Nearly half of all trees >30 m tall died during the study period—a rate more than double that of trees <15 m tall. We then show how extremes in the environment mediate or exacerbate mortality intensity. As environmental stressors increase, we find large trees are non-linearly impacted, suggesting more frequent and extreme drought may be most detrimental to the largest trees on Earth.
+Results
+Temporal mortality trends
+
+The temporal trend of tree mortality clearly shows height-dependent trajectories (Fig.  1 ). We initially tested the relative percent mortality at 5 m tree height classes from 2009 to 2016 to determine the presence of a height-dependent relationship over the drought period (Fig.  1a ). We simplify the analysis into small (< 15 m), medium (15–30 m), and large (> 30 m) height classes for interpretation of the time series (Fig.  1b ). In total, we identified 305,600 small trees, 855,730 medium trees, and 647,004 large trees. From 2009 to 2010, mortality was 1.56, 0.80, and 0.58% yr −1 for small, medium, and large trees, respectively. From 2010 to 2014, mortality rate rose across all tree heights and by 2014 cumulative mortality was 14.15%, 9.24%, and 5.09% for small, medium, and large trees, respectively. In 2016, large-tree mortality rate surged from the background rate of ~1–19.90% yr −1 , while small and medium height trees died at a rate of 8.85 and 14.38% yr −1 . By 2016, cumulative mortality was highest in large trees (45%), followed by medium (38%) and small (32%) trees. Overall, we estimate that 740,724 or 41% of the measured trees died from 2009 to 2016.
+Fig. 1
+figure1
+
+a Height-dependent cumulative mortality and b trend in mortality rate of small (< 15 m), medium (15–30 m), and large (> 30 m) trees since the start of drought. Our temporal analysis shows 740,724 trees died in the 40,854 ha study area over an eight-year period (41% mortality). a The cumulative mortality of all years reflects the relative percent mortality of all trees in 5 m height classes (e.g., at the study’s end, 40% of all 40 m trees died). Vertical lines show the range of tree heights defined as small, medium, and large. Prior to the start of drought, all tree heights have similar mortality rates, with elevated mortality in smaller tree populations. As drought persists, the mortality increased in small trees, while it remained lower in large trees. At the late stages of drought, the mortality rate of all trees increases, with large trees surpassing the rates of smaller tree heights, and becoming the most vulnerable population. The error bars indicate 95% confidence of mean mortality rate within height class
+Full size image
+Mortality drivers
+
+Tree height was the strongest predictor of tree mortality, compared with maximum vapor pressure deficit, maximum temperature, precipitation, available water storage, cover, and slope (Fig.  2a, b ). For every 10 m taller a tree grows, the risk of mortality increases by 1.26 times (95% CI 1.254–1.264) and mortality rate increases by 2.40% yr −1 (95% CI 2.3–2.5). Vapor pressure deficit is a primary predictor of tree mortality, but is highly correlated with temperature and precipitation ( r   = 0.98 and 0.96, respectively). To test the strength of vapor pressure deficit in predicting tree mortality we ran a reduced model, substituting vapor pressure deficit for temperature and precipitation. We found a 0.4 kPa increase in maximum VPD increases mortality risk by 1.12 times (95% CI 1.116–1.127) and mortality rate increases 1.46% yr −1 (95% CI 1.29–1.63; Supplementary Fig.  5 ). Tree height is even more important in the reduced VPD model, with an increase in overall mortality risk to 1.35 times (95% CI 1.340–1.350) and mortality rate to 3.42% yr −1 (95% CI 3.28–3.56). Temperature and precipitation, like VPD, are strong drivers of tree mortality. We found that for every 2.9% (0.4 °C) increase in average maximum temperature during the study period above historical levels results in an increase in tree mortality risk by 1.123 times (95% CI 1.120–1.128) and rate by 1.52% yr −1 (95% CI 1.42–1.62). Every decrease in precipitation by 4% (35 mm) below historical averages increases mortality risk by 1.070 times (95% CI 1.066–1.073) and rate by 0.85% yr −1 (95% CI 0.75–0.94). Increasing soil water availability by 6.2 mm led to 1.112 times (95% CI 1.108–1.117) higher risk of mortality and a 1% yr −1 (95% CI 0.92–1.12) increase in mortality rate. Finally, increasing tree cover by 17% increased mortality risk by 1.110 times (95% CI 1.105–1.114) and mortality rate by 0.80% yr −1 (95% CI 0.68–0.91).
+Fig. 2
+figure2
+
+Tree height is the dominant controlling factor of tree death during drought, followed by temperature, vapor pressure deficit, available water storage, tree cover, and precipitation. Tree height (TREE Z ), tree cover (COVER%), maximum vapor pressure deficit (VPD MAX ), temperature (ΔT%), water (ΔPPT%), slope, and soil texture (SOIL AWC ) explain the a Odds of tree death and [b] change in mortality rate ( n   = 1,808,334). Variables with odds ratios greater than one (vertical dashed line) increase mortality risk (red) and less than one decrease mortality risk (blue). Error bars represent the 95% confidence in the estimates of the odds ratio and mortality rate. *Note: VPD MAX is highly correlated with ΔT% and ΔPPT%, so we derive odds ratio and change in mortality rate for this variable in a reduced model (see Supplementary Fig.  5 ), excluding temperature and precipitation
+Full size image
+
+Biological and environmental variables modulate the relationship between tree mortality and height. The slope of the mortality-height relationship ( β MORTALITY-HEIGHT ) varies linearly with nearly every environmental variable tested (Fig.  3 ; Supplementary Table  2 ). Of the variables tested, maximum VPD ( β 1  = 0.0938% yr −1  m −1  kPa −1 , R 2  = 0.88) and maximum temperature ( β 1  = 0.0762% yr −1  m −1  °C −1 , R 2  = 0.73) most strongly increased intensity of the height-mortality relationship. Under more mild conditions (e.g., low VPD) β MORTALITY-HEIGHT remains close to 0, indicating a lack of height-dependent mortality relationship. β MORTALITY-HEIGHT increases linearly as conditions move to the opposite extreme (e.g., high VPD). For instance, trees that experienced an average maximum vapor pressure deficit greater than 2.4 kPa during the study period had an average mortality rate of 1.05% yr −1 for each additional meter taller the trees grew. In areas experiencing these levels of high maximum VPD, the mortality rate for a 10 m tall tree was 6% yr −1 , while trees above 30 m were lost at ~30% yr −1 (5.3 times greater). We found similar, albeit weaker, linear relationships for precipitation ( β 1  = −0.0038% yr −1  m −1  mm −1 , R 2  = 0.46), available water storage ( β 1  = 0.0938% yr −1  m −1  mm −1 , R 2  = 0.49), and slope ( β 1  = 0.0030% yr −1  m −1  % −1 , R 2  = 0.35). Tree cover did not have a clear effect below 50% ( β 1  = 0.1481% yr −1  m −1 % −1 , R 2  = 0.83), but above 50% the height-mortality relationship was strong ( β 1  = 2.371% yr −1  m −1  % −1 , R 2  = 0.98).
+Fig. 3
+figure3
+
+Environmental gradients drive the susceptibility of large trees during drought ( β MORTALITY-HEIGHT  > 0). Higher vapor pressure deficit a during drought—resulting from higher temperatures b and lower precipitation c —disproportionately increase mortality in large trees. d Large trees adapted to soils with higher available water storage are at increased risk during drought. e Areas with >50% tree cover have elevated large-tree mortality rate. f Large trees are less likely to survive on steeply sloped areas during drought. Regression slopes and R 2 values are weighted by 1/ σ 2 and point size reflects number of tree observations. Error bars represent the 95% confidence in the slope of the mortality-height relationship ( β MORTALITY-HEIGHT ). See Supplementary Table  2 for slope and error coefficients
+Full size image
+Discussion
+
+Over the drought period, large trees become more vulnerable than small trees (Fig.  1a, b ). Initially we observe low mortality rate (1–5%), with slightly higher rates in small trees (5–10 m), reflecting typical competition-driven background mortality rates in forest ecosystems. The peak in small-tree mortality early in the drought suggests shorter trees may be more vulnerable under shorter duration and intense droughts. However, this would need to be demonstrated in additional drought events of varying length and intensity. As drought persists, large-tree mortality is 1.5–2.7 times higher than medium- and small trees (contrary to earlier work in California 8 ). We attribute this temporal differentiation in height-dependent mortality risk to the strong relationship between leaf area, water, and carbon requirements for sustained productivity. More persistent drought increases the risk of carbon starvation 13 , thus increasing mortality risk for large trees due to their relatively higher metabolic requirements 21 . Dense and shallow roots in small trees may also improve survival odds 13 by enabling rapid water uptake when precipitation finally occurs. Given the dramatic increase in tree mortality from 2014 to 2016, we focus the remainder of our analysis on determining the primary cause of mortality during this period.
+
+Tree height is the single most important predictor of both mortality risk and mortality rate during this drought (Fig.  2a, b ). These findings support theoretical work that suggests the internal hydraulic structure of trees alone is a major driver of tree mortality risk 14 . The hydraulic structure of trees commands such strong control over mortality since effects of gravity and xylem-wall resistance increase non-linearly with tree height 14 , 22 . The greatest hydraulic safety margins are observed in Gymnosperms—the dominant tree group in this region. Conversely, Angiosperms 23 have low hydraulic safety margins, making flowering trees more susceptible under drought stress. The extreme mortality rates observed here may be exceeded in flowering tree populations under a changing climate and prolonged future drought 23 , potentially shifting future forest species composition 24 . A notable exception is the Pinus genus, which has undergone widespread dieback 25 and is common at the lower elevations in our study. Higher temperature and deficit in precipitation elevates vapor pressure deficit reducing tree survival across whole forest stands 8 , but our findings indicate climate is of less absolute importance compared with individual tree height, at least in this region (Fig.  2a, b ).
+
+Climatic gradients in the environment control large-tree mortality rate (Fig.  3a–c ), which explains the contrary height-dependent drought risk seen across sites in global studies 11 . The observed lowest temperatures and highest precipitations produce a near zero slope in the mortality-height relationship (i.e., suppressing height-dependent mortality risk). As temperatures rise and precipitation drops, vapor pressure deficit increases 8 and large trees are more detrimentally affected, indicated by a linear increase in the slope coefficient of the mortality-height model ( β 1  > 0). The environmental control of mortality is nonlinear ( M  =  β 0  +  β 1 Z TREE Δ ENV , where M is mortality rate, Z TREE is tree height, and Δ ENV is changing environmental condition)—resulting in a more precipitous increase in risk for large trees with relatively small changes in climate. The climate-sensitive nature of large trees could increase their mortality risk in the face of a rapidly changing global climate and extreme weather events 14 .
+
+Local adaptation to higher soil water availability increases risk of mortality in large trees (Fig.  3d ), supporting previous work showing a direct relationship between xylem embolism resistance and the level of water stress experienced 13 , 23 . Essentially, the xylem structures of trees grown under favorable conditions are optimized for water flow, not drought resistance 13 . The tallest trees are also more likely to grow in deep, moisture- and nutrient-rich soils 26 , concentrating the largest individuals in locations of highest risk and increasing susceptibility during drought 27 .
+
+Tall trees growing in forests with high percent cover (> 50%) were more likely to die during this extreme drought (Fig.  3e ), specifically due to competition for water, light, and nutrients 28 . Survival in drought-stricken environments is a delicate balance between long-term competition 29 —encouraging rapid growth to capture light—and heightened risk from a longer root-to-shoot pathway 14 . The absence of a relationship below 50% is indicative of a competition-driven effect. Specifically, belowground competition for water is likely to be the primary driver of increased mortality in dry forests with high cover 30 . Our findings suggest the combined impact of competition and frequent drought, along with a clear height dependency of tree susceptibility, are likely to disproportionately impact large trees in the future.
+
+Large trees hold half of all mature-forest carbon, globally 10 , and we expect changing climate to most directly impact these trees 11 , 14 , 15 , 16 . Worldwide loss of large trees would result in a significant terrestrial carbon flux to the atmosphere, further exacerbating global carbon emissions 31 . As more trees die, forest fuel-load increases, along with the risk of wildfire, accelerating loss of carbon from forests 7 (e.g., 2018 fires in California, USA). Shifting climate and increasing disturbance can shift whole ecosystems to alternate states 9 . While our study is unable to conclusively infer trends in long-term vegetation shifts, increasing prevalence of drought may detrimentally affect large trees—reducing maximum potential carbon storage and carbon residence time 10 . Managing of forests to store and sequester carbon over the next century will require careful consideration of height-dependent risk factors.
+
+Extreme drought is becoming more frequent 1 and is already causing massive shifts in ecosystem structure and function 6 , 32 . Our findings suggest that large trees are more likely than small trees to succumb to extreme drought. The loss of large trees would disrupt essential local 9 and global 10 , 31 , 32 ecological, economic, and social benefits. In a relatively small area, our study covers a wide range of environmental conditions (Supplementary Table  1 ; Supplementary Fig.  6 ), so we evaluate the global range of forests with similar climate (see Methods). A total of 72, 42, and 14% of forests experience the range of maximum temperature, annual precipitation, and combination of both found in the current study. At least 14% of Earth’s conifer-containing forests fall within the climatic range observed in this study—suggesting our findings may be more broadly applicable. We expect death in large trees will be mediated by local variations in vapor pressure deficit, temperature, precipitation, adaptation, and competition. Specifically, dense forests 28 with historically favorable conditions 23 are considered extremely high-risk during drought and should be managed to reduce catastrophic mortality (e.g., stand thinning). Our work reconciles past, seemingly contrary, findings concerning height-dependent mortality risk—we clearly show how multiple environmental factors explain the wide variability in the strength of the mortality-height relationship. Our results provide landscape-scale explanation of tree-level function that will be key in predicting forest mortality, carbon storage potential, and vegetation-climate feedbacks in next-generation earth-system models.
+Methods
+Crown mortality classification and mapping
+
+We mapped tree-level mortality and tree height using high-resolution airborne data. We used sub-meter (0.6–1 m) NAIP imagery—freely available annual or biennial flights during the growing season by USDA—to classify tree crowns as dead or alive. All imagery was corrected for atmospheric effects by the vendor prior to analysis. We acquired all available imagery at the three sites from one year prior to the California drought (2009) until the most recently available imagery (2016), for a total of 5 analysis years per site. We automatically classified the NAIP imagery as sunlit or shaded within dead or living forest areas using training data and maximum likelihood classification (ArcMap 10.5.1).
+
+Canopy height was estimated with airborne LiDAR (Light Detection And Ranging) data collected in 2013 over the SOAP and TEAK sites within the National Ecological Observatory Network 33 . We estimate canopy height from two 3D models reconstructing the ground and canopy surface. By subtracting the ground elevation from the canopy surface, we estimated canopy height across the study area. The high-resolution (0.6 m) canopy height model provided detailed information on tree-level canopy dimensions that allowed us to separate the 3D model into individual tree crowns.
+
+Tree crowns are detected with a local maxima approach ( lastrees function in the lidR R package), relying on a moving window to determine local high points in the model of canopy height 34 . The identified high points serve as potential crown locations 35 . Crowns are segmented using small-scale watershed delineation 36 , by first inverting the surface model and finding the approximate edges of the “watershed”. The watershed approach is an established and reliable approach in the forest types included in this study since most trees are conical in shape with little overlap, facilitating location of crown tops and segmentation.
+
+Tree-level crown mortality was based on a threshold of percent of crown death. We assigned all dead pixels in our classified imagery a value of 1 and all remaining pixels as 0. Thus, crown-level averages of theses pixels represent the percent of a single tree crown that is identified as dead. We manually validated our tree-level mortality estimates to determine the highest accuracy threshold at which to identify a tree crown as dead. Sensitivity to the threshold was tested from 0 to 1 and 0.375 or 37.5% crown death provided the highest unbiased (88%) classification accuracy (Supplementary Figs.  1 – 4 ). All subsequent analyses assumed crowns with >37.5% death were dead trees.
+Temporal analysis
+
+Total mortality and mortality rate were calculated by first binning tree-level mortality estimates by 5 m height-class intervals. We estimated mortality rate by totaling the dead trees in each height bin and tracking individual crown status over the 8-year study period. Trees identified as dead were removed from subsequent analysis years so as not to inflate estimates of mortality. The mortality rate was calculated as the percent mortality (dead individuals divided by total number of trees) divided by the number of years since the last image acquisition. We classified tree height into three categories: small (5–15 m), medium (15–30 m), and large (> 30 m). Within each class, we tracked tree mortality rate across the two sites.
+Mortality driver analysis
+
+Environmental gradients were tested as drivers in tree mortality in addition to tree height. We used WorldClim2.0 estimates of maximum temperature and annual precipitation based on climate normals 37 . We used PRISM estimates of vapor pressure deficit, temperature, and precipitation during the drought period from gridded weather data 33 . For all PRISM data, we averaged the yearly estimates over the study period for a single gridded estimate of maximum VPD, maximum temperature, and precipitation from 2009 to 2016. Available soil water storage estimates, a 150 cm profile-summed estimate of available water storage based on soil texture, were also retrieved for our analysis from the SSURGO database 38 . We calculated slope from the LiDAR-derived ground surface model. We also included an estimate of forest cover above 5 m in our analysis by aggregating a classified (greater or less than 5 m) LiDAR canopy height model to 1 ha resolution. All variables were matched to the ~2 million trees in our analysis. We checked variance inflation factors (VIFs) for our predictor variables in both statistical models to ensure minimal collinearity (VIF < 2). Temperature and precipitation were strongly collinear. We remedied collinearity by describing the two variables in terms of percent deviation from historical means—essentially the yearly relative climate anomaly. All variables in both of the final models had VIFs <2.
+
+We tested the strength of environmental drivers in explaining mortality likelihood with bivariate logistic regression. Tree height, cover, and the environmental gradients were treated as predictors for mortality likelihood. We compared standardized coefficients in a multiple bivariate logistic regression model to determine variable importance. A single unit change in a standardized variable represents one standard deviation from the mean, so all variable coefficients can be directly compared. Variables that were not normally distributed (tree height and slope) were log transformed prior to analysis. We represent the coefficients of each variable in the model with odds ratio, indicating the relative increase or decrease in mortality likelihood for every subsequent change in standard deviation from the mean, while controlling for all other environmental variables. We observed <3% background mortality in this study prior to the drought, so we assumed the odds ratio is a close approximation of the relative risk in the study population.
+
+We analyzed the drivers of mortality rate using multiple linear regression modeling. We included an identical set of predictors as the bivariate model, but replaced mortality status with mortality rate. We derived mortality rate with narrow bins across all environmental variables. For each corresponding set of unique bin combinations, we calculated the mortality rate as the number of dead trees divided by the total number of trees in the same bin, dividing by two to represent the 2-year time-lag between the 2010 and 2016 NAIP acquisitions. As such, mortality rate in this study was unable to reach above 50% for any time period, though this likely occurred in some areas. We used the same transformations and standardization as the bivariate logistic regression model to ensure consistency.
+
+To test the impact of climate on the height-mortality relationship, we developed sample-size weighted linear relationships for each binned interval in the environmental data. The slope of the linear model described the impact of a particular environmental gradient on the intensity of the height-mortality relationship. We regressed the significant estimates of the slope of the height-mortality relationship against the corresponding environmental gradient, weighted by σ −1 of the regression slope, allowing us to determine how an increase (or decrease) in a particular environmental factor may impact the strength of the mortality-height relationship. The derived slope from our analysis essentially describes the impact of different environmental gradients on large trees, with higher values representing a strong mortality-height effect for a given set of environmental conditions.
+Global extent of forests with overlapping climate
+
+We evaluate the global distribution of forests 39 with a maximum temperature and annual precipitation that fall within the range observed in this study (Supplementary Table  1 ). Global maximum temperature and average precipitation are derived from WorldClim2.0 2.5 degree data 37 . Within this overlapping climatic 37 range, we quantified the extent of conifer-containing forests using the World Wildlife Fund’s Terrestrial Ecoregions product 39 , 40 .
+Reporting summary
+
+Further information on research design is available in the  Nature Research Reporting Summary linked to this article.
+Data availability
+
+The tree-level data that support the findings of this study are available through figshare with the identifier https://doi.org/10.6084/m9.figshare.7609193.v1 41 .
+Code availability
+
+The analysis for this study is available on GitHub at https://github.com/aestovall/tree_mortality .
+References
+
+    1.
+
+    IPCC. Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation: Special Report of the Intergovernmental Panel on Climate Change . https://doi.org/10.1017/CBO9781139177245 (Cambridge University Press, 2012).
+    2.
+
+    Phillips, O. L. et al. Drought sensitivity of the Amazon rainforest. Science 323 , 1344–1347 (2009).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    3.
+
+    McDowell, N. G. Deriving pattern from complexity in the processes underlying tropical forest drought impacts. New Phytol. 219 , 841–844 (2018).
+
+    Article   PubMed Central   Google Scholar  
+    4.
+
+    van Mantgem, P. J. et al. Widespread increase of tree mortality rates in the western United States. Science 323 , 521–524 (2009).
+
+    ADS   Article   PubMed Central   Google Scholar  
+    5.
+
+    Peng, C. et al. A drought-induced pervasive increase in tree mortality across Canada’s boreal forests. Nat. Clim. Change 1 , 467–471 (2011).
+
+    ADS   Article   Google Scholar  
+    6.
+
+    Allen, C. D., Breshears, D. D. & McDowell, N. G. On underestimation of global vulnerability to tree mortality and forest die-off from hotter drought in the Anthropocene. Ecosphere 6 , 1–55 (2015).
+
+    Article   Google Scholar  
+    7.
+
+    Allen, C. D. et al. A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests. Ecol. Manag 259 , 660–684 (2010).
+
+    Article   Google Scholar  
+    8.
+
+    Eamus, D., Boulain, N., Cleverly, J. & Breshears, D. D. Global change-type drought-induced tree mortality: vapor pressure deficit is more important than temperature per se in causing decline in tree health. Ecol. Evol. 3 , 2711–2729 (2013).
+
+    Article   PubMed Central   Google Scholar  
+    9.
+
+    Bonan, G. B. Forests and climate change: Forcings, feedbacks, and the climate benefits of forests. Science 320 , 1444–1449 (2008).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    10.
+
+    Lutz, J. A. et al. Global importance of large-diameter trees. Glob. Ecol. Biogeogr. 27 , 849–864 (2018).
+
+    Article   Google Scholar  
+    11.
+
+    Bennett, A. C., McDowell, N. G., Allen, C. D. & Anderson-Teixeira, K. J. Larger trees suffer most during drought in forests worldwide. Nat. Plants 1 , 15139 (2015).
+
+    Article   PubMed Central   Google Scholar  
+    12.
+
+    Sevanto, S., Mcdowell, N. G., Dickman, L. T., Pangle, R. & Pockman, W. T. How do trees die? A test of the hydraulic failure and carbon starvation hypotheses: How do trees die? Plant Cell Environ. 37 , 153–161 (2014).
+
+    CAS   Article   PubMed Central   Google Scholar  
+    13.
+
+    McDowell, N. et al. Mechanisms of plant survival and mortality during drought: why do some plants survive while others succumb to drought? New Phytol. 178 , 719–739 (2008).
+
+    Article   PubMed Central   Google Scholar  
+    14.
+
+    McDowell, N. G. & Allen, C. D. Darcy’s law predicts widespread forest mortality under climate warming. Nat. Clim. Change 5 , 669–672 (2015).
+
+    ADS   Article   Google Scholar  
+    15.
+
+    McIntyre, P. J. et al. Twentieth-century shifts in forest structure in California: Denser forests, smaller trees, and increased dominance of oaks. Proc. Natl Acad. Sci. USA 112 , 1458–1463 (2015).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    16.
+
+    Nepstad, D. C., Tohver, I. M., Ray, D., Moutinho, P. & Cardinot, G. Mortality of large trees and lianas following experimental drought in an amazon forest. Ecology 88 , 2259–2269 (2007).
+
+    Article   PubMed Central   Google Scholar  
+    17.
+
+    Shenkin, A. et al. Interactive effects of tree size, crown exposure and logging on drought-induced mortality. Philos. Trans. R. Soc. Lond. B Biol. Sci. 373 , 20180189 (2018).
+    18.
+
+    Giardina, F. et al. Tall Amazonian forests are less sensitive to precipitation variability. Nat. Geosci. 11 , 405–409 (2018).
+
+    ADS   CAS   Article   Google Scholar  
+    19.
+
+    Johnson, D. J. et al. Climate sensitive size-dependent survival in tropical trees. Nat. Ecol. Evol. 2 , 1436–1442 (2018).
+
+    Article   PubMed Central   Google Scholar  
+    20.
+
+    Hartmann, H. et al. Monitoring global tree mortality patterns and trends. Report from the VW symposium ‘Crossing scales and disciplines to identify global trends of tree mortality as indicators of forest health’. New Phytol. 217 , 984–987 (2018).
+
+    Article   PubMed Central   Google Scholar  
+    21.
+
+    West, G. B., Brown, J. H. & Enquist, B. J. A general model for the structure and allometry of plant vascular systems. Nature 400 , 664–667 (1999).
+
+    ADS   CAS   Article   Google Scholar  
+    22.
+
+    Ryan, M., Phillips, N. & Bond, B. The hydraulic limitation hypothesis revisited. Plant Cell Environ. 29 , 367–381 (2006).
+
+    Article   PubMed Central   Google Scholar  
+    23.
+
+    Choat, B. et al. Global convergence in the vulnerability of forests to drought. Nature 491 , 752–755 (2012).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    24.
+
+    Zhang, T., Niinemets, Ü., Sheffield, J. & Lichstein, J. W. Shifts in tree functional composition amplify the response of forest biomass to climate. Nature 556 , 99–102 (2018).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    25.
+
+    Breshears, D. D. et al. Regional vegetation die-off in response to global-change-type drought. Proc. Natl Acad. Sci. USA 102 , 15144–15148 (2005).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    26.
+
+    Koch, G. W., Sillett, S. C., Jennings, G. M. & Davis, S. D. The limits to tree height. Nature 428 , 851–854 (2004).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    27.
+
+    Clark, J. S., Bell, D. M., Kwit, M. C. & Zhu, K. Competition-interaction landscapes for the joint response of forests to climate change. Glob. Change Biol. 20 , 1979–1991 (2014).
+
+    ADS   Article   Google Scholar  
+    28.
+
+    Young, D. J. N. et al. Long-term climate and competition explain forest mortality patterns under extreme drought. Ecol. Lett. 20 , 78–86 (2017).
+
+    Article   PubMed Central   Google Scholar  
+    29.
+
+    Das, A., Battles, J., Stephenson, N. L. & van Mantgem, P. J. The contribution of competition to tree mortality in old-growth coniferous forests. Ecol. Manag 261 , 1203–1213 (2011).
+
+    Article   Google Scholar  
+    30.
+
+    Wolf, A., Anderegg, W. R. L. & Pacala, S. W. Optimal stomatal behavior with competition for water and risk of hydraulic impairment. Proc. Natl Acad. Sci. USA 113 , E7222–E7230 (2016).
+
+    CAS   Article   PubMed Central   Google Scholar  
+    31.
+
+    Reichstein, M. et al. Climate extremes and the carbon cycle. Nature 500 , 287–295 (2013).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    32.
+
+    Anderegg, W. R. L., Kane, J. M. & Anderegg, L. D. L. Consequences of widespread tree mortality triggered by drought and temperature stress. Nat. Clim. Change 3 , 30–36 (2013).
+
+    ADS   Article   Google Scholar  
+    33.
+
+    National Ecological Observatory Network. http://data.neonscience.org (Battelle, Boulder, CO, 2016).
+    34.
+
+    Roussel, J.-R. & Auty, D. lidR: Airborne LiDAR Data Manipulation and Visualization for Forestry Applications . (2018).
+    35.
+
+    Popescu, S. C., Wynne, R. H. & Nelson, R. F. Estimating plot-level tree heights with lidar: local filtering with a canopy-height based variable window size. Comput. Electron. Agric. 37 , 71–95 (2002).
+
+    Article   Google Scholar  
+    36.
+
+    Pau, G., Fuchs, F., Sklyar, O., Boutros, M. & Huber, W. EBImage-an R package for image processing with applications to cellular phenotypes. Bioinformatics 26 , 979–981 (2010).
+
+    CAS   Article   PubMed Central   Google Scholar  
+    37.
+
+    Fick, S. E. & Hijmans, R. J. WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas: New Climate Surfaces For Global Land Areas. Int. J. Climatol. 37 , 4302–4315 (2017).
+
+    Article   Google Scholar  
+    38.
+
+    Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. Soil Survey Geographic (SSURGO) Database . https://sdmdataaccess.sc.egov.usda.gov (2016).
+    39.
+
+    Hansen, M. C. et al. High-resolution global maps of 21st-century forest cover change. Science 342 , 850–853 (2013).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+    40.
+
+    Olson, DavidM. et al. Terrestrial ecoregions of the world: a new map of life on earth. BioScience 51 , 933-938–933-936 (2001).
+
+    Google Scholar  
+    41.
+
+    Stovall, A. CA_lidar_tree_mortality. https://doi.org/10.6084/m9.figshare.7609193.v1 (2019).
+
+Download references
+Acknowledgements
+
+We thank A. Khuu and J. Smith at University of Virginia for help with the initial mortality classification validation. We also thank J. Walter for helpful suggestions concerning our statistical analysis. This work was supported by the University of Virginia.
+Author information
+Affiliations
+
+    NASA Goddard Space Flight Center, 8800 Greenbelt Rd., Greenbelt, MD, USA
+
+    Atticus E. L. Stovall
+
+    Department of Environmental Sciences, University of Virginia, 291 McCormick Rd., Charlottesville, VA, USA
+
+    Atticus E. L. Stovall, Herman Shugart & Xi Yang
+
+Authors
+
+    Atticus E. L. Stovall
+    View author publications
+
+    You can also search for this author in PubMed   Google Scholar
+    Herman Shugart
+    View author publications
+
+    You can also search for this author in PubMed   Google Scholar
+    Xi Yang
+    View author publications
+
+    You can also search for this author in PubMed   Google Scholar
+
+Contributions
+
+A.E.L.S. and X.Y. formulated the initial research question for the work. A.E.L.S. conducted all analyses and coordinated the write-up. A.E.L.S., X.Y., and H.H.S. edited the paper.
+Corresponding author
+
+Correspondence to Atticus E. L. Stovall .
+Ethics declarations
+Competing interests
+
+The authors declare no competing interests.
+Additional information
+
+Peer review information Nature Communications thanks Pierre Gentine and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary information
+Supplementary Information
+Description of Additional Supplementary Files
+Supplementary Movie 1
+Reporting Summary
+Rights and permissions
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ .
+
+Reprints and Permissions
+About this article
+Verify currency and authenticity via CrossMark
+Cite this article
+
+Stovall, A.E.L., Shugart, H. & Yang, X. Tree height explains mortality risk during an intense drought. Nat Commun 10, 4385 (2019). https://doi.org/10.1038/s41467-019-12380-6
+
+Download citation
+
+    Received : 25 March 2019
+
+    Accepted : 06 September 2019
+
+    Published : 26 September 2019
+
+    DOI : https://doi.org/10.1038/s41467-019-12380-6
+
+Share this article
+
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+
+Sorry, a shareable link is not currently available for this article.
+
+Copy to clipboard
+
+Provided by the Springer Nature SharedIt content-sharing initiative
+Subjects
+
+    Climate-change ecology
+    Ecophysiology
+    Forest ecology
+
+Further reading
+
+    Height-related changes in forest composition explain increasing tree mortality with height during an extreme drought
+        Nathan L. Stephenson
+         &  Adrian J. Das
+
+    Nature Communications (2020)
+    Functional Relationships of Wood Anatomical Traits in Norway Spruce
+        Alma Piermattei
+        , Georg von Arx
+        , Camilla Avanzi
+        , Patrick Fonti
+        , Holger Gärtner
+        , Andrea Piotti
+        , Carlo Urbinati
+        , Giovanni Giuseppe Vendramin
+        […]
+        , Ulf Büntgen
+         &  Alan Crivellaro
+        -Show fewer authors
+
+    Frontiers in Plant Science (2020)
+    Hundred year projected carbon loads and species compositions for four National Forests in the northwestern USA
+        Patrick A. Fekety
+        , Nicholas L. Crookston
+        , Andrew T. Hudak
+        , Steven K. Filippelli
+        […]
+        , Jody C. Vogeler
+         &  Michael J. Falkowski
+        -Show fewer authors
+
+    Carbon Balance and Management (2020)
+    Using machine learning to synthesize spatiotemporal data for modelling DBH-height and DBH-height-age relationships in boreal forests
+        Jiaxin Chen
+        , Hongqiang Yang
+        , Rongzhou Man
+        , Weifeng Wang
+        , Mahadev Sharma
+        , Changhui Peng
+        , John Parton
+        […]
+        , Huaiping Zhu
+         &  Ziwang Deng
+        -Show fewer authors
+
+    Forest Ecology and Management (2020)
+    Differential effects of drought on nonstructural carbohydrate storage in seedlings and mature trees of four species in a subtropical forest
+        Peipei Zhang
+        , Xuhui Zhou
+        , Yuling Fu
+        , Junjiong Shao
+        , Lingyan Zhou
+        , Songsong Li
+        , Guiyao Zhou
+        , Zhenhong Hu
+        , Jiaqi Hu
+        […]
+        , Shahla Hosseini Bai
+         &  Nate G. McDowell
+        -Show fewer authors
+
+    Forest Ecology and Management (2020)
+
+Comments
+
+By submitting a comment you agree to abide by our Terms and Community Guidelines . If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.
+Download PDF
+Associated Content
+
+Nature Communications | Matters Arising
+Reply to “Height-related changes in forest composition explain increasing tree mortality with height during an extreme drought”
+
+    Atticus E. L. Stovall
+    , Herman H. Shugart
+     &  Xi Yang
+
+    Sections
+    Figures
+    References
+
+    Abstract
+    Introduction
+    Results
+    Discussion
+    Methods
+    Data availability
+    Code availability
+    References
+    Acknowledgements
+    Author information
+    Ethics declarations
+    Additional information
+    Supplementary information
+    Rights and permissions
+    About this article
+    Further reading
+    Comments
+
+Advertisement
+
+    Fig. 1 figure1
+
+    View in article Full size image
+    Fig. 2 figure2
+
+    View in article Full size image
+    Fig. 3 figure3
+
+    View in article Full size image
+
+    IPCC. Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation: Special Report of the Intergovernmental Panel on Climate Change . https://doi.org/10.1017/CBO9781139177245 (Cambridge University Press, 2012).
+
+    Phillips, O. L. et al. Drought sensitivity of the Amazon rainforest. Science 323 , 1344–1347 (2009).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    McDowell, N. G. Deriving pattern from complexity in the processes underlying tropical forest drought impacts. New Phytol. 219 , 841–844 (2018).
+
+    Article   PubMed Central   Google Scholar  
+
+    van Mantgem, P. J. et al. Widespread increase of tree mortality rates in the western United States. Science 323 , 521–524 (2009).
+
+    ADS   Article   PubMed Central   Google Scholar  
+
+    Peng, C. et al. A drought-induced pervasive increase in tree mortality across Canada’s boreal forests. Nat. Clim. Change 1 , 467–471 (2011).
+
+    ADS   Article   Google Scholar  
+
+    Allen, C. D., Breshears, D. D. & McDowell, N. G. On underestimation of global vulnerability to tree mortality and forest die-off from hotter drought in the Anthropocene. Ecosphere 6 , 1–55 (2015).
+
+    Article   Google Scholar  
+
+    Allen, C. D. et al. A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests. Ecol. Manag 259 , 660–684 (2010).
+
+    Article   Google Scholar  
+
+    Eamus, D., Boulain, N., Cleverly, J. & Breshears, D. D. Global change-type drought-induced tree mortality: vapor pressure deficit is more important than temperature per se in causing decline in tree health. Ecol. Evol. 3 , 2711–2729 (2013).
+
+    Article   PubMed Central   Google Scholar  
+
+    Bonan, G. B. Forests and climate change: Forcings, feedbacks, and the climate benefits of forests. Science 320 , 1444–1449 (2008).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    Lutz, J. A. et al. Global importance of large-diameter trees. Glob. Ecol. Biogeogr. 27 , 849–864 (2018).
+
+    Article   Google Scholar  
+
+    Bennett, A. C., McDowell, N. G., Allen, C. D. & Anderson-Teixeira, K. J. Larger trees suffer most during drought in forests worldwide. Nat. Plants 1 , 15139 (2015).
+
+    Article   PubMed Central   Google Scholar  
+
+    Sevanto, S., Mcdowell, N. G., Dickman, L. T., Pangle, R. & Pockman, W. T. How do trees die? A test of the hydraulic failure and carbon starvation hypotheses: How do trees die? Plant Cell Environ. 37 , 153–161 (2014).
+
+    CAS   Article   PubMed Central   Google Scholar  
+
+    McDowell, N. et al. Mechanisms of plant survival and mortality during drought: why do some plants survive while others succumb to drought? New Phytol. 178 , 719–739 (2008).
+
+    Article   PubMed Central   Google Scholar  
+
+    McDowell, N. G. & Allen, C. D. Darcy’s law predicts widespread forest mortality under climate warming. Nat. Clim. Change 5 , 669–672 (2015).
+
+    ADS   Article   Google Scholar  
+
+    McIntyre, P. J. et al. Twentieth-century shifts in forest structure in California: Denser forests, smaller trees, and increased dominance of oaks. Proc. Natl Acad. Sci. USA 112 , 1458–1463 (2015).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    Nepstad, D. C., Tohver, I. M., Ray, D., Moutinho, P. & Cardinot, G. Mortality of large trees and lianas following experimental drought in an amazon forest. Ecology 88 , 2259–2269 (2007).
+
+    Article   PubMed Central   Google Scholar  
+
+    Shenkin, A. et al. Interactive effects of tree size, crown exposure and logging on drought-induced mortality. Philos. Trans. R. Soc. Lond. B Biol. Sci. 373 , 20180189 (2018).
+
+    Giardina, F. et al. Tall Amazonian forests are less sensitive to precipitation variability. Nat. Geosci. 11 , 405–409 (2018).
+
+    ADS   CAS   Article   Google Scholar  
+
+    Johnson, D. J. et al. Climate sensitive size-dependent survival in tropical trees. Nat. Ecol. Evol. 2 , 1436–1442 (2018).
+
+    Article   PubMed Central   Google Scholar  
+
+    Hartmann, H. et al. Monitoring global tree mortality patterns and trends. Report from the VW symposium ‘Crossing scales and disciplines to identify global trends of tree mortality as indicators of forest health’. New Phytol. 217 , 984–987 (2018).
+
+    Article   PubMed Central   Google Scholar  
+
+    West, G. B., Brown, J. H. & Enquist, B. J. A general model for the structure and allometry of plant vascular systems. Nature 400 , 664–667 (1999).
+
+    ADS   CAS   Article   Google Scholar  
+
+    Ryan, M., Phillips, N. & Bond, B. The hydraulic limitation hypothesis revisited. Plant Cell Environ. 29 , 367–381 (2006).
+
+    Article   PubMed Central   Google Scholar  
+
+    Choat, B. et al. Global convergence in the vulnerability of forests to drought. Nature 491 , 752–755 (2012).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    Zhang, T., Niinemets, Ü., Sheffield, J. & Lichstein, J. W. Shifts in tree functional composition amplify the response of forest biomass to climate. Nature 556 , 99–102 (2018).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    Breshears, D. D. et al. Regional vegetation die-off in response to global-change-type drought. Proc. Natl Acad. Sci. USA 102 , 15144–15148 (2005).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    Koch, G. W., Sillett, S. C., Jennings, G. M. & Davis, S. D. The limits to tree height. Nature 428 , 851–854 (2004).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    Clark, J. S., Bell, D. M., Kwit, M. C. & Zhu, K. Competition-interaction landscapes for the joint response of forests to climate change. Glob. Change Biol. 20 , 1979–1991 (2014).
+
+    ADS   Article   Google Scholar  
+
+    Young, D. J. N. et al. Long-term climate and competition explain forest mortality patterns under extreme drought. Ecol. Lett. 20 , 78–86 (2017).
+
+    Article   PubMed Central   Google Scholar  
+
+    Das, A., Battles, J., Stephenson, N. L. & van Mantgem, P. J. The contribution of competition to tree mortality in old-growth coniferous forests. Ecol. Manag 261 , 1203–1213 (2011).
+
+    Article   Google Scholar  
+
+    Wolf, A., Anderegg, W. R. L. & Pacala, S. W. Optimal stomatal behavior with competition for water and risk of hydraulic impairment. Proc. Natl Acad. Sci. USA 113 , E7222–E7230 (2016).
+
+    CAS   Article   PubMed Central   Google Scholar  
+
+    Reichstein, M. et al. Climate extremes and the carbon cycle. Nature 500 , 287–295 (2013).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    Anderegg, W. R. L., Kane, J. M. & Anderegg, L. D. L. Consequences of widespread tree mortality triggered by drought and temperature stress. Nat. Clim. Change 3 , 30–36 (2013).
+
+    ADS   Article   Google Scholar  
+
+    National Ecological Observatory Network. http://data.neonscience.org (Battelle, Boulder, CO, 2016).
+
+    Roussel, J.-R. & Auty, D. lidR: Airborne LiDAR Data Manipulation and Visualization for Forestry Applications . (2018).
+
+    Popescu, S. C., Wynne, R. H. & Nelson, R. F. Estimating plot-level tree heights with lidar: local filtering with a canopy-height based variable window size. Comput. Electron. Agric. 37 , 71–95 (2002).
+
+    Article   Google Scholar  
+
+    Pau, G., Fuchs, F., Sklyar, O., Boutros, M. & Huber, W. EBImage-an R package for image processing with applications to cellular phenotypes. Bioinformatics 26 , 979–981 (2010).
+
+    CAS   Article   PubMed Central   Google Scholar  
+
+    Fick, S. E. & Hijmans, R. J. WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas: New Climate Surfaces For Global Land Areas. Int. J. Climatol. 37 , 4302–4315 (2017).
+
+    Article   Google Scholar  
+
+    Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. Soil Survey Geographic (SSURGO) Database . https://sdmdataaccess.sc.egov.usda.gov (2016).
+
+    Hansen, M. C. et al. High-resolution global maps of 21st-century forest cover change. Science 342 , 850–853 (2013).
+
+    ADS   CAS   Article   PubMed Central   Google Scholar  
+
+    Olson, DavidM. et al. Terrestrial ecoregions of the world: a new map of life on earth. BioScience 51 , 933-938–933-936 (2001).
+
+    Google Scholar  
+
+    Stovall, A. CA_lidar_tree_mortality. https://doi.org/10.6084/m9.figshare.7609193.v1 (2019).
+
+Nature Communications
+
+ISSN 2041-1723 (online)
+nature.com sitemap
+Nature Research
+
+    About us
+    Press releases
+    Press office
+    Contact us
+
+    Facebook
+    Twitter
+    Youtube
+
+Discover content
+
+    Journals A-Z
+    Articles by subject
+    Nano
+    Protocol Exchange
+    Nature Index
+
+Publish with us
+
+    Guide to Authors
+    Guide to Referees
+    Editorial policies
+    Open access
+    Reprints & permissions
+
+Researcher services
+
+    Research data
+    Language editing
+    Scientific editing
+    Nature Masterclasses
+    Nature Research Academies
+
+Libraries & institutions
+
+    Librarian service & tools
+    Librarian portal
+    Open research
+
+Advertising & partnerships
+
+    Advertising
+    Partnerships & Services
+    Media kits
+    Branded content
+
+Career development
+
+    Nature Careers
+    Nature Conferences
+    Nature events
+
+Regional websites
+
+    Nature China
+    Nature India
+    Nature Japan
+    Nature Korea
+    Nature Middle East
+
+Legal & Privacy
+
+    Privacy Policy
+    Use of cookies
+    Manage cookies/Do not sell my data
+    Legal notice
+    Accessibility statement
+    Terms & Conditions
+    California Privacy Statement
+
+Springer Nature
+
+© 2020 Springer Nature Limited
+Close banner Close
+Sign up for the Nature Briefing newsletter for a daily update on COVID-19 science.
+Enter your email address
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy .
+Sign up
+Get the most important science stories of the day, free in your inbox. Sign up for Nature Briefing
+Close banner Close
+Atticus E. L. Stovall
+View ORCID ID profile
+
+    NASA Goddard Space Flight Center, 8800 Greenbelt Rd., Greenbelt, MD, USA
+    Department of Environmental Sciences, University of Virginia, 291 McCormick Rd., Charlottesville, VA, USA
+    Contact Atticus E. L. Stovall
+
+View author publications
+
+You can also search for this author in PubMed   Google Scholar
+Close
+Herman Shugart
+View ORCID ID profile
+
+    Department of Environmental Sciences, University of Virginia, 291 McCormick Rd., Charlottesville, VA, USA
+
+View author publications
+
+You can also search for this author in PubMed   Google Scholar
+Close
+Xi Yang
+View ORCID ID profile
+
+    Department of Environmental Sciences, University of Virginia, 291 McCormick Rd., Charlottesville, VA, USA
+
+View author publications
+
+You can also search for this author in PubMed   Google Scholar
+Close
