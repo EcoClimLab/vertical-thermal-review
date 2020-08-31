@@ -1,5 +1,5 @@
 ######################################################
-# Purpose: Create vertical profiles of climate variables for ForestGEO plot using NEON tower data
+# Purpose: Batch download NEON data
 # Developed by: Ian McGregor, contact Anderson-Teixeira (teixeirak@si.edu)
 # R version 3.5.3 - First created May 2019, updated for vertical-thermal-rv
 ## Aug-Sept. 2020
@@ -110,8 +110,3 @@ get_NEON <- function(x="SCBI"){
   # full[[x]] <- vars
   return(vars)
 }
-
-pbapply::pblapply(sites, function(st){
-  full_data <- get_NEON(x=st)
-  save(full_data, file=paste0(st, "test.Rdata"))
-})
