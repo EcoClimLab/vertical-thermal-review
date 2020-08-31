@@ -4,3 +4,6 @@ leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdo
 leaf nitrogen,$N_{leaf}$,$mg \cdot g^{-1}$ ,sun<shade,,Martin et. al 2020
 ,,,sun $\approx$ shade,temperate broadleaf,Bolstad et al. 2019
 ,,$g \cdot m^{-2}$,sun>shade,tropical,Hernandez et al. 2019
+specific leaf area (or leaf area),$SLA$ (or $LA$,"$cm^{-2}g^{-1}$, $mm^{-2}$, $mg^{-1}$",decreases with height,"conifer-braodleaf, tropical","Sam Beaumont & Burns 2009, Chadrack Kafuti et al. 2019"
+,,,sun<shade,tropical,Slot et al. 2019
+stomatal density ,$D_{stomata}$,$mm^{-2}$,increases with height,tropical,Chadrack Kafuti et al. 2019
