@@ -1,8 +1,7 @@
 trait,symbol,units,response,forest type(s),reference(s)
-**leaf anatomy and morphological traits**,,,,,
 leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdot cm^{-2}$,increases with height,"temperate, tropical","Mau et al. 2018, Coble et al. 2017"
 ,,,sun>shade,global,"Hernandez et al. 2019, Mastubara et al. 2009, Martin et. al 2020, Coble et al. 2017, Slot et al. 2019"
-specific leaf area (or leaf area),$SLA$ (or $LA$),"$cm^{-2} \cdot g^{-1}$, $mm^{-2}$, $mg^{-1}$",decreases with height,"conifer-braodleaf, tropical","Sam Beaumont and Burns 2009, Chadrack Kafuti et al. 2019"
+specific leaf area (or leaf area),$SLA$ (or $LA$),"$cm^{-2} \cdot g^{-1}$, $mm^{-2}$, $mg^{-1}$",decreases with height,"conifer-braodleaf, tropical","Sam Beaumont and Burns 2009, Chadrack Kafuti et al. 2019"
 ,,,sun<shade,tropical,Slot et al. 2019
 leaf elongation,$\gamma$ ,$m^{-1}$,increases with height,tropical,Chadrack Kafuti et al. 2019
 ,,,sun>shade,tropical,Chadrack Kafuti et al. 2019
@@ -10,7 +9,6 @@ stomatal density ,$D_{stomata}$,$m \cdot m^{-2}$,increases with height,tropical,
 ,,,sun>shade,global,"Valladares and Niinemets, 2008"
 ,,,,,
 ,,,,,
-**leaf physiology and biochemical traits**,,,,,
 leaf nitrogen,$N_{leaf}$,$mg \cdot g^{-1}$ ,sun<shade,,Martin et. al 2020
 ,,,sun $\approx$ shade,temperate broadleaf,Bolstad et al. 2019
 ,,$g \cdot m^{-2}$,sun>shade,tropical,Hernandez et al. 2019
