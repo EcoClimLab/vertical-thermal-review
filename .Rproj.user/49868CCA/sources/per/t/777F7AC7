@@ -12,13 +12,13 @@
     "path" : "E:/Github_SCBI/vertical-thermal-review/scripts/scbi_neon.R",
     "project_path" : "scripts/scbi_neon.R",
     "properties" : {
-        "cursorPosition" : "40,2",
-        "scrollLine" : "33"
+        "cursorPosition" : "20,0",
+        "scrollLine" : "3"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 6,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
