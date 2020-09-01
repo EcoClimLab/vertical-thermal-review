@@ -45,9 +45,13 @@ date <- data.table("year" = c(rep(2015, 2), rep(2016, 2), rep(2017, 2),
 # alldt <- list()
 # plotlist <- list()
 
-sites <- c("BART","BONA","CLBJ","DEJU","DELA","GRSM","GUAN","HARV","JERC",
-           "LENO","MLBS","ORNL","OSBS","SCBI","SERC","SJER","SOAP","STEI",
-           "TALL","TEAK","TREE","UKFS","UNDE","WREF","YELL")
+data <- fread("NEON_height_profiles/forested_NEON_sites.csv")
+data <- data[include==1, ]
+sites <- data[,site]
+
+# sites <- c("BART","BONA","CLBJ","DEJU","DELA","GRSM","GUAN","HARV","JERC",
+#            "LENO","MLBS","ORNL","OSBS","SCBI","SERC","SJER","SOAP","STEI",
+#            "TALL","TEAK","TREE","UKFS","UNDE","WREF","YELL")
 
 get_NEON <- function(x="SCBI"){
   # full <- list()
