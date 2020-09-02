@@ -3,7 +3,7 @@ leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdo
 ,,,sun>shade,global,"Hernandez et al. 2019, Mastubara et al. 2009, Martin et. al 2020, Coble et al. 2017, Slot et al. 2019"
 leaf area, $LA$, $mm^{2}$,decreases with height,"temperate, tropical","Beaumont and Burns 2009,Kafuti et al. 2020"
 ,,,sun<shade,tropical,Slot et al. 2019
-stomatal density ,$D_{stomata}$,$m \cdot m^{-2}$,increases with height,tropical,Kafuti et al. 2020
+stomatal density ,$D_{stomata}$,$mm^{-2}$,increases with height,tropical,Kafuti et al. 2020
 ,,,sun>shade,global,"Valladares and Niinemets, 2008"
 ,,,,,
 ,,,,,
