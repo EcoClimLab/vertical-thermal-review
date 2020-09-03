@@ -10,7 +10,7 @@ stomatal density ,$D_{stomata}$,$mm^{-2}$,increases with height,tropical,Kafuti 
 leaf nitrogen ,$N_{leaf}$,$mg \cdot g^{-1}$ ,sun<shade,,Martin et. al 2020
 ,,,sun $\approx$ shade,temperate broadleaf,Bolstad et al. 2019
 ,,$g \cdot m^{-2}$,sun>shade,tropical,Hernandez et al. 2019
-stomatal conductance,$gs_{max}$,$mole m^{-2} s^{-1}$,increases with height,tropical,"Kafuti et al. 2020, Roberts et al. 1990"
+stomatal conductance,$gs_{max}$,$mmol^{-2} s^{-1}$,increases with height,tropical,"Kafuti et al. 2020, Roberts et al. 1990"
 ,,,decreases with height,temperate,Coble and Cavaleri 2015; Ishii et al. 2008
 ,,,sun>shade,"global, tropical","Valladares and Niinemets, 2008, Hernandez et al. 2019"
 photosynthetic capacity,$A_{max}$,$\mumol \cdot m^{-2} \cdot sec^{-1}$,increases with height,"temperate, tropical",Mau et al. 2018
@@ -19,3 +19,5 @@ xanthophyll cycle pigments,$VAZ$,$\mumol m^{-2}$,increases with height,temperate
 ,,,sun>shade,"tropical, global","Mastubara et al. 2009, Valladares and Niinemets, 2008"
 carbon isotope composition,$\delta^{13}C$,$%\circ$,increases with height,"conifer, temperatre","Duursma and Marshall, 2006, Coble et al. 2017"
 ,,,sun>shade,conifer,"Duursma and Marshall, 2006"
+chlorophyll a/b ratio,$chla/b$,$mol mol^{-1}$,increases with height,tropical,Poorter et al. 1995
+,,,sun>shade,"tropical, global","Matsubara et al. 2009, Niinemets et al. 1998, Valladares and Niinemets, 2008"
