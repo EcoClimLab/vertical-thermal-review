@@ -8,9 +8,9 @@ stomatal density ,$D_{stomata}$,$mm^{-2}$,increases with height,tropical,Kafuti 
 leaf thickness,$LeaThi$,$\mum$,increases with height,global,Poorter et al. 2019
 ,,,sun>shade,global,Poorter et al. 2019
 ,,,,,
-leaf nitrogen ,$N_{leaf}$,$mg \cdot g^{-1}$ ,sun<shade,,Martin et. al 2020
-,,,sun $\approx$ shade,temperate broadleaf,Bolstad et al. 2019
-,,$g \cdot m^{-2}$,sun>shade,tropical,Hernandez et al. 2019
+Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,increased with height,"tropical, temperate","Coble and Cavaleri 2014, Scartazza et al. 2016, Hernandez et al. 2019"
+,,,sun>shade,"tropical, global","Martin et al. 2020, Hernandez et al. 2020, Poorter et al. 2019, Harley et al. 1996  "
+,,$mg \cdot g^{-1}$ ,sun $\approx$ shade,temperate broadleaf,Bolstad et al. 2019
 stomatal conductance,$gs_{max}$,$mmol^{-2} s^{-1}$,increases with height,tropical,"Kafuti et al. 2020, Roberts et al. 1990"
 ,,,decreases with height,temperate,Coble and Cavaleri 2015; Ishii et al. 2008
 ,,,sun>shade,"global, tropical","Valladares and Niinemets, 2008, Hernandez et al. 2019"
