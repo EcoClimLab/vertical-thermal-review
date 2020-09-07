@@ -5,7 +5,7 @@ leaf area, $LA$, $mm^{2}$,decreases with height,"temperate, tropical","Beaumont 
 ,,,sun<shade,tropical,"Slot et al. 2019, Sack et al. 2006"
 stomatal density ,$D_{stomata}$,$mm^{-2}$,increases with height,tropical,Kafuti et al. 2020
 ,,,sun>shade,global,"Valladares and Niinemets, 2008"
-leaf thickness,$LeaThi$,$\mum$,increases with height,"global, temperate","Poorter et al. 2019, Van Wittenberghe et al. 2012"
+leaf thickness,$LeaThi$,$\mu$m$,increases with height,"global, temperate","Poorter et al. 2019, Van Wittenberghe et al. 2012"
 ,,,sun>shade,global,Poorter et al. 2019
 ,,,,,
 Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,increased with height,"tropical, temperate","Coble and Cavaleri 2014, Scartazza et al. 2016, Hernandez et al. 2019"
@@ -15,11 +15,11 @@ Nitrogen per leaf mass,$N_{m}$,$mg \cdot g^{-1}$ ,no significant difference,"tro
 stomatal conductance,$gs_{max}$,$mmol^{-2} s^{-1}$,increases with height,"tropical, temperate","Kafuti et al. 2020, Van Wittenberghe et al. 2012, Roberts et al. 1990"
 ,,,decreases with height,temperate,Coble and Cavaleri 2015; Ishii et al. 2008
 ,,,sun>shade,"global, tropical","Valladares and Niinemets, 2008, Hernandez et al. 2019"
-photosynthetic capacity,$A_{A}$,$\mumol \cdot m^{-2} \cdot sec^{-1}$,increases with height,"temperate, tropical","Niinemets et al. 2015, Mau et al. 2018"
+photosynthetic capacity,$A_{A}$,$\mu$mol \cdot m^{-2} \cdot sec^{-1}$,increases with height,"temperate, tropical","Niinemets et al. 2015, Mau et al. 2018"
 ,,,sun>shade,temperate ,"Coble et al. 2017, Hikosaka and Terashima 1995, Evans 1989"
-xanthophyll cycle pigments,$VAZ$,$\mumol m^{-2}$,increases with height,temperate,"Scartazza et al. 2016, Niinemets et al. 1998"
+xanthophyll cycle pigments,$VAZ$,$\mu$mol m^{-2}$,increases with height,temperate,"Scartazza et al. 2016, Niinemets et al. 1998"
 ,,,sun>shade,"tropical, global","Mastubara et al. 2009, Valladares and Niinemets, 2008"
-carbon isotope composition,$\delta^{13}C$,$%\circ$,increases with height,"conifer, temperatre","Duursma and Marshall, 2006, Coble et al. 2017"
+carbon isotope composition,$\delta^{13}C$,$%$\circ$,increases with height,"conifer, temperatre","Duursma and Marshall, 2006, Coble et al. 2017"
 ,,,sun>shade,conifer,"Duursma and Marshall, 2006"
 chlorophyll a/b ratio,$chl a/b$,$mol mol^{-1}$,increases with height,tropical,Poorter et al. 1995
 ,,,sun>shade,"tropical, global","Matsubara et al. 2009, Niinemets et al. 1998, Valladares and Niinemets, 2008"
