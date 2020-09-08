@@ -78,9 +78,10 @@ v.	What are the implications of these patterns for the ecology and climate chang
 ## The biophysical environment
 
 **Forest canopies have a buffering effect on multiple aspects of the understory climate (Fig. **2**).**
-Most notably, light conditions vary across vertical tree gradient due to the variation in foliage density that limits light to lower canopy and understory (Mau et. al 2018, Fauset et al. 2017, Niinemets et al.., REFS) (Fig. **2x**).
-Solar radiation increases with canopy height (Mau et al. 2018, M.A. Caveleri et al , Niinemets, REFS) and decreases along a vertical profile from the top of the canopy to the forest floor such that the forest floor receives 1% of the above canopy values (Roberts et al. 1990)
-Radiation is an important variable in determining differences in leaf traits and responses to temperature (Mau et. al 2018, Fauset et al. 2017, Rey Sanchez et al. 2016, Doughty and Gouden 2008)
+
+Most notably, availability of light decreases along a verticle profile from top of the canopy to the forest floor due to variation in foliage density,and increases with tree height (Mau et. al 2018, Poorter et al. 2019, Niinemets et al. 2015) (Fig. **2x**).
+Light is more available above the canopy compared to the forest floor which receives as little as 1% of the above canopy values (Roberts et al. 1990)
+This difference in light regime is an important variable in determining leaf traits along the gradient and consequently their responses to temperature.(Niinemets, 2010, Sack et al. 2016)
 - (*@bonan_ecological_2016 reviews this and points to appropriate references*)
 -	Sunflecks: Leaky et al. 2003?
 
