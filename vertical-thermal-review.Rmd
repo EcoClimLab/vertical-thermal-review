@@ -39,17 +39,17 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 ## Summary
 
-*(currently way too long for NewPhyt)*
+*(currently too long for NewPhyt)*
 
-Rising temperatures are expected to have profound effects on forests; however, it is not well understood how responses will vary across trees of different size.
-Here, we synthesize evidence as to how environmental conditions and foliar traits vary across vertical canopy gradients, shaping leaf temperatures, metabolism, and ultimately whole-tree growth and stress responses.
-We find that there is strong directional variation in microclimate, with canopy trees experiencing greater evaporative demand than understory trees.
-Foliar traits relevant to shaping leaf temperature ($T_{leaf}$) and metabolism vary strongly across height or light gradients.
-The resulting $T_{leaf}$'s generally track air temperature ($T_{air}$) and do not vary dramatically across the vertical gradient, except when hydraulic limitations impede leaf evaporative cooling and $T_{leaf}$'s of sun-exposed canopy leaves become significantly elevated above both $T_{air}$ and understory $T_{leaf}$.
-While leaf metabolism generally increases with height across the vertical gradient, differences in thermal sensitivity, optimal temperatures, and thermal damage thresholds are modest.
-The implications for tree performance are mixed: whereas thermal buffering may contribute to the disproportionate stress of larger trees during drought, tree-ring evidence is emerging that understory trees experience relatively greater stress from high temperatures.
-Additional research will be important for understanding our spotty understanding, particularly of the thermal sensitivity of metabolism and tree growth across vertical forest gradients.
-In the meantime, our results imply that while large canopy trees are the most vulnerable to warming when combined with drought, understory trees may be more vulnerable under more mesic conditions.
+Rising temperatures are expected to have profound effects on forests; however, it is not well understood how responses will vary across forest strata.
+Here, we synthesize evidence as to how environmental conditions and foliar traits vary across vertical gradients, shaping leaf temperatures, metabolism, and ultimately whole-tree growth and mortality.
+Strong vertical microclimatic gradients imply that canopy leaves are exposed to more solar radiation and higher evaporative demand than understory leaves.
+However, foliar traits relevant to shaping leaf temperature ($T_{leaf}$) and metabolism also vary strongly across height or light gradients.
+Resulting $T_{leaf}$'s generally track air temperature ($T_{air}$) and do not vary dramatically across the vertical gradient, except when hydraulic limitations impede evaporative cooling such that $T_{leaf}$'s of sun-exposed canopy leaves become significantly elevated above both $T_{air}$ and understory $T_{leaf}$.
+Correspondingly, while leaf metabolism generally increases with height across the vertical gradient, differences in thermal sensitivity, optimal temperatures, and thermal damage thresholds are modest.
+The implications for tree performance are mixed: whereas thermal buffering may contribute to the disproportionate stress of larger trees during drought, emerging tree-ring evidence suggests that understory trees experience relatively greater stress from high $T_{air}$.
+Additional research will be important for improving our spotty understanding of the thermal sensitivity of metabolism and tree growth across vertical forest gradients.
+In the meantime, our findings imply that while large canopy trees are the most vulnerable to warming when combined with drought, understory trees may be more vulnerable under more mesic conditions.
 
 
 \newpage
