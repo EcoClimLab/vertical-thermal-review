@@ -33,7 +33,27 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 \newpage
 
-## Abstract
+```{r eval=FALSE, echo=FALSE}
+# based on Helene's Tansley review, and regular NewPhyt guidelines, I think the limit for New Phyt is 200 words. 
+```
+
+## Summary
+
+*(currently way too long for NewPhyt)*
+
+* Rising temperatures are expected to have profound effects on forests; however, it is not well understood how responses will vary across trees of different size.
+* Microclimatic conditions and foliar traits vary across the vertical canopy gradient, driving gradients in leaf temperatures and metabolism, which in turn affect whole-tree growth and stress responses. 
+* While some recent studies have suggested that understory trees are less vulnerable to temperature extremes driven by climatic warming, these gradients remain poorly understood.
+* Here, we synthesize evidence as to how environmental conditions, foliar traits, and plant function vary across gradients of height within the canopy or light environment.
+* We find that *(there is strong directional variation in microenvironment)*.
+* Correspondingly, foliar traits relevant to shaping leaf temperatures and metabolism vary strongly across height or light gradients...
+* The resulting leaf temperatures generally track air temperature and do not vary dramatically across the vertical gradient, except for when hydraulic limitations impede leaf thermal regulation via evaporative cooling. In these cases, leaf temperatures of sun-exposed canopy leaves can become significantly elevated above air temperatures and the temperatures of understory leaves.
+* Corresponding, while leaf metabolism generally increases with light and height across the vertical gradient, differences in thermal sensitivity, optimal temperatures, and thermal damage thresholds are modest.
+* The implications for tree performance are mixed: whereas thermal buffering may contribute to the disproportionate stress of larger trees during drought, tree-ring evidence is emerging that understory trees experience relatively greater stress from hot temperatures.
+* The implications for modeling are ...
+* Additional research will be important for understanding our spotty understanding, particulalry of the thermal sensitivity of metabolism and tree growth across vertical forest gradients.
+* In the meantime, our results imply that while large canopy trees are the most vulnerable to warming when combined with drought, understory trees may be more vulnerable under more mesic conditions.
+
 
 \newpage
 
@@ -69,6 +89,8 @@ iii.	How do biophysical environment and traits combine to affect leaf temperatur
 iv.	How does leaf metabolism respond to temperature in canopy and understory settings?
 
 v.	What are the implications of these patterns for the ecology and climate change responses of canopy versus understory trees? 
+
+vi. What are the implications for modeling/ scaling? 
 
 *Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), we also review studies focused on exposure gradients.*
 
