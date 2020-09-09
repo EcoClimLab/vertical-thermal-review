@@ -49,8 +49,8 @@ kable(metabolism_table, caption = "Table 2. Summary of observed variation in lea
   column_spec(6, width = "4cm") %>%
   pack_rows("Stomatal conductance", 1, 7, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
   pack_rows("Photosynthesis", 8, 20, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
-  pack_rows("Respiration", 21, 27, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
-  pack_rows("VOC production", 28, 29, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
+  pack_rows("Respiration", 21, 28, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
+  pack_rows("VOC production", 29, 30, latex_gap_space = "1em", colnum = 1, hline_before = FALSE) %>%
   kable_styling(latex_options = c("scale_down", "hold_position"), protect_latex = T) 
   #NOTE: REFERENCES for this table need to go in the nocite section of header in the main doc!!!
 ```
