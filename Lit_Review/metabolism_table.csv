@@ -7,17 +7,17 @@ optimum temperature of $A_{sat}$,$T_{opt}$ of $A_{sat}$,$^\circ$C,sun $\ge$ shad
 thermal damage threshold,$T_{50}$,$^\circ$C,sun $\ge$ shade,tropical,Slot et al. 2019
 ,,,decreases with height*,savanna,"Curtis et. al, 2018"
 light compensation point,$LCP$,,sun > shade,tropical,Slot et al. 2019
-dark respiration at reference T,"$R_{dark} (T_{ref})$, $R_{d}$",$\mu$ molm^{-2}s^{-1}$,increases with height,temperate,Scartazza et al. 2016
+dark respiration at reference T,"$R_{dark} (T_{ref})$, $R_{d}$",$\mu mol m^{-2}s{-1}$,increases with height,temperate,Scartazza et al. 2016
 ,,,sun > shade,tropical,Slot et al. 2019
-,,$\mu$mol (kg leaf)$^{-1}$ s$^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
-,,$\mu$mol (m leaf)$^{-2}$ s$^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
-,,$\mu$mol (kg N)$^{-1}$ s$^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
-maximal carboxylation rate,$V_{cmax}$,$\mu$molm^{-2}s{-1}$,increases with height,temperate,Scartazza et al. 2016
+,,$\mu$mol (kg leaf)$^{-1} s^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
+,,$\mu$mol (m leaf)$^{-2}s^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
+,,$\mu$mol (kg N)$^{-1}s^{-1}$ ,sun > shade,temperate,Bolstad et al. 1999
+maximal carboxylation rate,$V_{cmax}$,$\mu mol m^{-2}s{-1}$,increases with height,temperate,Scartazza et al. 2016
 ,,,sun>shade,global,"Valladares and Niinemets, 2008"
-maximal carboxylation rate (response to temperature) ,$V_{cmax}$ at $T_{opt}$,$\mu$molm^{-2}s{-1}$,sun$\approx$shade,tropical,Hernandez et al. 2020
-electron transport rate,$J_{max}$,$\mu$molm^{-2}s{-1}$,increases with height,temperate,Scartazza et al. 2016
+maximal carboxylation rate (response to temperature) ,$V_{cmax}$ at $T_{opt}$,$\mu mol m^{-2}s{-1}$,sun$\approx$shade,tropical,Hernandez et al. 2020
+electron transport rate,$J_{max}$,$\mu mol m^{-2}s{-1}$,increases with height,temperate,Scartazza et al. 2016
 ,,,sun>shade,global,"Valladares and Niinemets, 2008"
-electron transport rate(response to temperature),$J_{max}$ at $T_{opt}$,$\mu$molm^{-2}s{-1}$,sun$\approx$shade,tropical,Hernandez et al. 2020
-temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,sun $\le$ shade,temperate,Bolstad et al. 1999
-isoprene emission rate (in emitting species),$I$,$nmolm^-2s^-1$,increases with height,temperate,"Harley et al. 1996, Harley et al. 1997"
+electron transport rate(response to temperature),$J_{max}$ at $T_{opt}$,$\mu mol m^{-2}s{-1}$,sun$\approx$shade,tropical,Hernandez et al. 2020
+temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ C^{-1}$,sun $\le$ shade,temperate,Bolstad et al. 1999
+isoprene emission rate (in emitting species),$I$,nmol m$^{-2}s^{-1}$,increases with height,temperate,"Harley et al. 1996, Harley et al. 1997"
 ,,,sun>shade,temperate,"Niinemets and Sun, 2014, Harley et al. 1996, Sharkey and Monson, 2014"
