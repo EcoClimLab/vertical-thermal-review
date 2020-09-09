@@ -41,18 +41,15 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 *(currently way too long for NewPhyt)*
 
-* Rising temperatures are expected to have profound effects on forests; however, it is not well understood how responses will vary across trees of different size.
-* Microclimatic conditions and foliar traits vary across the vertical canopy gradient, driving gradients in leaf temperatures and metabolism, which in turn affect whole-tree growth and stress responses. 
-* While some recent studies have suggested that understory trees are less vulnerable to temperature extremes driven by climatic warming, these gradients remain poorly understood.
-* Here, we synthesize evidence as to how environmental conditions, foliar traits, and plant function vary across gradients of height within the canopy or light environment.
-* We find that *(there is strong directional variation in microenvironment)*.
-* Correspondingly, foliar traits relevant to shaping leaf temperatures and metabolism vary strongly across height or light gradients...
-* The resulting leaf temperatures generally track air temperature and do not vary dramatically across the vertical gradient, except for when hydraulic limitations impede leaf thermal regulation via evaporative cooling. In these cases, leaf temperatures of sun-exposed canopy leaves can become significantly elevated above air temperatures and the temperatures of understory leaves.
-* Corresponding, while leaf metabolism generally increases with light and height across the vertical gradient, differences in thermal sensitivity, optimal temperatures, and thermal damage thresholds are modest.
-* The implications for tree performance are mixed: whereas thermal buffering may contribute to the disproportionate stress of larger trees during drought, tree-ring evidence is emerging that understory trees experience relatively greater stress from hot temperatures.
-* The implications for modeling are ...
-* Additional research will be important for understanding our spotty understanding, particulalry of the thermal sensitivity of metabolism and tree growth across vertical forest gradients.
-* In the meantime, our results imply that while large canopy trees are the most vulnerable to warming when combined with drought, understory trees may be more vulnerable under more mesic conditions.
+Rising temperatures are expected to have profound effects on forests; however, it is not well understood how responses will vary across trees of different size.
+Here, we synthesize evidence as to how environmental conditions and foliar traits vary across vertical canopy gradients, shaping leaf temperatures, metabolism, and ultimately whole-tree growth and stress responses.
+We find that there is strong directional variation in microclimate, with canopy trees experiencing greater evaporative demand than understory trees.
+Foliar traits relevant to shaping leaf temperature ($T_{leaf}$) and metabolism vary strongly across height or light gradients.
+The resulting $T_{leaf}$'s generally track air temperature ($T_{air}$) and do not vary dramatically across the vertical gradient, except when hydraulic limitations impede leaf evaporative cooling and $T_{leaf}$'s of sun-exposed canopy leaves become significantly elevated above both $T_{air}$ and understory $T_{leaf}$.
+While leaf metabolism generally increases with height across the vertical gradient, differences in thermal sensitivity, optimal temperatures, and thermal damage thresholds are modest.
+The implications for tree performance are mixed: whereas thermal buffering may contribute to the disproportionate stress of larger trees during drought, tree-ring evidence is emerging that understory trees experience relatively greater stress from high temperatures.
+Additional research will be important for understanding our spotty understanding, particularly of the thermal sensitivity of metabolism and tree growth across vertical forest gradients.
+In the meantime, our results imply that while large canopy trees are the most vulnerable to warming when combined with drought, understory trees may be more vulnerable under more mesic conditions.
 
 
 \newpage
