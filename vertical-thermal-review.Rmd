@@ -68,7 +68,7 @@ Globally, we're seeing larger trees suffering more during drought (Benett et al.
 Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (Nate McDowell et al.2020). 
 Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature (Cornelius Senf et al. 2018) has shown to increase understory temperatures which raises concern for understory species and forest biodiversity (Zellweger et al. 2019, Defrenne et al. 2013).
 
-We’re seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species (Suggitt et al. 2018, Scheffers et al. 2013, Defrenne et al. 2013). 
+We're seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species (Suggitt et al. 2018, Scheffers et al. 2013, Defrenne et al. 2013). 
      - @zellweger_forest_2020 
      - (Suggitt et al. 2018, Scheffers et. al 2014)
 
