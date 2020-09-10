@@ -10,12 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-**Title:** Thermal sensitivity of canopy versus understory leaves: patterns, mechanisms, and ecological implications
+**Title:** Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications
 
 **Authors (so far, not necessarily in final order):** 
 Nidhi Vinod^1^,
 Martijn Slot^2^,
-Ian McGregor,
+Ian McGregor^3^,
 Elsa Ordway,
 Marielle Smith,
 Tyeen Taylor,
@@ -28,6 +28,7 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 2. Smithsonian Tropical Research Institute; Panama, Republic of Panama
 
+3. Center for Geospatial Analytics; North Carolina State University; Raleigh, NC 27607, USA
 
 *corresponding author: teixeirak@si.edu; +1 540 635 6546
 
