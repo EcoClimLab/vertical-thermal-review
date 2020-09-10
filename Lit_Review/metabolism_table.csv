@@ -21,9 +21,8 @@ thermal damage threshold,$T_{50}$,$^\circ$C,$\approx$$\uparrow$ with light,tropi
 ,,,$\downarrow$ with height*,savanna,"Curtis et. al, 2018"
 ,,,,,
 dark respiration at reference T,$R_{dark} (T_{ref})$,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,temperate,Scartazza et al. 2016
-,,,$\uparrow$ with light,tropical,Slot et al. 2019
+,,,$\uparrow$ with light,tropical,"Bolstad et al. 1999, Slot et al. 2019"
 ,,$\mu$mol (kg leaf)$^{-1} s^{-1}$ ,$\uparrow$ with light,temperate,Bolstad et al. 1999
-,,$\mu$mol (m leaf)$^{-2}s^{-1}$ ,$\uparrow$ with light,temperate,Bolstad et al. 1999
 ,,$\mu$mol (kg N)$^{-1}s^{-1}$ ,$\uparrow$ with light,temperate,Bolstad et al. 1999
 ,,,,,
 temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,$\approx$$\downarrow$ with light,temperate,Bolstad et al. 1999
