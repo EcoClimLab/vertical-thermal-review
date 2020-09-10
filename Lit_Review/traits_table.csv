@@ -1,21 +1,21 @@
 trait,symbol,units,response,forest type(s),reference(s)
-leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdot cm^{-2}$,increases with height,"temperate, tropical","Mau et al. 2018, Coble et al. 2017"
-,,,sun>shade,global,"Hernandez et al. 2019, Mastubara et al. 2009, Martin et. al 2020, Coble et al. 2017, Slot et al. 2019"
-leaf area,$LA$,$mm^{2}$,decreases with height,"temperate, tropical","Beaumont and Burns 2009, Kafuti et al. 2020"
-,,,sun<shade,tropical,"Slot et al. 2019, Sack et al. 2006"
-stomatal density ,$D_{stomata}$,$mm^{-2}$,increases with height,tropical,Kafuti et al. 2020
-,,,sun>shade,global,"Valladares and Niinemets, 2008"
-leaf thickness,$LeaThi$,$\mu$m,increases with height,"global, temperate","Poorter et al. 2019, Van Wittenberghe et al. 2012"
-,,,sun>shade,global,Poorter et al. 2019
+leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdot cm^{-2}$,$\uparrow$ with height,"temperate, tropical","Mau et al. 2018, Coble et al. 2017"
+,,,$\uparrow$ with light,global,"Hernandez et al. 2019, Mastubara et al. 2009, Martin et. al 2020, Coble et al. 2017, Slot et al. 2019"
+leaf area,$LA$,$mm^{2}$,$\downarrow$ with height,"temperate, tropical","Beaumont and Burns 2009, Kafuti et al. 2020"
+,,,$\downarrow$ with light,tropical,"Slot et al. 2019, Sack et al. 2006"
+stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,tropical,Kafuti et al. 2020
+,,,$\uparrow$ with light,global,"Valladares and Niinemets, 2008"
+leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"global, temperate","Poorter et al. 2019, Van Wittenberghe et al. 2012"
+,,,$\uparrow$ with light,global,Poorter et al. 2019
 ,,,,,
 ,,,,,
-Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,increased with height,"tropical, temperate","Coble and Cavaleri 2014, Scartazza et al. 2016, Hernandez et al. 2019"
-,,,sun>shade,"tropical, global","Martin et al. 2020, Hernandez et al. 2020, Poorter et al. 2019, Harley et al. 1996  "
-Nitrogen per leaf mass,$N_{m}$,$mg \cdot g^{-1}$ ,no significant difference,"tropical, temperate ","Hernandez et al. 2020, Scartazza et al. 2016"
-,,,sun $\approx$ shade,temperate broadleaf,"Harley et al. 1996, Bolstad et al. 1999"
-xanthophyll cycle pigments,$VAZ$,$\mu$ mol m$^{-2}$,increases with height,temperate,"Scartazza et al. 2016, Niinemets et al. 1998"
-,,,sun>shade,"tropical, global","Mastubara et al. 2009, Valladares and Niinemets, 2008"
-carbon isotope composition,$\delta^{13}C$,(permille sign),increases with height,"conifer, temperatre","Duursma and Marshall, 2006, Coble et al. 2017"
-,,,sun>shade,conifer,"Duursma and Marshall, 2006"
-chlorophyll a/b ratio,$chl a/b$,mol mol$^{-1}$,increases with height,tropical,Poorter et al. 1995
-,,,sun>shade,"tropical, global","Matsubara et al. 2009, Niinemets et al. 1998, Valladares and Niinemets, 2008"
+Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,$\uparrow$ with height,"tropical, temperate","Coble and Cavaleri 2014, Scartazza et al. 2016, Hernandez et al. 2019"
+,,,$\uparrow$ with light,"tropical, global","Martin et al. 2020, Hernandez et al. 2020, Poorter et al. 2019, Harley et al. 1996  "
+Nitrogen per leaf mass,$N_{m}$,$mg \cdot g^{-1}$ ,$\approx$ with ???,"tropical, temperate ","Hernandez et al. 2020, Scartazza et al. 2016"
+,,,$\approx$ with light,temperate broadleaf,"Harley et al. 1996, Bolstad et al. 1999"
+xanthophyll cycle pigments,$VAZ$,$\mu$ mol m$^{-2}$,$\uparrow$ with height,temperate,"Scartazza et al. 2016, Niinemets et al. 1998"
+,,,$\uparrow$ with light,"tropical, global","Mastubara et al. 2009, Valladares and Niinemets, 2008"
+carbon isotope composition,$\delta^{13}C$,$\%_\circ$,$\uparrow$ with height,"conifer, temperatre","Duursma and Marshall, 2006, Coble et al. 2017"
+,,,$\uparrow$ with light,conifer,"Duursma and Marshall, 2006"
+chlorophyll a/b ratio,$chl a/b$,mol mol$^{-1}$,$\uparrow$ with height,tropical,Poorter et al. 1995
+,,,$\uparrow$ with light,"tropical, global","Matsubara et al. 2009, Niinemets et al. 1998, Valladares and Niinemets, 2008"

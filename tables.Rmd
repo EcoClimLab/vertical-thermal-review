@@ -27,7 +27,7 @@ library(knitr)
 library(kableExtra)
 traits_table <- read.csv("Lit_Review/traits_table.csv", stringsAsFactors = FALSE, check.names = FALSE)
 kable(traits_table, caption = "Table 1. Summary of observed variation in thermally-relevant leaf traits with canopy height and/or between sun and shade leaves", format = "latex", booktabs = TRUE,  escape = F)%>%
-  column_spec(1, width = "3cm") %>%
+  column_spec(1, width = "4cm") %>%
   column_spec(2, width = "2cm") %>%
   column_spec(6, width = "4cm") %>%
   pack_rows("Leaf anatomy and morphological traits", 1, 10, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
