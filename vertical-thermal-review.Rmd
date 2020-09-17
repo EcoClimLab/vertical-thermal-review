@@ -270,7 +270,7 @@ We're not aware of any other studies on this.
 
 *Respiration*
 
-**Similar to photosynthesis, respiration tends to higher in sun leaves, but its temperature sensitivity appears to be similar between between sun and shade leaves.**
+**Similar to photosynthesis, respiration tends to be higher in sun leaves (Chen et al. 2020), but its temperature sensitivity appears to be similar between between sun and shade leaves.**
 (Bolstad et al. 1999) did a study at Coweeta, including elev gradient. 
 Found higher respiration (at reference T) in canopy leaves (@bolstad_foliar_1999). (*Martijn has some unpublished data on this that we might include: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
 At Coweeta, Q10 showed a variable pattern, with a slight tendency to increase down the canopy [@bolstad_foliar_1999]. (*Martijn has some unpublished data on this that we might include.unpublished data showing higher Q10 in shade than in sun leaves for 10 species or so. May make sense to include here: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
@@ -315,7 +315,7 @@ It is also possible that competition is accelerated under warmer temperatures.
 ![**Figure 4. Temperature sensitivity of tree growth for understory versus canopy trees.** Analysis methods described in Appendix S3. Data from Helcoski et al. 2019.](SCBI_tree_rings/SCBIfig.png)
 
 ## Implications for Modeling / Scaling
-
+E.g. see de Pury & Farquhar, 1997 : though likely an improvement over 'big-leaf' models, models that separate the canopy into sunlit and shaded portions (sun/shade models) may not be able to capture important within-canopy variation in terms of leaf dynamics (e.g. seasonal shifts in vertical leaf area distributions, Smith et al. 2019) and functions (e.g. thermal responses, as we present in this paper). Hence, multi-layered ecosystem models may be necessary for accurately projecting future forest function.  
 
 
 ## Future Questions
@@ -323,6 +323,8 @@ It is also possible that competition is accelerated under warmer temperatures.
 - Are patterns (in traits, metabolism, ecology) driven by tree height or exposure?
 
 - CO2 may lead to denser understory (Martijn)
+
+- Influence of increasing temperatures on species compositions and feedbacks to future forest microclimates and function?
 
 ## Conclusions
 
