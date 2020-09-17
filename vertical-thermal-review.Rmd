@@ -17,7 +17,7 @@ Nidhi Vinod^1^,
 Martijn Slot^2^,
 Ian McGregor^3^,
 Elsa Ordway,
-Marielle Smith,
+Marielle N. Smith^3^,
 Tyeen Taylor,
 Kristina J. Anderson-Teixeira^1,2^* 
 
@@ -29,6 +29,8 @@ Kristina J. Anderson-Teixeira^1,2^*
 2. Smithsonian Tropical Research Institute; Panama, Republic of Panama
 
 3. Center for Geospatial Analytics; North Carolina State University; Raleigh, NC 27607, USA
+
+4. Department of Forestry, Michigan State University, East Lansing, MI 48824, USA
 
 *corresponding author: teixeirak@si.edu; +1 540 635 6546
 
@@ -60,11 +62,11 @@ In the meantime, our findings imply that while large canopy trees are the most v
 Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF). 
 There is also increasing severity and frequency of heat waves (Perkins et al. 2012).
 This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change (e.g., Bonan 2008).
-With increases in temperature, temperate and tropical forest canopies are already functioning beyond their optimal photosynthetic threshold (Mau et al. 2020). 
-This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world (McDowell et al. 2020; REFS).
+With increases in temperature, temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold (Mau et al. 2020, Huang et al. 2019). 
+This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world (McDowell et al. 2020; Allen et al. 2015, Brienen et al. 2015).
 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
-Globally, we're seeing larger trees suffering more during drought (Benett et al. 2015; Stovall et al. 2019).
+Globally, we're seeing larger trees suffering more during drought (Bennett et al. 2015; Stovall et al. 2019).
 Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (Nate McDowell et al.2020). 
 Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature (Cornelius Senf et al. 2018) has shown to increase understory temperatures which raises concern for understory species and forest biodiversity (Zellweger et al. 2019, Defrenne et al. 2013).
 
@@ -72,7 +74,7 @@ We're seeing increasing evidence that this impacts the ecology, with potential f
      - @zellweger_forest_2020 
      - (Suggitt et al. 2018, Scheffers et. al 2014)
 
-Understanding thermal sensitivity in vertical tree gradient and height from top of the canopy to understory will provide crucial insights for how raising temperature affects forest ecology and biodiversity.
+Understanding thermal sensitivity along the vertical canopy profile, from the understory to the top of the canopy will provide crucial insights for how raising temperature affects forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions [with additional feedbacks to forest structure and microclimates].
 
 **However, we lack a systematic understanding of biophysical and biological patterns across this gradient, how these affect leaf-level processes, and in turn how it affects ecology (Fig. 1).** 
 
@@ -90,7 +92,7 @@ v.	What are the implications of these patterns for the ecology and climate chang
 
 vi. What are the implications for modeling/ scaling? 
 
-*Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), we also review studies focused on exposure gradients.*
+*Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), and the implications [or utility] for ecosystem models we also review studies focused on exposure gradients.*
 
 ![**Figure 1. (schematic of a forest summarizing most important gradients.** Current fig is just a rough illustration of how this might look – a draft figure that KAT had on hand illustrating hypotheses (ignore specific content). We could have a set of arrows for each of the major categories considered here. This would be a key figure, and should be beautifully illustrated—KAT could do a watercolor, or Nidhi could illustrate). ](schematic/schematic.png)
 
