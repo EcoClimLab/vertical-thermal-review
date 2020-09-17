@@ -144,16 +144,18 @@ Given that differences are small during the day when photosynthesis is active, a
 **The strength of this buffering varies across forests, being influenced by both forest characteristics and the biophysical environment.**
 First, buffering increases with canopy cover.
 * greater cover --> lower max T and VPD, higher minT  [@davis_microclimatic_2019]
-* greater cover -->  lower max T [@zellweger_seasonal_2019]
-* [@thom_effects_2020]
+* greater cover -->  lower max T and light availability [@zellweger_seasonal_2019]
+* [@thom_effects_2020; Tymen et al. 2017 ; Jucker et al. 2018 ; Hardwick et al. 2015]
 *Presumably, buffering would also be affected by canopy roughness, which affects turbulent air flow and the canopy boundary layer.*
 Taller trees don’t necessarily increase buffering [@zellweger_seasonal_2019]. 
-SCA species increase T buffering (Zelllweger et al. 2019) [@zellweger_seasonal_2019]
+Species that have higher shade casting ability increase T buffering (Zelllweger et al. 2019) [@zellweger_seasonal_2019]
 The strength of buffering also varies with respect to geographic and climatic factors.
 * Distance to coast, topographic position, elevation [@zellweger_seasonal_2019]
 * [@davis_microclimatic_2019]
 
 ## Trait variation 
+
+[Add something about how leaf traits along the vertical canopy profile are different than the expectation from leaf economic spectrum (LES)? Chen et al. 2020 is a good paper to help frame this . They make an important point in that paper that we may also want to make here: that the LES was 'built' using mainly sun (upper canopy) leaves; given the vastly different light environments at the bottom of the canopy (and that most leaves in the canopy are likely to be shade leaves) there is a strong research need to better characterise trait relationships and leaf responses through the whole vertical canopy - hence the importance of this review. Keenan & Niinemets 2016  will also be helpful in making this point.]--M N. Smith
 
 **Many traits vary with height and/or between sun and shade leaves on the same species (Table 1).**
 Here, we focus on traits that are important for shaping leaf temperature ($T_{leaf}$) and thermal sensitivity.
@@ -175,6 +177,8 @@ Are traits shaped more by height or light?
 
 *Leaf area / characteristic dimension*:
 - Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected. 
+- Max stomatal conductance - increases with canopy height (Kenzo et al. 2015).
+Max transpiration rate - increases with canopy height (Kenzo et al. 2015).
 
 
 
@@ -239,10 +243,12 @@ nocite: |
 
 *Photosynthesis*
 
-**Photosynthesis is generally higher in sun leaves-- a fact that is well-established (REFS) and observed in numerous field studies.**
+**Photosynthesis is generally higher in sun leaves-- a fact that is well-established (Niinemets 2007 ; Kenzo et al. 2015 ; Slot et al. 2019; Chen et al. 2020) and observed in numerous field studies.**
 This is primarily driven by the greater light available to sun leaves.
 In response to the greater light availability, sun leaves have traits allowing greater photosynthetic rates at high light,  including ....
 The vertical gradient in photosythetic rates is also influenced by...
+.[thoughts: plasticity vs change in tree species composition through the canopy; differences in variability of microenvironments through the profile - highest lower down in canopy?; life history / investment strategies and hence, leaf life spans at leaves at the top vs bottom of the canopy]-- M N. Smith
+
 
 **While sun and shade leaves differ dramatically in $A_{max}$, the temperature sensitivity of photosynthesis does not appear to differ substantially between sun and shade leaves**
 Biophysically, we might expect that sun leaves should tend to have a stronger temperature-dependence and higher temperature optima than shade leaves (Fig. 14.5; *revisit this!*) (Campbell and Norman 1998).
