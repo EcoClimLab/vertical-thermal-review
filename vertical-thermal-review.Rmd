@@ -61,18 +61,16 @@ In the meantime, our findings imply that while large canopy trees are the most v
 
 Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF). 
 There is also increasing severity and frequency of heat waves (Perkins et al. 2012).
-This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change (e.g., Bonan 2008).
-With increases in temperature, temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold (Mau et al. 2020, Huang et al. 2019). 
+This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change [@bonan_ecological_2016, Bonan 2008].
+With increases in temperature, temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018,Huang et al. 2019]. 
 This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world (McDowell et al. 2020; Allen et al. 2015, Brienen et al. 2015).
 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
-Globally, we're seeing larger trees suffering more during drought (Bennett et al. 2015; Stovall et al. 2019).
+Globally, we're seeing larger trees suffering more during drought [@bennettLargerTreesSuffer2015, @stovallTreeHeightExplains2019] 
 Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (Nate McDowell et al.2020). 
-Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature (Cornelius Senf et al. 2018) has shown to increase understory temperatures which raises concern for understory species and forest biodiversity (Zellweger et al. 2019, Defrenne et al. 2013).
+Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature [[@senfCanopyMortalityHas2018] has shown to increase understory temperatures which raises concern for understory species and forest biodiversity [@zellwegerSeasonalDriversUnderstorey2019, @defrenneMicroclimateModeratesPlant2013]
 
-We're seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species (Suggitt et al. 2018, Scheffers et al. 2013, Defrenne et al. 2013). 
-     - @zellweger_forest_2020 
-     - (Suggitt et al. 2018, Scheffers et. al 2014)
+We're seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species [@zellwegerForestMicroclimateDynamics2020, @suggittExtinctionRiskClimate2018, @scheffersMicrohabitatsReduceAnimal2013,@defrenneMicroclimateModeratesPlant2013]  
 
 Understanding thermal sensitivity along the vertical canopy profile, from the understory to the top of the canopy will provide crucial insights for how raising temperature affects forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions [with additional feedbacks to forest structure and microclimates].
 
@@ -98,13 +96,18 @@ vi. What are the implications for modeling/ scaling?
 
 ## The biophysical environment
 
+Maybe we should start this section with a brief definition of what we mean by "biophysical"? E.g. the physical structure of the forest canopy (from understory to the canopy top) and associated microclimates, which are in large part determined by the structure of the forest itself. ] 
+
 **Forest canopies have a buffering effect on multiple aspects of the understory climate (Fig. **2**).**
 
-Most notably, availability of light decreases along a verticle profile from top of the canopy to the forest floor due to variation in foliage density,and increases with tree height (Mau et. al 2018, Poorter et al. 2019, Niinemets et al. 2015) (Fig. **2x**).
-Light is more available above the canopy compared to the forest floor which receives as little as 1% of the above canopy values (Roberts et al. 1990)
-This difference in light regime is an important variable in determining leaf traits along the gradient and consequently their responses to temperature.(Niinemets, 2010, Sack et al. 2016)
+Most notably, light conditions vary  with canopy height due to cumulative layers of vegetation that limits light to lower canopy layers [@fausetDifferencesLeafThermoregulation2018, @niinemetsPackingPhotosyntheticMachinery2009, Parker 1995, @poorterMetaanalysisPlantResponses2019]
+(Fig. **2x**)such that the forest floor of understory regions receive 1-2%  of the light incident to the top of the canopy [@robertsStomatalBoundaryLayerConductances1990, Chazdon & Fetcher 1984; Parker et al. 2019]
+In heterogeneous canopies [with high gap fractions], distance from the outer canopy is a better proxy for light environment than height (Parker 1995) and lower canopy light environments are highly variable, ranging from high light gap to deeply shaded understory regions (Chazdon & Fetcher 1984; Tymen et al. 2017 ; Smith et al. 2019). 
+This difference in light regime is an important variable in determining leaf traits along the gradient and consequently their responses to temperature.[@fausetDifferencesLeafThermoregulation2018, @niinemetsResponsesForestTrees2010, @sackHowStrongIntracanopy2006, Doughty and Gouden 2008]
+
+In addition, the vertical structure and hence, microenvironments of forest canopies vary seasonally (Parker & Tibbs 2004; Smith et al. 2019 ; Parker et al. 2019) and following disturbance (e.g., Parker et al. 2002 ; Almeida et al. 2016 ; Stark et al. 2020 in press).
 - (*@bonan_ecological_2016 reviews this and points to appropriate references*)
--	Sunflecks: Leaky et al. 2003?
+-	Sunflecks: Leaky et al. 2003--from Marielle, "This is another, higher resolution axis of the variability of microenvironments that is probably quite important to address. (Also see the papers by Robin Chazdon on temporal variability of light environments). Maybe we will want to add these sentences (above) and something about sunflecks to a separate section that specifically addresses sources of variation in forest structure & microenvironments (e.g., vertical, horizontal, seasonal, diurnal, and with disturbance)?"
 
 **Wind speeds are also higher at the top of the canopy (Fig. **2x**).**
 *(fill in some specifics from the NEON analysis)*
@@ -113,7 +116,8 @@ This results in higher boundary layer conductance, *DEFINE*, for canopy leaves [
 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. **2x**).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019]. 
-Similarly, maximum air temperatures were higher above than below tropical forest canopies during wet seasons in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018].
+Similarly, maximum air temperatures were higher above than below tropical forest canopies during wet seasons in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018, Tymen et al. 2017] 
+"max temps were higher and humidity lower in gaps vs understory regions (both at 1.5 m above the ground), see Fig. 4 - again illustrating buffering effect of the canopy"
 However, similar maximum temperatures have been observed during the dry season in Panama [@rey-sanchez_spatial_2016] and in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
 Minimum $T_{air}$ is also buffered by forest canopies under some conditions. 
 Higher minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].
@@ -124,7 +128,7 @@ However, similar minimum temperatures under forest canopies have been observed i
 - DETAILS - REFS
 - @mcgregor_tree_nodate
 RH, in combination with temperature, determines vapor pressure deficit, $VPD$
-- $VPD$ is lower in understory of Atlantic forest during wet season [@fauset_differences_2018]
+- $VPD$ is lower in understory of Atlantic forest during wet season [@fauset_differences_2018, Tymen et al. 2017]
 This means that canopy leaves tend to be exposed to higher *evaporative demand*.
 
 **Finally, carbon dioxide (CO~2~) concentrations tend to be higher in the understory.** 
