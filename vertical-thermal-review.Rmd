@@ -9,7 +9,6 @@ csl: new-phytologist.csl
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 **Title:** Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications
 
 **Authors (so far, not necessarily in final order):** 
