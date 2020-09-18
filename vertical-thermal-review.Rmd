@@ -61,15 +61,15 @@ In the meantime, our findings imply that while large canopy trees are the most v
 Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF). 
 There is also increasing severity and frequency of heat waves (Perkins et al. 2012).
 This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change [@bonan_ecological_2016, Bonan 2008].
-With increases in temperature, temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018,Huang et al. 2019]. 
+With increases in temperature, temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018, Huang et al. 2019]. 
 This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world (McDowell et al. 2020; Allen et al. 2015, Brienen et al. 2015).
 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
 Globally, we're seeing larger trees suffering more during drought [@bennettLargerTreesSuffer2015, @stovallTreeHeightExplains2019] 
 Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (Nate McDowell et al.2020). 
-Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature [[@senfCanopyMortalityHas2018] has shown to increase understory temperatures which raises concern for understory species and forest biodiversity [@zellwegerSeasonalDriversUnderstorey2019, @defrenneMicroclimateModeratesPlant2013]
+Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature [[@senfCanopyMortalityHas2018a] has shown to increase understory temperatures which raises concern for understory species and forest biodiversity [@zellweger_seasonal_2019, @defrenneMicroclimateModeratesPlant2013]
 
-We're seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species [@zellwegerForestMicroclimateDynamics2020, @suggittExtinctionRiskClimate2018, @scheffersMicrohabitatsReduceAnimal2013,@defrenneMicroclimateModeratesPlant2013]  
+We're seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species [@zellweger_forest_2020, @suggittExtinctionRiskClimate2018, @scheffersMicrohabitatsReduceAnimal2013,@defrenneMicroclimateModeratesPlant2013]  
 
 Understanding thermal sensitivity along the vertical canopy profile, from the understory to the top of the canopy will provide crucial insights for how raising temperature affects forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions [with additional feedbacks to forest structure and microclimates].
 
@@ -99,8 +99,8 @@ Maybe we should start this section with a brief definition of what we mean by "b
 
 **Forest canopies have a buffering effect on multiple aspects of the understory climate (Fig. **2**).**
 
-Most notably, light conditions vary  with canopy height due to cumulative layers of vegetation that limits light to lower canopy layers [@fausetDifferencesLeafThermoregulation2018, @niinemetsPackingPhotosyntheticMachinery2009, Parker 1995, @poorterMetaanalysisPlantResponses2019]
-(Fig. **2x**)such that the forest floor of understory regions receive 1-2%  of the light incident to the top of the canopy [@robertsStomatalBoundaryLayerConductances1990, Chazdon & Fetcher 1984; Parker et al. 2019]
+Most notably, light conditions vary  with canopy height due to cumulative layers of vegetation that limits light to lower canopy layers [@fauset_differences_2018, @niinemetsPackingPhotosyntheticMachinery2009, Parker 1995, @poorterMetaanalysisPlantResponses2019b]
+(Fig. **2x**)such that the forest floor of understory regions receive 1-2%  of the light incident to the top of the canopy [@robertsStomatalBoundaryLayerConductances1990a, Chazdon & Fetcher 1984; Parker et al. 2019]
 In heterogeneous canopies [with high gap fractions], distance from the outer canopy is a better proxy for light environment than height (Parker 1995) and lower canopy light environments are highly variable, ranging from high light gap to deeply shaded understory regions (Chazdon & Fetcher 1984; Tymen et al. 2017 ; Smith et al. 2019). 
 This difference in light regime is an important variable in determining leaf traits along the gradient and consequently their responses to temperature.[@fausetDifferencesLeafThermoregulation2018, @niinemetsResponsesForestTrees2010, @sackHowStrongIntracanopy2006, Doughty and Gouden 2008]
 
