@@ -62,7 +62,7 @@ Globally, temperatures have risen # $^\circ$C since YEAR and are expected to ris
 There is also increasing severity and frequency of heat waves (Perkins et al. 2012).
 This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change [@bonan_ecological_2016, Bonan 2008].
 With increases in temperature, temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018, Huang et al. 2019]. 
-This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world (McDowell et al. 2020; Allen et al. 2015, Brienen et al. 2015).
+This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world [@mcdowellMechanismsPlantSurvival2008; @allenUnderestimationGlobalVulnerability2015, Brienen et al. 2015).
 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
 Globally, we're seeing larger trees suffering more during drought [@bennettLargerTreesSuffer2015, @stovallTreeHeightExplains2019] 
