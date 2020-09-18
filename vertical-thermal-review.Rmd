@@ -62,12 +62,12 @@ Globally, temperatures have risen # $^\circ$C since YEAR and are expected to ris
 There is also increasing severity and frequency of heat waves (Perkins et al. 2012).
 This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change [@bonan_ecological_2016, Bonan 2008].
 With increases in temperature, temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018, Huang et al. 2019]. 
-This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world [@mcdowellMechanismsPlantSurvival2008; @allenUnderestimationGlobalVulnerability2015, Brienen et al. 2015).
+This, alongside climate change-driven disturbances such as drought, may contribute to increasing tree mortality in forests around the world [@mcdowellMechanismsPlantSurvival2008, @allenUnderestimationGlobalVulnerability2015, Brienen et al. 2015].
 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
 Globally, we're seeing larger trees suffering more during drought [@bennettLargerTreesSuffer2015, @stovallTreeHeightExplains2019] 
-Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (Nate McDowell et al.2020). 
-Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature [[@senfCanopyMortalityHas2018a] has shown to increase understory temperatures which raises concern for understory species and forest biodiversity [@zellweger_seasonal_2019, @defrenneMicroclimateModeratesPlant2013]
+Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (McDowell et al.2020). 
+Additionally, decrease in canopy cover or increase in canopy mortality as a result of increasing temperature [@senfCanopyMortalityHas2018a] has shown to increase understory temperatures which raises concern for understory species and forest biodiversity [@zellweger_seasonal_2019, @defrenneMicroclimateModeratesPlant2013]
 
 We're seeing increasing evidence that this impacts the ecology, with potential feedbacks to climate change, especially in protecting cool-acclimated species [@zellweger_forest_2020, @suggittExtinctionRiskClimate2018, @scheffersMicrohabitatsReduceAnimal2013,@defrenneMicroclimateModeratesPlant2013]  
 
@@ -314,8 +314,8 @@ It is also possible that competition is accelerated under warmer temperatures.
 ![**Figure 4. Temperature sensitivity of tree growth for understory versus canopy trees.** Analysis methods described in Appendix S3. Data from Helcoski et al. 2019.](SCBI_tree_rings/SCBIfig.png)
 
 ## Implications for Modeling / Scaling
-E.g. see de Pury & Farquhar, 1997 : though likely an improvement over 'big-leaf' models, models that separate the canopy into sunlit and shaded portions (sun/shade models) may not be able to capture important within-canopy variation in terms of leaf dynamics (e.g. seasonal shifts in vertical leaf area distributions, Smith et al. 2019) and functions (e.g. thermal responses, as we present in this paper). Hence, multi-layered ecosystem models may be necessary for accurately projecting future forest function.  
 
+E.g. see de Pury & Farquhar, 1997 : though likely an improvement over 'big-leaf' models, models that separate the canopy into sunlit and shaded portions (sun/shade models) may not be able to capture important within-canopy variation in terms of leaf dynamics (e.g. seasonal shifts in vertical leaf area distributions, Smith et al. 2019) and functions (e.g. thermal responses, as we present in this paper). Hence, multi-layered ecosystem models may be necessary for accurately projecting future forest function.
 
 ## Future Questions
 
