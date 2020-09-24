@@ -160,6 +160,8 @@ The strength of buffering also varies with respect to geographic and climatic fa
 
 ## Trait variation 
 
+Leaf traits vary along the vertical canopy profile following the pattern of light availability across the gradient [@poorterMetaanalysisPlantResponses2019b]. Leaves in the upper canopy that are exposed to more light differ in their traits compared to shaded leaves exposed to less light. Increasing number of studies point towards the importance of incorporating vertical canopy leaf trait variation in modelling for leaf economic spectrum (LES) [Chen et al. 2020], leaf thermoregular and thermal sensitivty which will provide a more accurate representation of within-canopy gradient response to increasing temperatures.[@fauset_differences_2018, @michaletzEnergeticCarbonEconomic2016, @niinemetsWorldwideAnalysisWithincanopy2015, Chen et al. 2020, REFS)
+
 [Add something about how leaf traits along the vertical canopy profile are different than the expectation from leaf economic spectrum (LES)? Chen et al. 2020 is a good paper to help frame this . They make an important point in that paper that we may also want to make here: that the LES was 'built' using mainly sun (upper canopy) leaves; given the vastly different light environments at the bottom of the canopy (and that most leaves in the canopy are likely to be shade leaves) there is a strong research need to better characterise trait relationships and leaf responses through the whole vertical canopy - hence the importance of this review. Keenan & Niinemets 2016  will also be helpful in making this point.]--M N. Smith
 
 **Many traits vary with height and/or between sun and shade leaves on the same species (Table 1).**
