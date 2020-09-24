@@ -196,7 +196,7 @@ Max transpiration rate - increases with canopy height (Kenzo et al. 2015).
 *Carotinoids* 
 -	photoprotective- disseminate heat, acclimate to high T. THese are proportional to irradiance 
 -	antioxidant scavenging function- protect against cellular damage
-- Königer et. al. 1995, and  Matsubara et al. 2009?
+- Koniger et. al. 1995, and  Matsubara et al. 2009?
 
 *Isoprene production*
 -  Isoprene production *capability* as a trait (actual isoprene production is in section 4. I'm not sure whether Ty's content belongs here or in that section) 
@@ -207,7 +207,7 @@ Max transpiration rate - increases with canopy height (Kenzo et al. 2015).
 
 **Many of the biophysical and trait variable reviewed above affect leaf temperature, $T_{leaf}$, which in turn has a strong influence on leaf metabolism (see following section).**
 $T_{leaf}$ is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019] (Fig. 3).
-While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature.
+While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature.[@fauset_differences_2018]
 Large leaves can be significantly cooler than $T_{air}$ under low radiation with stomata open, and significantly hotter under high radiation with stomata closed.  
 Leaves with open stomata and high radiation loads maintain $T_{leaf}$ similar to $T_{air}$, with coolest leaves at intermediate sizes (~10mm).
 Shaded understory leaves should tend to maintain cooler daytime leaf temperatures for any given level of stomatal conductance.
