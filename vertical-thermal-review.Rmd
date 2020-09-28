@@ -157,6 +157,7 @@ Species that have higher shade casting ability increase T buffering (Zelllweger 
 The strength of buffering also varies with respect to geographic and climatic factors.
 * Distance to coast, topographic position, elevation [@zellweger_seasonal_2019]
 * [@davis_microclimatic_2019]
+However vertical climate gradients within forests are known to be steeper than those driven by elevation and latitude [@nakamuraForestsTheirCanopies2017,  @martinCovarianceSunShade2020a]
 
 ## Trait variation 
 
@@ -174,7 +175,7 @@ Here, we focus on traits that are important for shaping leaf temperature ($T_{le
 ```
 ---
 nocite: | 
-  @mau_temperate_2018
+  @mau_temperate_2018, @cobleHowVerticalPatterns2016a, @slotPhotosyntheticHeatTolerance2019, @valladaresShadeToleranceKey2008b, @beaumontVerticalGradientsLeaf2009, @sackHowStrongIntracanopy2006,@cobleLightDrivesVertical2014, @scartazzaInvestigatingEuropeanBeech2016, @martinCovarianceSunShade2020, @bolstad_foliar_1999, @harleyEffectsLightTemperature1996, @kullDistributionLeafPhotosynthetic1998, @kafutiFoliarWoodTraits2020, @duursmaVerticalCanopyGradients2006, @vanwittenbergheVariabilityStomatalConductance2012, 
 ---
 
 Are traits shaped more by height or light?
@@ -324,6 +325,8 @@ It is also possible that competition is accelerated under warmer temperatures.
 ## Implications for Modeling / Scaling
 
 E.g. see de Pury & Farquhar, 1997 : though likely an improvement over 'big-leaf' models, models that separate the canopy into sunlit and shaded portions (sun/shade models) may not be able to capture important within-canopy variation in terms of leaf dynamics (e.g. seasonal shifts in vertical leaf area distributions, Smith et al. 2019) and functions (e.g. thermal responses, as we present in this paper). Hence, multi-layered ecosystem models may be necessary for accurately projecting future forest function.
+
+[@nakamuraForestsTheirCanopies2017]--> modelling ideas?
 
 ## Future Questions
 
