@@ -242,7 +242,7 @@ However, as we detail below, there are limited studies comparing thermal respons
 ```
 ---
 nocite: | 
-  @bolstad_foliar_1999; @roberts_stomatal_1990; @slot_photosynthetic_2019 
+  @bolstad_foliar_1999; @roberts_stomatal_1990; @slot_photosynthetic_2019; @harleyEffectsLightTemperature1996;@niinemetsHowLightTemperature2015; @sharkeyFutureIsopreneEmission2014b;@ishiiExploringRelationshipsCanopy2004; @curtis_intracanopy_2019; @bolstad_foliar_1999
 ---
 
 
