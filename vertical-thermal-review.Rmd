@@ -65,13 +65,13 @@ This is expected to have profound effects on forest biodiversity and ecosystem f
 These changes, alongside climate change-driven disturbances such as drought, deforestation and fire, may contribute to increasing tree mortality in forests around the world [@mcdowellMechanismsPlantSurvival2008, @allenUnderestimationGlobalVulnerability2015, Brienen et al. 2015].
 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
-Taller trees form canopies that maintain vertically-stratified forest ecosystems, and play a crucial role in regulating macro-microclimate. (Nakamura et al. 2017, Ozanne et al. 2003)  
+Taller trees form canopies that maintain vertically-stratified forest ecosystems, and play a crucial role in regulating macro-microclimate. [@nakamuraForestsTheirCanopies2017, @ozanneBiodiversityMeetsAtmosphere2003]  
 With increase in temperatures globally, we're seeing that larger trees suffer more during drought [@bennettLargerTreesSuffer2015, @stovallTreeHeightExplains2019] 
 Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (McDowell et al.2020). 
 
 
 **The structure and microclimates of global forests are changing due to unprecedented disturbance rates.**
-Temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018, @huangAirTemperatureOptima2019].Loss of canopy cover as a result of increasing temperature and related forest disturbances [@senfCanopyMortalityHas2018a] is associated with reductions in canopy structural complexity, and altered microclimates and surface energy balance components (Zellweger et al. 2020; Stark et al. 2020 ), this has shown to increase understory temperatures which raises concern for understory species and forest biodiversity [@zellweger_seasonal_2019, @defrenneMicroclimateModeratesPlant2013]
+Temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018, @huangAirTemperatureOptima2019].Loss of canopy cover as a result of increasing temperature and related forest disturbances [@senfCanopyMortalityHas2018a] is associated with reductions in canopy structural complexity, and altered microclimates and surface energy balance components [@zellweger_forest_2020; @starkReframingTropicalSavannization2020], this has shown to increase understory temperatures which raises concern for understory species and forest biodiversity [@zellweger_seasonal_2019, @defrenneMicroclimateModeratesPlant2013]
 
 (Marielle--"Reductions in canopy cover can lead to non-linear threshold responses, causing dramatic shifts from one forest state to another (e.g., transition from forest to savanna-like vegetation in tropical forest regions through "savannization"), with energy balance impacts and implications for forest-atmosphere interactions (Stark et al. 2020)".)  
 
@@ -105,10 +105,10 @@ Maybe we should start this section with a brief definition of what we mean by "b
 
 **Forest canopies have a buffering effect on multiple aspects of the understory climate (Fig. **2**).**
 
-Most notably, light conditions vary  with canopy height due to cumulative layers of vegetation that limits light to lower canopy layers [@fauset_differences_2018, @niinemetsPackingPhotosyntheticMachinery2009, Parker 1995, @poorterMetaanalysisPlantResponses2019b]
+Most notably, light conditions, specifically photosynthetically active radiation (PAR) varies  with canopy height due to cumulative layers of vegetation that limits light to lower canopy layers [@fauset_differences_2018, @niinemetsPackingPhotosyntheticMachinery2009, Parker 1995, @poorterMetaanalysisPlantResponses2019b]
 (Fig. **2x**)such that the forest floor of understory regions receive 1-2%  of the light incident to the top of the canopy [@robertsStomatalBoundaryLayerConductances1990a, Chazdon & Fetcher 1984; Parker et al. 2019]
-In heterogeneous canopies [with high gap fractions], distance from the outer canopy is a better proxy for light environment than height (Parker 1995) and lower canopy light environments are highly variable, ranging from high light gap to deeply shaded understory regions (Chazdon & Fetcher 1984; Tymen et al. 2017 ; Smith et al. 2019). 
-This difference in light regime is an important variable in determining leaf traits along the gradient and consequently their responses to temperature.[@fausetDifferencesLeafThermoregulation2018, @niinemetsResponsesForestTrees2010, @sackHowStrongIntracanopy2006, Doughty and Gouden 2008]
+In heterogeneous canopies [with high gap fractions], distance from the outer canopy is a better proxy for light environment than height (Parker 1995) and lower canopy light environments are highly variable, ranging from high light gap to deeply shaded understory regions [@chazdonPhotosyntheticLightEnvironments1984, @tymenQuantifyingMicroenvironmentalVariation2017, @smithSeasonalDroughtrelatedChanges2019]. 
+This difference in light regime is an important variable in determining leaf traits along the gradient and consequently their responses to temperature.[@fausetDifferencesLeafThermoregulation2018, @niinemetsResponsesForestTrees2010, @sackHowStrongIntracanopy2006, @doughtyAreTropicalForests2008]
 
 In addition, the vertical structure and hence, microenvironments of forest canopies vary seasonally (Parker & Tibbs 2004; Smith et al. 2019 ; Parker et al. 2019) and following disturbance (e.g., Parker et al. 2002 ; Almeida et al. 2016 ; Stark et al. 2020 in press).
 - (*@bonan_ecological_2016 reviews this and points to appropriate references*)
@@ -117,7 +117,7 @@ In addition, the vertical structure and hence, microenvironments of forest canop
 **Wind speeds are also higher at the top of the canopy (Fig. **2x**).**
 *(fill in some specifics from the NEON analysis)*
 Consistent with the results from NEON sites, higher wind speed at greater heights within a forest have previously been observed in both closed canopy forests [e.g., REFS; @mcgregor_tree_nodate] and open savannas (Curtis et al. 2018).
-This results in higher boundary layer conductance, *DEFINE*, for canopy leaves [@martin_boundary_1999; @roberts_stomatal_1990].
+This results in higher boundary layer conductance, *DEFINE*, for canopy leaves [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990].
 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. **2x**).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019]. 
