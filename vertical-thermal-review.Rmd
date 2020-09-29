@@ -120,21 +120,24 @@ Consistent with the results from NEON sites, higher wind speed at greater height
 This results in higher boundary layer conductance, *DEFINE*, for canopy leaves [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990].
 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. **2x**).**
-Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019]. 
+Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019, @vonarxSpatiotemporalEffectsForest2012] and in the northwestern United States [@davis_microclimatic_2019]. 
 Similarly, maximum air temperatures were higher above than below tropical forest canopies during wet seasons in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018, Tymen et al. 2017] 
 "max temps were higher and humidity lower in gaps vs understory regions (both at 1.5 m above the ground), see Fig. 4 - again illustrating buffering effect of the canopy"
 However, similar maximum temperatures have been observed during the dry season in Panama [@rey-sanchez_spatial_2016] and in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
 Minimum $T_{air}$ is also buffered by forest canopies under some conditions. 
 Higher minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].
-However, similar minimum temperatures under forest canopies have been observed in tropical forests in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018], as well as in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
-*(Add something about risk of freeze.)*
+However, similar minimum temperatures under forest canopies have been observed in tropical forests in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018], as well as in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate, @nakamuraForestsTheirCanopies2017].
+*(Add something about risk of freeze.)*--> [@nakamuraForestsTheirCanopies2017]
 
 **Humidity also varies across the forest vertical profile, being generally higher in the understory (Fig. **2x**).**
 - DETAILS - REFS
 - @mcgregor_tree_nodate
+
+Forest canopies moderate relative humidity in below-canopy microclimates along with temperature. In three European forest types (Broadleaved, Non-Pine Conifer, Pine) canopy buffering was observed to decrease daily maximum $T_{air}$ and increase daily minimum RH in below-canopy microclimate [@vonarxSpatiotemporalEffectsForest2012] 
+
 RH, in combination with temperature, determines vapor pressure deficit, $VPD$
 - $VPD$ is lower in understory of Atlantic forest during wet season [@fauset_differences_2018, Tymen et al. 2017]
-This means that canopy leaves tend to be exposed to higher *evaporative demand*.
+This means that canopy leaves tend to be exposed to higher *evaporative demand*, higher stomtal contrains and lower osmotic potential, making canopy leaves more efficient in regulating water use [@niinemetsPhotosyntheticAcclimationSimultaneous2004]
 
 **Finally, carbon dioxide (CO~2~) concentrations tend to be higher in the understory.** 
 -	Higher in understory, particularly at dusk (Koike et al. 2001).
@@ -185,7 +188,7 @@ Are traits shaped more by height or light?
 
 *Leaf area / characteristic dimension*:
 - Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected. 
-- Max stomatal conductance - increases with canopy height (Kenzo et al. 2015).
+- Max stomatal conductance - increases with canopy height (Kenzo et al. 2015)
 Max transpiration rate - increases with canopy height (Kenzo et al. 2015).
 
 
