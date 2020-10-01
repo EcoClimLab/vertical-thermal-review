@@ -131,7 +131,7 @@ However, similar maximum temperatures have been observed during the dry season i
 Minimum $T_{air}$ is also buffered by forest canopies under some conditions. 
 Higher minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].
 However, similar minimum temperatures under forest canopies have been observed in tropical forests in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018], as well as in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate; @nakamuraForestsTheirCanopies2017].
-*(Add something about risk of freeze.)*--> [@nakamuraForestsTheirCanopies2017]
+*(Add something about risk of freeze.)* Additionally, canopies also buffer effects of snow through intercepting heavy snow accumulution on below-canopy levels [@nakamuraForestsTheirCanopies2017; @storckMeasurementSnowInterception2002]
 
 **Humidity also varies across the forest vertical profile, being generally higher in the understory (Fig. **2x**).**
 - DETAILS - REFS
