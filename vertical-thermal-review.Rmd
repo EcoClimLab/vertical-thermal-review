@@ -62,7 +62,7 @@ In the meantime, our findings imply that while large canopy trees are the most v
 Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF). 
 There is also increasing severity and frequency of heat waves [@perkinsIncreasingFrequencyIntensity2012].
 This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change [@bonan_ecological_2016, Bonan 2008].
-These changes, alongside climate change-driven disturbances such as drought, deforestation and fire, may contribute to increasing tree mortality in forests around the world [@mcdowellMechanismsPlantSurvival2008, @allenUnderestimationGlobalVulnerability2015, Brienen et al. 2015].
+These changes, alongside climate change-driven disturbances such as drought, deforestation and fire, may contribute to increasing tree mortality in forests around the world [@mcdowellMechanismsPlantSurvival2008; @allenUnderestimationGlobalVulnerability2015, Brienen et al. 2015].
 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
 
@@ -121,7 +121,7 @@ In addition, the vertical structure and hence, microenvironments of forest canop
 **Wind speeds are also higher at the top of the canopy (Fig. **2x**).**
 *(fill in some specifics from the NEON analysis)*
 Consistent with the results from NEON sites, higher wind speed at greater heights within a forest have previously been observed in both closed canopy forests [e.g., REFS; @mcgregor_tree_nodate] and open savannas (Curtis et al. 2018).
-This results in higher boundary layer conductance ($g_{a}$) for canopy leaves. Boundary layer conductance is the thickness of air layer at the surface of the leaf through which water vapor diffuses after leaving the stomata. Large $g_{a}$ for canopy leaves results in smaller difference in $T_{air}$ and $T_{leaf}$ [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a].
+This results in higher boundary layer conductance ($g_{a}$) for canopy leaves. Boundary layer conductance is the thickness of air layer at the surface of the leaf through which water vapor diffuses after leaving the stomata;($g_{a}$) also depends on leaf traits, morphology and windspeed. Large $g_{a}$ for canopy leaves results in smaller difference in $T_{air}$ and $T_{leaf}$ [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a] thus having important implications for leaf thermal sensitivity. 
 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. **2x**).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019; @vonarxSpatiotemporalEffectsForest2012] and in the northwestern United States [@davis_microclimatic_2019]. 
@@ -137,7 +137,7 @@ However, similar minimum temperatures under forest canopies have been observed i
 - DETAILS - REFS
 - @mcgregor_tree_nodate
 
-Forest canopies moderate relative humidity in below-canopy microclimates along with temperature. In three European forest types (Broadleaved, Non-Pine Conifer, Pine) canopy buffering was observed to decrease daily maximum $T_{air}$ and increase daily minimum RH in below-canopy microclimate. With rising temperatures, this trend in maximum $T_{air}$ and RH would have implications on understory seedling growth, especially in high altitude temperate pine forests [@vonarxSpatiotemporalEffectsForest2012a] 
+Forest canopies moderate relative humidity in below-canopy microclimates along with temperature. In three European forest types (Broadleaved, Non-Pine Conifer, Pine) canopy buffering was observed to decrease daily maximum $T_{air}$ and increase daily minimum RH in below-canopy microclimate. With rising temperatures, this trend in maximum $T_{air}$ and RH would have implications on understory seedling growth, especially in high altitude temperate pine forests [@vonarxSpatiotemporalEffectsForest2012] 
 
 RH, in combination with temperature, determines vapor pressure deficit, $VPD$
 - $VPD$ is lower in understory of Atlantic forest during wet season [@fauset_differences_2018, Tymen et al. 2017]
@@ -168,7 +168,7 @@ However vertical climate gradients within forests are known to be steeper than t
 ## Trait variation 
 
 Leaf traits vary along the vertical canopy profile following the pattern of light availability across the gradient [@poorterMetaanalysisPlantResponses2019b]. Leaves in the upper canopy that are exposed to more light differ in their traits compared to shaded leaves exposed to less light [@niinemetsWorldwideAnalysisWithincanopy2015].
-Increasing number of studies point towards the importance of incorporating vertical canopy leaf trait variation in modelling for leaf economic spectrum (LES) [Chen et al. 2020], leaf thermoregular and thermal sensitivty which will provide a more accurate representation of within-canopy gradient response to increasing temperatures.[@fauset_differences_2018, @michaletzEnergeticCarbonEconomic2016; @niinemetsWorldwideAnalysisWithincanopy2015, Chen et al. 2020, REFS)
+Increasing number of studies point towards the importance of incorporating vertical canopy leaf trait variation in modelling for leaf economic spectrum (LES) [Chen et al. 2020], leaf thermoregulation and thermal sensitivty which will provide a more accurate representation of within-canopy gradient response to increasing temperatures.[@fauset_differences_2018, @michaletzEnergeticCarbonEconomic2016; @niinemetsWorldwideAnalysisWithincanopy2015, Chen et al. 2020, REFS)
 
 [Add something about how leaf traits along the vertical canopy profile are different than the expectation from leaf economic spectrum (LES)? Chen et al. 2020 is a good paper to help frame this . They make an important point in that paper that we may also want to make here: that the LES was 'built' using mainly sun (upper canopy) leaves; given the vastly different light environments at the bottom of the canopy (and that most leaves in the canopy are likely to be shade leaves) there is a strong research need to better characterise trait relationships and leaf responses through the whole vertical canopy - hence the importance of this review. Keenan & Niinemets 2016  will also be helpful in making this point.]--M N. Smith
 
@@ -264,13 +264,12 @@ In response to the greater light availability, sun leaves have traits allowing g
 The vertical gradient in photosythetic rates is also influenced by...
 .[thoughts: plasticity vs change in tree species composition through the canopy; differences in variability of microenvironments through the profile - highest lower down in canopy?; life history / investment strategies and hence, leaf life spans at leaves at the top vs bottom of the canopy]-- M N. Smith
 
-Photosynthesis increases with increasing temperature and saturates at quatum flux density of 400 to 700nm $m^{-2}$ $s^{-1}$, beyond this the leaf experiences heat stress; non-photochemical quenching, photoinhibition and leaf necrosis. Leaves in upper canopy tend to experience more heat stress and greater photoinhibition than lower canopy leaves, especially in conditions of water stress or drought. [@niinemetsWorldwideAnalysisWithincanopy2015] 
+Photosynthesis increases with increasing temperature and irradiance, and saturates at quatum flux density of 400 $m^{-2}$ $s^{-1}$ to 700nm $m^{-2}$ $s^{-1}$, beyond this the leaf experiences heat stress; non-photochemical quenching, photoinhibition and leaf necrosis. Leaves in upper canopy tend to experience more heat stress and greater photoinhibition than lower canopy leaves in conditions of water stress or drought. [@niinemetsWorldwideAnalysisWithincanopy2015] 
 
 **While sun and shade leaves differ dramatically in $A_{max}$, the temperature sensitivity of photosynthesis does not appear to differ substantially between sun and shade leaves**
-Biophysically, we might expect that sun leaves should tend to have a stronger temperature-dependence and higher temperature optima than shade leaves (Fig. 14.5; *revisit this!*) (Campbell and Norman 1998).
-This observed by earlier studies suggested that the interaction between light gradient and temperature response along vertical canopy profile implied there to be a spectrum of temperature responses of Topt, Vmax anD Jmax along the gradient [@niinemetsWithincanopyVariationRate2004a; Harley and Baldocchi 1995, Friend, 2001].
+Biophysically, we might expect that sun leaves should tend to have a stronger temperature-dependence and higher temperature optima than shade leaves (Fig. 14.5; *revisit this!*) (Campbell and Norman 1998) as observed by earlier studies, suggesting that the interaction between light gradient and temperature response along vertical canopy profile implied there to be a spectrum of temperature responses of $T_{opt}$,$V_{max}$ and $J_{max}$ along the gradient [@niinemetsWithincanopyVariationRate2004a; Harley and Baldocchi 1995, Friend, 2001].
 However, this does not appear to be the case based on the limited number of field studies that have compared temperature sensitivity of photoshythesis in sun and shade leaves.
-For 3 species in Panama, [@slotPhotosyntheticHeatTolerance2019] found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant. Similiar results were found for $V_{max}$ and $J_{max}$ [@slotPhotosyntheticHeatTolerance2019, Hernandez et al.2020]
+For 3 species in Panama, @slotPhotosyntheticHeatTolerance2019 found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant. Similiar results were found for $V_{max}$ and $J_{max}$ [@slotPhotosyntheticHeatTolerance2019, Hernandez et al.2020]
 Mau et al. found no trend along a height gradient in Puerto Rico, and no significant trend in temperate trees [@mau_temperate_2018].
 
 **Leaf thermal tolerance (Tcrit/ T50)**
