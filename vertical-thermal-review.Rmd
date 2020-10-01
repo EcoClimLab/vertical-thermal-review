@@ -267,8 +267,8 @@ Photosynthesis increases with increasing temperature and saturates at quatum flu
 Biophysically, we might expect that sun leaves should tend to have a stronger temperature-dependence and higher temperature optima than shade leaves (Fig. 14.5; *revisit this!*) (Campbell and Norman 1998).
 This observed by earlier studies suggested that the interaction between light gradient and temperature response along vertical canopy profile implied there to be a spectrum of temperature responses of Topt, Vmax anD Jmax along the gradient [@niinemetsWithincanopyVariationRate2004a, Harley and Baldocchi 1995, Friend, 2001].
 However, this does not appear to be the case based on the limited number of field studies that have compared temperature sensitivity of photoshythesis in sun and shade leaves.
-For 3 species in Panama, (Slot et al. 2019) found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant. Similiar results were found for Vmax and Jmax [@slotPhotosyntheticHeatTolerance2019, Hernandez et al.2020]
-Mau et al. found no trend along a height gradient in Puerto Rico, and no significant trend in temperate trees (Mau et al. 2018).
+For 3 species in Panama, (Slot et al. 2019) found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant. Similiar results were found for $V_{max}$ and $J_{max}$ [@slotPhotosyntheticHeatTolerance2019, Hernandez et al.2020]
+Mau et al. found no trend along a height gradient in Puerto Rico, and no significant trend in temperate trees [@mau_temperate_2018].
 
 **Leaf thermal tolerance (Tcrit/ T50)**
 - define.
