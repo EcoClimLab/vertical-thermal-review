@@ -95,9 +95,7 @@ iii.	How do biophysical environment and traits combine to affect leaf temperatur
 
 iv.	How does leaf metabolism respond to temperature in canopy and understory settings?
 
-v.	What are the implications of these patterns for the ecology and climate change responses of canopy versus understory trees? 
-
-vi. What are the implications for modeling/ scaling? 
+v.	What are the implications of these patterns for the ecology and climate change responses of canopy versus understory trees? What are the implications for modeling/ scaling? (*nerge these better*)
 
 *Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), and the implications [or utility] for ecosystem models we also review studies focused on exposure gradients.*
 
@@ -109,7 +107,9 @@ The biophysical environment, here defined to include the physical structure of t
 Canopy foliage, which varies across forest types and seasonally, strongly shapes the understory light, wind, etc.
 Forest canopies have a buffering effect on multiple aspects of the understory climate (Fig. **2**).
 
-*(paragraph on leaf area distribution, possibly including figure? [see GitHub issue #15](https://github.com/EcoClimLab/vertical-thermal-review/issues/15))*
+- (*@bonan_ecological_2016 reviews this and points to appropriate references*)
+
+*(paragraph on leaf area distribution, including figure ([separate from or combined with current Fig. 2- see GitHub issue #15](https://github.com/EcoClimLab/vertical-thermal-review/issues/15))*
 The vertical structure and hence, microenvironments of forest canopies vary seasonally (Parker & Tibbs 2004; Smith et al. 2019 ; Parker et al. 2019) and following disturbance (e.g., Parker et al. 2002 ; Almeida et al. 2016 ; Stark et al. 2020 in press).
 In this review, we focus primarily on growing season conditions, including leaf phenology at the edges of the growing season but excluding periods (in deciduous forests) when no leaves are present.
 
@@ -117,8 +117,6 @@ Light conditions, specifically photosynthetically active radiation (PAR) strongl
 (Fig. **2x**)such that the forest floor of understory regions receive 1-2%  of the light incident to the top of the canopy [@robertsStomatalBoundaryLayerConductances1990a; Chazdon & Fetcher 1984; Parker et al. 2019]
 In heterogeneous canopies [with high gap fractions], distance from the outer canopy is a better proxy for light environment than height (Parker 1995) and lower canopy light environments are highly variable, ranging from high light gap to deeply shaded understory regions [@chazdonPhotosyntheticLightEnvironments1984; @tymenQuantifyingMicroenvironmentalVariation2017; @smithSeasonalDroughtrelatedChanges2019]. 
 This difference in light regime is an important variable in determining leaf traits along the gradient and consequently their responses to temperature [@fausetDifferencesLeafThermoregulation2018; @niinemetsResponsesForestTrees2010, @sackHowStrongIntracanopy2006; @doughtyAreTropicalForests2008].
-
-- (*@bonan_ecological_2016 reviews this and points to appropriate references*)
 -	Sunflecks: Leaky et al. 2003--from Marielle, "This is another, higher resolution axis of the variability of microenvironments that is probably quite important to address. (Also see the papers by Robin Chazdon on temporal variability of light environments). Maybe we will want to add these sentences (above) and something about sunflecks to a separate section that specifically addresses sources of variation in forest structure & microenvironments (e.g., vertical, horizontal, seasonal, diurnal, and with disturbance)?"
 
 **Wind speeds are also higher at the top of the canopy (Fig. **2x**).**
@@ -220,8 +218,9 @@ Max transpiration rate - increases with canopy height (Kenzo et al. 2015).
 
 *(Paragraph on intra- vs inter-specific variation)*
 
+- *Are patterns (in traits, metabolism, ecology) driven by tree height or exposure?*
 
-## Leaf temperature
+## Leaf temperature and hydraulics
 
 **Many of the biophysical and trait variable reviewed above affect leaf temperature, $T_{leaf}$, which in turn has a strong influence on leaf metabolism (see following section).**
 $T_{leaf}$ is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019] (Fig. 3).
@@ -247,6 +246,8 @@ Similarly, during the dry season in a tropical moist forest in Panama... (Rey-SÃ
 -	(Slot et al. 2019) and refs therein
 -	(Fauset et al. 2018)
 Sun leaves can also be  cooled relative to $T_{air}$ more than shade leaves (Rey-SÃ¡nchez et al. 2016).
+
+*(Because hydraulics are key to leaf T, we should include some of that here--e.g., water on leaves and leaf water content)*
 
 ## Leaf metabolism and thermal responses
 
@@ -313,12 +314,20 @@ Thus, @bolstad_foliar_1999 found evidence of acclimation, but there remained a d
 
 
 
-## Ecology
+## Scaling & implications
+
+### Distribution of species and traits across the vertical profile
+
+*(This section should address inter-specific vs intra-specific variation, as Tables 1 and 2 refer to intra-specific variation, but most models will focus on trait variation across strata, regardless of species). 
 
 **Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism and its thermal responses scale up to affect whole-tree ecology in several ways.** First, vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in understory versus canopy conditions. 
 -	*Spring and fall leaf phenology in temperate deciduous forests (Augsburger). 	Mechanism: more moderate conditions (T, wind) in understory (REF).*
 *Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). One potential mechanism is lower temperature/hydraulic stress in understory*
 - something on isoprene production?
+
+**Appears to affect community change under warming (Zellweger et al. 2020).**
+
+### Scaling to tree level: demography
 
 **Vertical gradients also affect tree growth and survival, and how these respond to climatic variation.**
 There are numerous demographic differences between understory and canopy trees, which have been linked to both the physical environment and plant traits (e.g., REFS), and we will not attempt to review those here.
@@ -334,25 +343,18 @@ This pattern is initially counter-intuitive in that sun-exposed leaves can exper
 However, given adequate moisture to sustain high $g_s$, canopy leaves exposed to more wind and lower humidity should be more effective at cooling when $T_{air}$ exceeds physiological optima (Fig. **3**).
 It is also possible that competition is accelerated under warmer temperatures.
 
-**Appears to affect community change under warming (Zellweger et al. 2020).**
-
-
-
 ![**Figure 4. Temperature sensitivity of tree growth (derived from tree rings) for understory versus canopy trees.** THIS IS A ROUGH PLACEHOLDER-- KAT WILL PLAY WITH POTENTIAL VERSIONS. IF OUR IN-PREP TREE RING ANALYSIS METHODS PAPER IS ACCEPTED AHEAD OF THIS, WE CAN HIGHLIGHT RESULTS FROM THAT, WHICH ARE MORE RELIABLE. Analysis methods described in Appendix S3. OUTLIER HERE IS SHADE-TOLERANT BEECH. Data from Helcoski et al. 2019.](SCBI_tree_rings/SCBIfig.png)
 
-## Implications for Modeling / Scaling / Future Climate Projections
+### Representation in models
 
 E.g. see de Pury & Farquhar, 1997 : though likely an improvement over 'big-leaf' models, models that separate the canopy into sunlit and shaded portions (sun/shade models) may not be able to capture important within-canopy variation in terms of leaf dynamics (e.g. seasonal shifts in vertical leaf area distributions, Smith et al. 2019) and functions (e.g. thermal responses, as we present in this paper). Hence, multi-layered ecosystem models may be necessary for accurately projecting future forest function.
 
 [@nakamuraForestsTheirCanopies2017]--> modelling ideas?
 
-*(This section should address inter-specific vs intra-specific variation, as Tables 1 and 2 refer to intra-specific variation, but most models will focus on trait variation across strata, regardless of species). 
+*(do we need a section on ecosystem function-- e.g., transpiration, gpp?)*
 
-#### Future Questions 
+### Implications for climate change responses
 
-*(KAT thinks this section should probably be dropped/ content integrated elsewhere, most within the implications for modeling/ scaling section)*
-
-- Are patterns (in traits, metabolism, ecology) driven by tree height or exposure?
 
 - CO2 may lead to denser understory (Martijn)
 
