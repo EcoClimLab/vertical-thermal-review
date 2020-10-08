@@ -7,7 +7,8 @@ stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,tropical,Kafuti
 ,,,$\uparrow$ with light,global,"Valladares and Niinemets, 2008"
 leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"global, temperate","Poorter et al. 2019, Van Wittenberghe et al. 2012"
 ,,,$\uparrow$ with light,global,Poorter et al. 2019
-,,,,,
+trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,tropical,"Ichie et al. 2016, Perez-Estrada et al. 2000"
+,,,$\uparrow$ with light,"sutropical, temperate, tropical","Gregoriou et al. 2007, Levizou et al. 2005, Liakoura 1997"
 ,,,,,
 Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,$\uparrow$ with height,"tropical, temperate","Coble and Cavaleri 2014, Scartazza et al. 2016, Hernandez et al. 2019"
 ,,,$\uparrow$ with light,"tropical, global","Martin et al. 2020, Hernandez et al. 2020, Poorter et al. 2019, Harley et al. 1996  "
