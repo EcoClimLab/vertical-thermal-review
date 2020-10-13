@@ -30,8 +30,8 @@ kable(traits_table, caption = "Table 1. Summary of observed variation in thermal
   column_spec(1, width = "4cm") %>%
   column_spec(2, width = "2cm") %>%
   column_spec(6, width = "4cm") %>%
-  pack_rows("Leaf anatomy and morphological traits", 1, 11, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
-  pack_rows("Leaf biochemical and physiological traits", 12, 22, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
+  pack_rows("Leaf anatomy and morphological traits", 1, 12, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
+  pack_rows("Leaf biochemical and physiological traits", 14, 25, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
   kable_styling(latex_options = c("scale_down", "hold_position"), protect_latex = T) 
   #NOTE: REFERENCES for this table need to go in the nocite section of header in the main doc!!!
 ```
