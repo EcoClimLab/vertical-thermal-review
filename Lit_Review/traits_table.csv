@@ -24,3 +24,7 @@ carbon isotope composition,$\delta^{13}C$,$\%_\circ$,$\uparrow$ with height,"con
 ,,,$\uparrow$ with light,conifer,"Duursma and Marshall, 2006"
 chlorophyll a/b ratio,$chl a/b$,mol mol$^{-1}$,$\uparrow$ with height,tropical,Poorter et al. 1995
 ,,,$\uparrow$ with light,"tropical, global","Matsubara et al. 2009, Niinemets et al. 1998, Valladares and Niinemets, 2008"
+PAR absorptance,$ABS$,$\%$ nm,$\approx$ with height,tropical,"Poorter et al. 1995, Lee and Graham, 1986"
+,,,$\approx$ with light,tropical,"Poorter et al. 1995, Lee and Graham, 1986 "
+absorptance efficiency(per unit biomass) ,$ABS$,$\%$ per gram,$\downarrow$ with height,tropical,"Poorter et al. 1995, Lee and Graham, 1986"
+,,,$\downarrow$ with light,tropical,"Poorter et al. 1995, Lee and Graham, 1986"

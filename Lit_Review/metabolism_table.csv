@@ -29,6 +29,3 @@ temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,$\approx$$\downa
 ,,,,,
 isoprene emission rate (in emitting species),$I$,nmol m$^{-2}s^{-1}$,$\uparrow$ with height,temperate,"Harley et al. 1996, Harley et al. 1997"
 ,,,$\uparrow$ with light,temperate,"Niinemets and Sun, 2014, Harley et al. 1996, Sharkey and Monson, 2014"
-,,,,,
-PAR absorptance,$ABS$,$^\circ$/$\circ$ nm,$\approx$ with height,tropical,"Poorter et al. 1995, Lee and Graham, 1986"
-,,,$\approx$ with light,tropical,"Poorter et al. 1995, Lee and Graham, 1986 "
