@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1605452129801.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2836085442",
+    "id" : "AAF47A2F",
+    "lastKnownWriteTime" : 1605458406,
+    "last_content_update" : 1605458406,
+    "path" : "E:/Github_SCBI/vertical-thermal-review/NEON_height_profiles/scripts/verticalProfileFigure.R",
+    "project_path" : "scripts/verticalProfileFigure.R",
+    "properties" : {
+        "cursorPosition" : "178,0",
+        "scrollLine" : "167"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
