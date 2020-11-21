@@ -7,6 +7,7 @@
 #install needed packages
 library(data.table)
 library(readxl)
+library(ggplot2)
 
 #
 #1. Download and save neon data ####
@@ -31,10 +32,11 @@ meta <- data.table(meta)
 meta <- meta[SITE %in% data[,site], 
              ][,DistZaxsCnpy := as.numeric(DistZaxsCnpy)]
 
-load("data/neon_rdata/SCBItest.Rdata")
+
 
 for(j in 1:length(sites)){
-  meta_site <- meta[SITE == j, ]
+  load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
+  meta_site <- meta[SITE == sites[j], ]
   
   dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR", "SLRNR"),
                    id = c("DP1.00001.001", "DP1.00098.001",
@@ -50,6 +52,7 @@ for(j in 1:length(sites)){
                              "Shortwave and longwave radiation"))
   
   plots <- list()
+  allstats <- NULL
   for(i in 1:length(dp[,name])){
     var <- as.data.table(full_data[names(full_data) == dp[,name][i]])
     colnames(var) <- 
@@ -58,7 +61,7 @@ for(j in 1:length(sites)){
     
     #change colnames for SWIR so that the variable name is in the colnames
     if(i==6){ #SWIR
-      setnames(var, old="inLWMean", new="SWIR")
+      setnames(var, old="inSWMean", new="SWIR")
     }
     
     # if(dp[,data][i] == "IRBT"){
@@ -91,10 +94,35 @@ for(j in 1:length(sites)){
                          sd_max = sd(day_max, na.rm=TRUE),
                          sd_min = sd(day_min, na.rm=TRUE))]
     
+    out <- test[, .(max_mean = round(mean(day_max, na.rm=TRUE),2),
+                    min_mean = round(mean(day_min, na.rm=TRUE),2),
+                    max_sd = round(sd(day_max, na.rm=TRUE),2),
+                    min_sd = round(sd(day_min, na.rm=TRUE),2)),
+                by = .(verticalPosition, month_num)
+                ][order(month_num, verticalPosition),
+                  ][, `:=` (max_mean =
+                              ifelse(is.nan(max_mean), NA, max_mean
+                              ),
+                            min_mean =
+                              ifelse(is.nan(min_mean), NA, min_mean
+                              ))]
+
+    ## bring in normalized height
+    whei <- out[, norm_height :=
+                   round(verticalPosition /
+                           meta[SITE == sites[j], DistZaxsCnpy], 2)
+                 ][, month_char := ifelse(month_num==1, "January", "July")]
+    whei <- whei[, var := dp[,name][i]]
+    allstats <- rbind(allstats, out)
+    
     #get mean change of max/min variable by height by month by year
-    newt <- test[, `:=` (delta_max = day_max - day_max[1],
+    ## monthly mean [(daily max at h_x)-(daily max at h_0)]
+    
+    ## we define delta[var] as being var at height h - var at lowest height
+    newt <- test[order(day, verticalPosition),
+                 ][, `:=` (delta_max = day_max - day_max[1],
                          delta_min = day_min - day_min[1]),
-                 by = .(day)
+                 by=.(day)
                  ][, .(delta_max_mean = round(mean(delta_max, na.rm=TRUE),2),
                        delta_min_mean = round(mean(delta_min, na.rm=TRUE),2),
                        delta_max_sd = round(sd(delta_max, na.rm=TRUE),2),
@@ -102,14 +130,25 @@ for(j in 1:length(sites)){
                    by = .(verticalPosition, month_num)
                    ][order(month_num, verticalPosition), 
                      ][, `:=` (delta_max_mean = 
-                                 ifelse(is.nan(delta_max_mean), NA, delta_max_mean),
+                                 ifelse(is.nan(delta_max_mean), NA, delta_max_mean
+                                        ),
                                delta_min_mean = 
-                                 ifelse(is.nan(delta_min_mean), NA, delta_min_mean))]
+                                 ifelse(is.nan(delta_min_mean), NA, delta_min_mean
+                                        ))]
     
     ## bring in normalized height
     whei <- newt[, norm_height := 
-                   round(verticalPosition / meta[SITE ==j, DistZaxsCnpy], 2)
+                   round(verticalPosition / 
+                           meta[SITE == sites[j], DistZaxsCnpy], 2)
                  ][, month_char := ifelse(month_num==1, "January", "July")]
+    
+    # for (j in seq_len(ncol(whei))){
+    #   set(whei,which(is.na(whei[[j]])),j,0)
+    # }
+    
+    # whei <- whei[complete.cases(whei),]
+  
+    # allstats <- rbind(allstats, whei)
     
     #plot
     plots[[i]] <- local({
@@ -136,8 +175,8 @@ for(j in 1:length(sites)){
                                     linetype = "Min", height=0.1)) +
         labs(x = expression(paste(Delta, "Climate Variable")), 
              y = "Normalized Height") +
-        ylim(0, 2) +
-        ggtitle(dp[,name][i])
+        ylim(0, 3) +
+        ggtitle(dp[,name][i]) +
       # scale_y_continuous(breaks = scales::pretty_breaks(n = 6), limits=c(0,60)) +
       theme_bw() +
         guides(linetype = guide_legend("Line type")) 
@@ -182,8 +221,7 @@ ggarrange(plots[[1]], plots[[2]], plots[[3]],
           plots[[4]], plots[[5]], plots[[6]],
           nrow=2, ncol=3, common.legend=TRUE)
 
+allstats <- allstats[month_num==7, ]
+write.csv(allstats, "HARV_neon_stats.csv", row.names=FALSE)
 
-
-#Next steps
-##adapt rest of vertical_height_NEON script
-##make plots
+# only write out HARV monthly mean max (add to loop)
