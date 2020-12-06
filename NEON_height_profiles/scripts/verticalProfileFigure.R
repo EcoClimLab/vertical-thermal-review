@@ -8,6 +8,7 @@
 library(data.table)
 library(readxl)
 library(ggplot2)
+library(ggpubr)
 
 #
 #1. Download and save neon data ####
@@ -32,24 +33,27 @@ meta <- data.table(meta)
 meta <- meta[SITE %in% data[,site], 
              ][,DistZaxsCnpy := as.numeric(DistZaxsCnpy)]
 
-
+dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR", "SLRNR"),
+                 id = c("DP1.00001.001", "DP1.00098.001",
+                        "DP1.00002.001", "DP1.00005.001",
+                        "DP1.00024.001", "DP1.00023.001"),
+                 name = c("windSpeedMean", "RHMean",
+                          "tempSingleMean", "bioTempMean",
+                          "PARMean", "SWIR"),
+                 xlabs = c("Wind speed [m/s]", "RH [%]",
+                           "Mean Air Temperature [°C]", 
+                           "Mean Infrared Biological Temperature [°C]",
+                           "Photosynthetic Active Radiation",
+                           "Shortwave and longwave radiation"))
 
 for(j in 1:length(sites)){
   load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
   meta_site <- meta[SITE == sites[j], ]
   
-  dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR", "SLRNR"),
-                   id = c("DP1.00001.001", "DP1.00098.001",
-                          "DP1.00002.001", "DP1.00005.001",
-                          "DP1.00024.001", "DP1.00023.001"),
-                   name = c("windSpeedMean", "RHMean",
-                            "tempSingleMean", "bioTempMean",
-                            "PARMean", "SWIR"),
-                   xlabs = c("Wind speed [m/s]", "RH [%]",
-                             "Mean Air Temperature [°C]", 
-                             "Mean Infrared Biological Temperature [°C]",
-                             "Photosynthetic Active Radiation",
-                             "Shortwave and longwave radiation"))
+  #get max vertical height (for use in plots)
+  hei <- sapply(full_data, function(x){unique(x[["verticalPosition"]])})
+  topHeight <- max(unlist(hei, use.names = FALSE))
+  normHeight <- meta[SITE == sites[j], DistZaxsCnpy]
   
   plots <- list()
   allstats <- NULL
@@ -155,6 +159,7 @@ for(j in 1:length(sites)){
       graph <- ggplot(whei) +
         scale_color_manual(values = c("darkorange", "red"), 
                            name = "Month") +
+        ylim(0, ceiling(topHeight/normHeight)) +
         geom_hline(yintercept=1, linetype="dotted") +
         geom_point(aes(x = delta_max_mean, y = norm_height, color = month_char), 
                    shape=19) +
@@ -173,15 +178,16 @@ for(j in 1:length(sites)){
                                     xmax=delta_min_mean + delta_max_sd, 
                                     y=norm_height, color = month_char, 
                                     linetype = "Min", height=0.1)) +
-        labs(x = expression(paste(Delta, "Climate Variable")), 
-             y = "Normalized Height") +
-        ylim(0, 3) +
+        # labs(x = expression(paste(Delta, "Climate Variable")), 
+        #      y = "Normalized Height") +
+        labs(x = "",
+             y = "") +
         ggtitle(dp[,name][i]) +
       # scale_y_continuous(breaks = scales::pretty_breaks(n = 6), limits=c(0,60)) +
       theme_bw() +
         guides(linetype = guide_legend("Line type")) 
       
-      print(graph)
+      # print(graph)
     })
     
     
@@ -214,12 +220,21 @@ for(j in 1:length(sites)){
     # }
     # print(graph)
   }
+  
+  p <- ggarrange(plots[[1]], plots[[2]], plots[[3]], 
+                 plots[[4]], plots[[5]], plots[[6]],
+                 nrow=2, ncol=3, common.legend=TRUE,
+                 legend="top")
+  
+  png(paste0("figures/profile_", sites[j], ".png"), height=600, width=960)
+  print(annotate_figure(p, 
+    top=text_grob(paste0("Site: ", sites[j]), color="black", face="bold", size=12),
+    left = text_grob("Normalized Height", rot = 90),
+    bottom = text_grob(expression(paste(Delta, "Climate Variable"))))
+  )
+  dev.off()
 }
 
-library(ggpubr)
-ggarrange(plots[[1]], plots[[2]], plots[[3]], 
-          plots[[4]], plots[[5]], plots[[6]],
-          nrow=2, ncol=3, common.legend=TRUE)
 
 allstats <- allstats[month_num==7, ]
 write.csv(allstats, "HARV_neon_stats.csv", row.names=FALSE)
