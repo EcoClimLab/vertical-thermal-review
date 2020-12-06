@@ -122,6 +122,12 @@ for(j in 1:length(sites)){
     #get mean change of max/min variable by height by month by year
     ## monthly mean [(daily max at h_x)-(daily max at h_0)]
     
+    #TEAK the bottom height meas is NA
+    if(j==20 & i %in% c(1,3,5)){ #windSpeedMean, tempSingleMean, PARMean
+      test <- test[verticalPosition==10 & month_num==1, 
+                   `:=` (day_max =0, day_min=0)]
+    }
+    
     ## we define delta[var] as being var at height h - var at lowest height
     newt <- test[order(day, verticalPosition),
                  ][, `:=` (delta_max = day_max - day_max[1],
