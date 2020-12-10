@@ -103,29 +103,24 @@ In the meantime, our findings imply that while large canopy trees are the most v
 
 Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF). 
 There is also increasing severity and frequency of heat waves [@perkinsIncreasingFrequencyIntensity2012].
-This is expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change [@bonan_ecological_2016, Bonan 2008].
-These changes, alongside climate change-driven disturbances such as drought, deforestation and fire, may contribute to increasing tree mortality in forests around the world [@mcdowellMechanismsPlantSurvival2008; @allenUnderestimationGlobalVulnerability2015, Brienen et al. 2015].
+These changes are expected to have profound effects on forest biodiversity and ecosystem function (REFS), and the resulting feedbacks to the climate system (e.g., decreased C storage, altered albedo and hydrology) will have a critical influence on the future of trajectory of climate change [@bonan_ecological_2016, Bonan 2008].
 
+Forests are vertically and horizontally stratified, with trees of different sizes through various successional stages. Overstory trees form canopies that play a crucial role in regulating macro-microclimate [@nakamuraForestsTheirCanopies2017; @ozanneBiodiversityMeetsAtmosphere2003] by buffering extreme temperatures along with other macroclimatic conditions in the understory.
+ 
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davis_microclimatic_2019].**
 
-Taller trees form canopies that maintain vertically-stratified forest ecosystems, and play a crucial role in regulating macro-microclimate. [@nakamuraForestsTheirCanopies2017; @ozanneBiodiversityMeetsAtmosphere2003]  
-With increase in temperatures globally, we're seeing that larger trees suffer more during drought [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019a]. 
-Increasing mortality of large trees, sometimes coupled with reduced tree growth rates, is driving a global trend towards more disturbed forests with younger trees (McDowell et al.2020). 
+The structure of canopies and understories are changing due to unprecedented disturbance rates thus having feedbacks to forest structure and climate change.
+The capacity of buffering largly depends on canopy cover and water availability [@davis_microclimatic_2019] each of which is subjected to change through climate-driven disturbances such as drought, deforestaion, fire and related disruptions, which may contribute to increasing tree mortality in forests around the world [@mcdowellMechanismsPlantSurvival2008; @allenUnderestimationGlobalVulnerability2015, Brienen et al. 2015].With increasing temperatures, temperate and tropical forest canopies will be soon or are already functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018;@huangAirTemperatureOptima2019].Additionally,larger trees suffer more during drought [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019a].The increase in loss of canopy cover [@senfCanopyMortalityHas2018a; @senfMappingForestDisturbance2020] is also associated with reductions in canopy structural complexity, and altered microclimates with local heating effects and surface energy balance components [@zellweger_forest_2020; @starkReframingTropicalSavannization2020].
 
+Increase in microclimatic temperatures as a consequence of macroclimate warming is causing thermophilization in plant communities, reshuffling of species acclimated to cooler [mean annual] temperatures in the understory [@zellweger_seasonal_2019; @defrenneMicroclimateModeratesPlant2013; @suggittExtinctionRiskClimate2018; @scheffersMicrohabitatsReduceAnimal2013]and reduced tree growth rates, driving a global trend towards disquillibrium in forests with younger trees [@mcdowellMechanismsPlantSurvival2008] with potential feedbacks to climate change.
 
-**The structure and microclimates of global forests are changing due to unprecedented disturbance rates.**
+(Marielle--"Reductions in canopy cover can lead to non-linear threshold responses, causing dramatic shifts from one forest state to another (e.g., transition from forest to savanna-like vegetation in tropical forest regions through "savannization"), with energy balance impacts and implications for forest-atmosphere interactions (Stark et al. 2020)".) 
 
-Temperate and tropical forest canopies are already or will be soon functioning beyond their optimal photosynthetic threshold [@mau_temperate_2018;@huangAirTemperatureOptima2019]. Loss of canopy cover as a result of increasing temperature and related forest disturbances [@senfCanopyMortalityHas2018a; @senfMappingForestDisturbance2020] is associated with reductions in canopy structural complexity, and altered microclimates and surface energy balance components [@zellweger_forest_2020; @starkReframingTropicalSavannization2020], this has been shown to increase understory temperatures which raises concern for understory species and forest biodiversity [@zellweger_seasonal_2019; @defrenneMicroclimateModeratesPlant2013]
+With such changing in forest dynamics, it is becoming more important than ever to understand thermal sensitivity of forests along the vertical canopy profile, from the understory to the top of the canopy, this will provide crucial insights for how rising temperature affects forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions [with additional feedbacks to forest structure and microclimates].
 
-(Marielle--"Reductions in canopy cover can lead to non-linear threshold responses, causing dramatic shifts from one forest state to another (e.g., transition from forest to savanna-like vegetation in tropical forest regions through "savannization"), with energy balance impacts and implications for forest-atmosphere interactions (Stark et al. 2020)".)  
+(@niinemetsWithincanopyVariationRate2004a highlights how biophysical and photosynthetic gradient varies along the vertical canopy profile, however our current knowledge of this topic is lacking.)
 
-We're seeing increasing evidence that this impacts ecosystems, with potential feedbacks to climate change, especially in protecting species acclimated to cooler [mean annual] temperatures [@zellweger_forest_2020; @suggittExtinctionRiskClimate2018; @scheffersMicrohabitatsReduceAnimal2013; @defrenneMicroclimateModeratesPlant2013]  
-
-With shifting forest dynamics, it is becoming more important than ever to understand thermal sensitivity along the vertical canopy profile, from the understory to the top of the canopy, this will provide crucial insights for how rising temperature affects forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions [with additional feedbacks to forest structure and microclimates].
-
-(@niinemetsWithincanopyVariationRate2004a highlights biophysical and photosynthetic gradient interactions along the vertical canopy profile, however our current knowledge of this topic is lacking.)
-
-**However, we lack a systematic, up to date understanding of biophysical and biological patterns across this gradient, how these affect leaf-level processes, and in turn how it affects ecosystems (Fig. ` r fig_schematic`).** 
+**We lack a systematic, up to date understanding of biophysical and biological patterns across this gradient, how these affect leaf-level processes, and in turn how it affects ecosystems (Fig. ` r fig_schematic`).** 
 
 **This review addresses the following questions:**
 
@@ -146,6 +141,9 @@ vi.	What are the implications for modeling/ scaling / What are the implications 
 
 ![**Figure 1. (schematic of a forest summarizing most important gradients--sort of a "graphical abstract".** Current version is just a very rough sketch of how this might look – needs to be filled in with content from the review. We could have a set of arrows for each of the major categories considered here. This would be a key figure, and should be beautifully illustrated—KAT could do a watercolor, or Nidhi could illustrate- and make use of NewPhyt's figure editing service for Tansley reviews). ](schematic/schematic.png)
 
+
+Martijn : in this illustration it would also be nice to show that you can have shade leaves of canopy trees in the understory, and shaded plants of understory species.
+
 ## The biophysical environment
 
 The biophysical environment, here defined to include the physical structure of the forest canopy (from understory to the canopy top) and associated microclimates, is in large part determined by the structure of the forest itself. 
@@ -162,43 +160,44 @@ The vertical structure and hence, microenvironments of forest canopies vary seas
 In this review, we focus primarily on growing season conditions, including leaf phenology at the edges of the growing season but excluding periods (in deciduous forests) when no leaves are present.
 
 
-Light conditions, specifically photosynthetically active radiation (PAR) strongly varies  with canopy height due to cumulative layers of vegetation that limits light to lower canopy layers [@fauset_differences_2018; @niinemetsPackingPhotosyntheticMachinery2009; Parker 1995; @poorterMetaanalysisPlantResponses2019b]
-(Fig. `r fig_NEON_vertical`), such that the forest floor of understory regions receive 1-2%  of the light incident to the top of the canopy [@robertsStomatalBoundaryLayerConductances1990a; Chazdon & Fetcher 1984; Parker et al. 2019].
+Light conditions, specifically photosynthetically active radiation (PAR) varies along the vertical gradient with canopy height, canopy structure and across species [Koike et al. 2000] due to cumulative layers of vegetation. Generally, upper canopies are more exposed to irradiance and limit light to canopy interiors and lower canopy layers[@fauset_differences_2018; @niinemetsPackingPhotosyntheticMachinery2009; Parker 1995; @poorterMetaanalysisPlantResponses2019b]
+(Fig. `r fig_NEON_vertical`).
 In heterogeneous canopies [with high gap fractions], distance from the outer canopy is a better proxy for light environment than height (Parker 1995) and lower canopy light environments are highly variable, ranging from high light gap to deeply shaded understory regions [@chazdonPhotosyntheticLightEnvironments1984; @tymenQuantifyingMicroenvironmentalVariation2017; @smithSeasonalDroughtrelatedChanges2019]. 
-This difference in light regime is an important variable in determining leaf traits along the gradient and consequently their responses to temperature [@fausetDifferencesLeafThermoregulation2018; @niinemetsResponsesForestTrees2010, @sackHowStrongIntracanopy2006; @doughtyAreTropicalForests2008].
+ Tropical forests with dense overstory limit light to understories that receive 1-2%  of the light incident to the top of the canopy [@robertsStomatalBoundaryLayerConductances1990a; Chazdon & Fetcher 1984; Parker et al. 2019], temperate forests with broad-leaf overstories generally receive .... in the understory [ REF ], whereas conifer forest understories receive [ ] of light [REF]
+This difference in light regime is an important variable that drives plasticity among leaf traits, leaf physiology, adaptation, and thermal sensitivity along the gradient [@michaletzEnergeticCarbonEconomic2016; @fausetDifferencesLeafThermoregulation2018; @niinemetsResponsesForestTrees2010, @sackHowStrongIntracanopy2006; @doughtyAreTropicalForests2008].Upper canopy leaves adapted to high irradiance have different leaf traits and thermal sensitivity strategies compared to deeply shaded understory, canopy interiors, and in canopy gaps. This is discussed further below under Leaf Traits.
+
 -	Sunflecks: Leaky et al. 2003--from Marielle, "This is another, higher resolution axis of the variability of microenvironments that is probably quite important to address. (Also see the papers by Robin Chazdon on temporal variability of light environments). Maybe we will want to add these sentences (above) and something about sunflecks to a separate section that specifically addresses sources of variation in forest structure & microenvironments (e.g., vertical, horizontal, seasonal, diurnal, and with disturbance)?"
 
 **Wind speeds are also higher at the top of the canopy (Fig. `r fig_NEON_vertical`).**
 *(fill in some specifics from the NEON analysis)*
 Consistent with the results from NEON sites, higher wind speed at greater heights within a forest have previously been observed in both closed canopy forests [e.g., REFS; @mcgregor_tree_nodate] and open savannas (Curtis et al. 2018).
-This results in higher boundary layer conductance ($g_{a}$) for canopy leaves. Boundary layer conductance is the thickness of air layer at the surface of the leaf through which water vapor diffuses after leaving the stomata;($g_{a}$) also depends on leaf traits, morphology and windspeed. Large $g_{a}$ to heat transfer results in smaller difference in $T_{air}$ and $T_{leaf}$ [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a] thus having important implications for leaf thermal sensitivity. 
+This results in higher boundary layer conductance ($g_{a}$) for canopy leaves. Large $g_{a}$ to heat transfer results in smaller difference in $T_{air}$ and $T_{leaf}$ [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a] Additionally, boundary layer resistance is proportional to thickness of air layer at the surface of the leaf through which water vapor diffuses after leaving the stomata;($g_{a}$) also depends on leaf traits, morphology and windspeed.Generally, larger leaf width increases boundary layer resistance, and thus having important implications for leaf thermal sensitivity.[@michaletzEnergeticCarbonEconomic2016]*double check*
 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. `r fig_NEON_vertical`).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019; @vonarxSpatiotemporalEffectsForest2012] and in the northwestern United States [@davis_microclimatic_2019]. 
 Similarly, maximum air temperatures were higher above than below tropical forest canopies during wet seasons in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018, Tymen et al. 2017]. 
 "max temps were higher and humidity lower in gaps vs understory regions (both at 1.5 m above the ground), see Fig. 4 - again illustrating buffering effect of the canopy".
-However, similar maximum temperatures have been observed during the dry season in Panama [@rey-sanchez_spatial_2016] and in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
-Minimum $T_{air}$ is also buffered by forest canopies under some conditions. 
-Higher minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].
+However, similar maximum temperatures have been observed during the dry season a semi-deciduous forest in Panama [@rey-sanchez_spatial_2016] and in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
+Minimum $T_{air}$ is also buffered by forest canopies under some conditions. (Martijn: I think this may have been important; in the dry season some canopy trees were leafless, resulting in more light reaching the sub-canopy, and more air movement between subcanopy and above-canopy air)
+Higher minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].(Martijn: should we refer to mechanisms at this point? (e.g., greater radiative heat loss in exposed areas resulting in lower Tmin))
 However, similar minimum temperatures under forest canopies have been observed in tropical forests in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018], as well as in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate; @nakamuraForestsTheirCanopies2017].
-*(Add something about risk of freeze.)* Additionally, canopies also buffer effects of snow through intercepting heavy snow accumulution on below-canopy levels [@nakamuraForestsTheirCanopies2017; @storckMeasurementSnowInterception2002]
+*(Add something about risk of freeze.)* 
 
 **Humidity also varies across the forest vertical profile, being generally higher in the understory (Fig. `r fig_NEON_vertical`).**
 - DETAILS - REFS
 - @mcgregor_tree_nodate
 
-Forest canopies moderate relative humidity in below-canopy microclimates along with temperature. In three European forest types (Broadleaved, Non-Pine Conifer, Pine) canopy buffering was observed to decrease daily maximum $T_{air}$ and increase daily minimum RH in below-canopy microclimate. With rising temperatures, this trend in maximum $T_{air}$ and RH would have implications on understory seedling growth, especially in high altitude temperate pine forests [@vonarxSpatiotemporalEffectsForest2012] 
+Forest canopies moderate relative humidity in below-canopy microclimates along with temperature. In three European forest types (Broadleaved, Non-Pine Conifer, Pine) canopy buffering was observed to decrease daily maximum $T_{air}$ and increase daily minimum RH in below-canopy microclimate. With rising temperatures, this trend in maximum $T_{air}$ and RH would have implications on understory seedling growth, especially in high altitude temperate pine forests and montane forests  [@vonarxSpatiotemporalEffectsForest2012, @fauset_differences_2018] (to clarify why? are these high elevation forests limited by low temperature and low rh?) 
 
-RH, in combination with temperature, determines vapor pressure deficit, $VPD$
-- $VPD$ is lower in understory of Atlantic forest during wet season [@fauset_differences_2018; @tymenQuantifyingMicroenvironmentalVariation2017]
-This means that canopy leaves tend to be exposed to higher *evaporative demand*, higher stomtal contrains and lower osmotic potential, making canopy leaves more efficient in regulating water use [@niinemetsPhotosyntheticAcclimationSimultaneous2004a]
+RH, in combination with temperature, determines vapor pressure deficit, $VPD$. Atlantic forests during wet season tended to have higher $T_{air}$, and $VPD$ in upper canopy and canopy gaps than lower in understory where $T_{air}$ and $VPD$ were lower [@fauset_differences_2018; @tymenQuantifyingMicroenvironmentalVariation2017].
+This means that canopy leaves tend to be exposed to higher *evaporative demand*, higher stomtal contrains and lower osmotic potential. [@niinemetsPhotosyntheticAcclimationSimultaneous2004a]
 
 **Finally, carbon dioxide (CO~2~) concentrations tend to be higher in the understory.** 
 -	Higher in understory, particularly at dusk (Koike et al. 2001).
 -	Higher in the understory overnight; difference persists during the day but is very small [@yang_spatial_1999].
 - Differences in concentration are by far most pronounced near ground level, as well, concentrations of (CO~2~) mole fraction values have been observed to be higher in lower canopy leaves compared with upper canopy leaves [@niinemetsPhotosyntheticAcclimationSimultaneous2004a]
 
-Given that differences are small during the day when photosynthesis is active, and that even nighttime differences are modest at the height of understory tree crowns, CO~2~ concentration is unlikely to have much effect on the energy balance and metabolism of leaves across the forest vertical gradient. 
+Given that differences are small during the day when photosynthesis is active, and that even nighttime differences are modest at the height of understory tree crowns, CO~2~ concentration is unlikely to have much effect on the energy balance and metabolism of leaves across the forest vertical gradient."If soil and stem respiration do not acclimate fully to rising temperatures, the greater amount of CO2 emitted at the forest floor could increase the vertical CO2 gradient in the future, but this would still only be a short-term effect in the early morning, as the CO2 would quickly diffuse through the canopy. Furthermore, increases in mortality of big trees (e.g. Senf et al. 2018) would increase canopy roughness and prevent build-up of CO2 concentration gradients."- MS 
 
 
 
@@ -206,22 +205,37 @@ Given that differences are small during the day when photosynthesis is active, a
 
 
 **The strength of this buffering varies across forests, being influenced by both forest characteristics (Fig. `r fig_NEON_differences`) and the biophysical environment.**
-First, buffering increases with canopy cover.
+First, buffering increases with canopy cover and water availabity.
 * greater cover --> lower max T and VPD, higher minT  [@davis_microclimatic_2019]
 * greater cover -->  lower max T and light availability [@zellweger_seasonal_2019]
-* [@thom_effects_2020; Tymen et al. 2017 ; Jucker et al. 2018 ; Hardwick et al. 2015]
+* [@thom_effects_2020; Tymen et al. 2017 ; Jucker et al. 2018 ; Hardwick et al. 2015] 
+The omega factor (McNaughton and Jarvis, 1983; Jarvis & McNaughton 1986) describes the degree of aerodynamic coupling between the vegetation and the atmospheric boundary layer; the lower the value of omega, the greater the coupling.
+"I wonder whether it would be useful to introduce such 'formal' terms used to describe what is essentially the same as buffering effect of canopies.
+I'd have to read up some more to see if there are papers showing what sort of canopy characteristics influence omega.
+
+https://doi.org/10.1016/S0065-2504(08)60119-1"-M.Slot
+
 *Presumably, buffering would also be affected by canopy roughness, which affects turbulent air flow and the canopy boundary layer.*
-Taller trees don’t necessarily increase buffering [@zellweger_seasonal_2019]. 
+Taller trees don't necessarily increase buffering [@zellweger_seasonal_2019]. 
 Species that have higher shade casting ability such as braodleaved trees increase T buffering [@zellweger_seasonal_2019,@vonarxSpatiotemporalEffectsForest2012]
 The strength of buffering also varies with respect to geographic and climatic factors.
 * Distance to coast, topographic position, elevation [@zellweger_seasonal_2019]
-* [@davis_microclimatic_2019]
+* [@davis_microclimatic_2019]--Proximity to riparian areas tends to sustain buffering, protecting understory temperatures even during increasing temperatures [@davis_microclimatic_2019]
 However vertical climate gradients within forests are known to be steeper than those driven by elevation and latitude [@nakamuraForestsTheirCanopies2017; @martinCovarianceSunShade2020a]
 
 ![**Figure 3. Role of canopy permeability in shaping temperature buffering, from NEON data.** Current placeholder figure is Nidhi's first rough analysis. See issue 2: https://github.com/EcoClimLab/vertical-thermal-review/issues/2. ](NEON_height_profiles/figures/differences_across_forests_temp.png)
 
 
 ## Trait variation 
+
+[when I think of shade leaves in the understory there are three categories; 1. shade leaves of canopy trees--top of the tree is sun exposed, bottom is shaded. 2. seedlings/saplings of canopy trees that will eventually, if they survive, reach the canopy. 3 understory plants that complete their lifecycle in the shaded understory. These groups are likely to have different traits, and if we expect 'shade' plants to have a different sensitivity to climate change than sun leaves, the consequences of climate change for demography and species community composition of the forest will depend strongly on which category of shade plants we're talking about. I think that this distinction should be addressed throughout the manuscript, so that it is always clear that the reader knows whether the cited references are about inter- or intra-specific variation, and that we address the different trait axes (Marielle made a comment on this earlier as well, that within species patterns may not follow leaf economics spectrum expectations). Ideally we would address the different categories, but if lack of information forces us to focus on just within species or just across species, this should still be made clear. photosynthesis, and canopy-level carbon uptake. They don't have to be treated separately, but it should always be clear which is being referred to. And in the consequences for scaling section this is of course also relevant.]
+
+in line with Marielle's comment below; it will be important to distinguish between within plant variation vs across species variation. Understory species may have conservative  growth strategies because they are resource (light) limited. Spending their lifecycle in the shade means they have different pressures than plants that get the bulk of their carbon from sun-exposed leaves, but can maintain a few layers of shade leaves as well. Their traits will be different from shade leaves of canopy trees as well. E.g.
+They tend to have long-lived leaves with high LMA while shade leaves of canopy trees have large leaves with low LMA. Those differences in traits are likely to affect their thermal properties as well
+
+Leaf traits are shaped by intra canopy light and height, and show intracanopy plasticity with availability of light. Taller trees tend to be exposed to greater irradiance than lower canopy and shorter understory trees shaded by overstory. Higher irradiance has consequential adaptations in leaf morphology with smaller leaf area index in exposed canopies than shaded lower canopy or canopy interior, and well as having deeper leaf lobes in species such as Quercus. R. The table above summarizes the variation of different traits based on light regime, however, some of the traits might differ between species along the vertical profile, thus also varying in leaf thermal sensitivity. [Sack et al. 2016]
+
+Additionally, passing light spots in the forest understory often caused by over canopy vegetation and wind speed called sunflecks cause a different type of morphological adaptation in shaded leaves, making them efficient in capturing 50% of light through sunflecks for photosynthesis.
 
 Leaf traits vary along the vertical canopy profile following the pattern of light availability across the gradient [@poorterMetaanalysisPlantResponses2019b]. Leaves in the upper canopy that are exposed to more light differ in their traits compared to shaded leaves exposed to less light [@niinemetsWorldwideAnalysisWithincanopy2015].
 Increasing number of studies point towards the importance of incorporating vertical canopy leaf trait variation in modelling for leaf economic spectrum (LES) [Chen et al. 2020], leaf thermoregulation and thermal sensitivity which will provide a more accurate representation of within-canopy gradient response to increasing temperatures.[@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016; @niinemetsWorldwideAnalysisWithincanopy2015, @chenLeafEconomicsSpectrum2020, REFS)
@@ -247,15 +261,19 @@ Are traits shaped more by height or light?
 - from Martijn: "If I remember correctly, height and light exposure are closely correlated and things like LMA scale with both, but above a certain level of light exposure, the effect of additional light disappears, while the relationship of the morphological traits with height continues. I have often been a bit skeptical about assuming height drives morphology, as most of the work that convincingly shows that (and relates it to turgor pressure for example) is from 100 m tall redwoods."
 
 *Leaf area / characteristic dimension*:
-- Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected. 
+- Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected (Leigh et al. 2017? https://onlinelibrary.wiley.com/doi/full/10.1111/pce.12857)
 - Max stomatal conductance - increases with canopy height (Kenzo et al. 2015)
 Max transpiration rate - increases with canopy height (Kenzo et al. 2015).
-
+Leaf width and characteristic dimension influence boundary layer resistance which generally is greater in wider understory leaves than upper canopy.
+Additionally, increase in leaf area also influences leaf temperature, generally by maintaining greater leaf temperature than leaves with lower leaf area {Wright et al. 2019}
 
 
 *Thermal time constant (probably not a lot out there)*
 -	Curtis et. al, 2018 – higher in more exposed leaves (heat up slower, cool slower)
 -	Michaeletz has used this in theoretical calculations (Michaeletz et al. 2016 and 2015?
+I have Michaletz's code to calculate the thermal time constant, so if there are data, or general tendencies for changes in leaf area, LMA, leaf width and leaf dry matter content we can determine how these trends would translate into changes in thermal time constant. 
+In practice, an important driver seems to be leaf water content per unit area (I think Lawren might have mentioned this as well in our meeting), so if we can conclude that that is something that scales with the vertical gradient, then we can make an informed guess about how the thermal time constant will change--Martijn Slot
+
 
 *Carotinoids/Xanthophyll cycle pigments* 
 -	photoprotective- disseminate heat, acclimate to high T. THese are proportional to irradiance 
@@ -320,17 +338,17 @@ nocite: |
 
 **Photosynthesis is generally higher in sun leaves-- a fact that is well-established (Niinemets 2007 ; Kenzo et al. 2015 ; Slot et al. 2019; Chen et al. 2020) and observed in numerous field studies.**
 This is primarily driven by the greater light available to sun leaves.
-In response to the greater light availability, sun leaves have traits allowing greater photosynthetic rates at high light,  including ....
+In response to the greater light availability, sun leaves have traits allowing greater photosynthetic rates at high light,  including higher concentration of Rubsico, multiple layers of palisade parenchyma, and saturation level differs between leaves and canopies, with leaves saturating at lower light level than canopies (while a certain amount of light saturates the photosynthetic capacity of the leaf, increasing the amount of light in the canopy may increase photosynthesis in the shaded part of the canopy)
 The vertical gradient in photosythetic rates is also influenced by...
-.[thoughts: plasticity vs change in tree species composition through the canopy; differences in variability of microenvironments through the profile - highest lower down in canopy?; life history / investment strategies and hence, leaf life spans at leaves at the top vs bottom of the canopy]-- M N. Smith
+.[thoughts: plasticity vs change in tree species composition through the canopy; differences in variability of microenvironments through the profile - highest lower down in canopy?; life history / investment strategies and hence, leaf life spans at leaves at the top vs bottom of the canopy]-- M N. Smith [agreed. Again the importance of differentiating between within-species and among species trait variation. Also; steepness of the vertical gradient in light and VPD. In very tall trees a gradient in water potential might cause a gradient in stomatal limitations of net photosynthesis]
 
-Photosynthesis increases with increasing temperature and irradiance, and saturates at quatum flux density of 400 $m^{-2}$ $s^{-1}$ to 700nm $m^{-2}$ $s^{-1}$, beyond this the leaf experiences heat stress; non-photochemical quenching, photoinhibition and leaf necrosis. Leaves in upper canopy tend to experience more heat stress and greater photoinhibition than lower canopy leaves in conditions of water stress or drought. [@niinemetsWorldwideAnalysisWithincanopy2015] 
+Photosynthesis increases with increasing irradiance, and saturates at quatum flux density of 400 $m^{-2}$ $s^{-1}$ to 700nm $m^{-2}$ $s^{-1}$. Photosynthesis has a peaked response to temperature, where photosynthesis is commonly found to be maximized at the prevalent ambient growing season conditions (Tan et al. 2017; Slot & Winter 2017).Beyond the optimum photosynthesis decreases as a result of stomatal closure (e.g. Slot & Winter 2017; Smith et al. 2020 [temperate/boreal refs needed) and eventually due to biochemical constraints (refs. e.g. Sage & Kubien 2007; Varhammer et al. 2015 ).Photosynthesis will also be affected by heat stress, when photoinhibition reduces photosynthesis either as a result of photoprotective; non-photochemical quenching or related to irreversible leaf damage leading to leaf necrosis. Leaves in upper canopy tend to experience more heat stress and greater photoinhibition than lower canopy leaves in conditions of water stress or drought. [@niinemetsWorldwideAnalysisWithincanopy2015] 
 
 **While sun and shade leaves differ dramatically in $A_{max}$, the temperature sensitivity of photosynthesis does not appear to differ substantially between sun and shade leaves**
 Biophysically, we might expect that sun leaves should tend to have a stronger temperature-dependence and higher temperature optima than shade leaves (Fig. 14.5; *revisit this!*) (Campbell and Norman 1998) as observed by earlier studies, suggesting that the interaction between light gradient and temperature response along vertical canopy profile implied there to be a spectrum of temperature responses of $T_{opt}$,$V_{max}$ and $J_{max}$ along the gradient [@niinemetsWithincanopyVariationRate2004a; Harley and Baldocchi 1995, Friend, 2001].
-However, this does not appear to be the case based on the limited number of field studies that have compared temperature sensitivity of photoshythesis in sun and shade leaves.
-For 3 species in Panama, @slotPhotosyntheticHeatTolerance2019 found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant. Similiar results were found for $V_{max}$ and $J_{max}$ [@slotPhotosyntheticHeatTolerance2019, Hernandez et al.2020]
-Mau et al. found no trend along a height gradient in Puerto Rico, and no significant trend in temperate trees [@mau_temperate_2018].
+However, this does not appear to be the case based on the limited number of field studies that have compared temperature sensitivity of photosnythesis in sun and shade leaves.
+For 3 species in Panama, @hernandezSimilarTemperatureDependence2020 and @slotPhotosyntheticHeatTolerance2019 found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant. Similiar results were found for $V_{max}$ and $J_{max}$ [@slotPhotosyntheticHeatTolerance2019, Hernandez et al.2020]
+Mau et al. found no trend in the optimum temperature for net photosynthesis along a height gradient in Puerto Rico, and no significant trend in temperate trees [@mau_temperate_2018].
 
 **Leaf thermal tolerance (Tcrit/ T50)**
 - define.
@@ -342,7 +360,7 @@ with leaf traits [Sastry et al. 2018, @zhang_photosynthetic_2012].
 **Thermal tolerance (e.g., $T_{50}$) varies with exposure, but there are no studies isolating effect of height.**
 For two of three species studied in a tropical moist forest in Panama, $T_{50}$ was slightly lower for shade than sun-exposed leaves, both measured near ground level (Slot et al. 2019). 
 Similarly, for *Acacia Papyrocarpa* (Benth.) trees in an arid region of southern Australia, higher $T_{50}$ was observed in more exposed (North-facing) canopy positions (Curtis et al. 2019). 
-We're not aware of any other studies on this.
+We're not aware of any other studies on this."we may want to argue that we have no a priori reasons to expect thermal tolerance to scale with height per se (or do we?). I think it makes sense to expect variation with light exposure because of the associated differences in temperature you can expect the leaves to be exposed to, but height itself should not affect heat tolerance other than through associated traits perhaps"--Martijn Slot
 
 *Respiration*
 
