@@ -55,13 +55,19 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 #  Appendix `r appendix_NEON_methods`. `r appendix_NEON_methods_title`
 
+METHODS ON NEON ANALYSIS GO HERE.
+
 \newpage
 
 #  Appendix `r appendix_tealeaves_methods`. `r appendix_tealeaves_methods_title`
 
+METHODS ON TEALEAVES GO HERE.
+
 \newpage
 
 #  Appendix `r appendix_lit_review_methods`. `r appendix_lit_review_methods_title`
+
+METHODS ON LIT REVIEW GO HERE.
 
 \newpage
 
