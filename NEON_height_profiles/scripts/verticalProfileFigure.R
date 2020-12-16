@@ -21,6 +21,13 @@ library(ggpubr)
 #   save(full_data, file=paste0(st, "test.Rdata"))
 # })
 
+#1a. Get NEON coordinates ####
+# library(data.table)
+# meta <- fread("data/site_data/NEON_Field_Site_Metadata_20201204.csv")
+# meta <- meta[field_site_id %in% c("BART","BONA","CLBJ","DEJU","DELA","GRSM","GUAN","HARV","JERC","LENO","MLBS","ORNL","OSBS","SCBI","SERC","SJER","SOAP","STEI","TALL","TEAK","TREE","UKFS","UNDE","WREF","YELL"), .(field_site_id, field_latitude, field_longitude, field_utm_easting, field_utm_northing, field_utm_zone)]
+# 
+# fwrite(meta, "data/site_data/neon_coordinates.csv")
+
 #2. Organize data for plotting ####
 
 data <- fread("forested_NEON_sites.csv")
