@@ -172,7 +172,7 @@ This difference in light regime along a vertical profile is an important driver 
 **Wind speeds are also higher at the top of the canopy (Fig. `r fig_NEON_vertical`).**
 *(fill in some specifics from the NEON analysis)*
 Consistent with the results from NEON sites, higher wind speed at greater heights within a forest have previously been observed in both closed canopy forests [Barnard and Bauerle, 2016; @mcgregor_tree_nodate] and open savannas [@curtis_intracanopy_2019].
-This results in higher boundary layer conductance ($g_{a}$) for canopy leaves. Large $g_{a}$ to heat transfer results in smaller difference in $T_{air}$ and $T_{leaf}$ [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; stocks et al. 2006]. Additionally, thickness of air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata. Generally, larger leaf width increases boundary layer resistance [ implications of thermal sensitivity].[@michaletzEnergeticCarbonEconomic2016]*double check*
+This results in higher boundary layer conductance ($g_{a}$) for canopy leaves. Large $g_{a}$ to heat transfer results in smaller difference in $T_{air}$ and $T_{leaf}$ [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; stocks et al. 2006]. Additionally, thickness of air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata.
 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. `r fig_NEON_vertical`).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies across Europe [@zellweger_seasonal_2019; @vonarxSpatiotemporalEffectsForest2012] and in the northwestern United States [@davis_microclimatic_2019]. 
@@ -266,8 +266,9 @@ Are traits shaped more by height or light?
 - Max stomatal conductance - increases with canopy height (Kenzo et al. 2015)
 Max transpiration rate - increases with canopy height (Kenzo et al. 2015).
 Leaf width and characteristic dimension influence boundary layer resistance which generally is greater in wider understory leaves than upper canopy.
-Additionally, increase in leaf area also influences leaf temperature, generally by maintaining greater leaf temperature than leaves with lower leaf area {Wright et al. 2019}
-
+Additionally, increase in leaf area also influences leaf temperature by maintaining greater leaf temperature than leaves with lower leaf area {Wright et al. 2019}
+-Boundary layer and thermal sensitivity also depends of leaf width, leaf size and structure, such as lobes, leaf elongation and serration, all dissapate heat more efficiently than non-lobed leaves, wide or non serrated leaves. Leaf lobes are deeper in exposed canopy than in shaded understory, as well as leaf elongation and serration are more pronounced in sun exposed canopies[Vogel 1970; Roth-Nebelsick 2001;
+Schuepp 1993; Sack et al. 2006].
 
 *Thermal time constant (probably not a lot out there)*
 -	Curtis et. al, 2018 – higher in more exposed leaves (heat up slower, cool slower)
