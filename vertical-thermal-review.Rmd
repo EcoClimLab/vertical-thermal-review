@@ -261,7 +261,7 @@ Here, we focus on traits that are important for shaping leaf temperature ($T_{le
 ```
 ---
 nocite: | 
-  @mau_temperate_2018, @cobleHowVerticalPatterns2016a, @slotPhotosyntheticHeatTolerance2019, @valladaresShadeToleranceKey2008b, @beaumontVerticalGradientsLeaf2009, @sackHowStrongIntracanopy2006,@cobleLightDrivesVertical2014, @scartazzaInvestigatingEuropeanBeech2016, @martinCovarianceSunShade2020, @bolstad_foliar_1999, @harleyEffectsLightTemperature1996, @kullDistributionLeafPhotosynthetic1998, @kafutiFoliarWoodTraits2020, @duursmaVerticalCanopyGradients2006, @vanwittenbergheVariabilityStomatalConductance2012, 
+  @mau_temperate_2018; @hernandezSimilarTemperatureDependence2020; @cobleHowVerticalPatterns2016a; @slotPhotosyntheticHeatTolerance2019; @valladaresShadeToleranceKey2008b; @beaumontVerticalGradientsLeaf2009; @sackHowStrongIntracanopy2006,@cobleLightDrivesVertical2014; @scartazzaInvestigatingEuropeanBeech2016; @martinCovarianceSunShade2020; @bolstad_foliar_1999; @harleyEffectsLightTemperature1996; @kullDistributionLeafPhotosynthetic1998; @kafutiFoliarWoodTraits2020; @duursmaVerticalCanopyGradients2006; @cobleLightDrivesVertical2014a; @vanwittenbergheVariabilityStomatalConductance2012; @poorterLeafOpticalProperties1995; @poorterMetaanalysisPlantResponses2019b; @cavaleri_foliar_2008; @niinemetsAcclimationHighIrradiance1998
 ---
 
 Are traits shaped more by height or light?
