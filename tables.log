@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.28)  28 OCT 2020 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.28)  28 DEC 2020 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -602,43 +602,43 @@ Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-27.
+31.
 (c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-27.
+31.
 (c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-127.
+131.
 (c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-127.
+131.
 (c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 127.
+(Font)              <10> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 127.
+(Font)              <7> on input line 131.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 127.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 127
+(Font)              <5> on input line 131.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 131
 .
 (c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 127
+LaTeX Font Info:    Trying to load font information for U+msb on input line 131
 .
 (c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Float too large for page by 25.10393pt on input line 128.
+LaTeX Warning: Float too large for page by 118.3156pt on input line 132.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -660,7 +660,7 @@ Package rerunfilecheck Info: File `tables.out' has not changed.
 Here is how much of TeX's memory you used:
  13035 strings out of 481866
  194134 string characters out of 5929850
- 529114 words of memory out of 5000000
+ 533114 words of memory out of 5000000
  29128 multiletter control sequences out of 15000+600000
  556426 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -679,7 +679,7 @@ lmr7.pfb><c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/
 lmr8.pfb><c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/
 lmsy10.pfb><c:/Users/Me/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/l
 m/lmsy7.pfb>
-Output written on tables.pdf (3 pages, 138539 bytes).
+Output written on tables.pdf (3 pages, 139244 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream
