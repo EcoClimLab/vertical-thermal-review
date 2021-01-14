@@ -348,7 +348,7 @@ Leaves with open stomata and high radiation loads maintain $T_{leaf}$ similar to
 -  Michaletz et al have done some interesting work on leaf thermoregulation in relation to various leaf traits. I don’t think there is sun vs shade tests, but we could look at how this might translate, or how some of the traits he has calculated might differ between sun and shade leaves. For example, he has this thermal time constant parameter that is calculated from leaf mass per area, leaf dry matter content, and some environmental parameters. E.g.: DOI: 10.1038/nplants.2016.129, http://dx.doi.org/10.1016/j.tree.2015.09.006
 
 **When vertical gradients in the biophysical environment and leaf traits combine to shape leaf energy budgets, under some conditions $T_{leaf}$ tracks  $T_{air}$ and therefore differs little between understory and canopy (Fig. **2?**).**
-In a broadleaf deciduous forest, nighttime $T_{leaf}$'s were similar in the canopy and understory	(Bolstad et al. 1999).
+In a broadleaf deciduous forest, nighttime $T_{leaf}$'s were similar in the canopy and understory	(Bolstad et al. 1999).Air temperature is not always a proxy for measuring leaf temperature [@michaletzPlantThermoregulationEnergetics2015]. 
 Similarly, during the dry season in a tropical moist forest in Panama... (Rey-Sánchez et al. 2016).
 **However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.**
 -Large leaf to air temperature differences and high leaf temperatures were found in upper canopy of Atlantic, Brazil Forests despite much lower air temperature due to high solar radiation loads. However, leaf temperatures themselves were moderated by air temperature. [@fauset_differences_2018].
