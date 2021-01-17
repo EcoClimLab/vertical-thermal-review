@@ -40,18 +40,17 @@ meta <- data.table(meta)
 meta <- meta[SITE %in% data[,site], 
              ][,DistZaxsCnpy := as.numeric(DistZaxsCnpy)]
 
-dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR", "SLRNR"),
+dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR"),
                  id = c("DP1.00001.001", "DP1.00098.001",
                         "DP1.00002.001", "DP1.00005.001",
-                        "DP1.00024.001", "DP1.00023.001"),
+                        "DP1.00024.001"),
                  name = c("windSpeedMean", "RHMean",
                           "tempSingleMean", "bioTempMean",
-                          "PARMean", "SWIR"),
-                 xlabs = c("Wind speed [m/s]", "RH [%]",
-                           "Mean Air Temperature [°C]", 
-                           "Mean Infrared Biological Temperature [°C]",
-                           "Photosynthetic Active Radiation",
-                           "Shortwave and longwave radiation"))
+                          "PARMean"),
+                 xlabs = c("Wind speed [m/s]", "Relative Humidity [%]",
+                           "Air temperature [°C]", 
+                           "Biological temperature [°C]",
+                           "Photosynthetically Active Radiation"))
 
 for(j in 1:length(sites)){
   load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
@@ -69,11 +68,6 @@ for(j in 1:length(sites)){
     colnames(var) <- 
       gsub(paste0(dp[,name][i], "."), "", 
            colnames(var))
-    
-    #change colnames for SWIR so that the variable name is in the colnames
-    if(i==6){ #SWIR
-      setnames(var, old="inSWMean", new="SWIR")
-    }
     
     # if(dp[,data][i] == "IRBT"){
     #   colnames(var) <- 
@@ -122,7 +116,7 @@ for(j in 1:length(sites)){
     whei <- out[, norm_height :=
                    round(verticalPosition /
                            meta[SITE == sites[j], DistZaxsCnpy], 2)
-                 ][, month_char := ifelse(month_num==1, "January", "July")]
+                 ][, month_char := "July"]
     whei <- whei[, var := dp[,name][i]]
     allstats <- rbind(allstats, out)
     
@@ -157,7 +151,10 @@ for(j in 1:length(sites)){
     whei <- newt[, norm_height := 
                    round(verticalPosition / 
                            meta[SITE == sites[j], DistZaxsCnpy], 2)
-                 ][, month_char := ifelse(month_num==1, "January", "July")]
+                 ][, month_char := ifelse(month_num==7, "January", "July")]
+    
+    #only keep July values (from edit in Jan 2021)
+    whei <- whei[month_char=="July", ]
     
     # for (j in seq_len(ncol(whei))){
     #   set(whei,which(is.na(whei[[j]])),j,0)
@@ -170,7 +167,7 @@ for(j in 1:length(sites)){
     #plot
     plots[[i]] <- local({
       graph <- ggplot(whei) +
-        scale_color_manual(values = c("darkorange", "red"), 
+        scale_color_manual(values = c("red"), 
                            name = "Month") +
         ylim(0, ceiling(topHeight/normHeight)) +
         geom_hline(yintercept=1, linetype="dotted") +
@@ -195,7 +192,7 @@ for(j in 1:length(sites)){
         #      y = "Normalized Height") +
         labs(x = "",
              y = "") +
-        ggtitle(dp[,name][i]) +
+        ggtitle(dp[,xlabs][i]) +
       # scale_y_continuous(breaks = scales::pretty_breaks(n = 6), limits=c(0,60)) +
       theme_bw() +
         guides(linetype = guide_legend("Line type")) 
@@ -233,10 +230,14 @@ for(j in 1:length(sites)){
     # }
     # print(graph)
   }
+  names(plots) <- dp[,name]
   
-  p <- ggarrange(plots[[1]], plots[[2]], plots[[3]], 
-                 plots[[4]], plots[[5]], plots[[6]],
-                 nrow=2, ncol=3, common.legend=TRUE,
+  void <- ggplot() + theme_void()
+  
+  p <- ggarrange(void, void, void, plots[["PARMean"]], 
+                 plots[["windSpeedMean"]], plots[["RHMean"]], 
+                 plots[["tempSingleMean"]], plots[["bioTempMean"]],
+                 nrow=2, ncol=4, common.legend=TRUE,
                  legend="top")
   
   png(paste0("figures/profile_", sites[j], ".png"), height=600, width=960)
