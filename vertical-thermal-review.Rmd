@@ -443,7 +443,7 @@ Thus, @bolstad_foliar_1999 found evidence of acclimation, but there remained a d
 - Elsa: and see Perez, T.M., Socha, A., Tserej, O. and Feeley, K.J., 2020. PSII heat tolerances characterize thermal generalists and the upper limit of carbon assimilation. Plant, Cell & Environment.
 
 
-With increasing temperature experienced by foliage, photosynthesis and respiration are coupled at different rates upto photosynthetic thermal optimum. Beyond this inflection point, fluxnet global data analysis shows that photosynthesis declines whereas respiration increases exponentially, therefore, moving from carbon sink to carbon source with increasing temperature, independent of water and irradiance [Duffy et al.2021]
+With temperature increase, foliage photosynthesis and respiration are coupled at different rates upto photosynthetic thermal optimum. Beyond this inflection point, fluxnet global data analysis shows that photosynthesis declines whereas respiration increases exponentially, therefore, moving from carbon sink to carbon source with increasing temperature, independent of water and irradiance [Duffy et al.2021]
 
 *VOC production*
 
