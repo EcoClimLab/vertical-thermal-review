@@ -54,14 +54,14 @@ dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR"),
                  name = c("windSpeedMean", "RHMean",
                           "tempSingleMean", "bioTempMean",
                           "PARMean"),
-                 xlabs = c("Mean Wind speed [m/s]", "Mean RH [%]",
+                 xlabs = c("Windspeed [m/s]", "RH [%]",
                            expression(paste("Mean T"["air"], " [",degree,"C]")), 
                            expression(paste("Mean T"["bio"], " [",degree,"C]")),
-                           "Mean PAR"))
+                           "PAR"),
+                 stat = c("max", "min", "max", "max", "max"))
 
 plots <- list()
 for(i in 1:length(dp[,name])){
-  
   alldata <- NULL
   allTopHeight <- c()
   allNormHeight <- c()
@@ -125,42 +125,47 @@ for(i in 1:length(dp[,name])){
     allNormHeight <- c(allNormHeight, normHeight)
   }
   
+  #only keep relevant stat - min for RH, max for everything else
+  if(dp[,name][i]=="RHMean"){
+    keep <- colnames(alldata)
+    keep <- keep[!grepl("max", keep)]
+    alldata <- alldata[,(.SD), .SDcols=keep]
+    setnames(alldata, old=c("delta_min_mean", "delta_min_sd"), 
+             new=c("delta_mean", "delta_sd"))
+  } else {
+    keep <- colnames(alldata)
+    keep <- keep[!grepl("min", keep)]
+    alldata <- alldata[,(.SD), .SDcols=keep]
+    setnames(alldata, old=c("delta_max_mean", "delta_max_sd"), 
+             new=c("delta_mean", "delta_sd"))
+  }
+  
   plots[[i]] <- local({
     graph <- ggplot(alldata) +
       scale_color_manual(values = clrs, name = "Sites") +
       ylim(0, ceiling(max(allTopHeight/allNormHeight))) +
       geom_hline(yintercept=1, linetype="dotted") +
-      geom_point(aes(x = delta_max_mean, y = norm_height, color = site), 
+      geom_point(aes(x = delta_mean, y = norm_height, color = site), 
                  shape=19) +
-      geom_point(aes(x = delta_min_mean, y = norm_height, color = site), 
-                 shape=17) +
-      geom_path(aes(x = delta_max_mean, y = norm_height, color = site, 
-                    linetype = "Max"), size = 1) +
-      geom_path(aes(x = delta_min_mean, y = norm_height, color = site, 
-                    linetype = "Min"), size = 1) +
-      ggplot2::geom_errorbarh(aes(xmin = delta_max_mean - delta_min_sd, 
-                                  xmax = delta_max_mean + delta_max_sd, 
-                                  y=norm_height, color = site, 
-                                  linetype = "Max", height=0.1)) +
-      
-      ggplot2::geom_errorbarh(aes(xmin=delta_min_mean - delta_min_sd, 
-                                  xmax=delta_min_mean + delta_max_sd, 
-                                  y=norm_height, color = site, 
-                                  linetype = "Min", height=0.1)) +
+      geom_path(aes(x = delta_mean, y = norm_height, color = site)) +
+      ggplot2::geom_errorbarh(aes(xmin = delta_mean - delta_sd, 
+                                  xmax = delta_mean + delta_sd, 
+                                  y=norm_height, color = site, height=0.1)) +
       labs(x = "",
            y = "") +
-      theme_bw() +
-      guides(linetype = guide_legend("Line type"))
+      theme_bw()
     
     if(i %in% c(1,2,5)){
       graph <- graph + 
-        ggtitle(dp[,xlabs][i])
+        ggtitle(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
     } else if(i==3){
       graph <- graph +
-        ggtitle(expression(paste("Mean T"["air"], " [",degree,"C]")))
+        ggtitle(expression(
+          paste("max T"["air"], " [",degree,"C]")))
     } else if(i==4){
       graph <- graph +
-        ggtitle(expression(paste("Mean T"["bio"], " [",degree,"C]")))
+        ggtitle(expression(
+          paste("max T"["bio"], " [",degree,"C]")))
     }
   })
 }
