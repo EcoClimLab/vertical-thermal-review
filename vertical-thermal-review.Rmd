@@ -245,7 +245,7 @@ The strength of buffering also varies with respect to geographic and climatic fa
 * [@davis_microclimatic_2019]--Proximity to riparian areas tends to sustain buffering, protecting understory temperatures even during increasing temperatures [@davis_microclimatic_2019]
 However vertical climate gradients within forests are known to be steeper than those driven by elevation and latitude [@nakamuraForestsTheirCanopies2017; @martinCovarianceSunShade2020a]
 
-![**Figure `r fig_NEON_differences`. Role of canopy permeability in shaping temperature buffering, from NEON data.** Current placeholder figure is Nidhi's first rough analysis. See [issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2). ](NEON_height_profiles/figures/differences_across_forests_temp.png)
+![**Figure `r fig_NEON_differences`. Role of canopy permeability in shaping temperature buffering, from NEON data.** Current placeholder figure is Nidhi's first rough analysis. See [issue 31](https://github.com/EcoClimLab/vertical-thermal-review/issues/31). ](NEON_height_profiles/figures/differences_across_forests_temp.png)
 
 
 ## Trait variation 
