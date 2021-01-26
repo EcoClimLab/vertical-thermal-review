@@ -221,7 +221,7 @@ If soil and stem respiration do not acclimate fully to rising temperatures, the 
 - Nottingham, A.T., Meir, P., Velasquez, E. and Turner, B.L., 2020. Soil carbon loss by experimental warming in a tropical forest. Nature, 584(7820), pp.234-237.
 
 
-![**Figure `r fig_NEON_vertical`. Vertical gradients in the biophysical environment, from NEON data.** Current placeholder figure is just one of several+ intended sites. See [issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) and [issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20). ](NEON_height_profiles/figures/profile_all.png)
+![**Figure `r fig_NEON_vertical`. Vertical gradients in the biophysical environment for 5/6 sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in growing season (a) leaf area density, (b) proportion light incidence, (c) proportion sun leaves, and July mean ± 1 standard deviation for (d) maximum photosyntehtically active ratiation (PAR), (e) maximum wind speed, (f) minimum humidity, (g) maximum $T_{air}$, and (h) maximum biological temperature, $T_{bio}$. All variables are normalized relative to the height of the top of the canopy (**DETAILS**) and the conditions at the point of lowest measurement.   ([Issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) and [issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20)) ](NEON_height_profiles/figures/profile_all.png)
 
 
 **The strength of this buffering varies across forests, influenced by both forest characteristics (Fig. `r fig_NEON_differences`) and the biophysical environment.**
