@@ -141,11 +141,9 @@ vi.	What are the implications for modeling/ scaling / What are the implications 
 
 *Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), and the implications [or utility] for ecosystem models we also review studies focused on exposure gradients.*
 
-![**Figure 1. (schematic of a forest summarizing most important gradients--sort of a "graphical abstract".** Current version is just a very rough sketch of how this might look – needs to be filled in with content from the review. We could have a set of arrows for each of the major categories considered here. This would be a key figure, and should be beautifully illustrated—KAT could do a watercolor, or Nidhi could illustrate- and make use of NewPhyt's figure editing service for Tansley reviews). ](schematic/schematic.png)
+![**Figure 1. DRAFT schematic of a forest summarizing most important gradients--sort of a "graphical abstract".** . ](schematic/vertical thermal sensitivity image.png)
 
-![rough figure 1., needs some suggestions and info to include.] (https://github.com/EcoClimLab/vertical-thermal-review/blob/master/schematic/vertical%20thermal%20sensitivity%20image.png)
 
-Martijn : in this illustration it would also be nice to show that you can have shade leaves of canopy trees in the understory, and shaded plants of understory species.
 
 ## The biophysical environment
 
