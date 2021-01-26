@@ -57,6 +57,8 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 METHODS ON NEON ANALYSIS GO HERE.
 
+see [Issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) , [issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20) 
+
 \newpage
 
 #  Appendix `r appendix_tealeaves_methods`. `r appendix_tealeaves_methods_title`
