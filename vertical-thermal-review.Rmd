@@ -556,16 +556,17 @@ Because most CBMs are spatially implicit within grid cells, direct and diffuse p
 
 ### Implications for climate change responses
 
-
-- CO2 may lead to denser understory (Martijn)
-
 - Influence of increasing temperatures on species compositions and feedbacks to future forest microclimates and function?
 
 --Variation across horizontal biophysical gradients (climate, soils, etc.)(E.O)
 
 ## Conclusions
 
-*Where we seem to end up is that we really know very little about differences in temperature responses of metabolism and woody growth across the strata-- there are only a small number of studies, often showing insignificant differences or mixed results.*
+- across vertical gradients, directional trends in biophysical environment and leaf traits are the rule, suggesting that the physiology and ecology that have these as their underpinnings should also vary
+- a number of studies confirm that this is the case.
+- However, when we ask the critical question of how the temperature sensitivities  of metabolism and woody growth varies across these different environments, we can't say much-- there are only a small number of studies, often showing insignificant differences or mixed results.
+- We lean towards the conclusion that while large canopy trees ware the most vulnerable to warming when combined with drought, understory trees may be more vulnerable under more mesic conditions, but more research is needed. 
+- Critically, change to the vertical gradient--e.g., through increased mortality of canopy trees--will change processses across forest strata, with potentially dramatic consequences. (some of the literature on forest degredation or fragmentation could inform what happens when those gradients change)
 
 ## SI files
 
