@@ -412,13 +412,13 @@ nocite: |
 ---
 
 
-*Stomatal conductance*
+### Stomatal conductance
 Photosynthesis can be largely constrained by stomatal conductance. 
 -"Sun exposed outer canopy leaves in tropical trees can experience temperatures up 48 C during diurnal cycle, midday stomtal closure reduces transpitrational cooling" thus elevating leaf temperature greater than air temperature (Slot et al. 2019)
 - Max stomatal conductance - increases with canopy height (Kenzo et al. 2015)
 Max transpiration rate - increases with canopy height (Kenzo et al. 2015).
 
-*Photosynthesis*
+### Photosynthesis
 
 **Photosynthesis is generally higher in sun leaves-- a fact that is well-established (Niinemets 2007 ; Kenzo et al. 2015 ; Slot et al. 2019; Chen et al. 2020) and observed in numerous field studies.**
 This is primarily driven by the greater light available to sun leaves.
@@ -432,7 +432,7 @@ Photosynthesis increases with increasing irradiance, and saturates at quantum fl
 Photosynthesis will also be affected by heat stress, when photoinhibition reduces photosynthesis either as a result of photoprotective; non-photochemical quenching or related to irreversible leaf damage leading to leaf necrosis. At increasing temperatures, photosynthetic system II [PSII] is particularly vulnerable. Damage to PSII  can lead to decreased electron transport rates and photosynthetic failure. Irreversible damage to PSII is done at 40-60C [Baker 2008; @feeley_thermal_2020]
 Leaves in upper canopy tend to experience more heat stress and greater photoinhibition than lower canopy leaves in conditions of water stress or drought. [@niinemetsWorldwideAnalysisWithincanopy2015] 
 
-**While sun and shade leaves differ dramatically in $A_{max}$, the temperature sensitivity of photosynthesis does not appear to differ substantially between sun and shade leaves**
+**While sun and shade leaves differ dramatically in $A_{max}$, the temperature sensitivity of photosynthesis does not appear to differ substantially between sun and shade leaves.**
 Biophysically, we might expect that sun leaves should tend to have a stronger temperature-dependence and higher temperature optima than shade leaves (Fig. 14.5; *revisit this!*) (Campbell and Norman 1998) as observed by earlier studies, suggesting that the interaction between light gradient and temperature response along vertical canopy profile implied a spectrum of temperature responses of $T_{opt}$,$V_{max}$ and $J_{max}$ along the gradient [@niinemetsWithincanopyVariationRate2004a; Harley and Baldocchi 1995, Friend, 2001].
 However, this does not appear to be the case based on the limited number of field studies that have compared temperature sensitivity of photosynthesis in sun and shade leaves.
 For 3 species in Panama, @hernandezSimilarTemperatureDependence2020 and @slotPhotosyntheticHeatTolerance2019 found that the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant. Similar results were found for $V_{max}$ and $J_{max}$ [@slotPhotosyntheticHeatTolerance2019, Hernandez et al.2020]
@@ -461,7 +461,7 @@ increased irradiance = increased VPD = increased air temp = midday stomatal clos
 
 incr.humidity = decreased VPD = dec. latent heat loss = limited c assimilation [@perezPSIIHeatTolerances2020] 
 
-*Respiration*
+### Respiration
 
 **Similar to photosynthesis, respiration tends to be higher in sun leaves (Chen et al. 2020), but its temperature sensitivity appears to be similar between between sun and shade leaves.**
 (Bolstad et al. 1999) did a study at Coweeta, including elev gradient. 
@@ -474,7 +474,7 @@ Thus, @bolstad_foliar_1999 found evidence of acclimation, but there remained a d
 
 With temperature increase, foliage photosynthesis and respiration are coupled at different rates upto photosynthetic thermal optimum. Beyond this inflection point, fluxnet global data analysis shows that photosynthesis declines whereas respiration increases exponentially, therefore, moving from carbon sink to carbon source with increasing temperature, independent of water and irradiance [Duffy et al.2021]
 
-*VOC production*
+### VOC production
 
 **Isoprene production**
 - high emission rates occur in the mid-canopy, and even from very small statured trees and shrubs, at a site in the Brazilian Amazon (Taylor et al., in prep).
