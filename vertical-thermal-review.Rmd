@@ -107,6 +107,7 @@ In the meantime, our findings imply that while large canopy trees are the most v
 
 ## Introduction
 
+**Forest responses and feedbacks to climate change will have a critical influence on the future of Earth's climate.**
 Globally, temperatures have risen # $^\circ$C since YEAR and are expected to rise an additional #-#$^\circ$C by YEAR (IPCC REF), accompanied by increasing severity and frequency of heat waves [@perkinsIncreasingFrequencyIntensity2012] and hotter droughts [REFS].
 These changes are expected to have profound effects on tree metabolism and forest ecosystem function (REFS; IPBES report), including *(altered rates of photosynthesis and respiration)* [REF], foliar damage during heat waves [], and reduced growth and elevated mortality during drought [REFS].
 Individually or in combination, these changes have the potential to reduce forest C sequestration, as may already be occurring in some forests [REFS; @sullivanLongtermThermalSensitivity2020]. 
@@ -128,9 +129,7 @@ While there is evidence for temperature driven shifts in forest dynamics, leaf-l
 
 (@niinemetsWithincanopyVariationRate2004a highlights how biophysical and photosynthetic gradients vary along the vertical canopy profile, however our current knowledge of this topic is lacking.)
 
-**We lack a systematic, up to date understanding of biophysical and biological patterns across the vertical canopy gradient in forests, how this gradient affects leaf-level processes, and in turn how it affects ecosystems (Fig. `r fig_schematic`).** 
-
-**This review addresses the following questions:**
+**Here we review biophysical and biological patterns across the vertical canopy gradient in forests, how these gradients affect leaf-level processes and, in turn, whole plant performance (Fig. `r fig_schematic`), and the implications for understanding forest ecosystem responses and feedbacks to climate change .**
 
 i.	How does the biophysical environment vary with height in forests?
 
