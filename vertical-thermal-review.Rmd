@@ -83,11 +83,12 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 \newpage
 
-```{r eval=FALSE, echo=FALSE}
-# based on Helene's Tansley review, and regular NewPhyt guidelines, I think the limit for New Phyt is 200 words. 
-```
 
 ## Summary
+
+```{r eval=FALSE, echo=FALSE}
+#  I think the limit for New Phyt is 200 words. 
+```
 
 *(currently too long for NewPhyt)*
 
@@ -133,7 +134,7 @@ While there is evidence for temperature driven shifts in forest dynamics, leaf-l
 
 i.	How does the biophysical environment vary with height in forests?
 
-ii.	How do leaf traits vary with height (or between sun and shade leaves) in forests?(What types of leaf traits?-E.O)
+ii.	How do the leaf traits that most strongly influence leaf temperature and metabolism vary with height (or between sun and shade leaves) in forests?
 
 iii. How do vertical changes in biophysical environment conditions and leaf traits interact to affect leaf temperature [and in turn photosynthetic capacity]??
 
@@ -258,18 +259,22 @@ However vertical climate gradients within forests are known to be steeper than t
 ## Trait variation 
 
 
-Leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] and show different degrees of intraspecific foliar plasticity in accordance with the intensity and availability of light, optimizing water uptake, heat, C uptake and metabolism across forest vertical strata [@rozendaalPlasticityLeafTraits2006]. After the formation of leaves to integrated light, it takes 30-60 days for traits to stabilize in woody and herbaceous species [@keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. A network of sensory photoreceptors in leaves, such as phytochromes, mediate leaf-level responses to PAR, and the ratio of red to far red radiation [R:FR] intercepting the leaf surface. This enables acclimation or avoidance responses through the development of necessary leaf traits [@casalPhotoreceptorSignalingNetworks2013]. Degrees of high irradiance give rise to variation in sun-leaf traits, while degrees of low irradiance-- characterized by shade-- result in variations of shade-leaf traits [@poorterMetaanalysisPlantResponses2019b; @sackHowStrongIntracanopy2006], ultimately influencing leaf structural, chemical and physiological traits as well [@keenanGlobalLeafTrait2016]. 
+**Leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] and show different degrees of intraspecific foliar plasticity in accordance with the intensity and availability of light, optimizing water uptake, heat, C uptake and metabolism across forest vertical strata [@rozendaalPlasticityLeafTraits2006].**
+After the formation of leaves to integrated light, it takes 30-60 days for traits to stabilize in woody and herbaceous species [@keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. A network of sensory photoreceptors in leaves, such as phytochromes, mediate leaf-level responses to PAR, and the ratio of red to far red radiation [R:FR] intercepting the leaf surface. This enables acclimation or avoidance responses through the development of necessary leaf traits [@casalPhotoreceptorSignalingNetworks2013]. Degrees of high irradiance give rise to variation in sun-leaf traits, while degrees of low irradiance-- characterized by shade-- result in variations of shade-leaf traits [@poorterMetaanalysisPlantResponses2019b; @sackHowStrongIntracanopy2006], ultimately influencing leaf structural, chemical and physiological traits as well [@keenanGlobalLeafTrait2016]. 
 
-(Elsa: it may also be worth mentioning leaf turnover / leaf longevity briefly in the above paragraph in the context of leaf development and trait formation.)
+*(Elsa: it may also be worth mentioning leaf turnover / leaf longevity briefly in the above paragraph in the context of leaf development and trait formation.)*
+*(Krista: the above is really interesting, and I like the idea of starting off the section by mentioning what controls the formation of leaf traits. However, I think it gets into more detail than needed. I'd follow Elsa's suggestion above without increasing the length. Also, is there work out there on how they're influenced by temperature/ water at the time of formation? I'd broaden to include the full microenviroment (without increasing length)*)
 
-An increasing number of studies point towards the importance of incorporating sun and shade in modelling leaf economic spectrum (LES) traits within-canopy gradient [@chenLeafEconomicsSpectrum2020a], because LES theory was developed using mainly sun exposed (upper canopy) leaves. Given the vastly different light environments at the bottom of the canopy and that most leaves in the canopy are likely to be shade leaves, there is a strong research need to better characterise trait relationships and leaf responses through the whole vertical canopy [Keenan and Niinemets 2016]. However, there is also concern for ambiguity in a simplified categorization of 'sun' and 'shade' leaves, due to variation based on within-canopy light, across functional groups, in canopy gaps, and with height and ontogeny [@ishiiVariationIntracrownLeaf2018; @niinemetsWorldwideAnalysisWithincanopy2015] as well as geographically [@ishiiVariationIntracrownLeaf2018]. 
+*(move to modeling section:)* ~~An increasing number of studies point towards the importance of incorporating sun and shade in modelling leaf economic spectrum (LES) traits within-canopy gradient [@chenLeafEconomicsSpectrum2020a], because LES theory was developed using mainly sun exposed (upper canopy) leaves. Given the vastly different light environments at the bottom of the canopy and that most leaves in the canopy are likely to be shade leaves, there is a strong research need to better characterise trait relationships and leaf responses through the whole vertical canopy [Keenan and Niinemets 2016]. However, there is also concern for ambiguity in a simplified categorization of 'sun' and 'shade' leaves, due to variation based on within-canopy light, across functional groups, in canopy gaps, and with height and ontogeny [@ishiiVariationIntracrownLeaf2018; @niinemetsWorldwideAnalysisWithincanopy2015] as well as geographically [@ishiiVariationIntracrownLeaf2018].~~ 
 
-Classification schemes for sun and shade tolerance rankings have been highlighted by multiple studies [Baker 1949; @niinemetsControversyTraitsConferring2006; Feng et al. 2018]. For example, classifications from @niinemetsControversyTraitsConferring2006 are as follows: "The five-level scale used for shade tolerance (1,very intolerant; 2, intolerant; 3, moderately tolerant; 4,tolerant; 5, very tolerant) corresponds approximately to the following light availabilities expressed as percentage of full sunlight: 1,>50%; 2, 25-50%; 3, 10-25%; 4, 5-10%; 5, 2-5%". 
+*(remove:)* ~~Classification schemes for sun and shade tolerance rankings have been highlighted by multiple studies [Baker 1949; @niinemetsControversyTraitsConferring2006; Feng et al. 2018]. For example, classifications from @niinemetsControversyTraitsConferring2006 are as follows: "The five-level scale used for shade tolerance (1,very intolerant; 2, intolerant; 3, moderately tolerant; 4,tolerant; 5, very tolerant) corresponds approximately to the following light availabilities expressed as percentage of full sunlight: 1,>50%; 2, 25-50%; 3, 10-25%; 4, 5-10%; 5, 2-5%".~~ 
 
-Additionally, shade leaves in the understory can be broken into three categories; 1. shade leaves of canopy trees in which the--top of the tree is sun exposed, bottom is shaded. 2. seedlings/saplings of canopy trees that will eventually, if they survive, reach the canopy. 3 understory plants that complete their lifecycle in the shaded understory. These groups are likely to have different traits, and if we expect 'shade' plants to have a different sensitivity to climate change than sun leaves, the consequences of climate change for demography and species community composition of the forest will depend strongly on the category of shade plants being considered [refs, -Martijn Slot]
+*(cut, but keep this distinction in mind as you write:)* ~~Additionally, shade leaves in the understory can be broken into three categories; 1. shade leaves of canopy trees in which the--top of the tree is sun exposed, bottom is shaded. 2. seedlings/saplings of canopy trees that will eventually, if they survive, reach the canopy. 3 understory plants that complete their lifecycle in the shaded understory. These groups are likely to have different traits, and if we expect 'shade' plants to have a different sensitivity to climate change than sun leaves, the consequences of climate change for demography and species community composition of the forest will depend strongly on the category of shade plants being considered [refs, -Martijn Slot]~~
 
+*(KAT: put intra-specific variation first, as we know a lot more about that. Then, add a brief section in inter-specific variation)*
 
-**Inter-species vertical gradient leaf trait variation**
+### Inter-species vertical gradient leaf trait variation 
+
 
 Taller trees in dense forests tend to be exposed to greater irradiance but maintain shaded leaves in canopy interior and lower canopy, while shorter understory trees are shaded by overstory. As a result of different light regimes, a sun and shade leaf trait dichotomy has been established across species by various studies where typical sun leaves are often smaller in size and width, thicker, and hairier, with thicker cuticle and greater lobation than shade leaves
 [Rozendaal et al. 2006, Mathur et al. 2018, more REFS]."Additionally, shorter understory trees that spend the bulk of their lifecycle in the shade experience different pressures than plant that get the bulk of their carbon from sun-exposed leaves, but can maintain a few layers of shade leaves as well" -Martijn 
@@ -282,7 +287,7 @@ With increasing height and age, competition for light decreases as availability 
 
 Shade intolerant species experience greater heterogeneity in light during ontogeny [why?-nidhi],thus LMA responds to changes in light, with shade-intolerant species displaying higher plasticity in response to light [H. Poorter, U. Niinemets, L. Poorter, I. J. Wright, R. Villar, Causes and consequences of variation in leaf mass per area (LMA): A meta-analysis. New Phytol. 182, 565–588 (2009).].Rozendaal et al. 2006 found no significant trait differences with ontogeny and adult stature trees. Koike et al. 2001 has more info about this.   
 
-**Intra-canopy on the same species leaf trait variation**
+### Intra-canopy on the same species leaf trait variation
 
 Several studies point towards common variations and differences in leaf trait plasticity within-species and at an intra-canopy gradient which influences leaf structural and biochemical traits [@sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. The differences among these traits contribute to leaf heat dissipation strategies and leaf temperature across the gradient [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016] Table `r table_leaf_traits` summarizes relevant traits for thermal sensitivity.
 
