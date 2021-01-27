@@ -151,37 +151,44 @@ vi.	What are the implications for modeling/ scaling / What are the implications 
 
 ## The biophysical environment
 
-The biophysical environment, here defined to include the physical structure of the forest canopy (from understory to the top of the canopy) and associated microclimates, is in large part determined by the structure of the forest itself. 
-We supplement a review of the existing literature with a new analysis of data on vegetation structure and vertical microclimate profiles from the U.S. National Ecological Observatory Network [NEON; Appendix `r appendix_NEON_methods`; Schimel et al. 2007].
+**The biophysical environment across the vertical gradient from the forest floor to the the top of the canopy is in large part determined by the structure of the forest itself.** 
+Here, we define the biophysical environment to include the physical structure of the vegetation and associated physical conditions.
+In this section, we supplement a review of the existing literature with a new analysis of data on vegetation structure and vertical microclimate profiles from the U.S. National Ecological Observatory Network [NEON; Appendix `r appendix_NEON_methods`; Schimel et al. 2007].
 
-Canopy foliage, which varies across forest types and seasonality, strongly shapes understory light, wind, etc.
-Forest canopies have a buffering effect on multiple aspects of the understory climate (Fig. `r fig_NEON_vertical`).
-
-
-- (*@bonan_ecological_2016 reviews this and points to appropriate references*)
-
-*(paragraph on leaf area distribution, including figure ([GitHub issue #15](https://github.com/EcoClimLab/vertical-thermal-review/issues/15))*
-The vertical structure and corresponding microenvironments of forest canopies vary seasonally (Parker & Tibbs 2004; @smithSeasonalDroughtrelatedChanges2019 ; @parkerConsequencesEnvironmentalHeterogeneity2019) and following disturbance [e.g., @parkerCanopyLightTransmittance2002 ; @almeidaContrastingFireDamage2016 ; @starkReframingTropicalSavannization2020].
+### Foliage density
+**Canopy foliage, which is vertically structured in correspondence with the size structure of trees in the forest, acts as the primary physical barrier between the atmosphere and the forest floor, producing a buffering effect on multiple aspects of the understory conditions (Fig. `r fig_NEON_vertical`).**
+Leaf area density.... *description of most common vertical pattern (@bonan_ecological_2016 reviews this and points to appropriate references)*
+Vertical profiles in leaf area density vary across forests, being... *summarize some key differences across forest types* (REFS), and are altered (*HOW?*) following disturbance [e.g., @parkerCanopyLightTransmittance2002 ; @almeidaContrastingFireDamage2016 ; @starkReframingTropicalSavannization2020].
+They also vary seasonally, ... (Parker & Tibbs 2004; @smithSeasonalDroughtrelatedChanges2019 ; @parkerConsequencesEnvironmentalHeterogeneity2019). 
+*(can we say that there is more loss of leaves higher in the profile during cold/ drought dormant seasons? )*
 In this review, we focus primarily on growing season conditions, including leaf phenology at the edges of the growing season, but excluding periods when no leaves are present in deciduous forests.
 
 
-Light conditions, specifically changes in photosynthetically active radiation (PAR), vary along the vertical gradient with leaf area index (LAI), canopy height, canopy structure, and across species and forest types [@koike_leaf_2001]. Generally, upper canopies in dense forests are exposed to greater PAR values and limit light penetration to canopy interiors, lower canopy layers, and the understory. Shaded regions experience lower values of PAR with different light quality [in ranges of blue, orange and red]. The light gradient is more pronounced under broadleaf forests than needleleaf forests [@lowmanForestCanopies1995; @aussenacInteractionsForestStands2000a; @niinemetsPackingPhotosyntheticMachinery2009; @poorterMetaanalysisPlantResponses2019b]
+![**Figure `r fig_NEON_vertical`. Vertical gradients in the biophysical environment for 5/6 sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in growing season (a) leaf area density, (b) proportion light incidence, (c) proportion sun leaves, and July mean ± 1 standard deviation for (d) maximum photosyntehtically active ratiation (PAR), (e) maximum wind speed, (f) minimum humidity, (g) maximum $T_{air}$, and (h) maximum biological temperature, $T_{bio}$. All variables are normalized relative to the height of the top of the canopy (**DETAILS**) and the conditions at the point of lowest measurement.   ([issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20)) ](NEON_height_profiles/figures/profile_all.png)
+
+### Light environments
+**Light conditions, specifically changes in proportion incident light and photosynthetically active radiation (PAR), vary along the vertical gradient with leaf area index (LAI), canopy height, canopy structure, and across species and forest types [Fig. `r fig_NEON_vertical`; @koike_leaf_2001].** 
+Generally, upper canopies in dense forests are exposed to greater PAR values and limit light penetration to canopy interiors, lower canopy layers, and the understory. Shaded regions experience lower values of PAR with different light quality [in ranges of blue, orange and red]. The light gradient is more pronounced under broadleaf forests than needleleaf forests [@lowmanForestCanopies1995; @aussenacInteractionsForestStands2000a; @niinemetsPackingPhotosyntheticMachinery2009; @poorterMetaanalysisPlantResponses2019b]
 (Fig. `r fig_NEON_vertical`).
 
 In heterogeneous canopies [with high gap fractions], the distance from the outer canopy [to X?] is a better proxy for light environment than height (Parker 1995) and lower canopy light environments are highly variable, ranging from high light gaps to deeply shaded understory regions [@chazdonPhotosyntheticLightEnvironments1984; @tymenQuantifyingMicroenvironmentalVariation2017; @smithSeasonalDroughtrelatedChanges2019]
 
 Tropical forests with densely packed overstory trees limit light to subsequent canopy layers and forest understories. Tropical forest floors receive approximately 1-2%  of the incident light that hits the top of the canopy [@robertsStomatalBoundaryLayerConductances1990a; @chazdonPhotosyntheticLightEnvironments1984; @parkerConsequencesEnvironmentalHeterogeneity2019], whereas mixed-wood boreal and northern temperate forest floors receive around 4-5% of full sunlight [@bartemucciOverstoryInfluencesLight2006]. However, vertical canopy layers and forest floors also receive light permeating through canopy gaps, as well as intermittent light penetration from tree, branch, and leaf movement caused by wind, defined collectively as sunflecks. Sunflecks can provide 10-80% of photon flux density for photosynthesis in canopy layers and understory, depending on canopy attributes such as foliage density, height and architecture [@waySunflecksTreesForests2012]
 
-This difference in light regimes along a vertical profile is an important driver of plasticity in leaf traits, leaf physiology, adaptation, and thermal sensitivity. Leaves thus exhibit variation in leaf trait adaptations from sun to shade both along a vertical intra-canopy gradient, as well as inter-canopy [@michaletzEnergeticCarbonEconomic2016; @fauset_differences_2018; @niinemetsResponsesForestTrees2010; @sackHowStrongIntracanopy2006; @niinemetsControversyTraitsConferring2006; Osnas et al. 2018].
+This difference in light regimes along a vertical profile is an important driver of plasticity in leaf traits, leaf physiology, adaptation, and thermal sensitivity. Leaves thus exhibit variation in leaf trait adaptations from sun to shade both along a vertical intra-canopy gradient, as well as inter-canopy [@michaletzEnergeticCarbonEconomic2016; @fauset_differences_2018; @niinemetsResponsesForestTrees2010; @sackHowStrongIntracanopy2006; @niinemetsControversyTraitsConferring2006; Osnas et al. 2018].  
 
 -	Sunflecks: Leaky et al. 2003--from Marielle, "This is another, higher resolution axis of the variability of microenvironments that is probably quite important to address. (Also see the papers by Robin Chazdon on temporal variability of light environments). Maybe we will want to add these sentences (above) and something about sunflecks to a separate section that specifically addresses sources of variation in forest structure & microenvironments (e.g., vertical, horizontal, seasonal, diurnal, and with disturbance)?"
 
+### Wind speeds 
 **Wind speeds are also higher at the top of the canopy (Fig. `r fig_NEON_vertical`).**
 *(fill in some specifics from the NEON analysis)*
 Consistent with the results from NEON sites, higher wind speeds at greater heights within a forest canopy have been observed in both closed canopy forests [@barnardSeasonalVariationCanopy2016a; @mcgregor_tree_nodate] and open savannas [@curtis_intracanopy_2019] 
 
-Greater upper canopy wind speeds result in higher boundary layer conductance ($g_{a}$) for canopy leaves, which increases linearly with wind velocity [@daudetWindSpeedLeaf1999a]. Large $g_{a}$ to heat transfer, in turn, results in a smaller difference between $T_{air}$ and $T_{leaf}$, which is more typical of small leaves in the upper canopy, allowing them to dissipate heat more efficiently than larger leaves [@bauerleSeparatingFoliarPhysiology2011]. In low wind conditions, because $g_{a}$ to heat transfer is comparatively small, $T_{leaf}$ in the upper canopy can become substantially elevated in relation to $T_{air}$ under high radiation [@martin_boundary_1999; @leighInfluenceLeafSize2017]. Additionally, the thickness of the air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; @stokesBoundaryLayerConductance2006] this tends to be greater in the understory than canopy? [ref] 
+Greater upper canopy wind speeds result in higher boundary layer conductance ($g_{a}$) for canopy leaves, which increases linearly with wind velocity [@daudetWindSpeedLeaf1999a]. *(mention boundary layer conductance here, but move the discussion of leaf temperature to the T_leaf section )* ~~Large $g_{a}$ to heat transfer, in turn, results in a smaller difference between $T_{air}$ and $T_{leaf}$, which is more typical of small leaves in the upper canopy, allowing them to dissipate heat more efficiently than larger leaves [@bauerleSeparatingFoliarPhysiology2011]. In low wind conditions, because $g_{a}$ to heat transfer is comparatively small, $T_{leaf}$ in the upper canopy can become substantially elevated in relation to $T_{air}$ under high radiation [@martin_boundary_1999; @leighInfluenceLeafSize2017]. Additionally, the thickness of the air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; @stokesBoundaryLayerConductance2006] this tends to be greater in the understory than canopy? [ref] ~~ 
 
+
+
+### Air temperature 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. `r fig_NEON_vertical`).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies globally [@defrenneGlobalBufferingTemperatures2019], and recent evidence shows a similar trend across Europe [@zellweger_seasonal_2019; @vonarxSpatiotemporalEffectsForest2012a] and in the northwestern United States [@davis_microclimatic_2019]. Intact tropical forests have also been show to exhibit lower peak daytime $T_{air}$ than neighboring tree crop agricultural plantations (S. R. Hardwick et al., The relationship between leaf area index and microclimate in tropical forest and oil palm plantation: Forest disturbance drives changes in microclimate. Agric. Meteorol. 201, 187–195 (2015)). Even though canopy cover buffers maximum air temperatures in the understory, inevitable increases in understory temperatures continue to be observed as a result of global temperature increases. However, the buffering by canopy cover smooths this warming in the understory, thereby exhibiting an understory temperature lag [@bertrandCommentForestMicroclimate2020; @zellwegerResponseCommentForest2020;@rollinsonClimateSensitivityUnderstory]
 
@@ -190,13 +197,15 @@ The capacity to moderate diurnal temperature fluctuations differs among forests 
 During the wet season, maximum air temperatures have been shown to be higher above forest canopies than below in tropical forests in Panama [@rey-sanchez_spatial_2016], temperate forests in Switzerland [@vonarxSpatiotemporalEffectsForest2012a] and coastal forests in Brazil [@fauset_differences_2018, Tymen et al. 2017]. Similarly, in these studies, maximum temperatures were higher while humidity was lower in gaps compared to understory regions (both at 1.5 m above the ground, see their Fig. 4 - again illustrating buffering effect of the canopy). However, similar maximum temperatures have been observed during the dry season of a semi-deciduous tropical forest in Panama, partially because in the dry season some canopy trees were leafless, resulting in more light reaching the sub-canopy, and more boundary layer turbulence [@rey-sanchez_spatial_2016]. Similar results were observed in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate].
 
 Minimum $T_{air}$ is also buffered by forest canopies under some conditions.
-Higher (Elsa: or lower?) minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].(Martijn: should we refer to mechanisms at this point? (e.g., greater radiative heat loss in exposed areas resulting in lower Tmin))
+Higher minimum temperatures under forest canopies relative to nearby clearings have been observed across Europe [@zellweger_seasonal_2019] and in the northwestern United States [@davis_microclimatic_2019].(Martijn: should we refer to mechanisms at this point? (e.g., greater radiative heat loss in exposed areas resulting in lower Tmin))
 However, similar minimum temperatures under forest canopies have been observed in tropical forests in Panama [@rey-sanchez_spatial_2016] and coastal Brazil [@fauset_differences_2018], as well as in a temperate deciduous forest in the eastern United States [@mcgregor_tree_nodate; @nakamuraForestsTheirCanopies2017].
 
 
 *(Add something about risk of freeze.)* 
 
+![**Figure `r fig_NEON_differences`. Relationship of PAR differences between canopy and understory to air temperature buffering (a) across sites and (b) through time within a single site.** From NEON data. Current placeholder figure is Nidhi's first rough analysis. See [issue 31](https://github.com/EcoClimLab/vertical-thermal-review/issues/31). ](NEON_height_profiles/figures/differences_across_forests_temp.png)
 
+### Humidity and evaporative demand
 **Humidity also varies across the forest vertical profile, and is generally higher in the understory (Fig. `r fig_NEON_vertical`).**
 - DETAILS - REFS
 - @mcgregor_tree_nodate
@@ -206,23 +215,25 @@ Along with temperature, forest canopies moderate relative humidity (RH) in below
 RH, in combination with temperature, determines vapor pressure deficit, $VPD$. Atlantic forests in Brazil during the wet season tend to have higher $T_{air}$, and $VPD$ in the upper canopy and canopy gaps than in the understory where $T_{air}$ and $VPD$ tend to be lower [@fauset_differences_2018; @tymenQuantifyingMicroenvironmentalVariation2017].  
 This means that canopy leaves tend to be exposed to higher *evaporative demand*, higher stomatal constraints [@niinemetsPhotosyntheticAcclimationSimultaneous2004b]. In northeastern US mesic temperate forests, tree-ring analyis [__time-scale] showed that the upper canopy was observed to be more sensitive to $VPD$, whereas the understory was insensitive [@rollinsonClimateSensitivityUnderstory, 2020]
 
-**Finally, carbon dioxide (CO~2~) concentrations tend to be higher in the understory.** 
+### Carbon dioxide
+**Carbon dioxide (CO~2~) concentrations tend to be higher in the understory, primarily at night.** 
 	Higher in the understory, particularly at dusk [@koike_leaf_2001]. Higher in the understory overnight; difference persists during the day but is very small [@yang_spatial_1999]. Differences in concentration are by far most pronounced near ground level, as well, concentrations of (CO~2~) mole fraction values have been observed to be higher in lower canopy leaves compared with upper canopy leaves [because of lower photosynthetic rate in shade leaves?] [@niinemetsPhotosyntheticAcclimationSimultaneous2004b]
+Given that differences are small during the day when photosynthesis is occurring, and that even nighttime differences are modest at the height of understory tree crowns, CO~2~ concentrations are unlikely to have much of an effect on the energy balance and metabolism of leaves across the forest vertical gradient.
+If soil and stem respiration do not acclimate fully to rising temperatures, the greater amount of CO~2~ emitted at the forest floor (i.e. from soils and decaying organic matter and leaf litter) could increase the vertical CO~2~ gradient in the future, but this would still only be a short-term effect in the early morning, as the CO~2~ would quickly diffuse through the canopy. 
+~~Furthermore, increases in mortality of big trees (e.g. @senfCanopyMortalityHas2018a) would increase canopy roughness and prevent build-up of CO~2~ concentration gradients.~~ (*but make the point about big tree mort elsewhere*)
 
-Given that differences are small during the day when photosynthesis is occuring, and that even nighttime differences are modest at the height of understory tree crowns, CO~2~ concentrations are unlikely to have much of an effect on the energy balance and metabolism of leaves across the forest vertical gradient.
-
-If soil and stem respiration do not acclimate fully to rising temperatures, the greater amount of CO~2~ emitted at the forest floor (i.e. from soils and decaying organic matter and leaf litter) could increase the vertical CO~2~ gradient in the future, but this would still only be a short-term effect in the early morning, as the CO~2~ would quickly diffuse through the canopy. Furthermore, increases in mortality of big trees (e.g. @senfCanopyMortalityHas2018a) would increase canopy roughness and prevent build-up of CO~2~ concentration gradients.
-(Elsa: see these papers on the long-term Harvard Forest soil warming experiments. CO2 emissions increased, then decreased, then increased again. It's thought that the changes in soil CO2 emissions over time were linked to turnover in microbial community composition.
+(*keep discussion of CO2 to what's in the paragraph above. Definitely don't want to go beyond a brief mention of warming effects on soil respiration*): (Elsa: see these papers on the long-term Harvard Forest soil warming experiments. CO2 emissions increased, then decreased, then increased again. It's thought that the changes in soil CO2 emissions over time were linked to turnover in microbial community composition.
 - DeAngelis, K.M., Pold, G., Topçuoğlu, B.D., van Diepen, L.T., Varney, R.M., Blanchard, J.L., Melillo, J. and Frey, S.D., 2015. Long-term forest soil warming alters microbial communities in temperate forest soils. Frontiers in microbiology, 6, p.104.
 - Melillo, J.M., Steudler, P.A., Aber, J.D., Newkirk, K., Lux, H., Bowles, F.P., Catricala, C., Magill, A., Ahrens, T. and Morrisseau, S., 2002. Soil warming and carbon-cycle feedbacks to the climate system. Science, 298(5601), pp.2173-2176.
 - Melillo, J.M., Frey, S.D., DeAngelis, K.M., Werner, W.J., Bernard, M.J., Bowles, F.P., Pold, G., Knorr, M.A. and Grandy, A.S., 2017. Long-term pattern and magnitude of soil carbon feedback to the climate system in a warming world. Science, 358(6359), pp.101-105.) 
 - Nottingham, A.T., Meir, P., Velasquez, E. and Turner, B.L., 2020. Soil carbon loss by experimental warming in a tropical forest. Nature, 584(7820), pp.234-237.
 
 
-![**Figure `r fig_NEON_vertical`. Vertical gradients in the biophysical environment for 5/6 sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in growing season (a) leaf area density, (b) proportion light incidence, (c) proportion sun leaves, and July mean ± 1 standard deviation for (d) maximum photosyntehtically active ratiation (PAR), (e) maximum wind speed, (f) minimum humidity, (g) maximum $T_{air}$, and (h) maximum biological temperature, $T_{bio}$. All variables are normalized relative to the height of the top of the canopy (**DETAILS**) and the conditions at the point of lowest measurement.   ([issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20)) ](NEON_height_profiles/figures/profile_all.png)
 
 
-**The strength of this buffering varies across forests, influenced by both forest characteristics (Fig. `r fig_NEON_differences`) and the biophysical environment.**
+*ALL OF THE FOLLOWING CONTENT SHOULD BE WORKED INTO RELEVANT PARAGRAPHS EARLIER IN THIS SECTION:*
+
+The strength of this buffering varies across forests, influenced by both forest characteristics (Fig. `r fig_NEON_differences`) and the biophysical environment.
 First, buffering increases with canopy cover and water availability.
 * greater cover --> lower max T and VPD, higher minT  [@davis_microclimatic_2019]
 * greater cover -->  lower max T and light availability [@zellweger_seasonal_2019]
@@ -242,8 +253,6 @@ The strength of buffering also varies with respect to geographic and climatic fa
 * Distance to coast, topographic position, elevation [@zellweger_seasonal_2019]
 * [@davis_microclimatic_2019]--Proximity to riparian areas tends to sustain buffering, protecting understory temperatures even during increasing temperatures [@davis_microclimatic_2019]
 However vertical climate gradients within forests are known to be steeper than those driven by elevation and latitude [@nakamuraForestsTheirCanopies2017; @martinCovarianceSunShade2020a]
-
-![**Figure `r fig_NEON_differences`. Role of canopy permeability in shaping temperature buffering, from NEON data.** Current placeholder figure is Nidhi's first rough analysis. See [issue 31](https://github.com/EcoClimLab/vertical-thermal-review/issues/31). ](NEON_height_profiles/figures/differences_across_forests_temp.png)
 
 
 ## Trait variation 
