@@ -465,7 +465,7 @@ incr.humidity = decreased VPD = dec. latent heat loss = limited c assimilation [
 
 **Similar to photosynthesis, respiration tends to be higher in sun leaves (Chen et al. 2020), but its temperature sensitivity appears to be similar between between sun and shade leaves.**
 (Bolstad et al. 1999) did a study at Coweeta, including elev gradient. 
-Found higher respiration (at reference T) in canopy leaves (@bolstad_foliar_1999). (*Martijn has some unpublished data on this that we might include: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
+Found higher respiration (at reference T) in canopy leaves (@bolstad_foliar_1999). 
 At Coweeta, Q10 showed a variable pattern, with a slight tendency to increase down the canopy [@bolstad_foliar_1999]. (*Martijn has some unpublished data on this that we might include.unpublished data showing higher Q10 in shade than in sun leaves for 10 species or so. May make sense to include here: https://github.com/EcoClimLab/vertical-thermal-review/issues/8.*)
 Combining reference respiration and $Q_{10}$, @bolstad_foliar_1999 found  a modest net decrease in R for understory leaves relative to canopy leaves as T increases (*see their Fig. 1*)."Higher $Q_{10}$ values in the functional groups of upper canopy where temperatures are the highest may lead to exponential loses of C with increasing global temperatures depending upon the ability of canopy leaves to acclimate" [@cavaleri_foliar_2008]
 Thus, @bolstad_foliar_1999 found evidence of acclimation, but there remained a declining trend of respiration with elevation.
@@ -483,22 +483,14 @@ With temperature increase, foliage photosynthesis and respiration are coupled at
 
 
 
-## Implications for ecology/ demography
+## Implications for demography and species distributions
 
-### Distribution of species and traits across the vertical profile
+**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism and its thermal responses scale up to affect whole-tree ecology in several ways.** 
+Vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in understory versus canopy conditions.
 
-*(This section should address inter-specific vs intra-specific variation, as Tables 1 and 2 refer to intra-specific variation, but most models will focus on trait variation across strata, regardless of species). 
+### Demography
 
-**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism and its thermal responses scale up to affect whole-tree ecology in several ways.** First, vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in understory versus canopy conditions. 
--	*Spring and fall leaf phenology in temperate deciduous forests (Augsburger). 	Mechanism: more moderate conditions (T, wind) in understory (REF).*
-*Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). One potential mechanism is lower temperature/hydraulic stress in understory*
-- something on isoprene production?
-
-**Appears to affect community change under warming (Zellweger et al. 2020).**
-
-### Scaling to tree level: demography
-
-**Vertical gradients also affect tree growth and survival, and how these respond to climatic variation.**
+**Vertical gradients affect tree growth and survival, and how these respond to climatic variation.**
 There are numerous demographic differences between understory and canopy trees, which have been linked to both the physical environment and plant traits (e.g., REFS), and we will not attempt to review those here.
 More interesting in this context is how these shape differences in the climatic sensitivity of growth and mortality.
 Many observations of larger trees suffering more during drought (Bennett et al. 2015).
@@ -519,6 +511,18 @@ In this section we could perhaps also consider differences in biomass distributi
 Interaction between degrees of shade x ontogeny x height with rising temperature needs more scientific attention because a huge part of understory vegetation lies within variations of light and shade spatio-temporal gradient. 
 
 ![**Figure `r fig_treerings`. DRAFT tree-rings figure. Current figure shows (a) drought responses as a function of height in a temperate broadleaf forest (SCBI), from McGregor et al. 2020; (b) responses to growing season temperature in eight New England forests, from Rollinson et al. 2020.  I'M NOT SURE THIS IS WHAT WE WANT, BUT I THINK SOME SORT OF TREE-RING FIGURE WOULD BE GOOD. [ISSUE # 29](https://github.com/EcoClimLab/vertical-thermal-review/issues/29).](tree_rings/tree_rings_draft.png)
+
+### Distribution of species and traits across the vertical profile
+
+*(This section should address inter-specific vs intra-specific variation, as Tables 1 and 2 refer to intra-specific variation, but most models will focus on trait variation across strata, regardless of species). 
+
+Ultimately, the way in which vertical gradients influence growth, mortality, and recruitment will shape forest composition across strata. ...
+
+-	*Spring and fall leaf phenology in temperate deciduous forests (Augsburger). 	Mechanism: more moderate conditions (T, wind) in understory (REF).*
+*Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). One potential mechanism is lower temperature/hydraulic stress in understory*
+- something on isoprene production?
+
+**Appears to affect community change under warming (Zellweger et al. 2020).**
 
 ## Implications for Modeling / Scaling / Future Climate Projections 
 
