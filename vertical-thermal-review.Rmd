@@ -352,23 +352,24 @@ High light stimulates the need for photoprotection in leaves in order to protect
 
 - *Are patterns (in traits, metabolism, ecology) driven by tree height or exposure?*
 
-## Leaf temperature and hydraulics
+## Leaf temperature 
+
+### Biophysical drivers
 
 **Many of the biophysical and trait variables reviewed above affect leaf temperature, $T_{leaf}$, which in turn has a strong influence on leaf metabolism (see following section).**
 $T_{leaf}$ is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019; @michaletzEnergeticCarbonEconomic2016] (Fig. `r fig_leaf_T`).
 Leaf traits are influenced by biophysical environment in order to maintain metabolic optima so that the amount of carbon assimilated by a leaf throughout its life span is greater than the total carbon invested in the leaf [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020] 
 $T_{leaf}$  is largely a function of radiation input versus heat lost to the environment, and typically increases [with tree height] as light availability and total radiation increases [@michaletzPlantThermoregulationEnergetics2015]. 
 
-In addition, leaf size impacts leaf temperature. While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature [@fauset_differences_2018]. Large leaves (with greater leaf width) can be significantly cooler than $T_{air}$ under low radiation with stomata open [@leighInfluenceLeafSize2017], and significantly hotter under high radiation with stomata closed.  
+In addition, leaf size, which itself varies with height (Table `r table_leaf_traits`), impacts leaf temperature. While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature [@fauset_differences_2018]. Large leaves (with greater leaf width) can be significantly cooler than $T_{air}$ under low radiation with stomata open [@leighInfluenceLeafSize2017], and significantly hotter under high radiation with stomata closed.  
 
 Leaves with open stomata and high radiation loads maintain $T_{leaf}$ similar to $T_{air}$, with coolest leaves at intermediate sizes (~10mm). Shaded understory leaves should tend to maintain cooler daytime leaf temperatures for any given level of stomatal conductance. However, counteracting this, lower wind speed in understory would reduce latent heat loss. Under hot conditions, canopy leaves exposed to higher wind speeds would be most effective at cooling when sufficient water is available to maintain high stomatal conductance. However, increase in air temperature typically also increases VPD, decrease in stomatal conductance during midday lead to a decrease in leaf CO2, and consequently increasing leaf temperature in upper canopy [@fauset_differences_2018]. Thus, their $T_{leaf}$ can be highly elevated above $T_{air}$ when stomatal conductance is limiting.
 
 ![**Figure `r fig_leaf_T`. Theoretical expectations for variation in the elevation of $T_{leaf}$ above $T_{air}$ in response to stomatal conductance ($g_s$), wind speed, and shortwave radiation.** Schematic produced using the tealeaves R package of @muir_tealeaves_2019. Current placeholder uses typical conditions for Harvard Forest, but model output deviates from real data (directions right, but Tleaf-Tair too high). [ISSUE #6](2020_12_draft).](leaf_energy_balance/2020_12_draft.png)
 
-**Aligning with biophysical expectations, field observations have shown that leaf temperatures are influenced by the biophysical environment and leaf traits.**
-1.	Air T
-2.	Solar radiation
-3.	Leaf traits 
+### In-situ observations
+**Vertical profiles in microclimate (Fig. `r fig_NEON_vertical`) and leaf traits (Table `r table_leaf_traits`) together shape in-situ leaf temperatures according to the principles outlined above.** 
+The net effect.... 
 
 
 In a tropical wet and moist forest of Puerto Rico and temperate forests in Michigan, greater light input in exposed upper canopy leaves has been observed to increase leaf temperatures, sometimes 1-7C above ambient air temperature, making upper canopy leaves susceptible to heat stress, more than scattered light in lower shaded leaves [@mauTemperateTropicalForest2018a] 
