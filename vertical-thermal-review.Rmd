@@ -93,7 +93,7 @@ Kristina J. Anderson-Teixeira^1,2^*
 *(currently too long for NewPhyt)*
 
 Rising temperatures are expected to have profound effects on forests; however, it is not well understood how responses will vary across forest strata.
-Here, we synthesize evidence as to how environmental conditions and foliar traits vary across vertical gradients, shaping leaf temperatures, metabolism, and ultimately whole-tree growth and mortality.
+Here, we synthesize evidence as to how environmental conditions and foliar traits vary across vertical gradients, shaping leaf temperatures, metabolism, and ultimately whole-tree demography and ecosystem function.
 Strong vertical microclimatic gradients imply that canopy leaves are exposed to more solar radiation and higher evaporative demand than understory leaves, particularly in forests with dense canopies.
 However, foliar traits relevant to shaping leaf temperature ($T_{leaf}$) and metabolism also vary strongly across height or light gradients.
 Resulting $T_{leaf}$'s exceed air temperature ($T_{air}$) under conditions of high solar radiation, low wind, and low stomatal conductance.
@@ -123,24 +123,17 @@ Despite the fact that this vertical gradient inevitably shapes nearly every aspe
 Importantly, this limits our ability to understand how warming temperatures will affect leaf-level metabolism, whole-plant performance, and, in turn, forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions.
 
 
-**Here we review biophysical and biological patterns across the vertical canopy gradient in forests, how these gradients affect leaf-level processes and, in turn, whole plant performance , and the implications for understanding forest ecosystem responses and feedbacks to climate change .**
-We structure the review around five major questions (Fig. `r fig_schematic`).
-
-i.	How does the biophysical environment vary with height in forests?
-
-ii.	How do the leaf traits that most strongly influence leaf temperature and metabolism vary with height (or between sun and shade leaves) in forests?
-
-iii. How do vertical changes in biophysical environment conditions and leaf traits interact to affect leaf temperature [and in turn photosynthetic capacity]??
-
-iv.	How does leaf metabolism respond to [air or leaf?] temperature in canopy and understory settings?
-
-v. What are the implications of vertical canopy gradient patterns for the ecological and climate change responses of canopy versus understory trees?
-
-We then consider the implications for modeling/ scaling /climate change responses. 
-
-*Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), and the implications [or utility] for ecosystem models we also review studies focused on exposure gradients.*
+**Here we review how the biophysical environment and biological form and function vary across the vertical canopy gradient in forests.** 
+We focus on five key themes (Fig. `r fig_schematic`):
+(1) the biophysical environment;
+(2) the leaf traits that most strongly influence leaf temperature and metabolism;
+(3) resulting leaf temperature ($T_{leaf}$) and
+(4) foliar metabolism, including stomatal conductance, photosynthesis, respiration, and volatile organic compound (VOC) production; and 
+(5) resultant size-structuring of whole-tree and ecosystem function.
+We then consider the implications for modeling /  climate change responses. 
 
 ![**Figure `r fig_schematic`. DRAFT schematic of a forest summarizing most important gradients--sort of a "graphical abstract".** [Issue #27](https://github.com/EcoClimLab/vertical-thermal-review/issues/27). ](schematic/vertical thermal sensitivity image.png)
+
 
 
 
@@ -245,6 +238,11 @@ However vertical climate gradients within forests are known to be steeper than t
 ## Leaf traits 
 
 *(KAT: I think we want max 2-3 paragraphs here before getting to the subsection on  intra-specific variation. These paragraphs need to cover the content before then, including light vs height and how those relate to the data that have been collected,  setting up the distinction between intra- vs inter-specific variation, and some general intro, which is currently at beginning of inter-specific section.)*
+
+*Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), and the implications [or utility] for ecosystem models we also review studies focused on exposure gradients.*
+
+
+
 
 **Leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] and show different degrees of intraspecific foliar plasticity in accordance with the intensity and availability of light, optimizing water uptake, heat, C uptake and metabolism across forest vertical strata [@rozendaalPlasticityLeafTraits2006].**
 After the formation of leaves to integrated light, it takes 30-60 days for traits to stabilize in woody and herbaceous species [@keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. A network of sensory photoreceptors in leaves, such as phytochromes, mediate leaf-level responses to PAR, and the ratio of red to far red radiation [R:FR] intercepting the leaf surface. This enables acclimation or avoidance responses through the development of necessary leaf traits [@casalPhotoreceptorSignalingNetworks2013]. Degrees of high irradiance give rise to variation in sun-leaf traits, while degrees of low irradiance-- characterized by shade-- result in variations of shade-leaf traits [@poorterMetaanalysisPlantResponses2019b; @sackHowStrongIntracanopy2006], ultimately influencing leaf structural, chemical and physiological traits as well [@keenanGlobalLeafTrait2016]. 
