@@ -29,10 +29,11 @@ traits_table <- read.csv("Lit_Review/traits_table.csv", stringsAsFactors = FALSE
 kable(traits_table, caption = "Table 1. Summary of observed variation in thermally-relevant leaf traits with canopy height and/or between sun and shade leaves", format = "latex", booktabs = TRUE,  escape = F)%>%
   column_spec(1, width = "4cm") %>%
   column_spec(2, width = "2cm") %>%
+  column_spec(5, width = "2cm") %>%
   column_spec(6, width = "4cm") %>%
-  pack_rows("Leaf anatomy and morphological traits", 1, 16, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
-  pack_rows("Leaf biochemical and physiological traits", 18, 29, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
-  kable_styling(latex_options = c("scale_down", "hold_position"), protect_latex = T) 
+  pack_rows("Leaf anatomy and morphological traits", 1, 17, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
+  pack_rows("Leaf biochemical and physiological traits", 18, 32, latex_gap_space = "1em", colnum = 4, hline_before = FALSE) %>%
+  kable_styling(latex_options = c( "hold_position", "repeat header"), protect_latex = T, font_size = 7) 
   #NOTE: REFERENCES for this table need to go in the nocite section of header in the main doc!!!
 ```
 

@@ -15,7 +15,6 @@ lobation,$lobation$,$cm^{2}$,$\uparrow$ with height,temperate Quercus sp.,"Sack 
 ,,,$\uparrow$ with light,temperate Quercus sp.,"Kusi and Karasi 2020, Sack et al. 2006"
 cuticle thickness,$CT$,$\mu$m,$\uparrow$ with height,"tropical, temperate","Panditharathna et al. 2008, Baltzer and Thomas 2005"
 ,,,$\uparrow$ with light,"tropical, temperate","Panditharathna et al. 2008, Baltzer and Thomas 2005"
-,,,,,
 ,,,$\uparrow$ with height,"tropical, temperate","Coble and Cavaleri 2014, Scartazza et al. 2016, Hernandez et al. 2019"
 Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,$\uparrow$ with light,"tropical, global","Martin et al. 2020, Hernandez et al. 2020, Poorter et al. 2019, Harley et al. 1996  "
 ,,,$\approx$ with ???,"tropical, temperate ","Hernandez et al. 2020, Scartazza et al. 2016"
@@ -31,4 +30,4 @@ chlorophyll a/b ratio,$chl a/b$,mol mol$^{-1}$,$\uparrow$ with light,"tropical, 
 ,,,$\approx$ with height,tropical,"Poorter et al. 1995, Lee and Graham, 1986"
 PAR absorptance,$ABS$,$\%$ nm,$\approx$ with light,tropical,"Poorter et al. 1995, Lee and Graham, 1986 "
 ,,,$\downarrow$ with height,tropical,"Poorter et al. 1995, Lee and Graham, 1986"
-absorptance efficiency(per unit biomass) ,$ABS$,$\%$ per gram,$\downarrow$ with light,tropical,"Poorter et al. 1995, Lee and Graham, 1986"
+absorptance efficiency,$ABS$,$\% \cdot g^{-1}$,$\downarrow$ with light,tropical,"Poorter et al. 1995, Lee and Graham, 1986"
