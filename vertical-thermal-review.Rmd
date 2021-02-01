@@ -16,9 +16,9 @@ knitr::opts_chunk$set(echo = TRUE)
 #figures
 fig_schematic = 1
 fig_NEON_vertical =  2
-fig_NEON_differences  = 3
-fig_leaf_T = 4
-fig_treerings= 5 #not sure if we want to include one
+#fig_NEON_differences (issue #31)
+fig_leaf_T = 3
+fig_treerings= 4 #not sure if we want to include one
 
 #tables
 table_leaf_traits=1
@@ -130,7 +130,7 @@ We focus on five key themes (Fig. `r fig_schematic`):
 (3) resulting leaf temperature ($T_{leaf}$) and
 (4) foliar metabolism, including stomatal conductance, photosynthesis, respiration, and volatile organic compound (VOC) production; and 
 (5) resultant size-structuring of whole-tree and ecosystem function.
-We then consider the implications for modeling /  climate change responses. 
+*We then consider the implications for modeling /  climate change responses.* 
 
 ![**Figure `r fig_schematic`. DRAFT schematic of a forest summarizing most important gradients--sort of a "graphical abstract".** [Issue #27](https://github.com/EcoClimLab/vertical-thermal-review/issues/27). ](schematic/vertical thermal sensitivity image.png)
 
@@ -190,8 +190,6 @@ However, similar minimum temperatures under forest canopies have been observed i
 
 *(Add something about risk of freeze.)* 
 
-![**Figure `r fig_NEON_differences`. Relationship of PAR differences between canopy and understory to air temperature buffering (a) across sites and (b) through time within a single site.** From NEON data. Current placeholder figure is Nidhi's first rough analysis. See [issue 31](https://github.com/EcoClimLab/vertical-thermal-review/issues/31). ](NEON_height_profiles/figures/differences_across_forests_temp.png)
-
 ### Humidity and evaporative demand
 **Humidity also varies across the forest vertical profile, and is generally higher in the understory (Fig. `r fig_NEON_vertical`).**
 - DETAILS - REFS
@@ -213,7 +211,7 @@ Given that differences are small during the day when photosynthesis is occurring
 *ALL OF THE FOLLOWING CONTENT SHOULD BE WORKED INTO RELEVANT PARAGRAPHS EARLIER IN THIS SECTION:*
 
 
-The strength of this buffering varies across forests, influenced by both forest characteristics (Fig. `r fig_NEON_differences`) and the biophysical environment.
+The strength of this buffering varies across forests, influenced by both forest characteristics and the biophysical environment.
 First, buffering increases with canopy cover and water availability.
 * greater cover --> lower max T and VPD, higher minT  [@davis_microclimatic_2019]
 * greater cover -->  lower max T and light availability [@zellweger_seasonal_2019]
