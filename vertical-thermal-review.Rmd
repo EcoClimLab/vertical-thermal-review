@@ -118,16 +118,13 @@ The resulting feedbacks to the climate system (e.g., decreased C storage, altere
 Forests are vertically and horizontally stratified, with trees of different sizes through various successional stages. 
 Overstory trees form canopies that play a crucial role in moderating macro-microclimate [@ozanneBiodiversityMeetsAtmosphere2003; @nakamuraForestsTheirCanopies2017] by buffering extreme temperatures along with other macroclimatic conditions in the understory. 
 This creates a vertical stratification of biophysical environmental conditions such as temperature, light, wind, humidity and CO~2~ that influences leaf traits, thermoregulation and metabolism along the gradient, with implications for whole plant performance [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016].
+Despite the fact that this vertical gradient inevitably shapes nearly every aspect of plant metabolism, demography, and ecology, we lack synthetic understanding of these gradients. 
+*(@niinemetsWithincanopyVariationRate2004a highlights how biophysical and photosynthetic gradients vary along the vertical canopy profile, however our current knowledge of this topic is lacking.)*
+Importantly, this limits our ability to understand how warming temperatures will affect leaf-level metabolism, whole-plant performance, and, in turn, forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions.
 
 
-
-
-~~While there is evidence for temperature driven shifts in forest dynamics, leaf-level metabolic and performance changes influenced by biophysical conditions and warming in the overstory and understory are still unclear.~~ Thus, it is becoming important to understand foliage thermal sensitivity in forests along the vertical canopy profile, from the understory to the top of the canopy. This will provide a pathway for understanding how rising temperature affects forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions with additional feedbacks to forest structure and microclimates.
-
-
-(@niinemetsWithincanopyVariationRate2004a highlights how biophysical and photosynthetic gradients vary along the vertical canopy profile, however our current knowledge of this topic is lacking.)
-
-**Here we review biophysical and biological patterns across the vertical canopy gradient in forests, how these gradients affect leaf-level processes and, in turn, whole plant performance (Fig. `r fig_schematic`), and the implications for understanding forest ecosystem responses and feedbacks to climate change .**
+**Here we review biophysical and biological patterns across the vertical canopy gradient in forests, how these gradients affect leaf-level processes and, in turn, whole plant performance , and the implications for understanding forest ecosystem responses and feedbacks to climate change .**
+We structure the review around six major questions (Fig. `r fig_schematic`).
 
 i.	How does the biophysical environment vary with height in forests?
 
@@ -269,21 +266,7 @@ After the formation of leaves to integrated light, it takes 30-60 days for trait
 
 *(cut, but keep this distinction in mind as you write:)* ~~Additionally, shade leaves in the understory can be broken into three categories; 1. shade leaves of canopy trees in which the--top of the tree is sun exposed, bottom is shaded. 2. seedlings/saplings of canopy trees that will eventually, if they survive, reach the canopy. 3 understory plants that complete their lifecycle in the shaded understory. These groups are likely to have different traits, and if we expect 'shade' plants to have a different sensitivity to climate change than sun leaves, the consequences of climate change for demography and species community composition of the forest will depend strongly on the category of shade plants being considered [refs, -Martijn Slot]~~
 
-*(KAT: put intra-specific variation first, as we know a lot more about that. Then, add a brief section in inter-specific variation)*
 
-### Inter-species vertical gradient leaf trait variation 
-
-
-Taller trees in dense forests tend to be exposed to greater irradiance but maintain shaded leaves in canopy interior and lower canopy, while shorter understory trees are shaded by overstory. As a result of different light regimes, a sun and shade leaf trait dichotomy has been established across species by various studies where typical sun leaves are often smaller in size and width, thicker, and hairier, with thicker cuticle and greater lobation than shade leaves
-[Rozendaal et al. 2006, Mathur et al. 2018, more REFS]."Additionally, shorter understory trees that spend the bulk of their lifecycle in the shade experience different pressures than plant that get the bulk of their carbon from sun-exposed leaves, but can maintain a few layers of shade leaves as well" -Martijn 
-
-The combination of stressors experienced by taller trees' foliage are different from that experienced by understory trees. For example, overstory sun leaves experience greater loads of PAR, $VPD$, elevated temperatures, higher wind speed, etc.. whereas understory leaves are subjected to shade or limitation of light, niche competition and herbivory. Overstory sun leaves are subjected to overheating pressures; thus, through developed traits of increased stomatal density, transpiration and water supply, along with increased convective heatloss via reduced boundary layer resistance, sun leaves are able to maintain optimum temperatures for photosynthesis and metabolic processes. Additionally, overstory sun leaves tend to have long-lived leaves[*double check*] with high LMA while shade leaves of canopy trees have large leaves with low LMA. Adaptive traits in understory enable light capture efficiency while maintaining larger width leaves with comparatively lower stomatal density due to low levels of photosynthesis in the shade, lesser $VPD$, and wind speed. Those differences in traits are likely to affect their thermal properties as well. Leaves act as windows to plant performance, enhancing plant adaptation to changing environment, thus leaf traits acclimated to prior stressors have been suggested to enable whole plants to respond differently to forthcoming stress [@rozendaalPlasticityLeafTraits2006; @niinemetsResponsesForestTrees2010a]
-
-However, even with distinct features of sun and shade traits, trait adaptation to light maximizes light use efficiency for photosynthesis at both high and low light, while also adapting to other stressors as mentioned above. In light limited conditions, shade leaves increase light capture efficiency by increasing their specific leaf area [SLA] and by investing in chlorophyll on a mass basis, which "leads to a similar chlorophyll content on an area basis compared with sun leaves. This enables shade leaves to realize similar light capture to sun leaves at a lower biomass investment" [Chazdon et al. 1996, Poorter et al. 2000, @rozendaalPlasticityLeafTraits2006]
-
-With increasing height and age, competition for light decreases as availability  of light increases in dense forests. However, depending on growth strategies of species occupying the understory, leaf traits might differ due to species inherent light requirements. Early successional species are considered more shade intolerant than late successional species that are more shade tolerant. Ontogenetic differences between the two in the understory suggests lower leaf dry mass per area ($M_A$), greater photosynthetic capacity in low light and greater carbon gain capacities in shade tolerators than in intolerators [@niinemetsControversyTraitsConferring2006]. However, the findings from the above review conflicts with  Kitajima 1994 found for tropical seedlings; shade intolerance species grew faster in the sun AND in the shade, but at the cost of higher mortality in the shade. Lawren and Karoru had contrasting findinds, and so far appears that there is a consensus by now.
-
-Shade intolerant species experience greater heterogeneity in light during ontogeny [why?-nidhi],thus LMA responds to changes in light, with shade-intolerant species displaying higher plasticity in response to light [H. Poorter, U. Niinemets, L. Poorter, I. J. Wright, R. Villar, Causes and consequences of variation in leaf mass per area (LMA): A meta-analysis. New Phytol. 182, 565–588 (2009).].Rozendaal et al. 2006 found no significant trait differences with ontogeny and adult stature trees. Koike et al. 2001 has more info about this.   
 
 ### Intra-canopy on the same species leaf trait variation
 
@@ -306,7 +289,51 @@ nocite: |
   @mau_temperate_2018; @hernandezSimilarTemperatureDependence2020; @cobleHowVerticalPatterns2016a; @slotPhotosyntheticHeatTolerance2019; @valladaresShadeToleranceKey2008b; @beaumontVerticalGradientsLeaf2009; @sackHowStrongIntracanopy2006,@cobleLightDrivesVertical2014; @scartazzaInvestigatingEuropeanBeech2016; @martinCovarianceSunShade2020; @bolstad_foliar_1999; @harleyEffectsLightTemperature1996; @kullDistributionLeafPhotosynthetic1998; @kafutiFoliarWoodTraits2020; @duursmaVerticalCanopyGradients2006; @cobleLightDrivesVertical2014a; @vanwittenbergheVariabilityStomatalConductance2012; @poorterLeafOpticalProperties1995; @poorterMetaanalysisPlantResponses2019b; @cavaleri_foliar_2008; @niinemetsAcclimationHighIrradiance1998; @panditharathnaChangeLeafStructure2008; @baltzerLeafOpticalResponses2005; @kusiPlasticLeafMorphology2020
 ---
 
-Are traits shaped more by height or light?
+
+#### Morphological traits
+- Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected (Leigh et al. 2017? https://onlinelibrary.wiley.com/doi/full/10.1111/pce.12857)
+
+Leaf temperature is generally assumed to increase with leaf area ($LA$) [ Wright et al. 2019; Tserej & Feeley 2021]. Yet, thermal imagery shows that though leaf area can be a predictor for leaf temperatures ranges [$Trange$] across the surface of the leaf, effective leaf width is a better predictor of leaf temperature changes and leaf thermal time constant [@leighInfluenceLeafSize2017]. With increase in effective leaf width, boundary layer thickness and resistance increases along with stomatal resistance [@leighInfluenceLeafSize2017; Wright et al. 2019; @fauset_differences_2018].This lowers evaporation from stomatal pores, and in turn transpirational cooling in large leaves [@fauset_differences_2018]. Because the rate of heat convection per unit area between leaf and air is lower for large leaves and greater for small leaves, small leaves are able to dissipate heat more efficiently than large leaves [@leighInfluenceLeafSize2017]. Using leaf energy balance to compare leaf temperatures of two species $Miconia$ and $Alchornea$, Fauset et al. 2016 found leaf width to be a dominant factor in determining changes in leaf temperature, which was evidently greater for large width leaves of $Miconia$ compared to $Alchornea$. Leaf width and characteristic dimension is generally greater in shaded leaves along the vertical gradient than exposed upper canopy [ref]. Additionally, leaf characteristics such as lobes, leaf elongation and serration, which break the entirety of leaf dimension by enhancing a smaller characteristic dimension, all facilitate more efficient heat dissipation. Leaf lobes are deeper in exposed canopy than in shaded understory, as well as leaf elongation and serration are more pronounced in sun exposed canopies [@vogelConvectiveCoolingLow1970; @schueppTansleyReviewNo1993; @sackHowStrongIntracanopy2006].
+
+
+#### Biochemical and physiological traits
+
+##### Carotenoids/Xanthophyll cycle pigments
+
+High light stimulates the need for photoprotection in leaves in order to protect internal photosystem II from chronic photoinhibition through enabling D1 protein replacement. Thus, leaves exposed to greater irradiance have greater pools of xanthophyll pigments expressed on a mass or area basis--photoprotective pigments comprising of violaxanthin, antheraxanthin and zeaxanthin [$VAZ$] that convert excess light into heat energy dissipation through non photochemical quenching of excitation energy, enabling short-term acclimation to high temperature and light [@mathurPhotosyntheticEfficiencySun2018a; @niinemetsAcclimationHighIrradiance1998]. These are found to be proportional to within-canopy light gradient at an inter- and intra-species level. Therefore, $VAZ$ is lower in shaded leaves and greater in sun leaves, as observed among temperate tree species [@niinemetsAcclimationHighIrradiance1998]. In neotropical forest, foliage exposed to higher irradiance in the canopy showed greater b-carotene and vioxanthin-cycle pool on an area or chl basis compared to low light leaves that showed greater mass based chlorophyll, lutein and neoxanthin carotenoids [Mastubara et al. 2009]
+  
+-	antioxidant scavenging function- protect against cellular damage
+- Koniger et. al. 1995, and  Matsubara et al. 2009
+
+##### Isoprene production
+-  Isoprene production *capability* as a trait (actual isoprene production is in section 4. I'm not sure whether Ty's content belongs here or in that section) 
+- Elsa: I think Ty's section on isoprene would be better suited up here
+
+#### Leaf lifespan and Deciduousness ("Lifecycle / ecological traits? ")
+
+##### lifespan
+##### Deciduousness
+
+*Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). *
+*Spring and fall leaf phenology in temperate deciduous forests (Augsburger).* 	
+
+### Inter-species vertical gradient leaf trait variation 
+
+*(KAT: a lot of this contnet should probably move up the the intro to this section)*
+
+Taller trees in dense forests tend to be exposed to greater irradiance but maintain shaded leaves in canopy interior and lower canopy, while shorter understory trees are shaded by overstory. As a result of different light regimes, a sun and shade leaf trait dichotomy has been established across species by various studies where typical sun leaves are often smaller in size and width, thicker, and hairier, with thicker cuticle and greater lobation than shade leaves
+[Rozendaal et al. 2006, Mathur et al. 2018, more REFS]."Additionally, shorter understory trees that spend the bulk of their lifecycle in the shade experience different pressures than plant that get the bulk of their carbon from sun-exposed leaves, but can maintain a few layers of shade leaves as well" -Martijn 
+
+The combination of stressors experienced by taller trees' foliage are different from that experienced by understory trees. For example, overstory sun leaves experience greater loads of PAR, $VPD$, elevated temperatures, higher wind speed, etc.. whereas understory leaves are subjected to shade or limitation of light, niche competition and herbivory. Overstory sun leaves are subjected to overheating pressures; thus, through developed traits of increased stomatal density, transpiration and water supply, along with increased convective heatloss via reduced boundary layer resistance, sun leaves are able to maintain optimum temperatures for photosynthesis and metabolic processes. Additionally, overstory sun leaves tend to have long-lived leaves[*double check*] with high LMA while shade leaves of canopy trees have large leaves with low LMA. Adaptive traits in understory enable light capture efficiency while maintaining larger width leaves with comparatively lower stomatal density due to low levels of photosynthesis in the shade, lesser $VPD$, and wind speed. Those differences in traits are likely to affect their thermal properties as well. Leaves act as windows to plant performance, enhancing plant adaptation to changing environment, thus leaf traits acclimated to prior stressors have been suggested to enable whole plants to respond differently to forthcoming stress [@rozendaalPlasticityLeafTraits2006; @niinemetsResponsesForestTrees2010a]
+
+However, even with distinct features of sun and shade traits, trait adaptation to light maximizes light use efficiency for photosynthesis at both high and low light, while also adapting to other stressors as mentioned above. In light limited conditions, shade leaves increase light capture efficiency by increasing their specific leaf area [SLA] and by investing in chlorophyll on a mass basis, which "leads to a similar chlorophyll content on an area basis compared with sun leaves. This enables shade leaves to realize similar light capture to sun leaves at a lower biomass investment" [Chazdon et al. 1996, Poorter et al. 2000, @rozendaalPlasticityLeafTraits2006]
+
+With increasing height and age, competition for light decreases as availability  of light increases in dense forests. However, depending on growth strategies of species occupying the understory, leaf traits might differ due to species inherent light requirements. Early successional species are considered more shade intolerant than late successional species that are more shade tolerant. Ontogenetic differences between the two in the understory suggests lower leaf dry mass per area ($M_A$), greater photosynthetic capacity in low light and greater carbon gain capacities in shade tolerators than in intolerators [@niinemetsControversyTraitsConferring2006]. However, the findings from the above review conflicts with  Kitajima 1994 found for tropical seedlings; shade intolerance species grew faster in the sun AND in the shade, but at the cost of higher mortality in the shade. Lawren and Karoru had contrasting findinds, and so far appears that there is a consensus by now.
+
+Shade intolerant species experience greater heterogeneity in light during ontogeny [why?-nidhi],thus LMA responds to changes in light, with shade-intolerant species displaying higher plasticity in response to light [H. Poorter, U. Niinemets, L. Poorter, I. J. Wright, R. Villar, Causes and consequences of variation in leaf mass per area (LMA): A meta-analysis. New Phytol. 182, 565–588 (2009).].Rozendaal et al. 2006 found no significant trait differences with ontogeny and adult stature trees. Koike et al. 2001 has more info about this.   
+
+
+### Are traits shaped more by height or light?
 
 Light based acclimation in leaf traits is well established, while research on solely height-based leaf trait variation is sparse due to the difficulty of isolating increased tree height from light. However, studies that have measured LMA in relation to height have found that in tropical forests LMA-height predicted stronger correlation between area- based respiration versus foliar nutrients, whereas Q10 and E10 remained constant with height [Cavaleri et al. 2008]. In temperate Acer saccharum forest, within-canopy Acer saccharum exhibited greater LMA and $N area$ with height early in the growing season as a result of hydrostatic constraints on leaf morphology; however, in later growing season LMA and $N area$ continued to increase in the upper canopy due to light driven changes [@cobleLightDrivesVertical2014a; @cobleLightAcclimationOptimizes2015; @cobleHowVerticalPatterns2016].In addition, carbon isotope composition also increased with height, independent of light [@cobleLightAcclimationOptimizes2015]
 
@@ -317,38 +344,6 @@ Height is more important than light in determining leaf morphology in a tropical
 - from Martijn: "If I remember correctly, height and light exposure are closely correlated and things like LMA scale with both, but above a certain level of light exposure, the effect of additional light disappears, while the relationship of the morphological traits with height continues. I have often been a bit skeptical about assuming height drives morphology, as most of the work that convincingly shows that (and relates it to turgor pressure for example) is from 100 m tall redwoods."
 - Elsa: see also H. Poorter, U. Niinemets, L. Poorter, I. J. Wright, R. Villar, Causes and consequences of variation in leaf mass per area (LMA): A meta-analysis. New Phytol. 182, 565–588 (2009). -- LMA responds to changes in light, with shade-intolerant species displaying higher plasticity in response to light.
 
-*Leaf area / characteristic dimension*:
-- Recent paper on influence on leaf size/shape in PCE – certain aspects of leaf shape were not as relevant as expected (Leigh et al. 2017? https://onlinelibrary.wiley.com/doi/full/10.1111/pce.12857)
-
-Leaf temperature is generally assumed to increase with leaf area ($LA$) [ Wright et al. 2019; Tserej & Feeley 2021]. Yet, thermal imagery shows that though leaf area can be a predictor for leaf temperatures ranges [$Trange$] across the surface of the leaf, effective leaf width is a better predictor of leaf temperature changes and leaf thermal time constant [@leighInfluenceLeafSize2017]. With increase in effective leaf width, boundary layer thickness and resistance increases along with stomatal resistance [@leighInfluenceLeafSize2017; Wright et al. 2019; @fauset_differences_2018].This lowers evaporation from stomatal pores, and in turn transpirational cooling in large leaves [@fauset_differences_2018]. Because the rate of heat convection per unit area between leaf and air is lower for large leaves and greater for small leaves, small leaves are able to dissipate heat more efficiently than large leaves [@leighInfluenceLeafSize2017]. Using leaf energy balance to compare leaf temperatures of two species $Miconia$ and $Alchornea$, Fauset et al. 2016 found leaf width to be a dominant factor in determining changes in leaf temperature, which was evidently greater for large width leaves of $Miconia$ compared to $Alchornea$. Leaf width and characteristic dimension is generally greater in shaded leaves along the vertical gradient than exposed upper canopy [ref]. Additionally, leaf characteristics such as lobes, leaf elongation and serration, which break the entirety of leaf dimension by enhancing a smaller characteristic dimension, all facilitate more efficient heat dissipation. Leaf lobes are deeper in exposed canopy than in shaded understory, as well as leaf elongation and serration are more pronounced in sun exposed canopies [@vogelConvectiveCoolingLow1970; @schueppTansleyReviewNo1993; @sackHowStrongIntracanopy2006].
-
-
-*Thermal time constant (probably not a lot out there)*
--	Curtis et. al, 2018 – higher in more exposed leaves (heat up slower, cool slower)
--	Michaeletz has used this in theoretical calculations (Michaeletz et al. 2016 and 2015?
-
-Thermal time constant, a leaf trait, quantifies heat flux in a leaf through incorporating heat stored versus heat exchanged with the environment, with relation to time. It comprises of several underlying traits -- leaf area, LMA, leaf width, leaf dry matter content and stomatal conductance [@michaletzEnergeticCarbonEconomic2016]. Typically, at a steady state, larger leaves with greater leaf width experience longer leaf cooling time and thus increased thermal time constant compared to leaves with smaller leaf width. Dissections in leaves, such as lobes, decrease leaf width and thus thermal time constant [@leighInfluenceLeafSize2017]. Additionally, a leaf with a smaller time constant experiences variable leaf temperatures in relation to the environment and exhibits instantaneous carbon assimilation rate and stable photosynthesis enabled by greater LMA [@michaletzEnergeticCarbonEconomic2016] Guessing, sun exposed leaves have lower thermal time constant than shaded?  
-
-Tserej & Feeley 2021 experimentally showed that the rate of leaf warming is negetively correlated with leaf water content per unit leaf area (Lawren mentioned in the meeting as well?)
-
-
-[I have Michaletz's code to calculate the thermal time constant, so if there are data, or general tendencies for changes in leaf area, LMA, leaf width and leaf dry matter content we can determine how these trends would translate into changes in thermal time constant. 
-In practice, an important driver seems to be leaf water content per unit area (I think Lawren might have mentioned this as well in our meeting), so if we can conclude that that is something that scales with the vertical gradient, then we can make an informed guess about how the thermal time constant will change--Martijn Slot]
-
-*Carotenoids/Xanthophyll cycle pigments* 
-
-High light stimulates the need for photoprotection in leaves in order to protect internal photosystem II from chronic photoinhibition through enabling D1 protein replacement. Thus, leaves exposed to greater irradiance have greater pools of xanthophyll pigments expressed on a mass or area basis--photoprotective pigments comprising of violaxanthin, antheraxanthin and zeaxanthin [$VAZ$] that convert excess light into heat energy dissipation through non photochemical quenching of excitation energy, enabling short-term acclimation to high temperature and light [@mathurPhotosyntheticEfficiencySun2018a; @niinemetsAcclimationHighIrradiance1998]. These are found to be proportional to within-canopy light gradient at an inter- and intra-species level. Therefore, $VAZ$ is lower in shaded leaves and greater in sun leaves, as observed among temperate tree species [@niinemetsAcclimationHighIrradiance1998]. In neotropical forest, foliage exposed to higher irradiance in the canopy showed greater b-carotene and vioxanthin-cycle pool on an area or chl basis compared to low light leaves that showed greater mass based chlorophyll, lutein and neoxanthin carotenoids [Mastubara et al. 2009]
-  
--	antioxidant scavenging function- protect against cellular damage
-- Koniger et. al. 1995, and  Matsubara et al. 2009
-
-*Isoprene production*
--  Isoprene production *capability* as a trait (actual isoprene production is in section 4. I'm not sure whether Ty's content belongs here or in that section) 
-- Elsa: I think Ty's section on isoprene would be better suited up here
-
-*(Paragraph on intra- vs inter-specific variation)*
-
-- *Are patterns (in traits, metabolism, ecology) driven by tree height or exposure?*
 
 ## Leaf temperature 
 
@@ -512,23 +507,13 @@ Interaction between degrees of shade x ontogeny x height with rising temperature
 
 Microclimate warming has implications for forest regeneration [@vonarxSpatiotemporalEffectsForest2012a]. Temperature driven photosynthesis limitation is reducing tree growth rates, accompanying a global trend towards more frequently disturbed forests dominanted by younger trees [@mcdowellPervasiveShiftsForest2020]. Reductions in canopy cover can lead to non-linear threshold responses, causing dramatic shifts from one forest state to another (e.g., transition from forest to savanna-like vegetation in tropical forest regions through "savannization"), with energy balance impacts and implications for forest-atmosphere interactions [@starkReframingTropicalSavannization2020]. Each of these changes have potential feedbacks to climate change.
 
-### Distribution of species and traits across the vertical profile
-
-*(This section should address inter-specific vs intra-specific variation, as Tables 1 and 2 refer to intra-specific variation, but most models will focus on trait variation across strata, regardless of species). 
-
-Ultimately, the way in which vertical gradients influence growth, mortality, and recruitment will shape forest composition across strata. ...
-
--	*Spring and fall leaf phenology in temperate deciduous forests (Augsburger). 	Mechanism: more moderate conditions (T, wind) in understory (REF).*
-*Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). One potential mechanism is lower temperature/hydraulic stress in understory*
-- something on isoprene production?
-
-**Appears to affect community change under warming (Zellweger et al. 2020).**
-
 ### Ecosystem Scale Implications
 
 Leaf-scale properties and processes aggregate non-linearly  in vertical and horizontal space, influencing stand-level ecosystem processes, and in turn biosphere-atmosphere exchanges of water, carbon, energy, and trace gases. As described above, variation in temperature across vertical gradients can interact with local light conditions and other vertically varying meteorological conditions to affect species composition (e.g., see @nakamuraForestsTheirCanopies2017), leaf traits, and photosynthesis . Linked to this local biophysical variation is the partitioning of evapotranspiration (ET) into soil evaporation, canopy evaporation, and transpiration, which occur across varying spatiotemporal scales depending on light availability, water stress, stomatal physiology, and turbulent transfer (Lawrence et al. 2007, Staudt et al. 2011). Vertical microclimate gradients interact with vertical variation in foliage density, influencing not only the location of evapotranspiration in the canopy, but also differences in rates and net gross primary productivity (GPP, Banerjee & Linn 2018). It has been demonstrated that net carbon assimilation and transpiration can vary substantially for forest canopies with the same LAI but different leaf area density distributions (e.g., Katul et al 2004 , Banerjee & Linn 2018). Further, although transpiration tends to be the dominant component of ET, partitioning is more complex in open canopies where soil evaporation can become more dominant (Baldocchi et al. 2004, Ma et al. 2020), likely affecting vertical thermal gradients. In other words, it matters whether foliage is dense or sparse, and whether it is concentrated higher in the canopy, lower in the canopy, or evenly distributed throughout. 
 
 Still, partitioning ET into its constituent components, let alone vertically partitioning transpiration rates in the canopy, remains a challenge. Eddy covariance techniques, sap flow measurements, and stable isotope analysis offer useful tools, although errors can be large (Williams et al 2004, Herbst et al. 1996). To date, empirical analyses of ET vertical partitioning and interactions with temperature and vegetation structure have be concentrated in midlatitude ecosystems (e.g. Haverd et al 2009, 2011, Staudt et al. 2011, Ringgaard et al. 2014) *(KAT: but see Kunert et al. 2017 -not sure if this is equivalent)*. With respect to changing temperatures, the net effect of leaf- and plant-level thermal responses remains an active area of research, including both how vertical variation in thermal sensitivity influences forest ecosystem dynamics and biosphere-atmosphere interactions. 
+
+*(here, it would be good to add some content on contributions to C cycling across the vertical gradient.  If Camille's paper is published ahead of this, that would be the best source. Meakem et al. 2018, New Phyt has a similar analysis for 3 sites.)*
 
 [Elsa: do we want a section about research opportunities using remote sensing or is that outside the scope of this review?] 
 An increasing availability of airborne and spaceborne LiDAR remote sensing data offers a promising opportunity for mapping vertical thermal gradients and vegetation structure. [Drone based FLIR cams, tower thermal cams (Pau et al 2018), ECOSTRESS]. To evaluate large-scale ecosystem patterns, high resolution vertically resolved vegetation structure from LiDAR data can be analyzed in combination with collocated field measurements collected using towers (FluxNet REF), canopy cranes (@nakamuraForestsTheirCanopies2017), or by tree climbing (REF – e.g. Asner papers, Shenkin et al – Unding Jami’s work). Existing research efforts have already revealed incredibly heterogeneity in vegetation structure, diversity, traits, and properties both within and across ecosystems (REFS – Stovall, Schneider, …others).
