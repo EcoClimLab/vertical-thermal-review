@@ -46,10 +46,10 @@ SItable_example = "S1"
 SItable_example_legend <- "Table S1. ...."
 
 #SI figure numbers
-SIfig_example = "S1"
+SIfigs_NEON_all = "S1-S#"
 
 #SI figure captions
-SIfig_example_legend <- "Figure S1. ...."
+
 
 ```
 
@@ -168,12 +168,9 @@ This difference in light regimes along a vertical profile is an important driver
 -	Sunflecks: Leaky et al. 2003--from Marielle, "This is another, higher resolution axis of the variability of microenvironments that is probably quite important to address. (Also see the papers by Robin Chazdon on temporal variability of light environments). Maybe we will want to add these sentences (above) and something about sunflecks to a separate section that specifically addresses sources of variation in forest structure & microenvironments (e.g., vertical, horizontal, seasonal, diurnal, and with disturbance)?"
 
 ### Wind speeds 
-**Wind speeds are also higher at the top of the canopy (Fig. `r fig_NEON_vertical`).**
-*(fill in some specifics from the NEON analysis)*
-Consistent with the results from NEON sites, higher wind speeds at greater heights within a forest canopy have been observed in both closed canopy forests [@barnardSeasonalVariationCanopy2016a; @mcgregor_tree_nodate] and open savannas [@curtis_intracanopy_2019] 
-
-Greater upper canopy wind speeds result in higher boundary layer conductance ($g_{a}$) for canopy leaves, which increases linearly with wind velocity [@daudetWindSpeedLeaf1999a]. *(mention boundary layer conductance here, but move the discussion of leaf temperature to the T_leaf section )* ~~Large $g_{a}$ to heat transfer, in turn, results in a smaller difference between $T_{air}$ and $T_{leaf}$, which is more typical of small leaves in the upper canopy, allowing them to dissipate heat more efficiently than larger leaves [@bauerleSeparatingFoliarPhysiology2011]. In low wind conditions, because $g_{a}$ to heat transfer is comparatively small, $T_{leaf}$ in the upper canopy can become substantially elevated in relation to $T_{air}$ under high radiation [@martin_boundary_1999; @leighInfluenceLeafSize2017]. Additionally, the thickness of the air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; @stokesBoundaryLayerConductance2006] this tends to be greater in the understory than canopy? [ref] ~~ 
-
+**Wind speeds are also higher at the top of the canopy (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`).**
+Across the **#** forested NEON sites, windspeeds universally increased with height, with daily maximum wind speeds averaging up to **#** m s^-1^ higher at the top of the vertical profile than at the bottom. 
+Consistent with these results from NEON sites, higher wind speeds at greater heights within a forest canopy have been observed in both closed canopy forests [@barnardSeasonalVariationCanopy2016a; @mcgregor_tree_nodate] and open savannas [@curtis_intracanopy_2019].
 
 ### Air temperature 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. `r fig_NEON_vertical`).**
@@ -307,6 +304,7 @@ High light stimulates the need for photoprotection in leaves in order to protect
 #### Leaf lifespan and Deciduousness ("Lifecycle / ecological traits? ")
 
 ##### lifespan
+*Leaf turnover tends to be greater in the sun, so of your standing stock of leaves (at least in evergreen species) sun leaves should be younger than shade leaves. This is bound to affect metabolism, and may affect other aspects of their performance.*
 ##### Deciduousness
 
 *Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). *
@@ -339,7 +337,13 @@ Shade intolerant species experience greater heterogeneity in light during ontoge
 **Many of the biophysical and trait variables reviewed above affect leaf temperature, $T_{leaf}$, which in turn has a strong influence on leaf metabolism (see following section).**
 $T_{leaf}$ is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019; @michaletzEnergeticCarbonEconomic2016] (Fig. `r fig_leaf_T`).
 Leaf traits are influenced by biophysical environment in order to maintain metabolic optima so that the amount of carbon assimilated by a leaf throughout its life span is greater than the total carbon invested in the leaf [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020] 
-$T_{leaf}$  is largely a function of radiation input versus heat lost to the environment, and typically increases [with tree height] as light availability and total radiation increases [@michaletzPlantThermoregulationEnergetics2015]. 
+$T_{leaf}$  is largely a function of radiation input versus heat lost to the environment, and typically increases [with tree height] as light availability and total radiation increases [Fig. `r fig_NEON_vertical`; @michaletzPlantThermoregulationEnergetics2015]. 
+
+
+Greater upper canopy wind speeds (Fig. `r fig_NEON_vertical`) result in higher boundary layer conductance ($g_{a}$) for canopy leaves, which increases linearly with wind velocity [@daudetWindSpeedLeaf1999a]. 
+Large $g_{a}$ to heat transfer, in turn, results in a smaller difference between $T_{air}$ and $T_{leaf}$, which is more typical of small leaves in the upper canopy, allowing them to dissipate heat more efficiently than larger leaves [@bauerleSeparatingFoliarPhysiology2011]. 
+In low wind conditions, because $g_{a}$ to heat transfer is comparatively small, $T_{leaf}$ in the upper canopy can become substantially elevated in relation to $T_{air}$ under high radiation [@martin_boundary_1999; @leighInfluenceLeafSize2017]. 
+Additionally, the thickness of the air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; @stokesBoundaryLayerConductance2006] this tends to be greater in the understory than canopy? [ref]
 
 In addition, leaf size, which itself varies with height (Table `r table_leaf_traits`), impacts leaf temperature. While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature [@fauset_differences_2018]. Large leaves (with greater leaf width) can be significantly cooler than $T_{air}$ under low radiation with stomata open [@leighInfluenceLeafSize2017], and significantly hotter under high radiation with stomata closed.  
 
