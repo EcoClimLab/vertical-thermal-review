@@ -231,46 +231,45 @@ However vertical climate gradients within forests are known to be steeper than t
 
 ## Leaf traits 
 
-*(KAT: I think we want max 2-3 paragraphs here before getting to the subsection on  intra-specific variation. These paragraphs need to cover the content before then, including light vs height and how those relate to the data that have been collected,  setting up the distinction between intra- vs inter-specific variation, and some general intro, which is currently at beginning of inter-specific section.)*
+Particularly in dense forests, the upper, outer canopy leaves of taller trees are exposed to dramatically different biophysical conditions than leaves in the canopy interior or understory (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`). 
+Accordingly, there is substantive variation across the gradient in leaf traits (this section), which in turn shape leaf temperatures and metabolism (following sections).
 
-*Our primary interest is the gradient in height and exposure from the top of the canopy to the understory in forests. However, because a lot of the relevant research has focused on exposure gradients near ground level (e.g., comparisons of sun and shade leaves), and the implications [or utility] for ecosystem models we also review studies focused on exposure gradients.*
+#### *(clarify light vs height - 1  short paragraph)*
 
+Our primary interest is in how leaf traits and function vary across the vertical gradient from the top of the canopy to the understory in forests.
+However, the majority of relevant research has focused on exposure gradients near ground level, with by far the most common study type being comparisons of sun and shade leaves. 
+Light based acclimation in leaf traits is well established, while research on solely height-based leaf trait variation is sparse due to the difficulty of isolating increased tree height from light. 
+While light is the primary axis along which leaf traits vary, both theory and empirical evidence indicate that other factors--for example, height on a tree or exposure to evaporative demand (Fig. `r fig_NEON_vertical`)-- are important in shaping at least a subset of traits. 
+In particular, hydraulic constraints vary with height on a tree (*Couvreur et al., 2018*; REFS).
 
+*(The following notes need to be condensed/ worked into the paragraph above. No need to get very specific (listing species studied, traits)--what we want is generalization. The goal is to answer the question, "Do we expect light gradients to be equivalent to height gradients, or is there variation attributable to height that is not captured by light gradients?")*
 
+*  However, studies that have measured LMA in relation to height have found that in tropical forests LMA-height predicted stronger correlation between area- based respiration versus foliar nutrients, whereas Q10 and E10 remained constant with height [Cavaleri et al. 2008]. In temperate Acer saccharum forest, within-canopy Acer saccharum exhibited greater LMA and $N area$ with height early in the growing season as a result of hydrostatic constraints on leaf morphology; however, in later growing season LMA and $N area$ continued to increase in the upper canopy due to light driven changes [@cobleLightDrivesVertical2014a; @cobleLightAcclimationOptimizes2015; @cobleHowVerticalPatterns2016].In addition, carbon isotope composition also increased with height, independent of light [@cobleLightAcclimationOptimizes2015].
 
-**Leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] and show different degrees of intraspecific foliar plasticity in accordance with the intensity and availability of light, optimizing water uptake, heat, C uptake and metabolism across forest vertical strata [@rozendaalPlasticityLeafTraits2006].**
-After the formation of leaves to integrated light, it takes 30-60 days for traits to stabilize in woody and herbaceous species [@keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. A network of sensory photoreceptors in leaves, such as phytochromes, mediate leaf-level responses to PAR, and the ratio of red to far red radiation [R:FR] intercepting the leaf surface. This enables acclimation or avoidance responses through the development of necessary leaf traits [@casalPhotoreceptorSignalingNetworks2013]. Degrees of high irradiance give rise to variation in sun-leaf traits, while degrees of low irradiance-- characterized by shade-- result in variations of shade-leaf traits [@poorterMetaanalysisPlantResponses2019b; @sackHowStrongIntracanopy2006], ultimately influencing leaf structural, chemical and physiological traits as well [@keenanGlobalLeafTrait2016]. 
+* Height-based leaf trait variation in *Quercus alba* and *Quercus velutina* showed decrease in lobation with increased height in two tall species, suggesting an adaptation to hydraulic constraints in order to lower evapotranspiration with increasing height by decreasing lobation [@kusiPlasticLeafMorphology2020]. However, @sackHowStrongIntracanopy2006 did not observe trait variation based on height in Quercus spp.
 
-*(Elsa: it may also be worth mentioning leaf turnover / leaf longevity briefly in the above paragraph in the context of leaf development and trait formation.)*
-*(Krista: the above is really interesting, and I like the idea of starting off the section by mentioning what controls the formation of leaf traits. However, I think it gets into more detail than needed. I'd follow Elsa's suggestion above without increasing the length. Also, is there work out there on how they're influenced by temperature/ water at the time of formation? I'd broaden to include the full microenviroment (without increasing length)*)
-
-*(move to modeling section:)* ~~An increasing number of studies point towards the importance of incorporating sun and shade in modelling leaf economic spectrum (LES) traits within-canopy gradient [@chenLeafEconomicsSpectrum2020a], because LES theory was developed using mainly sun exposed (upper canopy) leaves. Given the vastly different light environments at the bottom of the canopy and that most leaves in the canopy are likely to be shade leaves, there is a strong research need to better characterise trait relationships and leaf responses through the whole vertical canopy [Keenan and Niinemets 2016]. However, there is also concern for ambiguity in a simplified categorization of 'sun' and 'shade' leaves, due to variation based on within-canopy light, across functional groups, in canopy gaps, and with height and ontogeny [@ishiiVariationIntracrownLeaf2018; @niinemetsWorldwideAnalysisWithincanopy2015] as well as geographically [@ishiiVariationIntracrownLeaf2018].~~ 
-
-*(remove:)* ~~Classification schemes for sun and shade tolerance rankings have been highlighted by multiple studies [Baker 1949; @niinemetsControversyTraitsConferring2006; Feng et al. 2018]. For example, classifications from @niinemetsControversyTraitsConferring2006 are as follows: "The five-level scale used for shade tolerance (1,very intolerant; 2, intolerant; 3, moderately tolerant; 4,tolerant; 5, very tolerant) corresponds approximately to the following light availabilities expressed as percentage of full sunlight: 1,>50%; 2, 25-50%; 3, 10-25%; 4, 5-10%; 5, 2-5%".~~ 
-
-*(cut, but keep this distinction in mind as you write:)* ~~Additionally, shade leaves in the understory can be broken into three categories; 1. shade leaves of canopy trees in which the--top of the tree is sun exposed, bottom is shaded. 2. seedlings/saplings of canopy trees that will eventually, if they survive, reach the canopy. 3 understory plants that complete their lifecycle in the shaded understory. These groups are likely to have different traits, and if we expect 'shade' plants to have a different sensitivity to climate change than sun leaves, the consequences of climate change for demography and species community composition of the forest will depend strongly on the category of shade plants being considered [refs, -Martijn Slot]~~
-
-### Are traits shaped more by height or light?
-
-Light based acclimation in leaf traits is well established, while research on solely height-based leaf trait variation is sparse due to the difficulty of isolating increased tree height from light. However, studies that have measured LMA in relation to height have found that in tropical forests LMA-height predicted stronger correlation between area- based respiration versus foliar nutrients, whereas Q10 and E10 remained constant with height [Cavaleri et al. 2008]. In temperate Acer saccharum forest, within-canopy Acer saccharum exhibited greater LMA and $N area$ with height early in the growing season as a result of hydrostatic constraints on leaf morphology; however, in later growing season LMA and $N area$ continued to increase in the upper canopy due to light driven changes [@cobleLightDrivesVertical2014a; @cobleLightAcclimationOptimizes2015; @cobleHowVerticalPatterns2016].In addition, carbon isotope composition also increased with height, independent of light [@cobleLightAcclimationOptimizes2015]
-
-Height-based leaf trait variation in *Quercus alba* and *Quercus velutina* showed decrease in lobation with increased height in two tall species, suggesting an adaptation to hydraulic constraints in order to lower evapotranspiration with increasing height by decreasing lobation [@kusiPlasticLeafMorphology2020]. However, @sackHowStrongIntracanopy2006 did not observe trait variation based on height in Quercus spp.
-
-Height is more important than light in determining leaf morphology in a tropical forests (Cavaleri et al. 2010)
+* Height is more important than light in determining leaf morphology in a tropical forests (Cavaleri et al. 2010)
 - (Cavaleri et al. 2008) 
 - from Martijn: "If I remember correctly, height and light exposure are closely correlated and things like LMA scale with both, but above a certain level of light exposure, the effect of additional light disappears, while the relationship of the morphological traits with height continues. I have often been a bit skeptical about assuming height drives morphology, as most of the work that convincingly shows that (and relates it to turgor pressure for example) is from 100 m tall redwoods."
 - Elsa: see also H. Poorter, U. Niinemets, L. Poorter, I. J. Wright, R. Villar, Causes and consequences of variation in leaf mass per area (LMA): A meta-analysis. New Phytol. 182, 565–588 (2009). -- LMA responds to changes in light, with shade-intolerant species displaying higher plasticity in response to light.
 
 
+#### *(clarify intra- vs inter-specific variation - 1 short paragraph)*
 
-### Intra-specific variation
+Across the vertical gradient, traits vary (1) across sun and shade leaves within individuals, (2) across canopy and understory individuals of the same species, and (3) across canopy and understory species. 
+The majority of studies characterizing variation in leaf traits or metabolism examine intraspecific patterns (categories 1 and 2), which are therefore the main focus of this review (Table 1).
+However, when it comes to understanding and modeling forest ecosystem function, the relevant scale of variation is interspecific (e.g., *Lamour, Serbin in prep*).
+
+
+### Intraspecific variation
+
+**Within a species, leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] and show different degrees of foliar plasticity in accordance with the intensity and availability of light, optimizing water uptake, heat, C uptake and metabolism across forest vertical strata [@rozendaalPlasticityLeafTraits2006].**
+After the formation of leaves to integrated light, it takes 30-60 days for traits to stabilize in woody and herbaceous species [@keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. A network of sensory photoreceptors in leaves, such as phytochromes, mediate leaf-level responses to PAR, and the ratio of red to far red radiation [R:FR] intercepting the leaf surface. This enables acclimation or avoidance responses through the development of necessary leaf traits [@casalPhotoreceptorSignalingNetworks2013]. Degrees of high irradiance give rise to variation in sun-leaf traits, while degrees of low irradiance-- characterized by shade-- result in variations of shade-leaf traits [@poorterMetaanalysisPlantResponses2019b; @sackHowStrongIntracanopy2006], ultimately influencing leaf structural, chemical and physiological traits as well [@keenanGlobalLeafTrait2016]. 
+
+*(Krista: the above paragraaph is really interesting, and I like the idea of starting off the section by mentioning what controls the formation of leaf traits. However, I think it gets into more detail than needed. Also, is there work out there on how they're influenced by temperature/ water at the time of formation? I'd broaden to include the full microenviroment (without increasing length)*)
 
 Several studies point towards common variations and differences in leaf trait plasticity within-species and at an intra-canopy gradient which influences leaf structural and biochemical traits [@sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. The differences among these traits contribute to leaf heat dissipation strategies and leaf temperature across the gradient [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016] Table `r table_leaf_traits` summarizes relevant traits for thermal sensitivity.
 
-*[Add something about how leaf traits along the vertical canopy profile are different than the expectation from leaf economic spectrum (LES)? Chen et al. 2020 is a good paper to help frame this . They make an important point in that paper that we may also want to make here: that the LES was 'built' using mainly sun (upper canopy) leaves; given the vastly different light environments at the bottom of the canopy (and that most leaves in the canopy are likely to be shade leaves) there is a strong research need to better characterise trait relationships and leaf responses through the whole vertical canopy - hence the importance of this review. Keenan & Niinemets 2016  will also be helpful in making this point.]--M N. Smith*
-
-**Many traits vary with height and/or between sun and shade leaves of the same species (Table `r table_leaf_traits`).**
-Here, we focus on intra-canopy traits that are important for shaping leaf temperature ($T_{leaf}$) and thermal sensitivity.
 
 ![Table `r table_leaf_traits`. (*For latest version of table, see tables.pdf.*)](table1.png)
 
@@ -291,7 +290,7 @@ Leaf temperature is generally assumed to increase with leaf area ($LA$) [ Wright
 
 #### Biochemical and physiological traits
 
-##### Carotenoids/Xanthophyll cycle pigments
+##### *(Carotenoids/Xanthophyll cycle pigments)*
 
 High light stimulates the need for photoprotection in leaves in order to protect internal photosystem II from chronic photoinhibition through enabling D1 protein replacement. Thus, leaves exposed to greater irradiance have greater pools of xanthophyll pigments expressed on a mass or area basis--photoprotective pigments comprising of violaxanthin, antheraxanthin and zeaxanthin [$VAZ$] that convert excess light into heat energy dissipation through non photochemical quenching of excitation energy, enabling short-term acclimation to high temperature and light [@mathurPhotosyntheticEfficiencySun2018a; @niinemetsAcclimationHighIrradiance1998]. These are found to be proportional to within-canopy light gradient at an inter- and intra-species level. Therefore, $VAZ$ is lower in shaded leaves and greater in sun leaves, as observed among temperate tree species [@niinemetsAcclimationHighIrradiance1998]. In neotropical forest, foliage exposed to higher irradiance in the canopy showed greater b-carotene and vioxanthin-cycle pool on an area or chl basis compared to low light leaves that showed greater mass based chlorophyll, lutein and neoxanthin carotenoids [Mastubara et al. 2009]
   
@@ -302,19 +301,23 @@ High light stimulates the need for photoprotection in leaves in order to protect
 
 #### Leaf lifespan and Deciduousness ("Lifecycle / ecological traits? ")
 
-##### lifespan
+##### *(lifespan)*
 *Leaf turnover tends to be greater in the sun, so of your standing stock of leaves (at least in evergreen species) sun leaves should be younger than shade leaves. This is bound to affect metabolism, and may affect other aspects of their performance.*
-##### Deciduousness
+
+##### *(Deciduousness)*
 
 *Among species that can be deciduous, greater proportion of deciduous individuals in larger size classes (Condit et al. 2000). *
 *Spring and fall leaf phenology in temperate deciduous forests (Augsburger).* 	
 
-### Inter-specific varaiation 
+### Interspecific varaiation 
 
-*(KAT: a lot of this contnet should probably move up the the intro to this section)*
+*(KAT: a lot of this content should probably move up the the intro to this section)*
 
-Taller trees in dense forests tend to be exposed to greater irradiance but maintain shaded leaves in canopy interior and lower canopy, while shorter understory trees are shaded by overstory. As a result of different light regimes, a sun and shade leaf trait dichotomy has been established across species by various studies where typical sun leaves are often smaller in size and width, thicker, and hairier, with thicker cuticle and greater lobation than shade leaves
-[Rozendaal et al. 2006, Mathur et al. 2018, more REFS]."Additionally, shorter understory trees that spend the bulk of their lifecycle in the shade experience different pressures than plant that get the bulk of their carbon from sun-exposed leaves, but can maintain a few layers of shade leaves as well" -Martijn 
+As a result of different light regimes, a sun and shade leaf trait dichotomy has been established across species by various studies where typical sun leaves are often smaller in size and width, thicker, and hairier, with thicker cuticle and greater lobation than shade leaves
+[Rozendaal et al. 2006, Mathur et al. 2018, more REFS].
+
+
+ "Additionally, shorter understory trees that spend the bulk of their lifecycle in the shade experience different pressures than plant that get the bulk of their carbon from sun-exposed leaves, but can maintain a few layers of shade leaves as well" -Martijn 
 
 The combination of stressors experienced by taller trees' foliage are different from that experienced by understory trees. For example, overstory sun leaves experience greater loads of PAR, $VPD$, elevated temperatures, higher wind speed, etc.. whereas understory leaves are subjected to shade or limitation of light, niche competition and herbivory. Overstory sun leaves are subjected to overheating pressures; thus, through developed traits of increased stomatal density, transpiration and water supply, along with increased convective heatloss via reduced boundary layer resistance, sun leaves are able to maintain optimum temperatures for photosynthesis and metabolic processes. Additionally, overstory sun leaves tend to have long-lived leaves[*double check*] with high LMA while shade leaves of canopy trees have large leaves with low LMA. Adaptive traits in understory enable light capture efficiency while maintaining larger width leaves with comparatively lower stomatal density due to low levels of photosynthesis in the shade, lesser $VPD$, and wind speed. Those differences in traits are likely to affect their thermal properties as well. Leaves act as windows to plant performance, enhancing plant adaptation to changing environment, thus leaf traits acclimated to prior stressors have been suggested to enable whole plants to respond differently to forthcoming stress [@rozendaalPlasticityLeafTraits2006; @niinemetsResponsesForestTrees2010a]
 
@@ -323,6 +326,10 @@ However, even with distinct features of sun and shade traits, trait adaptation t
 With increasing height and age, competition for light decreases as availability  of light increases in dense forests. However, depending on growth strategies of species occupying the understory, leaf traits might differ due to species inherent light requirements. Early successional species are considered more shade intolerant than late successional species that are more shade tolerant. Ontogenetic differences between the two in the understory suggests lower leaf dry mass per area ($M_A$), greater photosynthetic capacity in low light and greater carbon gain capacities in shade tolerators than in intolerators [@niinemetsControversyTraitsConferring2006]. However, the findings from the above review conflicts with  Kitajima 1994 found for tropical seedlings; shade intolerance species grew faster in the sun AND in the shade, but at the cost of higher mortality in the shade. Lawren and Karoru had contrasting findinds, and so far appears that there is a consensus by now.
 
 Shade intolerant species experience greater heterogeneity in light during ontogeny [why?-nidhi],thus LMA responds to changes in light, with shade-intolerant species displaying higher plasticity in response to light [H. Poorter, U. Niinemets, L. Poorter, I. J. Wright, R. Villar, Causes and consequences of variation in leaf mass per area (LMA): A meta-analysis. New Phytol. 182, 565–588 (2009).].Rozendaal et al. 2006 found no significant trait differences with ontogeny and adult stature trees. Koike et al. 2001 has more info about this.   
+
+*[Add something about how leaf traits along the vertical canopy profile are different than the expectation from leaf economic spectrum (LES)? Chen et al. 2020 is a good paper to help frame this . They make an important point in that paper that we may also want to make here: that the LES was 'built' using mainly sun (upper canopy) leaves; given the vastly different light environments at the bottom of the canopy (and that most leaves in the canopy are likely to be shade leaves) there is a strong research need to better characterise trait relationships and leaf responses through the whole vertical canopy - hence the importance of this review. Keenan & Niinemets 2016  will also be helpful in making this point.]--M N. Smith*
+
+An increasing number of studies point towards the importance of incorporating sun and shade in modelling leaf economic spectrum (LES) traits within-canopy gradient [@chenLeafEconomicsSpectrum2020a], because LES theory was developed using mainly sun exposed (upper canopy) leaves. Given the vastly different light environments at the bottom of the canopy and that most leaves in the canopy are likely to be shade leaves, there is a strong research need to better characterize trait relationships and leaf responses through the whole vertical canopy [Keenan and Niinemets 2016]. However, there is also concern for ambiguity in a simplified categorization of 'sun' and 'shade' leaves, due to variation based on within-canopy light, across functional groups, in canopy gaps, and with height and ontogeny [@ishiiVariationIntracrownLeaf2018; @niinemetsWorldwideAnalysisWithincanopy2015] as well as geographically [@ishiiVariationIntracrownLeaf2018]. 
 
 ##### Isoprene production
 -  Isoprene production *capability* as a trait 
@@ -543,6 +550,8 @@ Because most CBMs are spatially implicit within grid cells, direct and diffuse p
 *The capacity of buffering largely depends on canopy cover and water availability [@davis_microclimatic_2019], each of which is subjected to change through climate-driven disturbances such as drought, deforestation, fire and related disruptions [@senfCanopyMortalityHas2018a]. Increasing global temperatures can increase canopy leaf temperatures sometimes above ambient temperature when transpiration is low, leading to temperate and tropical forest canopies functioning beyond or close to their optimal photosynthetic threshold [@mau_temperate_2018; @huangAirTemperatureOptima2019]. In wetter conditions, available water facilitates leaf transpiration through open stomata; however increased relative humidity in tropical regions indirectly caused by increased temperature reduces transpiration, leading to high leaf temperatures in the canopy [@tibbittsHumidityPlants1979; @perezIncreasingHumidityThreatens2018].*
 
 increases in mortality of big trees (e.g. @senfCanopyMortalityHas2018a) would increase canopy roughness 
+
+ if we expect 'shade' plants to have a different sensitivity to climate change than sun leaves, the consequences of climate change for demography and species community composition of the forest will depend strongly on the category of shade plants being considered
 
 ## Conclusions
 
