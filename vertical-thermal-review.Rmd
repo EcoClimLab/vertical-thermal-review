@@ -434,11 +434,13 @@ Photosynthesis increases with increasing irradiance, and saturates at quantum fl
 Photosynthesis has a peaked response to temperature, where photosynthesis is commonly found to be maximized at the prevalent ambient growing season conditions (Tan et al. 2017; Slot & Winter 2017). Beyond the optimum, photosynthesis decreases as a result of stomatal closure (e.g. Slot & Winter 2017; Smith et al. 2020 [temperate/boreal refs needed) and eventually due to biochemical constraints (refs. e.g. Sage & Kubien 2007; Varhammer et al. 2015 ).
 
 
-**While sun and shade leaves differ dramatically in $A_{max}$, the temperature sensitivity of photosynthesis does not appear to differ substantially between sun and shade leaves.**
+**We have very little evidence as to how the temperature sensitivity of photosynthesis compares between sun and shade leaves.**
 Biophysically, we might expect that sun leaves should tend to have a stronger temperature-dependence and higher temperature optima than shade leaves (Fig. 14.5 in Campbell and Norman 1998; *revisit this!*) *as observed by earlier studies, suggesting that the interaction between light gradient and temperature response along vertical canopy profile implied a spectrum of temperature responses of $T_{opt}$,$V_{max}$ and $J_{max}$ along the gradient [@niinemetsWithincanopyVariationRate2004a; Harley and Baldocchi 1995, Friend, 2001].* *(KAT: I'm confused by the second part of this sentence. Are these studies, or theoretical expectations?.)*
 However, such a trend is not apparent based on the limited number of field studies that have compared temperature sensitivity of photosynthesis in sun and shade leaves.
 For 3 species in Panama, the optimum temperature for sun leaves tended to be slightly higher than that of shade leaves, but differences were not significant [@slotPhotosyntheticHeatTolerance2019 ; @hernandezSimilarTemperatureDependence2020]. Similar results were found for $V_{max}$ and $J_{max}$ [@slotPhotosyntheticHeatTolerance2019, Hernandez et al.2020]
 Similarly, Mau et al. found no trend in the optimum temperature for net photosynthesis along a height gradient in Puerto Rico, and no significant trend in temperate trees [@mau_temperate_2018].
+
+*If we take geographic gradients as a reliable proxy, we'd expect temperature sensitivities to reflect the environment to which the trees are adapted/ acclimatized.*
 
 *(KAT: let's cut the portion on T50 down to one or at most two par:)*
 
@@ -535,7 +537,8 @@ Having established how physical conditions and biological form and function vary
 
 
 ## Global change responses
-
+ *(this section is currently just a bunch of text moved from elsewhere/ loose notes)*
+ 
 ### warming
 
 - Influence of increasing temperatures on species compositions and feedbacks to future forest microclimates and function?
@@ -550,6 +553,9 @@ Having established how physical conditions and biological form and function vary
 
 
  if we expect 'shade' plants to have a different sensitivity to climate change than sun leaves, the consequences of climate change for demography and species community composition of the forest will depend strongly on the category of shade plants being considered
+ 
+ 
+*Warming will disproportionately affect the less warm-adapted functional types within the forest canopy, essentially creating holes in the canopy that will take a long time to refill (especially in slow-growing tropical sub-canopy specialists), as is observed with Andean thermophilization (death is faster than recruitment and growth). Differential mortality within the canopy structure will alter the profile of metabolism and hence emergent forest function. Such alteration to canopy structure may be detectable by lidar and thermal remote sensing. If we know how metabolism maps to the thermal profile, then the observed forest structural changes can inform prediction of forest function.*
  
 ### canopy disturbance
 
