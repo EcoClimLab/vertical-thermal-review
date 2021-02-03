@@ -126,11 +126,11 @@ Importantly, this limits our ability to understand how warming temperatures will
 **Here we review how the biophysical environment and biological form and function vary across the vertical canopy gradient in forests.** 
 We focus on five key themes (Fig. `r fig_schematic`):
 (1) the biophysical environment;
-(2) the leaf traits that most strongly influence leaf temperature and metabolism;
-(3) resulting leaf temperature ($T_{leaf}$) and
+(3) leaf hydraulics and temperature ($T_{leaf}$);
+(2) the leaf traits most strongly influence leaf temperature and metabolism;
 (4) foliar metabolism, including stomatal conductance, photosynthesis, respiration, and volatile organic compound (VOC) production; and 
-(5) resultant size-structuring of whole-tree and ecosystem function.
-*We then consider the implications for modeling /  climate change responses.* 
+(5) size-structuring of whole-tree and ecosystem function.
+*We then consider the implications for understanding forest responses to global change, including  modeling /  climate change responses.* 
 
 ![**Figure `r fig_schematic`. DRAFT schematic of a forest summarizing most important gradients--sort of a "graphical abstract".** [Issue #27](https://github.com/EcoClimLab/vertical-thermal-review/issues/27). ](schematic/vertical thermal sensitivity image.png)
 
@@ -227,6 +227,58 @@ The strength of buffering also varies with respect to geographic and climatic fa
 * Distance to coast, topographic position, elevation [@zellweger_seasonal_2019]
 * [@davis_microclimatic_2019]--Proximity to riparian areas tends to sustain buffering, protecting understory temperatures even during increasing temperatures [@davis_microclimatic_2019]
 However vertical climate gradients within forests are known to be steeper than those driven by elevation and latitude [@nakamuraForestsTheirCanopies2017; @martinCovarianceSunShade2020a]
+
+
+## Leaf hydraulics and temperature 
+
+### Biophysical drivers
+
+**Many of the biophysical and trait variables reviewed above affect leaf temperature, $T_{leaf}$, which in turn has a strong influence on leaf metabolism (see following section).**
+$T_{leaf}$ is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019; @michaletzEnergeticCarbonEconomic2016] (Fig. `r fig_leaf_T`).
+Leaf traits are influenced by biophysical environment in order to maintain metabolic optima so that the amount of carbon assimilated by a leaf throughout its life span is greater than the total carbon invested in the leaf [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020] 
+$T_{leaf}$  is largely a function of radiation input versus heat lost to the environment, and typically increases [with tree height] as light availability and total radiation increases [Fig. `r fig_NEON_vertical`; @michaletzPlantThermoregulationEnergetics2015]. 
+
+
+Greater upper canopy wind speeds (Fig. `r fig_NEON_vertical`) result in higher boundary layer conductance ($g_{a}$) for canopy leaves, which increases linearly with wind velocity [@daudetWindSpeedLeaf1999a]. 
+Large $g_{a}$ to heat transfer, in turn, results in a smaller difference between $T_{air}$ and $T_{leaf}$, which is more typical of small leaves in the upper canopy, allowing them to dissipate heat more efficiently than larger leaves [@bauerleSeparatingFoliarPhysiology2011]. 
+In low wind conditions, because $g_{a}$ to heat transfer is comparatively small, $T_{leaf}$ in the upper canopy can become substantially elevated in relation to $T_{air}$ under high radiation [@martin_boundary_1999; @leighInfluenceLeafSize2017]. 
+Additionally, the thickness of the air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; @stokesBoundaryLayerConductance2006] this tends to be greater in the understory than canopy? [ref]
+
+In addition, leaf size, which itself varies with height (Table `r table_leaf_traits`), impacts leaf temperature. While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature [@fauset_differences_2018]. Large leaves (with greater leaf width) can be significantly cooler than $T_{air}$ under low radiation with stomata open [@leighInfluenceLeafSize2017], and significantly hotter under high radiation with stomata closed.  
+
+Leaves with open stomata and high radiation loads maintain $T_{leaf}$ similar to $T_{air}$, with coolest leaves at intermediate sizes (~10mm). Shaded understory leaves should tend to maintain cooler daytime leaf temperatures for any given level of stomatal conductance. However, counteracting this, lower wind speed in understory would reduce latent heat loss. Under hot conditions, canopy leaves exposed to higher wind speeds would be most effective at cooling when sufficient water is available to maintain high stomatal conductance. However, increase in air temperature typically also increases VPD, decrease in stomatal conductance during midday lead to a decrease in leaf CO2, and consequently increasing leaf temperature in upper canopy [@fauset_differences_2018]. Thus, their $T_{leaf}$ can be highly elevated above $T_{air}$ when stomatal conductance is limiting.
+
+![**Figure `r fig_leaf_T`. Theoretical expectations for variation in the elevation of $T_{leaf}$ above $T_{air}$ in response to stomatal conductance ($g_s$), wind speed, and shortwave radiation.** Schematic produced using the tealeaves R package of @muir_tealeaves_2019. Current placeholder uses typical conditions for Harvard Forest, but model output deviates from real data (directions right, but Tleaf-Tair too high). [ISSUE #6](2020_12_draft).](leaf_energy_balance/2020_12_draft.png)
+
+### In-situ observations
+**Vertical profiles in microclimate (Fig. `r fig_NEON_vertical`) and leaf traits (Table `r table_leaf_traits`) together shape in-situ leaf temperatures according to the principles outlined above.** 
+The net effect.... 
+
+
+In a tropical wet and moist forest of Puerto Rico and temperate forests in Michigan, greater light input in exposed upper canopy leaves has been observed to increase leaf temperatures, sometimes 1-7C above ambient air temperature, making upper canopy leaves susceptible to heat stress, more than scattered light in lower shaded leaves [@mauTemperateTropicalForest2018a] 
+
+-  Michaletz et al have done some interesting work on leaf thermoregulation in relation to various leaf traits. I don’t think there is sun vs shade tests, but we could look at how this might translate, or how some of the traits he has calculated might differ between sun and shade leaves. For example, he has this thermal time constant parameter that is calculated from leaf mass per area, leaf dry matter content, and some environmental parameters. E.g.: DOI: 10.1038/nplants.2016.129, http://dx.doi.org/10.1016/j.tree.2015.09.006
+
+**When vertical gradients in the biophysical environment and leaf traits combine to shape leaf energy budgets, under some conditions $T_{leaf}$ tracks  $T_{air}$ and therefore differs little between understory and canopy (Fig. `r fig_NEON_vertical`).**
+[Air temperature is not always a proxy for measuring leaf temperature [@michaletzPlantThermoregulationEnergetics2015].]
+In a broadleaf deciduous forest, nighttime $T_{leaf}$'s were similar in the canopy and understory	(Bolstad et al. 1999). 
+Similarly, during the dry season in a tropical moist forest in Panama... (Rey-Sánchez et al. 2016).
+
+
+**However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.**
+-Large leaf to air temperature differences and high leaf temperatures were found in upper canopy of Atlantic, Brazil forests due to high solar radiation loads. However, leaf temperatures themselves were moderated by air temperature. [@fauset_differences_2018].
+- In three forest types-- temperate, tropical wet and tropical moist, $T_{leaf max}$ exceeded temperature optimum for photosynthesis $T_{opt}$ in upper canopies of all sites, however $T_{leaf max}$ exceeded $T_{opt}$ at different heights and temperatures in all forests; with no significant relationship between $T_{opt}$ and height. Additionally, With increasing height, $T_{leaf} - T_{air}$ difference increased in the upper canopies of all forests, exhibiting greatest $T_{leaf} - T_{air}$ in temperate deciduous forest compared to tropical moist and wet.
+
+-	(Slot et al. 2019) and refs therein
+-	(Fauset et al. 2018)
+Sun leaves can also be  cooled relative to $T_{air}$ more than shade leaves (Rey-Sánchez et al. 2016). There's some hint of this in Bolstad et al. 1999.
+
+*(Because hydraulics are key to leaf T, we should include some of that here--e.g., water on leaves - evaporative cooling - and leaf water content)*
+
+- Elsa: I came across these two studies that could be relevent in the evapotranspiration/temperature feedback section hinted at above: 
+- Staudt, K., Serafimovich, A., Siebicke, L., Pyles, R.D. and Falge, E., 2011. Vertical structure of evapotranspiration at a forest site (a case study). Agricultural and Forest Meteorology, 151(6), pp.709-729.
+- Sellin, A. and Lubenets, K., 2010. Variation of transpiration within a canopy of silver birch: effect of canopy position and daily versus nightly water loss. Ecohydrology, 3(4), pp.467-477.
+
 
 
 ## Leaf traits 
@@ -342,57 +394,6 @@ An increasing number of studies point towards the importance of incorporating su
 ##### Isoprene production
 -  Isoprene production *capability* as a trait 
 
-
-
-## Leaf temperature 
-
-### Biophysical drivers
-
-**Many of the biophysical and trait variables reviewed above affect leaf temperature, $T_{leaf}$, which in turn has a strong influence on leaf metabolism (see following section).**
-$T_{leaf}$ is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019; @michaletzEnergeticCarbonEconomic2016] (Fig. `r fig_leaf_T`).
-Leaf traits are influenced by biophysical environment in order to maintain metabolic optima so that the amount of carbon assimilated by a leaf throughout its life span is greater than the total carbon invested in the leaf [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020] 
-$T_{leaf}$  is largely a function of radiation input versus heat lost to the environment, and typically increases [with tree height] as light availability and total radiation increases [Fig. `r fig_NEON_vertical`; @michaletzPlantThermoregulationEnergetics2015]. 
-
-
-Greater upper canopy wind speeds (Fig. `r fig_NEON_vertical`) result in higher boundary layer conductance ($g_{a}$) for canopy leaves, which increases linearly with wind velocity [@daudetWindSpeedLeaf1999a]. 
-Large $g_{a}$ to heat transfer, in turn, results in a smaller difference between $T_{air}$ and $T_{leaf}$, which is more typical of small leaves in the upper canopy, allowing them to dissipate heat more efficiently than larger leaves [@bauerleSeparatingFoliarPhysiology2011]. 
-In low wind conditions, because $g_{a}$ to heat transfer is comparatively small, $T_{leaf}$ in the upper canopy can become substantially elevated in relation to $T_{air}$ under high radiation [@martin_boundary_1999; @leighInfluenceLeafSize2017]. 
-Additionally, the thickness of the air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; @stokesBoundaryLayerConductance2006] this tends to be greater in the understory than canopy? [ref]
-
-In addition, leaf size, which itself varies with height (Table `r table_leaf_traits`), impacts leaf temperature. While small leaves remain within a few degrees of $T_{air}$, regardless of stomatal conductance, wider leaves can have temperatures deviating more from air temperature [@fauset_differences_2018]. Large leaves (with greater leaf width) can be significantly cooler than $T_{air}$ under low radiation with stomata open [@leighInfluenceLeafSize2017], and significantly hotter under high radiation with stomata closed.  
-
-Leaves with open stomata and high radiation loads maintain $T_{leaf}$ similar to $T_{air}$, with coolest leaves at intermediate sizes (~10mm). Shaded understory leaves should tend to maintain cooler daytime leaf temperatures for any given level of stomatal conductance. However, counteracting this, lower wind speed in understory would reduce latent heat loss. Under hot conditions, canopy leaves exposed to higher wind speeds would be most effective at cooling when sufficient water is available to maintain high stomatal conductance. However, increase in air temperature typically also increases VPD, decrease in stomatal conductance during midday lead to a decrease in leaf CO2, and consequently increasing leaf temperature in upper canopy [@fauset_differences_2018]. Thus, their $T_{leaf}$ can be highly elevated above $T_{air}$ when stomatal conductance is limiting.
-
-![**Figure `r fig_leaf_T`. Theoretical expectations for variation in the elevation of $T_{leaf}$ above $T_{air}$ in response to stomatal conductance ($g_s$), wind speed, and shortwave radiation.** Schematic produced using the tealeaves R package of @muir_tealeaves_2019. Current placeholder uses typical conditions for Harvard Forest, but model output deviates from real data (directions right, but Tleaf-Tair too high). [ISSUE #6](2020_12_draft).](leaf_energy_balance/2020_12_draft.png)
-
-### In-situ observations
-**Vertical profiles in microclimate (Fig. `r fig_NEON_vertical`) and leaf traits (Table `r table_leaf_traits`) together shape in-situ leaf temperatures according to the principles outlined above.** 
-The net effect.... 
-
-
-In a tropical wet and moist forest of Puerto Rico and temperate forests in Michigan, greater light input in exposed upper canopy leaves has been observed to increase leaf temperatures, sometimes 1-7C above ambient air temperature, making upper canopy leaves susceptible to heat stress, more than scattered light in lower shaded leaves [@mauTemperateTropicalForest2018a] 
-
--  Michaletz et al have done some interesting work on leaf thermoregulation in relation to various leaf traits. I don’t think there is sun vs shade tests, but we could look at how this might translate, or how some of the traits he has calculated might differ between sun and shade leaves. For example, he has this thermal time constant parameter that is calculated from leaf mass per area, leaf dry matter content, and some environmental parameters. E.g.: DOI: 10.1038/nplants.2016.129, http://dx.doi.org/10.1016/j.tree.2015.09.006
-
-**When vertical gradients in the biophysical environment and leaf traits combine to shape leaf energy budgets, under some conditions $T_{leaf}$ tracks  $T_{air}$ and therefore differs little between understory and canopy (Fig. `r fig_NEON_vertical`).**
-[Air temperature is not always a proxy for measuring leaf temperature [@michaletzPlantThermoregulationEnergetics2015].]
-In a broadleaf deciduous forest, nighttime $T_{leaf}$'s were similar in the canopy and understory	(Bolstad et al. 1999). 
-Similarly, during the dry season in a tropical moist forest in Panama... (Rey-Sánchez et al. 2016).
-
-
-**However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.**
--Large leaf to air temperature differences and high leaf temperatures were found in upper canopy of Atlantic, Brazil forests due to high solar radiation loads. However, leaf temperatures themselves were moderated by air temperature. [@fauset_differences_2018].
-- In three forest types-- temperate, tropical wet and tropical moist, $T_{leaf max}$ exceeded temperature optimum for photosynthesis $T_{opt}$ in upper canopies of all sites, however $T_{leaf max}$ exceeded $T_{opt}$ at different heights and temperatures in all forests; with no significant relationship between $T_{opt}$ and height. Additionally, With increasing height, $T_{leaf} - T_{air}$ difference increased in the upper canopies of all forests, exhibiting greatest $T_{leaf} - T_{air}$ in temperate deciduous forest compared to tropical moist and wet.
-
--	(Slot et al. 2019) and refs therein
--	(Fauset et al. 2018)
-Sun leaves can also be  cooled relative to $T_{air}$ more than shade leaves (Rey-Sánchez et al. 2016). There's some hint of this in Bolstad et al. 1999.
-
-*(Because hydraulics are key to leaf T, we should include some of that here--e.g., water on leaves - evaporative cooling - and leaf water content)*
-
-- Elsa: I came across these two studies that could be relevent in the evapotranspiration/temperature feedback section hinted at above: 
-- Staudt, K., Serafimovich, A., Siebicke, L., Pyles, R.D. and Falge, E., 2011. Vertical structure of evapotranspiration at a forest site (a case study). Agricultural and Forest Meteorology, 151(6), pp.709-729.
-- Sellin, A. and Lubenets, K., 2010. Variation of transpiration within a canopy of silver birch: effect of canopy position and daily versus nightly water loss. Ecohydrology, 3(4), pp.467-477.
 
 
 ## Leaf metabolism and thermal responses
@@ -522,12 +523,14 @@ Still, partitioning ET into its constituent components, let alone vertically par
 
 *(here, it would be good to add some content on contributions to C cycling across the vertical gradient.  If Camille's paper is published ahead of this, that would be the best source. Meakem et al. 2018, New Phyt has a similar analysis for 3 sites.)*
 
-[Elsa: do we want a section about research opportunities using remote sensing or is that outside the scope of this review?] 
-An increasing availability of airborne and spaceborne LiDAR remote sensing data offers a promising opportunity for mapping vertical thermal gradients and vegetation structure. [Drone based FLIR cams, tower thermal cams (Pau et al 2018), ECOSTRESS]. To evaluate large-scale ecosystem patterns, high resolution vertically resolved vegetation structure from LiDAR data can be analyzed in combination with collocated field measurements collected using towers (FluxNet REF), canopy cranes (@nakamuraForestsTheirCanopies2017), or by tree climbing (REF – e.g. Asner papers, Shenkin et al – Unding Jami’s work). Existing research efforts have already revealed incredibly heterogeneity in vegetation structure, diversity, traits, and properties both within and across ecosystems (REFS – Stovall, Schneider, …others).
 
-## Implications 
+## Projecting in time and space 
 
 *(In this section, we consider implications of the patterns reviewed above for our understanding of the future of forests--both how we model them and what sorts of responses we can expect under climate change.)*
+
+### Remote sensing 
+[Elsa: do we want a section about research opportunities using remote sensing or is that outside the scope of this review?] 
+An increasing availability of airborne and spaceborne LiDAR remote sensing data offers a promising opportunity for mapping vertical thermal gradients and vegetation structure. [Drone based FLIR cams, tower thermal cams (Pau et al 2018), ECOSTRESS]. To evaluate large-scale ecosystem patterns, high resolution vertically resolved vegetation structure from LiDAR data can be analyzed in combination with collocated field measurements collected using towers (FluxNet REF), canopy cranes (@nakamuraForestsTheirCanopies2017), or by tree climbing (REF – e.g. Asner papers, Shenkin et al – Unding Jami’s work). Existing research efforts have already revealed incredibly heterogeneity in vegetation structure, diversity, traits, and properties both within and across ecosystems (REFS – Stovall, Schneider, …others).
 
 ### Representing Vertical Gradients in Models
 
@@ -545,7 +548,9 @@ Because most CBMs are spatially implicit within grid cells, direct and diffuse p
 
 
 
-### Climate change responses
+## Global change responses
+
+### warming
 
 - Influence of increasing temperatures on species compositions and feedbacks to future forest microclimates and function?
 
@@ -557,9 +562,13 @@ Because most CBMs are spatially implicit within grid cells, direct and diffuse p
 
 *The capacity of buffering largely depends on canopy cover and water availability [@davis_microclimatic_2019], each of which is subjected to change through climate-driven disturbances such as drought, deforestation, fire and related disruptions [@senfCanopyMortalityHas2018a]. Increasing global temperatures can increase canopy leaf temperatures sometimes above ambient temperature when transpiration is low, leading to temperate and tropical forest canopies functioning beyond or close to their optimal photosynthetic threshold [@mau_temperate_2018; @huangAirTemperatureOptima2019]. In wetter conditions, available water facilitates leaf transpiration through open stomata; however increased relative humidity in tropical regions indirectly caused by increased temperature reduces transpiration, leading to high leaf temperatures in the canopy [@tibbittsHumidityPlants1979; @perezIncreasingHumidityThreatens2018].*
 
-increases in mortality of big trees (e.g. @senfCanopyMortalityHas2018a) would increase canopy roughness 
 
  if we expect 'shade' plants to have a different sensitivity to climate change than sun leaves, the consequences of climate change for demography and species community composition of the forest will depend strongly on the category of shade plants being considered
+ 
+### canopy disturbance
+
+
+increases in mortality of big trees (e.g. @senfCanopyMortalityHas2018a) would increase canopy roughness 
 
 ## Conclusions
 
