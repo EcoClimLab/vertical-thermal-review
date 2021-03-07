@@ -21,7 +21,8 @@ for(i in 1:3){
   df <- dfList[[i]]
   
   if(i==1){
-    df$val <- df$lad*lad.scale
+    # df$val <- df$lad*lad.scale #not standardizing as of Feb. 2021
+    df$val <- df$lad
   } else if(i==2){
     df <- df[df$ht>5, ]
     df$val <- df$lgt
@@ -36,14 +37,14 @@ for(i in 1:3){
   }
   
   #normalize the height
+  ## as of Feb. 2021, we are not normalizing the height
   df$ht.norm <- df$ht/(df$max.ht)
   
   #create the plots and send to list
   plotsLAD[[i]] <- local({
-    graph <- ggplot(df, aes(ht.norm, val, color=site)) +
+    graph <- ggplot(df, aes(val, ht.norm, color=site)) +
       geom_path(size=0.7) + 
-      coord_flip() +
-      xlim(0,1) +
+      ylim(0,1) +
       labs(x="", y = "") +
       theme_bw() +
       # theme_classic(16)  + 
@@ -51,13 +52,13 @@ for(i in 1:3){
     
     if(i==1){ #LAD
       graph <- graph +
-        ggtitle(expression(Leaf~area~density~(m^{2}~m^{-3})))
+        xlab(expression(Leaf~area~density~(m^{2}~m^{-3})))
     } else if(i==2){ # light profile
       graph <- graph +
-        ggtitle('Proportion incident light')
+        xlab('Proportion incident light')
     } else if(i==3){ #sun leaves
       graph <- graph +
-        ggtitle("Proportion sun leaves")
+        xlab("Proportion sun leaves")
     } 
     graph <- graph + 
       theme(plot.title = element_text(size=16))

@@ -15,7 +15,7 @@ library(ggpubr)
 # this is filtered to only the columns needed for plots
 # (mean measurements per each 30 min observation) in order to not have massive files.
 # source("scripts/get_neon_data.R")
-# 
+# sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
 # pbapply::pblapply(sites, function(st){
 #   full_data <- get_NEON(x=st)
 #   save(full_data, file=paste0(st, "test.Rdata"))
@@ -41,11 +41,16 @@ clrs <- c("#3399FF", "gold", "grey", "red", "#66CCFF", "#003399")
 sites <- c("HARV", "OSBS", "SCBI", "SERC", "WREF")
 clrs <- c("#3399FF", "gold", "red", "#66CCFF", "#003399")
 
-#bring in normalized height
+#bring in normalized height (from Marielle)
 meta <- read_excel("data/site_data/TIS site metadata_20190403_forNOAA.xlsx", sheet=1)
 meta <- data.table(meta)
 meta <- meta[SITE %in% sites, 
-             ][,DistZaxsCnpy := as.numeric(DistZaxsCnpy)]
+             ][,`:=` (DistZaxsCnpy = as.numeric(DistZaxsCnpy),
+                    maxCanHeightMarielle = c(32, 43, 39, 21, 53))]
+normHeightData <- 
+  data.table(site=c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF"),
+                         normH=c(32, 21, 23, 43, 39, 53))
+# HARV=32, OSBS: 21, PUUM: 23, SCBI: 43, SERC: 39, WREF: 53
 
 dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR"),
                  id = c("DP1.00001.001", "DP1.00098.001",
@@ -68,13 +73,14 @@ for(i in 1:length(dp[,name])){
   allTopHeight <- c()
   allNormHeight <- c()
   for(j in 1:length(sites)){
-    load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
+    # load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
+    load(paste0(sites[j], "test.Rdata"))
     meta_site <- meta[SITE == sites[j], ]
     
     #get max vertical height (for use in plots)
     hei <- sapply(full_data, function(x){unique(x[["verticalPosition"]])})
     topHeight <- max(unlist(hei, use.names = FALSE))
-    normHeight <- meta[SITE == sites[j], DistZaxsCnpy]
+    normHeight <- normHeightData[site == sites[j], ]
     
     var <- as.data.table(full_data[names(full_data) == dp[,name][i]])
     colnames(var) <- 
@@ -85,7 +91,7 @@ for(i in 1:length(dp[,name])){
     test <- var[, day := as.Date(startDateTime)
                 ][, .(day_max = max(get(dp[,name][i]), na.rm=TRUE),
                       day_min = min(get(dp[,name][i]), na.rm=TRUE)),
-                  by = .(day, verticalPosition)
+                  by = .(day, zOffset)
                   ][, `:=` (day_max = ifelse(day_max %in% c(-Inf, Inf), NA, 
                                              day_max),
                             day_min = ifelse(day_min %in% c(-Inf, Inf), NA, 
@@ -94,29 +100,46 @@ for(i in 1:length(dp[,name])){
                               yr = year(day))
                       ]
     
-    ## we define delta[var] as being var at height h - var at lowest height
-    newt <- test[order(day, verticalPosition),
-                 ][, `:=` (delta_max = day_max - day_max[1],
-                           delta_min = day_min - day_min[1]),
-                   by=.(day)
-                   ][, .(delta_max_mean = round(mean(delta_max, na.rm=TRUE),2),
-                         delta_min_mean = round(mean(delta_min, na.rm=TRUE),2),
-                         delta_max_sd = round(sd(delta_max, na.rm=TRUE),2),
-                         delta_min_sd = round(sd(delta_min, na.rm=TRUE),2)),
-                     by = .(verticalPosition, month_num)
-                     ][order(month_num, verticalPosition), 
-                       ][, `:=` (delta_max_mean = 
-                                   ifelse(is.nan(delta_max_mean), NA, 
-                                          delta_max_mean),
-                                 delta_min_mean = 
-                                   ifelse(is.nan(delta_min_mean), NA, 
-                                          delta_min_mean))]
+    if(dp[,name][i] %in% c("windSpeedMean", "RHMean")){
+      ## only calculate raw mean values
+      whei <- test[order(day, zOffset),
+                   ][, .(max_mean = round(mean(day_max, na.rm=TRUE),2),
+                           min_mean = round(mean(day_min, na.rm=TRUE),2),
+                           max_sd = round(sd(day_max, na.rm=TRUE),2),
+                           min_sd = round(sd(day_min, na.rm=TRUE),2)),
+                       by = .(zOffset, month_num)
+                       ][order(month_num, zOffset), 
+                         ][, `:=` (max_mean = 
+                                     ifelse(is.nan(max_mean), NA, 
+                                            max_mean),
+                                   min_mean = 
+                                     ifelse(is.nan(min_mean), NA, 
+                                            min_mean))]
+      setnames(whei, old="zOffset", new="plotHeight")
+    } else {
+      ## we define delta[var] as being var at height h - var at lowest height
+      newt <- test[order(day, zOffset),
+                   ][, `:=` (delta_max = day_max - day_max[1],
+                             delta_min = day_min - day_min[1]),
+                     by=.(day)
+                     ][, .(max_mean = round(mean(delta_max, na.rm=TRUE),2),
+                           min_mean = round(mean(delta_min, na.rm=TRUE),2),
+                           max_sd = round(sd(delta_max, na.rm=TRUE),2),
+                           min_sd = round(sd(delta_min, na.rm=TRUE),2)),
+                       by = .(zOffset, month_num)
+                       ][order(month_num, zOffset), 
+                         ][, `:=` (max_mean = 
+                                     ifelse(is.nan(max_mean), NA, 
+                                            max_mean),
+                                   min_mean = 
+                                     ifelse(is.nan(min_mean), NA, 
+                                            min_mean))]
+      
+      ## bring in normalized height
+      whei <- newt[, plotHeight := round(zOffset / normHeight[,normH], 2)]
+    }
     
-    ## bring in normalized height
-    whei <- newt[, norm_height := 
-                   round(verticalPosition / 
-                           meta[SITE == sites[j], DistZaxsCnpy], 2)
-                 ][, month_char := ifelse(month_num==7, "July", "January")]
+    whei <- whei[, month_char := ifelse(month_num==7, "July", "January")]
     
     #only keep July values (from edit in Jan 2021)
     whei <- whei[month_char=="July", 
@@ -132,49 +155,61 @@ for(i in 1:length(dp[,name])){
     keep <- colnames(alldata)
     keep <- keep[!grepl("max", keep)]
     alldata <- alldata[,(.SD), .SDcols=keep]
-    setnames(alldata, old=c("delta_min_mean", "delta_min_sd"), 
-             new=c("delta_mean", "delta_sd"))
+    setnames(alldata, old=c("min_mean", "min_sd"), 
+             new=c("all_mean", "all_sd"))
   } else {
     keep <- colnames(alldata)
     keep <- keep[!grepl("min", keep)]
     alldata <- alldata[,(.SD), .SDcols=keep]
-    setnames(alldata, old=c("delta_max_mean", "delta_max_sd"), 
-             new=c("delta_mean", "delta_sd"))
+    setnames(alldata, old=c("max_mean", "max_sd"), 
+             new=c("all_mean", "all_sd"))
   }
   
   plots[[i]] <- local({
     graph <- ggplot(alldata) +
-      scale_color_manual(values = clrs, name = "Sites") +
-      ylim(0, ceiling(max(allTopHeight/allNormHeight))) +
-      geom_hline(yintercept=1, linetype="dotted") +
-      geom_point(aes(x = delta_mean, y = norm_height, color = site), 
+      scale_color_manual(values = clrs, name = "Sites")
+    
+    if(i %in% c(1,2)){ #windspeed, RH
+      graph <- graph + 
+        ylim(0, 80)
+    } else {
+      graph <- graph + 
+        geom_hline(yintercept=1, linetype="dotted") +
+        ylim(0, ceiling(max(alldata$plotHeight)))
+    }
+    
+    graph <- graph +
+      geom_point(aes(x = all_mean, y = plotHeight, color = site), 
                  shape=19) +
-      geom_path(aes(x = delta_mean, y = norm_height, color = site)) +
-      ggplot2::geom_errorbarh(aes(xmin = delta_mean - delta_sd, 
-                                  xmax = delta_mean + delta_sd, 
-                                  y=norm_height, color = site, height=0.1)) +
+      geom_path(aes(x = all_mean, y = plotHeight, color = site)) +
+      ggplot2::geom_errorbarh(aes(xmin = all_mean - all_sd, 
+                                  xmax = all_mean + all_sd, 
+                                  y=plotHeight, color = site, height=0.1)) +
       labs(x = "",
            y = "") +
       theme_bw()
     
-    if(i %in% c(1,2,5)){
+    if(i %in% c(1,2)){ #windspeed, RH
       graph <- graph + 
-        ggtitle(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
-    } else if(i==3){
+        xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
+    } else if(i==3){ #tempSingle
       graph <- graph +
-        ggtitle(expression(
-          paste("max T"["air"], " [",degree,"C]")))
-    } else if(i==4){
+        xlab(expression(
+          paste(Delta, "max T"["air"], " [",degree,"C]")))
+    } else if(i==4){ #bioTempMean
       graph <- graph +
-        ggtitle(expression(
-          paste("max T"["bio"], " [",degree,"C]")))
+        xlab(expression(
+          paste(Delta, "max T"["bio"], " [",degree,"C]")))
+    } else if(i==5){ #PAR
+      graph <- graph + 
+        xlab(expression(paste(Delta, "max PAR")))
     }
   })
 }
 
 names(plots) <- dp[,name]
 
-void <- ggplot() + theme_void()
+# void <- ggplot() + theme_void()
 
 ## bring in LAD profiles
 source("scripts/lad_profs_v_therm_plotting_for_ian_v1.R")
@@ -191,7 +226,7 @@ print(
   annotate_figure(p, 
                   left = text_grob("Normalized Height", rot = 90),
                   bottom = text_grob(expression(
-                    paste(Delta, "Climate Variable")))))
+                    paste("Climate Variable")))))
 dev.off()
 
 ##########################################################################
@@ -199,6 +234,7 @@ dev.off()
 
 ##########################################################################
 ## original script for 5-plot, individual site figures ####
+### if using this script, CHANGE VERTICAL POSITION TO BE ZOFFSET
 
 ## 5 sites for the SI
 sites <- c("HARV", "OSBS", "PUUM", "SCBI", "WREF")
