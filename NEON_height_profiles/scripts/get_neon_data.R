@@ -102,6 +102,43 @@ get_NEON <- function(x="SCBI"){
       colnames(neon_data)[4] <- dp[,name][i]
     }
     
+    #bring in real sensor positions
+    nm <- names(neon_tower)[grepl("sensor_positions", names(neon_tower))]
+    heights <- as.data.table(neon_tower[nm])
+    colnames(heights) <- gsub(paste0(nm, "\\."), "", colnames(heights))
+    heights <- heights[,.(HOR.VER, zOffset)][order(HOR.VER,zOffset),]
+    
+    substrRight <- function(x, n){
+      substr(x, nchar(x)-n+1, nchar(x))
+    }
+    
+    # lab <- unique(neon_data$verticalPosition)
+    
+    heights[, HOR.VER := as.numeric(substrRight(heights$HOR.VER, 2))]
+    heights <- unique(heights, by="HOR.VER")
+    setnames(heights, old="HOR.VER", new="verticalPosition")
+    
+    
+    # if(nrow(heights)==2){
+    #   heightRange <- c(0,60)
+    # } else if(nrow(heights)==5){
+    #   heightRange <- seq(10,50,by=10)
+    # } else if(nrow(heights)==6){
+    #   heightRange <- seq(0,50,by=10)
+    # } else if(nrow(heights)==7){
+    #   heightRange <- seq(0,60,by=10)
+    # } else if(nrow(heights)==8){
+    #   heightRange <- seq(0,70,by=10)
+    # } else if(nrow(heights)==9){
+    #   heightRange <- seq(0,60,by=10)
+    # }
+    # heights <- heights[, pos := heightRange]
+    
+    setkeyv(neon_data, "verticalPosition")
+    setkeyv(heights, "verticalPosition")
+    neon_data <- neon_data[heights]
+    
+    
     # neon_data_all <- rbind(neon_data_all, neon_data)
     # } 
     vars[[i]] <- neon_data
