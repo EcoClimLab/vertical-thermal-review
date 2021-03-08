@@ -16,7 +16,6 @@ knitr::opts_chunk$set(echo = TRUE)
 #figures
 fig_schematic = 1
 fig_NEON_vertical =  2
-#fig_NEON_differences (issue #31)
 fig_leaf_T = 3
 fig_treerings= 4 #not sure if we want to include one
 fig_model=5
