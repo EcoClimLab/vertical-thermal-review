@@ -1,12 +1,12 @@
 trait,symbol,units,response,forest type(s),reference(s)
-leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdot cm^{-2}$,$\uparrow$ with height,"TeB, TrB","Mau et al. 2018, Coble et al. 2017"
+leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdot cm^{-2}$,$\uparrow$ with height,"TeB, TrB, BoN","Mau et al. 2018, Coble et al. 2017, Chin and Sillett 2019"
 ,,,$\uparrow$ with light,"TeB, TrB, BoN","Mau et al. 2018, Sack et al. 2006, Wyka et al. 2012"
 leaf area,$LA$,$cm^{2}$,$\downarrow$ with height,"TeB, TrB","Beaumont and Burns 2009, Kafuti et al. 2020"
 ,,,$\downarrow$ with light,"TrB, TeB","Slot et al. 2019, Sack et al. 2006"
-stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB","Kafuti et al. 2020, Sack et al. 2006"
-,,,$\uparrow$ with light,"TeB, TrB","Sack et al. 2006, Kafuti et al. 2020"
-leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"global, TeB","Poorter et al. 2019, Van Wittenberghe et al. 2012"
-,,,$\uparrow$ with light,"TeB, BoN","Wyka et al. 2012, Poorter et al. 2019"
+stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB","Marenco et al. 2017, Kafuti et al. 2020, Sack et al. 2006"
+,,,$\uparrow$ with light,"TeB, TrB","Sack et al. 2006, Kafuti et al. 2020, Marenco et al. 2017"
+leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TeB, BoN, TrB"," Van Wittenberghe et al. 2012, Oldham et al. 2010, Marenco et al. 2017"
+,,,$\uparrow$ with light,"TeB, BoN, TrB","Wyka et al. 2012, Marenco et al. 2016"
 trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,TrB,"Ichie et al. 2016, Perez-Estrada et al. 2000"
 ,,,$\uparrow$ with light,"TeB, TrB","Gregoriou et al. 2007, Levizou et al. 2005, Liakoura 1997"
 blade inclination angle (vertical),$\phi$B,$\circ$,$\uparrow$ with height,TeB,Niinemets et al. 1998
