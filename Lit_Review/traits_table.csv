@@ -8,12 +8,12 @@ stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB","Mar
 leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TeB, BoN, TrB"," Van Wittenberghe et al. 2012, Oldham et al. 2010, Marenco et al. 2017"
 ,,,$\uparrow$ with light,"TeB, BoN, TrB","Wyka et al. 2012, Marenco et al. 2016"
 trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,TrB,"Ichie et al. 2016, Perez-Estrada et al. 2000"
-,,,$\uparrow$ with light,"TeB, TrB","Gregoriou et al. 2007, Levizou et al. 2005, Liakoura 1997"
+,,,$\uparrow$ with light,"TeB, TrB","Gregoriou et al. 2007, Ichie et al. 2016, Levizou et al. 2005, Liakoura 1997"
 blade inclination angle (vertical),$\phi$B,$\circ$,$\uparrow$ with height,TeB,Niinemets et al. 1998
 ,,,$\uparrow$ with light,TeB,Niinemets et al. 1998
 lobation,$lobation$,$cm^{2}$,$\uparrow$ with height,TeB,"Sack et al. 2006, Baranski, 1975"
 ,,,$\uparrow$ with light,TeB,"Kusi and Karasi 2020, Sack et al. 2006"
-cuticle thickness,$CT$,$\mu$m,$\uparrow$ with height,"TrB, TeB, BoN","Panditharathna et al. 2008, Baltzer and Thomas 2005, Chin and Sillett 2019"
+upper cuticle thickness,$CT$,$\mu$m,$\uparrow$ with height,"TrB, TeB, BoN","Panditharathna et al. 2008, Baltzer and Thomas 2005, Chin and Sillett 2019"
 ,,,$\uparrow$ with light,"TrB, TeB","Panditharathna et al. 2008, Baltzer and Thomas 2005"
 ,,,$\uparrow$ with height,"TrB, TeB","Kenzo et al. 2015, Coble and Cavaleri 2014, Scartazza et al. 2016, Hernandez et al. 2019"
 Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,$\uparrow$ with light,"TrB, global","Kenzo et al. 2015, Martin et al. 2020, Hernandez et al. 2020, Poorter et al. 2019, Harley et al. 1996  "
