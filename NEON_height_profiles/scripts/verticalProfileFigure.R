@@ -38,9 +38,6 @@ sites <- data[,site]
 sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
 clrs <- c("#3399FF", "gold", "grey", "red", "#66CCFF", "#003399")
 
-sites <- c("HARV", "OSBS", "SCBI", "SERC", "WREF")
-clrs <- c("#3399FF", "gold", "red", "#66CCFF", "#003399")
-
 #bring in normalized height (from Marielle)
 meta <- read_excel("data/site_data/TIS site metadata_20190403_forNOAA.xlsx", sheet=1)
 meta <- data.table(meta)
@@ -73,8 +70,7 @@ for(i in 1:length(dp[,name])){
   allTopHeight <- c()
   allNormHeight <- c()
   for(j in 1:length(sites)){
-    # load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
-    load(paste0(sites[j], "test.Rdata"))
+    load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
     meta_site <- meta[SITE == sites[j], ]
     
     #get max vertical height (for use in plots)
@@ -100,44 +96,25 @@ for(i in 1:length(dp[,name])){
                               yr = year(day))
                       ]
     
-    if(dp[,name][i] %in% c("windSpeedMean", "RHMean")){
-      ## only calculate raw mean values
-      whei <- test[order(day, zOffset),
-                   ][, .(max_mean = round(mean(day_max, na.rm=TRUE),2),
-                           min_mean = round(mean(day_min, na.rm=TRUE),2),
-                           max_sd = round(sd(day_max, na.rm=TRUE),2),
-                           min_sd = round(sd(day_min, na.rm=TRUE),2)),
-                       by = .(zOffset, month_num)
-                       ][order(month_num, zOffset), 
-                         ][, `:=` (max_mean = 
-                                     ifelse(is.nan(max_mean), NA, 
-                                            max_mean),
-                                   min_mean = 
-                                     ifelse(is.nan(min_mean), NA, 
-                                            min_mean))]
-      setnames(whei, old="zOffset", new="plotHeight")
-    } else {
-      ## we define delta[var] as being var at height h - var at lowest height
-      newt <- test[order(day, zOffset),
-                   ][, `:=` (delta_max = day_max - day_max[1],
-                             delta_min = day_min - day_min[1]),
-                     by=.(day)
-                     ][, .(max_mean = round(mean(delta_max, na.rm=TRUE),2),
-                           min_mean = round(mean(delta_min, na.rm=TRUE),2),
-                           max_sd = round(sd(delta_max, na.rm=TRUE),2),
-                           min_sd = round(sd(delta_min, na.rm=TRUE),2)),
-                       by = .(zOffset, month_num)
-                       ][order(month_num, zOffset), 
-                         ][, `:=` (max_mean = 
-                                     ifelse(is.nan(max_mean), NA, 
-                                            max_mean),
-                                   min_mean = 
-                                     ifelse(is.nan(min_mean), NA, 
-                                            min_mean))]
-      
-      ## bring in normalized height
-      whei <- newt[, plotHeight := round(zOffset / normHeight[,normH], 2)]
-    }
+    ## originally we were getting delta[var] as being var at height h - var 
+    ## at lowest height. We have decided (as of Mar. 2021) to only do raw values.
+    ## The delta var code is at the bottom of this script in the Archive section
+    
+    ## only calculate raw mean values
+    whei <- test[order(day, zOffset),
+                 ][, .(max_mean = round(mean(day_max, na.rm=TRUE),2),
+                       min_mean = round(mean(day_min, na.rm=TRUE),2),
+                       max_sd = round(sd(day_max, na.rm=TRUE),2),
+                       min_sd = round(sd(day_min, na.rm=TRUE),2)),
+                   by = .(zOffset, month_num)
+                   ][order(month_num, zOffset), 
+                     ][, `:=` (max_mean = 
+                                 ifelse(is.nan(max_mean), NA, 
+                                        max_mean),
+                               min_mean = 
+                                 ifelse(is.nan(min_mean), NA, 
+                                        min_mean))]
+    setnames(whei, old="zOffset", new="plotHeight")
     
     whei <- whei[, month_char := ifelse(month_num==7, "July", "January")]
     
@@ -174,8 +151,9 @@ for(i in 1:length(dp[,name])){
         ylim(0, 80)
     } else {
       graph <- graph + 
-        geom_hline(yintercept=1, linetype="dotted") +
-        ylim(0, ceiling(max(alldata$plotHeight)))
+        ylim(0,80)
+        # geom_hline(yintercept=1, linetype="dotted") +
+        # ylim(0, ceiling(max(alldata$plotHeight)))
     }
     
     graph <- graph +
@@ -195,14 +173,20 @@ for(i in 1:length(dp[,name])){
     } else if(i==3){ #tempSingle
       graph <- graph +
         xlab(expression(
-          paste(Delta, "max T"["air"], " [",degree,"C]")))
+          paste("max T"["air"], " [",degree,"C]")))
     } else if(i==4){ #bioTempMean
       graph <- graph +
         xlab(expression(
-          paste(Delta, "max T"["bio"], " [",degree,"C]")))
+          paste("max T"["bio"], " [",degree,"C]")))
     } else if(i==5){ #PAR
       graph <- graph + 
-        xlab(expression(paste(Delta, "max PAR")))
+        xlab("max PAR")
+    }
+    
+    if(i==4){ #biotemp - legend purposes
+      graph <- graph + theme(legend.position=c(0.8,0.7))
+    } else {
+      graph <- graph + theme(legend.position="none")
     }
   })
 }
@@ -218,21 +202,46 @@ p <- ggarrange(plotsLAD[["LAD"]], plotsLAD[["sun"]], plotsLAD[["lgt"]],
                plots[["PARMean"]], 
                plots[["windSpeedMean"]], plots[["RHMean"]], 
                plots[["tempSingleMean"]], plots[["bioTempMean"]],
-               nrow=2, ncol=4, common.legend=TRUE,
-               legend="top")
+               nrow=2, ncol=4, labels=c("A", "B", "C", "D", "E", "F", "G", "H"))
 
 png(paste0("figures/profile_all.png"), height=600, width=960)
 print(
   annotate_figure(p, 
-                  left = text_grob("Normalized Height", rot = 90),
-                  bottom = text_grob(expression(
-                    paste("Climate Variable")))))
+                  left = text_grob("Height [m]", rot = 90)))
 dev.off()
 
 ##########################################################################
 ## Make plots for SI
 
 ##########################################################################
+# Archive
+## code for Delta variable ####
+## originally we were getting delta[var] as being var at height h - var 
+## at lowest height. We have decided (as of Mar. 2021) to only do raw values.
+
+newt <- test[order(day, zOffset),
+             ][, `:=` (delta_max = day_max - day_max[1],
+                       delta_min = day_min - day_min[1]),
+               by=.(day)
+               ][, .(max_mean = round(mean(delta_max, na.rm=TRUE),2),
+                     min_mean = round(mean(delta_min, na.rm=TRUE),2),
+                     max_sd = round(sd(delta_max, na.rm=TRUE),2),
+                     min_sd = round(sd(delta_min, na.rm=TRUE),2)),
+                 by = .(zOffset, month_num)
+                 ][order(month_num, zOffset), 
+                   ][, `:=` (max_mean = 
+                               ifelse(is.nan(max_mean), NA, 
+                                      max_mean),
+                             min_mean = 
+                               ifelse(is.nan(min_mean), NA, 
+                                      min_mean))]
+
+## bring in normalized height
+whei <- newt[, plotHeight := round(zOffset / normHeight[,normH], 2)]
+
+## We also had ggplot do horizontal line at y=1 for the normalized height.
+### This is commnted out in the main code above.
+
 ## original script for 5-plot, individual site figures ####
 ### if using this script, CHANGE VERTICAL POSITION TO BE ZOFFSET
 

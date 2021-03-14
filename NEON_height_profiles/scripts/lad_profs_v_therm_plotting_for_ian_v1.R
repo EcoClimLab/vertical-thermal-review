@@ -38,13 +38,13 @@ for(i in 1:3){
   
   #normalize the height
   ## as of Feb. 2021, we are not normalizing the height
-  df$ht.norm <- df$ht/(df$max.ht)
+  # df$ht.norm <- df$ht/(df$max.ht)
   
   #create the plots and send to list
   plotsLAD[[i]] <- local({
-    graph <- ggplot(df, aes(val, ht.norm, color=site)) +
+    graph <- ggplot(df, aes(val, ht, color=site)) +
       geom_path(size=0.7) + 
-      ylim(0,1) +
+      ylim(0,80) + #80 to be standardized across all panels
       labs(x="", y = "") +
       theme_bw() +
       # theme_classic(16)  + 
@@ -61,7 +61,8 @@ for(i in 1:3){
         xlab("Proportion sun leaves")
     } 
     graph <- graph + 
-      theme(plot.title = element_text(size=16))
+      theme(plot.title = element_text(size=16),
+            legend.position="none")
   })
 }
 
