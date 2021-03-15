@@ -1,33 +1,38 @@
 trait,symbol,units,response,forest type(s),reference(s)
-leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdot cm^{-2}$,$\uparrow$ with height,"TeB, TrB, BoN","Mau et al. 2018, Coble et al. 2017, Chin and Sillett 2019"
+leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdot cm^{-2}$,$\uparrow$ with height,"TeB, TrB, BoN","Mau et al. 2018, Chin and Sillett 2019"
 ,,,$\uparrow$ with light,"TeB, TrB, BoN","Mau et al. 2018, Sack et al. 2006, Wyka et al. 2012"
-leaf area,$LA$,$cm^{2}$,$\downarrow$ with height,"TeB, TrB","Beaumont and Burns 2009, Kafuti et al. 2020"
-,,,$\downarrow$ with light,"TrB, TeB","Slot et al. 2019, Sack et al. 2006"
+leaf area,$LA$,$cm^{2}$,$\downarrow$ with height,TeB,Kusi and Karasi 2020
+,,,$\downarrow$ with light,"TrB, TeB","Kusi and Karasi, 2020, Sack et al. 2006"
 stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB","Marenco et al. 2017, Kafuti et al. 2020, Sack et al. 2006"
 ,,,$\uparrow$ with light,"TeB, TrB","Sack et al. 2006, Kafuti et al. 2020, Marenco et al. 2017"
-leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TeB, BoN, TrB"," Van Wittenberghe et al. 2012, Oldham et al. 2010, Marenco et al. 2017"
+leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TeB, BoN, TrB","Van Wittenberghe et al. 2012, Oldham et al. 2010, Marenco et al. 2017"
 ,,,$\uparrow$ with light,"TeB, BoN, TrB","Wyka et al. 2012, Marenco et al. 2016"
 trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,TrB,"Ichie et al. 2016, Perez-Estrada et al. 2000"
 ,,,$\uparrow$ with light,"TeB, TrB","Gregoriou et al. 2007, Ichie et al. 2016, Levizou et al. 2005, Liakoura 1997"
 blade inclination angle (vertical),$\phi$B,$\circ$,$\uparrow$ with height,TeB,Niinemets et al. 1998
 ,,,$\uparrow$ with light,TeB,Niinemets et al. 1998
-lobation,$lobation$,$cm^{2}$,$\uparrow$ with height,TeB,"Sack et al. 2006, Baranski, 1975"
+lobation,$lobation$,$cm^{2}$,$\uparrow$ with height,TeB,Sack et al. 2006
+,,,$\downarrow$ with height,TeB,"Kusi and Karasi, 2020"
 ,,,$\uparrow$ with light,TeB,"Kusi and Karasi 2020, Sack et al. 2006"
 upper cuticle thickness,$CT$,$\mu$m,$\uparrow$ with height,"TrB, BoN","Panditharathna et al. 2008, Chin and Sillett 2019"
 ,,,$\uparrow$ with light,"TrB, TeB","Panditharathna et al. 2008, Baltzer and Thomas 2005"
-,,,$\uparrow$ with height,"TrB, TeB","Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Hernandez et al. 2019"
-Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,$\uparrow$ with light,"TrB, TeB","Kenzo et al. 2015, Coble et al. 2016,  Hernandez et al. 2020,  Harley et al. 1996  "
-,,,$\downarrow$ with height,"TeB, TrB","Coble et al. 2016, Hernandez et al. 2020, Scartazza et al. 2016"
-Nitrogen per leaf mass,$N_{m}$,$mg \cdot g^{-1}$ ,$\downarrow$ with light,"TeB, TrB","Coble et al. 2016, Harley et al. 1996, Bolstad et al. 1999"
+,,,$\uparrow$ with height,"TrB, TeB, BoN","Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Duursma and Marshall, 2006, Harley et al. 1996"
+Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,$\uparrow$ with light,"TrB, TeB, BoN","Kenzo et al. 2015, Coble et al. 2016, Harley et al. 1996, Duursma and Marshall, 2006.  "
+,,,$\downarrow$ with height,"TeB, TrB","Coble et al. 2016, Scartazza et al. 2016, Harley et al. 1996"
+,,,$\approx$ with height,TrB,"Chen et al. 2020, Kenzo et al. 2015"
+Nitrogen per leaf mass,$N_{m}$,$mg \cdot g^{-1}$ ,$\downarrow$ with light,"TeB, TrB","Coble et al. 2016, Scartazza et al. 2016, Harley et al. 1996 "
+,,,$\approx$ with light,TrB,"Chen et al. 2020, Kenzo et al. 2015 "
 ,,,$\uparrow$ with height,TrB,"van de Weg et al. 2012, M.A Cavaleri et al. 2008, J.Lloyd et al. 2009    "
 Phosphorous per leaf area,$P_{a}$,$g \cdot m^{-2}$,$\uparrow$ with light,TrB,Martin et al. 2020   
+,,,$\approx$ with height,TrB,Chen et al. 2020
+Phosphorous per leaf mass,$P_{m}$,$mg \cdot g^{-1}$ ,$\approx$ with light,TrB,Chen et al. 2020 
 ,,,$\uparrow$ with height,TeB,"Scartazza et al. 2016, Niinemets et al. 1998"
-xanthophyll cycle pigments,$VAZ$,$\mu$mol m$^{-2}$,$\uparrow$ with light,"TrB, global","Mastubara et al. 2009, Valladares and Niinemets, 2008"
+xanthophyll cycle pigments,$VAZ$,$\mu$mol m$^{-2}$,$\uparrow$ with light,"TeB, TrB","Scartazza et al. 2016, Mastubara et al. 2009"
 ,,,$\uparrow$ with height,"BoN, TeB, TrB","Duursma and Marshall, 2006, Coble et al. 2017, Kenzo et al. 2015"
-carbon isotope composition,$\delta^{13}C$,$\%_\circ$,$\uparrow$ with light,"BoN, TeB","Duursma and Marshall, 2006, Coble et al. 2016"
+carbon isotope composition,$\delta^{13}C$,$\%_\circ$,$\uparrow$ with light,"BoN, TeB, TrB","Duursma and Marshall, 2006, Coble et al. 2016, Kenzo et al. 2015"
 ,,,$\uparrow$ with height,TrB,Poorter et al. 1995
-chlorophyll a/b ratio,$chl a/b$,mol mol$^{-1}$,$\uparrow$ with light,"TrB, global","Matsubara et al. 2009, Niinemets et al. 1998, Valladares and Niinemets, 2008"
-,,,$\approx$ with height,TrB,"Poorter et al. 1995, Lee and Graham, 1986"
-PAR absorptance,$ABS$,$\%$ nm,$\approx$ with light,TrB,"Poorter et al. 1995, Lee and Graham, 1986 "
-,,,$\downarrow$ with height,TrB,"Poorter et al. 1995, Lee and Graham, 1986"
-absorptance efficiency,$ABS$,$\% \cdot g^{-1}$,$\downarrow$ with light,TrB,"Poorter et al. 1995, Lee and Graham, 1986"
+chlorophyll a/b ratio,$chl a/b$,mol mol$^{-1}$,$\uparrow$ with light,TrB,"Poorter et al. 1995, Matsubara et al. 2009, Niinemets et al. 1998"
+,,,$\approx$ with height,TrB,Poorter et al. 1995
+PAR absorptance,$ABS$,$\%$ nm,$\approx$ with light,TrB,Poorter et al. 1995
+,,,$\downarrow$ with height,TrB,Poorter et al. 1995
+absorptance efficiency,$ABS$,$\% \cdot g^{-1}$,$\downarrow$ with light,TrB,Poorter et al. 1995
