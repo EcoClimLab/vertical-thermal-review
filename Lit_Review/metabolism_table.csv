@@ -1,31 +1,30 @@
 trait,symbol,units,response,forest type(s),reference(s)
-max stomatal conductance,$g_{s_{max}}$,$mmol^{-2} s^{-1}$,$\uparrow$ with height,"tropical, temperate","Kafuti et al. 2020, Van Wittenberghe et al. 2012, Roberts et al. 1990"
-,,,$\downarrow$ with height,temperate,Coble and Cavaleri 2015; Ishii et al. 2008
-,,,$\uparrow$ with light,"global, tropical","Valladares and Niinemets, 2008, Hernandez et al. 2019"
-stomatal conductance,$g_s$,,$\uparrow$ with light,tropical,Slot et al. 2019
-optimum temperature of $g_s$,$T_{opt}$ of $g_s$,$^\circ$C,$\approx$ with light,tropical,Slot et al. 2019
-frequency of stomatal closure,,,$\uparrow$ with height,tropical,Roberts et al. 1990
+max stomatal conductance,$g_{s_{max}}$,$mmol^{-2} s^{-1}$,$\uparrow$ with height,"TrB, TeB","Kafuti et al. 2020, Van Wittenberghe et al. 2012, Roberts et al. 1990"
+,,,$\uparrow$ with light,TrB,"Slot et al. 2019, Hernandez et al. 2020"
+boundary-layer conductance,$g_{a}$,$mmol^{-2} s^{-1}$,$\uparrow$ with height,TrB,Roberts et al. 1990
+,,,$\uparrow$ with light,TrB,Roberts et al. 1990
+optimum temperature of $g_s$,$T_{opt}$ of $g_s$,$^\circ$C,$\approx$ with light,TrB,Slot et al. 2019
 ,,,,,
-photosynthetic capacity,$A_{A}$,$\mu mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"temperate, tropical","Niinemets et al. 2015, Mau et al. 2018"
-,,,$\uparrow$ with light,temperate ,"Coble et al. 2017, Hikosaka and Terashima 1995, Evans 1989"
-light-saturated net photosynthesis ,$A_{sat}$,,$\uparrow$ with light,tropical,Slot et al. 2019
-optimum temperature of $A_{sat}$,$T_{opt}$ of $A_{sat}$,$^\circ$C,$\approx$$\uparrow$ with light,tropical,Slot et al. 2019
-light compensation point,$LCP$,,$\uparrow$ with light,tropical,Slot et al. 2019
-maximal carboxylation rate,$V_{cmax}$,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,temperate,Scartazza et al. 2016
-,,,$\uparrow$ with light,global,"Valladares and Niinemets, 2008"
-$V_{cmax}$ at optimal temperatue,$V_{cmax}$($T_{opt}$),$\mu mol  \cdot m^{-2}s^{-1}$,$\approx$ with light,tropical,Hernandez et al. 2020
-electron transport rate,$J_{max}$,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,temperate,Scartazza et al. 2016
-,,,$\uparrow$ with light,global,"Valladares and Niinemets, 2008"
-$J_{max}$ at optimal temperature,$J_{max}$($T_{opt}$),$\mu mol  \cdot m^{-2}s^{-1}$,$\approx$ with light,tropical,Hernandez et al. 2020
-thermal damage threshold,$T_{50}$,$^\circ$C,$\approx$$\uparrow$ with light,tropical,Slot et al. 2019
-,,,$\downarrow$ with height*,savanna,"Curtis et. al, 2018"
+photosynthetic capacity,$A_{A}$,$\mu mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 2015, Mau et al. 2018"
+,,,$\uparrow$ with light,TeB,"Coble et al. 2017, Hikosaka and Terashima 1995, Evans 1989"
+light-saturated net photosynthesis ,$A_{sat}$,,$\uparrow$ with light,TrB,Slot et al. 2019
+optimum temperature of $A_{sat}$,$T_{opt}$ of $A_{sat}$,$^\circ$C,$\approx$$\uparrow$ with light,TrB,Slot et al. 2019
+light compensation point,$LCP$,,$\uparrow$ with light,TrB,Slot et al. 2019
+maximal carboxylation rate,$V_{cmax}$,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,TeB,Scartazza et al. 2016
+,,,$\uparrow$ with light,TrB,Hernandez et al. 2020
+$V_{cmax}$ at optimal temperatue,$V_{cmax}$($T_{opt}$),$\mu mol  \cdot m^{-2}s^{-1}$,$\approx$ with light,TrB,Hernandez et al. 2020
+electron transport rate,$J_{max}$,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,TeB,Scartazza et al. 2016
+,,,$\uparrow$ with light,TrB,Hernandez et al. 2020
+$J_{max}$ at optimal temperature,$J_{max}$($T_{opt}$),$\mu mol  \cdot m^{-2}s^{-1}$,$\approx$ with light,TrB,Hernandez et al. 2020
+thermal damage threshold,$T_{50}$,$^\circ$C,$\approx$$\uparrow$ with light,TrB,Slot et al. 2019
+,,,$\downarrow$ with height*,TrS,"Curtis et. al, 2018"
 ,,,,,
-dark respiration at reference T,$R_{dark} (T_{ref})$,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,temperate,Scartazza et al. 2016
-,,,$\uparrow$ with light,tropical,"Bolstad et al. 1999, Slot et al. 2019"
-,,$\mu$mol (kg leaf)$^{-1} s^{-1}$ ,$\uparrow$ with light,temperate,Bolstad et al. 1999
-,,$\mu$mol (kg N)$^{-1}s^{-1}$ ,$\uparrow$ with light,temperate,Bolstad et al. 1999
+dark respiration at reference T,$R_{dark} (T_{ref})$,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,TeB,Scartazza et al. 2016
+,,,$\uparrow$ with light,TrB,"Bolstad et al. 1999, Slot et al. 2019"
+,,$\mu$mol (kg leaf)$^{-1} s^{-1}$ ,$\uparrow$ with light,TeB,Bolstad et al. 1999
+,,$\mu$mol (kg N)$^{-1}s^{-1}$ ,$\uparrow$ with light,TeB,Bolstad et al. 1999
 ,,,,,
-temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,$\approx$$\downarrow$ with light,temperate,Bolstad et al. 1999
+temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,$\approx$$\downarrow$ with light,TeB,Bolstad et al. 1999
 ,,,,,
-isoprene emission rate (in emitting species),$I$,nmol m$^{-2}s^{-1}$,$\uparrow$ with height,temperate,"Harley et al. 1996, Harley et al. 1997"
-,,,$\uparrow$ with light,temperate,"Niinemets and Sun, 2014, Harley et al. 1996, Sharkey and Monson, 2014"
+isoprene emission rate (in emitting species),$I$,nmol m$^{-2}s^{-1}$,$\uparrow$ with height,TeB,"Harley et al. 1996, Harley et al. 1997"
+,,,$\uparrow$ with light,TeB,"Niinemets and Sun, 2014, Harley et al. 1996, Sharkey and Monson, 2014"
