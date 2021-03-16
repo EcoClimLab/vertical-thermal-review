@@ -1,11 +1,15 @@
 trait,symbol,units,response,forest type(s),reference(s)
+leaf temperature,$T_{L}$,$^\circ$C,$\uparrow$ with height,TrB,Fauset et al. 2018
+,,,$\uparrow$ with light,TrB,Fauset et al. 2018
+thermal time constant (in relation to increasing gs),$t$,$s$,$\downarrow$ with height,TrB,Fauset et al. 2018
+,,,$\downarrow$ with light,TrB,Fauset et al. 2018
 max stomatal conductance,$g_{s_{max}}$,$mmol^{-2} s^{-1}$,$\uparrow$ with height,"TrB, TeB","Kafuti et al. 2020, Van Wittenberghe et al. 2012, Roberts et al. 1990"
 ,,,$\uparrow$ with light,TrB,"Slot et al. 2019, Hernandez et al. 2020"
 boundary-layer conductance,$g_{a}$,$mmol^{-2} s^{-1}$,$\uparrow$ with height,TrB,Roberts et al. 1990
 ,,,$\uparrow$ with light,TrB,Roberts et al. 1990
 optimum temperature of $g_s$,$T_{opt}$ of $g_s$,$^\circ$C,$\approx$ with light,TrB,Slot et al. 2019
 ,,,,,
-photosynthetic capacity,$A_{A}$,$\mu mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 2015, Mau et al. 2018"
+photosynthetic capacity (per unit area),$A_{A}$,$\mu mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 2015, Mau et al. 2018"
 ,,,$\uparrow$ with light,TeB,"Coble et al. 2017, Hikosaka and Terashima 1995, Evans 1989"
 light-saturated net photosynthesis ,$A_{sat}$,,$\uparrow$ with light,TrB,Slot et al. 2019
 optimum temperature of $A_{sat}$,$T_{opt}$ of $A_{sat}$,$^\circ$C,$\approx$$\uparrow$ with light,TrB,Slot et al. 2019
