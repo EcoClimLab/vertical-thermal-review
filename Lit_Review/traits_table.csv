@@ -3,7 +3,7 @@ leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdo
 ,,,$\uparrow$ with light,"TeB, TrB, BoN","Coble and Cavaleri 2014, Mau et al. 2018, Sack et al. 2006, Wyka et al. 2012"
 leaf density,$density$,$g \cdot cm^{-3}$,$\uparrow$ with height,TeB,Coble and Cavaleri 2014
 ,,,$\uparrow$ with light,TeB,Coble and Cavaleri 2014
-leaf area,$LA$,$cm^{2}$,$\downarrow$ with height,TeB,"Kusi and Karasi 2020, Kafuti et al. 2020"
+leaf area,$LA$,$cm^{2}$,$\downarrow$ with height,"TeB, TrB","Kusi and Karasi 2020, Cavaleri et al. 2010, Kenzo et al. 2016"
 ,,,$\downarrow$ with light,"TrB, TeB","Kusi and Karasi, 2020, Sack et al. 2006"
 stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB","Marenco et al. 2017, Kafuti et al. 2020, Van Wittenberghe et al. 2012, Sack et al. 2006"
 ,,,$\uparrow$ with light,"TeB, TrB","Sack et al. 2006, Kafuti et al. 2020, Marenco et al. 2017"
@@ -11,8 +11,8 @@ leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TeB, BoN, TrB","Coble and
 ,,,$\uparrow$ with light,"TeB, BoN, TrB","Coble and Cavaleri 2014, Wyka et al. 2012, Marenco et al. 2016"
 trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,TrB,"Ichie et al. 2016, Perez-Estrada et al. 2000"
 ,,,$\uparrow$ with light,"TeB, TrB","Gregoriou et al. 2007, Ichie et al. 2016, Levizou et al. 2005, Liakoura 1997"
-blade inclination angle (vertical),$\phi$B,$\circ$,$\uparrow$ with height,TeB,Niinemets et al. 1998
-,,,$\uparrow$ with light,TeB,Niinemets et al. 1998
+blade inclination angle (vertical),$\phi$B,$\circ$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 1998, Fauset et al. 2018"
+,,,$\uparrow$ with light,"TeB, TrB","Niinemets et al. 1998, Fauset et al. 2018"
 lobation,$lobation$,$cm^{2}$,$\uparrow$ with height,TeB,Sack et al. 2006
 ,,,$\downarrow$ with height,TeB,"Kusi and Karasi, 2020"
 ,,,$\uparrow$ with light,TeB,"Kusi and Karasi 2020, Sack et al. 2006"
