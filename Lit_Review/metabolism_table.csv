@@ -7,12 +7,12 @@ stomtatal conductance at optimal temperature,$g_{s}$ at $T_{opt}$,$molm^{-2} s^{
 ,,,$\approx$$\uparrow$ with light,TrB,Slot et al. 2019
 boundary-layer conductance,$g_{a}$,$mmol^{-2} s^{-1}$,$\uparrow$ with height,TrB,Roberts et al. 1990
 ,,,$\uparrow$ with light,TrB,Roberts et al. 1990
-maximum photosynthetic capacity,$A_{max}$,$\mu$mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 2015, Mau et al. 2018"
+maximum photosynthetic capacity,$A_{max}$,$\mu$mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Carter and Cavaleri 2018, Niinemets et al. 2015, Mau et al. 2018"
 ,,,$\uparrow$ with light,"TeB, TrB","Hamerlynck and Knapp 1994, Coble et al. 2017,  Mau et al. 2018"
 photosynthetic capacity (per unit area),$A_{A}$,$\mu$mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 2015, Mau et al. 2018"
 ,,,$\uparrow$ with light,TeB,Coble et al. 2017
-maximum light-saturated net photosynthesis ,$A_{sat}$ or $A_{max}$,$\mu$mol \cdot m^{-2}\cdot s^{-1)$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Carter and Cavaleri 2018, Mau et al. 2018 "
-,,,$\uparrow$ with light,"TeB, TrB","Mau et al. 2018, Scartazza et al. 2016, Slot et al. 2019"
+maximum light-saturated net photosynthesis ,$A_{sat}$ ,$\mu$mol \cdot m^{-2}\cdot s^{-1)$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Weerasinghe et al. 2014"
+,,,$\uparrow$ with light,"TeB, TrB","Scartazza et al. 2016, Slot et al. 2019"
 $A_{sat}$ at optimum temperature,$A_{opt}$,$\mu$mol \cdot m^{-2}\cdot s^{-1)$,$\approx$$\uparrow$ with height,"TeB, TrB","Carter and Cavaleri 2018, Mau et al. 2018"
 ,,,$\uparrow$ with light,TrB,"Slot et al. 2019, Mau et al. 2018"
 optimum temperature for photosynthesis,$T_{opt}$,$^\circ$C,$\approx$ with height,"TrB, TeB","Miller et al. 2021, Carter and Cavaleri 2018, Mau et al. 2018"
@@ -36,14 +36,15 @@ photosynthetic heat tolerance,$T_{50}$,$^\circ$C,$\uparrow$ with height*,TrS,"Cu
 critical temperature beyond which $Fv/Fm$ declines,$T_{crit}$,$^\circ$C,,,
 ,,,$\approx$$\uparrow$ with light,TrB,Slot et al. 2019
 high-temperature $CO_{2}$ compensation point,$T_{max}$,$^\circ$C,$\approx$ with light,TrB,Slot et al. 2019
-dark respiration ,$R_{dark}$,$\mu$mol m^{-2} s^{-1}$,$\uparrow$ with height,TeB,Scartazza et al. 2019
-,,,$\uparrow$ with light,TeB,"Scartazza et al. 2019, Hamerlynck and Knapp, 1994"
-dark respiration at reference T,$R_{dark} (T_{ref})$,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with light,"TeB, TrB","Bolstad et al. 1999, Slot et al. 2019"
-,,$\mu$mol (kg leaf)$^{-1} s^{-1}$ ,$\uparrow$ with light,TeB,Bolstad et al. 1999
-,,$\mu$mol (kg N)$^{-1}s^{-1}$ ,$\uparrow$ with light,TeB,Bolstad et al. 1999
-temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,$\approx$ with height,BoN,Araki et al. 2017*
-,,,$\approx$$\downarrow$ with light,"TeB, BoN","Bolstad et al. 1999, Araki et al. 2017*"
 Respiration rate,$R$,$\mu$mol CO_{2} m^{-2} s^{-1}$,$\uparrow$ with height,BoN,Araki et al. 2017*
 ,,,$\uparrow$ with light,BoN,Araki et al. 2017*
+dark respiration ,$R_{dark}$,$\mu$mol m^{-2} s^{-1}$,$\uparrow$ with height,"TrB, TeB","Weerasinghe et al. 2014, Bolstad et al. 1999, Scartazza et al. 2019"
+,,,$\uparrow$ with light,"TrB, TeB","Weerasinghe et al. 2014, Scartazza et al. 2019, Hamerlynck and Knapp, 1994"
+dark respiration at reference T,$R_{dark} (T_{ref})$,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,TeB,Bolstad et al. 1999
+,,$\mu$mol (kg leaf)$^{-1} s^{-1}$ ,$\uparrow$ with height,TeB,Bolstad et al. 1999
+,,$\mu$mol (kg N)$^{-1}s^{-1}$ ,$\uparrow$ with height,TeB,Bolstad et al. 1999
+,,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with light,"TeB, TrB","Bolstad et al. 1999, Slot et al. 2019"
+temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,$\approx$$\downarrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Bolstad et al. 1999, Araki et al. 2017*"
+,,,$\approx$$\downarrow$ with light,"TrB, TeB, BoN","Weerasinghe et al. 2014, Bolstad et al. 1999, Araki et al. 2017*"
 isoprene emission rate (in emitting species),$I$,nmol m$^{-2}s^{-1}$,$\uparrow$ with height,TeB,"Harley et al. 1996, Harley et al. 1997"
 ,,,$\uparrow$ with light,TeB,"Niinemets and Sun, 2014, Harley et al. 1996, Sharkey and Monson, 2014"
