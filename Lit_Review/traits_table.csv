@@ -2,12 +2,14 @@ trait,symbol,units,response,forest type(s),reference(s)
 leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdot cm^{-2}$,$\uparrow$ with height,"TeB, TrB, BoN","Coble and Cavaleri 2014, Mau et al. 2018, Chin and Sillett 2019"
 ,,,$\uparrow$ with light,"TeB, TrB, BoN","Coble and Cavaleri 2014, Mau et al. 2018, Sack et al. 2006, Wyka et al. 2012"
 leaf density,$density$,$g \cdot cm^{-3}$,$\uparrow$ with height,TeB,Coble and Cavaleri 2014
+,,,$\approx$ with height,BoN,Wyka et al. 2012
 ,,,$\uparrow$ with light,TeB,Coble and Cavaleri 2014
+,,,$\approx$ with light,BoN,Wyka et al. 2012
 leaf area,$LA$,$cm^{2}$,$\downarrow$ with height,"TeB, TrB, BoN","Kusi and Karasi 2020, Cavaleri et al. 2010, Kenzo et al. 2016, Gebauer et al. 2015"
 ,,,$\downarrow$ with light,"TrB, TeB, BoN","Kusi and Karasi, 2020, Sack et al. 2006, Gebauer et al. 2015"
-stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB","Marenco et al. 2017, Kafuti et al. 2020, Van Wittenberghe et al. 2012, Sack et al. 2006"
+stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB, BoN","Marenco et al. 2017, Kafuti et al. 2020, Van Wittenberghe et al. 2012, Sack et al. 2006, Chin and Silette 2017"
 ,,,$\uparrow$ with light,"TeB, TrB","Sack et al. 2006, Kafuti et al. 2020, Marenco et al. 2017"
-leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TrB, TeB, BoN, TrB","Weerasinghe et al. 2014,Coble and Cavaleri 2014, Van Wittenberghe et al. 2012, Oldham et al. 2010, Marenco et al. 2017"
+leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014,Coble and Cavaleri 2014, Van Wittenberghe et al. 2012, Oldham et al. 2010, Marenco et al. 2017"
 ,,,$\uparrow$ with light,"TeB, BoN, TrB","Coble and Cavaleri 2014, Wyka et al. 2012, Marenco et al. 2016, Weerasinghe et al. 2014"
 trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,TrB,"Ichie et al. 2016, Perez-Estrada et al. 2000"
 ,,,$\uparrow$ with light,"TeB, TrB","Gregoriou et al. 2007, Ichie et al. 2016, Levizou et al. 2005, Liakoura 1997"
@@ -23,7 +25,7 @@ leaf wettability,$DCA$,$\circ$,$\uparrow$ with height,TeB,Van Wittenberghe et al
 ,,,$\uparrow$ with height,"TrB, TeB, BoN","Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Duursma and Marshall, 2006, Harley et al. 1996"
 Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,$\approx$$\uparrow$ with light,"TrB, TeB, BoN","Weerasinghe et al. 2014, Hernandez et al. 2020, Scartazza et al. 2016, Coble et al. 2016, Harley et al. 1996, Duursma and Marshall, 2006.  "
 ,,,$\approx$$\downarrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Harley et al. 1996, Turnbull et al. 2003"
-Nitrogen per leaf mass,$N_{m}$,$mg \cdot g^{-1}$ ,$\approx$$\downarrow$ with light,"TrB, TeB","Chen et al. 2020, Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Harley et al. 1996 "
+Nitrogen per leaf mass,$N_{m}$,$mg \cdot g^{-1}$ ,$\approx$$\downarrow$ with light,"TrB, TeB, BoN","Chen et al. 2020, Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Harley et al. 1996, Wyka et al. 2012 "
 ,,,$\uparrow$ with height,"TrB, TeB","Weerasinghe et al. 2014,van de Weg et al. 2012, M.A Cavaleri et al. 2008, Mau et al. 2018   "
 Phosphorous per leaf area,$P_{a}$,$g \cdot m^{-2}$,$\uparrow$ with light,TrB,Weerasinghe et al. 2014
 ,,,$\approx$$\downarrow$ with height,TrB,"Weerasinghe et al. 2014, Chen et al. 2020, Mau et al. 2018"
