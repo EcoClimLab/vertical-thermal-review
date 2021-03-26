@@ -1,5 +1,5 @@
 trait,symbol,units,response,forest type(s),reference(s)
-max stomatal conductance,$g_{s_{max}}$,$molm^{-2} s^{-1}$,$\uparrow$ with height,"TrB, TeB","Kafuti et al. 2020, Van Wittenberghe et al. 2012, Roberts et al. 1990"
+max stomatal conductance,$g_{s_{max}}$,$molm^{-2} s^{-1}$,$\uparrow$ with height,"TrB, TeB, BoN","Kafuti et al. 2020, Van Wittenberghe et al. 2012, Roberts et al. 1990, Dang et al. 1997"
 ,,,$\downarrow$ with height ,BoN,Ambrose et al. 2015
 ,,,$\uparrow$ with light,"BoN, TrB, TeB","Zeifel et al. 2001, Slot et al. 2019, Hernandez et al. 2020, Urban et al. 2007"
 stomatal conductance limitation with temperature,$g_{s}$,$molm^{-2} s^{-1}$,$\uparrow$ with height, TrB,Hernandez et al. 2020
