@@ -55,8 +55,9 @@ dark respiration at reference T,$R_{dark} (T_{ref})$,$\mu$mol  \cdot m^{-2}s^{-1
 ,,$\mu$mol (kg N)$^{-1}s^{-1}$ ,$\uparrow$ with height,"TeB, BoN","Bolstad et al. 1999, Turnbull et al. 2003"
 ,,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with light,"TeB, TrB","Bolstad et al. 1999, Weerasinghe et al. 2014, Slot et al. 2019"
 temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,$\approx$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Bolstad et al. 1999, Araki et al. 2017*"
-,,$^\circ$C$^{-1}$,$\approx$$\uparrow$ with height,"TeB, BoN",Turnbull et al. 2003
+,,$^\circ$C$^{-1}$,$\approx$$\uparrow$ with height,"TeB, BoN"," Harley et al. 1996, Turnbull et al. 2003"
 ,,,$\approx$$\downarrow$ with light,"TrB, TeB, BoN","Weerasinghe et al. 2014, Bolstad et al. 1999, Araki et al. 2017*"
+,,,$\uparrow$ with light,TeB,Harley et al. 1996
 light respiration ,$R_{L}$,$\mu$mol \cdot m^{-2}s^{-1}$,$\uparrow$ with height,TrB,Weerasinghe et al. 2014
 ,,,$\uparrow$ with light,TrB,Weerasinghe et al. 2014
 activation energy of respiration,$E_{0}$,$kJ\cdot mol^{-1} K^{-1}$,$\approx$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Turnbull et al. 2003, Xu and Griffin 2006"
