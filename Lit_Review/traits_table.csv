@@ -3,7 +3,7 @@ leaf mass per area (or inverse of specific leaf area),$LMA$ (or $1/SLA$),$g \cdo
 ,,,$\uparrow$ with light,"TeB, TrB, BoN","Coble and Cavaleri 2014, Mau et al. 2018, Sack et al. 2006, Wyka et al. 2012"
 leaf density,$density$,$g \cdot cm^{-3}$,$\uparrow$ with height,TeB,Coble and Cavaleri 2014
 ,,,$\approx$ with height,BoN,Wyka et al. 2012
-,,,$\uparrow$ with light,TeB,Coble and Cavaleri 2014
+,,,$\uparrow$ with light,"TeB, TrB","Coble and Cavaleri 2014, Marques et al. 2000"
 ,,,$\approx$ with light,BoN,Wyka et al. 2012
 leaf area,$LA$,$cm^{2}$,$\downarrow$ with height,"TeB, TrB, BoN","Kusi and Karasi 2020, Cavaleri et al. 2010, Kenzo et al. 2016, Gebauer et al. 2015"
 ,,,$\downarrow$ with light,"TrB, TeB, BoN","Kusi and Karasi, 2020, Sack et al. 2006, Gebauer et al. 2015"
@@ -11,15 +11,17 @@ stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB, BoN"
 ,,,$\uparrow$ with light,"TeB, TrB","Sack et al. 2006, Kafuti et al. 2020, Marenco et al. 2017"
 leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014,Coble and Cavaleri 2014, Van Wittenberghe et al. 2012, Oldham et al. 2010, Marenco et al. 2017"
 ,,,$\uparrow$ with light,"TeB, BoN, TrB","Coble and Cavaleri 2014, Wyka et al. 2012, Marenco et al. 2016, Weerasinghe et al. 2014"
-trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,TrB,"Ichie et al. 2016, Perez-Estrada et al. 2000"
+trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,TrB,Ichie et al. 2016
 ,,,$\uparrow$ with light,"TeB, TrB","Gregoriou et al. 2007, Ichie et al. 2016, Levizou et al. 2005, Liakoura 1997"
 blade inclination angle (vertical),$\phi$B,$\circ$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 1998, Fauset et al. 2018"
-,,,$\uparrow$ with light,"TeB, TrB","Niinemets et al. 1998, Fauset et al. 2018"
+,,,$\uparrow$ with light,"TeB, TrB","Millen and Clendon 1979, Niinemets et al. 1998, Fauset et al. 2018"
 lobation,$lobation$,$cm^{2}$,$\uparrow$ with height,TeB,Sack et al. 2006
 ,,,$\downarrow$ with height,TeB,"Kusi and Karasi, 2020"
 ,,,$\uparrow$ with light,TeB,"Kusi and Karasi 2020, Sack et al. 2006"
+drip tip length,$drip tip$,$cm$,$\downarrow$ with height,TrB,Panditharathna et al. 2008
+,,,$\downarrow$ with light,TrB,Panditharatna et al. 2008
 upper cuticle thickness,$CT$,$\mu$m,$\uparrow$ with height,"TrB, BoN","Panditharathna et al. 2008, Chin and Sillett 2019"
-,,,$\uparrow$ with light,"TrB, TeB","Panditharathna et al. 2008, Baltzer and Thomas 2005"
+,,,$\uparrow$ with light,"TrB, TeB","Panditharathna et al. 2008, Marques et al. 2000, Baltzer and Thomas 2005"
 leaf wettability,$DCA$,$\circ$,$\uparrow$ with height,TeB,Van Wittenberghe et al. 2012
 ,,,$\uparrow$ with light,TeB,Van Wittenberghe et al. 2012
 ,,,$\uparrow$ with height,"TrB, TeB, BoN","Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Duursma and Marshall, 2006, Harley et al. 1996"
@@ -32,12 +34,14 @@ Phosphorous per leaf area,$P_{a}$,$g \cdot m^{-2}$,$\uparrow$ with light,TrB,Wee
 Phosphorous per leaf mass,$P_{m}$,$mg \cdot g^{-1}$ ,$\approx$ with light,"TrB, TeB","Weerasinghe et al. 2014, Chen et al. 2020, Mau et al. 2018 "
 ,,,$\uparrow$ with height,"TrB, TeB","Koniger et al. 1995, Scartazza et al. 2016, Niinemets et al. 1998"
 xanthophyll cycle pigments,$VAZ$,$\mu$molm$^{-2}$,$\uparrow$ with light,"TeB, TrB","Scartazza et al. 2016, Mastubara et al. 2009"
-,,,$\uparrow$ with height,TeB,Scartazza et al. 2016
+,,,$\downarrow$ with height,"TrB, TeB","Harris and Medina 2013, Hansen et al. 2001"
+chlorophyll content,$chl$,$mg\cdot cm^{-2}$,$\downarrow$ with light,"TrB, TeB","Marques et al. 2000, Poorter et al. 1995, Hansen et al. 2001"
+,,,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Poorter et al. 1995"
 $b$ carotene,$bcarotene$,$\mu$molm$^{-2}$,$\uparrow$ with light,"TeB, TrB","Scartazza et al. 2016, Koniger et al. 1995 "
-,,,$\uparrow$ with height,"BoN, TeB, TrB","Duursma and Marshall, 2006, Coble et al. 2017, Kenzo et al. 2015"
-carbon isotope composition,$\delta^{13}C$,$\%_\circ$,$\uparrow$ with light,"BoN, TeB, TrB","Duursma and Marshall, 2006, Coble et al. 2016, Kenzo et al. 2015"
 ,,,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Poorter et al. 1995"
 chlorophyll a/b ratio,$chl a/b$,molmol$^{-1}$,$\uparrow$ with light,"TeB, TrB","Scartazza et al. 2016, Poorter et al. 1995, Matsubara et al. 2009, Niinemets et al. 1998"
+,,,$\uparrow$ with height,"BoN, TeB, TrB","Duursma and Marshall, 2006, Coble et al. 2017, Kenzo et al. 2015"
+carbon isotope composition,$\delta^{13}C$,$\%_\circ$,$\uparrow$ with light,"BoN, TeB, TrB","Duursma and Marshall, 2006, Coble et al. 2016, Kenzo et al. 2015"
 ,,,$\approx$ with height,TrB,Poorter et al. 1995
 PAR absorptance,$ABS$,$\%$ nm,$\approx$ with light,TrB,Poorter et al. 1995
 ,,,$\downarrow$ with height,TrB,Poorter et al. 1995
