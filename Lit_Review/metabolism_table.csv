@@ -1,41 +1,43 @@
 trait,symbol,units,response,forest type(s),reference(s)
 max stomatal conductance,$g_{s_{max}}$,$molm^{-2} s^{-1}$,$\uparrow$ with height,"TrB, TeB, BoN","Kafuti et al. 2020, Van Wittenberghe et al. 2012, Roberts et al. 1990, Dang et al. 1997"
-,,,$\downarrow$ with height ,"BoN, TrB","Ambrose et al. 2015, Marenco et al. 2017"
+,,,$\downarrow$ with height ,"BoN, TrB","Ambrose et al. 2015, Marenco et al. 2017,  Zeifel et al. 2001"
 ,,,$\uparrow$ with light,"BoN, TrB, TeB","Zeifel et al. 2001, Slot et al. 2019, Hernandez et al. 2020, Urban et al. 2007"
-stomatal conductance limitation with temperature,$g_{s}$,$molm^{-2} s^{-1}$,$\uparrow$ with height, TrB,Hernandez et al. 2020
+stomatal conductance limitation with temperature,$g_{s}$,$molm^{-2} s^{-1}$,$\uparrow$ with height," TrB, BoN","Hernandez et al. 2020, Zeifel et al. 2001"
 ,,,$\uparrow$ with light,"BoN, TrB","Zeifel et al. 2001, Hernandez et al. 2020"
 stomtatal conductance at optimal temperature,$g_{s}$ at $T_{opt}$,$molm^{-2} s^{-1}$,$\approx$$\uparrow$ with height,TeB,Carter and Cavaleri 2018
 ,,,$\approx$$\uparrow$ with light,TrB,Slot et al. 2019
 boundary-layer conductance,$g_{a}$,$mmol^{-2} s^{-1}$,$\uparrow$ with height,TrB,Roberts et al. 1990
+,$g_{bV}$,$mms^{-1}$,$\uparrow$ with height,BoN,Martin et al. 1999
 ,,,$\uparrow$ with light,TrB,Roberts et al. 1990
-maximum photosynthetic capacity (area-based),$A_{max_{area}}$,$\mu$mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB,BoN","Carter and Cavaleri 2018, Niinemets et al. 2015, Mau et al. 2018, Wyka et al. 2012"
+,$g_{bV}$,$mms^{-1}$,$\approx$ with light,BoN,Martin et al. 1999
+maximum photosynthetic capacity (area-based),$A_{max_{area}}$,$\mu$mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Carter and Cavaleri 2018, Niinemets et al. 2015, Mau et al. 2018"
 ,,,$\approx$$\downarrow$ with height,TeB  (F.sylvatica),Bachofen et al. 2020
 ,,,$\uparrow$ with light,"TeB, TrB, BoN","Hamerlynck and Knapp 1994, Coble et al. 2017,  Mau et al. 2018, Urban et al. 2007, Wyka et al. 2012"
-maximum photosynthetic capacity (mass-based),$A_{max_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,TrB,"Wyka et al. 2012, Rijkerse et al. 2000"
-,,,$\approx$ with light,TrB,"Wyka et al. 2013, Rijkerse et al. 2000"
+maximum photosynthetic capacity (mass-based),$A_{max_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,TrB,Rijkerse et al. 2000
+,,,$\approx$ with light,"TeB, TrB, BoN","Wyka et al. 2013, Rijkerse et al. 2000"
 maximum light-saturated net photosynthesis ,$A_{sat}$ ,$\mu$mol \cdot m^{-2}\cdot s^{-1)$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Weerasinghe et al. 2014"
 ,,,$\uparrow$ with light,"TeB, TrB","Scartazza et al. 2016, Slot et al. 2019"
 $A_{sat}$ at optimum temperature,$A_{opt}$,$\mu$mol \cdot m^{-2}\cdot s^{-1)$,$\approx$$\uparrow$ with height,"TeB, TrB","Carter and Cavaleri 2018, Mau et al. 2018"
 ,,,$\uparrow$ with light,TrB,"Slot et al. 2019, Mau et al. 2018"
 optimum temperature for photosynthesis,$T_{opt}$,$^\circ$C,$\approx$ with height,"TrB, TeB","Miller et al. 2021, Carter and Cavaleri 2018, Mau et al. 2018"
 ,,,$\approx$ with light,"TrB, TeB","Hernandez et al. 2020, Slot et al. 2019, Carter and Cavaleri 2018"
-photosynthetic light compensation point,$LCP$,$\mu$mol m^{-2}$,$\uparrow$ with height,"TeB, BoN",Bachofen et al. 2020
+photosynthetic light compensation point,$LCP$,$\mu$mol m^{-2}$,$\uparrow$ with height,"TeB, BoN, TrB","Bachofen et al. 2020, Harris and Medina 2013"
 ,,,$\uparrow$ with light,"TrB, TeB, BoN","Slot et al. 2019, Hamerlynck and Knapp, 1994, Bachofen et al. 2020"
 maximal carboxylation rate(area-based),$V_{cmax_{area}}$,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, van de Weg et al. 2012"
 ,,,$\uparrow$ with light,"TeB,TrB, BoN","Scartazza et al. 2016, Hernandez et al. 2020, Urban et al. 2007"
-maximal carboxylation rate(mass-based),$V_{cmax_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,TrB,van de Weg et al. 2012
-,,,$\approx$ with light,TrB,van de Weg et al. 2012
+maximal carboxylation rate(mass-based),$V_{cmax_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
+,,,$\approx$ with light,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
 ,,$nmol$C_{O_{2}}$$ g^{-1} s^{-1}$,$\approx$$\downarrow$ with light,TeB,Legner et al. 2014
 $V_{cmax}$ at optimum temperatue,$V_{cmax}$($T_{opt}$),$\mu$mol  \cdot m^{-2}s^{-1}$,$\approx$$\uparrow$ with height,TeB,Carter and Cavaleri 2018
 ,,,$\approx$ with light,TrB,Hernandez et al. 2020
 electron transport rate(area-based),$J_{max_{area}}$,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, van de Weg et al. 2012"
 ,,,$\uparrow$ with light,"TeB,TrB","Scartazza et al. 2016, Hernandez et al. 2020"
-electron transport rate(mass-based),$J_{max_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,TrB,van de Weg et al. 2012
-,,,$\approx$ with light,TrB,van de Weg et al. 2012
+electron transport rate(mass-based),$J_{max_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
+,,,$\approx$ with light,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
 ,,$nmol\cdot e^{-1} g^{-1} s^{-1}$,$\approx$$\downarrow$ with light,TeB,Legner et al. 2014
 $J_{max}$ at optimal temperature,$J_{max}$($T_{opt}$),$\mu$mol  \cdot m^{-2}s^{-1}$,$\approx$ with light,TrB,Hernandez et al. 2020
 leaf temperature,$T_{L}$,$^\circ$C,$\uparrow$ with height,"TrB, TeB","Fauset et al. 2018, Mau et al. 2018, Rey-Sanchez et al. 2016, Hamerlynck and Knapp, 1994"
-,,,$\downarrow$ with height,BoN,Muller et al. 2021
+,,,$\downarrow$ with height,BoN,"Muller et al. 2021, Martin et al. 1999"
 ,,,$\uparrow$ with light,"TrB, TeB","Fauset et al. 2018, Rey-Sanchez et al. 2016, Miller et al. 2021, Hamerlynck and Knapp, 1994"
 ,,,$\approx$ with light,BoN,Muller et al. 2021
 thermal time constant (in relation to increasing gs),$t$,$s$,$\downarrow$ with height,"TrB, TrS","Fauset et al. 2018, Curtis et al. 2019"
