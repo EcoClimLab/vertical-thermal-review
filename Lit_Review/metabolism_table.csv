@@ -21,14 +21,14 @@ $A_{sat}$ at optimum temperature,$A_{opt}$,$\mu$mol \cdot m^{-2}\cdot s^{-1)$,$\
 ,,,$\uparrow$ with light,TrB,"Slot et al. 2019, Mau et al. 2018"
 optimum temperature for photosynthesis,$T_{opt}$,$^\circ$C,$\approx$ with height,"TrB, TeB","Miller et al. 2021, Carter and Cavaleri 2018, Mau et al. 2018"
 ,,,$\approx$ with light,"TrB, TeB","Hernandez et al. 2020, Slot et al. 2019, Carter and Cavaleri 2018"
-photosynthetic light compensation point,$LCP$,$\mu$mol m^{-2}$,$\uparrow$ with height,"TeB, BoN, TrB","Bachofen et al. 2020, Harris and Medina 2013"
+photosynthetic light compensation point,$LCP$,$\mu$ mol m^{-2}$,$\uparrow$ with height,"TeB, BoN, TrB","Bachofen et al. 2020, Harris and Medina 2013"
 ,,,$\uparrow$ with light,"TrB, TeB, BoN","Slot et al. 2019, Hamerlynck and Knapp, 1994, Bachofen et al. 2020"
-maximal carboxylation rate(area-based),$V_{cmax_{area}}$,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, van de Weg et al. 2012"
+maximal carboxylation rate(area-based),$V_{cmax_{area}}$,$\mu$mol \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, van de Weg et al. 2012"
 ,,,$\uparrow$ with light,"TeB,TrB, BoN","Scartazza et al. 2016, Hernandez et al. 2020, Urban et al. 2007"
 maximal carboxylation rate(mass-based),$V_{cmax_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
 ,,,$\approx$ with light,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
-,,$nmol$C_{O_{2}}$$ g^{-1} s^{-1}$,$\approx$$\downarrow$ with light,TeB,Legner et al. 2014
-$V_{cmax}$ at optimum temperatue,$V_{cmax}$($T_{opt}$),$\mu$mol  \cdot m^{-2}s^{-1}$,$\approx$$\uparrow$ with height,TeB,Carter and Cavaleri 2018
+,,$nmol $C_{O_{2}}$ g^{-1} s^{-1}$,$\approx$$\downarrow$ with light,TeB,Legner et al. 2014
+$V_{cmax}$ at optimum temperatue,$V_{cmax}$($T_{opt}$),$\mu$$mol  \cdot m^{-2}s^{-1}$,$\approx$$\uparrow$ with height,TeB,Carter and Cavaleri 2018
 ,,,$\approx$ with light,TrB,Hernandez et al. 2020
 electron transport rate(area-based),$J_{max_{area}}$,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, van de Weg et al. 2012"
 ,,,$\uparrow$ with light,"TeB,TrB","Scartazza et al. 2016, Hernandez et al. 2020"
