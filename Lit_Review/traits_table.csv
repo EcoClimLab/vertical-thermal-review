@@ -8,12 +8,14 @@ leaf area,$LA$,$cm^{2}$,$\downarrow$ with height,"TeB, TrB, BoN","Kusi and Karas
 ,,,$\downarrow$ with light,"TrB, TeB, BoN","Kusi and Karasi, 2020, Sack et al. 2006, Gebauer et al. 2015"
 stomatal density ,$D_{stomata}$,$mm^{-2}$,$\uparrow$ with height,"TrB, TeB, BoN","Marenco et al. 2017, Kafuti et al. 2020, Van Wittenberghe et al. 2012, Sack et al. 2006, Chin and Silette 2017"
 ,,,$\uparrow$ with light,"TeB, TrB","Sack et al. 2006, Kafuti et al. 2020, Marenco et al. 2017"
+length of minor veins/unit area,$VLA_{min}$,$mm \cdot mm^{-2}$,$\uparrow$ with height,TeB,Zhang et al. 2019
+,,,$\uparrow$ with light,TeB,Zhang et al. 2019
 leaf thickness,$LeaThi$,$\mu$m,$\uparrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014,Coble and Cavaleri 2014, Van Wittenberghe et al. 2012, Oldham et al. 2010, Marenco et al. 2017"
 ,,,$\uparrow$ with light,"TeB, BoN, TrB","Coble and Cavaleri 2014, Wyka et al. 2012, Marenco et al. 2016, Weerasinghe et al. 2014"
 trichome density,$trichome$,$mm^{-2}$,$\uparrow$ with height,TrB,Ichie et al. 2016
 ,,,$\uparrow$ with light,"TeB, TrB","Gregoriou et al. 2007, Ichie et al. 2016, Levizou et al. 2005, Liakoura 1997"
-blade inclination angle (vertical),$\phi$B,$\circ$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 1998, Fauset et al. 2018"
-,,,$\uparrow$ with light,"TeB, TrB","Millen and Clendon 1979, Niinemets et al. 1998, Fauset et al. 2018"
+blade inclination angle (vertical),$\phi$B,$\circ$,$\uparrow$ with height,"TeB, TrB","Niinemets et al. 1998, Ishida et al. 1998, Fauset et al. 2018"
+,,,$\uparrow$ with light,"TeB, TrB","Millen and Clendon 1979, Ishida et al. 1998, Niinemets et al. 1998, Fauset et al. 2018"
 pinnate lobation ,$lobation$,$cm^{2}$,$\uparrow$ with height,TeB,Sack et al. 2006
 ,,,$\downarrow$ with height,TeB,"Kusi and Karasi, 2020"
 ,,,$\uparrow$ with light,TeB,"Kusi and Karasi 2020, Sack et al. 2006"
@@ -21,8 +23,9 @@ drip tip length,$drip tip$,$cm$,$\downarrow$ with height,TrB,Panditharathna et a
 ,,,$\downarrow$ with light,TrB,Panditharatna et al. 2008
 upper cuticle thickness,$CT$,$\mu$m,$\uparrow$ with height,"TrB, BoN","Panditharathna et al. 2008, Chin and Sillett 2019"
 ,,,$\uparrow$ with light,"TrB, TeB","Panditharathna et al. 2008, Marques et al. 2000, Baltzer and Thomas 2005"
-leaf wettability,$DCA$,$\circ$,$\uparrow$ with height,TeB,Van Wittenberghe et al. 2012
-,,,$\uparrow$ with light,TeB,Van Wittenberghe et al. 2012
+adaxial leaf wettability (as drop contact angle),$DCA_{ad}$,$\circ$,$\uparrow$ with height,TeB,Van Wittenberghe et al. 2012
+,$duration of surface wetness$,$\%$,$\downarrow$ with height,TrB,Dietz et al. 2007
+,$DCA$,$\circ$,$\uparrow$ with light,TeB,Van Wittenberghe et al. 2012
 ,,,$\uparrow$ with height,"TrB, TeB, BoN","Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Duursma and Marshall, 2006, Harley et al. 1996"
 Nitrogen per leaf area,$N_{a}$,$g \cdot m^{-2}$,$\approx$$\uparrow$ with light,"TrB, TeB, BoN","Weerasinghe et al. 2014, Hernandez et al. 2020, Scartazza et al. 2016, Coble et al. 2016, Harley et al. 1996, Duursma and Marshall, 2006.  "
 ,,,$\approx$$\downarrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Kenzo et al. 2015, Coble et al. 2016, Scartazza et al. 2016, Harley et al. 1996, Turnbull et al. 2003"
@@ -43,7 +46,11 @@ chlorophyll a/b ratio,$chl a/b$,$mol \cdot mol^{-1}$,$\uparrow$ with light,"TeB,
 carbon isotope composition,$\delta^{13}C$,$\%_\circ$,$\uparrow$ with light,"BoN, TeB, TrB","Duursma and Marshall, 2006, Coble et al. 2016, Kenzo et al. 2015"
 ,,,$\downarrow$ with height,TeB,Scartazza et al. 2016
 intercellular $C_{{O}_{2}}$ concentration,$C_{i}$,$\mu$mol $\cdot mol ^{-1}$,$\downarrow$ with light,TeB,Scartazza et al. 2016
-,,,$\approx$ with height,TrB,Poorter et al. 1995
-PAR absorptance,$ABS$,$\%$ nm,$\approx$ with light,TrB,Poorter et al. 1995
-,,,$\downarrow$ with height,TrB,Poorter et al. 1995
-absorptance efficiency,$ABS$,$\% \cdot g^{-1}$,$\downarrow$ with light,TrB,Poorter et al. 1995
+,,,$\approx$ with height,TrB,"Poorter et al. 1995, 2000"
+PAR absorptance,$ABS$,$\%$ nm,$\approx$$\uparrow$ with light,TrB,"Poorter et al. 1995, 2000"
+,,,$\downarrow$ with height,TrB,"Poorter et al. 1995, 2000"
+absorptance efficiency per unit biomass,$ABS$,$\% \cdot g^{-1}$,$\downarrow$ with light,TrB,"Poorter et al. 1995, 2000"
+,,,$\downarrow$ with height,TrB,"Poorter et al. 1995, 2000"
+PAR transmittance,$transmittance$,$\%$,$\downarrow$ with light,TrB,"Poorter et al. 1995, 2000"
+,,,$\approx$ with height,TrB,"Poorter et al. 1995, 2000"
+reflectance,$reflectance$,$\%$,$\approx$ with light,TrB,"Poorter et al. 1995, 2000"
