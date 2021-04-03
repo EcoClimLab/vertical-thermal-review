@@ -118,7 +118,7 @@ The resulting feedbacks to the climate system (e.g., decreased C storage, altere
 Forests are vertically and horizontally stratified, with trees of different sizes through various successional stages. 
 Overstory trees form canopies that play a crucial role in moderating macro-microclimate [@ozanneBiodiversityMeetsAtmosphere2003; @nakamuraForestsTheirCanopies2017] by buffering extreme temperatures along with other macroclimatic conditions in the understory. 
 This creates a vertical stratification of biophysical environmental conditions such as temperature, light, wind, humidity and CO~2~ that influences leaf traits, thermoregulation and metabolism along the gradient, with implications for whole plant performance [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016].
-Despite the fact that this vertical gradient inevitably shapes nearly every aspect of plant metabolism, demography, and ecology, we lack synthetic [replace synthetic w comprehensive?] understanding of these gradients. 
+Despite the fact that this vertical gradient inevitably shapes nearly every aspect of plant metabolism, demography, and ecology, we lack comprehensive understanding of these gradients. 
 *(@niinemetsWithincanopyVariationRate2004a highlights how biophysical and photosynthetic gradients vary along the vertical canopy profile, however our current knowledge of this topic is lacking.)*
 Importantly, this limits our ability to understand how warming temperatures will affect leaf-level metabolism, whole-plant performance, and, in turn, forest ecology and biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions.
 
@@ -145,7 +145,7 @@ Here, we define the biophysical environment to include the physical structure of
 In this section, we supplement a review of the existing literature with a new analysis of data on vegetation structure and vertical microclimate profiles from the U.S. National Ecological Observatory Network [NEON; Appendix `r appendix_NEON_methods`; Schimel et al. 2007].
 
 ### Foliage density
-**Canopy foliage, which is vertically structured in correspondence with the size structure of trees in the forest, acts as the primary physical barrier between the atmosphere and the forest floor, producing a buffering effect on multiple aspects of the understory conditions (Fig. `r fig_NEON_vertical`).**
+**Canopy foliage, which is vertically structured in correspondence with the size, structure of trees in the forest, acts as the primary physical barrier between the atmosphere and the forest floor, producing a buffering effect on multiple aspects of the understory conditions (Fig. `r fig_NEON_vertical`).**
 Leaf area density.... *description of most common vertical pattern (@bonan_ecological_2016 reviews this and points to appropriate references)*
 Vertical profiles in leaf area density vary across forests, being... *summarize some key differences across forest types* (REFS), and are altered (*HOW?*) following disturbance [e.g., @parkerCanopyLightTransmittance2002 ; @almeidaContrastingFireDamage2016 ; @starkReframingTropicalSavannization2020].
 They also vary seasonally, ... (Parker & Tibbs 2004; @smithSeasonalDroughtrelatedChanges2019 ; @parkerConsequencesEnvironmentalHeterogeneity2019). 
