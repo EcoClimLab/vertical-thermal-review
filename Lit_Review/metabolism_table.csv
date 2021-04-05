@@ -10,32 +10,32 @@ boundary-layer conductance,$g_{a}$,$mmol^{-2} s^{-1}$,$\uparrow$ with height,TrB
 ,$g_{bV}$,$mms^{-1}$,$\uparrow$ with height,BoN,Martin et al. 1999
 ,,,$\uparrow$ with light,TrB,Roberts et al. 1990
 ,$g_{bV}$,$mms^{-1}$,$\approx$ with light,BoN,Martin et al. 1999
-maximum photosynthetic capacity (area-based),$A_{max_{area}}$,$\mu$mol \cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Carter and Cavaleri 2018, Kosugi et al. 2012, Niinemets et al. 2015, Mau et al. 2018"
+maximum photosynthetic capacity (area-based),$A_{max_{area}}$,$\mu$mol $\cdot m^{-2} \cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Carter and Cavaleri 2018, Kosugi et al. 2012, Niinemets et al. 2015, Mau et al. 2018"
 ,,,$\approx \downarrow$ with height,TeB  (F.sylvatica),Bachofen et al. 2020
 ,,,$\uparrow$ with light,"TeB, TrB, BoN","Hamerlynck and Knapp 1994, Kosugi et al. 2012, Coble et al. 2017,  Mau et al. 2018, Urban et al. 2007, Wyka et al. 2012"
 maximum photosynthetic capacity (mass-based),$A_{max_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,TrB,"Rijkerse et al. 2000, Ishida et al. 1999"
 ,,,$\approx$ with light,"TeB, TrB, BoN","Wyka et al. 2013, Rijkerse et al. 2000, Ishida et al. 1999"
-maximum light-saturated net photosynthesis ,$A_{sat}$ ,$\mu$mol \cdot m^{-2}\cdot s^{-1)$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Weerasinghe et al. 2014"
+maximum light-saturated net photosynthesis ,$A_{sat}$ ,$\mu$mol $\cdot m^{-2}\cdot s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Weerasinghe et al. 2014"
 ,,,$\uparrow$ with light,"TeB, TrB","Scartazza et al. 2016, Slot et al. 2019"
-$A_{sat}$ at optimum temperature,$A_{opt}$,$\mu$mol \cdot m^{-2}\cdot s^{-1)$,$\approx \uparrow$ with height,"TeB, TrB","Carter and Cavaleri 2018, Mau et al. 2018"
+$A_{sat}$ at optimum temperature,$A_{opt}$,$\mu$mol $\cdot m^{-2}\cdot s^{-1}$,$\approx \uparrow$ with height,"TeB, TrB","Carter and Cavaleri 2018, Mau et al. 2018"
 ,,,$\uparrow$ with light,TrB,"Slot et al. 2019, Mau et al. 2018"
 optimum temperature for photosynthesis,$T_{opt}$,$^\circ$C,$\approx$ with height,"TrB, TeB","Miller et al. 2021, Carter and Cavaleri 2018, Mau et al. 2018"
 ,,,$\approx$ with light,"TrB, TeB","Hernandez et al. 2020, Slot et al. 2019, Carter and Cavaleri 2018"
-photosynthetic light compensation point,$LCP$,$\mu$ mol m^{-2}$,$\uparrow$ with height,"TeB, BoN, TrB","Bachofen et al. 2020, Harris and Medina 2013"
+photosynthetic light compensation point,$LCP$,$\mu$ mol $m^{-2}$,$\uparrow$ with height,"TeB, BoN, TrB","Bachofen et al. 2020, Harris and Medina 2013"
 ,,,$\uparrow$ with light,"TrB, TeB, BoN","Slot et al. 2019, Hamerlynck and Knapp, 1994, Bachofen et al. 2020"
-maximal carboxylation rate(area-based),$V_{cmax_{area}}$,$\mu$mol \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Kosugi et al. 2012, van de Weg et al. 2012"
+maximal carboxylation rate(area-based),$V_{cmax_{area}}$,$\mu mol \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016, Kosugi et al. 2012, van de Weg et al. 2012"
 ,,,$\uparrow$ with light,"TeB,TrB, BoN","Scartazza et al. 2016, Kosugi et al. 2012, Hernandez et al. 2020, Urban et al. 2007"
 maximal carboxylation rate(mass-based),$V_{cmax_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
 ,,,$\approx$ with light,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
-,,$nmol $C_{O_{2}}$ g^{-1} s^{-1}$,$\approx \downarrow$ with light,TeB,Legner et al. 2014
-$V_{cmax}$ at optimum temperatue,$V_{cmax}$($T_{opt}$),$\mu$$mol  \cdot m^{-2}s^{-1}$,$\approx \uparrow$ with height,TeB,Carter and Cavaleri 2018
+,,nmol $C_{O_{2}}  g^{-1} s^{-1}$,$\approx \downarrow$ with light,TeB,Legner et al. 2014
+$V_{cmax}$ at optimum temperatue,$V_{cmax}$($T_{opt}$),$\mu mol  \cdot m^{-2} s^{-1}$,$\approx \uparrow$ with height,TeB,Carter and Cavaleri 2018
 ,,,$\approx$ with light,TrB,Hernandez et al. 2020
-electron transport rate(area-based),$J_{max_{area}}$,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016,  Kosugi et al. 2012 van de Weg et al. 2012"
+electron transport rate(area-based),$J_{max_{area}}$,$\mu mol  \cdot m^{-2} s^{-1}$,$\uparrow$ with height,"TeB, TrB","Scartazza et al. 2016,  Kosugi et al. 2012 van de Weg et al. 2012"
 ,,,$\uparrow$ with light,"TeB,TrB","Scartazza et al. 2016, Kitao et al. 2012, Kosugi et al. 2012, Hernandez et al. 2020"
 electron transport rate(mass-based),$J_{max_{mass}}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx$ with height,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
 ,,,$\approx$ with light,"TrB, TeB","van de Weg et al. 2012, Scartazza et al. 2016"
 ,,$nmol\cdot e^{-1} g^{-1} s^{-1}$,$\approx \downarrow$ with light,TeB,Legner et al. 2014
-$J_{max}$ at optimal temperature,$J_{max}$($T_{opt}$),$\mu$mol  \cdot m^{-2}s^{-1}$,$\approx$ with light,TrB,Hernandez et al. 2020
+$J_{max}$ at optimal temperature,$J_{max}$($T_{opt}$),$\mu mol \cdot m^{-2}s^{-1}$,$\approx$ with light,TrB,Hernandez et al. 2020
 leaf temperature,$T_{L}$,$^\circ$C,$\uparrow$ with height,"TrB, TeB","Fauset et al. 2018, Mau et al. 2018, Ishida et al. 1999, Rey-Sanchez et al. 2016, Hamerlynck and Knapp, 1994"
 ,,,$\downarrow$ with height,BoN,"Muller et al. 2021, Martin et al. 1999"
 ,,,$\uparrow$ with light,"TrB, TeB","Fauset et al. 2018, Ishida et al. 1999, Rey-Sanchez et al. 2016, Miller et al. 2021, Hamerlynck and Knapp, 1994"
@@ -48,22 +48,22 @@ critical temperature beyond which $Fv/Fm$ declines,$T_{crit}$,$^\circ$C,,,
 ,,,$\approx \uparrow$ with light,"TrB, TeB",Slot et al. 2019
 high-temperature $CO_{2}$ compensation point,$T_{max}$,$^\circ$C,$\approx$ with height,TrB,Weerasinghe et al. 2014
 ,,,$\approx$ with light,TrB,Slot et al. 2019
-respiration rate at 25$^\circ$C,$R$,$\mu$mol CO_{2} m^{-2} s^{-1}$,$\uparrow$ with height,"TeB, BoN, TrB","Turnbull et al. 2003, Araki et al. 2017, Mier et al. 2001"
-,,$\mu$mol CO_{2} Kg^{-1} s^{-1}$,$\approx$ with height,"TeB, BoN, TrB","Turnbull et al. 2003, Mier et al. 2001"
+respiration rate at 25$^\circ$C,$R$,$\mu mol CO_{2} m^{-2} s^{-1}$,$\uparrow$ with height,"TeB, BoN, TrB","Turnbull et al. 2003, Araki et al. 2017, Mier et al. 2001"
+,,$\mu mol CO_{2} kg^{-1} s^{-1}$,$\approx$ with height,"TeB, BoN, TrB","Turnbull et al. 2003, Mier et al. 2001"
 ,,,$\uparrow$ with light,"BoN, TrB","Araki et al. 2017, Mier et al. 2001"
-dark respiration (area-based),$R_{dark_a}$,$\mu$mol m^{-2} s^{-1}$,$\uparrow$ with height,"TrB, TeB","Weerasinghe et al. 2014, Kosugi et al. 2012, Bolstad et al. 1999, Scartazza et al. 2019"
+dark respiration (area-based),$R_{dark_a}$,$\mu mol m^{-2} s^{-1}$,$\uparrow$ with height,"TrB, TeB","Weerasinghe et al. 2014, Kosugi et al. 2012, Bolstad et al. 1999, Scartazza et al. 2019"
 ,,,$\uparrow$ with light,"TrB, TeB, BoN","Weerasinghe et al. 2014, Kosugi et al. 2012, Scartazza et al. 2019, Hamerlynck and Knapp, 1994, Urban et al. 2007"
 dark respiration (mass-based),$R_{dark_m}$,$nmol\cdot g^{-1} \cdot s^{-1}$,$\approx uparrow$ with height,TrB,"van de Weg et al. 2012, Kenzo et al. 2015"
 ,,,$\approx$ with light,TrB,"van de Weg et al. 2012, Kenzo et al. 2015"
-dark respiration at reference T,$R_{dark} (T_{ref})$,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Kosugi et al. 2012, Bolstad et al. 1999, Turnbull et al. 2003"
-,,$\mu$mol (kg leaf)$^{-1} s^{-1}$ ,$\uparrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Kosugi et al. 2012, Bolstad et al. 1999, Turnbull et al. 2003"
-,,$\mu$mol (kg N)$^{-1}s^{-1}$ ,$\uparrow$ with height,"TeB, BoN","Bolstad et al. 1999, Turnbull et al. 2003"
-,,$\mu$mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with light,"TeB, TrB","Bolstad et al. 1999, Weerasinghe et al. 2014, Slot et al. 2019"
+dark respiration at reference T,$R_{dark} (T_{ref})$,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Kosugi et al. 2012, Bolstad et al. 1999, Turnbull et al. 2003"
+,,$\mu mol (kg leaf)^{-1} s^{-1}$ ,$\uparrow$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Kosugi et al. 2012, Bolstad et al. 1999, Turnbull et al. 2003"
+,,$\mu$  mol (kg N) $^{-1}s^{-1}$ ,$\uparrow$ with height,"TeB, BoN","Bolstad et al. 1999, Turnbull et al. 2003"
+,,$\mu mol  \cdot m^{-2}s^{-1}$,$\uparrow$ with light,"TeB, TrB","Bolstad et al. 1999, Weerasinghe et al. 2014, Slot et al. 2019"
 temperature sensitivity of $R_{dark}$,$Q_{10}$,$^\circ$C$^{-1}$,$\approx$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Bolstad et al. 1999, Araki et al. 2017*"
 ,,$^\circ$C$^{-1}$,$\approx \uparrow$ with height,"TeB, BoN","Harley et al. 1996, Turnbull et al. 2003"
 ,,,$\approx \downarrow$ with light,"TrB, TeB, BoN","Weerasinghe et al. 2014, Bolstad et al. 1999, Araki et al. 2017*"
 ,,,$\uparrow$ with light,TeB,Harley et al. 1996
-light respiration ,$R_{L}$,$\mu$mol \cdot m^{-2}s^{-1}$,$\uparrow$ with height,TrB,Weerasinghe et al. 2014
+light respiration ,$R_{L}$,$\mu mol \cdot m^{-2}s^{-1}$,$\uparrow$ with height,TrB,Weerasinghe et al. 2014
 ,,,$\uparrow$ with light,TrB,Weerasinghe et al. 2014
 activation energy of respiration,$E_{0}$,$kJ\cdot mol^{-1} K^{-1}$,$\approx$ with height,"TrB, TeB, BoN","Weerasinghe et al. 2014, Turnbull et al. 2003, Xu and Griffin 2006"
 ,,,$\approx$ with light,TrB,"Weerasinghe et sl. 2014, Slot et al. 2019"
