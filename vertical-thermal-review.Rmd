@@ -242,24 +242,14 @@ At night when solar radiation is not a factor, differences in $T_{leaf}$ across 
 
 **However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.**
 In closed-canopy forests, large leaf to air temperature differences and high leaf temperatures are found in upper canopies of tropical forests such as in Atlantic, Brazil forests [@fauset_differences_2018], Puerto Rico tropical wet, moist and subtropical wet forest[@mauTemperateTropicalForest2018a; Miller; ], semi-deciduous tropical forest in Panama in wet season [@rey-sanchez_spatial_2016], and in a temperate forest [@mauTemperateTropicalForest2018a].   
-
 - In three forest types-- temperate, tropical wet and tropical moist, $T_{leaf max}$ exceeded temperature optimum for photosynthesis $T_{opt}$ in upper canopies of all sites, however $T_{leaf max}$ exceeded $T_{opt}$ at different heights and temperatures in all forests; with no significant relationship between $T_{opt}$ and height. Additionally, with increasing height, $T_{leaf} - T_{air}$ difference increased in the upper canopies of all forests, exhibiting greatest $T_{leaf} - T_{air}$ in temperate deciduous forest compared to tropical moist and wet.
 - In a tropical wet and moist forests of Puerto Rico and temperate forests in Michigan, greater light input in exposed upper canopy leaves has been observed to increase leaf temperatures, sometimes 1-7C above ambient air temperature, making upper canopy leaves susceptible to heat stress, more than scattered light in lower shaded leaves [@mauTemperateTropicalForest2018a] 
 -"Sun exposed outer canopy leaves in tropical trees can experience temperatures up 48 C during diurnal cycle, midday stomtal closure reduces transpitrational cooling" thus elevating leaf temperature greater than air temperature (Slot et al. 2019)
 
--	(Slot et al. 2019) and refs therein
-
-- Elsa: I came across these two studies that could be relevent in the evapotranspiration/temperature feedback section hinted at above: 
-- Staudt, K., Serafimovich, A., Siebicke, L., Pyles, R.D. and Falge, E., 2011. Vertical structure of evapotranspiration at a forest site (a case study). Agricultural and Forest Meteorology, 151(6), pp.709-729.
-- Sellin, A. and Lubenets, K., 2010. Variation of transpiration within a canopy of silver birch: effect of canopy position and daily versus nightly water loss. Ecohydrology, 3(4), pp.467-477.
-
-
-**Leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] and show different degrees of intraspecific foliar plasticity in accordance with the intensity and availability of light, for optimizing water uptake, heat, C uptake and metabolism across forest vertical strata [@rozendaalPlasticityLeafTraits2006].**
-After the formation of leaves to integrated light, it takes 30-60 days for traits to stabilize in woody species [@keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. A network of sensory photoreceptors in leaves, such as phytochromes, mediate leaf-level responses to PAR and the ratio of red to far red radiation [R:FR] intercepting the leaf surface. This enables acclimation or avoidance responses through the development of necessary leaf traits [@casalPhotoreceptorSignalingNetworks2013]. Degrees of high irradiance give rise to variation in sun-leaf traits, while degrees of low irradiance-- characterized by shade-- result in variations of shade-leaf traits [@poorterMetaanalysisPlantResponses2019b; @sackHowStrongIntracanopy2006], ultimately influencing leaf structural, chemical and physiological traits as well [@keenanGlobalLeafTrait2016]. 
-
-
 
 ## Leaf traits 
+
+**Leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] in accordance with the intensity and availability of light for optimizing C uptake, water uptake, heat and metabolism across forest vertical strata, thus show different degrees foliar plasticity [@rozendaalPlasticityLeafTraits2006]**
 
 Particularly in dense forests, the upper, outer canopy leaves of taller trees are exposed to dramatically different biophysical conditions than leaves in the canopy interior or understory (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`).
 Leaf traits are critical to maintaining desirable $T_{leaf}$ and, in turn, shaping leaf metabolism and carbon balance (following section).
@@ -301,14 +291,14 @@ Several studies point towards differences in leaf trait plasticity within-specie
 
 ### Intraspecific variation
 
-**Within a species, leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] and show different degrees of foliar plasticity in accordance with the intensity and availability of light, optimizing water uptake, heat, C uptake and metabolism across forest vertical strata [@rozendaalPlasticityLeafTraits2006].**
 After the formation of leaves to integrated light, it takes 30-60 days for traits to stabilize in woody species [@keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. 
 A network of sensory photoreceptors in leaves, such as phytochromes, mediate leaf-level responses to PAR and the ratio of red to far red radiation intercepting the leaf surface. This enables acclimation or avoidance responses through the development of necessary leaf traits [@casalPhotoreceptorSignalingNetworks2013]. 
 Degrees of high irradiance give rise to variation in sun-leaf traits, while degrees of low irradiance-- characterized by shade-- result in variations of shade-leaf traits [@poorterMetaanalysisPlantResponses2019b; @sackHowStrongIntracanopy2006], ultimately influencing leaf structural, chemical and physiological traits as well [@keenanGlobalLeafTrait2016]. 
 
-*(Krista: the above paragraaph is really interesting, and I like the idea of starting off the section by mentioning what controls the formation of leaf traits. However, I think it gets into more detail than needed. Also, is there work out there on how they're influenced by temperature/ water at the time of formation? I'd broaden to include the full microenviroment (without increasing length)*)
-
 Several studies point towards common variations and differences in leaf trait plasticity within-species and at an intra-canopy gradient which influences leaf structural and biochemical traits [@sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. The differences among these traits contribute to leaf heat dissipation strategies and leaf temperature across the gradient [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016] Table `r table_leaf_traits` summarizes relevant traits for thermal sensitivity.
+
+
+*(Krista: the above paragraaph is really interesting, and I like the idea of starting off the section by mentioning what controls the formation of leaf traits. However, I think it gets into more detail than needed. Also, is there work out there on how they're influenced by temperature/ water at the time of formation? I'd broaden to include the full microenviroment (without increasing length)*)
 
 
 ![Table `r table_leaf_traits`. (*For latest version of table, see tables.pdf.*)](table1.png)
