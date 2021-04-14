@@ -209,12 +209,12 @@ The strength of buffering also varies with respect to distance to the coast, top
 ### Biophysical drivers
 
 **Many of the vertical gradient biophysical and trait variables reviewed above affect leaf temperature, $T_{leaf}$, which in turn has a strong influence on leaf metabolism (see following section).**
-Leaves try to maintain metabolic optima in order to maximize carbon assimilation, in a given circumstance, through the adaptation of their leaf traits to the surrounding biophysical environment [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020]. $T_{leaf}$ and leaf thermoregulation, thus, is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019; @michaletzEnergeticCarbonEconomic2016] (Fig. `r fig_leaf_T`). The difference between $T_{leaf}$ and $T_{air}$ is determined as a function of energy input (through radiation or heat) versus heat lost to the environment [Fig. `r fig_NEON_vertical`; @michaletzPlantThermoregulationEnergetics2015]. 
+Leaves try to maintain metabolic optima in order to maximize carbon assimilation, in a given circumstance, through the adaptation of their leaf traits to the surrounding biophysical environment [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020]. $T_{leaf}$ and leaf thermoregulation, thus, is determined by the energy balance of a leaf, influenced by leaf traits, and can be estimated based on basic biophysical principles [@campbell_introduction_1998; @muir_tealeaves_2019; @michaletzEnergeticCarbonEconomic2016] (Fig. `r fig_leaf_T`). The difference between $T_{leaf}$ and $T_{air}$ is determined as a function of energy input (through radiation or heat) versus heat lost to the environment [Fig. `r fig_NEON_vertical`; @michaletzPlantThermoregulationEnergetics2015]. 
 
 ![**Figure `r fig_leaf_T`. Theoretical expectations for variation in the elevation of $T_{leaf}$ above $T_{air}$ in response to (a) shortwave radiation, (b) wind speed, (c) relative humidity, (d) leaf width, and (e) stomatal conductance.** Leaf temperatures were modeled using the tealeaves R package of @muir_tealeaves_2019 parameterized to represent typical conditions for a broadleaf species (*Quercus rubra*) in a mesic temperate forest (Harvard Forest, Massachusetts, USA), as detailed in Appendix `r appendix_tealeaves_methods`. [ISSUE #6](https://github.com/EcoClimLab/vertical-thermal-review/issues/6).](leaf_energy_balance/leaf_energy_balance.png)
 
 **(paragraph on radiation as a driver)**
-Incoming solar radiation is a strong driver of leaf temperature, relative to $T_{air}$, such that even at low maximum $T_{air}$, leaves exposed to high radiation loads can experience elevated $T_{leaf}$, greater than $T_{air}$ [Fauset et al. 2018]
+Incoming solar radiation is a strong driver of leaf temperature, relative to $T_{air}$, such that even at low maximum $T_{air}$, leaves exposed to high radiation loads can experience elevated $T_{leaf}$, greater than $T_{air}$. On the other hand, under conditions constant radiation, increase in $T_{air}$ can induce evaporative cooliing [Drake et al. 2018] or under high $T_{air}$, can cause leaf heat stress [Fauset et al. 2018]
 
 Greater upper canopy wind speeds (Fig. `r fig_NEON_vertical`) result in higher boundary layer conductance ($g_{a}$) for canopy leaves, which increases linearly with wind velocity [@daudetWindSpeedLeaf1999a]. 
 Large $g_{a}$ to heat transfer, in turn, results in a smaller difference between $T_{leaf}$ and $T_{air}$. 
@@ -222,7 +222,7 @@ In low wind conditions, because $g_{a}$ to heat transfer is comparatively small,
 Additionally, the thickness of the air layer is proportional to boundary layer resistance at the surface of the leaf through which water vapor diffuses after leaving the stomata. This tends to be greater in the understory than in the canopy [@martin_boundary_1999; @robertsStomatalBoundaryLayerConductances1990a; @stokesBoundaryLayerConductance2006]
 
 **(paragraph on hydraulics as a driver of leaf T:e.g., water on leaves - evaporative cooling - and leaf water content)**
-Leaf temperature, is also influenced by stomtal conductance and leaf water content [*Koch et al. 1994*]. Leaves with open stomata can maintain $T_{leaf}$ similar to $T_{air}$ at high radiation loads, *with coolest leaves at intermediate sizes (~10mm)*. 
+Leaf thermoregulation is a tradeoff between water use strategy and optimum leaf temperature, which is influenced by stomtal conductance and leaf water content [@fauset_differences_2018; *Koch et al. 1994*]. Leaves with open stomata can maintain $T_{leaf}$ similar to $T_{air}$ at high radiation loads, *with coolest leaves at intermediate sizes (~10mm)*. 
 Under hot conditions, canopy leaves exposed to higher wind speeds would be most effective at cooling when sufficient water is available to maintain high stomatal conductance.  However, in circumstances such as during the midday, $T_{leaf}$ can become highly elevated above $T_{air}$ when $g_{s}$ or $g_{a}$ is low. This is caused by increase in air temperature and VPD, which limits stomatal conductance along with decreased leaf water content and leaf CO~2~ [*Koch et al. 1994*; @fauset_differences_2018]. On the other, shaded understory leaves under closed canopies should tend to maintain cooler daytime leaf temperatures for any given level of stomatal conductance. 
 
 **In addition, leaf size and morphology, which vary dramatically across the vertical gradient (reviewed in following section), impact $g_{a}$ and therefore leaf temperature.** 
@@ -233,9 +233,9 @@ While small leaves remain within a few degrees of $T_{air}$, regardless of stoma
 ### In-situ observations
 
 **Vertical profiles in microclimate (Fig. `r fig_NEON_vertical`), leaf traits (see following section), and *evapotranspiration* (*where is this discussed? and do we say anything about evaporation?*) together shape in-situ leaf temperatures according to the principles outlined above (Fig. `r fig_leaf_T`).** 
-Vertical gradient in leaf processes and leaf temperature is influenced by vertical microclimate profile. While the high-light environment of the upper canopy would tend to dramatically increase $T_{leaf}$ above $T_{air}$, particularly under low-wind conditions, strong vertical gradients in leaf morphology and sometimes *evapotranspiration* have a counteractive effect, such that vertical trends in $T_{leaf}$ are much less pronounced than would be expected based on the physical setting alone.
+Leaf processes and leaf temperature at a vertical gradient are influenced by vertical microclimate conditions. While the high-light environment of the upper canopy would tend to dramatically increase $T_{leaf}$ above $T_{air}$, particularly under low-wind conditions, strong vertical gradients in leaf morphology and sometimes *evapotranspiration* have a counteractive effect, such that vertical trends in $T_{leaf}$ are much less pronounced than would be expected based on the physical setting alone.
 
-In open forests, such as in needle-leaf forests, lower canopy $T_{leaf}$ can be substantially warmer than upper canopy $T_{leaf}$, reflecting microclimate conditions of increased vertical air mixing, heating from the ground [@mullerEvidenceEfficientNonevaporative2021], light permeating through canopy layers and low wind velocity in the lower canopy compared to the upper canopy [@mullerEvidenceEfficientNonevaporative2021; @martin_boundary_1999; @zweifelMiddayStomatalClosure2002; @hadleyInfluenceKrummholzMat1987]. Greater heat stress and $T_{air}$ in the lower canopy is also observed in an Australian open desert forest [Curtis et al.] and among timberline krummholz needle-leaf trees growing close to the ground 
+Particularly, in open forests, such as in needle-leaf forests, lower canopy $T_{leaf}$ can be substantially warmer than upper canopy $T_{leaf}$, reflecting microclimate conditions of increased vertical air mixing, heating from the ground [@mullerEvidenceEfficientNonevaporative2021], light permeating through canopy layers and low wind velocity in the lower canopy compared to the upper canopy [@mullerEvidenceEfficientNonevaporative2021; @martin_boundary_1999; @zweifelMiddayStomatalClosure2002; @hadleyInfluenceKrummholzMat1987]. Greater heat stress and $T_{air}$ in the lower canopy is also observed in an Australian open desert forest [Curtis et al.] and among timberline krummholz needle-leaf trees growing close to the ground 
 [@hadleyInfluenceKrummholzMat1987].  Similarly, during the dry season in a semi-decidudous tropical moist forest in Panama, sun leaves can also be cooled relative to $T_{air}$ more than lower canopy shade leaves [@rey-sanchez_spatial_2016]. Under other conditions $T_{leaf}$ tracks $T_{air}$ and therefore differs little between understory and canopy (Fig. `r fig_NEON_vertical`).
 
 At night when solar radiation is not a factor, differences in $T_{leaf}$ across the vertical gradient are very modest; for instance, @bolstad_foliar_1999 observed similar nighttime $T_{leaf}$'s in the canopy and understory	of a temperate broadleaf forest. 
@@ -249,7 +249,7 @@ In closed-canopy forests, large leaf to air temperature differences and high lea
 
 ## Leaf traits 
 
-**Leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016] in accordance with the intensity and availability of light for optimizing C uptake, water uptake, heat and metabolism across forest vertical strata, thus show different degrees foliar plasticity [@rozendaalPlasticityLeafTraits2006]**
+**Leaf traits co-vary with their environment [@michaletzEnergeticCarbonEconomic2016], shaped by the intensity and availability of light, in order to optimize C uptake, water uptake, heat and metabolism across forest vertical strata, thus show different degrees foliar plasticity [michaletzPlantThermoregulationEnergetics2015]**
 
 Particularly in dense forests, the upper, outer canopy leaves of taller trees are exposed to dramatically different biophysical conditions than leaves in the canopy interior or understory (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`).
 Leaf traits are critical to maintaining desirable $T_{leaf}$ and, in turn, shaping leaf metabolism and carbon balance (following section).
@@ -261,23 +261,20 @@ Our primary interest is in how leaf traits and function vary across the vertical
 However, the majority of relevant research has focused on exposure gradients near ground level, with by far the most common study type being comparisons of sun and shade leaves. 
 Light based acclimation in leaf traits is well established, while research on solely height-based leaf trait variation is sparse due to the difficulty of isolating increased tree height from light. 
 While light is the primary axis along which leaf traits vary, both theory and empirical evidence indicate that other factors--for example, height on a tree or exposure to evaporative demand (Fig. `r fig_NEON_vertical`)-- are important in shaping at least a subset of traits. 
-In particular, hydraulic constraints increase with height on a tree [REFS; *McDowell-isotopes book chapter*; @cobleLightAcclimationOptimizes2015; *Couvreur et al., 2018*], such that gas exchange is strongly constrained by at the tops of the world's tallest trees (~100 m. tall *Sequoia sempervirens*; *Ambrose et al. 2009, 2010*).
-Disentangling the influences of hydraulic constraints, light, and other biophysical drivers that vary with height (Fig. `r fig_NEON_vertical`) on leaf form and function remains an important area for research, but is beyond the scope of the current review.
-For the purposes of interpreting the results presented here, we note that patterns across light and height gradients age generally similar, at least in direction (Table 1), but likely to be modified by covarying biophysical constraints. 
-
-*(The following notes need to be condensed/ worked into the paragraph above or discussion of specific traits. No need to get very specific (listing species studied, traits)--what we want is generalization. The goal is to answer the question, "Do we expect light gradients to be equivalent to height gradients, or is there variation attributable to height that is not captured by light gradients?")*
-
-
-Light based acclimation in leaf traits is well established, while research on solely height-based leaf trait variation is sparse due to the difficulty of isolating increased tree height from changes in light availability. However, studies that have measured LMA in relation to height have found that in tropical forests LMA-height predicted stronger correlation between area-based respiration versus foliar nutrients, whereas Q10 and E10 remained constant with height [Cavaleri et al. 2008]. In a temperate Acer saccharum forest, LMA and $N_{area}$ were greater with height early in the growing season as a result of hydrostatic constraints on leaf morphology. Later in the growing season, LMA and $N_{area}$ continued to increase in the upper canopy, but due to light driven changes [@cobleLightDrivesVertical2014a; @cobleLightAcclimationOptimizes2015; @cobleHowVerticalPatterns2016]. In addition, carbon isotope composition has also been shown to increase with height, independent of light [@cobleLightAcclimationOptimizes2015]
+In particular, hydraulic constraints increase with height on a tree [REFS; *McDowell-isotopes book chapter*; @cobleLightAcclimationOptimizes2015; *Couvreur et al., 2018*], such that gas exchange is strongly constrained by at the tops of the world's tallest trees (~100 m. tall *Sequoia sempervirens*; *Ambrose et al. 2009, 2010*). 
+Carbon isotope composition has also been shown to increase with height, independent of light [@cobleLightAcclimationOptimizes2015]
 
 Height-based leaf trait variation in two tall temperate species, *Quercus alba* and *Quercus velutina*, showed decreases in lobation with increased height, suggesting an adaptation to hydraulic constraints in order to lower evapotranspiration with increasing height by decreasing lobation [@kusiPlasticLeafMorphology2020]. However, @sackHowStrongIntracanopy2006 did not observe trait variation based on height in Quercus species.
 
+Disentangling the influences of hydraulic constraints, light, and other biophysical drivers that vary with height (Fig. `r fig_NEON_vertical`) on leaf form and function remains an important area for research, but is beyond the scope of the current review.
+For the purposes of interpreting the results presented here, we note that patterns across light and height gradients age generally similar, at least in direction (Table 1), but likely to be modified by covarying biophysical constraints. 
 
-* Height is more important than light in determining leaf morphology in a tropical forests (Cavaleri et al. 2010)
-- (Cavaleri et al. 2008) 
-- from Martijn: "If I remember correctly, height and light exposure are closely correlated and things like LMA scale with both, but above a certain level of light exposure, the effect of additional light disappears, while the relationship of the morphological traits with height continues. I have often been a bit skeptical about assuming height drives morphology, as most of the work that convincingly shows that (and relates it to turgor pressure for example) is from 100 m tall redwoods."
-- Elsa: see also H. Poorter, U. Niinemets, L. Poorter, I. J. Wright, R. Villar, Causes and consequences of variation in leaf mass per area (LMA): A meta-analysis. New Phytol. 182, 565–588 (2009). -- LMA responds to changes in light, with shade-intolerant species displaying higher plasticity in response to light.
 - Beyond a certain height, light becomes less important than height in determing traits [Ambrose, Sillet, Cavaleri]
+
+- from Martijn: "If I remember correctly, height and light exposure are closely correlated and things like LMA scale with both, but above a certain level of light exposure, the effect of additional light disappears, while the relationship of the morphological traits with height continues. I have often been a bit skeptical about assuming height drives morphology, as most of the work that convincingly shows that (and relates it to turgor pressure for example) is from 100 m tall redwoods."
+
+*(The following notes need to be condensed/ worked into the paragraph above or discussion of specific traits. No need to get very specific (listing species studied, traits)--what we want is generalization. The goal is to answer the question, "Do we expect light gradients to be equivalent to height gradients, or is there variation attributable to height that is not captured by light gradients?")*
+
 
 #### *(clarify intra- vs inter-specific variation - 1 short paragraph)*
 
@@ -286,10 +283,8 @@ The majority of studies characterizing variation in leaf traits or metabolism ex
 However, when it comes to understanding and modeling forest ecosystem function, the relevant scale of variation is interspecific (e.g., *Lamour, Serbin in prep*).
 
 
-Several studies point towards differences in leaf trait plasticity within-species and at an intra-canopy gradient which influences leaf structural and biochemical traits [@sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. The differences among these traits contribute to leaf heat dissipation strategies and leaf temperature across the gradient [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016] Table `r table_leaf_traits` summarizes relevant traits for thermal sensitivity.
-
-
 ### Intraspecific variation
+
 
 After the formation of leaves to integrated light, it takes 30-60 days for traits to stabilize in woody species [@keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. 
 A network of sensory photoreceptors in leaves, such as phytochromes, mediate leaf-level responses to PAR and the ratio of red to far red radiation intercepting the leaf surface. This enables acclimation or avoidance responses through the development of necessary leaf traits [@casalPhotoreceptorSignalingNetworks2013]. 
@@ -348,6 +343,9 @@ High light stimulates the need for photoprotection in leaves in order to protect
 ### Interspecific varaiation 
 
 *(KAT: a lot of this content should probably move up the the intro to this section)*
+
+- Elsa: see also H. Poorter, U. Niinemets, L. Poorter, I. J. Wright, R. Villar, Causes and consequences of variation in leaf mass per area (LMA): A meta-analysis. New Phytol. 182, 565–588 (2009). -- LMA responds to changes in light, with shade-intolerant species displaying higher plasticity in response to light.
+
 
 As a result of different light regimes, a sun and shade leaf trait dichotomy has been established across species by various studies where typical sun leaves are often smaller in size and width, thicker, and hairier, with thicker cuticle and greater lobation than shade leaves
 [Rozendaal et al. 2006, Mathur et al. 2018, more REFS].
