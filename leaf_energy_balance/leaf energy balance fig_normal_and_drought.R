@@ -21,7 +21,7 @@ library(cowplot)
 #all variables are constant except for the independent variable that represents minimum- maximum range
 #normal represents HARV neon environmental parameters as observed
 #Stomtal conductane(gs) values for typical condition obtained from Tleaves supplementary manual for range of minimum and maximum values
-#drought condition is representative of gs values from Cavendar-Bares and Bazzaz, 2000 and typically low relative humidity
+#drought condition is representative of gs values from Cavendar-Bares and Bazzaz, 2000 and typically low relative humidity, with other variables similar to normal condition
 ####################################
 
 # Create a dataframe for overstory and understory, for scenarios: normal and drought
