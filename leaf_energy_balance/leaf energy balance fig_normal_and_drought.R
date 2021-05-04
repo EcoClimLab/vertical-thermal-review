@@ -368,7 +368,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair*")+xlab("stomal conductance")
+  ylab("TLeaf - Tair*")+xlab("stomatal conductance")
 c1
 
 
@@ -575,8 +575,8 @@ annotate_figure(
   bottom = text_grob("constants from harvard NEON data 
                     \n overstory- sw: 871, tair: 298.1 [k], ws: 2.88, gs: 4.0 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.91, 
                      \n understory- sw: 102, tair: 296.1 [k], ws: 0.24, gs: 2.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.97
-                     \n drought overstory- sw: 871, tair: 298.1 [k], ws: 2.88, gs: 2.5 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.31, 
-                     \n drought understory- sw: 102, tair: 296.1 [k], ws: 0.24, gs: 1.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.37 
+                     \n drought overstory (dotted line)- sw: 871, tair: 298.1 [k], ws: 2.88, gs: 2.5 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.31, 
+                     \n drought understory (dotted line)- sw: 102, tair: 296.1 [k], ws: 0.24, gs: 1.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.37 
                      \n *TLeaf - Tair not standardized", 
                      lineheight = 0.7, color = "black", size = 8))
 
