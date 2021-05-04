@@ -4,7 +4,7 @@
 # Tleaves R package created by Chris Muir, 2019
 # Developed by: Nidhi Vinod, contact Nidhi Vinod (nidrup@gmail.com)
 # R version 3.5.3 --First created in October 2020
-# Sept-March. 2020
+# Sept-August 2021
 ####################################
 #install packages if needed
 library(magrittr)
@@ -18,10 +18,10 @@ library(cowplot)
 
 ####################################
 #create data frames using HARV NEON data for environmental parameters. Leaf characteristic dimmension in m is measured from Sun and shade Red oak leaves
-#all variables constant except for one independent variable that represents minimum- maximum range
-#Stomtal conductane(gs) value magnitudes obtained from Tleaves supplementary manual for range of values
+#all variables are constant except for the independent variable that represents minimum- maximum range
 #normal represents HARV neon environmental parameters as observed
-#drought represents low gs and low relative humidity
+#Stomtal conductane(gs) values for typical condition obtained from Tleaves supplementary manual for range of minimum and maximum values
+#drought condition is representative of gs values from Cavendar-Bares and Bazzaz, 2000 and typically low relative humidity
 ####################################
 
 # Create a dataframe for overstory and understory, for scenarios: normal and drought
