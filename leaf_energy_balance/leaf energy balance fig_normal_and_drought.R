@@ -161,7 +161,7 @@ a1 <-ggplot(data = sw)+
   scale_linetype_manual(name = "canopy position",
                         labels = c("overstory", "understory", "drought overstory", "drought understory"),
                         values = c( 1, 1, 2, 2), guide = "legend")+
-  ylab("TLeaf - Tair*")+xlab("short wave radiation")
+  ylab("TLeaf - Tair [k]*")+xlab("short wave radiation (W/m^2)")
 
 a1 
 
@@ -272,7 +272,7 @@ b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair*")+xlab("windspeed")
+  ylab("TLeaf - Tair [k]*")+xlab("windspeed (ms-1)")
 
 b1
 
@@ -310,7 +310,7 @@ b<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair*")+xlab("windspeed")+scale_y_continuous(breaks = c(-2, 0, 2))
+  ylab("TLeaf - Tair*")+xlab("windspeed (ms-1)")+scale_y_continuous(breaks = c(-2, 0, 2))
 b
 
 
@@ -368,7 +368,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair*")+xlab("stomatal conductance")
+  ylab("TLeaf - Tair [K]*")+xlab("stomatal conductance (µmol m-2 s-1 Pa-1)")
 c1
 
 
@@ -467,7 +467,7 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair*")+xlab("leaf size")
+  ylab("TLeaf - Tair[K]*")+xlab("leaf size (m)")
 d1
 
 
@@ -564,7 +564,7 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair*")+xlab("relative humidity")
+  ylab("TLeaf - Tair [k]*")+xlab("relative humidity")
 e1
 #without transformation
 
@@ -573,10 +573,10 @@ figure1
 annotate_figure(
   figure1,
   bottom = text_grob("constants from harvard NEON data 
-                    \n overstory- sw: 871, tair: 298.1 [k], ws: 2.88, gs: 4.0 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.91, 
-                     \n understory- sw: 102, tair: 296.1 [k], ws: 0.24, gs: 2.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.97
-                     \n drought overstory (dotted line)- sw: 871, tair: 298.1 [k], ws: 2.88, gs: 2.5 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.31, 
-                     \n drought understory (dotted line)- sw: 102, tair: 296.1 [k], ws: 0.24, gs: 1.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.37 
+                    \n overstory- sw: 871, tair: 298.1 [k], ws: 2.88 ms-1, gs: 4.0 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.91, 
+                     \n understory- sw: 102, tair: 296.1 [k], ws: 0.24 ms-1, gs: 2.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.97
+                     \n drought overstory (dotted line)- sw: 871, tair: 298.1 [k], ws: 2.88 ms-1, gs: 2.5 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.31, 
+                     \n drought understory (dotted line)- sw: 102, tair: 296.1 [k], ws: 0.24 ms-1, gs: 1.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.37 
                      \n *TLeaf - Tair not standardized", 
                      lineheight = 0.7, color = "black", size = 8))
 
