@@ -52,13 +52,18 @@ for(i in 1:3){
     
     if(i==1){ #LAD
       graph <- graph +
-        xlab(expression(Leaf~area~density~(m^{2}~m^{-3})))
+        xlab(expression(Leaf~area~density~(m^{2}~m^{-3}))) +
+        ylab("Height [m]")
     } else if(i==2){ # light profile
       graph <- graph +
-        xlab('Proportion incident light')
+        xlab('Proportion incident light') +
+        theme(axis.text.y=element_blank(),
+              axis.ticks.y=element_blank())
     } else if(i==3){ #sun leaves
       graph <- graph +
-        xlab("Proportion sun leaves")
+        xlab("Proportion sun leaves") +
+        theme(axis.text.y=element_blank(),
+              axis.ticks.y=element_blank())
     } 
     graph <- graph + 
       theme(plot.title = element_text(size=16),

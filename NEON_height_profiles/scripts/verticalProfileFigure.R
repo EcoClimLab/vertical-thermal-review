@@ -170,6 +170,9 @@ for(i in 1:length(dp[,name])){
     if(i %in% c(1,2)){ #windspeed, RH
       graph <- graph + 
         xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
+      if(i==1){
+        graph <- graph + ylab("Height [m]")
+      }
     } else if(i==3){ #tempSingle
       graph <- graph +
         xlab(expression(
@@ -181,6 +184,13 @@ for(i in 1:length(dp[,name])){
     } else if(i==5){ #PAR
       graph <- graph + 
         xlab("max PAR")
+    }
+    
+    ## remove y-axis from all but windspeed
+    if(i %in% c(2:5)){
+      graph <- graph + 
+          theme(axis.text.y=element_blank(),
+                axis.ticks.y=element_blank())
     }
     
     if(i==4){ #biotemp - legend purposes
@@ -204,10 +214,8 @@ p <- ggarrange(plotsLAD[["LAD"]], plotsLAD[["sun"]], plotsLAD[["lgt"]],
                plots[["tempSingleMean"]], plots[["bioTempMean"]],
                nrow=2, ncol=4, labels=c("A", "B", "C", "D", "E", "F", "G", "H"))
 
-png(paste0("figures/profile_all.png"), height=600, width=960)
-print(
-  annotate_figure(p, 
-                  left = text_grob("Height [m]", rot = 90)))
+png(paste0("figures/profile_all1.png"), height=600, width=960)
+print(p)
 dev.off()
 
 ##########################################################################
