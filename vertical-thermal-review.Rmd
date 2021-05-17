@@ -130,7 +130,7 @@ We focus on five key themes (Fig. `r fig_schematic`):
 (5) size-structuring of whole-tree and ecosystem function.
 *We then consider the implications for understanding forest responses to global change, including scaling across space and time.* 
 
-![**Figure `r fig_schematic`. DRAFT schematic of a forest summarizing most important gradients--sort of a "graphical abstract".** [Issue #27](https://github.com/EcoClimLab/vertical-thermal-review/issues/27). ](schematics/vertical thermal sensitivity image.png)
+![**Figure `r fig_schematic`. Schematic summarizing vertical gradients in forests with dense canopies during daytime growing season conditions.** Patterns summarized here tend to be weaker, or sometimes reversed, under more open canopies, during seasons of deciduous leaf loss, or at nighttime. [Issue #27](https://github.com/EcoClimLab/vertical-thermal-review/issues/27). ](schematics/vertical thermal sensitivity image.png)
 
 
 
@@ -143,7 +143,8 @@ Here, we define the biophysical environment to include the physical structure of
 In this section, we supplement a review of the existing literature with a new analysis of data on vegetation structure and vertical microclimate profiles from the U.S. National Ecological Observatory Network [NEON; Appendix `r appendix_NEON_methods`, Schimel et al. 2007].
 
 ### Foliage density
-**Canopy foliage, acts as the primary physical barrier between the atmosphere and the forest floor, buffering multiple aspects of the understory conditions and is critical in influencing--and is influenced by--the vertical biophysical gradient.(Fig. `r fig_NEON_vertical`).**The distribution of this foliage is structured in correspondence with the size, and varies across tree structures and forests.  
+**Canopy foliage acts as the primary physical barrier between the atmosphere and the forest floor, buffering multiple aspects of the understory conditions. It is critical in influencing -- and in turn is influenced by -- the vertical biophysical gradient (Fig. `r fig_NEON_vertical`).**
+The distribution of this foliage is structured in correspondence with the distribtuion of tree sizes within a forest.  
 Leaf area density.... *description of most common vertical pattern (@bonan_ecological_2016 reviews this and points to appropriate references)*
 Vertical profiles in leaf area density vary across forests, being... *summarize some key differences across forest types* (REFS), and are altered (*HOW?*) following disturbance [e.g., @parkerCanopyLightTransmittance2002 ; @almeidaContrastingFireDamage2016 ; @starkReframingTropicalSavannization2020].
 They also vary seasonally, ... (Parker & Tibbs 2004; @smithSeasonalDroughtrelatedChanges2019 ; @parkerConsequencesEnvironmentalHeterogeneity2019). 
@@ -163,12 +164,12 @@ Generally, along the vertical gradient of forests globally, amount of light decr
 Across all **#** forested NEON sites, and in closed-canopy forests [@barnardSeasonalVariationCanopy2016a; @mcgregor_tree_nodate] to open savannas [@curtis_intracanopy_2019] wind speeds increase with height. With daily maximum wind speeds averaging up to **#** m s^-1^ higher at the top of the NEON vertical profile than at the bottom 
 
 ### Air temperature 
-**Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. `r fig_NEON_vertical`).**
+**Air temperature, $T_{air}$, often shows little variation across the vertical gradient, but under certain circumstances it can be significantly buffered by forest canopies (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`).**
 Studies comparing $T_{air}$ under forest canopies with nearby clearings have found lower maximum temperatures under forest canopies globally [@defrenneGlobalBufferingTemperatures2019]. 
 
-The strength of this buffering is greater under dense-canopy than open-canopy forests; with daytime cooler lower maximum  temperature, and nighttime warmer higher minimum in the understory, relatively more than open-forests, nearby clearings [*Defrenne et al. 2021*; @vonarxSpatiotemporalEffectsForest2012a, *Defrenne et al. 2021*; @davis_microclimatic_2019; @zellweger_seasonal_2019; @ramboCanopyMicroclimateResponse2009;  @martin_boundary_1999] and neighboring tree crop agricultural plantations [@hardwickRelationshipLeafArea2015; @juckerCanopyStructureTopography2018]. 
+The strength of this buffering is greater under dense than open canopies; with daytime cooler lower maximum  temperature, and nighttime warmer higher minimum in the understory, relatively more than open-forests, nearby clearings [*Defrenne et al. 2021*; @vonarxSpatiotemporalEffectsForest2012a, *Defrenne et al. 2021*; @davis_microclimatic_2019; @zellweger_seasonal_2019; @ramboCanopyMicroclimateResponse2009;  @martin_boundary_1999] and neighboring tree crop agricultural plantations [@hardwickRelationshipLeafArea2015; @juckerCanopyStructureTopography2018]. (*This sentence is too complex-- hard to understand*)
 
-Seasonally, buffering capacity increases with water availablity [@davisMicroclimaticBufferingForests2019] and is greater in wet than dry seasons [@rey-sanchez_spatial_2016; @vonarxSpatiotemporalEffectsForest2012a; @fauset_differences_2018, Tymen et al. 2017; @mcgregor_tree_nodate]. In colder conditions, dense-canopies maintain warmer higher minimum temperatures [$T_{min}$] in the understory relative to open-canopy forests and nearby clearings where greater radiative heat loss results in lower $T_{min}$ [@zellweger_seasonal_2019; *Defrenne et al. 2021*; @nakamuraForestsTheirCanopies2017; @mcgregor_tree_nodate].
+Seasonally, buffering capacity increases with water availability [@davisMicroclimaticBufferingForests2019] and is greater in wet than dry seasons [@rey-sanchez_spatial_2016; @vonarxSpatiotemporalEffectsForest2012a; @fauset_differences_2018, Tymen et al. 2017; @mcgregor_tree_nodate]. In colder conditions, dense-canopies maintain warmer higher minimum temperatures [$T_{min}$] in the understory relative to open-canopy forests and nearby clearings where greater radiative heat loss results in lower $T_{min}$ [@zellweger_seasonal_2019; *Defrenne et al. 2021*; @nakamuraForestsTheirCanopies2017].
 
 ### Humidity and evaporative demand
 **Humidity also varies across the forest vertical profile, and is generally higher in the understory (Fig. `r fig_NEON_vertical`).**[@mcgregor_tree_nodate]
