@@ -160,7 +160,7 @@ Generally, along the vertical gradient of forests globally, amount of light decr
 
 ### Wind speeds 
 **Wind speeds are also higher at the top of the canopy (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`), owing to... [@juckerCanopyStructureTopography2018].**
-Across all **#** forested NEON sites, and in closed-canopy forests [@barnardSeasonalVariationCanopy2016a; @mcgregor_tree_nodate] to open savannas [@curtis_intracanopy_2019] wind speeds increase with height. With daily maximum wind speeds averaging up to **#** $m s^-1^$ higher at the top of the NEON vertical profile than at the bottom 
+Across all **#** forested NEON sites, and in closed-canopy forests [@barnardSeasonalVariationCanopy2016a; @mcgregor_tree_nodate] to open savannas [@curtis_intracanopy_2019] wind speeds increase with height. With daily maximum wind speeds averaging up to **#** m s^-1^ higher at the top of the NEON vertical profile than at the bottom 
 
 ### Air temperature 
 **Air temperature, $T_{air}$, is sometimes significantly buffered by forest canopies (Fig. `r fig_NEON_vertical`).**
@@ -188,8 +188,9 @@ With altitude, the strength of buffering decreases, moving to open-forests [@zel
 
 ### Biophysical drivers
 
-**Vertical biophysical drivers reviewed above influence heat and water stress patterns, and leaf temperature $T_{leaf}$ distribution along the vertical gradient, which in turn shapes leaf metabolism (see following section).**
-Along the biophysical dynamics vertically, leaves adjust to their environment by maintaining optimum $T_{leaf}$, for carbon assimilation and metabolic processes  [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020]. Therefore, leaves can be cooler than air at high temperature and warmer than air at low temperature (limited homeothermy) or can be drastically warmer than $T_{air}$ (megathermy). In some cases, $T_{leaf}$ can be equalled to $T_{air}$ (poikilothermy) [@cavaleriColdbloodedForestsWarming2020; @drakeNoEvidenceHomeostatic2020]. 
+**Vertical biophysical drivers reviewed above influence heat and water stress patterns, thereby influencing leaf temperature $T_{leaf}$ distributions along the vertical gradient.**
+Along the biophysical gradients, leaves adjust to their environment by maintaining, when possible, a $T_{leaf}$ that is optimal for carbon assimilation and metabolic processes  [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020]. 
+Leaves can be cooler than air at high temperature and warmer than air at low temperature (limited homeothermy) or can be drastically warmer than $T_{air}$ (megathermy). In some cases, $T_{leaf}$ can be equalled to $T_{air}$ (poikilothermy) [@cavaleriColdbloodedForestsWarming2020; @drakeNoEvidenceHomeostatic2020]. 
 
 $T_{leaf}$ is determined by the energy balance of a leaf and can be estimated based on basic biophysical principles  [@campbell_introduction_1998; @muir_tealeaves_2019; @michaletzEnergeticCarbonEconomic2016] (Fig. `r fig_leaf_T`) where $T_{leaf}$-$T_{air}$ is a function of energy input (through radiation or heat) versus heat lost (such as transpiration) to the environment [Fig. 2; @michaletzPlantThermoregulationEnergetics2015].
 
@@ -207,14 +208,17 @@ High wind speed (Fig. `r fig_NEON_vertical`) decreases $T_{leaf}$ - $T_{air}$ du
 **In addition, leaf size and morphology, which vary dramatically across the vertical gradient (reviewed in following section), impact $g_{a}$ and therefore leaf temperature.** Small leaves tend to heat and cool faster due to higher $ga$, maintaining lower $T_{leaf}$-$T_{air}$ than large leaves that take longer to heat and cool due to low $ga$ [@bauerleSeparatingFoliarPhysiology2011; @leighInfluenceLeafSize2017].
 
 ### In-situ observations
-**The principles outlined above, vertical microclimate profile (Fig. `r fig_NEON_vertical`), leaf traits (see following section), and evapotranspiration (where is this discussed? and do we say anything about evaporation?) together shape in-situ $T_{leaf}$ observations (Fig. `r fig_leaf_T`).** 
+**The principles outlined above, vertical microclimate profile (Fig. `r fig_NEON_vertical`) and leaf traits (see following section) together shape in-situ $T_{leaf}$ observations (Fig. `r fig_leaf_T`).** 
+In open forests with lower buffering capacity, lower-canopy $T_{leaf}$ is greater than upper canopy, due to vertical air mixing, greater light permeability, still air in the lower canopy and heating from the ground can collectively increase $T_{leaf}$ [@mullerEvidenceEfficientNonevaporative2021; @martin_boundary_1999; @zweifelMiddayStomatalClosure2002; @hadleyInfluenceKrummholzMat1987;@rey-sanchez_spatial_2016]. Similarly, trees growing close to the ground can experience greater heat stress in their lower than upper canopies [@hadleyInfluenceKrummholzMat1987; @curtis_intracanopy_2019]. 
+Greater $RH$ in closed-inner canopy can also increase $T_{leaf}$  relatively more than upper-canopy $T_{leaf}$ [@dietzVerticalPatternsDuration2007]. 
+Under other conditions $T_{leaf}$ tracks $T_{air}$ and therefore differs little between understory and canopy (Fig. `r fig_NEON_vertical`).
 
-Particularly, in open-forests with lower buffering capacity, lower-canopy $T_{leaf}$ is greater than upper canopy, due to vertical air mixing, greater light permeability, still air in the lower canopy and heating from the ground can collectively increase $T_{leaf}$ [@mullerEvidenceEfficientNonevaporative2021; @martin_boundary_1999; @zweifelMiddayStomatalClosure2002; @hadleyInfluenceKrummholzMat1987;@rey-sanchez_spatial_2016]. Similarly, trees growing close to the ground can experience greater heat stress in their lower than upper canopies [@hadleyInfluenceKrummholzMat1987; @curtis_intracanopy_2019]. Greater $RH$ in closed-inner canopy can also increase $T_{leaf}$  relatively more than upper-canopy $T_{leaf}$ [@dietzVerticalPatternsDuration2007]. Under other conditions $T_{leaf}$ tracks $T_{air}$ and therefore differs little between understory and canopy (Fig. `r fig_NEON_vertical`).
+**However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.** 
+Closed-canopy forests, including tropical and temperate broadleaf forests, experience greater $T_{leaf} - T_{air}$ and higher maximum $T_{leaf}$ in the upper canopies from $gs$ limitation, than buffered lower-canopies [@doughtyAreTropicalForests2008; @fauset_differences_2018; @mauTemperateTropicalForest2018a; @millerOnlySunlitLeaves2021; @rey-sanchez_spatial_2016; @mauTemperateTropicalForest2018a; @rey-sanchez_spatial_2016]. 
+Greater light input in exposed upper-canopy leaves can sometimes increase $T_{leaf_{max}}$ beyond temperature optimum for photosynthesis ($T_{opt}$) and $T_{air}$, making upper-canopies highly susceptible to heat stress [@doughtyAreTropicalForests2008; @mauTemperateTropicalForest2018a]. 
+Comparing forests, upper canopies of temperate deciduous species can have greater $T_{leaf}$ - $T_{air}$ than the upper canopies of tropical moist and wet forest species [@mauTemperateTropicalForest2018a]. 
 
-**However, canopy leaves can reach much higher maximum $T_{leaf}$, and higher $T_{leaf} - T_{air}$, than understory leaves.** Closed-canopy forests, such as tropical and semi-deciduous tropical, and temperate forests, experience greater $T_{leaf} - T_{air}$ and higher maximum $T_{leaf}$ in the upper canopies from $gs$ limitation, than buffered lower-canopies [@doughtyAreTropicalForests2008; @fauset_differences_2018; @mauTemperateTropicalForest2018a; @millerOnlySunlitLeaves2021; @rey-sanchez_spatial_2016; @mauTemperateTropicalForest2018a; @rey-sanchez_spatial_2016]. Greater light input in exposed upper-canopy leaves can sometimes increase $T_{leaf_{max}}$ beyond temperature optimum for photosynthesis ($T_{opt}$) and $T_{air}$ making upper-canopies highly susceptible to heat stress [@doughtyAreTropicalForests2008; @mauTemperateTropicalForest2018a]. 
-Comparing forests, upper-canopies of temperate-deciduous species can have greater $T_{leaf}$ - $T_{air}$ than the upper-canopies of tropical moist and wet forest species [@mauTemperateTropicalForest2018a]. 
-
-### Leaf traits 
+## Leaf traits 
 
 **Leaf thermoregulation is controlled by leaf traits, that are in-turn adapted to their environment [@michaletzEnergeticCarbonEconomic2016]. Therefore, are critical in maintaining desirable $T_{leaf}$ and shaping leaf metabolism (following section) across forest vertical strata (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`)[@michaletzPlantThermoregulationEnergetics2015; @zwienieckiHydraulicLimitationsImposed2004]**
 
@@ -226,7 +230,7 @@ Isolating height (>35m) under constant light show that, canopy $gs$ decreases wi
 
 However, disentangling tree-height related biological and biophysical drivers (Fig. `r fig_NEON_vertical`) on leaf traits remains an important area for research, which is sparse, but is beyond the scope of the current review. Here, our primary interest is in how leaf traits and function vary across the vertical gradient from the canopy-top to the understory in forests. We note that patterns across light and height gradients are generally similar, at least in direction (Table 1), but likely to be modified by covarying biophysical constraints. 
 
-#### *(clarify intra- vs inter-specific variation - 1 short paragraph)*
+### *(clarify intra- vs inter-specific variation - 1 short paragraph)*
 
 Across the vertical gradient, traits vary (1) across sun and shade leaves within individuals, (2) across canopy and understory individuals of the same species, and (3) across canopy and understory species. 
 The majority of studies characterizing variation in leaf traits or metabolism examine intraspecific patterns (categories 1 and 2), which are therefore the main focus of this review (Table 1).
