@@ -344,7 +344,8 @@ The high temperature carbon compensation point of sun leaves is higher in isopre
 
 ## Size-structuring within the ecosystem
 
-**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism and its thermal responses scale up to affect whole-tree ecology and ecosystem ecology in several ways.** 
+**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism and its thermal responses scale up to affect whole-tree ecology and ecosystem ecology.** 
+
 Vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in understory versus canopy conditions.
 
 ### Demography
