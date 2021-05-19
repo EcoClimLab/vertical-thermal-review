@@ -91,10 +91,10 @@ sw_u$u_tleaf_tair<- sw_u$tleaf - sw_u$tair
 
 # 1. Shortwave radiation, drought
 dr_sw_l<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
-                  rh = 0.37, wind = 0.24, tair = 296.1, pressure = 99, leaf.size = 0.10, 
+                  rh = 0.49, wind = 0.24, tair = 296.1, pressure = 99, leaf.size = 0.10, 
                   gs = 0.1)
 dr_sw_u<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
-                  rh = 0.31, wind = 2.88, tair = 298.1, pressure = 99, leaf.size = 0.04, 
+                  rh = 0.46, wind = 2.88, tair = 298.1, pressure = 99, leaf.size = 0.04, 
                   gs = 1.0)
 dr_sw_l$par <- dr_sw_l$par*0.5#sw
 dr_sw_u$par <- dr_sw_u$par*0.5#sw
@@ -164,7 +164,7 @@ a1 <-ggplot(data = sw)+
   scale_linetype_manual(name = "canopy position",
                         labels = c("overstory", "understory", "drought overstory", "drought understory"),
                         values = c( 1, 1, 2, 2), guide = "legend")+
-  ylab("TLeaf - Tair [k]*")+xlab("short wave radiation (W/m^2)")
+  ylab("TLeaf - Tair [k]")+xlab("short wave radiation")
 
 a1 
 
@@ -220,13 +220,13 @@ a1
 
 #understory
 ws_l<- data.frame(par = 203.69, 
-                  rh = 0.97, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88), 
+                  rh = 0.97, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.07, 3.42), 
                   tair = 296.1, pressure = 99, 
                   leaf.size = 0.10, 
                   gs = 2.0)
 #overstory
 ws_u<- data.frame(par = 1741.65, 
-                  rh = 0.91, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88), 
+                  rh = 0.91, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.07, 3.42), 
                   tair = 298.1, pressure = 99, 
                   leaf.size = 0.04, 
                   gs = 4.0)
@@ -245,12 +245,12 @@ ws_u$u_tla<- ws_u$tleaf - ws_u$tair
 
 #2. Windspeed, drought
 #understory
-dr_wsl<- data.frame(par = 303.69, rh = 0.37, 
-                         wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88), tair = 296.1, pressure = 99, leaf.size = 0.10, 
+dr_wsl<- data.frame(par = 305.54, rh = 0.49, 
+                         wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.07, 3.42), tair = 296.1, pressure = 99, leaf.size = 0.10, 
                          gs = 0.1)
 #overstory
-dr_wsu<- data.frame(par = 2000.65, 
-                         rh = 0.31, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88), tair = 298.1, pressure = 99, leaf.size = 0.04, 
+dr_wsu<- data.frame(par = 2614.47, 
+                         rh = 0.46, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.07, 3.42), tair = 298.1, pressure = 99, leaf.size = 0.04, 
                          gs = 1.0)
 
 dr_wsl$par <- dr_wsl$par*0.5#par to sw
@@ -275,7 +275,7 @@ b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair [k]*")+xlab("windspeed (ms-1)")
+  ylab("TLeaf - Tair [k]")+xlab("windspeed")
 
 b1
 
@@ -345,11 +345,11 @@ gs_u$u_tleaf_tair<- gs_u$tleaf - gs_u$tair
 
 #3. stomatal conductance, drought
 #understory
-dr_gsl<- data.frame(par = 303.69, rh = 0.37, 
+dr_gsl<- data.frame(par = 305.54, rh = 0.49, 
                   wind = 0.24, tair = 296.1, pressure = 99, leaf.size = 0.10, 
                   gs = c(0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5))
 #overstory
-dr_gsu<- data.frame(par = 2000.65, rh = 0.31, wind = 2.88, tair = 298.1, pressure = 99, 
+dr_gsu<- data.frame(par = 2614.47, rh = 0.46, wind = 2.88, tair = 298.1, pressure = 99, 
                   leaf.size = 0.04, gs = c(0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5))
 dr_gsl$par <- dr_gsl$par*0.5#par to sw
 dr_gsu$par <- dr_gsu$par*0.5#pa to sw
@@ -371,7 +371,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair [K]*")+xlab("stomatal conductance (µmol m-2 s-1 Pa-1)")
+  ylab("TLeaf - Tair [K]")+xlab("stomatal conductance")
 c1
 
 
@@ -421,11 +421,11 @@ c1
 #understory
 ls_l<- data.frame(par = 203.69, rh = 0.97, 
                         wind = 0.24, tair = 296.1, pressure = 99, 
-                        leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10), 
+                        leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12), 
                         gs = 2.0)
 ls_u<- data.frame(par = 1741.65, 
                         rh = 0.91, wind = 2.88, tair = 298.1, pressure = 99, 
-                        leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10), 
+                        leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12), 
                         gs = 4.0)
 ls_l$par <- ls_l$par*0.5#sw
 ls_u$par <- ls_u$par*0.5#sw
@@ -442,13 +442,13 @@ ls_u$ls_tla<- ls_u$tleaf - ls_u$tair
 
 #4. leaf size, drought
 #overstory
-dr_lsl<- data.frame(par = 303.69, rh = 0.37, 
+dr_lsl<- data.frame(par = 305.54, rh = 0.49, 
                         wind = 0.24, tair = 296.1, pressure = 99, 
-                        leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10), 
+                        leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12), 
                         gs = 0.1)
-dr_lsu<- data.frame(par = 2000.65, 
-                        rh = 0.31, wind = 2.88, tair = 298.1, pressure = 99, 
-                        leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10), 
+dr_lsu<- data.frame(par = 2614.47, 
+                        rh = 0.46, wind = 2.88, tair = 298.1, pressure = 99, 
+                        leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12), 
                         gs = 1.0)
 dr_lsl$par <- dr_lsl$par*0.5#sw
 dr_lsu$par <- dr_lsu$par*0.5#sw
@@ -470,7 +470,7 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair[K]*")+xlab("leaf size (m)")
+  ylab("TLeaf - Tair[K]")+xlab("leaf size")
 d1
 
 
@@ -538,11 +538,11 @@ rh_u$rh_tla<- rh_u$tleaf - rh_u$tair
 
 # RH, drought
 
-dr_rhl<- data.frame(par = 303.69, rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), 
+dr_rhl<- data.frame(par = 305.54, rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), 
                     wind = 0.24, tair = 296.1, pressure = 99, 
                     leaf.size = 0.10, 
                     gs = 0.1)
-dr_rhu<- data.frame(par = 2000.65, 
+dr_rhu<- data.frame(par = 2614.47, 
                     rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), wind = 2.88, tair = 298.1, pressure = 99, 
                     leaf.size = 0.04,  
                     gs = 1.0)
@@ -567,17 +567,17 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair [k]*")+xlab("relative humidity")
+  ylab("TLeaf - Tair [k]")+xlab("relative humidity")
 e1
 
 #constructing a table for the plot
 
 
-table<- data.frame(biophysical = c( "sw", "tair", "ws", "gs", "ls", "rh"),
-                   normalno = c(871, 298.1, 2.88, 4.0, 0.04, 0.91),
-                   normal_u = c(102, 296.1, 0.24, 2.0, 0.10, 0.97),
-                   drought_o = c(1000, 298.1, 2.88, 1.0, 0.04, 0.31),
-                   normalno = c(152, 296.1, 0.24, 0.1, 0.010, 0.37))
+table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
+                   normalno = c(871, 2.88, 0.91, 0.04, 4.0, 298.1),
+                   normal_u = c(102, 0.24, 0.97, 0.10, 2.0, 296.1),
+                   drought_o = c(1307, 2.88, 0.46, 0.04, 1.0, 298.1),
+                   normalno = c(153, 0.24, 0.49, 0.010, 0.1, 296.1))
 
 
 colnames(table) <- c("biophysical\nconstants",
