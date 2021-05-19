@@ -573,7 +573,7 @@ e1
 #constructing a table for the plot
 
 
-table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
+table<- data.frame(biophysical = c( "swr (W/m-2)", "ws (m/s)", "rh (%)", "ls (m)", "gs (mu.mol/m2/s/Pa)", "tair (K)"),
                    normalno = c(871, 2.88, 0.91, 0.04, 4.0, 298.1),
                    normal_u = c(102, 0.24, 0.97, 0.10, 2.0, 296.1),
                    drought_o = c(1307, 2.88, 0.46, 0.04, 1.0, 298.1),
