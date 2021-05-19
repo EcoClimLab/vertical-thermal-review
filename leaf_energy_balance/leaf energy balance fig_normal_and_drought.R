@@ -15,6 +15,9 @@ library(ggthemes)
 library(moderndive)
 library(ggpubr)
 library(cowplot)
+library(data.table)
+library(formattable)
+library(gridExtra)
 
 ####################################
 #create data frames using HARV NEON data for environmental parameters. Leaf characteristic dimmension in m is measured from Sun and shade Red oak leaves
@@ -27,11 +30,11 @@ library(cowplot)
 # Create a dataframe for overstory and understory, for scenarios: normal and drought
 # 1. Short wave radiation, normal
 #understory
-sw_l<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800), 
+sw_l<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
                   rh = 0.97, wind = 0.24, tair = 296.1, pressure = 99, leaf.size = 0.10, 
                   gs = 2.0)
 #overstory
-sw_u<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800), 
+sw_u<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
                   rh = 0.91, wind = 2.88, tair = 298.1, pressure = 99, leaf.size = 0.04, 
                   gs = 4.0)
 
@@ -87,12 +90,12 @@ sw_u$tleaf <- sw_u$tleaf +273.15
 sw_u$u_tleaf_tair<- sw_u$tleaf - sw_u$tair
 
 # 1. Shortwave radiation, drought
-dr_sw_l<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800), 
+dr_sw_l<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
                   rh = 0.37, wind = 0.24, tair = 296.1, pressure = 99, leaf.size = 0.10, 
-                  gs = 1.0)
-dr_sw_u<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800), 
+                  gs = 0.1)
+dr_sw_u<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
                   rh = 0.31, wind = 2.88, tair = 298.1, pressure = 99, leaf.size = 0.04, 
-                  gs = 2.5)
+                  gs = 1.0)
 dr_sw_l$par <- dr_sw_l$par*0.5#sw
 dr_sw_u$par <- dr_sw_u$par*0.5#sw
 
@@ -242,13 +245,13 @@ ws_u$u_tla<- ws_u$tleaf - ws_u$tair
 
 #2. Windspeed, drought
 #understory
-dr_wsl<- data.frame(par = 203.69, rh = 0.37, 
+dr_wsl<- data.frame(par = 303.69, rh = 0.37, 
                          wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88), tair = 296.1, pressure = 99, leaf.size = 0.10, 
-                         gs = 1.0)
+                         gs = 0.1)
 #overstory
-dr_wsu<- data.frame(par = 1741.65, 
+dr_wsu<- data.frame(par = 2000.65, 
                          rh = 0.31, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88), tair = 298.1, pressure = 99, leaf.size = 0.04, 
-                         gs = 2.5)
+                         gs = 1.0)
 
 dr_wsl$par <- dr_wsl$par*0.5#par to sw
 dr_wsu$par <- dr_wsu$par*0.5#par to sw
@@ -342,11 +345,11 @@ gs_u$u_tleaf_tair<- gs_u$tleaf - gs_u$tair
 
 #3. stomatal conductance, drought
 #understory
-dr_gsl<- data.frame(par = 203.69, rh = 0.37, 
+dr_gsl<- data.frame(par = 303.69, rh = 0.37, 
                   wind = 0.24, tair = 296.1, pressure = 99, leaf.size = 0.10, 
                   gs = c(0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5))
 #overstory
-dr_gsu<- data.frame(par = 1741.65, rh = 0.31, wind = 2.88, tair = 298.1, pressure = 99, 
+dr_gsu<- data.frame(par = 2000.65, rh = 0.31, wind = 2.88, tair = 298.1, pressure = 99, 
                   leaf.size = 0.04, gs = c(0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5))
 dr_gsl$par <- dr_gsl$par*0.5#par to sw
 dr_gsu$par <- dr_gsu$par*0.5#pa to sw
@@ -439,14 +442,14 @@ ls_u$ls_tla<- ls_u$tleaf - ls_u$tair
 
 #4. leaf size, drought
 #overstory
-dr_lsl<- data.frame(par = 203.69, rh = 0.37, 
+dr_lsl<- data.frame(par = 303.69, rh = 0.37, 
                         wind = 0.24, tair = 296.1, pressure = 99, 
                         leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10), 
-                        gs = 1.0)
-dr_lsu<- data.frame(par = 1741.65, 
+                        gs = 0.1)
+dr_lsu<- data.frame(par = 2000.65, 
                         rh = 0.31, wind = 2.88, tair = 298.1, pressure = 99, 
                         leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10), 
-                        gs = 2.5)
+                        gs = 1.0)
 dr_lsl$par <- dr_lsl$par*0.5#sw
 dr_lsu$par <- dr_lsu$par*0.5#sw
 
@@ -535,14 +538,14 @@ rh_u$rh_tla<- rh_u$tleaf - rh_u$tair
 
 # RH, drought
 
-dr_rhl<- data.frame(par = 203.69, rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), 
+dr_rhl<- data.frame(par = 303.69, rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), 
                     wind = 0.24, tair = 296.1, pressure = 99, 
                     leaf.size = 0.10, 
-                    gs = 1.0)
-dr_rhu<- data.frame(par = 1741.65, 
+                    gs = 0.1)
+dr_rhu<- data.frame(par = 2000.65, 
                     rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), wind = 2.88, tair = 298.1, pressure = 99, 
                     leaf.size = 0.04,  
-                    gs = 2.5)
+                    gs = 1.0)
 dr_rhl$par <- dr_rhl$par*0.5#sw
 dr_rhu$par <- dr_rhu$par*0.5#sw
 
@@ -566,17 +569,36 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
   ylab("TLeaf - Tair [k]*")+xlab("relative humidity")
 e1
+
+#constructing a table for the plot
+
+
+table<- data.frame(biophysical = c( "sw", "tair", "ws", "gs", "ls", "rh"),
+                   normalno = c(871, 298.1, 2.88, 4.0, 0.04, 0.91),
+                   normal_u = c(102, 296.1, 0.24, 2.0, 0.10, 0.97),
+                   drought_o = c(1000, 298.1, 2.88, 1.0, 0.04, 0.31),
+                   normalno = c(152, 296.1, 0.24, 0.1, 0.010, 0.37))
+
+
+colnames(table) <- c("biophysical\nconditions",
+                 "normal\noverstory", "normal\nunderstory", "drought\noverstory", "drought\nunderstory")
+table1<-ggtexttable(table, rows = NULL, theme = ttheme("mBlue"))
+
+
+gc_text <- paste("Constants from HARV NEON, solid lines represent normal, dotted lines represent drought", sep = " ")
+tex1 <- ggparagraph(text = gc_text, face = "italic", size = 8, color = "black")
 #without transformation
 
-figure1<-ggarrange(a1, b1, e1, d1, c1, ncol=3, nrow =2, common.legend = TRUE, align = c("v"), legend = "top")
+figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, common.legend = TRUE, align = c("v"), legend = "top")
 figure1
+
 annotate_figure(
   figure1,
   bottom = text_grob("constants from harvard NEON data 
                     \n overstory- sw: 871, tair: 298.1 [k], ws: 2.88 ms-1, gs: 4.0 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.91, 
                      \n understory- sw: 102, tair: 296.1 [k], ws: 0.24 ms-1, gs: 2.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.97
-                     \n drought overstory (dotted line)- sw: 871, tair: 298.1 [k], ws: 2.88 ms-1, gs: 2.5 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.31, 
-                     \n drought understory (dotted line)- sw: 102, tair: 296.1 [k], ws: 0.24 ms-1, gs: 1.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.37 
+                     \n drought overstory (dotted line)- sw: 1000, tair: 298.1 [k], ws: 2.88 ms-1, gs: 1.0 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.31, 
+                     \n drought understory (dotted line)- sw: 152, tair: 296.1 [k], ws: 0.24 ms-1, gs: 0.1 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.37 
                      \n *TLeaf - Tair not standardized", 
                      lineheight = 0.7, color = "black", size = 8))
 
