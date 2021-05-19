@@ -159,7 +159,7 @@ a1 <-ggplot(data = sw)+
   
   scale_color_identity(name = "canopy position",
                        breaks = c("red", "blue"),
-                       labels = c("overstory", "understory"),
+                       labels = c("overstory, dashed-lines represent drought", "understory, dashed-lines represent drought"),
                        guide = "legend")+
   scale_linetype_manual(name = "canopy position",
                         labels = c("overstory", "understory", "drought overstory", "drought understory"),
@@ -580,27 +580,15 @@ table<- data.frame(biophysical = c( "sw", "tair", "ws", "gs", "ls", "rh"),
                    normalno = c(152, 296.1, 0.24, 0.1, 0.010, 0.37))
 
 
-colnames(table) <- c("biophysical\nconditions",
+colnames(table) <- c("biophysical\nconstants",
                  "normal\noverstory", "normal\nunderstory", "drought\noverstory", "drought\nunderstory")
 table1<-ggtexttable(table, rows = NULL, theme = ttheme("mBlue"))
+table1
 
-
-gc_text <- paste("Constants from HARV NEON, solid lines represent normal, dotted lines represent drought", sep = " ")
-tex1 <- ggparagraph(text = gc_text, face = "italic", size = 8, color = "black")
 #without transformation
 
 figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, common.legend = TRUE, align = c("v"), legend = "top")
 figure1
-
-annotate_figure(
-  figure1,
-  bottom = text_grob("constants from harvard NEON data 
-                    \n overstory- sw: 871, tair: 298.1 [k], ws: 2.88 ms-1, gs: 4.0 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.91, 
-                     \n understory- sw: 102, tair: 296.1 [k], ws: 0.24 ms-1, gs: 2.0 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.97
-                     \n drought overstory (dotted line)- sw: 1000, tair: 298.1 [k], ws: 2.88 ms-1, gs: 1.0 µmol m-2 s-1 Pa-1, leaf size: 0.04m, rh: 0.31, 
-                     \n drought understory (dotted line)- sw: 152, tair: 296.1 [k], ws: 0.24 ms-1, gs: 0.1 µmol m-2 s-1 Pa-1, leaf size: 0.10m, rh: 0.37 
-                     \n *TLeaf - Tair not standardized", 
-                     lineheight = 0.7, color = "black", size = 8))
 
 
 #transformed data
