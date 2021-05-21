@@ -7,6 +7,7 @@
 # Sept-August 2021
 ####################################
 #install packages if needed
+library(latex2exp)
 library(magrittr)
 library(tealeaves)
 library(ggplot2)
@@ -161,10 +162,7 @@ a1 <-ggplot(data = sw)+
                        breaks = c("red", "blue"),
                        labels = c("overstory, dashed-lines represent drought", "understory, dashed-lines represent drought"),
                        guide = "legend")+
-  scale_linetype_manual(name = "canopy position",
-                        labels = c("overstory", "understory", "drought overstory", "drought understory"),
-                        values = c( 1, 1, 2, 2), guide = "legend")+
-  ylab("TLeaf - Tair [k]")+xlab("short wave radiation")
+  ylab(TeX("TLeaf - Tair ($K$)"))+xlab(TeX("short wave radiation W/m$^{2}$"))
 
 a1 
 
@@ -275,7 +273,7 @@ b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair [k]")+xlab("windspeed")
+  ylab(TeX("TLeaf - Tair ($K$)"))+xlab(TeX("windspeed ($m/s$)"))
 
 b1
 
@@ -308,13 +306,13 @@ b1
 
 #plot, transformed
 
-b<-ggplot(ws)+
-  geom_smooth(aes(x = wind, y = l_tla),  method = lm, se = FALSE, color = "blue")+
-  geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
-  geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
-  geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair*")+xlab("windspeed (ms-1)")+scale_y_continuous(breaks = c(-2, 0, 2))
-b
+#b<-ggplot(ws)+
+  #geom_smooth(aes(x = wind, y = l_tla),  method = lm, se = FALSE, color = "blue")+
+  #geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
+  #geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
+  #geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
+  #ylab("TLeaf - Tair*")+xlab("windspeed (ms-1)")+scale_y_continuous(breaks = c(-2, 0, 2))
+#b
 
 
 ##########################################################################################################
@@ -371,7 +369,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair [K]")+xlab("stomatal conductance")
+  ylab(TeX("TLeaf - Tair ($K$)"))+xlab(TeX("stomatal conductance ($\\mu mol/m^2/s/Pa$)"))
 c1
 
 
@@ -470,7 +468,7 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair[K]")+xlab("leaf size")
+  ylab(TeX("TLeaf - Tair ($K$)"))+xlab("leaf size (m)")
 d1
 
 
@@ -567,22 +565,25 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab("TLeaf - Tair [k]")+xlab("relative humidity")
+  ylab(TeX("TLeaf - Tair ($K$)"))+ xlab("relative humidity (%)")
 e1
 
 #constructing a table for the plot
 
-
-table<- data.frame(biophysical = c( "swr (W/m-2)", "ws (m/s)", "rh (%)", "ls (m)", "gs (mu.mol/m2/s/Pa)", "tair (K)"),
+library(grid)
+table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
                    normalno = c(871, 2.88, 0.91, 0.04, 4.0, 298.1),
                    normal_u = c(102, 0.24, 0.97, 0.10, 2.0, 296.1),
                    drought_o = c(1307, 2.88, 0.46, 0.04, 1.0, 298.1),
                    normalno = c(153, 0.24, 0.49, 0.010, 0.1, 296.1))
 
-
 colnames(table) <- c("biophysical\nconstants",
                  "normal\noverstory", "normal\nunderstory", "drought\noverstory", "drought\nunderstory")
+tt = ttheme_default(core=list(fg_params=list(parse=TRUE)))
+tg_df <- tableGrob(d = table, theme=tt)
+grid.draw(tg_df)
 table1<-ggtexttable(table, rows = NULL, theme = ttheme("mBlue"))
+
 table1
 
 #without transformation
