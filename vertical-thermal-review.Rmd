@@ -125,7 +125,7 @@ Importantly, this limits our ability to understand how warming temperatures will
 We focus on five key themes (Fig. `r fig_schematic`):
 (1) the biophysical environment;
 (3) leaf temperature ($T_{leaf}$);
-(2) the leaf traits most strongly influence leaf temperature and metabolism;
+(2) the leaf traits that most strongly influence leaf temperature and metabolism;
 (4) foliar metabolism, including stomatal conductance, photosynthesis, respiration, and volatile organic compound (VOC) production; and 
 (5) size-structuring of whole-tree and ecosystem function.
 *We then consider the implications for understanding forest responses to global change, including scaling across space and time.* 
