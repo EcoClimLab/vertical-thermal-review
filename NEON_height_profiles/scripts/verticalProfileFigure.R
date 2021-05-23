@@ -17,12 +17,15 @@ library(ggpubr)
 #1. Download and save neon data ####
 # this is filtered to only the columns needed for plots
 # (mean measurements per each 30 min observation) in order to not have massive files.
-# source("scripts/get_neon_data.R")
+source("scripts/get_neon_data.R")
 # sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
-# pbapply::pblapply(sites, function(st){
-#   full_data <- get_NEON(x=st)
-#   save(full_data, file=paste0(st, "test.Rdata"))
-# })
+sites <- c("DELA", "GUAN", "JERC", "LENO", "CLBJ", "SJER", "YELL",
+              "GRSM", "ORNL", "TREE", "UKFS", "SOAP", "TALL", "TEAK",
+              "BART", "BONA", "DEJU")
+pbapply::pblapply(sites, function(st){
+  full_data <- get_NEON(x=st)
+  save(full_data, file=paste0("data/", st, "test.Rdata"))
+})
 
 #1a. Get NEON coordinates ####
 # library(data.table)
@@ -36,21 +39,6 @@ library(ggpubr)
 data <- fread("forested_NEON_sites.csv")
 data <- data[include==1, ]
 sites <- data[,site]
-
-#only focus on 6 core sites
-sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
-clrs <- c("#3399FF", "gold", "grey", "red", "#66CCFF", "#003399")
-
-#bring in normalized height (from Marielle)
-# meta <- read_excel("data/site_data/TIS site metadata_20190403_forNOAA.xlsx", sheet=1)
-# meta <- data.table(meta)
-# meta <- meta[SITE %in% sites, 
-#              ][,`:=` (DistZaxsCnpy = as.numeric(DistZaxsCnpy),
-#                     maxCanHeightMarielle = c(32, 43, 39, 21, 53))]
-normHeightData <- 
-  data.table(site=c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF"),
-                         normH=c(32, 21, 23, 43, 39, 53))
-# HARV=32, OSBS: 21, PUUM: 23, SCBI: 43, SERC: 39, WREF: 53
 
 dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR"),
                  id = c("DP1.00001.001", "DP1.00098.001",
@@ -67,6 +55,21 @@ dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR"),
 
 #############################################################################
 ## Make plots for manuscript ####
+#only focus on 6 core sites
+sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
+clrs <- c("#3399FF", "gold", "grey", "red", "#66CCFF", "#003399")
+
+#bring in normalized height (from Marielle)
+meta <- read_excel("data/site_data/TIS site metadata_20190403_forNOAA.xlsx", sheet=1)
+meta <- data.table(meta)
+meta <- meta[SITE %in% sites,
+             ][,`:=` (DistZaxsCnpy = as.numeric(DistZaxsCnpy),
+                    maxCanHeightMarielle = c(32, 43, 39, 21, 53))]
+normHeightData <- 
+  data.table(site=c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF"),
+             normH=c(32, 21, 23, 43, 39, 53))
+# HARV=32, OSBS: 21, PUUM: 23, SCBI: 43, SERC: 39, WREF: 53
+
 plots <- list()
 for(i in 1:length(dp[,name])){
   alldata <- NULL
@@ -221,7 +224,7 @@ print(p)
 dev.off()
 
 ##########################################################################
-## Make plots for SI
+## Make plots for SI ####
 
 # define groupings of forest sites
 allSites <- c("DELA", "GUAN", "JERC", "LENO", "PUUM", "CLBJ", "OSBS", "SJER", "YELL",
@@ -243,17 +246,6 @@ clrs <- list(subBroad = c("#80E271", "#7EEACA", "#73CDDF", "#D59A8C", "grey"),
 # sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
 # clrs <- c("#3399FF", "gold", "grey", "red", "#66CCFF", "#003399")
 
-#bring in normalized height (from Marielle)
-# meta <- read_excel("data/site_data/TIS site metadata_20190403_forNOAA.xlsx", sheet=1)
-# meta <- data.table(meta)
-# meta <- meta[SITE %in% allSites, 
-#              ][,`:=` (DistZaxsCnpy = as.numeric(DistZaxsCnpy),
-#                       maxCanHeightMarielle = c(32, 43, 39, 21, 53))]
-normHeightData <- 
-  data.table(site=c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF"),
-             normH=c(32, 21, 23, 43, 39, 53))
-# HARV=32, OSBS: 21, PUUM: 23, SCBI: 43, SERC: 39, WREF: 53
-
 sapply(1:length(sites), function(X){
   sitesFocus <- sites[[X]]
   clrsFocus <- clrs[[X]]
@@ -262,15 +254,13 @@ sapply(1:length(sites), function(X){
   for(i in 1:length(dp[,name])){
     alldata <- NULL
     allTopHeight <- c()
-    allNormHeight <- c()
     for(j in 1:length(sitesFocus)){
       load(paste0("data/neon_rdata/", sitesFocus[j], "test.Rdata"))
-      meta_site <- meta[SITE == sitesFocus[j], ]
+      # meta_site <- meta[SITE == sitesFocus[j], ]
       
       #get max vertical height (for use in plots)
       hei <- sapply(full_data, function(x){unique(x[["verticalPosition"]])})
       topHeight <- max(unlist(hei, use.names = FALSE))
-      normHeight <- normHeightData[site == sitesFocus[j], ]
       
       var <- as.data.table(full_data[names(full_data) == dp[,name][i]])
       colnames(var) <- 
