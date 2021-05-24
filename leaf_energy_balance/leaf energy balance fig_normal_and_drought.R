@@ -219,13 +219,13 @@ a1
 
 #understory
 ws_l<- data.frame(par = 203.69, 
-                  rh = 0.97, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.07, 3.42), 
+                  rh = 0.97, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.88), 
                   tair = 296.1, pressure = 99, 
                   leaf.size = 0.10, 
                   gs = 2.0)
 #overstory
 ws_u<- data.frame(par = 1741.65, 
-                  rh = 0.91, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.07, 3.42), 
+                  rh = 0.91, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.88), 
                   tair = 298.1, pressure = 99, 
                   leaf.size = 0.04, 
                   gs = 4.0)
@@ -582,12 +582,12 @@ table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
                    drought_o = c("1151", 2.88, 0.46, 0.04, "1.0", "298"),
                    normalno = c("153", 0.24, 0.49, 0.010, "0.1", "296"))
 
-colnames(table) <- c(" ",
+colnames(table) <- c("variable",
                  "ON", "UN", "OD", "UD")
 
 main.title <- "Biophysical Constants"
 
-table1<-ggtexttable(table1, rows = NULL, theme = ttheme("mBlue"))
+table1<-ggtexttable(table, rows = NULL, theme = ttheme("mBlue"))
 
 table1<-table1 %>%
   tab_add_title(text = main.title, face = "bold")
