@@ -142,10 +142,8 @@ We focus on five key themes (Fig. `r fig_schematic`):
 In this section, we supplement a review of the existing literature with a new analysis of data on vegetation structure and vertical microclimate profiles from the U.S. National Ecological Observatory Network [NEON; `r fig_NEON_vertical`; Appendix `r appendix_NEON_methods`, Schimel et al. 2007].
 While the focus here is on vertical gradients, it is important to note that in heterogeneous canopies with high gap fractions and large variation in tree height, or at forest edges, the biophysical environment cn be more closely linked to the distance from the outer canopy than to height (Parker 1995). 
 
-
 ![**Figure `r fig_NEON_vertical`. Vertical gradients in the biophysical environment for six sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in growing season (a) leaf area density, (b) proportion light incidence, (c) proportion sun leaves, and July mean ± 1 standard deviation for (d) maximum photosyntehtically active ratiation (PAR), (e) maximum wind speed, (f) minimum humidity, (g) maximum $T_{air}$, and (h) maximum biological temperature, $T_{bio}$. Sites include a tropical broadleaf evergreen forest (Pu‘u Maka‘ala Natural Area Reserve, Hawaii; PUUM), a subtropical longleaf pine savanna (Ordway-Swisher Biological Station, FL; OSBS), two temperate broadleaf forests (Smithsonian Conservation Biology Institute, VA, SCBI; Smithsonian Environmental Research Center, MD, SERC), and a mixed northern hardwood and coniferous forest (Harvard Forest, MA; HARV).](NEON_height_profiles/figures/profile_all.png)
 
-### Foliage density
 **Canopy foliage acts as the primary physical barrier between the atmosphere and the forest floor, buffering multiple aspects of the understory conditions. It is critical in influencing -- and in turn is influenced by -- the vertical biophysical gradient (Fig. `r fig_NEON_vertical`).**
 The distribution of this foliage is structured in correspondence with the distribution of tree sizes within a forest.
 Leaf area density.... *[description of most common vertical pattern (@bonan_ecological_2016 reviews this and points to appropriate references).]*
@@ -154,40 +152,30 @@ They also vary seasonally, ... (Parker & Tibbs 2004; @smithSeasonalDroughtrelate
 In mixed deciduous- evergreen broadleaf forests, the fraction of deciduous trees tends to increase across tree size classes (Condit, Meakem, ?any work on this in temperate forests??).
 In this review, we focus on growing season conditions unless otherwise noted.
 
-### Light environments
-
 **Light conditions, specifically changes in the proportion of incident light and photosynthetically active radiation (PAR), decreases from canopy tops to the forest floor, with the shape of profile modified by leaf area index (LAI), canopy height, canopy structure, and across species and forest types [Fig. `r fig_NEON_vertical`, @koike_leaf_2001].** 
 This gradient is more pronounced under dense canopies, including broad-leaf and mixed forests, than open canopy forests such as needle-leaf forests [Fig. `r fig_NEON_vertical`; @aussenacInteractionsForestStands2000a; Smith et al., 2019; Tymen et al., 2017; @chazdonPhotosyntheticLightEnvironments1984; @parkerConsequencesEnvironmentalHeterogeneity2019; @bartemucciOverstoryInfluencesLight2006; @baldocchiSeasonalVariationEnergy1997]. 
 Variability in the light environment decreases with height, with the shaded understory being highly influenced by sunflecks, or brief increases is solar radiation caused by small canopy gaps and wind-induced canopy movements [@waySunflecksTreesForests2012]. 
 
-
-### Wind speeds 
 **Wind speeds are also higher at the top of the canopy, owing to... [@juckerCanopyStructureTopography2018].**
-Across forest types from closed-canopy forests [@barnardSeasonalVariationCanopy2016a; @mcgregor_tree_nodate] to open savannas [@curtis_intracanopy_2019], including all **#** forested NEON sites, wind speeds increase with height. 
+Wind speed increase with height across forest types from closed-canopy forests [@barnardSeasonalVariationCanopy2016a; @mcgregor_tree_nodate] to open savannas [@curtis_intracanopy_2019], including all **#** forested NEON sites. 
 Specifically, across the NEON sites, July maximum daily wind speeds averaged up to **~4** m s^-1^ higher at the top of the NEON vertical profile than at the bottom, where maximum wind speeds consistently averaged < **#** m s^-1^ (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`).
 The implication is that upper canopy leaves have substantially higher boundary layer conductance ($g_a$) and associated potential for loss of both water and heat (see next section).
 
-### Air temperature 
 **Air temperature, $T_{air}$, often shows little variation across the vertical gradient, but under certain circumstances it can be significantly buffered by forest canopies (Figs. `r fig_NEON_vertical`, `r SIfigs_NEON_all`).**
 The $T_{air}$ gradient along canopies and understories vary with factors such as radiation fluxes, local topography, vertical air mixing, cloud cover and vegetation [*Defrenne et al. 2021*]. 
 Typically, dense canopies buffer understories from maximum $T_{air}$ relatively more than open canopies -- *i.e.*, dense canopy understories can have cooler maximum daytime $T_{air}$ and warmer minimum $T_{air}$ during the night than open canopy understories or nearby clearings [*Defrenne et al. 2021*; @vonarxSpatiotemporalEffectsForest2012a; @defrenneGlobalBufferingTemperatures2019; @davis_microclimatic_2019; @zellweger_seasonal_2019; @ramboCanopyMicroclimateResponse2009]. 
-Seasonally, canopy buffering capacity is greater in wet than dry seasons [@davisMicroclimaticBufferingForests2019; @rey-sanchez_spatial_2016; @vonarxSpatiotemporalEffectsForest2012a; @fauset_differences_2018, Tymen et al. 2017; **double check these refs--at least one didn't belong**]. 
+(*Noteably, this pattern can be reversed in open forests, where...[explain])*
 
-### Humidity and evaporative demand
 **Relative humidity, $RH$, is generally highest in the understory and decreases with height across the vertical profile [Fig. `r fig_NEON_vertical`; e.g., @mcgregor_tree_nodate].**
-Along with temperature, dense-canopy forests maintain higher daily maximum $RH$ below-canopy than open-forests and nearby open areas, which is greater in wetter conditions, in warmer than colder months [@vonarxSpatiotemporalEffectsForest2012a]. 
-$RH$, in combination with temperature, determines vapor pressure deficit [$VPD$] -- the driving force of water loss from a leaf, which tends to be greater in upper-canopy and canopy gaps than in the understory [@fauset_differences_2018; @tymenQuantifyingMicroenvironmentalVariation2017; @niinemetsPhotosyntheticAcclimationSimultaneous2004b]. Increased tree height [upto 20m with higher LAI] can also lower mean and max temperature and $VPD$ in the understory, beyond a certain height the offset can plateau [@hardwickRelationshipLeafArea2015; @juckerCanopyStructureTopography2018].
-
-### Carbon dioxide
+Dense-canopy forests maintain higher daily maximum $RH$ below-canopy than open forests and nearby open areas, and this effect is greater in wetter conditions, and warmer months [@vonarxSpatiotemporalEffectsForest2012a]. 
+In combination with $T_{air}$, $RH$ determines vapor pressure deficit ($VPD$) -- the driving force of water loss from a leaf, which tends to be greater in upper-canopy and canopy gaps than in the understory [@fauset_differences_2018; @tymenQuantifyingMicroenvironmentalVariation2017; @niinemetsPhotosyntheticAcclimationSimultaneous2004b]. Increased tree height (up to 20 m with higher LAI) can also lower mean and maximum $T_{air}$ and $VPD$ in the understory, beyond a certain height the offset can plateau [@hardwickRelationshipLeafArea2015; @juckerCanopyStructureTopography2018]. *( This last sentence needs work.)*
 
 **Atmospheric carbon dioxide (CO~2~) concentrations tend to be higher near ground level at night, but largely dissipate during the day [@koike_leaf_2001; @yang_spatial_1999].** 
 Given that differences are small during the day when photosynthesis is occurring, and that even nighttime differences are modest at the height of understory tree crowns, CO~2~ concentrations are unlikely to have much of an effect on the energy balance and metabolism of leaves across the forest vertical gradient.
 
-### Geographic and climatic factors 
-
-**The buffering patterns described above vary geographically and across forests types.**
+**The buffering patterns described above vary geographically, seasonally, and across forests types [REFS; *Defrenne et al. 2021*].**
 The strength of buffering decreases with altitude (**THIS WILL NOT ALWAYS BE TRUE!--e.g., semi-arid regions where forest cover increases with elevation**) and moving to open-forests [@zellweger_seasonal_2019; @vonarxSpatiotemporalEffectsForest2012a; @rajsnerovaMorphologicalBiochemicalPhysiological2015; @liangForestTypeHeight2019], greater in wetter than drier regions [**REF**] and increases with proximity to water, for example in riparian forests. [@davisMicroclimaticBufferingForests2019; @macekMaximumAirTemperature2019]
-
+Seasonally, canopy buffering capacity is greater in wet than dry seasons [@davisMicroclimaticBufferingForests2019; @rey-sanchez_spatial_2016; @vonarxSpatiotemporalEffectsForest2012a; @fauset_differences_2018, Tymen et al. 2017; **double check these refs--at least one didn't belong**]. *(Presumably, the above is because leaf area is greater in set seasons)*
 
 ## Leaf temperature 
 
