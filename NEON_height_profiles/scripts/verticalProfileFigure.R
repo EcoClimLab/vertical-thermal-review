@@ -22,9 +22,22 @@ source("scripts/get_neon_data.R")
 sites <- c("DELA", "GUAN", "JERC", "LENO", "CLBJ", "SJER", "YELL",
               "GRSM", "ORNL", "TREE", "UKFS", "SOAP", "TALL", "TEAK",
               "BART", "BONA", "DEJU")
+
+library(parallel)
+cl <- makeCluster(detectCores()-1)
+clusterEvalQ(cl, library(data.table))
+clusterEvalQ(cl, library(neonUtilities))
+clusterExport(cl, list("cl", "sites", "get_NEON", "dp", "date"))
+
+parLapply(cl, X=1:length(sites), function(X){
+  full_data <- get_NEON(x=sites[X])
+  save(full_data, file=paste0("data/", sites[X], "test.Rdata"))
+})
+stopCluster(cl)
+
 pbapply::pblapply(sites, function(st){
-  full_data <- get_NEON(x=st)
-  save(full_data, file=paste0("data/", st, "test.Rdata"))
+  
+  
 })
 
 #1a. Get NEON coordinates ####

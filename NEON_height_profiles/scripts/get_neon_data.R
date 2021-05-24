@@ -45,9 +45,9 @@ date <- data.table("year" = c(rep(2015, 2), rep(2016, 2), rep(2017, 2),
 # alldt <- list()
 # plotlist <- list()
 
-sites <- c("BART","BONA","CLBJ","DEJU","DELA","GRSM","GUAN","HARV","JERC",
-           "LENO","MLBS","ORNL","OSBS","SCBI","SERC","SJER","SOAP","STEI",
-           "TALL","TEAK","TREE","UKFS","UNDE","WREF","YELL")
+# sites <- c("BART","BONA","CLBJ","DEJU","DELA","GRSM","GUAN","HARV","JERC",
+#            "LENO","MLBS","ORNL","OSBS","SCBI","SERC","SJER","SOAP","STEI",
+#            "TALL","TEAK","TREE","UKFS","UNDE","WREF","YELL")
 
 get_NEON <- function(x="SCBI"){
   # full <- list()
@@ -61,7 +61,7 @@ get_NEON <- function(x="SCBI"){
       loadByProduct(dpID=dp[,id][i], 
                     site=x,
                     package="basic", 
-                    check.size = FALSE, avg=30,
+                    check.size = FALSE, timeIndex=30,
                     nCores = 2)
     # startdate=paste0(date[,year][j], "-0",
     #                  date[,month][j]),
