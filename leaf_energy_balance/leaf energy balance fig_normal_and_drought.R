@@ -162,7 +162,8 @@ a1 <-ggplot(data = sw)+
                        breaks = c("red", "blue"),
                        labels = c("overstory, dashed-lines represent drought", "understory, dashed-lines represent drought"),
                        guide = "legend")+
-  ylab(TeX("TLeaf - Tair ($K$)"))+xlab(TeX("short wave radiation W/m$^{2}$"))
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($K$)"))+xlab(TeX("short wave radiation (swr, W/m$^{2}$)"))+
+  theme_few()+theme(text = element_text(size = 14))
 
 a1 
 
@@ -244,11 +245,11 @@ ws_u$u_tla<- ws_u$tleaf - ws_u$tair
 #2. Windspeed, drought
 #understory
 dr_wsl<- data.frame(par = 305.54, rh = 0.49, 
-                         wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.07, 3.42), tair = 296.1, pressure = 99, leaf.size = 0.10, 
+                         wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.88), tair = 296.1, pressure = 99, leaf.size = 0.10, 
                          gs = 0.1)
 #overstory
-dr_wsu<- data.frame(par = 2614.47, 
-                         rh = 0.46, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.07, 3.42), tair = 298.1, pressure = 99, leaf.size = 0.04, 
+dr_wsu<- data.frame(par = 2302.15, 
+                         rh = 0.46, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.88), tair = 298.1, pressure = 99, leaf.size = 0.04, 
                          gs = 1.0)
 
 dr_wsl$par <- dr_wsl$par*0.5#par to sw
@@ -273,7 +274,8 @@ b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("TLeaf - Tair ($K$)"))+xlab(TeX("windspeed ($m/s$)"))
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($K$)"))+xlab(TeX("windspeed (ws, $m/s$)"))+
+  theme_few()+theme(text = element_text(size = 14)) 
 
 b1
 
@@ -347,7 +349,7 @@ dr_gsl<- data.frame(par = 305.54, rh = 0.49,
                   wind = 0.24, tair = 296.1, pressure = 99, leaf.size = 0.10, 
                   gs = c(0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5))
 #overstory
-dr_gsu<- data.frame(par = 2614.47, rh = 0.46, wind = 2.88, tair = 298.1, pressure = 99, 
+dr_gsu<- data.frame(par = 2302.15, rh = 0.46, wind = 2.88, tair = 298.1, pressure = 99, 
                   leaf.size = 0.04, gs = c(0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5))
 dr_gsl$par <- dr_gsl$par*0.5#par to sw
 dr_gsu$par <- dr_gsu$par*0.5#pa to sw
@@ -369,7 +371,8 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("TLeaf - Tair ($K$)"))+xlab(TeX("stomatal conductance ($\\mu mol/m^2/s/Pa$)"))
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($K$)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
+  theme_few()+theme(text = element_text(size = 14))
 c1
 
 
@@ -444,7 +447,7 @@ dr_lsl<- data.frame(par = 305.54, rh = 0.49,
                         wind = 0.24, tair = 296.1, pressure = 99, 
                         leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12), 
                         gs = 0.1)
-dr_lsu<- data.frame(par = 2614.47, 
+dr_lsu<- data.frame(par = 2302.15, 
                         rh = 0.46, wind = 2.88, tair = 298.1, pressure = 99, 
                         leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12), 
                         gs = 1.0)
@@ -468,7 +471,8 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("TLeaf - Tair ($K$)"))+xlab("leaf size (m)")
+  ylab(TeX("T_{Leaf}$ - $T_{air}$ ($K$)"))+xlab("leaf size (ls, m)")+
+  theme_few()+theme(text = element_text(size = 14)) 
 d1
 
 
@@ -540,7 +544,7 @@ dr_rhl<- data.frame(par = 305.54, rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.7
                     wind = 0.24, tair = 296.1, pressure = 99, 
                     leaf.size = 0.10, 
                     gs = 0.1)
-dr_rhu<- data.frame(par = 2614.47, 
+dr_rhu<- data.frame(par = 2302.15, 
                     rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), wind = 2.88, tair = 298.1, pressure = 99, 
                     leaf.size = 0.04,  
                     gs = 1.0)
@@ -565,30 +569,35 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("TLeaf - Tair ($K$)"))+ xlab("relative humidity (%)")
+  ylab(TeX("T_{Leaf}$ - $T_{air}$ ($K$)"))+ xlab("relative humidity (rh, %)")+
+  theme_few()+theme(text = element_text(size = 14)) 
 e1
 
 #constructing a table for the plot
 
-library(grid)
-table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
-                   normalno = c(871, 2.88, 0.91, 0.04, 4.0, 298.1),
-                   normal_u = c(102, 0.24, 0.97, 0.10, 2.0, 296.1),
-                   drought_o = c(1307, 2.88, 0.46, 0.04, 1.0, 298.1),
-                   normalno = c(153, 0.24, 0.49, 0.010, 0.1, 296.1))
 
-colnames(table) <- c("biophysical\nconstants",
-                 "normal\noverstory", "normal\nunderstory", "drought\noverstory", "drought\nunderstory")
-tt = ttheme_default(core=list(fg_params=list(parse=TRUE)))
-tg_df <- tableGrob(d = table, theme=tt)
-grid.draw(tg_df)
-table1<-ggtexttable(table, rows = NULL, theme = ttheme("mBlue"))
+table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
+                   normalno = c("871", 2.88, 0.91, 0.04, "4.0", "298"),
+                   normal_u = c("102", 0.24, 0.97, 0.10, "2.0", "296"),
+                   drought_o = c("1151", 2.88, 0.46, 0.04, "1.0", "298"),
+                   normalno = c("153", 0.24, 0.49, 0.010, "0.1", "296"))
+
+colnames(table) <- c(" ",
+                 "ON", "UN", "OD", "UD")
+
+main.title <- "Biophysical Constants"
+
+table1<-ggtexttable(table1, rows = NULL, theme = ttheme("mBlue"))
+
+table1<-table1 %>%
+  tab_add_title(text = main.title, face = "bold")
 
 table1
 
 #without transformation
 
-figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, common.legend = TRUE, align = c("v"), legend = "top")
+figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, common.legend = TRUE, align = c("v"), legend = "top", 
+                   labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
 figure1
 
 
