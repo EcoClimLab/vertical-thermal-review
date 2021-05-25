@@ -81,14 +81,15 @@ get_tleaf <- function(sw, rh, wind, tair, pressure, leaf.size, gs) {
   
 }
 
-# 1.Apply function for all 10 rows 2.convert celcius to K 3.Create a new column for Tleaf-Tair for overstory and understory
+# 1.Apply function for all 10 rows 2.convert celcius to K 3.Create a new column for Tleaf-Tair for overstory and understory 4. convert to C
 sw_l$tleaf <- apply (sw_l, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-sw_l$tleaf <- sw_l$tleaf +273.15
+sw_l$tair <- sw_l$tair-273.15
 sw_l$l_tleaf_tair<- sw_l$tleaf - sw_l$tair
 
 sw_u$tleaf <- apply (sw_u, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-sw_u$tleaf <- sw_u$tleaf +273.15
+sw_u$tair <- sw_u$tair-273.15
 sw_u$u_tleaf_tair<- sw_u$tleaf - sw_u$tair
+
 
 # 1. Shortwave radiation, drought
 dr_sw_l<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
@@ -140,13 +141,14 @@ get_tleaf <- function(sw, rh, wind, tair, pressure, leaf.size, gs) {
 #1. Short wave radiation, drought scenario
 # 1.Apply function for all 10 rows 2.convert celcius to K 3.Create a new column for Tleaf-Tair for overstory and understory
 dr_sw_l$tleaf <- apply (dr_sw_l, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-# convert celcius to K
-dr_sw_l$tleaf <- dr_sw_l$tleaf +273.15
+# convert tair to celcius
+dr_sw_l$tair <- dr_sw_l$tair-273.15
 #Tleaf - Tair is assigned in a new column
 dr_sw_l$dr_l_tleaf_tair<- dr_sw_l$tleaf - dr_sw_l$tair
 
+
 dr_sw_u$tleaf <- apply (dr_sw_u, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_sw_u$tleaf <- dr_sw_u$tleaf +273.15
+dr_sw_u$tair <- dr_sw_u$tair-273.15
 dr_sw_u$dr_u_tleaf_tair<- dr_sw_u$tleaf - dr_sw_u$tair
 
 sw<- data.frame(l_tla = sw_l$l_tleaf_tair, u_tla = sw_u$u_tleaf_tair, dr_ltla = dr_sw_l$dr_l_tleaf_tair, dr_utla = dr_sw_u$dr_u_tleaf_tair, par = sw_l$par)
@@ -162,7 +164,7 @@ a1 <-ggplot(data = sw)+
                        breaks = c("red", "blue"),
                        labels = c("overstory, dashed-lines represent drought", "understory, dashed-lines represent drought"),
                        guide = "legend")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($K$)"))+xlab(TeX("short wave radiation (swr, W/m$^{2}$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("short wave radiation (swr, W/m$^{2}$)"))+
   theme_few()+theme(text = element_text(size = 14))
 
 a1 
@@ -234,11 +236,11 @@ ws_l$par <- ws_l$par*0.5#par to sw
 ws_u$par <- ws_u$par*0.5#par to sw
 
 ws_l$tleaf <- apply (ws_l, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-ws_l$tleaf <- ws_l$tleaf +273.15
+ws_l$tair <- ws_l$tair -273.15
 ws_l$l_tla<- ws_l$tleaf - ws_l$tair
 
 ws_u$tleaf <- apply (ws_u, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-ws_u$tleaf <- ws_u$tleaf +273.15
+ws_u$tair <- ws_u$tair -273.15
 ws_u$u_tla<- ws_u$tleaf - ws_u$tair
 
 
@@ -257,11 +259,11 @@ dr_wsu$par <- dr_wsu$par*0.5#par to sw
 
 
 dr_wsl$tleaf <- apply (dr_wsl, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_wsl$tleaf <- dr_wsl$tleaf +273.15
+dr_wsl$tair <- dr_wsl$tair-273.15
 dr_wsl$l_tla<- dr_wsl$tleaf - dr_wsl$tair
 
 dr_wsu$tleaf <- apply (dr_wsu, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_wsu$tleaf <- dr_wsu$tleaf +273.15
+dr_wsu$tair <- dr_wsu$tair-273.15
 dr_wsu$u_tla<- dr_wsu$tleaf - dr_wsu$tair
 
 # create Tleaf- tairs of normal and drought into one common dataframe
@@ -274,7 +276,7 @@ b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($K$)"))+xlab(TeX("windspeed (ws, $m/s$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("windspeed (ws, $m/s$)"))+
   theme_few()+theme(text = element_text(size = 14)) 
 
 b1
@@ -335,11 +337,11 @@ gs_u$par <- gs_u$par*0.5#par to sw
 
 
 gs_l$tleaf <- apply (gs_l, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-gs_l$tleaf <- gs_l$tleaf +273.15
+gs_l$tair <- gs_l$tair-273.15
 gs_l$l_tleaf_tair<- gs_l$tleaf - gs_l$tair
 
 gs_u$tleaf <- apply (gs_u, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-gs_u$tleaf <- gs_u$tleaf +273.15
+gs_u$tair <- gs_u$tair -273.15
 gs_u$u_tleaf_tair<- gs_u$tleaf - gs_u$tair
 
 
@@ -355,11 +357,11 @@ dr_gsl$par <- dr_gsl$par*0.5#par to sw
 dr_gsu$par <- dr_gsu$par*0.5#pa to sw
 
 dr_gsl$tleaf <- apply (dr_gsl, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_gsl$tleaf <- dr_gsl$tleaf +273.15
+dr_gsl$tair <- dr_gsl$tair-273.15
 dr_gsl$l_tla<- dr_gsl$tleaf - dr_gsl$tair
 
 dr_gsu$tleaf <- apply (dr_gsu, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_gsu$tleaf <- dr_gsu$tleaf +273.15
+dr_gsu$tair <- dr_gsu$tair-273.15
 dr_gsu$u_tla<- dr_gsu$tleaf - dr_gsu$tair
 
 #create a data frame for Tleaf-Tair, for overstory and understory, in normal and drought scenario
@@ -371,7 +373,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($K$)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
   theme_few()+theme(text = element_text(size = 14))
 c1
 
@@ -433,11 +435,11 @@ ls_u$par <- ls_u$par*0.5#sw
 
 
 ls_l$tleaf <- apply (ls_l, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-ls_l$tleaf <- ls_l$tleaf +273.15
+ls_l$tair <- ls_l$tair-273.15
 ls_l$ls_tla<- ls_l$tleaf - ls_l$tair
 
 ls_u$tleaf <- apply (ls_u, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-ls_u$tleaf <- ls_u$tleaf +273.15
+ls_u$tair <- ls_u$tair-273.15
 ls_u$ls_tla<- ls_u$tleaf - ls_u$tair
 
 
@@ -456,11 +458,11 @@ dr_lsu$par <- dr_lsu$par*0.5#sw
 
 
 dr_lsl$tleaf <- apply (dr_lsl, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_lsl$tleaf <- dr_lsl$tleaf +273.15
+dr_lsl$tair <- dr_lsl$tair-273.15
 dr_lsl$l_tla<- dr_lsl$tleaf - dr_lsl$tair
 
 dr_lsu$tleaf <- apply (dr_lsu, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_lsu$tleaf <- dr_lsu$tleaf +273.15
+dr_lsu$tair <- dr_lsu$tair -273.15
 dr_lsu$u_tla<- dr_lsu$tleaf - dr_lsu$tair
 
 ls<-data.frame(l_tla = ls_l$ls_tla, u_tla = ls_u$ls_tla, dr_ltla = dr_lsl$l_tla, dr_utla = dr_lsu$u_tla, ls = ls_l$leaf.size)
@@ -471,7 +473,7 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("T_{Leaf}$ - $T_{air}$ ($K$)"))+xlab("leaf size (ls, m)")+
+  ylab(TeX("T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab("leaf size (ls, m)")+
   theme_few()+theme(text = element_text(size = 14)) 
 d1
 
@@ -531,11 +533,11 @@ rh_u$par <- rh_u$par*0.5#par to sw
 
 
 rh_l$tleaf <- apply (rh_l, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-rh_l$tleaf <- rh_l$tleaf +273.15
+rh_l$tair <- rh_l$tair-273.15
 rh_l$rh_tla<- rh_l$tleaf - rh_l$tair
 
 rh_u$tleaf <- apply (rh_u, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-rh_u$tleaf <- rh_u$tleaf +273.15
+rh_u$tair <- rh_u$tair-273.15
 rh_u$rh_tla<- rh_u$tleaf - rh_u$tair
 
 # RH, drought
@@ -553,11 +555,11 @@ dr_rhu$par <- dr_rhu$par*0.5#sw
 
 
 dr_rhl$tleaf <- apply (dr_rhl, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_rhl$tleaf <- dr_rhl$tleaf +273.15
+dr_rhl$tair <- dr_rhl$tair-273.15
 dr_rhl$l_tla<- dr_rhl$tleaf - dr_rhl$tair
 
 dr_rhu$tleaf <- apply (dr_rhu, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
-dr_rhu$tleaf <- dr_rhu$tleaf +273.15
+dr_rhu$tair <- dr_rhu$tair-273.15
 dr_rhu$u_tla<- dr_rhu$tleaf - dr_rhu$tair
 
 # create a dataframe for all Tleaf-Tair values for RH
@@ -569,7 +571,7 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("T_{Leaf}$ - $T_{air}$ ($K$)"))+ xlab("relative humidity (rh, %)")+
+  ylab(TeX("$T_{Leaf}$-$T_{air}$ (°C)"))+ xlab("relative humidity (rh, %)")+
   theme_few()+theme(text = element_text(size = 14)) 
 e1
 
