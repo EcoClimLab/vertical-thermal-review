@@ -165,7 +165,8 @@ a1 <-ggplot(data = sw)+
                        labels = c("overstory, dashed-lines represent drought", "understory, dashed-lines represent drought"),
                        guide = "legend")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("short wave radiation (swr, W/m$^{2}$)"))+
-  theme_few()+theme(text = element_text(size = 14))
+  theme_few()+theme(text = element_text(size = 14))+
+  ylim(-5, 14)
 
 a1 
 
@@ -277,7 +278,7 @@ b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("windspeed (ws, $m/s$)"))+
-  theme_few()+theme(text = element_text(size = 14)) 
+  theme_few()+theme(text = element_text(size = 14))+ ylim(-5, 14) 
 
 b1
 
@@ -374,7 +375,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
-  theme_few()+theme(text = element_text(size = 14))
+  theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)
 c1
 
 
@@ -474,7 +475,7 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
   ylab(TeX("T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab("leaf size (ls, m)")+
-  theme_few()+theme(text = element_text(size = 14)) 
+  theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14) 
 d1
 
 
@@ -572,7 +573,7 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$-$T_{air}$ (°C)"))+ xlab("relative humidity (rh, %)")+
-  theme_few()+theme(text = element_text(size = 14)) 
+  theme_few()+theme(text = element_text(size = 14))+ ylim (-5, 14) 
 e1
 
 #constructing a table for the plot
