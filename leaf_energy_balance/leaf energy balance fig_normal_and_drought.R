@@ -25,7 +25,8 @@ library(gridExtra)
 #all variables are constant except for the independent variable that represents minimum- maximum range
 #normal represents HARV neon environmental parameters as observed
 #Stomtal conductane(gs) values for typical condition obtained from Tleaves supplementary manual for range of minimum and maximum values
-#drought condition is representative of gs values from Cavendar-Bares and Bazzaz, 2000 and typically low relative humidity, with other variables similar to normal condition
+#drought condition is representative of gs values from Cavendar-Bares and Bazzaz, 2000 and typically low (50% decrease from normal) relative humidity, mean max par for uppercanopy, 50% par for lower
+#and the rest of the variables are normal conditions
 ####################################
 
 # Create a dataframe for overstory and understory, for scenarios: normal and drought
@@ -153,22 +154,27 @@ dr_sw_u$dr_u_tleaf_tair<- dr_sw_u$tleaf - dr_sw_u$tair
 
 sw<- data.frame(l_tla = sw_l$l_tleaf_tair, u_tla = sw_u$u_tleaf_tair, dr_ltla = dr_sw_l$dr_l_tleaf_tair, dr_utla = dr_sw_u$dr_u_tleaf_tair, par = sw_l$par)
 
-#plot, without transforming the figure
-a1 <-ggplot(data = sw)+
-  geom_smooth(aes(x = par, y = l_tla, colour = "blue"), method = lm, se = FALSE, linetype = 1)+
-  geom_smooth(aes(x = par, y = u_tla, colour = "red"), method = lm, se = FALSE, linetype = 1)+
-  geom_smooth(aes(x = par, y = dr_ltla, colour = " blue"), method = lm, linetype = 2, se = FALSE)+
-  geom_smooth(aes(x = par, y = dr_utla, colour = "red"), method = lm, linetype = 2, se = FALSE)+
-  
-  scale_color_identity(name = "canopy position",
-                       breaks = c("red", "blue"),
-                       labels = c("overstory, dashed-lines represent drought", "understory, dashed-lines represent drought"),
-                       guide = "legend")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("short wave radiation (swr, W/m$^{2}$)"))+
-  theme_few()+theme(text = element_text(size = 14))+
-  ylim(-5, 14)
+l_tla<-data.frame(par = sw$par, tleaf_tair = sw$l_tla, canopy_position = "understory normal (UN)")
+u_tla<-data.frame(par = sw$par, tleaf_tair = sw$u_tla, canopy_position = "overstory normal (ON)")
+dr_ltla<-data.frame(par = sw$par, tleaf_tair = sw$dr_ltla, canopy_position = "understory drought (UD)")
+dr_utla<-data.frame(par = sw$par, tleaf_tair = sw$dr_utla, canopy_position = "overstory drought (OD)") 
 
-a1 
+sw<- data.frame(rbind(u_tla, l_tla, dr_utla, dr_ltla))
+
+#ggplot
+
+a1<-ggplot(data = sw)+
+  geom_smooth(aes(x = par, y = tleaf_tair, color = canopy_position, linetype = canopy_position), 
+              method = lm, se = FALSE)+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("short wave radiation (swr, W/m$^{2}$)"))+
+  theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)+
+  scale_colour_manual(values=c("red","blue","red","blue"), name = "canopy position") + 
+  scale_linetype_manual(values = c(1,1,2,2), name = "canopy position")+
+  theme( 
+    legend.key=element_blank(),
+    legend.position = c(0, 1),
+    legend.justification = c("left", "top"), 
+    legend.background=element_rect(colour="darkgrey")) 
 
 #transforming data for standardization of values, for slope at the midpoint of variable x
 #lower<-lm(sw$l_tla ~ sw$par)
@@ -583,7 +589,7 @@ table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
                    normalno = c("871", 2.88, 0.91, 0.04, "4.0", "298"),
                    normal_u = c("102", 0.24, 0.97, 0.10, "2.0", "296"),
                    drought_o = c("1151", 2.88, 0.46, 0.04, "1.0", "298"),
-                   normalno = c("153", 0.24, 0.49, 0.010, "0.1", "296"))
+                   normalno = c("153", 0.24, 0.49, 0.10, "0.1", "296"))
 
 colnames(table) <- c("variable",
                  "ON", "UN", "OD", "UD")
@@ -599,7 +605,7 @@ table1
 
 #without transformation
 
-figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, common.legend = TRUE, align = c("v"), legend = "top", 
+figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c("v"), 
                    labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
 figure1
 
