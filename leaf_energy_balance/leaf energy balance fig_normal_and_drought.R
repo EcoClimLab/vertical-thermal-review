@@ -172,10 +172,13 @@ a1<-ggplot(data = sw)+
   scale_linetype_manual(values = c(1,1,2,2), name = "canopy position")+
   theme( 
     legend.key=element_blank(),
-    legend.position = c(0, 1),
+    legend.position = c(0.02, 0.97),
     legend.justification = c("left", "top"), 
-    legend.background=element_rect(colour="darkgrey")) 
-
+    legend.text = element_text(size=7),
+    legend.key.width = unit(1, 'cm'),
+    legend.key.size = unit(0.5, 'cm'),
+    legend.title = element_blank())
+a1
 #transforming data for standardization of values, for slope at the midpoint of variable x
 #lower<-lm(sw$l_tla ~ sw$par)
 #coef(lower)
@@ -610,7 +613,7 @@ figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c("v"),
 figure1
 
 
-#transformed data
+#transformed da ta
 #figure<-ggarrange(a, b, d, c, ncol=2, nrow =2, common.legend = TRUE, align = c("v"), legend = "top")
 #figure
 
