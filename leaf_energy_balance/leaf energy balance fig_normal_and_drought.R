@@ -172,11 +172,11 @@ a1<-ggplot(data = sw)+
   scale_linetype_manual(values = c(1,1,2,2), name = "canopy position")+
   theme( 
     legend.key=element_blank(),
-    legend.position = c(0.02, 0.97),
+    legend.position = c(0, 1),
     legend.justification = c("left", "top"), 
-    legend.text = element_text(size=7),
-    legend.key.width = unit(1, 'cm'),
-    legend.key.size = unit(0.5, 'cm'),
+    legend.text = element_text(size=11),
+    legend.key.width = unit(0.50, 'cm'),
+    legend.key.size = unit(0.4, 'cm'),
     legend.title = element_blank())
 a1
 #transforming data for standardization of values, for slope at the midpoint of variable x
