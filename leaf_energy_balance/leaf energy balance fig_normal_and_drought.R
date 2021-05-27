@@ -307,7 +307,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)
 c1
 
@@ -367,7 +367,7 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab("leaf size (ls, m)")+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("leaf size (ls, m)")+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14) 
 d1
 
@@ -432,7 +432,7 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "red", se = FALSE)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  ylab(TeX("$T_{Leaf}$-$T_{air}$ (°C)"))+ xlab("relative humidity (rh, %)")+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+ xlab("relative humidity (rh, %)")+
   theme_few()+theme(text = element_text(size = 14))+ ylim (-5, 14) 
 e1
 
@@ -459,7 +459,7 @@ table1
 
 #plotting multiple plots together
 
-figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c("v"), 
+figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c('hv'),
                    labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
 figure1
 
