@@ -172,58 +172,18 @@ a1<-ggplot(data = sw)+
   scale_linetype_manual(values = c(1,1,2,2), name = "canopy position")+
   theme( 
     legend.key=element_blank(),
-    legend.position = c(0, 1),
+    legend.position = c(0, 1.05),
     legend.justification = c("left", "top"), 
-    legend.text = element_text(size=11),
-    legend.key.width = unit(0.50, 'cm'),
+    legend.text = element_text(size=10),
+    legend.key.height = unit(0.4, 'cm'),
+    legend.key.width = unit(1, 'cm'),
     legend.key.size = unit(0.4, 'cm'),
-    legend.title = element_blank())
+    legend.title = element_blank(),
+    legend.background = element_blank(),
+    #legend.box.background = element_rect(color = "darkgrey"))
+    legend.box.background = element_blank())
 a1
-#transforming data for standardization of values, for slope at the midpoint of variable x
-#lower<-lm(sw$l_tla ~ sw$par)
-#coef(lower)
-#y<- 0.01280917*450 + 0.04960374
-#y
-#y= 7.542647
-#sw$l_tla<-sw$l_tla - 5.81373
 
-#upper<-lm(sw$u_tla ~ sw$par)
-#coef(upper)
-#y<- 0.005356825*450 + -0.451573590
-#y
-#y = 2.961966
-#sw$u_tla<-sw$u_tla - 1.958998
-
-#drought_lower<-lm(sw$dr_ltla ~ sw$par)
-#coef(drought_lower)
-#y<- 0.01504194*450 + -2.06317804
-#y
-#y = 7.214889
-#sw$dr_ltla<- sw$dr_ltla - 4.705695
-
-#drought_upper<-lm(sw$dr_utla ~ sw$par)
-#coef(drought_upper)
-#y<- 0.006067448*450 + -2.669403031
-#y
-#sw$dr_utla<- sw$dr_utla - 0.06094857
-
-# plot with tranformed data
-#a<-ggplot(data = sw)+
-#  geom_smooth(aes(x = par, y = l_tla, colour = "blue"), method = lm, se = FALSE, linetype = 1)+
-#  geom_smooth(aes(x = par, y = u_tla, colour = "red"), method = lm, se = FALSE, linetype = 1)+
-#  geom_smooth(aes(x = par, y = dr_ltla, colour = " blue"), method = lm, linetype = 2, se = FALSE)+
-#  geom_smooth(aes(x = par, y = dr_utla, colour = "red"), method = lm, linetype = 2, se = FALSE)+
-  
-#  scale_color_identity(name = "canopy position",
-#                       breaks = c("red", "blue"),
-#                       labels = c("overstory", "understory"),
-#                       guide = "legend")+
-#  scale_linetype_manual(name = "canopy position",
-#                        labels = c("overstory", "understory", "drought overstory", "drought understory"),
-#                        values = c( 1, 1, 2, 2), guide = "legend")+
-#  ylab("TLeaf - Tair*")+xlab("short wave radiation")+ ylim(-3.5, 3.5)
-  
-#a
 ############################################################################################################
 # 2. WINDSPEED
 
@@ -291,42 +251,6 @@ b1<-ggplot(ws)+
 
 b1
 
-#transforming
-
-#lower_ws<-lm(ws$l_tla ~ ws$wind)
-#coef(lower_ws)
-#y<- -0.3609749*1.44 + 1.5134131
-#y
-#y = 1.314345
-#ws$l_tla<-ws$l_tla - 0.9936092
-
-#upper_ws<-lm(ws$u_tla ~ ws$wind)
-#coef(upper_ws)
-#y<- -1.455528*1.44 + 7.624159
-#y
-#ws$u_tla<-ws$u_tla - 5.528199
-
-#dr_lower<-lm(ws$dr_ltla ~ ws$wind)
-#coef(dr_lower)
-#y<- -0.05042344*1.44 + -0.43273604
-#y
-#ws$dr_ltla<-ws$dr_ltla - -0.5053458
-
-#dr_upper<-lm(ws$dr_utla ~ ws$wind)
-#coef(dr_upper)
-#y<- -1.359072*1.44 + 5.734046
-#y
-#ws$dr_utla<-ws$dr_utla - 3.776982
-
-#plot, transformed
-
-#b<-ggplot(ws)+
-  #geom_smooth(aes(x = wind, y = l_tla),  method = lm, se = FALSE, color = "blue")+
-  #geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
-  #geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
-  #geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-  #ylab("TLeaf - Tair*")+xlab("windspeed (ms-1)")+scale_y_continuous(breaks = c(-2, 0, 2))
-#b
 
 
 ##########################################################################################################
@@ -386,46 +310,6 @@ c1<-ggplot(gs)+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)
 c1
-
-
-#with transformation
-#lower_gs<-lm(gs$l_tla ~ gs$gs)
-#coef(lower_gs)
-#y<- -0.195501*2.25 + 1.786546
-#y
-#y= 1.748807
-#gs$l_tla<-gs$l_tla - 1.346669
-
-#upper_gs<-lm(gs$u_tla ~ gs$gs)
-#coef(upper_gs)
-#y<- -0.5589508*2.25 + 6.3538099
-#y
-#gs$u_tla<-gs$u_tla - 5.096171
-
-
-#dr_gslower<- lm(gs$dr_ltla ~ gs$gs)
-#coef(dr_gslower)
-#y<- -1.0167057*2.25 + 0.7295698
-#y
-#y= 0.5201044
-#gs$dr_ltla<-gs$dr_ltla - -1.558018
-
-
-#dr_gsupper<- lm(gs$dr_utla ~ gs$gs)
-#coef(dr_gsupper)
-#y<- -1.216157*2.25 + 5.938667
-#y
-#y= 0.5201044
-#gs$dr_utla<-gs$dr_utla - 3.202314
-
-
-#c<-ggplot(gs)+
-#  geom_smooth(aes(x = gs, y = l_tla),  method = lm, se = FALSE, color = "blue")+
-#  geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
-#  geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
-#  geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-#  ylab("TLeaf - Tair*")+xlab("stomal conductance")+ylim(-3, 3)
-#c
 
 #########################################################################################################
 # 4.LEAF CHARACTERISTIC DIMMENSION (LEAF SIZE) 
@@ -488,40 +372,7 @@ d1<-ggplot(ls)+
 d1
 
 
-#with transforming                 
-#lower_ls<- lm(ls$l_tla ~ ls$ls)
-#coef(lower_ls)
-#y<- 6.319849*0.055 + 0.720737
-#y
-#y = 8.941457
-#ls$l_tla<- ls$l_tla - 1.068329
 
-#upper_ls<- lm(ls$u_tla ~ ls$ls)
-#coef(upper_ls)
-#y<- 23.77844*0.055 + 2.72652
-#y
-#y = 5.627328
-#ls$u_tla = ls$u_tla - 4.034334
-
-#dr_lower<-lm(ls$dr_ltla ~ ls$ls)
-#coef(dr_lower)
-#y<- -0.8393397*0.055 + -0.5468557
-#y
-#ls$dr_ltla<- ls$dr_ltla - -0.5930194
-
-#dr_upper<-lm(ls$dr_utla ~ ls$ls)
-#coef(dr_upper)
-#y<- 17.243851*0.055 + 1.555269
-#y
-#ls$dr_utla<- ls$dr_utla - 2.503681
-
-#d<-ggplot(ls)+
-#  geom_smooth(aes(x = ls, y = l_tla),  method = lm, se = FALSE, color = "blue")+
-#  geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "red", se = FALSE)+
-#  geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
-#  geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
-#  ylab("TLeaf - Tair*")+xlab("leaf size")+ylim(-3,3)
-#d
 
 ###################################################################################################################
 # 5. Relative Humidity, (RH)
@@ -606,28 +457,12 @@ table1<-table1 %>%
 
 table1
 
-#without transformation
+#plotting multiple plots together
 
 figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c("v"), 
                    labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
 figure1
 
-
-#transformed da ta
-#figure<-ggarrange(a, b, d, c, ncol=2, nrow =2, common.legend = TRUE, align = c("v"), legend = "top")
-#figure
-
-#annotate_figure(
-#  figure,
-#  bottom = text_grob("constants from harvard NEON data 
-#                    \n overstory- sw: 871, tair: 298.1 [k], ws: 2.88, gs: 4.0, leaf size: 0.04m, rh: 0.91, 
-#                     \n understory- sw: 102, tair: 296.1 [k], ws: 0.24, gs: 2.0, leaf size: 0.10m, rh: 0.97
-#                     \n drought overstory- sw: 871, tair: 298.1 [k], ws: 2.88, gs: 2.5, leaf size: 0.04m, rh: 0.31, 
-#                     \n drought understory- sw: 102, tair: 296.1 [k], ws: 0.24, gs: 1.0, leaf size: 0.10m, rh: 0.37 
-#                     \n *TLeaf - Tair standardized at the midpoint of x variable", 
-#                     lineheight = 0.7, color = "black", size = 8))
-  
-#write csv for all data of this figure
 
 
 
