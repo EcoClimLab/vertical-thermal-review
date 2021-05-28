@@ -19,7 +19,7 @@ library(cowplot)
 library(data.table)
 library(formattable)
 library(gridExtra)
-
+library(RColorBrewer)
 ####################################
 #create data frames using HARV NEON data for environmental parameters. Leaf characteristic dimmension in m is measured from Sun and shade Red oak leaves
 #all variables are constant except for the independent variable that represents minimum- maximum range
@@ -154,10 +154,10 @@ dr_sw_u$dr_u_tleaf_tair<- dr_sw_u$tleaf - dr_sw_u$tair
 
 sw<- data.frame(l_tla = sw_l$l_tleaf_tair, u_tla = sw_u$u_tleaf_tair, dr_ltla = dr_sw_l$dr_l_tleaf_tair, dr_utla = dr_sw_u$dr_u_tleaf_tair, par = sw_l$par)
 
-l_tla<-data.frame(par = sw$par, tleaf_tair = sw$l_tla, canopy_position = "understory normal (UN)")
-u_tla<-data.frame(par = sw$par, tleaf_tair = sw$u_tla, canopy_position = "overstory normal (ON)")
-dr_ltla<-data.frame(par = sw$par, tleaf_tair = sw$dr_ltla, canopy_position = "understory drought (UD)")
-dr_utla<-data.frame(par = sw$par, tleaf_tair = sw$dr_utla, canopy_position = "overstory drought (OD)") 
+l_tla<-data.frame(par = sw$par, tleaf_tair = sw$l_tla, canopy_position = "understory normal")
+u_tla<-data.frame(par = sw$par, tleaf_tair = sw$u_tla, canopy_position = "overstory normal")
+dr_ltla<-data.frame(par = sw$par, tleaf_tair = sw$dr_ltla, canopy_position = "understory drought")
+dr_utla<-data.frame(par = sw$par, tleaf_tair = sw$dr_utla, canopy_position = "overstory drought") 
 
 sw<- data.frame(rbind(u_tla, l_tla, dr_utla, dr_ltla))
 
@@ -168,7 +168,7 @@ a1<-ggplot(data = sw)+
               method = lm, se = FALSE)+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("short wave radiation (swr, W/m$^{2}$)"))+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)+
-  scale_colour_manual(values=c("red","blue","red","blue"), name = "canopy position") + 
+  scale_colour_manual(values=c("#008837","#7b3294","#008837","#7b3294"), name = "canopy position") + 
   scale_linetype_manual(values = c(1,1,2,2), name = "canopy position")+
   theme( 
     legend.key=element_blank(),
@@ -242,10 +242,10 @@ ws<- data.frame(l_tla = ws_l$l_tla,  u_tla = ws_u$u_tla, dr_ltla = dr_wsl$l_tla,
 #plot ws, without transformation
 
 b1<-ggplot(ws)+
-  geom_smooth(aes(x = wind, y = l_tla),  method = lm, se = FALSE, color = "blue")+
-  geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "red", se = FALSE)+
-  geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
-  geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
+  geom_smooth(aes(x = wind, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
+  geom_smooth(aes(x = wind, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
+  geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
+  geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("windspeed (ws, $m/s$)"))+
   theme_few()+theme(text = element_text(size = 14))+ ylim(-5, 14) 
 
@@ -303,10 +303,10 @@ gs<-data.frame(l_tla = gs_l$l_tleaf_tair, u_tla = gs_u$u_tleaf_tair, dr_ltla = d
 
 #plot gs, without tranformation
 c1<-ggplot(gs)+
-  geom_smooth(aes(x = gs, y = l_tla),  method = lm, se = FALSE, color = "blue")+
-  geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "red", se = FALSE)+
-  geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
-  geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
+  geom_smooth(aes(x = gs, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
+  geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
+  geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
+  geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)
 c1
@@ -363,10 +363,10 @@ ls<-data.frame(l_tla = ls_l$ls_tla, u_tla = ls_u$ls_tla, dr_ltla = dr_lsl$l_tla,
 
 #without tansforming
 d1<-ggplot(ls)+
-  geom_smooth(aes(x = ls, y = l_tla),  method = lm, se = FALSE, color = "blue")+
-  geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "red", se = FALSE)+
-  geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
-  geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
+  geom_smooth(aes(x = ls, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
+  geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
+  geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
+  geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("leaf size (ls, m)")+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14) 
 d1
@@ -428,10 +428,10 @@ rh<-data.frame(l_tla = rh_l$rh_tla, u_tla = rh_u$rh_tla, dr_ltla = dr_rhl$l_tla,
 
 #plot rh, without transformation
 e1<-ggplot(rh)+
-  geom_smooth(aes(x = rh, y = l_tla),  method = lm, se = FALSE, color = "blue")+
-  geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "red", se = FALSE)+
-  geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "blue", se = FALSE, linetype = "dashed")+
-  geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "red", se = FALSE, linetype = "dashed")+
+  geom_smooth(aes(x = rh, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
+  geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
+  geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
+  geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+ xlab("relative humidity (rh, %)")+
   theme_few()+theme(text = element_text(size = 14))+ ylim (-5, 14) 
 e1
@@ -446,18 +446,19 @@ table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
                    normalno = c("153", 0.24, 0.49, 0.10, "0.1", "296"))
 
 colnames(table) <- c("variable",
-                 "ON", "UN", "OD", "UD")
+                 "overstory\nnormal", "understory\nnormal", "overstory\ndrought", "understory\ndrought")
 
 main.title <- "Biophysical Constants"
 
-table1<-ggtexttable(table, rows = NULL, theme = ttheme("mBlue"))
+table1<-ggtexttable(table, rows = NULL, theme = ttheme("mBlue", ))
+
 
 table1<-table1 %>%
   tab_add_title(text = main.title, face = "bold")
 
 table1
 
-#plotting multiple plots together
+#plotting multiple plots together 
 
 figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c('hv'),
                    labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
