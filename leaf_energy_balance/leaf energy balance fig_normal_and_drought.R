@@ -2,9 +2,9 @@
 # Purpose: Create leaf energy balance figure using HARV neon data parameters for a typical overstory
 # and understory, normal and drought scenarios
 # Tleaves R package created by Chris Muir, 2019
-# Developed by: Nidhi Vinod, contact Nidhi Vinod (nidrup@gmail.com)
-# R version 3.5.3 --First created in October 2020
-# Sept-August 2021
+# Developed by: Nidhi Vinod, contact Anderson-Teixeira (teixeirak@si.edu)
+# R version 3.5.3 --First created in October 2020, updated on 5/28/2021
+# Oct-August 2021
 ####################################
 #install packages if needed
 library(latex2exp)
@@ -13,23 +13,21 @@ library(tealeaves)
 library(ggplot2)
 library(dplyr)
 library(ggthemes)
-library(moderndive)
 library(ggpubr)
 library(cowplot)
-library(data.table)
-library(formattable)
 library(gridExtra)
 library(RColorBrewer)
 ####################################
-#create data frames using HARV NEON data for environmental parameters. Leaf characteristic dimmension in m is measured from Sun and shade Red oak leaves
-#all variables are constant except for the independent variable that represents minimum- maximum range
-#normal represents HARV neon environmental parameters as observed
-#Stomtal conductane(gs) values for typical condition obtained from Tleaves supplementary manual for range of minimum and maximum values
-#drought condition is representative of gs values from Cavendar-Bares and Bazzaz, 2000 and typically low (50% decrease from normal) relative humidity, mean max par for uppercanopy, 50% par for lower
-#and the rest of the variables are normal conditions
+#dataframe for biophysical parameters from NEON HARV data
+#normal scenario represents HARV NEON environmental parameters as observed. 
+#drought scenario represents similar HARV NEON parameters, with max PAR for overstory, and 50% increase in normal PAR for understory, and 50% decrease in normal relative humidity for both positions.
+#typical normal stomtal conductane(gs) values are referred from Tleaves supplementary manual for range of minimum and maximum values and obtained from Cavendar-Bares and Bazzaz, 2000.
+#drought condition ~gs values obtained from Cavendar-Bares and Bazzaz, 2000.  
+#respective leaf sizes (m) are measured from sun and shade red oak leaves 
+#all variables are constant except for the y-axis variables that represent minimum- maximum range
 ####################################
 
-# Create a dataframe for overstory and understory, for scenarios: normal and drought
+# create a dataframe for overstory and understory, for scenarios: normal and drought
 # 1. Short wave radiation, normal
 #understory
 sw_l<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
@@ -43,7 +41,7 @@ sw_u<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2
 sw_l$par <- sw_l$par*0.5#sw
 sw_u$par <- sw_u$par*0.5#sw
 
-#apply Tleaves function (this is repeated througout)
+#apply Tleaves function
 
 get_tleaf <- function(sw, rh, wind, tair, pressure, leaf.size, gs) {
   
@@ -82,7 +80,7 @@ get_tleaf <- function(sw, rh, wind, tair, pressure, leaf.size, gs) {
   
 }
 
-# 1.Apply function for all 10 rows 2.convert celcius to K 3.Create a new column for Tleaf-Tair for overstory and understory 4. convert to C
+# 1.Apply function for all 10 rows 2.convert tair K to celcius 3.Create a new column for Tleaf-Tair for overstory and understory(repeated throughout)
 sw_l$tleaf <- apply (sw_l, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
 sw_l$tair <- sw_l$tair-273.15
 sw_l$l_tleaf_tair<- sw_l$tleaf - sw_l$tair
@@ -140,7 +138,7 @@ get_tleaf <- function(sw, rh, wind, tair, pressure, leaf.size, gs) {
 }
 
 #1. Short wave radiation, drought scenario
-# 1.Apply function for all 10 rows 2.convert celcius to K 3.Create a new column for Tleaf-Tair for overstory and understory
+# 1.Apply function for all 10 rows 2.convert tair K to celcius 3.Create a new column for Tleaf-Tair for overstory and understory (repeated throughout)
 dr_sw_l$tleaf <- apply (dr_sw_l, 1, function (data) get_tleaf (sw=data[1] , rh=data[2], wind=data[3], tair=data[4], pressure=data[5], leaf.size= data[6], gs=data[7])) 
 # convert tair to celcius
 dr_sw_l$tair <- dr_sw_l$tair-273.15
@@ -161,7 +159,7 @@ dr_utla<-data.frame(par = sw$par, tleaf_tair = sw$dr_utla, canopy_position = "ov
 
 sw<- data.frame(rbind(u_tla, l_tla, dr_utla, dr_ltla))
 
-#ggplot
+#plot sw data
 
 a1<-ggplot(data = sw)+
   geom_smooth(aes(x = par, y = tleaf_tair, color = canopy_position, linetype = canopy_position), 
@@ -239,7 +237,7 @@ dr_wsu$u_tla<- dr_wsu$tleaf - dr_wsu$tair
 # create Tleaf- tairs of normal and drought into one common dataframe
 ws<- data.frame(l_tla = ws_l$l_tla,  u_tla = ws_u$u_tla, dr_ltla = dr_wsl$l_tla, dr_utla = dr_wsu$u_tla, wind = ws_l$wind)
 
-#plot ws, without transformation
+#plot ws
 
 b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
@@ -254,7 +252,7 @@ b1
 
 
 ##########################################################################################################
-#3. Stomtal conductance(GS)
+#3. Stomtal conductance(gs)
 
 # 3. stomatal conductance, normal
 #understory 
@@ -301,7 +299,7 @@ dr_gsu$u_tla<- dr_gsu$tleaf - dr_gsu$tair
 #create a data frame for Tleaf-Tair, for overstory and understory, in normal and drought scenario
 gs<-data.frame(l_tla = gs_l$l_tleaf_tair, u_tla = gs_u$u_tleaf_tair, dr_ltla = dr_gsl$l_tla, dr_utla = dr_gsu$u_tla, gs = gs_l$gs)
 
-#plot gs, without tranformation
+#plot gs
 c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
@@ -361,7 +359,7 @@ dr_lsu$u_tla<- dr_lsu$tleaf - dr_lsu$tair
 
 ls<-data.frame(l_tla = ls_l$ls_tla, u_tla = ls_u$ls_tla, dr_ltla = dr_lsl$l_tla, dr_utla = dr_lsu$u_tla, ls = ls_l$leaf.size)
 
-#without tansforming
+#plot ls
 d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
   geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
@@ -371,11 +369,8 @@ d1<-ggplot(ls)+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14) 
 d1
 
-
-
-
 ###################################################################################################################
-# 5. Relative Humidity, (RH)
+# 5. Relative Humidity, (rh)
 
 #5. RH, normal
 # understory
@@ -401,12 +396,13 @@ rh_u$tleaf <- apply (rh_u, 1, function (data) get_tleaf (sw=data[1] , rh=data[2]
 rh_u$tair <- rh_u$tair-273.15
 rh_u$rh_tla<- rh_u$tleaf - rh_u$tair
 
-# RH, drought
-
+# rh, drought
+#understory
 dr_rhl<- data.frame(par = 305.54, rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), 
                     wind = 0.24, tair = 296.1, pressure = 99, 
                     leaf.size = 0.10, 
                     gs = 0.1)
+#overstory
 dr_rhu<- data.frame(par = 2302.15, 
                     rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), wind = 2.88, tair = 298.1, pressure = 99, 
                     leaf.size = 0.04,  
@@ -423,10 +419,10 @@ dr_rhu$tleaf <- apply (dr_rhu, 1, function (data) get_tleaf (sw=data[1] , rh=dat
 dr_rhu$tair <- dr_rhu$tair-273.15
 dr_rhu$u_tla<- dr_rhu$tleaf - dr_rhu$tair
 
-# create a dataframe for all Tleaf-Tair values for RH
+# create a dataframe for all Tleaf-Tair values for rh
 rh<-data.frame(l_tla = rh_l$rh_tla, u_tla = rh_u$rh_tla, dr_ltla = dr_rhl$l_tla, dr_utla = dr_rhu$u_tla, rh = rh_l$rh)
 
-#plot rh, without transformation
+#plot rh
 e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
   geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
@@ -436,7 +432,7 @@ e1<-ggplot(rh)+
   theme_few()+theme(text = element_text(size = 14))+ ylim (-5, 14) 
 e1
 
-#constructing a table for the plot
+#constructing a biophyscial constants table for the plot
 
 
 table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
@@ -463,9 +459,4 @@ table1
 figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c('hv'),
                    labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
 figure1
-
-
-
-
-
 
