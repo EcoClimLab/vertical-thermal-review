@@ -17,28 +17,23 @@ library(ggpubr)
 #1. Download and save neon data ####
 # this is filtered to only the columns needed for plots
 # (mean measurements per each 30 min observation) in order to not have massive files.
-source("scripts/get_neon_data.R")
+# source("scripts/get_neon_data.R")
 # sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
-sites <- c("DELA", "GUAN", "JERC", "LENO", "CLBJ", "SJER", "YELL",
-              "GRSM", "ORNL", "TREE", "UKFS", "SOAP", "TALL", "TEAK",
-              "BART", "BONA", "DEJU")
-
-library(parallel)
-cl <- makeCluster(detectCores()-1)
-clusterEvalQ(cl, library(data.table))
-clusterEvalQ(cl, library(neonUtilities))
-clusterExport(cl, list("cl", "sites", "get_NEON", "dp", "date"))
-
-parLapply(cl, X=1:length(sites), function(X){
-  full_data <- get_NEON(x=sites[X])
-  save(full_data, file=paste0("data/", sites[X], "test.Rdata"))
-})
-stopCluster(cl)
-
-pbapply::pblapply(sites, function(st){
-  
-  
-})
+# sites <- c("DELA", "GUAN", "JERC", "LENO", "CLBJ", "SJER", "YELL",
+#               "GRSM", "ORNL", "TREE", "UKFS", "SOAP", "TALL", "TEAK",
+#               "BART", "BONA", "DEJU")
+# 
+# library(parallel)
+# cl <- makeCluster(detectCores()-1)
+# clusterEvalQ(cl, library(data.table))
+# clusterEvalQ(cl, library(neonUtilities))
+# clusterExport(cl, list("cl", "sites", "get_NEON", "dp", "date"))
+# 
+# parLapply(cl, X=1:length(sites), function(X){
+#   full_data <- get_NEON(x=sites[X])
+#   save(full_data, file=paste0("data/", sites[X], "test.Rdata"))
+# })
+# stopCluster(cl)
 
 #1a. Get NEON coordinates ####
 # library(data.table)
@@ -112,7 +107,7 @@ for(i in 1:length(dp[,name])){
                                              day_min))
                     ][, `:=` (month_num = month(day),
                               yr = year(day))
-                      ]
+                      ][yr <= 2020, ]
     
     ## originally we were getting delta[var] as being var at height h - var 
     ## at lowest height. We have decided (as of Mar. 2021) to only do raw values.
@@ -238,11 +233,11 @@ dev.off()
 
 ##########################################################################
 ## Make plots for SI ####
-
 # define groupings of forest sites
-allSites <- c("DELA", "GUAN", "JERC", "LENO", "PUUM", "CLBJ", "OSBS", "SJER", "YELL",
-              "GRSM", "ORNL", "SCBI", "TREE", "UKFS", "SOAP", "TALL", "TEAK", "WREF",
-              "BART", "BONA", "DEJU", "HARV")
+allSites <- c("DELA", "GUAN", "JERC", "LENO", "PUUM", "CLBJ", "OSBS", 
+              "SJER", "YELL", "GRSM", "ORNL", "SCBI", "TREE", "UKFS", 
+              "SOAP", "TALL", "TEAK", "WREF",  "BART", "BONA", "DEJU", 
+              "HARV")
 
 sites <- list(subBroad = c("DELA", "GUAN", "JERC", "LENO", "PUUM"),
               savOpenTemp = c("CLBJ", "OSBS", "SJER", "YELL"),
@@ -259,7 +254,7 @@ clrs <- list(subBroad = c("#80E271", "#7EEACA", "#73CDDF", "#D59A8C", "grey"),
 # sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
 # clrs <- c("#3399FF", "gold", "grey", "red", "#66CCFF", "#003399")
 
-sapply(1:length(sites), function(X){
+groupPlots <- lapply(1:length(sites), function(X){
   sitesFocus <- sites[[X]]
   clrsFocus <- clrs[[X]]
   
@@ -291,7 +286,7 @@ sapply(1:length(sites), function(X){
                                                day_min))
                       ][, `:=` (month_num = month(day),
                                 yr = year(day))
-                        ]
+                        ][yr <= 2020, ]
       
       ## originally we were getting delta[var] as being var at height h - var 
       ## at lowest height. We have decided (as of Mar. 2021) to only do raw values.
@@ -317,11 +312,10 @@ sapply(1:length(sites), function(X){
       
       #only keep July values (from edit in Jan 2021)
       whei <- whei[month_char=="July", 
-                   ][, `:=` (var = dp[,name][i], site=sites[j], col=clrs[j])]
+                   ][, `:=` (var = dp[,name][i], site=sitesFocus[j], col=clrsFocus[j])]
       
       alldata <- rbind(alldata, whei)
       allTopHeight <- c(allTopHeight, topHeight)
-      allNormHeight <- c(allNormHeight, normHeight)
     }
     
     #only keep relevant stat - min for RH, max for everything else
@@ -345,10 +339,10 @@ sapply(1:length(sites), function(X){
       
       if(i %in% c(1,2)){ #windspeed, RH
         graph <- graph + 
-          ylim(0, 80)
+          ylim(0, 50)
       } else {
         graph <- graph + 
-          ylim(0,80)
+          ylim(0,50)
         # geom_hline(yintercept=1, linetype="dotted") +
         # ylim(0, ceiling(max(alldata$plotHeight)))
       }
@@ -364,23 +358,25 @@ sapply(1:length(sites), function(X){
              y = "") +
         theme_bw()
       
-      if(i %in% c(1,2)){ #windspeed, RH
-        graph <- graph + 
-          xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
-        if(i==1){
-          graph <- graph + ylab("Height [m]")
+      if(X==5){#only labels on bottom row for putting all 25 plots together
+        if(i %in% c(1,2)){ #windspeed, RH
+          graph <- graph + 
+            xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
+          if(i==1){
+            graph <- graph + ylab("Height [m]")
+          }
+        } else if(i==3){ #tempSingle
+          graph <- graph +
+            xlab(expression(
+              paste("max T"["air"], " [",degree,"C]")))
+        } else if(i==4){ #bioTempMean
+          graph <- graph +
+            xlab(expression(
+              paste("max T"["bio"], " [",degree,"C]")))
+        } else if(i==5){ #PAR
+          graph <- graph + 
+            xlab("max PAR")
         }
-      } else if(i==3){ #tempSingle
-        graph <- graph +
-          xlab(expression(
-            paste("max T"["air"], " [",degree,"C]")))
-      } else if(i==4){ #bioTempMean
-        graph <- graph +
-          xlab(expression(
-            paste("max T"["bio"], " [",degree,"C]")))
-      } else if(i==5){ #PAR
-        graph <- graph + 
-          xlab("max PAR")
       }
       
       ## remove y-axis from all but windspeed
@@ -402,14 +398,40 @@ sapply(1:length(sites), function(X){
   
   void <- ggplot() + theme_void()
   
-  p <- ggarrange(plots[["PARMean"]], plots[["windSpeedMean"]], void,
-                 plots[["RHMean"]], plots[["tempSingleMean"]], plots[["bioTempMean"]],
-                 nrow=2, ncol=4, labels=c("A", "B", "", "C", "D", "E"))
+  # p <- ggarrange(plots[["windSpeedMean"]], plots[["PARMean"]], 
+  #                plots[["RHMean"]], plots[["tempSingleMean"]], 
+  #                plots[["bioTempMean"]], void,
+  #                nrow=2, ncol=3, labels=c("A", "B", "C", "D", "E", ""))
+  p <- ggarrange(plots[["windSpeedMean"]], plots[["PARMean"]], 
+                 plots[["RHMean"]], plots[["tempSingleMean"]], 
+                 plots[["bioTempMean"]],
+                 nrow=1, ncol=5)
   
-  png(paste0("figures/profile_all_", names(sites[X]), ".png"), height=600, width=960)
-  print(p)
+  return(p)
+  # png(paste0("figures/profile_all_", names(sites[X]), ".png"), height=600, width=960)
+  # print(p)
+  # dev.off()
+})
+
+names(groupPlots) <- names(sites)
+
+## for individual plots
+sapply(1:length(groupPlots), function(X){
+  png(paste0("figures/profile_all_", names(groupPlots)[X], ".png"), 
+      height=600, width=960)
+  print(groupPlots[[X]])
   dev.off()
 })
+
+## for all 25 plots together
+q <- ggarrange(groupPlots[["subBroad"]], groupPlots[["savOpenTemp"]],
+               groupPlots[["tempBroad"]], groupPlots[["tempCon"]],
+               groupPlots[["northBor"]],
+               nrow=5, ncol=1, labels=c("A", "B", "C", "D", "E"))
+png(paste0("figures/profile_all_groups.png"), 
+    height=1500, width=1200)
+print(q)
+dev.off()
 
 ##########################################################################
 # Archive
