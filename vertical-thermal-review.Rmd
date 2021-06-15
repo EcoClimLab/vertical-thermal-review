@@ -245,11 +245,11 @@ nocite: |
 ---
 
 
-#### Morphological traits
+#### Morphological and physiological traits
 
 Exposed canopy leaves are better adapted to heat and water stress than shade leaves where sun-leaves are often thicker, smaller, hairier, with greater leaf dissections [@leighInfluenceLeafSize2017; @vogelConvectiveCoolingLow1970; @sackHowStrongIntracanopy2006], with structural strategies such as leaf-angle and rolling [@niinemetsAdjustmentFoliageStructure1998, *REF*], showing greater hydraulically efficiency than shade leaves [Brodribb et al. 2010]. All these traits, collectively regulate $T_{leaf}$-photosynthetic balance. On the other hand, shaded leaves have lower convective cooling strategies, and invest more in light capture [@fauset_differencsunes_2018; @leighInfluenceLeafSize2017; Wright et al. 2019]. Under homogeneous canopy light conditions, sun-leaves in different canopy orientations are primarily shaped by differences in $T_{air_{max}}$ and $VPD$ stress [@mediavillaFoliarPlasticityRelated2019a].
 
-#### Biochemical and physiological traits
+#### Biochemical traits
 
 Biochemical protection against foliage light and heat damage increases with irradiance.
 Caratenoids and xanthophyll pigments--violaxanthin, antheraxanthin and zeaxanthin [$VAZ$]--an antioxidant scavenging function--convert excess light into heat [@niinemetsPhotosynthesisResourceDistribution2007a; @mathurPhotosyntheticEfficiencySun2018a; @niinemetsAcclimationHighIrradiance1998]. This is particularly important for leaf acclimation to higher temperature [@kumarathungeAcclimationAdaptationComponents2019a]. N and P are crucial for photosynthetic and metabolic processes along with $VAZ$, as they contribute to enzyme formation and function, such as in Rubisco. $N_{area}$ increases in the direction of new leaf growth, where it optimizes to prevent photoinhibition in leaves vertically [@kitaoCanopyNitrogenDistribution2018]. Additionally, isoprenes in producing species facilitate higher heat tolerance in exposed canopies, making these species particularly advantageous [*REF*].
