@@ -193,35 +193,29 @@ The dominant avenue of heat loss to the environment is latent heat flux ($\lambd
 Evaporation ($E$) is controlled primarily by stomatal and boundary layer conductances, $g_s$ and $g_a$, and by the water vapour concentration difference between the leaf surface and the bulk air.
 Therefore, $T_{leaf}-T_{air}$ decreases with $g_a$, which in turn increases with wind speed [Fig. `r fig_leaf_T`b,@daudetWindSpeedLeaf1999a] and decreases with leaf size (Fig. `r fig_leaf_T`d);
 decreases with $g_s$ (Fig. `r fig_leaf_T`e);
-and decreases with with vapor pressure deficit, or increases with RH (Fig. `r fig_leaf_T`c).
+and decreases with with vapor pressure deficit, or increases with RH [Fig. `r fig_leaf_T`c].
 
 ![**Figure `r fig_leaf_T`. Theoretical expectations for variation in the elevation of $T_{leaf}$ above $T_{air}$ in response to (a) shortwave radiation, (b) wind speed, (c) relative humidity, (d) leaf width, and (e) stomatal conductance.** Leaf temperatures were modeled using the tealeaves R package of @muir_tealeaves_2019 parameterized to represent typical conditions for a broadleaf species (*Quercus rubra*) in a mesic temperate forest (Harvard Forest, Massachusetts, USA), as detailed in Appendix `r appendix_tealeaves_methods`. [ISSUE #6](https://github.com/EcoClimLab/vertical-thermal-review/issues/6).](leaf_energy_balance/Updated T_leaf_png.png)
 
 **Leaf energy balance is a tradeoff between water use strategy and optimum $T_{leaf}$ [@fauset_differences_2018; @kochDiurnalPatternsLeaf1994].** 
 When $g_s$ is high, high $\lambda E$ facilitates heat dissipation. 
-However, when inadequate water supply -- for example under drought -- causes leaf water demand to exceed water transport, conservation of water ($g_s$ limitation) occurs at the cost of increasing $T_{leaf}$ [@fauset_differences_2018].
+However, when inadequate water supply -- for example under drought -- causes leaf water demand to exceed water transport, conservation of water ($g_s$ limitation) occurs at the cost of increasing $T_{leaf}$ [Fig. `r fig_leaf_T`e, @fauset_differences_2018].
 Therefore, while under maximum $g_s$, leaves can maintain $T_{leaf}$ closer to $T_{air}$ at high solar-radiation loads, but during $g_s$ limitation solar radiation can drastically elevate $T_{leaf}$ above $T_{air}$, especially for larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020; @pauTropicalForestTemperature2018].
+With adequate water, species with smaller leaves (higher $g_a$) and larger $g_s$ will be most effective at cooling during high temperatures [@songTreeSurfaceTemperature2020; @dongBiophysicalHomoeostasisLeaf2017; @konradLeafTemperatureIts; @leighInfluenceLeafSize2017; @leuzingerTreeSpeciesDiversity2007].
 
 **These basic biophysical principles shape the propensity for $T_{leaf}$ to be elevated above $T_{air}$ across vertical gradients in forests.**
 High radiation at the top of the vertical profile (Fig. `r fig_NEON_vertical`) implies that canopy leaves have much greater propensity for high $T_{leaf}-T_{air}$, such that they would be expected to be warmer than understory leaves under most conditions (Fig. `r fig_leaf_T`).
 However, higher windspeeds and lower RH (Fig. `r fig_NEON_vertical`), along with adaptive leaf traits (see next section), give them lower sensitivity to intercepted radiation (Fig. `r fig_leaf_T`a) and higher rates of heat loss (Fig. `r fig_leaf_T`b-e).
-*(I want to add a few sentences on how this varies with environmental conditions-- drought, high humidity....)*
 
-(**Vertical gradients in $T_{leaf}-T_{air}$ are expected to vary with midrometeorlogical conditions.**)
+**Vertical gradients in the propensity for $T_{leaf}$ to be elevated above $T_{air}$ are expected to vary with micrometeorlogical conditions (Fig. `r fig_leaf_T`).**
+Under hot conditions, higher wind speeds and $g_a$ enable cooling, but at lower wind conditions, thickness of air layer at the leaf surface curbs rapid leaf-to-air heat transfer, limiting $g_a$ and increasing $T_{leaf} - T_{air}$ [Fig. `r fig_leaf_T`b, @martin_boundary_1999; @leighInfluenceLeafSize2017; @robertsStomatalBoundaryLayerConductances1990a; @songTreeSurfaceTemperature2020]. 
+Thus, understory leaves, which typically experience lower windspeeds (Fig. `r fig_NEON_vertical`), would retain more heat.
+The higher-RH conditions of the understory (Fig. `r fig_NEON_vertical`) would also inhibit cooling, as $\lambda E$ is stifled under high RH, resulting in  greater $T_{leaf}$-$T_{air}$ [Fig. `r fig_leaf_T`c, @songTreeSurfaceTemperature2020; @tibbittsHumidityPlants1979b; @perezIncreasingHumidityThreatens2018; @konradLeafTemperatureIts].
+Thus, understory leaves would have less ability to shed excess heat under hot and humid conditions.
+In contrast, under drought conditions (hot and dry, with higher-than-average solar radiation), when $g_s$ is limiting, there will be a propensity for $T_{leaf} - T_{air}$ to be elevated more in the canopy than the understory (Fig.`r fig_leaf_T`).
 
-~~~ (*I think we should cut everything between here and  next "~~~", after harvesting the most important content for the section above.*)
+~~~ **(KAT stopped here)**
 
-Therefore, under hot conditions, high wind speeds and high $g_s$ would enable cooling but at lower wind conditions, thickness of air layer at the leaf surface curbs rapid leaf-to-air heat transfer, limiting $g_a$ and increasing $T_{leaf}$ - $T_{air}$ [@martin_boundary_1999; @leighInfluenceLeafSize2017; @robertsStomatalBoundaryLayerConductances1990a; @songTreeSurfaceTemperature2020]
-
-Leaf interiors are $RH$ saturated [@buckleyHumidityLeavesWhy2019], hence when atmospheric $RH$ is lower, leaf to air evapotranspiration increases, decreasing $T_{leaf}$-$T_{air}$. In contrast, when atmospheric $RH$ increases, leaf evapotranspiration and heat-dissipation is stifled, resulting in  greater $T_{leaf}$-$T_{air}$ [@songTreeSurfaceTemperature2020; @tibbittsHumidityPlants1979b; @perezIncreasingHumidityThreatens2018; @konradLeafTemperatureIts].
-
-**In addition, leaf size and morphology, which vary dramatically across the vertical gradient (reviewed in following section), impact $g_{a}$ and therefore leaf temperature.** Small leaves heat and cool faster due to greater $g_a$ than larger leaves that take longer due to lower $ga$. Therefore, $T_{leaf}$-$T_{air}$ is lower for small leaves than large leaves. With adequate water, species with smaller leaves and larger $gs$ will be most effective at cooling during high temperatures [@songTreeSurfaceTemperature2020; @dongBiophysicalHomoeostasisLeaf2017; @konradLeafTemperatureIts; @leighInfluenceLeafSize2017; @leuzingerTreeSpeciesDiversity2007].
-
-~~~
-
-
-
-**(paragraph on hydraulics as a driver of leaf T:e.g., water on leaves - evaporative cooling - and leaf water content)**
  Across species, inherent leaf $gs$ is generally greater in sun leaves than shade leaves, due to stomata density [Table 1]. However, because factors driving $g_s$ limitation--irradiance, $VPD$ and $T_{air}$--including increase with exposure, $g_s$ limitation is steeper for sun- than shade-leaves, resulting in increased in $T_{leaf}$ (@leighInfluenceLeafSize2017; @fauset_differences_2018). On the other hand, shade leaves can remain cooler under buffered conditions, but lower leaf $gs$ and thermal capacitance can result in greater $T_{leaf}$ under slight heat stress [@leighInfluenceLeafSize2017; @songTreeSurfaceTemperature2020]. Lastly, canopy structure and architecture adaptation can also influence canopy temperature  [@leuzingerTreeSpeciesDiversity2007; @mullerEvidenceEfficientNonevaporative2021]
 
 ### In-situ observations
