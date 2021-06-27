@@ -12,6 +12,7 @@ library(data.table)
 library(readxl)
 library(ggplot2)
 library(ggpubr)
+library(patchwork)
 
 #
 #1. Download and save neon data ####
@@ -259,6 +260,7 @@ groupPlots <- lapply(1:length(sites), function(X){
   clrsFocus <- clrs[[X]]
   
   plots <- list()
+  allNEON <- NULL
   for(i in 1:length(dp[,name])){
     alldata <- NULL
     allTopHeight <- c()
@@ -312,7 +314,8 @@ groupPlots <- lapply(1:length(sites), function(X){
       
       #only keep July values (from edit in Jan 2021)
       whei <- whei[month_char=="July", 
-                   ][, `:=` (var = dp[,name][i], site=sitesFocus[j], col=clrsFocus[j])]
+                   ][, `:=` (var = dp[,name][i], site=sitesFocus[j], 
+                             col=clrsFocus[j], biome=names(sites[X]))]
       
       alldata <- rbind(alldata, whei)
       allTopHeight <- c(allTopHeight, topHeight)
@@ -332,6 +335,7 @@ groupPlots <- lapply(1:length(sites), function(X){
       setnames(alldata, old=c("max_mean", "max_sd"), 
                new=c("all_mean", "all_sd"))
     }
+    allNEON <- rbind(allNEON, alldata)
     
     plots[[i]] <- local({
       graph <- ggplot(alldata) +
@@ -348,24 +352,23 @@ groupPlots <- lapply(1:length(sites), function(X){
       }
       
       graph <- graph +
-        geom_point(aes(x = all_mean, y = plotHeight, color = site), 
+        geom_point(aes(x = all_mean, y = plotHeight, color = site, size=1.1), 
                    shape=19) +
-        geom_path(aes(x = all_mean, y = plotHeight, color = site)) +
+        geom_path(aes(x = all_mean, y = plotHeight, color = site), size=1.1) +
         ggplot2::geom_errorbarh(aes(xmin = all_mean - all_sd, 
                                     xmax = all_mean + all_sd, 
-                                    y=plotHeight, color = site, height=0.1)) +
+                                    y=plotHeight, color = site, height=0.1,
+                                    size=1)) +
         labs(x = "",
              y = "") +
-        theme_bw()
+        theme_bw() +
+        theme(text = element_text(size=14))
       
       if(X==5){#only labels on bottom row for putting all 25 plots together
         if(i %in% c(1,2)){ #windspeed, RH
           graph <- graph + 
             xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
-          if(i==1){
-            graph <- graph + ylab("Height [m]")
-          }
-        } else if(i==3){ #tempSingle
+          } else if(i==3){ #tempSingle
           graph <- graph +
             xlab(expression(
               paste("max T"["air"], " [",degree,"C]")))
@@ -379,15 +382,22 @@ groupPlots <- lapply(1:length(sites), function(X){
         }
       }
       
-      ## remove y-axis from all but windspeed
-      if(i %in% c(2:5)){
+    if(i==5){ # add label for PAR only (for each row)
+      graph <- graph + ylab("Height [m]")
+    }
+      
+      ## remove y-axis from all but PAR
+      if(!i==5){
         graph <- graph + 
           theme(axis.text.y=element_blank(),
                 axis.ticks.y=element_blank())
       }
       
       if(i==4){ #biotemp - legend purposes
-        graph <- graph + theme(legend.position=c(0.8,0.7))
+        graph <- graph + 
+          theme(legend.position=c(0.8,0.7), 
+                legend.text=element_text(size=14)) +
+          guides(size=FALSE)
       } else {
         graph <- graph + theme(legend.position="none")
       }
@@ -396,40 +406,62 @@ groupPlots <- lapply(1:length(sites), function(X){
   
   names(plots) <- dp[,name]
   
-  void <- ggplot() + theme_void()
+  # void <- ggplot() + theme_void()
   
-  # p <- ggarrange(plots[["windSpeedMean"]], plots[["PARMean"]], 
+  if(X==1) titleTx <- "(A) (Sub) Subtropical and warm temperate broadleaf forests"
+  if(X==2) titleTx <- "(B) Temperate open forests / savanna"
+  if(X==3) titleTx <- "(C) Temperate mesic broadleaf forests"
+  if(X==4) titleTx <- "(D) Temperate conifer forests"
+  if(X==5) titleTx <- "(E) Northern and boreal forests"
+  
+  p <- plots[["PARMean"]] + plots[["windSpeedMean"]] + plots[["RHMean"]] + 
+    plots[["tempSingleMean"]] + plots[["bioTempMean"]]
+  p <- p + 
+    plot_annotation(title=titleTx, 
+                    theme = theme(plot.title = element_text(size = 18))) +
+    plot_layout(ncol = 5)
+  
+  # p <- ggarrange(NULL, plot_0, NULL, NULL, NULL,
+  #                plots[["PARMean"]], plots[["windSpeedMean"]],
   #                plots[["RHMean"]], plots[["tempSingleMean"]], 
-  #                plots[["bioTempMean"]], void,
-  #                nrow=2, ncol=3, labels=c("A", "B", "C", "D", "E", ""))
-  p <- ggarrange(plots[["windSpeedMean"]], plots[["PARMean"]], 
-                 plots[["RHMean"]], plots[["tempSingleMean"]], 
-                 plots[["bioTempMean"]],
-                 nrow=1, ncol=5)
+  #                plots[["bioTempMean"]],
+  #                nrow=2, ncol=5, heights=c(0.1,1))
   
-  return(p)
-  # png(paste0("figures/profile_all_", names(sites[X]), ".png"), height=600, width=960)
-  # print(p)
-  # dev.off()
+  return(list(p, allNEON))
 })
 
+
+#get canopy minus bottom values across aggregate groupings
+aggNeon <- rbindlist(lapply(groupPlots, `[[`, 2))
+
+ttt <- aggNeon[, .SD[c(1,.N)], by=.(site,var)][order(site,var,plotHeight)]
+tr <- ttt[, diff := all_mean - shift(all_mean, fill = first(all_mean)), 
+    by = .(site,var)
+    ][diff != 0,]
+
+tr[,mean(all_mean), by=var] #mean canopy minus bottom for all sites
+tr[,mean(all_mean), by=.(biome, var)][order(var)] #same as above but per biome
+
+#continuing with the plotting here
+groupPlots <- lapply(groupPlots, `[[`, 1)
 names(groupPlots) <- names(sites)
 
 ## for individual plots
-sapply(1:length(groupPlots), function(X){
-  png(paste0("figures/profile_all_", names(groupPlots)[X], ".png"), 
-      height=600, width=960)
-  print(groupPlots[[X]])
-  dev.off()
-})
+# sapply(1:length(groupPlots), function(X){
+#   png(paste0("figures/profile_all_", names(groupPlots)[X], ".png"), 
+#       height=600, width=960)
+#   print(groupPlots[[X]])
+#   dev.off()
+# })
 
 ## for all 25 plots together
+
 q <- ggarrange(groupPlots[["subBroad"]], groupPlots[["savOpenTemp"]],
                groupPlots[["tempBroad"]], groupPlots[["tempCon"]],
                groupPlots[["northBor"]],
-               nrow=5, ncol=1, labels=c("A", "B", "C", "D", "E"))
+               nrow=5, ncol=1)
 png(paste0("figures/profile_all_groups.png"), 
-    height=1500, width=1200)
+    height=1800, width=1500)
 print(q)
 dev.off()
 
