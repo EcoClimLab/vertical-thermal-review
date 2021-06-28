@@ -158,7 +158,7 @@ Variability in the light environment decreases with height, with the shaded unde
 
 **Wind speeds are also higher at the top of the canopy, owing to the effect of buffering with canopy height [@juckerCanopyStructureTopography2018].**
 Wind speed increase with height across forest types from closed-canopy forests [@barnardSeasonalVariationCanopy2016; @mcgregor_tree_nodate; @juckerCanopyStructureTopography2018; @mullerEvidenceEfficientNonevaporative2021] to open savannas [@curtis_intracanopy_2019], including all 22 forested NEON sites (Figs. `r fig_NEON_vertical`e, `r SIfig_NEON_all`). 
-Specifically, across the NEON sites, July maximum daily wind speeds averaged up to **~4** m s^-1^ higher at the top of the NEON vertical profile than at the bottom, where maximum wind speeds generally averaged $\le$ **~1** m s^-1^ (Figs. `r fig_NEON_vertical`, `r SIfig_NEON_all`).
+Specifically, across the NEON sites, July maximum daily wind speeds averaged up to 4.1 m s^-1^ higher at the top of the NEON vertical profile than at the bottom, where maximum wind speeds averaged $\le$ 1.1 m s^-1^ (Figs. `r fig_NEON_vertical`, `r SIfig_NEON_all`).
 The implication is that upper canopy leaves have substantially higher boundary layer conductance ($g_a$) and associated potential for loss of both water and heat (see next section).
 
 **Atmospheric concentrations carbon dioxide (CO~2~) and water vapor can also vary across the vertical gradient.**
