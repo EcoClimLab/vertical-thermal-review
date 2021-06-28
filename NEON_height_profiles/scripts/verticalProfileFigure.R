@@ -362,7 +362,7 @@ groupPlots <- lapply(1:length(sites), function(X){
         labs(x = "",
              y = "") +
         theme_bw() +
-        theme(text = element_text(size=14))
+        theme(text = element_text(size=16))
       
       if(X==5){#only labels on bottom row for putting all 25 plots together
         if(i %in% c(1,2)){ #windspeed, RH
@@ -431,16 +431,21 @@ groupPlots <- lapply(1:length(sites), function(X){
 })
 
 
-#get canopy minus bottom values across aggregate groupings
+#get numbers for manuscript
 aggNeon <- rbindlist(lapply(groupPlots, `[[`, 2))
 
-ttt <- aggNeon[, .SD[c(1,.N)], by=.(site,var)][order(site,var,plotHeight)]
-tr <- ttt[, diff := all_mean - shift(all_mean, fill = first(all_mean)), 
+##max mean ground level value across sites
+ground <- aggNeon[, .SD[1], by=.(site,var)][order(var),]
+ground[ground[, .I[all_mean == max(all_mean)], by=var]$V1
+       ][,.(site,var,plotHeight,all_mean,biome)]
+
+##max difference in windspeed btwn top and bottom 
+aggDiff <- aggNeon[, .SD[c(1,.N)], by=.(site,var)][order(site,var,plotHeight)]
+tr <- aggDiff[, diff := all_mean - shift(all_mean, fill = first(all_mean)), 
     by = .(site,var)
     ][diff != 0,]
+tr[var=="windSpeedMean", .(site, plotHeight, diff)][order(-diff),]
 
-tr[,mean(all_mean), by=var] #mean canopy minus bottom for all sites
-tr[,mean(all_mean), by=.(biome, var)][order(var)] #same as above but per biome
 
 #continuing with the plotting here
 groupPlots <- lapply(groupPlots, `[[`, 1)
