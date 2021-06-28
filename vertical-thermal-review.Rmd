@@ -221,12 +221,13 @@ In closed-canopy forests, *including tropical and temperate broadleaf forests*, 
 In contrast, in open forests with lower buffering capacity, lower-canopy $T_{leaf}$ is commonly greater than upper canopy $T_{leaf}$, due to greater light permeability, *vertical air mixing*, and still air in the lower canopy and heating from the ground [Figs. `r fig_NEON_vertical`h, `r SIfig_NEON_all`b,e, @mullerEvidenceEfficientNonevaporative2021; @martin_boundary_1999; @zweifelMiddayStomatalClosure2002; @hadleyInfluenceKrummholzMat1987;@rey-sanchez_spatial_2016]. 
 Similarly, trees growing close to the ground can experience greater heat stress in their lower than upper canopies [@hadleyInfluenceKrummholzMat1987; @curtis_intracanopy_2019]. 
 Greater $RH$ in closed-inner canopy can also increase $T_{leaf}$ relatively more than upper-canopy $T_{leaf}$ [@dietzVerticalPatternsDuration2007]. 
-Under other conditions $T_{leaf}$ tracks $T_{air}$, *in large part due to vertical gradients in leaf traits and $g_s#* / ~due to high evapotranspiration~, and therefore differs little between understory and canopy (Fig. `r fig_NEON_vertical`).
+Under other conditions $T_{leaf}$ tracks $T_{air}$, *in large part due to vertical gradients in leaf traits and $g_s$* / ~due to high evapotranspiration~, and therefore differs little between understory and canopy (Fig. `r fig_NEON_vertical`).
 
 
 The extent of this buffering varies across forest types.
 *Upper canopies of temperate-deciduous species can have greater $T_{leaf} - T_{air}$ than tropical moist and wet forest [@mauTemperateTropicalForest2018a] and sparse canopies [@leuzingerTreeSpeciesDiversity2007; @pauTropicalForestTemperature2018], however in considering a broader range of forests, results may differ (Fig. `r fig_NEON_vertical`).* 
 Because conifer leaves have lower $g_a$ than broad leaves, conifer canopies have lower mean $T_{leaf}$ [@leuzingerTreeSpeciesDiversity2007; @pauTropicalForestTemperature2018]. 
+
 Spatial distribution of canopy temperature also shows that exposed tropical tree barks can be much warmer than leaves and flowers [@pauTropicalForestTemperature2018]. 
 
 
