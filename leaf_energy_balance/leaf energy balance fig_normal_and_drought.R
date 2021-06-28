@@ -465,3 +465,4 @@ figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c('hv'),
                    labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
 figure1
 
+#plot saved as .png
