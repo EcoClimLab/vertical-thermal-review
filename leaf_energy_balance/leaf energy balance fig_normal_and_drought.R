@@ -20,9 +20,9 @@ library(RColorBrewer)
 ####################################
 #dataframe for biophysical parameters from NEON HARV data
 #normal scenario represents HARV NEON environmental parameters as observed. 
-#drought scenario represents similar HARV NEON parameters, with max PAR for overstory, and 50% increase in normal PAR for understory, and 50% decrease in normal relative humidity for both positions.
+#drought scenario represents similar HARV NEON parameters, with: 1) max PAR for overstory and 50% increase in normal PAR for understory, and 2) 50% decrease in normal relative humidity for both positions.
 #typical normal stomtal conductane(gs) values are referred from Tleaves supplementary manual for range of minimum and maximum values and obtained from Cavendar-Bares and Bazzaz, 2000.
-#drought condition ~gs values obtained from Cavendar-Bares and Bazzaz, 2000.  
+#drought condition ~gs values are set to a constant value of 0.01 umol/m^2/s/Pa for canopy and understory. 
 #respective leaf sizes (m) are measured from sun and shade red oak leaves 
 #all variables are constant except for the y-axis variables that represent minimum- maximum range
 ####################################
@@ -93,10 +93,10 @@ sw_u$u_tleaf_tair<- sw_u$tleaf - sw_u$tair
 # 1. Shortwave radiation, drought
 dr_sw_l<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
                   rh = 0.49, wind = 0.24, tair = 296.1, pressure = 99, leaf.size = 0.10, 
-                  gs = 0.1)
+                  gs = 0.01)
 dr_sw_u<- data.frame(par = c(0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200), 
                   rh = 0.46, wind = 2.88, tair = 298.1, pressure = 99, leaf.size = 0.04, 
-                  gs = 1.0)
+                  gs = 0.01)
 dr_sw_l$par <- dr_sw_l$par*0.5#sw
 dr_sw_u$par <- dr_sw_u$par*0.5#sw
 
@@ -166,6 +166,7 @@ a1<-ggplot(data = sw)+
               method = lm, se = FALSE)+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("short wave radiation (swr, W/m$^{2}$)"))+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)+
+  geom_hline(yintercept=0, linetype='dotted', color = 'black')+
   scale_colour_manual(values=c("#008837","#7b3294","#008837","#7b3294"), name = "canopy position") + 
   scale_linetype_manual(values = c(1,1,2,2), name = "canopy position")+
   theme( 
@@ -216,11 +217,11 @@ ws_u$u_tla<- ws_u$tleaf - ws_u$tair
 #understory
 dr_wsl<- data.frame(par = 305.54, rh = 0.49, 
                          wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.88), tair = 296.1, pressure = 99, leaf.size = 0.10, 
-                         gs = 0.1)
+                         gs = 0.01)
 #overstory
 dr_wsu<- data.frame(par = 2302.15, 
                          rh = 0.46, wind = c(0, 0.24, 0.42, 0.88, 1.07, 1.42, 1.88, 2.07, 2.42, 2.88, 3.88), tair = 298.1, pressure = 99, leaf.size = 0.04, 
-                         gs = 1.0)
+                         gs = 0.01)
 
 dr_wsl$par <- dr_wsl$par*0.5#par to sw
 dr_wsu$par <- dr_wsu$par*0.5#par to sw
@@ -245,6 +246,7 @@ b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("windspeed (ws, $m/s$)"))+
+  geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 14))+ ylim(-5, 14) 
 
 b1
@@ -306,6 +308,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
+  geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)
 c1
 
@@ -340,11 +343,11 @@ ls_u$ls_tla<- ls_u$tleaf - ls_u$tair
 dr_lsl<- data.frame(par = 305.54, rh = 0.49, 
                         wind = 0.24, tair = 296.1, pressure = 99, 
                         leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12), 
-                        gs = 0.1)
+                        gs = 0.01)
 dr_lsu<- data.frame(par = 2302.15, 
                         rh = 0.46, wind = 2.88, tair = 298.1, pressure = 99, 
                         leaf.size = c(0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12), 
-                        gs = 1.0)
+                        gs = 0.01)
 dr_lsl$par <- dr_lsl$par*0.5#sw
 dr_lsu$par <- dr_lsu$par*0.5#sw
 
@@ -365,7 +368,8 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
   geom_smooth(aes(x = ls, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("leaf size (ls, m)")+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("leaf width (lw, m)")+
+  geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14) 
 d1
 
@@ -401,12 +405,12 @@ rh_u$rh_tla<- rh_u$tleaf - rh_u$tair
 dr_rhl<- data.frame(par = 305.54, rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), 
                     wind = 0.24, tair = 296.1, pressure = 99, 
                     leaf.size = 0.10, 
-                    gs = 0.1)
+                    gs = 0.01)
 #overstory
 dr_rhu<- data.frame(par = 2302.15, 
                     rh = c(0.00, 0.15, 0.25, 0.35, 0.45, 0.65, 0.75, 0.85, 0.95, 1.00), wind = 2.88, tair = 298.1, pressure = 99, 
                     leaf.size = 0.04,  
-                    gs = 1.0)
+                    gs = 0.01)
 dr_rhl$par <- dr_rhl$par*0.5#sw
 dr_rhu$par <- dr_rhu$par*0.5#sw
 
@@ -428,6 +432,7 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
+  geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+ xlab("relative humidity (rh, %)")+
   theme_few()+theme(text = element_text(size = 14))+ ylim (-5, 14) 
 e1
@@ -435,11 +440,11 @@ e1
 #constructing a biophyscial constants table for the plot
 
 
-table<- data.frame(biophysical = c( "swr", "ws", "rh", "ls", "gs", "tair"),
+table<- data.frame(biophysical = c( "swr", "ws", "rh", "lw", "gs", "tair"),
                    normalno = c("871", 2.88, 0.91, 0.04, "4.0", "298"),
                    normal_u = c("102", 0.24, 0.97, 0.10, "2.0", "296"),
-                   drought_o = c("1151", 2.88, 0.46, 0.04, "1.0", "298"),
-                   normalno = c("153", 0.24, 0.49, 0.10, "0.1", "296"))
+                   drought_o = c("1151", 2.88, 0.46, 0.04, "0.01", "298"),
+                   normalno = c("153", 0.24, 0.49, 0.10, "0.01", "296"))
 
 colnames(table) <- c("variable",
                  "overstory\nnormal", "understory\nnormal", "overstory\ndrought", "understory\ndrought")
