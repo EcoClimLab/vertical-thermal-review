@@ -205,7 +205,7 @@ With adequate water, species with smaller leaves (higher $g_a$) and larger $g_s$
 
 **These basic biophysical principles shape the propensity for $T_{leaf}$ to be elevated above $T_{air}$ across vertical gradients in closed-canopy forests.**
 High radiation at the top of the vertical profile (Fig. `r fig_NEON_vertical`) implies that canopy leaves have much greater propensity for high $T_{leaf}-T_{air}$, such that they would be expected to be warmer than understory leaves under most conditions (Fig. `r fig_leaf_T`).
-However, higher windspeeds and lower RH (Fig. `r fig_NEON_vertical`), along with adaptive leaf traits that reduce $g_a$ and increase $g_s$ (see next section), give them lower sensitivity to intercepted radiation (Fig. `r fig_leaf_T`a) and higher rates of heat loss (Fig. `r fig_leaf_T`b-e).
+However, higher windspeeds and lower RH (Fig. `r fig_NEON_vertical`), along with adaptive leaf traits that reduce $g_a$ and increase $g_s$ (reviewed below), give them lower sensitivity to intercepted radiation (Fig. `r fig_leaf_T`a) and higher rates of heat loss (Fig. `r fig_leaf_T`b-e).
 
 **Within closed-canopy forets, vertical gradients in the propensity for $T_{leaf}$ to be elevated above $T_{air}$ are expected to vary with micrometeorlogical conditions (Fig. `r fig_leaf_T`).**
 Under hot conditions, higher wind speeds and $g_a$ enable cooling, but at lower wind conditions, thickness of air layer at the leaf surface curbs rapid leaf-to-air heat transfer, limiting $g_a$ and increasing $T_{leaf} - T_{air}$ [Fig. `r fig_leaf_T`b, @martin_boundary_1999; @leighInfluenceLeafSize2017; @robertsStomatalBoundaryLayerConductances1990a; @songTreeSurfaceTemperature2020]. 
@@ -216,7 +216,7 @@ In contrast, under drought conditions (hot and dry, with higher-than-average sol
 Because sun leaves are exposed to higher irradiance and $VPD$, their $g_s$-limitation is steeper that that of shade leaves, resulting in greater increases in $T_{leaf}$ when $g_s$ is reduced [Fig. `r fig_leaf_T`e, @leighInfluenceLeafSize2017; @fauset_differences_2018]. 
 
 ### In-situ observations
-**Following the principles outlined above, vertical microclimate profile and leaf traits (see following section) together explain in-situ $T_{leaf}$ observations (Figs. `r fig_NEON_vertical`-`r fig_leaf_T`).** 
+**Following the principles outlined above, vertical microclimate profiles, leaf traits (see "Leaf Traits" section), and $g_s$ (see "Leaf metabolism and thermal responses" section) together explain in-situ $T_{leaf}$ observations (Figs. `r fig_NEON_vertical`-`r fig_leaf_T`).** 
 In closed-canopy forests, *including tropical and temperate broadleaf forests*, leaves experience greater $T_{leaf} - T_{air}$ and higher maximum $T_{leaf}$ in the upper canopies than buffered lower-canopies, sometimes exceeding optima for photosynthesis ($T_{opt}$) and $T_{air}$, because of $g_s$-limitation and high irradiance [@niinemetsShapeLeafPhotosynthetic1999; @doughtyAreTropicalForests2008; @fauset_differences_2018; @mauTemperateTropicalForest2018a; @millerOnlySunlitLeaves2021; @rey-sanchez_spatial_2016; @mauTemperateTropicalForest2018a; @rey-sanchez_spatial_2016; @pauTropicalForestTemperature2018]. 
 In contrast, in open forests with lower buffering capacity, lower-canopy $T_{leaf}$ is commonly greater than upper canopy $T_{leaf}$, due to greater light permeability, *vertical air mixing*, and still air in the lower canopy and heating from the ground [Figs. `r fig_NEON_vertical`h, `r SIfig_NEON_all`b,e, @mullerEvidenceEfficientNonevaporative2021; @martin_boundary_1999; @zweifelMiddayStomatalClosure2002; @hadleyInfluenceKrummholzMat1987;@rey-sanchez_spatial_2016]. 
 Similarly, trees growing close to the ground can experience greater heat stress in their lower than upper canopies [@hadleyInfluenceKrummholzMat1987; @curtis_intracanopy_2019]. 
@@ -230,30 +230,28 @@ Because conifer leaves have lower $g_a$ than broad leaves, conifer canopies have
 
 Spatial distribution of canopy temperature also shows that exposed tropical tree barks can be much warmer than leaves and flowers [@pauTropicalForestTemperature2018]. 
 
-
-
-
-
 ## Leaf traits 
 
-**Leaf thermoregulation is controlled by leaf traits, that are in-turn adapted to their environment [@michaletzEnergeticCarbonEconomic2016]. Therefore, leaf traits are critical in maintaining desirable $T_{leaf}$ and shaping leaf metabolism (following section) across forest vertical strata (Figs. `r fig_NEON_vertical`, `r SIfig_NEON_all`)[@michaletzPlantThermoregulationEnergetics2015; @zwienieckiHydraulicLimitationsImposed2004]**
+**Leaf thermoregulation is controlled by leaf traits, which are in-turn adapted to their environment [@michaletzEnergeticCarbonEconomic2016] in order to maintain desirable $T_{leaf}$ for leaf metabolism (see following section) across forest vertical strata [@michaletzPlantThermoregulationEnergetics2015; @zwienieckiHydraulicLimitationsImposed2004]**
+Leaf morphology adapts to the local microenvironment during leaf expansion [@zwienieckiHydraulicLimitationsImposed2004], where the ratio of direct to diffused light and resultant water demands cause leaves to develop characteristics of sun vs shade leaves [@casasSunShadeLeaves2011; @zwienieckiHydraulicLimitationsImposed2004; @keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. 
+This dichotomy in leaves is observed along the vertical gradient where canopy-leaves vary dramatically from canopy-interior and understory due to the differences in biophysical conditions (Figs. `r fig_NEON_vertical`, `r SIfig_NEON_all`). 
 
-Leaf morphology adapts to the local microenvironment during leaf expansion [@zwienieckiHydraulicLimitationsImposed2004] where degrees of direct to diffused light and resultant water demands shape sun vs. shade leaves [@casasSunShadeLeaves2011; @zwienieckiHydraulicLimitationsImposed2004; @keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. This dichotomy in leaves is observed along the vertical gradient where canopy-leaves vary dramatically from canopy-interior and understory due to the differences in biophysical conditions (Figs. `r fig_NEON_vertical`, `r SIfig_NEON_all`). At greater tree height, both biological variables (tree-height) and biophysical variables (light, temperature, and evaporative demand )(Fig. `r fig_NEON_vertical`) also play a role in shaping leaf traits. 
-
-In particular, hydraulic constraints increase with height on a tree [REFS; *McDowell-isotopes book chapter*; @cobleLightAcclimationOptimizes2015; *Couvreur et al., 2018*] such that gas exchange is strongly constrained at the tops of(~100 m. tall *Sequoia sempervirens*; *Ambrose et al. 2009, 2010*).
+~~~ *(this paragraph breaks the flow, and I'd love to be able to drop it or perhaps dramatically shorten. It is important and interesting content, though)*
+Both biophysical variables (light, temperature, and evaporative demand; Fig. `r fig_NEON_vertical`) and biological variables (tree height) play a role in shaping leaf traits. 
+In particular, hydraulic constraints increase with height on a tree [@mcdowell_relationship_2011; @cobleLightAcclimationOptimizes2015; @couvreur_water_2018a] such that gas exchange is strongly constrained at the tops of very tall trees (e.g., ~100 m. tall *Sequoia sempervirens*; *Ambrose et al. 2009, 2010*).
 Isolating height (>35m) from light shows that, canopy $gs$ decreases with increasing $VPD$  [@schaferEffectTreeHeight2000; @ambroseEffectsHeightTreetop2010]. Morphologically, leaf size [@jensenPhysicalLimitsLeaf2013b] and lobation [@kusiPlasticLeafMorphology2020] have been shown to decrease, and leaf mass per area (at greater than 20m) to increase, with height  [@cobleLightAcclimationOptimizes2015; @kenzoHeightrelatedChangesLeaf2015; @rijkersEffectTreeHeight2000a; @chinLeafAcclimationLight2017; @marshallFoliageHeightInfluences2003]. 
-
 Disentangling tree-height related biological and biophysical drivers (Fig. `r fig_NEON_vertical`) of leaf traits remains an important area for further research, but is beyond the scope of the current review. Here, our primary interest is in how leaf traits and function vary across the vertical gradient from the canopy-top to the understory in forests. We note that patterns across light and height gradients are generally similar, at least in direction (Table 1), but likely to be modified by covarying biophysical constraints. 
+~~~
 
-### *(clarify intra- vs inter-specific variation - 1 short paragraph)*
-Leaf trait variation within the same species, here, is referred to as within-canopy intraspecific variation, and comparison of traits across species is referred to as interspecific variation. Therefore, across the vertical gradient, traits vary (1) across sun and shade leaves within individuals, (2) across canopy and understory individuals of the same species, and (3) across canopy and understory species. 
+Across the vertical gradient, traits vary (1) across sun and shade leaves within individuals, (2) across canopy and understory individuals of the same species, and (3) across canopy and understory species. 
 The majority of studies characterizing variation in leaf traits or metabolism examine intraspecific patterns (categories 1 and 2), which are therefore the main focus of this review (Table 1).
 However, when it comes to understanding and modeling forest ecosystem function, the relevant scale of variation is interspecific (e.g., *Lamour, Serbin in prep*).
 
 
 ### Intraspecific variation
 
-Within-canopy leaf traits vary along the canopy light gradient, ie. in sun and shade leaves [@casasSunShadeLeaves2011] at a leaf anatomical, structural and biochemical level [@sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. This variation is crucial, to understand vertical $T_{leaf}$ patterns [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016]. Table `r table_leaf_traits`, summarizes relevant traits for thermal sensitivity. Further, research to characterize trait relationships and responses through the vertical canopy is needed, because LES theory was developed using mainly sun exposed (upper canopy) leaves [@chenLeafEconomicsSpectrum2020; @keenanGlobalLeafTrait2016]. 
+Within-canopy leaf traits vary along the canopy light gradient, *i.e.,* in sun and shade leaves [@casasSunShadeLeaves2011], at a leaf anatomical, structural and biochemical level [@sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. 
+This variation shapes vertical $T_{leaf}$ patterns [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016]. Table `r table_leaf_traits`, summarizes relevant traits for thermal sensitivity. Further, research to characterize trait relationships and responses through the vertical canopy is needed, because LES theory was developed using mainly sun exposed (upper canopy) leaves [@chenLeafEconomicsSpectrum2020; @keenanGlobalLeafTrait2016]. 
 
 Intraspecific traits also vary along the ontogeny of the same species in canopy and understory, for example, LMA, photosynthetic capacity [per area] and $gs$ have been observed to increase with height, separate from light [@thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @cavender-baresChangesDroughtResponse2000].  
 
