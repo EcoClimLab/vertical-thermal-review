@@ -250,8 +250,9 @@ However, when it comes to understanding and modeling forest ecosystem function, 
 
 ### Intraspecific variation
 
-Within-canopy leaf traits vary along the canopy light gradient, *i.e.,* in sun and shade leaves [@casasSunShadeLeaves2011], at a leaf anatomical, structural and biochemical level [@sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. 
-This variation shapes vertical $T_{leaf}$ patterns [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016]. Table `r table_leaf_traits`, summarizes relevant traits for thermal sensitivity. Further, research to characterize trait relationships and responses through the vertical canopy is needed, because LES theory was developed using mainly sun exposed (upper canopy) leaves [@chenLeafEconomicsSpectrum2020; @keenanGlobalLeafTrait2016]. 
+Within-canopy, leaf traits vary along the canopy light gradient [*i.e.,* in sun and shade leaves, @casasSunShadeLeaves2011] at a leaf anatomical, structural and biochemical level [Table `r table_leaf_traits`, @sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. 
+This variation shapes vertical $T_{leaf}$ patterns [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016]. 
+Further research to characterize trait relationships and responses through the vertical canopy is needed, because LES theory was developed using mainly sun exposed (upper canopy) leaves [@chenLeafEconomicsSpectrum2020; @keenanGlobalLeafTrait2016]. 
 
 Intraspecific traits also vary along the ontogeny of the same species in canopy and understory, for example, LMA, photosynthetic capacity [per area] and $gs$ have been observed to increase with height, separate from light [@thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @cavender-baresChangesDroughtResponse2000].  
 
