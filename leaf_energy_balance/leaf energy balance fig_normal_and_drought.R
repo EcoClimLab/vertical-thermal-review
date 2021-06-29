@@ -433,7 +433,7 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+ xlab("relative humidity (rh, %)")+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+ xlab("relative humidity (rh)")+
   theme_few()+theme(text = element_text(size = 14))+ ylim (-5, 14) 
 e1
 
