@@ -232,8 +232,8 @@ Spatial distribution of canopy temperature also shows that exposed tropical tree
 
 ## Leaf traits 
 
-**Leaf thermoregulation is controlled by leaf traits, which are in-turn adapted to their environment [@michaletzEnergeticCarbonEconomic2016] in order to maintain desirable $T_{leaf}$ for leaf metabolism (see following section) across forest vertical strata [@michaletzPlantThermoregulationEnergetics2015; @zwienieckiHydraulicLimitationsImposed2004]**
-Leaf morphology adjusts to the local microenvironment during leaf expansion [@zwienieckiHydraulicLimitationsImposed2004], and the ratio of direct to diffused light and associated water demands cause leaves to develop characteristics of sun vs shade leaves [@casasSunShadeLeaves2011; @zwienieckiHydraulicLimitationsImposed2004; @keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. 
+**Leaf traits determine the capacity of leaves to thermoregulate [@michaletzEnergeticCarbonEconomic2016], and as such are critical to optamize leaf metabolism (see following section) across forest vertical strata [@michaletzPlantThermoregulationEnergetics2015; @zwienieckiHydraulicLimitationsImposed2004]**
+Leaf morphology adjusts to the local microenvironment during leaf expansion [@zwienieckiHydraulicLimitationsImposed2004], and the ratio of direct to diffused light and associated water demands determines the differentiation of traits of sun and shade leaves [@casasSunShadeLeaves2011; @zwienieckiHydraulicLimitationsImposed2004; @keenanGlobalLeafTrait2016; @niinemetsLeafAgeDependent2016a]. 
 This dichotomy in leaves is observed along the vertical gradient where canopy-leaves vary dramatically from canopy-interior and understory due to the differences in biophysical conditions (Figs. `r fig_NEON_vertical`, `r SIfig_NEON_all`). 
 
 ~~~ *(this paragraph breaks the flow, and I'd love to be able to drop it or perhaps dramatically shorten. It is important and interesting content, though)*
@@ -269,7 +269,7 @@ nocite: |
 
 #### Anatomical, Morphological and Physiological traits
 
-Sun leaves in the exposed canopy have traits that help avoid heat and water stress than shade leaves where, for instance, being smaller, hairier, with higher vein density [@leighInfluenceLeafSize2017; @vogelConvectiveCoolingLow1970; @sackHowStrongIntracanopy2006; @zwienieckiHydraulicLimitationsImposed200], and steeper leaf-angle and rolling [@niinemetsAdjustmentFoliageStructure1998, *REF*]. These traits [see Table 1] collectively aid heat dissapation and regulate $T_{leaf}$-photosynthetic balance. Whereas, shade leaves have traits that maximize light capture in the diffused-light environment with sunflecks, for example lower LMA, but are more likely to get overheated than sun leaves due to greater thermal capacitance [@mathurPhotosyntheticEfficiencySun2018a; @leighInfluenceLeafSize2017; @casasSunShadeLeaves2011; @schymanskiStomatalControlLeaf2013a]. In open canopies where light is comparitively homogenous, exposed leaves are primarily shaped by $T_{air_{max}}$ and $VPD$ stress, rather than solely by light [@mediavillaFoliarPlasticityRelated2019a].
+Sun leaves in the exposed canopy have traits that help avoid heat and water stress than shade leaves where, for instance, being smaller, hairier, with higher vein density [@leighInfluenceLeafSize2017; @vogelConvectiveCoolingLow1970; @sackHowStrongIntracanopy2006; @zwienieckiHydraulicLimitationsImposed200], and steeper leaf-angle [@niinemetsAdjustmentFoliageStructure1998, *REF*]. These traits [see Table 1] collectively aid heat dissapation and regulate $T_{leaf}$-photosynthetic balance. Whereas, shade leaves have traits that maximize light capture in the diffused-light environment with sunflecks, for example lower LMA, but are more likely to get overheated than sun leaves due to greater thermal capacitance [@mathurPhotosyntheticEfficiencySun2018a; @leighInfluenceLeafSize2017; @casasSunShadeLeaves2011; @schymanskiStomatalControlLeaf2013a]. In open canopies where light is comparitively homogenous, exposed leaves are primarily shaped by $T_{air_{max}}$ and $VPD$ stress, rather than solely by light [@mediavillaFoliarPlasticityRelated2019a].
 
 #### Biochemical traits
 
@@ -281,7 +281,7 @@ Caratenoids and xanthophyll cycle pigments--violaxanthin, antheraxanthin and zea
 
 ##### *Leaf lifespan*  
 
-New-leaf growth in response to the light gradient constantly shades leaves underneath. Therefore, exposed-canopies have greater proportion of young leaves than shaded regions that have older leaves. Acclimation to shade from sun-exposure, and vice-versa, is more possible in younger than mature leaves, due to developing traits that can acclimate, whereas, change in longterm-light for mature leaves can result in leaf abscission [Niinemetes, 2007; *REFS*]. *Leaf turnover tends to be greater in the sun (in the tropics), so of your standing stock of leaves (at least in evergreen species) sun leaves should be younger than shade leaves. This is bound to affect metabolism, and may affect other aspects of their performance.*
+Leaf age affects vulnerability to heat stress independent of light environment [e.g. Marias et al. 2017], and has a strong effect on metabolism (Kikuzawa & Lechowitz, Kitajima et al.). Sun leaves have shorter lifespans than shade leaves, and thus upper canopy leaves are on average younger than subcanopy leaves, they therefore operate closer to their photosynthetic optimum . However, because leaf turnover rates of sun leaves in the upper canopy are faster than in the subcanopy,  damage does not really accumulate [Miller et al. 2021]. The effect of leaf age on heat tolerance once leaves are fully expanded and mature, is XXX  . 
 
 ### Interspecific variation 
 
@@ -289,12 +289,12 @@ Widely, across forest species, the pattern of fundamental trait adaptation to li
 
 ##### *Deciduousness*
 
-Deciduousness as a trait in tropical forests is an adaptation to conserve water under stress. Indeed, greater proportion of deciduous species are found in drier tropical regions than wetter. Among tropical species individuals that can be deciduous, the fraction of deciduous trees tends to increase across tree size classes, with understory species that are seldom deciduous [@conditQuantifyingDeciduousnessTropical2000c; Meakem]. In deciduous-temperate forests, spatio-temporal leaf-emergence is delayed with height-ontogeny with understory species leafing-out earlier than canopy trees [Vitasse et al. 2013; @seiwaChangesLeafPhenology1999].Therefore, deciduous leaf-loss or -gain can alter biophysical and $T_{leaf}$ gradient [@rey-sanchez_spatial_2016]. 
+Seasonal leaf-loss or -gain can alter biophysical and $T_{leaf}$ gradient in the forest [@rey-sanchez_spatial_2016]. Deciduousness in tropical forests is an adaptation to conserve water that is more common is dry than wet tropical forests. Within tropical species, the fraction of deciduous trees tends to increase across tree size classes, with understory species typically remaining evergreen [@conditQuantifyingDeciduousnessTropical2000c; Meakem]. In temperate deciduous forests, leaf-emergence is delayed with height-ontogeny, with understory species leafing-out earlier than canopy trees [Vitasse et al. 2013; @seiwaChangesLeafPhenology1999]. 
 
 ## Leaf metabolism and thermal responses
 
 Leaf metabolism is strongly shaped by leaf temperature, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. `r fig_schematic`). 
-However, as we detail below, there are limited studies comparing thermal responses of sun and shade leaves and vertical gradient (Table `r table_leaf_metabolism`).
+However, as we detail below, very few studies have valued temperature responses of leaf metabolic rates along a vertical canopy gradient, or compared sun and shade leaves (Table `r table_leaf_metabolism`).
 
 ![Table `r table_leaf_metabolism`. (*For latest version of table, see tables.pdf.*)](table2.png)
 ```{r eval=FALSE, echo=FALSE}
