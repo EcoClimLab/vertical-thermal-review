@@ -281,7 +281,7 @@ Caratenoids and xanthophyll cycle pigments--violaxanthin, antheraxanthin and zea
 
 ##### *Leaf lifespan*  
 
-Leaf age affects vulnerability to heat stress independent of light environment [e.g. Marias et al. 2017], and has a strong effect on metabolism (Kikuzawa & Lechowitz, Kitajima et al.). Sun leaves have shorter lifespans than shade leaves, and thus upper canopy leaves are on average younger than subcanopy leaves, they therefore operate closer to their photosynthetic optimum . However, because leaf turnover rates of sun leaves in the upper canopy are faster than in the subcanopy,  damage does not really accumulate [Miller et al. 2021]. The effect of leaf age on heat tolerance once leaves are fully expanded and mature, is XXX  . 
+Leaf age affects vulnerability to heat stress independent of light environment [e.g. Marias et al. 2017], and has a strong effect on metabolism (Kikuzawa & Lechowitz, Kitajima et al.). Sun leaves have shorter lifespans than shade leaves, and thus upper canopy leaves are on average younger than subcanopy leaves, they therefore operate closer to their photosynthetic optimum . However, because leaf turnover rates of sun leaves in the upper canopy are faster than in the subcanopy,  damage does not really accumulate [Miller et al. 2021]. The effect of leaf age on heat tolerance once leaves are fully expanded and mature, is XXX. 
 
 ### Interspecific variation 
 
@@ -297,6 +297,7 @@ Leaf metabolism is strongly shaped by leaf temperature, and by the traits and en
 However, as we detail below, very few studies have valued temperature responses of leaf metabolic rates along a vertical canopy gradient, or compared sun and shade leaves (Table `r table_leaf_metabolism`).
 
 ![Table `r table_leaf_metabolism`. (*For latest version of table, see tables.pdf.*)](table2.png)
+
 ```{r eval=FALSE, echo=FALSE}
 # refs in this table need to go in the nocite field below (easiest in alphabetical order)
 ```
@@ -308,7 +309,7 @@ nocite: |
 
 ### Stomatal conductance
 
-Exposed sun-leaves, though equipped with thermoregulatory traits, are more constrained by $gs$ than shade leaves that are buffered within-canopy [@sanchesDifferentialLeafTraits2010; @hernandezSimilarTemperatureDependence2020] because although evapotranspiration and $gs$ peak during the day, during the midday and afternoon $gs$ declines more steeply in sun leaves resulting in increased $T_{leaf}$ [@sanchesDifferentialLeafTraits2010; @zwienieckiHydraulicLimitationsImposed2004; @kochDiurnalPatternsLeaf1994b; @kosugiSeasonalFluctuationsTemperature2006]. Even so, $T_{opt}$ of $gs$  did not differ significantly between sun and shade leaves in three tropical tree species [Slot et al. 2019], but sun leaves show a stronger decrease in gs to rising temperature than shade leaves (Hernández et al. 2020; Carter et al. 2021 ). Higher maximum temperatures influences leaf thermal sensitivity tolerance [Perez and Feeley, 2018], but exact mechanisms remain unclear.
+Maximum $gs$ increases with light environment, and is thus higher in the sun exposed upper canopy than in subcanopy or understory leaves. However, because of the high evaporative demand and irradiance experienced by sun leaves,  mid-day stomatal depression is prevalent in sun leaves but not in shade leaves.  $T_{leaf}$ of sun leaves thus further increases due to the lack of transpirational cooling [@sanchesDifferentialLeafTraits2010; @zwienieckiHydraulicLimitationsImposed2004; @kochDiurnalPatternsLeaf1994b; @kosugiSeasonalFluctuationsTemperature2006]. Higher maximum temperatures influences leaf thermal sensitivity tolerance [Perez and Feeley, 2018], but exact mechanisms remain unclear. $T_{opt}$ of $gs$  did not differ significantly between sun and shade leaves in three tropical tree species [Slot et al. 2019], but sun leaves show a stronger decrease in gs to rising temperature than shade leaves (Hernandez et al. 2020; Carter et al. 2021 ). 
 
 ### Photosynthesis
 
