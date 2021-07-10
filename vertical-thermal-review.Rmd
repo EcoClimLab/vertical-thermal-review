@@ -240,8 +240,7 @@ In contrast, in open forests with lower $LAI$, lower-canopy $T_{leaf}$ can equal
 Similarly, in very open forests or savannas, trees growing close to the ground can experience greater heat stress in their lower than upper canopies [@hadleyInfluenceKrummholzMat1987; @curtis_intracanopy_2019]. 
 Greater $RH$ in closed-inner canopy can also increase $T_{leaf}$ relatively more than upper-canopy $T_{leaf}$ [@dietzVerticalPatternsDuration2007]. 
 
-It is noteworthy that $T_{leaf}$ often differs substantially from that of branches and stems. 
-For instance, exposed tropical tree bark can be much warmer than leaves and flowers [@pauTropicalForestTemperature2018]. 
+It is noteworthy that $T_{leaf}$ often differs substantially from that of branches and stems; for instance, exposed tropical tree bark can be much warmer than leaves and flowers [@pauTropicalForestTemperature2018]. 
 Thus, the vegetation temperature ($T_{veg}$) measured using sensors that integrate across both leaves and woody vegetation (e.g., infrared sensors for $T_{veg}$ at NEON sites, Fig. `r fig_NEON_vertical`h) does not always equal $T_{leaf}$, particularly in settings where leaf area is low relative to woody vegetation (*i.e.*, low-LAI ecosystems and understories). 
 Recent advances in $T_{leaf}$ modeling (see "Scaling across Space and Time") will enhance our understanding of large scale $T_{leaf}$ vertical patterns [@stillImagingCanopyTemperature].
 
