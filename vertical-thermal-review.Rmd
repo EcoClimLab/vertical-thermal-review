@@ -308,7 +308,7 @@ Seasonal leaf-loss or gain can alter biophysical and $T_{leaf}$ gradient in the 
 
 ## Leaf metabolism and thermal responses
 
-Leaf metabolism is strongly shaped by leaf temperature, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. `r fig_schematic`). 
+Leaf metabolism is strongly shaped by $T_{leaf}$, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. `r fig_schematic`). 
 However, as we detail below, very few studies have valued temperature responses of leaf metabolic rates along a vertical canopy gradient, or compared sun and shade leaves (Table `r table_leaf_metabolism`).
 
 ![Table `r table_leaf_metabolism`. (*For latest version of table, see tables.pdf.*)](table2.png)
