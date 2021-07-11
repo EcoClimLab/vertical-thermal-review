@@ -181,7 +181,7 @@ Seasonally, canopy buffering capacity is greater in wet than dry seasons, presum
 
 Leaf temperature ($T_{leaf}$) is strongly tied to $T_{air}$, and is further influenced by other biophysical drivers (reviewed above) and by leaf traits and stomatal conductance (see following sections), with leaves adjusted to their environment so as to maintain, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020]. 
 Leaves can be either cooler than air at high $T_{air}$ or warmer than air at low $T_{air}$ (limited homeothermy), and may sometimes be drastically warmer than $T_{air}$ [megathermy, @doughtyAreTropicalForests2008].
-While $T_{leaf}$ is most commonly within a few degrees of $T_{air}$ [poikilothermy, @cavaleriColdbloodedForestsWarming2020; @drakeNoEvidenceHomeostatic2020], it is rarely exactly equal. 
+While $T_{leaf}$ is most commonly within a few degrees of $T_{air}$, it is rarely exactly equal [poikilothermy, @cavaleriColdbloodedForestsWarming2020; @drakeNoEvidenceHomeostatic2020]. 
 
 
 ### Biophysical drivers
@@ -284,27 +284,24 @@ Caratenoids and xanthophyll cycle pigments -- violaxanthin, antheraxanthin and z
 
 Elemental traits, such as $N_{area}$ and $P_{area}$, contribute to activities of high leaf metabolism, including respiration [@meirLeafRespirationTwo2001;@weerasingheCanopyPositionAffects2014] and photosynthetic processes in sun leaves [Table 1, @scartazzaInvestigatingEuropeanBeech2016a;@niinemetsWithincanopyVariationRate2004;@weerasingheCanopyPositionAffects2014]. Within-canopy leaf nitrogen distribution is regulated to prevent photoinhibition in shade leaves during sunflecks, and direct light for sun leaves [@kitaoCanopyNitrogenDistribution2018]. Hence, although we would expect elemental traits to influence vertical foliar thermal sensitivity,  @zhuPlasticityPhotosyntheticHeat2018 and @osullivanThermalLimitsLeaf2017 observed no relation between foliar thermal tolerance and total foliar concentrations of N and P.  
 
-Further, higher heat tolerance in exposed canopies is facilitated by isoprenes in species capable of emitting isoprenes, *providing these species with a selective advantage in a warming world* [*REF*].
+Further, higher heat tolerance in exposed canopies is facilitated by isoprenes in species capable of emitting isoprenes [REF].
 
 #### (Leaf lifecycles)
 
 Leaf age affects vulnerability to heat stress independent of light environment [e.g., Marias et al. 2017], and has a strong effect on metabolism [@kikuzawaSynthesisRelationshipsLeaf2006], including photosynthesis and respiration, and their temperature sensitivities [@zhouLeafageEffectsTemperature2015; @niinemetsLeafAgeDependent2016].
 Sun leaves have shorter lifespans than shade leaves, and thus upper canopy leaves are on average younger than subcanopy leaves, therefore they operate closer to their photosynthetic optimum. However, because leaf turnover rates of sun leaves in the upper canopy are faster than in the subcanopy, less damage  accumulates [@millerOnlySunlitLeaves2021].
 Once leaves leaves are fully expanded and mature, heat tolerance decreases with leaf age [@zhouLeafageEffectsTemperature2015; REFS], as do $g_s$ and photosynthesis [with a few exceptions between species, @niinemetsLeafAgeDependent2016]. 
-In evergreen species, temperature responses of photosynthesis and temperature sensitivity of respiration ($Q_{10}$) have also been observed to be greater in younger than older leaves [@zhouLeafageEffectsTemperature2015].
 Additionally, because older leaves reach maximum $T_{leaf}$ sooner than younger leaves and can occupy a large part of the canopy, this would affect vertical gradient of thermal sensitivity [@zhouLeafageEffectsTemperature2015] **this needs some confirming by co-authors**.
 
 ### Interspecific variation 
 
 Generally, the pattern of fundamental trait adaptation to light gradients across forest species is similar to within-canopy traits [@rozendaalPlasticityLeafTraits2006; @thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012]. 
-However, the range in trait values can be several times greater in multi-species canopy than in understory species, based on their inherent species-specific traits and responses to environmental conditions. 
-Spatio-temporal gradients offer another axis for trait variation, for instance in early- and late-successional species [Ishii and Asano, 2007, @ishiiExploringRelationshipsCanopy2004a]. 
-Therefore, $T_{leaf}$ patterns witnin forest ecosystems are underpinned by both intra- and inter-specific variation in traits. 
-*For example, species with smaller leaves and larger $gs$ will be less vulnerable to temperature increase than species with larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020].*
+However, the range in trait values can be several times greater in multi-species canopy than in understory species, based on their inherent species-specific traits and responses to environmental conditions. Spatio-temporal gradients offer another axis for trait variation, for instance in early- and late-successional species [Ishii and Asano, 2007, @ishiiExploringRelationshipsCanopy2004a]. 
 
-##### (*Deciduousness* -- drop header, probably integrate this into paragraph above, or somehow re-organize the whole itnerspecific variation section)
+Seasonal leaf-loss or gain can alter biophysical and $T_{leaf}$ gradient in the forest [@rey-sanchez_spatial_2016].
+Deciduousness in tropical forests is an adaptation to conserve water that is more common is dry than wet tropical forests. Within tropical species, the fraction of deciduous trees tends to increase across tree size classes, with understory species typically remaining evergreen [@conditQuantifyingDeciduousnessTropical2000c]. In temperate deciduous forests, leaf-emergence is delayed with height-ontogeny, with understory species leafing-out earlier than canopy trees [@vitasseEarlierLeafoutRather2014; @seiwaChangesLeafPhenology1999].
 
-Seasonal leaf-loss or gain can alter biophysical and $T_{leaf}$ gradient in the forest [@rey-sanchez_spatial_2016]. Deciduousness in tropical forests is an adaptation to conserve water that is more common is dry than wet tropical forests. Within tropical species, the fraction of deciduous trees tends to increase across tree size classes, with understory species typically remaining evergreen [@conditQuantifyingDeciduousnessTropical2000c]. In temperate deciduous forests, leaf-emergence is delayed with height-ontogeny, with understory species leafing-out earlier than canopy trees [@vitasseEarlierLeafoutRather2014; @seiwaChangesLeafPhenology1999]. 
+Therefore, $T_{leaf}$ patterns within forest ecosystems are underpinned by both intra- and inter-specific variation in traits. 
 
 ## Leaf metabolism and thermal responses
 
@@ -361,6 +358,9 @@ Across species, $T_{50}$ is explained less by phylogeny [Slot et al. 2021; Perez
 
 A few studies have found $Q_{10}$ to be greater in upper-canopy leaves than in shaded lower-canopy leaves [@turnbullScalingFoliarRespiration2003; @harleyEffectsLightTemperature1996], whereas @griffinCanopyPositionAffects2002 found that in *Populas deltoides*, lower canopy leaf respiration was more sensitive to changes in $T_{air}$ than upper canopy. Other studies have observed no difference in $Q_{10}$ within species vertical profiles and in seedling sun vs. shade leaves [@weerasingheCanopyPositionAffects2014; @bolstad_foliar_1999; @zaragoza-castellsDoesGrowthIrradiance2007; @zaragoza-castellsClimatedependentVariationsLeaf2008]. 
 @xuSeasonalVariationTemperature2006 found that the canopy-position effect gradient in respiration rates was much greater for Quercus rubra trees in mesic than in xeric sites, but $Q_{10}$ did not differ between canopy positions.
+
+-In evergreen species, temperature responses of photosynthesis and temperature sensitivity of respiration ($Q_{10}$) have also been observed to be greater in younger than older leaves [@zhouLeafageEffectsTemperature2015].
+
 
  
 ### VOC production
@@ -435,6 +435,10 @@ Warming shifts forest composition, from leaf metabolism to whole forest structur
 Feedback loops from loss of big trees through natural or anthropogenic disturbance (e.g.@senfCanopyMortalityHas2018a, 2020;  @mcdowellMechanismsPlantSurvival2008; @bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019a] would increase canopy roughness, and reductions in canopy cover is associated with reduced canopy structural complexity [@senfMappingForestDisturbance2020]. Leading to altered biophysical gradient with local heating effects [@zellweger_forest_2020; @starkReframingTropicalSavannization2020], non-linear threshold responses, causing dramatic shifts from one forest state to another (e.g., transition from forest to savanna-like vegetation in tropical forest regions through "savannization"), with energy balance impacts and implications for forest-atmosphere interactions [@starkReframingTropicalSavannization2020]. 
 
 In the face of global climate change, resiliency among forests also stand out, such as African rainforests, with canopy trees that are more resilient to warming and drought than other forests [@bennettResistanceAfricanTropical2021]. Increasing temperature acclimation among tropical, temperate and boreal species [@slotGeneralPatternsAcclimation2015; @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019; @cunninghamTemperateRainforestTrees2003; @cunninghamTemperateRainforestTrees2003] and recovery from canopy heat stress [@smithEmpiricalEvidenceResilience2020] are other mechanisms that will help forests cope with warming.
+
+*For example, species with smaller leaves and larger $gs$ will be less vulnerable to temperature increase than species with larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020].*
+
+-Isoprenes *providing emitting species with a selective advantage in a warming world* [*REF*].
 
 These shifts in forest structure at large may be detectable by lidar and thermal remote sensing. If we know how metabolism maps to the thermal profile, then the observed forest structural changes can inform prediction of forest function.
  
