@@ -296,8 +296,6 @@ Additionally, because older leaves reach maximum $T_{leaf}$ sooner than younger 
 Generally, the pattern of fundamental trait adaptation to light gradients across forest species is similar to within-canopy traits [@rozendaalPlasticityLeafTraits2006; @thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012]. 
 However, the range in trait values can be several times greater in multi-species canopy than in understory species, based on their inherent species-specific traits and responses to environmental conditions. Spatio-temporal gradients offer another axis for trait variation, for instance in early- and late-successional species [Ishii and Asano, 2007, @ishiiExploringRelationshipsCanopy2004a]. 
 
-Seasonal leaf-loss or gain can alter biophysical and $T_{leaf}$ gradient in the forest [@rey-sanchez_spatial_2016].
-Deciduousness in tropical forests is an adaptation to conserve water that is more common is dry than wet tropical forests. Within tropical species, the fraction of deciduous trees tends to increase across tree size classes, with understory species typically remaining evergreen [@conditQuantifyingDeciduousnessTropical2000c]. In temperate deciduous forests, leaf-emergence is delayed with height-ontogeny, with understory species leafing-out earlier than canopy trees [@vitasseEarlierLeafoutRather2014; @seiwaChangesLeafPhenology1999].
 
 Therefore, $T_{leaf}$ patterns within forest ecosystems are underpinned by both intra- and inter-specific variation in traits. 
 
@@ -369,8 +367,15 @@ The high temperature carbon compensation point of sun leaves is higher in isopre
 
 ## Size-structuring within the ecosystem
 
-**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism scale up to affect whole-tree ecology, ecosystem ecology, and their thermal sensitivity (Fig. `r fig_schematic`).** 
-Vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in canopy versus understory conditions, thereby 
+**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism scale up to affect community composition, whole-tree ecology, and ecosystem ecology (Fig. `r fig_schematic`).** 
+
+
+### Size-structuring of communities
+
+Vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in canopy versus understory conditions, thereby shaping community composition across size classes. 
+
+Seasonal leaf-loss or gain can alter biophysical and $T_{leaf}$ gradient in the forest [@rey-sanchez_spatial_2016].
+Deciduousness in tropical forests is an adaptation to conserve water that is more common is dry than wet tropical forests. Within tropical species, the fraction of deciduous trees tends to increase across tree size classes, with understory species typically remaining evergreen [@conditQuantifyingDeciduousnessTropical2000c]. In temperate deciduous forests, leaf-emergence is delayed with height-ontogeny, with understory species leafing-out earlier than canopy trees [@vitasseEarlierLeafoutRather2014; @seiwaChangesLeafPhenology1999].
 
 ### Demography
 
