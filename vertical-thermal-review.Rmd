@@ -304,7 +304,7 @@ Therefore, $T_{leaf}$ patterns within forest ecosystems are underpinned by both 
 ## Leaf metabolism and thermal responses
 
 Leaf metabolism is strongly shaped by $T_{leaf}$, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. `r fig_schematic`). 
-However, as we detail below, very few studies have valued temperature responses of leaf metabolic rates along a vertical canopy gradient, or compared sun and shade leaves (Table `r table_leaf_metabolism`).
+However, as we detail below, very few studies have evaluated temperature responses of leaf metabolic rates along a vertical canopy gradient, or compared sun and shade leaves (Table `r table_leaf_metabolism`).
 
 ![Table `r table_leaf_metabolism`. (*For latest version of table, see tables.pdf.*)](table2.png)
 
@@ -369,9 +369,8 @@ The high temperature carbon compensation point of sun leaves is higher in isopre
 
 ## Size-structuring within the ecosystem
 
-**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism and its thermal responses scale up to affect whole-tree ecology and ecosystem ecology.** 
-
-Vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in understory versus canopy conditions.
+**Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism scale up to affect whole-tree ecology, ecosystem ecology, and their thermal sensitivity (Fig. `r fig_schematic`).** 
+Vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in canopy versus understory conditions, thereby 
 
 ### Demography
 
