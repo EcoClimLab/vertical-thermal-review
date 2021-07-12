@@ -287,7 +287,7 @@ Further, higher heat tolerance in exposed canopies is facilitated by isoprenes i
 #### (Leaf lifecycles)
 
 Leaf age affects vulnerability to heat stress independent of light environment [e.g., Marias et al. 2017], and has a strong effect on metabolism [@kikuzawaSynthesisRelationshipsLeaf2006], including photosynthesis and respiration, and their temperature sensitivities [@zhouLeafageEffectsTemperature2015; @niinemetsLeafAgeDependent2016].
-Sun leaves have shorter lifespans than shade leaves, and thus upper canopy leaves are on average younger than subcanopy leaves, therefore they operate closer to their photosynthetic optimum. However, because leaf turnover rates of sun leaves in the upper canopy are faster than in the subcanopy, less damage  accumulates [@millerOnlySunlitLeaves2021].
+*In evergreen species,* sun leaves have shorter lifespans than shade leaves, and thus upper canopy leaves are on average younger than subcanopy leaves, therefore they operate closer to their photosynthetic optimum. However, because leaf turnover rates of sun leaves in the upper canopy are faster than in the subcanopy, less damage  accumulates [@millerOnlySunlitLeaves2021].
 Once leaves leaves are fully expanded and mature, heat tolerance decreases with leaf age [@zhouLeafageEffectsTemperature2015; REFS], as do $g_s$ and photosynthesis [with a few exceptions between species, @niinemetsLeafAgeDependent2016]. 
 Additionally, because older leaves reach maximum $T_{leaf}$ sooner than younger leaves and can occupy a large part of the canopy, this would affect vertical gradient of thermal sensitivity [@zhouLeafageEffectsTemperature2015] **this needs some confirming by co-authors**.
 
