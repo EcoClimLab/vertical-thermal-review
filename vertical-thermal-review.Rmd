@@ -302,8 +302,6 @@ Vertical gradients in the biophysical environment shape which plant strategies, 
 Generally, the pattern of fundamental trait adaptation to light gradients across forest species is similar to within-canopy traits [@rozendaalPlasticityLeafTraits2006; @thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012]. 
 For instance, across tree size classes, there is an increase in the fractions of species that are isoprene-emitting (**REFS**) and deciduous [@conditQuantifyingDeciduousnessTropical2000c; @Meakem2018].
 However, the range in trait values can be several times greater in multi-species canopy than in understory species, based on their inherent species-specific traits and responses to environmental conditions. 
-*Spatio-temporal gradients offer another axis for trait variation, for instance in early- and late-successional species [Ishii and Asano, 2007, @ishiiExploringRelationshipsCanopy2004a].* 
-
 
 Therefore, $T_{leaf}$ patterns within forest ecosystems are underpinned by both intra- and inter-specific variation in traits. 
 
