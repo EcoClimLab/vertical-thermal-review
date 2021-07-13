@@ -391,7 +391,12 @@ Of the fixed C, a higher proportion is consumed by respiration, in part because 
 - NSCs increase , making smaller trees more sensitive to biological and biophyical stressors [@niinemetsResponsesForestTrees2010a]
 
 
+
 **Vertical gradients also affect the climate sensitivity of metabolism and growth.** 
+
+*all of the following should be condensed into a paragraph or maybe 2:*
+
+~~~ 
 
 - Within species, tolerance of more than one biological and biophyical stressors can increase with tree height and light, enabled by non-structural carbon reserve [NSC], with smaller shaded trees being more sensitive due to lower NSC [@niinemetsResponsesForestTrees2010a]. 
 
@@ -400,7 +405,7 @@ Greater $VPD$ and low RH can be more stressful for trees than soil moisture acro
 
 Biophysical conditions can alter growth rates, but can do so differently between size classes through influencing existing demographic differences. Particulary. evidence in mesic temperate and subtropical eucalyptus forests shows that higher temperatures primarily reduced tree growth through altering water availability  [@bowmanWarmerWorldWill2014]. Whereas in tropical forests higher nighttime temperatures was associated with decelarating tree growth rates predominantly in smaller trees but also in taller trees [*Clark 2010; 2013; Feeley et al. 2007*], perhaps due to increase in nighttime respiratory carbon loss that reduced carbon availability for growth. 
 
-**Recently emerging evidence indicates that understory trees tend to exhibit greater growth declines with increasing $T_{air}$ under mesic conditions.** 
+Recently emerging evidence indicates that understory trees tend to exhibit greater growth declines with increasing $T_{air}$ under mesic conditions.
 In eight forests across the northeast United States, growth rates of understory trees declined sharply at higher $T_{air}$ [Fig `r fig_treerings` **???**; @rollinsonClimateSensitivityUnderstory].
 This pattern is initially counter-intuitive in that sun-exposed leaves can experience greater elevation of $T_{leaf}$ over $T_{air}$ than shade leaves (Fig. `r fig_leaf_T` **???**). 
  It is also possible that higher temperatures reduce understorty tree growth in these forests through an indirect mechanism, such as accelerated competition under warmer temperatures. In other cases, warming is associated with taller understory trees with lower LMA that complete their lifecycle under closed-canopy temperate forests [@maesPlantFunctionalTrait2020]. 
@@ -410,18 +415,30 @@ Phenologically, in temperate deciduous and mesic forests, understory growth can 
 
 *In this section we could perhaps also consider differences in biomass distribution between canopy trees an understory plants, and what that may mean for performance at high temperature. What I'm thinking is the temperature sensitivity of respiration that applies to leaves, stems, and roots, and even though thermal acclimation of leaf respiration is common, much less is known about acclimation of stem and root respiration, and incomplete acclimation still increases the respiration load at higher temperature. It is possible that an increased respiration load is more disadvantageous for understory plants because 1), I suspect that a greater fraction of their total biomass is life biomass that respires (as opposed dead heartwood in the stems of big trees), and 2), because they operate closer to their light compensation point, so if they lose more carbon in respiration, they would need  to make up for lost carbon in photosynthesis, but might lack sunlight to do so*
 
+~~~~
 
 ![**Figure `r fig_treerings`. DRAFT tree-rings figure. Current figure shows (a) drought responses as a function of height in a temperate broadleaf forest (SCBI), from McGregor et al. 2020; (b) responses to growing season temperature in eight New England forests, from Rollinson et al. 2020.  I'M NOT SURE THIS IS WHAT WE WANT, BUT I THINK SOME SORT OF TREE-RING FIGURE WOULD BE GOOD. [ISSUE # 29](https://github.com/EcoClimLab/vertical-thermal-review/issues/29).](tree_rings/tree_rings_draft.png)
 
+**Tree mortality risk is also size-structured.**
 
+- most common trend is higher risk of drought mortality for larger trees [@bennettLargerTreesSuffer2015; @stovall], including in open forests (**REFS**). *(However, there are exceptions...)*
+- also, greater risks of lightning, blow-down, etc.  (@Esquivel-Muelbert_2021) *(although this isn't temperature-related, so should get minimal attention, if at all)*
 
 ### C and water flux
 
-*(here, it would be good to add some content on contributions to C cycling across the vertical gradient.  If Camille's paper is published ahead of this, that would be the best source. Meakem et al. 2018, New Phyt has a similar analysis for 3 sites.)*
+**Canopy trees account for the majority of forest ecosystem metabolism-- i.e., transpiration, GPP, woody productivity ($ANPP_{woody}$).**
 
-Leaf-scale properties and processes aggregate non-linearly  in vertical and horizontal space, influencing stand-level ecosystem processes, and in turn biosphere-atmosphere exchanges of water, carbon, energy, and trace gases. As described above, variation in temperature across vertical gradients can interact with local light conditions and other vertically varying meteorological conditions to affect species composition (e.g., see @nakamuraForestsTheirCanopies2017), leaf traits, and photosynthesis . Linked to this local biophysical variation is the partitioning of evapotranspiration ($ET$) into soil evaporation, canopy evaporation, and transpiration, which occur across varying spatiotemporal scales depending on light availability, water stress, stomatal physiology, and turbulent transfer (Lawrence et al. 2007, Staudt et al. 2011). Vertical microclimate gradients interact with vertical variation in foliage density, influencing not only the location of evapotranspiration in the canopy, but also differences in rates and net gross primary productivity ($GPP$, Banerjee & Linn 2018). It has been demonstrated that net carbon assimilation and transpiration can vary substantially for forest canopies with the same LAI but different leaf area density distributions (e.g., Katul et al 2004 , Banerjee & Linn 2018). Further, although transpiration tends to be the dominant component of ET, partitioning is more complex in open canopies where soil evaporation can become more dominant (Baldocchi et al. 2004, Ma et al. 2020), likely affecting vertical thermal gradients. In other words, it matters whether foliage is dense or sparse, and whether it is concentrated higher in the canopy, lower in the canopy, or evenly distributed throughout. 
+- ET: "Leaf-scale properties and processes aggregate non-linearly  in vertical and horizontal space, influencing stand-level ecosystem processes, and in turn biosphere-atmosphere exchanges of water, carbon, energy, and trace gases. As described above, variation in temperature across vertical gradients can interact with local light conditions and other vertically varying meteorological conditions to affect species composition (e.g., see @nakamuraForestsTheirCanopies2017), leaf traits, and photosynthesis . Linked to this local biophysical variation is the partitioning of evapotranspiration ($ET$) into soil evaporation, canopy evaporation, and transpiration, which occur across varying spatiotemporal scales depending on light availability, water stress, stomatal physiology, and turbulent transfer (Lawrence et al. 2007, Staudt et al. 2011). Vertical microclimate gradients interact with vertical variation in foliage density, influencing not only the location of evapotranspiration in the canopy, but also differences in rates and net gross primary productivity ($GPP$, Banerjee & Linn 2018). It has been demonstrated that net carbon assimilation and transpiration can vary substantially for forest canopies with the same LAI but different leaf area density distributions (e.g., Katul et al 2004 , Banerjee & Linn 2018). Further, although transpiration tends to be the dominant component of ET, partitioning is more complex in open canopies where soil evaporation can become more dominant (Baldocchi et al. 2004, Ma et al. 2020), likely affecting vertical thermal gradients. In other words, it matters whether foliage is dense or sparse, and whether it is concentrated higher in the canopy, lower in the canopy, or evenly distributed throughout." *(condense this by quite a lot. I don't think all the info here is necessary)*
+- ET : "Still, partitioning $ET$ into its constituent components, let alone vertically partitioning transpiration rates in the canopy, remains a challenge. Eddy covariance techniques, sap flow measurements, and stable isotope analysis offer useful tools, although errors can be large (Williams et al 2004, Herbst et al. 1996). To date, empirical analyses of ET vertical partitioning and interactions with temperature and vegetation structure have be concentrated in midlatitude ecosystems (e.g. Haverd et al 2009, 2011, Staudt et al. 2011, Ringgaard et al. 2014) *(KAT: but see Kunert et al. 2017 -not sure if this is equivalent)*. " - *(revise this to focus on the observed patterns, with at most brief mention of the methods)*
+- GPP : ??
+- $ANPP_{woody}$: Piponiot et al., accepted, Meakem et al. 2018, New Phyt
 
-Still, partitioning $ET$ into its constituent components, let alone vertically partitioning transpiration rates in the canopy, remains a challenge. Eddy covariance techniques, sap flow measurements, and stable isotope analysis offer useful tools, although errors can be large (Williams et al 2004, Herbst et al. 1996). To date, empirical analyses of ET vertical partitioning and interactions with temperature and vegetation structure have be concentrated in midlatitude ecosystems (e.g. Haverd et al 2009, 2011, Staudt et al. 2011, Ringgaard et al. 2014) *(KAT: but see Kunert et al. 2017 -not sure if this is equivalent)*. With respect to changing temperatures, the net effect of leaf- and plant-level thermal responses remains an active area of research, including both how vertical variation in thermal sensitivity influences forest ecosystem dynamics and biosphere-atmosphere interactions. 
+**Less clear is how thermal sensitivity varies across strata.**
+
+- ET: "With respect to changing temperatures, the net effect of leaf- and plant-level thermal responses remains an active area of research, including both how vertical variation in thermal sensitivity influences forest ecosystem dynamics and biosphere-atmosphere interactions." 
+- GPP : ??
+- $ANPP_{woody}$: if we scale tree-rings to the ecosystem level, we expect that woody productivity of canopy trees is more sensitive to drought, but perhaps less sensitive to wet heat. More research is needed here. 
+
 
 
 ## Implications [ & future research directions?]
