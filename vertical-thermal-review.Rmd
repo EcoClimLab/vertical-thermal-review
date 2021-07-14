@@ -381,7 +381,7 @@ The high temperature carbon compensation point of sun leaves is higher in isopre
 **Vertical gradients affect tree metabolism and growth.**
 Whole-tree transpiration and gross primary production (GPP) increase in tandem with increasing tree size, where size is most commonly measured diameter breast height (DBH), but functionally linked to metrics such as foliage biomass, crown volume, or height, all of which scale with DBH [**REFS**, @anderson-teixeiraSizerelatedScalingTree2015].
 Specifically, increases are linked increased leaf area and in part to increasing probability that the crown is in the canopy [@muller-landauTestingMetabolicEcology2006], where higher light availability and associated elevation of $g_s$ and $A_A$ result in higher leaf area-specific metabolism (Table 2).
-Of the fixed C, a higher proportion is consumed by respiration, in part because of higher leaf respiration ($R_{dark}$, Table 2) and in part because of higher sapwood volume (??confirm??) [**REFS**; @IncreasingRespiratoryCosts?].
+Of the fixed C, a higher proportion is consumed by respiration, in part because of higher leaf respiration ($R_{dark}$, Table 2) and in part because of higher sapwood volume (??confirm??) [**REFS**; @westIncreasingRespiratoryCosts2020].
 
 - C allocation --> respiration, woody growth, NSCs, foliage turnover, belowground allocation, reproduction
 - we don't know a whole lot about how C allocation scales with tree size
@@ -392,14 +392,14 @@ Of the fixed C, a higher proportion is consumed by respiration, in part because 
 
 **Vertical gradients also affect the climate sensitivity of metabolism and growth.** 
 Across biomes, including mesic forests, surface conductance and evapotranspiration tend to be more strongly limited by high atmospheric demand (high $T_{air}$ and $VPD$, low RH) than by low soil moisture [@novickIncreasingImportanceAtmospheric2016; @corlettImpactsWarmingTropical2011; @ruehrWaterAvailabilityDominant2016]. 
-In terms of transpiration and photosynthesis, the taller trees that occupy canopy positions in relatively dense-canopy forests tend to have lower rates during periods of high- relative to low- atmospheric demand -- be these  on the time scale of hours (**REFS?**), days [@anderson-teixeiraSizeRelatedScaling2015], seasons [@christoffersenLinkingHydraulicTraits2016], or years (**? REFS?**). 
+In terms of transpiration and photosynthesis, the taller trees that occupy canopy positions in relatively dense-canopy forests tend to have lower rates during periods of high- relative to low- atmospheric demand -- be these  on the time scale of hours (**REFS?**), days [@anderson-teixeiraSizerelatedScalingTree2015], seasons [@christoffersenLinkingHydraulicTraits2016], or years (**? REFS?**). 
 
 - Taller trees in the Amazon had greater stomatal sensitivity to drought, resulting in greater reductions transpiration and photosynthesis [@garciaImportanceHydraulicStrategy2021].
 - @christoffersenLinkingHydraulicTraits2016 uses trait-based modeling to show that canopy trees have lower dry-season: wet-season transpiration. 
 - Smaller trees also have greater capacity to adjust traits realted carbon metabolism to drought [@bartholomewSmallTropicalForest2020]
 - *(it would be good to find a relevant study for open forests-- perhaps track down studies mentioned by Bev Law)*
 
-In contrast, greater $RH$ can do the opposite, stifling evapotranspiration and thereby increasing $T_{leaf}$ [Fig. `r fig_leaf_T`, @perezIncreasingHumidityThreatens2018; @tibbittsHumidityPlants1979]. 
+In contrast, greater $RH$ can do the opposite, stifling evapotranspiration and thereby increasing $T_{leaf}$ [Fig. `r fig_leaf_T`, @perezIncreasingHumidityThreatens2018; @tibbittsHumidityPlants1979b]. 
 
 The interannual climate sensitivity of annual woody growth can be determined through analysis of tree-ring increments and sometimes forest census data.
 While it is generally accepted that large, exposed trees display the greatest climate sensitivity and are therefore best for climate reconstructions (**REFS--KAT**), only a relatively limited number of studies have directly examined drought- or temperature- sensitivities as a function of tree size.
@@ -434,8 +434,8 @@ Phenologically, in temperate deciduous and mesic forests, understory growth can 
 
 **Tree mortality risk from climate-related stress is also size-structured.**
 
-- most common trend is higher risk of drought mortality for larger trees [@bennettLargerTreesSuffer2015; @stovall], including in open forests (**REFS**). *(However, there are exceptions...)*
-- also, greater risks of lightning, blow-down, etc.  (@Esquivel-Muelbert_2021) *(although this isn't temperature-related, so should get minimal attention, if at all)*
+- most common trend is higher risk of drought mortality for larger trees [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019b], including in open forests (**REFS**). *(However, there are exceptions...)*
+- also, greater risks of lightning, blow-down, etc.  (@goraImplicationsSizedependentTree2021) *(although this isn't temperature-related, so should get minimal attention, if at all)*
 
 ### C and water flux
 
@@ -444,7 +444,7 @@ Phenologically, in temperate deciduous and mesic forests, understory growth can 
 - ET: "Leaf-scale properties and processes aggregate non-linearly  in vertical and horizontal space, influencing stand-level ecosystem processes, and in turn biosphere-atmosphere exchanges of water, carbon, energy, and trace gases. As described above, variation in temperature across vertical gradients can interact with local light conditions and other vertically varying meteorological conditions to affect species composition (e.g., see @nakamuraForestsTheirCanopies2017), leaf traits, and photosynthesis . Linked to this local biophysical variation is the partitioning of evapotranspiration ($ET$) into soil evaporation, canopy evaporation, and transpiration, which occur across varying spatiotemporal scales depending on light availability, water stress, stomatal physiology, and turbulent transfer (Lawrence et al. 2007, Staudt et al. 2011). Vertical microclimate gradients interact with vertical variation in foliage density, influencing not only the location of evapotranspiration in the canopy, but also differences in rates and net gross primary productivity ($GPP$, Banerjee & Linn 2018). It has been demonstrated that net carbon assimilation and transpiration can vary substantially for forest canopies with the same LAI but different leaf area density distributions (e.g., Katul et al 2004 , Banerjee & Linn 2018). Further, although transpiration tends to be the dominant component of ET, partitioning is more complex in open canopies where soil evaporation can become more dominant (Baldocchi et al. 2004, Ma et al. 2020), likely affecting vertical thermal gradients. In other words, it matters whether foliage is dense or sparse, and whether it is concentrated higher in the canopy, lower in the canopy, or evenly distributed throughout." *(condense this by quite a lot. I don't think all the info here is necessary)*
 - ET : "Still, partitioning $ET$ into its constituent components, let alone vertically partitioning transpiration rates in the canopy, remains a challenge. Eddy covariance techniques, sap flow measurements, and stable isotope analysis offer useful tools, although errors can be large (Williams et al 2004, Herbst et al. 1996). To date, empirical analyses of ET vertical partitioning and interactions with temperature and vegetation structure have be concentrated in midlatitude ecosystems (e.g. Haverd et al 2009, 2011, Staudt et al. 2011, Ringgaard et al. 2014) *(KAT: but see Kunert et al. 2017 -not sure if this is equivalent)*. " - *(revise this to focus on the observed patterns, with at most brief mention of the methods)*
 - GPP : ??
-- $ANPP_{woody}$: Piponiot et al., accepted, Meakem et al. 2018, New Phyt
+- $ANPP_{woody}$: Piponiot et al., accepted, @meakemRoleTreeSize2018, New Phyt
 
 **Less clear is how thermal sensitivity varies across strata.**
 
