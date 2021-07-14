@@ -352,13 +352,10 @@ Leaf thermal tolerances are more closely adapted to microclimate than macroclima
 
 **Similar to photosynthesis, respiration tends to be higher in canopy sun-leaves [@chenLeafEconomicsSpectrum2020], but temperature sensitivity of respiration--$Q_{10}$--shows no definite trend along the vertical gradient [@bolstad_foliar_1999; Weerasinghe et al.2014].**
 
-A few studies have found $Q_{10}$ to be greater in upper-canopy leaves than in shaded lower-canopy leaves [@turnbullScalingFoliarRespiration2003; @harleyEffectsLightTemperature1996], whereas @griffinCanopyPositionAffects2002 found that in *Populas deltoides*, lower canopy leaf respiration was more sensitive to changes in $T_{air}$ than upper canopy. Other studies have observed no difference in $Q_{10}$ within species vertical profiles and in seedling sun vs. shade leaves [@weerasingheCanopyPositionAffects2014; @bolstad_foliar_1999; @zaragoza-castellsDoesGrowthIrradiance2007; @zaragoza-castellsClimatedependentVariationsLeaf2008]. 
-@xuSeasonalVariationTemperature2006 found that the canopy-position effect gradient in respiration rates was much greater for Quercus rubra trees in mesic than in xeric sites, but $Q_{10}$ did not differ between canopy positions.
+Temperature sensitivity of respiration ($Q_{10}$) along a within canopy gradient remains uncertain where $Q_{10}$ can be constant within vertical profiles and in seedling sun vs. shade leaves [@weerasingheCanopyPositionAffects2014; @bolstad_foliar_1999; @zaragoza-castellsDoesGrowthIrradiance2007; @zaragoza-castellsClimatedependentVariationsLeaf2008; @xuSeasonalVariationTemperature2006], and greater upper-canopy leaves [@turnbullScalingFoliarRespiration2003; @harleyEffectsLightTemperature1996]. Additionally, lower canopy leaf respiration have also been reported to be more sensitive to changes in $T_{air}$ than upper canopy [@griffinCanopyPositionAffects2002]. Recent observations also suggest that tropical upper canopy leaves down-regulate $Q_{10}$ with rising temperature [@carterExperimentalWarmingTropical], and this may vary based on leaf age and leaf traits where in evergreen species, temperature responses of photosynthesis and $Q_{10}$ were greater in younger than older leaves [@zhouLeafageEffectsTemperature2015].  
 
--In evergreen species, temperature responses of photosynthesis and temperature sensitivity of respiration ($Q_{10}$) have also been observed to be greater in younger than older leaves [@zhouLeafageEffectsTemperature2015].
+Further, we would expect expect $Q_{10}$ to also vary with environmental conditions based on canopy-position effect gradient in respiration rates for Quercus rubra trees being much greater in mesic than in xeric sites [@xuSeasonalVariationTemperature2006] but further research is required to discern $Q_{10}$.
 
-
- 
 ### VOC production
 
 **Isoprene production**
