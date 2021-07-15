@@ -359,12 +359,11 @@ The high temperature carbon compensation point of sun leaves is higher in isopre
 
 **Vertical gradients affect tree metabolism and growth.**
 Whole-tree transpiration and gross primary production (GPP) increase in tandem with increasing tree size, where size is most commonly measured diameter breast height (DBH), but functionally linked to metrics such as foliage biomass, crown volume, or height, all of which scale with DBH [**REFS**, @anderson-teixeiraSizerelatedScalingTree2015].
-Specifically, increases are linked increased leaf area and in part to increasing probability that the crown is in the canopy [@muller-landauTestingMetabolicEcology2006], where higher light availability and associated elevation of $g_s$ and $A_A$ result in higher leaf area-specific metabolism (Table 2).
-Of the fixed C, a higher proportion is consumed by respiration, in part because of higher leaf respiration ($R_{dark}$, Table 2) and in part because of higher sapwood volume (??confirm??) [**REFS**; @westIncreasingRespiratoryCosts2020].
+Specifically, increases are linked increased leaf area and in part to increasing probability that the crown is in the canopy [@muller-landauTestingMetabolicEcology2006], where higher light availability and associated elevation of $g_s$ and $A_A$ result in higher leaf area-specific transpiration and photosynthesis (Table 2).
+The net foliar photosynthate production is allocated among functions including respiration, woody growth, foliar turnover, belowground allocation, reproduction, defense, and storage of non-structural carbohydrates (NSCs). 
+The proportion of GPP allocaated to many of these increases with tree size, including ... foliar respiration (Table 2), reproduction [**REFS**; @westIncreasingRespiratoryCosts2020].
+As a result, mass-specific -- and sometimes even absolute -- woody growth rates decrease with tree size [**REFS**; @anderson-teixeiraJointEffectsClimate2021]
 
-- C allocation --> respiration, woody growth, NSCs, foliage turnover, belowground allocation, reproduction
-- we don't know a whole lot about how C allocation scales with tree size
-- woody growth increases with DBH to a point, then declines [@AT_inReview].
 - NSCs increase , making smaller trees more sensitive to biological and biophyical stressors [@niinemetsResponsesForestTrees2010a]
 
 
