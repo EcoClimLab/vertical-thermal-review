@@ -363,7 +363,7 @@ Specifically, increases are linked increased leaf area and in part to increasing
 The net foliar photosynthate production is allocated among functions including respiration, woody growth, foliar turnover, belowground allocation, reproduction, defense, and storage of non-structural carbohydrates (NSCs). 
 The proportion of GPP allocated to many of these increases with tree size, including ... foliar respiration (Table 2), reproduction [**REFS**; @westIncreasingRespiratoryCosts2020].
 NSC reserves also increase with tree size, such that larger trees have more buffer against biological and biophyical stressors [@niinemetsResponsesForestTrees2010a].
-As a result of increasing C allocation to these other functions, mass-specific -- and sometimes even absolute -- woody growth rates decrease with tree size [**REFS**; @anderson-teixeiraJointEffectsClimate2021]
+As a result of increasing C allocation to these other functions, mass-specific -- and sometimes even absolute -- woody growth rates decrease with tree size [**REFS**; @anderson-teixeiraJointEffectsClimate2021].
 
 
 
