@@ -354,15 +354,13 @@ The high temperature carbon compensation point of sun leaves is higher in isopre
 Whole-tree transpiration and gross primary production (GPP) increase in tandem with increasing tree size, where size is most commonly measured diameter breast height (DBH), but functionally linked to metrics such as foliage biomass, crown volume, or height, all of which scale with DBH [**REFS**, @anderson-teixeiraSizerelatedScalingTree2015].
 Specifically, increases are linked increased leaf area and in part to increasing probability that the crown is in the canopy [@muller-landauTestingMetabolicEcology2006], where higher light availability and associated elevation of $g_s$ and $A_A$ result in higher leaf area-specific transpiration and photosynthesis (Table 2).
 The net foliar photosynthate production is allocated among functions including respiration, woody growth, foliar turnover, belowground allocation, reproduction, defense, and storage of non-structural carbohydrates (NSCs). 
-The proportion of GPP allocated to many of these increases with tree size, including ... foliar respiration (Table 2), reproduction [**REFS**; @westIncreasingRespiratoryCosts2020].
-NSC reserves also increase with tree size, such that larger trees have more buffer against biological and biophyical stressors [@niinemetsResponsesForestTrees2010a].
-As a result of increasing C allocation to these other functions, mass-specific -- and sometimes even absolute -- woody growth rates decrease with tree size [**REFS**; @anderson-teixeiraJointEffectsClimate2021; @anderson-teixeiraCarbonCyclingMature2021].
+The proportion of GPP allocated to many of these increases with tree size, including ... foliar respiration (Table 2), reproduction [**REFS**; @westIncreasingRespiratoryCosts2020].As a result of increasing C allocation to these other functions, mass-specific - and sometimes even absolute - woody growth rates decrease with tree size [**REFS**; @anderson-teixeiraJointEffectsClimate2021; @anderson-teixeiraCarbonCyclingMature2021].
+However, NSC reserves increase with tree size, such that larger trees have relatively more buffer against biological and biophysical stressors [@niinemetsResponsesForestTrees2010a].
 
 
 
 **Vertical gradients also affect the climate sensitivity of metabolism and growth.** 
-Across biomes, including mesic forests, surface conductance and evapotranspiration tend to be more strongly limited by high atmospheric demand (high $T_{air}$ and $VPD$, low RH) than by low soil moisture [@novickIncreasingImportanceAtmospheric2016; @corlettImpactsWarmingTropical2011; @ruehrWaterAvailabilityDominant2016]. 
-In terms of transpiration and photosynthesis, the taller trees that occupy canopy positions in relatively dense-canopy forests tend to have lower rates during periods of high- relative to low- atmospheric demand -- be these  on the time scale of hours (**REFS?**), days [@anderson-teixeiraSizerelatedScalingTree2015], seasons [@christoffersenLinkingHydraulicTraits2016], or years (**? REFS?**). 
+Across biomes, including mesic forests, surface conductance and evapotranspiration tend to be more strongly limited by high atmospheric demand (high $T_{air}$ and $VPD$, low RH) than by low soil moisture [@novickIncreasingImportanceAtmospheric2016; @corlettImpactsWarmingTropical2011; @ruehrWaterAvailabilityDominant2016], the taller trees that occupy canopy positions in relatively dense-canopy forests tend to have greater reductions in whole-tree transpiration and photosynthesis during periods of high atmospheric demand - be these on the time scale of hours (**REFS?**), days [@anderson-teixeiraSizerelatedScalingTree2015], seasons [@christoffersenLinkingHydraulicTraits2016], or years (**? REFS?**). 
 
 - Taller trees in the Amazon had greater stomatal sensitivity to drought, resulting in greater reductions transpiration and photosynthesis [@garciaImportanceHydraulicStrategy2021].
 - @christoffersenLinkingHydraulicTraits2016 uses trait-based modeling to show that canopy trees have lower dry-season: wet-season transpiration. 
@@ -376,11 +374,11 @@ While it is generally accepted that large, exposed trees display the greatest cl
 These have generally found greater sensitivity to low precipitation or high temperatures among large/ canopy trees [**Fig. `r fig_treerings`**, @mcgregorTreeHeightLeaf2021; @anderson-teixeiraJointEffectsClimate2021] , corroborating evidence from forest censuses that larger trees tend to undergo larger growth declines during drought [@bennettLargerTreesSuffer2015].
 Despite the potential for shorter trees in open forests to experience greater environmental stress [*Fig. `r fig_schematic`b*; **REFS**], this pattern has been observed in open as well as closed-canopy forests [@bennettLargerTreesSuffer2015; @anderson-teixeiraJointEffectsClimate2021].
 
-There are, however, noteable exceptions to the pattern of greater growth reductions under high $T_{air}$ among larger trees.
+There are, however, notable exceptions to the pattern of greater growth reductions under high $T_{air}$ among larger trees.
 In eight mesic forests across the northeast United States, tree-ring records showed steep growth declines of understory trees at higher $T_{air}$, contrasting with the responses of canopy trees [Fig `r fig_treerings`, @rollinsonClimateSensitivityUnderstory].
 Similarly, in tropical forests higher night-time temperatures have been associated with decelerating tree growth rates predominantly in smaller trees *but also in taller trees* [@clarkTropicalRainForest2003; @clarkAnnualWoodProduction2010; @feeleyDeceleratingGrowthTropical2007b; @vlamTemperatureRainfallStrongly2014*].
 Potential mechanisms for these patterns include increases in nighttime respiratory carbon loss that disproportionately reduced carbon availability for growth among small trees, or that understory $g_s$  might be stifled under humid conditions, resulting in higher $T_{leaf}$ (Fig. `r fig_leaf_T`) and lower photosynthesis. 
-It is also possible that higher temperatures reduce understorty tree growth in these forests through an indirect mechanism, such as accelerated competition under warmer temperatures. 
+It is also possible that higher temperatures reduce understory tree growth in these forests through an indirect mechanism, such as accelerated competition under warmer temperatures. 
 Additional research is required to understand these mechanisms and to disentangle tree growth responses to hot-wet versus hot-dry conditions.
 
 
