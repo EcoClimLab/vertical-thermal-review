@@ -190,8 +190,8 @@ and decreases with VPD, or increases with RH (Fig. `r fig_leaf_T`c).
 
 **Leaf energy balance is a tradeoff between water use strategy and optimum $T_{leaf}$ [@fauset_differences_2018; @kochDiurnalPatternsLeaf1994].** 
 When $g_s$ is high, high $\lambda E$ facilitates heat dissipation. 
-However, when inadequate water supply -- for example under drought -- causes leaf water demand to exceed water transport, conservation of water ($g_s$ limitation) occurs at the cost of increasing $T_{leaf}$ [Fig. `r fig_leaf_T`e, @fauset_differences_2018].
-Therefore, while under maximum $g_s$, leaves can maintain $T_{leaf}$ closer to $T_{air}$ at high solar radiation loads, during $g_s$ limitation solar radiation can drastically elevate $T_{leaf}$ above $T_{air}$, especially for larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020; @konradLeafTemperatureIts2021].
+However, when leaf water demand (shaped by VPD and photosynthetic CO2 demand) exceeds the rate of supply, conservation of water ($g_s$ limitation) occurs at the cost of increasing $T_{leaf}$ [Fig. `r fig_leaf_T`e, @fauset_differences_2018].
+Therefore, while under maximum $g_s$, leaves can maintain $T_{leaf}$ closer to $T_{air}$ at high solar radiation loads, during $g_s$- limitation solar radiation can drastically elevate $T_{leaf}$ above $T_{air}$, especially for larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020; @konradLeafTemperatureIts2021].
 With adequate water, species with smaller leaves (higher $g_a$) and larger $g_s$ will be most effective at cooling during high temperatures [@songTreeSurfaceTemperature2020; @dongBiophysicalHomoeostasisLeaf2017; @konradLeafTemperatureIts2021; @leighInfluenceLeafSize2017; @leuzingerTreeSpeciesDiversity2007].
 
 **Vertical gradients**
