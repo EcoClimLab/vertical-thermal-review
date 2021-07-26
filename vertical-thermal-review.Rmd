@@ -56,7 +56,7 @@ SIfig_example_legend <- "Figure S1. Vertical gradients in micrometeorological co
 
 **Title:** Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications
 
-**Authors (so far, not necessarily in final order):** 
+**Authors:** 
 Nidhi Vinod^1^,
 Martijn Slot^2^,
 Ian McGregor^3^,
@@ -90,12 +90,11 @@ Kristina J. Anderson-Teixeira^1,2^*
 #  I think the limit for New Phyt is 200 words. 
 ```
 
-*(currently too long for NewPhyt)*
+(200 word limit, no bullet points )
 
-Rising temperatures are expected to have profound effects on forests; however, it is not well understood how responses will vary across forest strata. Here, we synthesize evidence as to how environmental conditions, leaf temperatures, and foliar traits and metabolism vary across vertical gradients, shaping whole-tree ecology and ecosystem function. In forests with dense canopies, canopy leaves are exposed to higher solar radiation and evaporative demand than understory leaves, and are therefore at risk of elevated leaf temperature ($T_{leaf}$), particularly when transpirational cooling is curtailed by limited stomatal conductance. However, foliar traits relevant to shaping $T_{leaf}$ also vary strongly across height or light gradients, partially offsetting but not eliminating the propensity towards elevated $T_{leaf}$ in the upper canopy. 
-Leaf metabolism generally increases with height across the vertical gradient, and tall trees have higher metabolism and growth at both individual and ecosystem levels. Yet, differences in thermal sensitivity, optimal temperatures, and thermal damage thresholds are modest. The implications for tree performance are mixed: whereas larger trees face disproportionate stress during drought, understory trees have fewer cooling mechanisms and appear to experience relatively greater stress under hot and humid conditions. 
-Additional research will be important for improving our spotty understanding of the thermal sensitivity of metabolism and tree growth across vertical forest gradients and scaling through space and time. In the meantime, our findings highlight the vulnerability of large canopy trees to warming combined with drought, but also imply high vulnerability of understory trees when the buffering provided by large trees is broken, and potentially under hot and wet conditions.
+Clean version implementing the changes below (198 words):
 
+Rising temperatures are having profound effects on forests; however, it is not well understood how responses vary across forest strata. Here, we review how environmental conditions, leaf temperatures,  and foliar traits and metabolism vary across vertical gradients, shaping whole-tree ecology and ecosystem function. In forests with dense canopies, canopy leaves are exposed to higher solar radiation and evaporative demand than understory leaves, and are therefore at risk of elevated leaf temperature ($T_{leaf}$), particularly when transpirational cooling is curtailed by limited stomatal conductance.  However, foliar traits relevant to shaping $T_{leaf}$ also vary strongly across height or light gradients, partially offsetting the propensity towards elevated $T_{leaf}$ in the upper canopy. Leaf metabolism generally increases with height across the vertical gradient, and tall trees have higher metabolism and growth at both individual and ecosystem levels. Yet, differences in thermal sensitivity and damage thresholds are modest. The implications for tree performance are mixed: whereas larger trees face disproportionate stress during drought, understory trees have fewer cooling mechanisms and may be stifled under hot, humid conditions. As warming continues, large canopy trees will be particularly vulnerable to drought, whereas understory trees will suffer most when the buffering provided by large trees is broken.
 
 \newpage
 
@@ -103,7 +102,7 @@ Additional research will be important for improving our spotty understanding of 
 
 **Forest responses and feedbacks to climate change will have a critical influence on the future of Earth's climate.**
 Globally, temperatures have risen $1.2^\circ$C since the 1850-1900 period [@rohdeBerkeleyEarthLand2020] and are expected to rise over pre-industrial levels of $1.6 - 4.3^{\circ}$C by 2100 (IPCC 2014), accompanied by increasing severity and frequency of heat waves [@meehlMoreIntenseMore2004] and hotter droughts [@trenberthGlobalWarmingChanges2014b].
-These changes are expected to have profound effects on tree metabolism and forest ecosystem function [@breshearsUnderappreciatedPlantVulnerabilitiesa 2021; IPBES report], including altered rates of photosynthesis and respiration [@breshearsUnderappreciatedPlantVulnerabilitiesa 2021; @corlettImpactsWarmingTropical2011], foliar damage during heat waves [@osullivanThermalLimitsLeaf2017; @corlettImpactsWarmingTropical2011], and reduced growth and elevated mortality during drought [@teskeyResponsesTreeSpecies2015; @rollinsonClimateSensitivityUnderstory; @breshearsUnderappreciatedPlantVulnerabilitiesa; @mcdowellPervasiveShiftsForest2020]. Collectively, these impacts may lead to reduced forest C sequestration, as may already be occurring in some forests [@oishiWarmerTemperaturesReduce2018; @sullivanLongtermThermalSensitivity2020]. The resulting feedbacks to the climate system, decreased C storage, and changes in albedo and hydrology will in turn have a critical influence on the future trajectory of climate change [@bonan_ecological_2016], yet this influence remains extremely uncertain [REFS].
+These changes are expected to have profound effects on tree metabolism and forest ecosystem function [@breshearsUnderappreciatedPlantVulnerabilitiesa 2021; IPBES report], including altered rates of photosynthesis and respiration [@breshearsUnderappreciatedPlantVulnerabilitiesa 2021; @corlettImpactsWarmingTropical2011], foliar damage during heat waves [@osullivanThermalLimitsLeaf2017; @corlettImpactsWarmingTropical2011], and reduced growth and elevated mortality during drought [@teskeyResponsesTreeSpecies2015; @rollinsonClimateSensitivityUnderstory; @breshearsUnderappreciatedPlantVulnerabilitiesa; @mcdowellPervasiveShiftsForest2020]. Collectively, these impacts may lead to reduced forest C sequestration, as may already be occurring in some forests [@oishiWarmerTemperaturesReduce2018; @sullivanLongtermThermalSensitivity2020]. The resulting feedbacks to the climate system, decreased C storage, and changes in albedo and hydrology will in turn have a critical influence on the future trajectory of climate change [@bonan_ecological_2016], yet this influence remains extremely uncertain [@krauseLargeUncertaintyCarbon2018; @friedlingsteinClimateCarbonCycle2006a].
  
 **Rising temperatures are likely to have differential impacts on trees of different size and canopy position, in large part because small understory trees exist in a microenvironment that is substantially buffered by the more exposed canopy trees [@zellweger_seasonal_2019; @davisMicroclimaticBufferingForests2019].**
 Forests are vertically and horizontally stratified, with trees of different sizes through various successional stages. 
@@ -117,10 +116,10 @@ Importantly, this limits our ability to understand how warming temperatures will
 We focus on five key themes (Fig. `r fig_schematic`):
 (1) the biophysical environment;
 (2) leaf temperature ($T_{leaf}$);
-(3) the leaf traits that most strongly influence leaf temperature and metabolism;
+(3) the leaf traits that most strongly influence $T_{leaf}$ and metabolism;
 (4) foliar metabolism, including stomatal conductance, photosynthesis, respiration, and volatile organic compound (VOC) production; and 
 (5) size-structuring of whole-tree and ecosystem function.
-*We then consider the implications for understanding forest responses to global change, including scaling across space and time.* 
+*We then consider the implications for understanding forest responses to global change, including how these scale across space and time.* 
 
 ![**Figure `r fig_schematic`. Schematic summarizing vertical gradients in forests with dense canopies during daytime growing season conditions.** Patterns summarized here tend to be weaker, or sometimes reversed, under more open canopies, during seasons of deciduous leaf loss, or at nighttime. [Issue #27](https://github.com/EcoClimLab/vertical-thermal-review/issues/27). ](schematics/Screen Shot 2021-07-19 at 1.10.17 PM.png)
 
@@ -142,7 +141,7 @@ Dense canopy forests composed of broadleaf trees can have high LAD in the upper 
 In temperate forests, although LAD is generally more concentrated in the upper-canopy, undualting patterns are formed by conifers and top vs. bottom heavy foliage trees and sometimes by dense understories [e.g., SCBI, Fig. `r fig_NEON_vertical`a, @parkerVerticalProfileCanopy1989; @terborghVerticalComponentPlant1985; @ishiiExploringRelationshipsCanopy2004a; @parkerCanopyLightTransmittance2002]. 
 In open canopy forests, including many needle-leaf forests, LAD can be predominantly accumulated in the lower canopy layers [e.g., PUUM and WREF, Fig. `r fig_NEON_vertical`a, @hanberryOpenForestEcosystems2020a; @lawLeafAreaDistribution2001; @baldocchiSeasonalVariationEnergy1997; @bonan_ecological_2016; @ishiiExploringRelationshipsCanopy2004a]. 
 Soil moisture conditions, topography, and gap formations followed by disturbance all alter foliage patterns and further influence the formation of relatively closed vs. open canopy forests [e.g., @almeidaContrastingFireDamage2016; @starkReframingTropicalSavannization2020; @bonan_ecological_2016; @hanberryOpenForestEcosystems2020a]. 
-In addition, seasonally dry and wet conditions, deciduousness, and phenology contribute to temporally shifting LAD patterns (Parker & Tibbs 2004; @smithSeasonalDroughtrelatedChanges2019 ; @parkerConsequencesEnvironmentalHeterogeneity2019). 
+In addition, seasonally dry and wet conditions, deciduousness, and phenology contribute to temporally shifting LAD patterns [@parkerStructuralPhenologyLeaf; @smithSeasonalDroughtrelatedChanges2019 ; @parkerConsequencesEnvironmentalHeterogeneity2019]. 
 In this review, we focus on growing season conditions (peak LAD) unless otherwise noted.
 
 **Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from canopy tops to the forest floor, with the profile shape modified by leaf area index (LAI), canopy height, canopy structure, and across species and forest types [Figs. `r fig_NEON_vertical`b-d, `r SIfig_NEON_all`, @koike_leaf_2001].** 
