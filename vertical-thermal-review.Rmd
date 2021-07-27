@@ -323,9 +323,7 @@ Leaf thermal tolerances are more closely adapted to microclimate than macroclima
 
 ### Respiration
 
-**Similar to photosynthesis, respiration tends to be higher in canopy sun-leaves [Table 2, @chenLeafEconomicsSpectrum2020], but its temperature sensitivity ($Q_{10}$) shows no definite trend along the vertical gradient [@bolstad_foliar_1999; Weerasinghe et al.2014].** Specifically, the $Q_{10}$ of respiration can be constant within vertical profiles and in seedling sun vs. shade leaves [@@carterExperimentalWarmingTropical; @weerasingheCanopyPositionAffects2014; @bolstad_foliar_1999; @zaragoza-castellsDoesGrowthIrradiance2007; @zaragoza-castellsClimatedependentVariationsLeaf2008; @xuSeasonalVariationTemperature2006], greater in upper-canopy leaves [@turnbullScalingFoliarRespiration2003; @harleyEffectsLightTemperature1996], or greater in the lower canopy [@griffinCanopyPositionAffects2002]. Recent observations suggest that tropical understory leaves down-regulate $Q_{10}$ with rising temperature [@carterExperimentalWarmingTropical]; this may vary based on leaf age and leaf traits, as in evergreen species, $Q_{10}$ has shown to be greater in younger than older leaves [@zhouLeafageEffectsTemperature2015].  
-
-Further, we would expect $Q_{10}$ to also vary with soil moisture based on the evidence of canopy-position effect gradients in respiration rates for *Quercus rubra* being much greater in mesic than in xeric sites [@xuSeasonalVariationTemperature2006].
+**Similar to photosynthesis, respiration tends to be higher in canopy sun-leaves [Table 2, @chenLeafEconomicsSpectrum2020], but its temperature sensitivity ($Q_{10}$) shows no definite trend along the vertical gradient [@bolstad_foliar_1999; Weerasinghe et al.2014].** Specifically, the $Q_{10}$ of respiration can be constant within vertical profiles and in seedling sun vs. shade leaves [@@carterExperimentalWarmingTropical; @weerasingheCanopyPositionAffects2014; @bolstad_foliar_1999; @zaragoza-castellsDoesGrowthIrradiance2007; @zaragoza-castellsClimatedependentVariationsLeaf2008; @xuSeasonalVariationTemperature2006], greater in upper-canopy leaves [@turnbullScalingFoliarRespiration2003; @harleyEffectsLightTemperature1996], or greater in the lower canopy [@griffinCanopyPositionAffects2002].This may vary based on forest type [**REF**], leaf traits and leaf age, as in evergreen species, $Q_{10}$ has shown to be greater in younger than older leaves [@zhouLeafageEffectsTemperature2015]. Recent observations suggest that tropical understory leaves down-regulate $Q_{10}$ with rising temperature [@carterExperimentalWarmingTropical]. Further, we would expect $Q_{10}$ to also vary with soil moisture based on the evidence of canopy-position effect gradients in respiration rates for *Quercus rubra* being much greater in mesic than in xeric sites [@xuSeasonalVariationTemperature2006].
 
 ### VOC production
 
@@ -338,7 +336,7 @@ The high temperature carbon compensation point of sun leaves is higher in isopre
 **Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism scale up to affect whole-tree ecology, ecosystem ecology, and their temperature responses (Fig. `r fig_schematic`).** 
 
 
-### Tree metabolism, growth, and survival
+### Tree metabolism and growth, and survival
 
 **Vertical gradients affect tree metabolism and growth.**
 Whole-tree transpiration and gross primary production (GPP) increase in tandem with increasing tree size, where size is most commonly measured diameter breast height (DBH), but functionally linked to metrics such as foliage biomass, crown volume, or height, all of which scale with DBH [**REFS**, @anderson-teixeiraSizerelatedScalingTree2015].
