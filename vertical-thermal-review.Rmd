@@ -357,8 +357,8 @@ Because $g_s$ tends to be more strongly limited by high atmospheric demand (high
 
 
 The interannual climate sensitivity of annual woody growth can be determined through analysis of tree-ring increments.
-While it is generally accepted that large, exposed trees display the greatest climate sensitivity and are therefore best for climate reconstructions (**REFS--KAT**), only a relatively limited number of studies have directly examined drought- or temperature- sensitivities as a function of tree size.
-These have generally found greater sensitivity to low precipitation or high temperatures among large/ canopy trees [**Fig. `r fig_treerings`**, @mcgregorTreeHeightLeaf2021; @anderson-teixeiraJointEffectsClimate2021] , corroborating evidence from forest censuses that larger trees tend to undergo larger growth declines during drought [@bennettLargerTreesSuffer2015].
+While it is generally accepted that large, exposed trees display the greatest climate sensitivity and are therefore best for climate reconstructions (**REFS--KAT**), only a relatively limited number of studies have directly examined drought- or temperature-sensitivities as a function of tree size.
+These have generally found greater sensitivity to low precipitation or high summer temperatures among larger, more exposed trees [**Fig. `r fig_treerings`**, @mcgregorTreeHeightLeaf2021; @anderson-teixeiraJointEffectsClimate2021] , corroborating evidence from forest censuses that larger trees tend to undergo larger growth declines during drought [@bennettLargerTreesSuffer2015].
 Despite the potential for shorter trees in open forests to experience greater environmental stress [*Fig. `r fig_schematic`b*; **REFS**], this pattern has been observed in open as well as closed-canopy forests [@bennettLargerTreesSuffer2015; @anderson-teixeiraJointEffectsClimate2021].
 
 There are, however, notable exceptions to the pattern of greater growth reductions under high $T_{air}$ among larger trees.
