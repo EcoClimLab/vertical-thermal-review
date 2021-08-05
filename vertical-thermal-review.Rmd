@@ -61,9 +61,9 @@ Nidhi Vinod^1^,
 Martijn Slot^2^,
 Ian McGregor^3^,
 Elsa M. Ordway^4^,
-Marielle N. Smith^5^,
-Tyeen Taylor,
-Lawren Sack,
+Marielle N. Smith^6^,
+Tyeen Taylor^7^,
+Lawren Sack^5^,
 Kristina J. Anderson-Teixeira^1,2^* 
 
 
@@ -77,7 +77,11 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 4. Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA
 
-5. Department of Forestry, Michigan State University, East Lansing, MI 48824, USA
+5. Department of Ecology and Evolutionary Biology, UCLA, Los Angeles, CA 90039, USA
+
+6. Department of Forestry, Michigan State University, East Lansing, MI 48824, USA
+
+7. Department of Civil & Environmental Engineering, University of Michigan, Ann Arbor, MI 48109, USA
 
 *corresponding author: teixeirak@si.edu; +1 540 635 6546
 
