@@ -441,10 +441,10 @@ e1
 
 
 table<- data.frame(biophysical = c( "swr", "ws", "rh", "lw", "gs", "tair"),
-                   normalno = c("871", 2.88, 0.91, 0.04, "4.0", "298"),
-                   normal_u = c("102", 0.24, 0.97, 0.10, "2.0", "296"),
-                   drought_o = c("1151", 2.88, 0.46, 0.04, "0.01", "298"),
-                   normalno = c("153", 0.24, 0.49, 0.10, "0.01", "296"))
+                   normalno = c("871", 2.88, 0.91, 0.04, "4.0", "25"),
+                   normal_u = c("102", 0.24, 0.97, 0.10, "2.0", "23"),
+                   drought_o = c("1151", 2.88, 0.46, 0.04, "0.01", "25"),
+                   normalno = c("153", 0.24, 0.49, 0.10, "0.01", "23"))
 
 colnames(table) <- c("variable",
                  "overstory\nnormal", "understory\nnormal", "overstory\ndrought", "understory\ndrought")
