@@ -68,29 +68,11 @@ dp <- data.table(data = c("2DWSD", "RH", "SAAT", "IRBT", "PARPAR"),
 sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
 clrs <- c("#3399FF", "gold", "grey", "red", "#66CCFF", "#003399")
 
-#bring in normalized height (from Marielle)
-meta <- read_excel("data/site_data/TIS site metadata_20190403_forNOAA.xlsx", sheet=1)
-meta <- data.table(meta)
-meta <- meta[SITE %in% sites,
-             ][,`:=` (DistZaxsCnpy = as.numeric(DistZaxsCnpy),
-                    maxCanHeightMarielle = c(32, 43, 39, 21, 53))]
-normHeightData <- 
-  data.table(site=c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF"),
-             normH=c(32, 21, 23, 43, 39, 53))
-# HARV=32, OSBS: 21, PUUM: 23, SCBI: 43, SERC: 39, WREF: 53
-
 plots <- list()
 for(i in 1:length(dp[,name])){
   alldata <- NULL
-  allTopHeight <- c()
-  allNormHeight <- c()
   for(j in 1:length(sites)){
     load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
-    
-    #get max vertical height (for use in plots)
-    hei <- sapply(full_data, function(x){unique(x[["verticalPosition"]])})
-    topHeight <- max(unlist(hei, use.names = FALSE))
-    normHeight <- normHeightData[site == sites[j], ]
     
     var <- as.data.table(full_data[names(full_data) == dp[,name][i]])
     colnames(var) <- 
@@ -113,6 +95,10 @@ for(i in 1:length(dp[,name])){
     ## originally we were getting delta[var] as being var at height h - var 
     ## at lowest height. We have decided (as of Mar. 2021) to only do raw values.
     ## The delta var code is at the bottom of this script in the Archive section
+    
+    ## Similarly, we initially normalized the height across the site variables,
+    ## but now are using absolute height values. The normalized code is below in
+    ## the Archive section.
     
     ## only calculate raw mean values
     whei <- test[order(day, zOffset),
@@ -137,8 +123,6 @@ for(i in 1:length(dp[,name])){
                  ][, `:=` (var = dp[,name][i], site=sites[j], col=clrs[j])]
     
     alldata <- rbind(alldata, whei)
-    allTopHeight <- c(allTopHeight, topHeight)
-    allNormHeight <- c(allNormHeight, normHeight)
   }
   
   #only keep relevant stat - min for RH, max for everything else
@@ -158,17 +142,8 @@ for(i in 1:length(dp[,name])){
   
   plots[[i]] <- local({
     graph <- ggplot(alldata) +
-      scale_color_manual(values = clrs, name = "Sites")
-    
-    if(i %in% c(1,2)){ #windspeed, RH
-      graph <- graph + 
-        ylim(0, 80)
-    } else {
-      graph <- graph + 
-        ylim(0,80)
-        # geom_hline(yintercept=1, linetype="dotted") +
-        # ylim(0, ceiling(max(alldata$plotHeight)))
-    }
+      scale_color_manual(values = clrs, name = "Sites") +
+      ylim(0,80)
     
     graph <- graph +
       geom_point(aes(x = all_mean, y = plotHeight, color = site), 
@@ -217,8 +192,6 @@ for(i in 1:length(dp[,name])){
 
 names(plots) <- dp[,name]
 
-# void <- ggplot() + theme_void()
-
 ## bring in LAD profiles
 source("scripts/lad_profs_v_therm_plotting_for_ian_v1.R")
 
@@ -228,7 +201,7 @@ p <- ggarrange(plotsLAD[["LAD"]], plotsLAD[["sun"]], plotsLAD[["lgt"]],
                plots[["tempSingleMean"]], plots[["bioTempMean"]],
                nrow=2, ncol=4, labels=c("A", "B", "C", "D", "E", "F", "G", "H"))
 
-png(paste0("figures/profile_all1.png"), height=600, width=960)
+png(paste0("figures/profile_all.png"), height=600, width=960)
 print(p)
 dev.off()
 
@@ -472,6 +445,171 @@ dev.off()
 
 ##########################################################################
 # Archive
+## code for using normalized height ####
+#only focus on 6 core sites
+sites <- c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF")
+clrs <- c("#3399FF", "gold", "grey", "red", "#66CCFF", "#003399")
+
+#bring in normalized height (from LiDAR)
+normHeightData <- 
+  data.table(site=c("HARV", "OSBS", "PUUM", "SCBI", "SERC", "WREF"),
+             normH=c(32, 21, 23, 43, 39, 53))
+# HARV=32, OSBS: 21, PUUM: 23, SCBI: 43, SERC: 39, WREF: 53
+
+plots <- list()
+for(i in 1:length(dp[,name])){
+  alldata <- NULL
+  allTopHeight <- c()
+  allNormHeight <- c()
+  for(j in 1:length(sites)){
+    load(paste0("data/neon_rdata/", sites[j], "test.Rdata"))
+    
+    #get max vertical height (for use in plots)
+    hei <- sapply(full_data, function(x){unique(x[["verticalPosition"]])})
+    topHeight <- max(unlist(hei, use.names = FALSE))
+    normHeight <- normHeightData[site == sites[j], ]
+    
+    var <- as.data.table(full_data[names(full_data) == dp[,name][i]])
+    colnames(var) <- 
+      gsub(paste0(dp[,name][i], "."), "", 
+           colnames(var))
+    
+    #get daily min/max by vertical position
+    test <- var[, day := as.Date(startDateTime)
+    ][, .(day_max = max(get(dp[,name][i]), na.rm=TRUE),
+          day_min = min(get(dp[,name][i]), na.rm=TRUE)),
+      by = .(day, zOffset)
+    ][, `:=` (day_max = ifelse(day_max %in% c(-Inf, Inf), NA, 
+                               day_max),
+              day_min = ifelse(day_min %in% c(-Inf, Inf), NA, 
+                               day_min))
+    ][, `:=` (month_num = month(day),
+              yr = year(day))
+    ][yr <= 2020, ]
+    
+    ## originally we were getting delta[var] as being var at height h - var 
+    ## at lowest height. We have decided (as of Mar. 2021) to only do raw values.
+    ## The delta var code is at the bottom of this script in the Archive section
+    
+    ## only calculate raw mean values
+    whei <- test[order(day, zOffset),
+    ][, .(max_mean = round(mean(day_max, na.rm=TRUE),2),
+          min_mean = round(mean(day_min, na.rm=TRUE),2),
+          max_sd = round(sd(day_max, na.rm=TRUE),2),
+          min_sd = round(sd(day_min, na.rm=TRUE),2)),
+      by = .(zOffset, month_num)
+    ][order(month_num, zOffset), 
+    ][, `:=` (max_mean = 
+                ifelse(is.nan(max_mean), NA, 
+                       max_mean),
+              min_mean = 
+                ifelse(is.nan(min_mean), NA, 
+                       min_mean))]
+    setnames(whei, old="zOffset", new="plotHeight")
+    
+    whei <- whei[, month_char := ifelse(month_num==7, "July", "January")]
+    
+    #only keep July values (from edit in Jan 2021)
+    whei <- whei[month_char=="July", 
+    ][, `:=` (var = dp[,name][i], site=sites[j], col=clrs[j])]
+    
+    alldata <- rbind(alldata, whei)
+    allTopHeight <- c(allTopHeight, topHeight)
+    allNormHeight <- c(allNormHeight, normHeight)
+  }
+  
+  #only keep relevant stat - min for RH, max for everything else
+  if(dp[,name][i]=="RHMean"){
+    keep <- colnames(alldata)
+    keep <- keep[!grepl("max", keep)]
+    alldata <- alldata[,(.SD), .SDcols=keep]
+    setnames(alldata, old=c("min_mean", "min_sd"), 
+             new=c("all_mean", "all_sd"))
+  } else {
+    keep <- colnames(alldata)
+    keep <- keep[!grepl("min", keep)]
+    alldata <- alldata[,(.SD), .SDcols=keep]
+    setnames(alldata, old=c("max_mean", "max_sd"), 
+             new=c("all_mean", "all_sd"))
+  }
+  
+  plots[[i]] <- local({
+    graph <- ggplot(alldata) +
+      scale_color_manual(values = clrs, name = "Sites")
+    
+    if(i %in% c(1,2)){ #windspeed, RH
+      graph <- graph + 
+        ylim(0, 80)
+    } else {
+      graph <- graph + 
+        ylim(0,80)
+      # geom_hline(yintercept=1, linetype="dotted") +
+      # ylim(0, ceiling(max(alldata$plotHeight)))
+    }
+    
+    graph <- graph +
+      geom_point(aes(x = all_mean, y = plotHeight, color = site), 
+                 shape=19) +
+      geom_path(aes(x = all_mean, y = plotHeight, color = site)) +
+      ggplot2::geom_errorbarh(aes(xmin = all_mean - all_sd, 
+                                  xmax = all_mean + all_sd, 
+                                  y=plotHeight, color = site, height=0.1)) +
+      labs(x = "",
+           y = "") +
+      theme_bw()
+    
+    if(i %in% c(1,2)){ #windspeed, RH
+      graph <- graph + 
+        xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
+      if(i==1){
+        graph <- graph + ylab("Height [m]")
+      }
+    } else if(i==3){ #tempSingle
+      graph <- graph +
+        xlab(expression(
+          paste("max T"["air"], " [",degree,"C]")))
+    } else if(i==4){ #bioTempMean
+      graph <- graph +
+        xlab(expression(
+          paste("max T"["bio"], " [",degree,"C]")))
+    } else if(i==5){ #PAR
+      graph <- graph + 
+        xlab("max PAR")
+    }
+    
+    ## remove y-axis from all but windspeed
+    if(i %in% c(2:5)){
+      graph <- graph + 
+        theme(axis.text.y=element_blank(),
+              axis.ticks.y=element_blank())
+    }
+    
+    if(i==4){ #biotemp - legend purposes
+      graph <- graph + theme(legend.position=c(0.8,0.7))
+    } else {
+      graph <- graph + theme(legend.position="none")
+    }
+  })
+}
+
+names(plots) <- dp[,name]
+
+# void <- ggplot() + theme_void()
+
+## bring in LAD profiles
+source("scripts/lad_profs_v_therm_plotting_for_ian_v1.R")
+
+p <- ggarrange(plotsLAD[["LAD"]], plotsLAD[["sun"]], plotsLAD[["lgt"]], 
+               plots[["PARMean"]], 
+               plots[["windSpeedMean"]], plots[["RHMean"]], 
+               plots[["tempSingleMean"]], plots[["bioTempMean"]],
+               nrow=2, ncol=4, labels=c("A", "B", "C", "D", "E", "F", "G", "H"))
+
+png(paste0("figures/profile_all1.png"), height=600, width=960)
+print(p)
+dev.off()
+
+
 ## code for Delta variable ####
 ## originally we were getting delta[var] as being var at height h - var 
 ## at lowest height. We have decided (as of Mar. 2021) to only do raw values.
