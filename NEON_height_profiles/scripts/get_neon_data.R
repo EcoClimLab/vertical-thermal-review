@@ -61,7 +61,7 @@ get_NEON <- function(x="SCBI"){
       loadByProduct(dpID=dp[,id][i], 
                     site=x,
                     package="basic", 
-                    check.size = FALSE, timeIndex=30,
+                    check.size = FALSE, avg=30,
                     nCores = 2)
     # startdate=paste0(date[,year][j], "-0",
     #                  date[,month][j]),
