@@ -307,7 +307,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("stomatal conductance ($g_{s}$, $\\mu mol/m^2/s/Pa$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("stomatal conductance ($g_{s}$, mmol $m^{-2} s^{-1}$)"))+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)
 c1
@@ -441,10 +441,10 @@ e1
 
 
 table<- data.frame(biophysical = c( "swr", "ws", "rh", "lw", "gs", "tair"),
-                   normalno = c("871", 2.88, 0.91, 0.04, "4.0", "25"),
-                   normal_u = c("102", 0.24, 0.97, 0.10, "2.0", "23"),
-                   drought_o = c("1151", 2.88, 0.46, 0.04, "0.01", "25"),
-                   normalno = c("153", 0.24, 0.49, 0.10, "0.01", "23"))
+                   normalno = c("871", 2.88, 0.91, 0.04, "404", "25"),
+                   normal_u = c("102", 0.24, 0.97, 0.10, "202", "23"),
+                   drought_o = c("1151", 2.88, 0.46, 0.04, "1.01", "25"),
+                   normalno = c("153", 0.24, 0.49, 0.10, "1.01", "23"))
 
 colnames(table) <- c("variable",
                  "overstory\nnormal", "understory\nnormal", "overstory\ndrought", "understory\ndrought")
