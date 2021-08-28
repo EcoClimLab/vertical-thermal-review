@@ -55,6 +55,12 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 #  Appendix `r appendix_NEON_methods`. `r appendix_NEON_methods_title`
 
+S1 Note:
+
+It is noteworthy that leaf and branch temperatures often differ substantially. For instance, exposed tropical tree bark can be much warmer than leaves [@pauTropicalForestTemperature2018; @stillImagingCanopyTemperature2021; @johnstonWhatLiesVertical2020]. 
+Thus, vegetation temperature ($T_{veg}$) measured using sensors that integrate across both leaves and woody vegetation (e.g., infrared sensors for $T_{veg}$ at NEON sites, Fig. `r fig_NEON_vertical`h) does not always equal $T_{leaf}$, particularly in settings where leaf area is low relative to woody vegetation (*i.e.*, low-LAI ecosystems and understories). 
+Recent advances in $T_{leaf}$ modeling (see "Scaling across Space and Time") will enhance our understanding of large scale $T_{leaf}$ vertical patterns [@stillImagingCanopyTemperature2021; @macleanMicroclimcMechanisticModel2021]
+
 METHODS ON NEON ANALYSIS GO HERE.
 
 see [Issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) , [issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20) 
