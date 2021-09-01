@@ -99,6 +99,21 @@ For drought scenario, biophysical variables were parameterized similar to normal
 \newpage
 # `r appendix_lit_review_methods_title`
 
+## identification of relevant studies
+
+Relevant studies were searched in the databases: ISI Web of Science, Smithsonian online library and Google Scholar, using the following key terms: (leaf traits OR foliar traits) AND (inter-canopy OR intra-canopy OR canopy height) AND (e.g. chlorophyll OR e.g. LMA OR stomatal conductance); (leaf temperature and metabolism OR leaf thermal sensitivity  OR leaf thermal tolerance OR leaf traits OR foliar traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy height OR canopy gradient OR canopy profile OR canopy position) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical); (leaf* temperature* and metabolism OR leaf thermal* sensitivity  OR leaf thermal tolerance OR leaf* traits OR foliar* traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy* height OR canopy gradient OR canopy profile) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical).
+
+in Google Scholar, 600 articles were screened, using the key terms—(leaf temperature and metabolism OR leaf thermal sensitivity  OR leaf thermal tolerance OR leaf traits OR foliar traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy height OR canopy gradient OR canopy profile OR canopy position) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical). After screening the title and reading the abstract, 185 articles were most relevant. Herbaceous plant studies and seedling studies were excluded. These articles were added into Zotero folders: Leaf traits;  Leaf Metabolism and Processes, accordingly, for further careful reading.
+
+Similar search was conducted with the Smithsonian online library with the key terms— (leaf traits OR foliar traits) AND (inter-canopy OR intra-canopy OR canopy height) AND (e.g. chlorophyll OR e.g. LMA OR stomatal conductance)— provided most relevant results among the set of keywords mentioned above, with the field refine function that included botany, ecology, biology, environmental sciences, and forestry. Out of 150 relevant articles screened, 26 were most relevant after screening the title and reading the abstract, out of which 22 were already acquired through Google scholar search, 4 new articles were added to the folder. 
+
+For ISI Web of Science, search the key terms—(leaf* temperature* and metabolism OR leaf thermal* sensitivity  OR leaf thermal tolerance OR leaf* traits OR foliar* traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy* height OR canopy gradient OR canopy profile) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical)— yielded 410 relevant results, 37 were most relevant after screening the title and reading the abstract, out of which 24 were already acquired through the above process, 13 new articles were added to Zotero folders.
+
+Through the above process, 202 articles were acquired into Zotero folders. The articles were tagged after careful reading of each as ‘added to the table’, ‘irrelevant to the table, but relevant to the review’ (with a note on the reason), ‘irrelevant to the table and the review’ (with a note on the reason for exclusion). Articles that were not yet carefully read were tagged ‘yet to read’, which will be tagged as one of the above after reading. Articles shared by co-authors and references mentioned in other studies collectively were ~>32 studies. So far 40 relevant articles are added into the tables
+
+## criteria for inclusion 
+
+**this is outlined [here](https://github.com/EcoClimLab/vertical-thermal-review/blob/master/Lit_Review/Methods%20for%20Systematic%20review%20for%20the%20tables.docx). Section needs to be written.**
 
 \newpage
 # `r Tealeaves_parameters_legend `
