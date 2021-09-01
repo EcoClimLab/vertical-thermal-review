@@ -70,7 +70,7 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 \newpage
 
-#  Appendix `r appendix_NEON_methods`. `r appendix_NEON_methods_title`
+#  `r appendix_NEON_methods_title`
 
 S1 Note:
 
@@ -84,7 +84,7 @@ see [Issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) , 
 
 \newpage
 
-#  Appendix `r appendix_tealeaves_methods`. `r appendix_tealeaves_methods_title`
+#  `r appendix_tealeaves_methods_title`
 
 Energy balance for a typical overstory sun leaf and understory shade leaf were modeled in the R package *Tleaves* [@muir_tealeaves_2019], parameterized for *Quercus rubra* L. leaves at Harvard Forest, MA, USA (**GEOGRAPHIC COORDINATES).
 Parameters are presented in Table `r Tealeaves_parameters`.
@@ -119,13 +119,28 @@ Through the above process, 202 articles were acquired into Zotero folders. The a
 
 \newpage
  # `r NEON_sites_legend`
- 
+
+```{r eval = TRUE, echo=FALSE, warning=FALSE}
+library(flextable)
+set_flextable_defaults(font.family = "Arial", font.size = 9)
+NEON_table <- read.csv("NEON_height_profiles/NEON_sites_table.csv", stringsAsFactors = FALSE, check.names = FALSE)
+NEON_table <- NEON_table[c(1:6)] #select and order columns for inclusion
+ft <- flextable(NEON_table)
+ft <- autofit(ft)
+ft <- width(ft, 1, width = .7)
+ft <- width(ft, 2, width = .75)
+ft <- width(ft, 3, width = 1.5)
+ft <- width(ft, 4, width = .5)
+ft <- width(ft, 5, width = 1)
+ft <- width(ft, 6, width = 1.5)
+ft
+```
+
  
 \newpage
 # `r Tealeaves_parameters_legend `
 
-Make a table from this:
-https://github.com/EcoClimLab/vertical-thermal-review/blob/master/NEON_height_profiles/HARV_neon_stats.csv
+See [here](https://github.com/EcoClimLab/vertical-thermal-review/commit/3f624a119d72d388c707d21fb20666a2ad31848f#commitcomment-55784918) for rows to include.
 
 ```{r eval = TRUE, echo=FALSE, warning=FALSE}
 library(flextable)
