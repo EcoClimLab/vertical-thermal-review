@@ -1,27 +1,27 @@
-domain,site_code,site_name,nlcd_class_tower
-D01,BART,Bartlett Experimental Forest Tower,"Eastern Deciduous Forest, Boreal ecotone"
-,BONA,,Spruce forest on permafrost
-,CLBJ,,A mosaic of the Cross Timbers forest (oak-dominated)  and grasslands
-,DEJU,,Spruce forest on non-permafrost land
-,DELA,,"Mixed closed-canopy deciduous hardwood forest including cypress, red oak, black gum, shagbark hickory, oaks and green ash"
-,GRSM,,Hardwood deciduous forest dominated by oaks and maples
-,GUAN,,"Subtropical dry seasonal forest, dense closed canopy"
-D01,HARV,Harvard Forest Tower,Eastern Deciduous forest 
-,JERC,,Mixed longleaf pine/hardwood forest
-,LENO,,Oak-dominant closed-canopy hardwood forest
-,MLBS,,Eastern Deciduous Forest dominated by Oak
-,ORNL,,Eastern Uplands Deciduous forest
-,OSBS,Ordway-Swisher Biological Station,Open Longleaf-pine forest 
-,PUUM,Pu‘u Maka‘ala Natural Area Reserve,tropical forest
-,SCBI,Smithsonian Conservation Biology Institute,deciduousForest; Tulip popular and oak dominated closed forest
-,SERC,Smithsonian Environmental Research Center,"hardwood deciduous forest dominant by tulip popular, oak and ash"
-,SJER,,Oak-dominated woodland savanna
-,SOAP,,Pine-dominated forest
-D05,STEI,,Aspen dominated regenerating forest
-D08,TALL,,Restored longleaf pine forest
-,TEAK,,"Mixed coniferous forest dominated by red fir, ponderosa and Jeffery pine, white fir, etc."
-D05,TREE,,"Restored northern hardwood forest dominated by maple, hemlock, birch, and aspen"
-D06,UKFS,,"Mixed hardwood forest dominated by oak, hickory, and elm"
-,UNDE,,Northern hardwood forest dominated by sugar maple
-,WREF,Wind River Experimental Forest,"Old-growth forest dominated by Douglas-fir, western hemlock, and western red cedar "
-,YELL,,Open pine-dominated forest 
+NEON domain,site code,site name,US state,geographic coordinates,forest type,nlcd_class_tower
+D01,BART,Bartlett Experimental Forest Tower,,,,"Eastern Deciduous Forest, Boreal ecotone"
+,BONA,,,,,Spruce forest on permafrost
+,CLBJ,,,,,A mosaic of the Cross Timbers forest (oak-dominated)  and grasslands
+,DEJU,,,,,Spruce forest on non-permafrost land
+,DELA,,,,,"Mixed closed-canopy deciduous hardwood forest including cypress, red oak, black gum, shagbark hickory, oaks and green ash"
+,GRSM,,,,,Hardwood deciduous forest dominated by oaks and maples
+,GUAN,,,,,"Subtropical dry seasonal forest, dense closed canopy"
+D01,HARV,Harvard Forest Tower,MA,,mixed northern hardwood and coniferous forest,Eastern Deciduous forest 
+,JERC,,,,,Mixed longleaf pine/hardwood forest
+,LENO,,,,,Oak-dominant closed-canopy hardwood forest
+,MLBS,,,,,Eastern Deciduous Forest dominated by Oak
+,ORNL,,,,,Eastern Uplands Deciduous forest
+,OSBS,Ordway-Swisher Biological Station,FL,,subtropical longleaf pine savanna,Open Longleaf-pine forest 
+,PUUM,Pu‘u Maka‘ala Natural Area Reserve,HI,,tropical montane broadleaf evergreen forest,tropical forest
+,SCBI,Smithsonian Conservation Biology Institute,VA,,broadleaf deciduous forest,deciduousForest; Tulip popular and oak dominated closed forest
+,SERC,Smithsonian Environmental Research Center,MD,,broadleaf deciduous forest,"hardwood deciduous forest dominant by tulip popular, oak and ash"
+,SJER,,,,,Oak-dominated woodland savanna
+,SOAP,,,,,Pine-dominated forest
+D05,STEI,,,,,Aspen dominated regenerating forest
+D08,TALL,,,,,Restored longleaf pine forest
+,TEAK,,,,,"Mixed coniferous forest dominated by red fir, ponderosa and Jeffery pine, white fir, etc."
+D05,TREE,,,,,"Restored northern hardwood forest dominated by maple, hemlock, birch, and aspen"
+D06,UKFS,,,,,"Mixed hardwood forest dominated by oak, hickory, and elm"
+,UNDE,,,,,Northern hardwood forest dominated by sugar maple
+,WREF,Wind River Experimental Forest,WA,,conifer,"Old-growth forest dominated by Douglas-fir, western hemlock, and western red cedar "
+,YELL,,,,,Open pine-dominated forest 
