@@ -33,17 +33,19 @@ appendix_tealeaves_methods <- "S2"
 appendix_lit_review_methods <- "S3"
 
 
-appendix_NEON_methods_title<- "Methods for NEON vertical profiles"
-appendix_tealeaves_methods_title <- "Methods for leaf energy balance modeling"
-appendix_lit_review_methods_title<- "Methods for literature review"
+appendix_NEON_methods_title<- "Methods S1. Methods for NEON vertical profiles"
+appendix_tealeaves_methods_title <- "Methods S2. Methods for leaf energy balance modeling"
+appendix_lit_review_methods_title<- "Methods S3. Methods for literature review"
 
 
 
 #SI table numbers
-Tealeaves_parameters = "S1"
+NEON_sites_legend = "S1"
+Tealeaves_parameters = "S2"
 
 #SI table captions
-Tealeaves_parameters_legend <- "Table S1. Tealeaves parameters"
+NEON_sites_legend = "Table S1. (Neon sites)"
+Tealeaves_parameters_legend <- "Table S2. (Tealeaves parameters)"
 
 #SI figure numbers
 SIfig_NEON_all = "S1"
@@ -99,7 +101,7 @@ For drought scenario, biophysical variables were parameterized similar to normal
 \newpage
 # `r appendix_lit_review_methods_title`
 
-## identification of relevant studies
+## Identification of relevant studies
 
 Relevant studies were searched in the databases: ISI Web of Science, Smithsonian online library and Google Scholar, using the following key terms: (leaf traits OR foliar traits) AND (inter-canopy OR intra-canopy OR canopy height) AND (e.g. chlorophyll OR e.g. LMA OR stomatal conductance); (leaf temperature and metabolism OR leaf thermal sensitivity  OR leaf thermal tolerance OR leaf traits OR foliar traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy height OR canopy gradient OR canopy profile OR canopy position) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical); (leaf* temperature* and metabolism OR leaf thermal* sensitivity  OR leaf thermal tolerance OR leaf* traits OR foliar* traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy* height OR canopy gradient OR canopy profile) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical).
 
@@ -111,10 +113,14 @@ For ISI Web of Science, search the key terms—(leaf* temperature* and metabolis
 
 Through the above process, 202 articles were acquired into Zotero folders. The articles were tagged after careful reading of each as ‘added to the table’, ‘irrelevant to the table, but relevant to the review’ (with a note on the reason), ‘irrelevant to the table and the review’ (with a note on the reason for exclusion). Articles that were not yet carefully read were tagged ‘yet to read’, which will be tagged as one of the above after reading. Articles shared by co-authors and references mentioned in other studies collectively were ~>32 studies. So far 40 relevant articles are added into the tables
 
-## criteria for inclusion 
+## Criteria for inclusion 
 
 **this is outlined [here](https://github.com/EcoClimLab/vertical-thermal-review/blob/master/Lit_Review/Methods%20for%20Systematic%20review%20for%20the%20tables.docx). Section needs to be written.**
 
+\newpage
+ # `r NEON_sites_legend`
+ 
+ 
 \newpage
 # `r Tealeaves_parameters_legend `
 
