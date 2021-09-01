@@ -139,7 +139,7 @@ We focus on five key themes (Fig. `r fig_schematic`):
 In this section, we supplement a review of the existing literature with a new analysis of data on vegetation structure and vertical microclimate profiles from focal sites within the U.S. National Ecological Observatory Network [NEON; Figs. `r fig_NEON_vertical`-`r SIfig_NEON_all`; Supporting Information Methods `r appendix_NEON_methods`, @schimelNEONHierarchicallyDesigned2007].
 While the focus here is on vertical gradients, it is important to note that in heterogeneous canopies with high gap fractions and large variation in tree height, or at forest edges, the biophysical environment can be more closely linked to the distance from the outer canopy than to height [@lowmanForestCanopies1995]. 
 
-![**Figure `r fig_NEON_vertical`. Vertical gradients in the biophysical environment for six US forest sites with contrasting forest structures in the National Ecological Observatory Network (NEON)**. Height profiles from the growing season are shown for: (a) leaf area density, (b) proportion of sun leaves, (c) proportion light incident at the top of the canopy, and July mean ± 1 standard deviation for (d) maximum photosynthetically active radiation (PAR), (e) maximum wind speed, (f) minimum humidity, (g) maximum $T_{air}$, and (h) maximum biological temperature, $T_{bio}$. Sites include a mixed northern hardwood and coniferous forest (Harvard Forest, MA; HARV), a subtropical longleaf pine savanna (Ordway-Swisher Biological Station, FL; OSBS), a tropical montane broadleaf evergreen forest (Pu'u Maka'ala Natural Area Reserve, Hawai'i; PUUM), two temperate broadleaf forests (Smithsonian Conservation Biology Institute, VA, SCBI; Smithsonian Environmental Research Center, MD, SERC), and a coniferous forest (Wind River Experimental Forests, WA; WREF). Vertical profiles in micrometeorological variables (d-h) at all six NEON sites are shown in Fig. S1.](NEON_height_profiles/figures/profile_all.png)
+![**Figure `r fig_NEON_vertical`. Vertical gradients in the biophysical environment for six US forest sites with contrasting forest structures in the National Ecological Observatory Network (NEON)**. Height profiles from the growing season are shown for: (a) leaf area density, (b) proportion of sun leaves, (c) proportion light incident at the top of the canopy, and July mean ± 1 standard deviation for (d) maximum photosynthetically active radiation (PAR), (e) maximum wind speed, (f) minimum humidity, (g) maximum $T_{air}$, and (h) maximum biological temperature, $T_{bio}$. Sites include a mixed northern hardwood and coniferous forest (Harvard Forest, MA; HARV), a subtropical longleaf pine savanna (Ordway-Swisher Biological Station, FL; OSBS), a tropical montane broadleaf evergreen forest (Pu'u Maka'ala Natural Area Reserve, Hawai'i; PUUM), two temperate broadleaf forests (Smithsonian Conservation Biology Institute, VA, SCBI; Smithsonian Environmental Research Center, MD, SERC), and a coniferous forest (Wind River Experimental Forests, WA; WREF). Vertical profiles in micrometeorological variables (d-h) at all six NEON sites are shown in Fig. S1. Further site information is given in Supporting Information Table `r NEON_sites_legend`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`.](NEON_height_profiles/figures/profile_all.png)
 
 **Canopy foliage acts as the primary physical barrier between the atmosphere and the forest floor, buffering multiple aspects of the understory conditions. It is critical in influencing -- and is influenced by -- the vertical biophysical gradient (Fig. `r fig_NEON_vertical`).**
 Foliage distribution within a forest is determined by the distribution of tree sizes and tree architecture, along the vertical gradient by leaf area density (LAD; *i.e.*, leaf area per unit volume) patterns that are heterogeneous across forests (Figs. `r fig_NEON_vertical`a-b, `r SIfig_NEON_all`). 
@@ -183,7 +183,7 @@ While $T_{leaf}$ is rarely exactly equal to $T_{air}$, it is most commonly withi
 High $R_n$ loads can elevate $T_{leaf}$ dramatically above $T_{air}$ (Fig. `r fig_leaf_T`a). Sensible heat flux between leaf and air is regulated by leaf boundary layer conductance, which is greater in smaller leaves (Fig. `r fig_leaf_T`d) and higher wind speeds (Fig. `r fig_leaf_T`b). Latent heat flux ($\lambda E$) through transpiration has a strong cooling effect, and is determined by stomatal and boundary layer conductances ($g_s$ and $g_b$) and VPD; notably, $g_b$ is influenced by windspeed and $g_s$ respond due to stomatal closure under high VPD.
 Therefore, under full sunlight, $T_{leaf}-T_{air}$ decreases with $g_b$, which increases with wind speed [Fig. `r fig_leaf_T`b, @daudetWindSpeedLeaf1999a] and $g_s$ (Fig. `r fig_leaf_T`e); increases with leaf size (Fig. `r fig_leaf_T`d); and increases with RH (Fig. `r fig_leaf_T`c).
 
-![**Figure `r fig_leaf_T`. Theoretical expectations for variation in $T_{leaf}-T_{air}$ in response to (a) shortwave radiation, (b) wind speed, (c) relative humidity, (d) leaf width, and (e) stomatal conductance.** Leaf temperatures were modeled using the tealeaves R package of @muir_tealeaves_2019 parameterized to represent typical conditions for a broadleaf species (*Quercus rubra*) in a mesic temperate forest (Harvard Forest, Massachusetts, USA), as detailed in Appendix `r appendix_tealeaves_methods`. [ISSUE #6](https://github.com/EcoClimLab/vertical-thermal-review/issues/6).](leaf_energy_balance/fig3_leafenergy.png)
+![**Figure `r fig_leaf_T`. Theoretical expectations for variation in $T_{leaf}-T_{air}$ in response to (a) shortwave radiation, (b) wind speed, (c) relative humidity, (d) leaf width, and (e) stomatal conductance.** Leaf temperatures were modeled using the tealeaves R package of @muir_tealeaves_2019 parameterized to represent typical conditions for a broadleaf species (*Quercus rubra*) in a mesic temperate forest (Harvard Forest, Massachusetts, USA), as detailed in Supplementary Information Methods `r appendix_tealeaves_methods`. [ISSUE #6](https://github.com/EcoClimLab/vertical-thermal-review/issues/6).](leaf_energy_balance/fig3_leafenergy.png)
 
 **Leaf energy balance is a tradeoff between water uptake and optimum $T_{leaf}$ [@fauset_differences_2018; @kochDiurnalPatternsLeaf1994].** 
 When $g_s$ is high, high $\lambda E$ facilitates heat dissipation. 
@@ -233,7 +233,12 @@ Within-canopy, leaf traits vary along the vertical light gradient [*i.e.,* sun a
 As much of our understanding of trait coordination is based on the leaf economics spectrum concept developed across diverse species [@wrightWorldwideLeafEconomics2004] which was developed using sun leaves [@chenLeafEconomicsSpectrum2020; @keenanGlobalLeafTrait2016], further research is needed to characterize trait relationships and responses vertically through the full range of canopy microenvironments. 
 It has been established that independently of the light environment, traits also vary within species along the ontogenetic trajectory from the understory to the canopy. For example, leaf mass per area (LMA), photosynthetic capacity ($A_A$) and $g_s$ have been observed to increase with height, independently of light [@thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @cavender-baresChangesDroughtResponse2000]. Therefore, ontogeny is bound to play a role in thermal sensitivity [@carterExperimentalWarmingTropical2021; @niinemetsResponsesForestTrees2010a]. 
 
-![Table `r table_leaf_traits`. (*For latest version of table, see tables.pdf.*)](table1.png)
+![Table `r table_leaf_traits`. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`. (*For latest version of table, see tables.pdf.*)](table1.png)
+
+```{r eval=FALSE, echo=FALSE}
+# refs in this table need to go in the nocite field at top of document 
+```
+
 
 #### (Anatomical, Morphological and Physiological traits)
 
@@ -262,6 +267,13 @@ Therefore, vertical gradients in $T_{leaf}$ and metabolism within forest ecosyst
 
 Leaf metabolism is strongly shaped by $T_{leaf}$, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. `r fig_schematic`). 
 However, as we detail below, few studies have evaluated temperature responses of leaf metabolic rates along a vertical canopy gradient, or compared sun and shade leaves (Table `r table_leaf_metabolism`).
+
+
+![Table `r table_leaf_metabolism`. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`. (*For latest version of table, see tables.pdf.*)](table2.png)
+
+```{r eval=FALSE, echo=FALSE}
+# refs in this table need to go in the nocite field at top of document 
+```
 
 ### Stomatal conductance
 
