@@ -33,7 +33,7 @@ appendix_tealeaves_methods <- "S2"
 appendix_lit_review_methods <- "S3"
 
 
-appendix_NEON_methods_title<- "Methods S1. Methods for NEON vertical profiles"
+appendix_NEON_methods_title<- "Methods S1. Methods for analyzing vertical gradients in the biophysical environment"
 appendix_tealeaves_methods_title <- "Methods S2. Methods for leaf energy balance modeling"
 appendix_lit_review_methods_title<- "Methods S3. Methods for literature review"
 
@@ -44,7 +44,7 @@ NEON_sites_legend = "S1"
 Tealeaves_parameters = "S2"
 
 #SI table captions
-NEON_sites_legend = "Table S1. (Neon sites)"
+NEON_sites_legend = "Table S1. National Ecological Observatory Network (NEON) sites included in the analysis of vertical gradients of key biophysical characteristics"
 Tealeaves_parameters_legend <- "Table S2. (Tealeaves parameters)"
 
 #SI figure numbers
