@@ -40,7 +40,7 @@ appendix_lit_review_methods_title<- "Methods S3. Methods for literature review"
 
 
 #SI table numbers
-NEON_sites_legend = "S1"
+NEON_sites = "S1"
 Tealeaves_parameters = "S2"
 
 #SI table captions
