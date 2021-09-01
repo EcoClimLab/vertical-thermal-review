@@ -12,36 +12,45 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r eval = TRUE, echo=FALSE, warning=FALSE, results='hide'}
 
+# MAIN MANUSCRIPT DISPLAY ITEMS  (limit 8)
+#figures
+fig_schematic = 1
+fig_NEON_vertical =  2
+fig_leaf_T = 3
+fig_treerings= 4 
+fig_model=5
+
+#tables
+table_leaf_traits=1
+table_leaf_metabolism=2
+
+
 #Appendices
 appendix_NEON_methods <- "S1"
 appendix_tealeaves_methods <- "S2"
-appendix_lit_review_methods <- "S3"
-
 
 appendix_NEON_methods_title<- "Methods for NEON vertical profiles"
 appendix_tealeaves_methods_title <- "Methods for leaf energy balance modeling"
-appendix_lit_review_methods_title<- "Methods for literature review"
-
 
 
 #SI table numbers
-SItable_example = "S1"
+Tealeaves_parameters = "S1"
 
 #SI table captions
-SItable_example_legend <- "Table S1. ...."
+Tealeaves_parameters_legend <- "Table S1. Tealeaves parameters"
 
 #SI figure numbers
 SIfig_NEON_all = "S1"
 
 #SI figure captions
-SIfig_example_legend <- "Figure S1. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)"
+SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)"
 
 ```
 
 
 **Title:** Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications
 
-**Authors (so far, not necessarily in final order):** 
+**Authors:** 
 Nidhi Vinod^1^,
 Martijn Slot^2^,
 Ian McGregor^3^,
@@ -69,23 +78,30 @@ see [Issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) , 
 
 #  Appendix `r appendix_tealeaves_methods`. `r appendix_tealeaves_methods_title`
 
-METHODS ON TEALEAVES GO HERE.
+Energy balance for a typical overstory sun leaf and understory shade leaf were modeled in the R package *Tleaves* [@muir_tealeaves_2019], parameterized for *Quercus rubra* L. leaves at Harvard Forest, MA, USA (**GEOGRAPHIC COORDINATES).
+Parameters are presented in Table `r Tealeaves_parameters`.
 
-Energy balance for a normal overstory sun leaf and understory shade leaf were parameterized with biophysical variables from Harvard NEON data documented here: (https://github.com/EcoClimLab/vertical-thermal-review/blob/master/NEON_height_profiles/HARV_neon_stats.csv). Leaf trait measurements for leaf width, ie. measured as leaf characteristic dimmension, was measured on ~Quercus rubra~ sun and shade leaf, stomatal conductance measurements were referred from Tleaves typical sun and shade measurements [@muir_tealeaves_2019] and as well @cavender-baresChangesDroughtResponse2000. 
+*Describe where you came up with all the parameters:*
+
+- micromet from NEON (explain exactly what you used)
+- leaf characteristic dimension, was measured on *Quercus rubra* sun and shade leaf, 
+- stomatal conductance measurements were referred from Tleaves typical sun and shade measurements [@muir_tealeaves_2019] 
+- @cavender-baresChangesDroughtResponse2000. 
 
 For drought scenario, biophysical variables were parameterized similar to normal scenario using Harvard NEON data. Overstory drought PAR values reflect maximum observed Harvard NEON PAR and understory drought reflect 50% increased PAR of understory normal value. Leaf trait measurements for leaf width is the same as normal scenario, stomatal conductance is kept constant at a minimum value of 0.01 umol/m^2/s/Pa for both positions. In each visual, all variables are constant (Biophysical Constants table) except for the independent variable that represents minimum - maximum range.
 
 \newpage
+# `r Tealeaves_parameters_legend `
 
-#  Appendix `r appendix_lit_review_methods`. `r appendix_lit_review_methods_title`
-
-METHODS ON LIT REVIEW GO HERE.
-
+Make a table from this:
+https://github.com/EcoClimLab/vertical-thermal-review/blob/master/NEON_height_profiles/HARV_neon_stats.csv
 
 \newpage
 
-# `r SIfig_example_legend`
+# `r SIfig_NEON_all_legend`
 ![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in July mean ± 1 standard deviation for maximum photosyntehtically active ratiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Sites are grouped into the following categories: (A) (sub)subtropical and warm temperate broadleaf: ..., (B) temperate open/ savanna forests: ..., (C) temperate mesic broadleaf forests: ..., (D) temperate conifer forests: ..., (E) northern and boreal forests: ...  [Issue #35](https://github.com/EcoClimLab/vertical-thermal-review/issues/35). ](NEON_height_profiles/figures/profile_all_groups.png)
+
+\newpage
 
 ## References
 

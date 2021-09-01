@@ -30,12 +30,10 @@ table_leaf_metabolism=2
 #Appendices
 appendix_NEON_methods <- "S1"
 appendix_tealeaves_methods <- "S2"
-appendix_lit_review_methods <- "S3"
 
 
 appendix_NEON_methods_title<- "Methods for NEON vertical profiles"
 appendix_tealeaves_methods_title <- "Methods for leaf energy balance modeling"
-appendix_lit_review_methods_title<- "Methods for literature review"
 
 
 
@@ -407,7 +405,6 @@ Appendix `r appendix_NEON_methods`. `r appendix_NEON_methods_title`
 
 Appendix `r appendix_tealeaves_methods`. `r appendix_tealeaves_methods_title`
 
-Appendix `r appendix_lit_review_methods`. `r appendix_lit_review_methods_title`
 
 SIfig_example_legend
 
