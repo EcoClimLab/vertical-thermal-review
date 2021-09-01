@@ -96,6 +96,14 @@ For drought scenario, biophysical variables were parameterized similar to normal
 Make a table from this:
 https://github.com/EcoClimLab/vertical-thermal-review/blob/master/NEON_height_profiles/HARV_neon_stats.csv
 
+```{r eval = TRUE, echo=FALSE, warning=FALSE}
+library(flextable)
+set_flextable_defaults(font.family = "Arial", font.size = 9)
+parameters_table <- read.csv("NEON_height_profiles/HARV_neon_stats.csv", stringsAsFactors = FALSE, check.names = FALSE)
+ft <- flextable(parameters_table)
+ft
+```
+
 \newpage
 
 # `r SIfig_NEON_all_legend`
