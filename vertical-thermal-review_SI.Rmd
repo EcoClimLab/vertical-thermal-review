@@ -100,7 +100,9 @@ https://github.com/EcoClimLab/vertical-thermal-review/blob/master/NEON_height_pr
 library(flextable)
 set_flextable_defaults(font.family = "Arial", font.size = 9)
 parameters_table <- read.csv("NEON_height_profiles/HARV_neon_stats.csv", stringsAsFactors = FALSE, check.names = FALSE)
+parameters_table <- parameters_table[c(9, 1, 3:6)] #select and order columns for inclusion
 ft <- flextable(parameters_table)
+ft <- autofit(ft)
 ft
 ```
 
