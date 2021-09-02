@@ -91,12 +91,12 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 Text | word count | other | n
 ---|---|-----|--------------------
-Total word count (excluding summary, references and legends) | 	## |	No. of figures | 	4 (all colour)
+Total word count (excluding summary, references and legends) | 	8565 |	No. of figures | 	5 (all colour)
 Summary|  	183 | 	No. of Tables | 	2  
-Introduction|	## |	No of Supporting Information files | 	##
-Review of vertical gradients |	##	||	 
-Implications |	##	 ||
-Conclusions |	##	||
+Introduction|	497 |	No of Supporting Information files | 	6
+Review of vertical gradients |	5976	||	 
+Implications |	1753	 ||
+Conclusions |	156	||
 Acknowledgments | ##	||	
 
 \newpage
@@ -407,6 +407,9 @@ Detailed structural information from lidar data has been used to measure tree he
 - The preponderance of available data suggest that while large canopy trees are the most vulnerable to warming when water is limited, understory trees may be more vulnerable under more mesic conditions, but more research is needed. 
 - Critically, change to the vertical gradient--e.g., through increased mortality of canopy trees--will change processses across forest strata, with potentially dramatic consequences. (some of the literature on forest degredation or fragmentation could inform what happens when those gradients change)
 
+## Acknowledgements
+Thanks to ...., the ForestGEO Ecosystems & Climate lab at SCBI for helpful discussion.
+Funding was provided by the Smithsonian Institution, ....
 
 ## SI files
 
