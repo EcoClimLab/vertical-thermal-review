@@ -289,8 +289,24 @@ Therefore, vertical gradients in $T_{leaf}$ and metabolism within forest ecosyst
 Leaf metabolism is strongly shaped by $T_{leaf}$, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. `r fig_schematic`). 
 However, as we detail below, few studies have evaluated temperature responses of leaf metabolic rates along a vertical canopy gradient, or compared sun and shade leaves (Table `r table_leaf_metabolism`).
 
+\newpage
+**Table `r table_leaf_metabolism`.** Summary of observed variation in leaf metabolism and thermal responses across the vertical gradient and/or between sun and shade leaves. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
 
-![Table `r table_leaf_metabolism`. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`. (*For latest version of table, see tables.pdf.*)](table2.png)
+![](table2a.png)
+
+\newpage
+
+Table `r table_leaf_metabolism`, cont.
+
+![](table2b.png)
+
+\newpage
+
+Table `r table_leaf_metabolism`, cont.
+
+![](table2c.png)
+
+*1. Kafuti et al. 2020; 2. Van Wittenberghe et al. 2012; 3. Roberts et al. 1990; 4. Dang et al. 1997; 5. Marenco et al. 2017; 6. Ambrose et al. 2015; 7. Zweifel et al. 2001; 8. Slot et al. 2019; 9. Hernandez et al. 2020; 10. Urban et al. 2007; 11. Carter and Cavaleri 2018; 12. Martin et al. 1999; 13. Mau et al. 2018;  14. Kosugi et al. 2012; 15. Niinemets et al. 2015; 16. Bachofen et al. 2020; 17. Hamerlynck and Knapp 1994; 18. Coble et al. 2017; 19. Wyka et al. 2012; 20. Rijkerse et al. 2000; 21. Ishida et al. 1999; 22. Weerasinghe et al. 2014; 23. Scartazza et al. 2016; 24. Miller et al. 2021; 25. Harris and Medina 2013; 26. Legner et al. 2014; 27. Kitao et al. 2012; 28. Fauset et al. 2018; 29. Rey-Sanchez et al. 2016; 30. Muller et al. 2021; 31. Curtis et al. 2019; 32. Mier et al. 2001; 33. Turnbull et al. 2003; 34. Araki et al. 2017; 35. Bolstad et al. 1999; 36. Kenzo et al. 2015; 37. Harley et al. 1996; 38. Xu and Griffin 2006; 39. Harley et al. 1997; 40. Niinemets and Sun, 2014; 41. Sharkey and Monson, 2014; 42. Saimpraga et al. 2013; 43. Atherton et al. 2017; 44. Carter et al. 2021
 
 ```{r eval=FALSE, echo=FALSE}
 # refs in this table need to go in the nocite field at top of document 
