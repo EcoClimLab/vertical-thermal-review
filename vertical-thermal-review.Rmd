@@ -88,6 +88,17 @@ Kristina J. Anderson-Teixeira^1,2^*
 
 *corresponding author: teixeirak@si.edu; +1 540 635 6546
 
+
+Text | word count | other | n
+---|---|-----|--------------------
+Total word count (excluding summary, references and legends) | 	## |	No. of figures | 	4 (all colour)
+Summary|  	183 | 	No. of Tables | 	2  
+Introduction|	## |	No of Supporting Information files | 	##
+Review of vertical gradients |	##	||	 
+Implications |	##	 ||
+Conclusions |	##	||
+Acknowledgments | ##	||	
+
 \newpage
 
 
