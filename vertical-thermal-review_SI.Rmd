@@ -126,15 +126,14 @@ Through the above process, 202 articles were acquired into Zotero folders. The a
 library(flextable)
 set_flextable_defaults(font.family = "Arial", font.size = 9)
 NEON_table <- read.csv("NEON_height_profiles/NEON_sites_table.csv", stringsAsFactors = FALSE, check.names = FALSE)
-NEON_table <- NEON_table[c(1:6)] #select and order columns for inclusion
+NEON_table <- NEON_table[c(2:6)] #select and order columns for inclusion
 ft <- flextable(NEON_table)
 ft <- autofit(ft)
-ft <- width(ft, 1, width = .7)
-ft <- width(ft, 2, width = .75)
-ft <- width(ft, 3, width = 1.5)
-ft <- width(ft, 4, width = .5)
-ft <- width(ft, 5, width = 1)
-ft <- width(ft, 6, width = 1.5)
+ft <- width(ft, 1, width = .75)
+ft <- width(ft, 2, width = 2)
+ft <- width(ft, 3, width = .5)
+ft <- width(ft, 4, width = 1.2)
+ft <- width(ft, 5, width = 2)
 ft
 ```
 
@@ -157,10 +156,9 @@ ft
 \newpage
 
 # `r SIfig_NEON_all_legend`
-![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in July mean ± 1 standard deviation for maximum photosyntehtically active ratiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Sites are grouped into the following categories: (A) (sub)subtropical and warm temperate broadleaf: ..., (B) temperate open/ savanna forests: ..., (C) temperate mesic broadleaf forests: ..., (D) temperate conifer forests: ..., (E) northern and boreal forests: ...  Further site information is given in Supporting Information Table `r NEON_sites_legend`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`. [Issue #35](https://github.com/EcoClimLab/vertical-thermal-review/issues/35). ](NEON_height_profiles/figures/profile_all_groups.png)
+![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in July mean ± 1 standard deviation for maximum photosyntehtically active ratiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Site information is given in Supporting Information Table `r NEON_sites`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`.](NEON_height_profiles/figures/profile_all_groups.png)
 
 \newpage
-
 ## References
 
 
