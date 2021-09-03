@@ -69,6 +69,13 @@ METHODS ON NEON ANALYSIS GO HERE. Google doc: https://docs.google.com/document/d
 
 see [Issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) , [issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20) 
 
+*Note on interpreting $T_{veg}$*:
+
+Vegetation temperature ($T_{veg}$) is measured using infrared sensors that integrate across both leaves and woody vegetation. 
+Leaf and branch temperatures often differ substantially; for instance, exposed tropical tree bark can be much warmer than leaves [@pauTropicalForestTemperature2018; @stillImagingCanopyTemperature2021; @johnstonWhatLiesVertical2020].
+Thus, vegetation temperature ($T_{veg}$) does not always equal or approximate $T_{leaf}$, particularly in settings where leaf area is low relative to woody vegetation (i.e., low-LAI ecosystems and understories).
+
+
 \newpage
 
 #  `r appendix_tealeaves_methods_title`
