@@ -138,7 +138,7 @@ ft <- width(ft, 5, width = .8)
 ft <- width(ft, 6, width = 2)
 ft
 ```
-
+*Refers to forest type around the tower on which the vertical profile of micrometeorological instruments is mounted, as provided by NEON (Hongyan Luo, personal communication; [site descriptions on NEON website](https://www.neonscience.org/field-sites)). 
  
 \newpage
 # `r Tealeaves_parameters_legend `
