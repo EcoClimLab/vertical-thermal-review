@@ -94,7 +94,7 @@ Text | word count | other | n
 ---|---|-----|--------------------
 Total word count (excluding summary, references and legends) | 	8565 |	No. of figures | 	6 (all colour)
 Summary|  	183 | 	No. of Tables | 	2  
-Introduction|	497 |	No of Supporting Information files | 	6
+Introduction|	495 |	No of Supporting Information files | 	6
 Review of vertical gradients |	5976	||	 
 Implications |	1753	 ||
 Conclusions |	156	||
@@ -106,12 +106,8 @@ Acknowledgments | ##	||
 ## Summary
 
 ```{r eval=FALSE, echo=FALSE}
-#  I think the limit for New Phyt is 200 words. 
+#  200 word limit, no bullet points  
 ```
-
-(200 word limit, no bullet points )
-
-Clean version implementing the changes below (198 words):
 
 Rising temperatures are profoundly influencing forests on many scales with potentially strong variation vertically across forest strata. Using published research and new analyses, we evaluate how environmental conditions, leaf temperatures, and foliar traits and metabolism vary across vertical gradients, shaping whole-tree ecology and ecosystem function. In forests with dense canopies, canopy leaves are exposed to higher solar radiation and evaporative demand than understory leaves, and can experience elevated leaf temperature ($T_{leaf}$), particularly when transpirational cooling is curtailed by limited stomatal conductance.  However, foliar traits that also vary strongly across height or light gradients can partially mitigate the elevation of $T_{leaf}$ in the upper canopy. Leaf metabolism generally increases with height across the vertical gradient, and tall trees have higher absolute metabolic capacity and growth at both individual and ecosystem levels. Yet, differences in thermal sensitivity and damage thresholds across the gradient are modest. Under climate warming and increased drought, larger trees can face disproportionate stress, yet understory trees have fewer cooling mechanisms and thus may be impacted the most under hot, humid conditions, or when the buffering provided by large trees is lost.
 
@@ -119,27 +115,28 @@ Rising temperatures are profoundly influencing forests on many scales with poten
 
 # Introduction
 
-**Forest responses and feedbacks to climate change will have a critical influence on the future of Earth's climate.**
-Globally, temperatures have risen $1.2^\circ$C since 1900 [@rohdeBerkeleyEarthLand2020] and are expected to reach or even exceed an average of $1.5^\circ$C in the next 20 years [@ipccClimateChangeWidespread2021], accompanied by increasing severity and frequency of heat waves [@meehlMoreIntenseMore2004; @ipccClimateChangeWidespread2021] and hotter droughts [@trenberthGlobalWarmingChanges2014b].
-These changes are expected to have profound effects on tree metabolism and forest ecosystem function [@breshearsUnderappreciatedPlantVulnerabilities2021; @portnerScientificOutcomeIPBESIPCC2021], by altering rates of photosynthesis and respiration [@breshearsUnderappreciatedPlantVulnerabilities2021; @corlettImpactsWarmingTropical2011; @scafaroResponsesLeafRespiration2021], causing foliar damage during heat waves [@osullivanThermalLimitsLeaf2017; @corlettImpactsWarmingTropical2011], and reducing growth and elevating mortality during drought [@rollinsonClimateSensitivityUnderstory2020; @breshearsUnderappreciatedPlantVulnerabilities2021; @mcdowellPervasiveShiftsForest2020]. Collectively, these impacts may lead to reduction of forest carbon sequestration, as has already occurred in some forests [@oishiWarmerTemperaturesReduce2018; @sullivanLongtermThermalSensitivity2020]. The resulting feedbacks to the climate system, carbon storage, and changes in albedo and hydrology will in turn impact the the future trajectory of climate change [@bonan_ecological_2016], yet the degree of the impact remains uncertain [@krauseLargeUncertaintyCarbon2018; @friedlingsteinClimateCarbonCycle2006].
+Forest responses and feedbacks to climate change will have a critical influence on the future of Earth's climate.
+Global average temperatures have risen 1.2 $^\circ$C since 1900 [@rohdeBerkeleyEarthLand2020] and are expected to reach or even exceed +1.5 $^\circ$C in the next 20 years [@ipccClimateChangeWidespread2021], accompanied by increasing severity and frequency of heat waves [@meehlMoreIntenseMore2004; @ipccClimateChangeWidespread2021] and hotter droughts [@trenberthGlobalWarmingChanges2014b].
+These changes are expected to have profound effects on tree metabolism and forest ecosystem function [@breshearsUnderappreciatedPlantVulnerabilities2021; @portnerScientificOutcomeIPBESIPCC2021] by altering rates of photosynthesis and respiration [@breshearsUnderappreciatedPlantVulnerabilities2021; @corlettImpactsWarmingTropical2011; @scafaroResponsesLeafRespiration2021], causing foliar damage during heat waves [@osullivanThermalLimitsLeaf2017; @corlettImpactsWarmingTropical2011], and reducing growth and elevating mortality during drought [@breshearsUnderappreciatedPlantVulnerabilities2021; @mcdowellPervasiveShiftsForest2020]. 
+The net result of higher temperatures may be increased or decreased tree growth and forest carbon sequestration, with decreases being more commonly documented across the world's forests [@oishiWarmerTemperaturesReduce2018; @sullivanLongtermThermalSensitivity2020; @Anderson-TeixeiraJointEffectsClimate2021]. 
+The resulting feedbacks to the climate system, carbon storage, and changes in albedo and hydrology will in turn impact the the future trajectory of climate change [@bonan_ecological_2016], yet the degree of the impact remains uncertain [@krauseLargeUncertaintyCarbon2018; @friedlingsteinClimateCarbonCycle2006].
  
-**A great measure of uncertainity arises due to the differential impacts of rising temperatures on trees of differential size and canopy position, especially as small understory trees exist in microenvironments that are substantially buffered by more exposed canopy trees [@zellweger_seasonal_2019; @davisMicroclimaticBufferingForests2019].**
-Forests are vertically and horizontally stratified, containg trees of different sizes along various successional stages. 
-Overstory canopies play a crucial role in moderating forest climatic conditions [@ozanneBiodiversityMeetsAtmosphere2003; @nakamuraForestsTheirCanopies2017], including buffering understory microclimates from extreme meteorological conditions [@zellweger_seasonal_2019]. This creates a vertical stratification of the biophysical environment such as temperature, light, wind, humidity and CO~2~ concentrations that influences leaf traits, thermoregulation and metabolism along the gradient, with implications for whole plant performance [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016].
+A great measure of uncertainty arises due to the differential impacts of rising temperatures on trees of differential size and canopy position, especially as small understory trees exist in microenvironments that are substantially buffered by more exposed canopy trees [@zellweger_seasonal_2019; @davisMicroclimaticBufferingForests2019].
+Forests are vertically and horizontally stratified, with overstory canopies playing a crucial role in moderating forest climatic conditions [@ozanneBiodiversityMeetsAtmosphere2003; @nakamuraForestsTheirCanopies2017], including buffering understory microclimates from extreme meteorological conditions [@zellweger_seasonal_2019]. 
+This creates a vertical stratification of the biophysical environment such as temperature, light, wind, humidity and CO~2~ concentrations that influences leaf traits, thermoregulation and metabolism along the gradient, with implications for whole plant performance [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016].
 Despite the fact that this vertical gradient inevitably shapes nearly every aspect of plant metabolism, demography, and ecology, we lack comprehensive understanding of these gradients [but see @niinemetsPhotosyntheticAcclimationSimultaneous2004b].
 Importantly, this limits our ability to understand how warming temperatures will affect leaf-level metabolism, whole-plant performance, and, in turn, forest ecosystem dynamics, biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions.
 
-
-**Here, we review how the biophysical environment and plant form and function vary across the vertical canopy gradient in forests.** 
+Here, we review how the biophysical environment and plant form and function vary across the vertical canopy gradient in forests. 
 We focus on five key themes (Fig. `r fig_schematic`):
 (1) the biophysical environment;
 (2) leaf temperature ($T_{leaf}$);
 (3) the leaf traits that most strongly influence $T_{leaf}$;
 (4) leaf metabolism and gas exchange, including stomatal conductance, photosynthesis, respiration, and volatile organic compound (VOC) production; and 
 (5) whole-tree and ecosystem ecology.
-*We then consider the implications for understanding forest responses to global change, including how these responses scale across space and time.* 
+We then consider the implications for understanding forest responses to global change, including how these responses scale across space and time. 
 
-![**Figure `r fig_schematic`. Schematic summarizing vertical gradients in forests according to (1) biophysical environment, (2) leaf temperature, (3) leaf traits, (4) leaf metabolism, and (5) whole-tree and ecosystem ecology. Abbreviations are as follows: VPD: vapor pressure deficit;  Tleaf - Tair: leaf-to-air temperature difference; LMA: leaf mass per area, VAZ: violaxanthin, antheraxanthin and zeaxanthin concentrations, VOC: volatile organic compounds; temp sensitivity: temperature sensitivity; ET: evapotranspiration, GPP: gross primary productivity.** Here, we summarize conditions in dense canopies during growing season and daytime conditions; patterns tend to be weaker, or sometimes reversed, in more open canopies, when canopy trees are seasonally deciduous, or at nighttime. Arrows indicate direction of increase, with double-pointed arrows indicating that observations have shown increases both higher and lower in the canopy. ](schematics/Schematic figure 1.png)
+![**Figure `r fig_schematic`. Schematic summarizing vertical gradients in forests according to (1) biophysical environment, (2) leaf temperature ($T_{leaf}$), (3) leaf traits, (4) leaf metabolism, and (5) whole-tree and ecosystem ecology.** Abbreviations are as follows: VPD: vapor pressure deficit;  $T_{leaf}$ - $T_{air}$: leaf-to-air temperature difference; LMA: leaf mass per area, VAZ: violaxanthin, antheraxanthin and zeaxanthin concentrations, VOC: volatile organic compounds; T sensitivity: temperature sensitivity; ET: evapotranspiration. Here, we summarize conditions in dense canopies during growing season and daytime conditions; patterns tend to be weaker, or sometimes reversed, in more open canopies, when canopy trees are seasonally deciduous, or at nighttime. Arrows indicate direction of increase, with double-pointed arrows indicating that observations have shown increases both higher and lower in the canopy. ](schematics/Schematic figure 1.png)
 
 
 
@@ -257,7 +254,7 @@ Table `r table_leaf_traits`, cont.
 
 *1. Mau et al. 2018; 2. Coble and Cavaleri 2014; 3. Sack et al. 2006; 4. Chin and Sillett 2019; 5. Wyka et al. 2012; 6. Atherton et al. 2017; 7. Kenzo et al. 2015; 8. Kusi and Karasi 2020; 9. Dang et al. 1997; 10. Gebauer et al. 2015; 11. Marenco et al. 2017; 12.Kafuti et al. 2020; 13. Van Wittenberghe et al. 2012; 14. Zhang et al. 2019; 15. Weerasinghe et al. 2014; 16. Oldham et al. 2010; 17. Ichie et al. 2016; 18. Gregoriou et al. 2007; 19. Levizou et al. 2005; 20. Liakoura 1997; 21. Fauset et al. 2018; 22. Niinemets et al. 1998, 23. Ishida et al. 1998; 24. Millen and Clendon 1979; 25. Smith and Carter, 1988; 26. Hadley and Smith 1987; 27. Panditharathna et al. 2008; 28. Baltzer and Thomas 2005; 29. Dietz et al. 2007; 30. Coble et al. 2016; 31. Scartazza et al. 2016; 32. Duursma and Marshall, 2006; 33. Harley et al. 1996;  34. Hernandez et al. 2020; 35. Turnbull et al. 2003; 36. Chen et al. 2020; 37. van de Weg et al. 2012; 38. M.A Cavaleri et al. 2008;  39. Koniger et al. 1995; 40. Mastubara et al. 2009; 41. Harris and Medina 2013; 42. Hansen et al. 2001; 43. Poorter et al. 1995; 44. Coble et al. 2017; 45. Niinemets et al. 2004; 46. Poorter et al. 2000
 ```{r eval=FALSE, echo=FALSE}
-# refs in this table need to go in the nocite field at top of document 
+# refs in this table currently in the nocite field at top of document 
 ```
 
 
@@ -309,7 +306,7 @@ Table `r table_leaf_metabolism`, cont.
 *1. Kafuti et al. 2020; 2. Van Wittenberghe et al. 2012; 3. Roberts et al. 1990; 4. Dang et al. 1997; 5. Marenco et al. 2017; 6. Ambrose et al. 2015; 7. Zweifel et al. 2001; 8. Slot et al. 2019; 9. Hernandez et al. 2020; 10. Urban et al. 2007; 11. Carter and Cavaleri 2018; 12. Martin et al. 1999; 13. Mau et al. 2018;  14. Kosugi et al. 2012; 15. Niinemets et al. 2015; 16. Bachofen et al. 2020; 17. Hamerlynck and Knapp 1994; 18. Coble et al. 2017; 19. Wyka et al. 2012; 20. Rijkerse et al. 2000; 21. Ishida et al. 1999; 22. Weerasinghe et al. 2014; 23. Scartazza et al. 2016; 24. Miller et al. 2021; 25. Harris and Medina 2013; 26. Legner et al. 2014; 27. Kitao et al. 2012; 28. Fauset et al. 2018; 29. Rey-Sanchez et al. 2016; 30. Muller et al. 2021; 31. Curtis et al. 2019; 32. Mier et al. 2001; 33. Turnbull et al. 2003; 34. Araki et al. 2017; 35. Bolstad et al. 1999; 36. Kenzo et al. 2015; 37. Harley et al. 1996; 38. Xu and Griffin 2006; 39. Harley et al. 1997; 40. Niinemets and Sun, 2014; 41. Sharkey and Monson, 2014; 42. Saimpraga et al. 2013; 43. Atherton et al. 2017; 44. Carter et al. 2021
 
 ```{r eval=FALSE, echo=FALSE}
-# refs in this table need to go in the nocite field at top of document 
+# refs in this table currently in the nocite field at top of document 
 ```
 
 ### Stomatal conductance
