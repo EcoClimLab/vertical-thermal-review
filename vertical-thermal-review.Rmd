@@ -43,11 +43,9 @@ appendix_lit_review_methods_title<- "Methods S3. Methods for literature review"
 
 #SI table numbers
 NEON_sites = "S1"
-Tealeaves_parameters = "S2"
 
 #SI table captions
 NEON_sites_legend = "Table S1. National Ecological Observatory Network (NEON) sites included in the analysis of vertical gradients of key biophysical characteristics"
-Tealeaves_parameters_legend <- "Table S2. (Tealeaves parameters)"
 
 #SI figure numbers
 SIfig_NEON_all = "S1"
@@ -190,7 +188,7 @@ While $T_{leaf}$ is rarely exactly equal to $T_{air}$, it is most commonly withi
 High $R_n$ loads can elevate $T_{leaf}$ dramatically above $T_{air}$ (Fig. `r fig_leaf_T`a). Sensible heat flux between leaf and air is regulated by leaf boundary layer conductance, which is greater in smaller leaves (Fig. `r fig_leaf_T`d) and higher wind speeds (Fig. `r fig_leaf_T`b). Latent heat flux ($\lambda E$) through transpiration has a strong cooling effect, and is determined by stomatal and boundary layer conductances ($g_s$ and $g_b$) and VPD; notably, $g_b$ is influenced by windspeed and $g_s$ respond due to stomatal closure under high VPD.
 Therefore, under full sunlight, $T_{leaf}-T_{air}$ decreases with $g_b$, which increases with wind speed [Fig. `r fig_leaf_T`b, @daudetWindSpeedLeaf1999a] and $g_s$ (Fig. `r fig_leaf_T`e); increases with leaf size (Fig. `r fig_leaf_T`d); and increases with RH (Fig. `r fig_leaf_T`c).
 
-![**Figure `r fig_leaf_T`. Theoretical expectations for variation in $T_{leaf}-T_{air}$ in response to (a) shortwave radiation, (b) wind speed, (c) relative humidity, (d) leaf width, and (e) stomatal conductance.** Leaf temperatures were modeled using the tealeaves R package of @muir_tealeaves_2019 parameterized to represent typical conditions for a broadleaf species (*Quercus rubra* L.) in a mesic temperate forest (Harvard Forest, Massachusetts, USA), as detailed in Supplementary Information Methods `r appendix_tealeaves_methods`. Model parameters for biophysical conditions are given in Supplementary Information Table `r Tealeaves_parameters`.](leaf_energy_balance/fig3_leafenergy.png)
+![**Figure `r fig_leaf_T`. Theoretical expectations for variation in $T_{leaf}-T_{air}$ in response to (a) shortwave radiation, (b) wind speed, (c) relative humidity, (d) leaf width, and (e) stomatal conductance.** Leaf temperatures were modeled using the tealeaves R package of @muir_tealeaves_2019 parameterized to represent typical conditions for a broadleaf species (*Quercus rubra* L.) in a mesic temperate forest (Harvard Forest, Massachusetts, USA), as detailed in Supplementary Information Methods `r appendix_tealeaves_methods`.](leaf_energy_balance/fig3_leafenergy.png)
 
 **Leaf energy balance is a tradeoff between water uptake and optimum $T_{leaf}$ [@fauset_differences_2018; @kochDiurnalPatternsLeaf1994].** 
 When $g_s$ is high, high $\lambda E$ facilitates heat dissipation. 
@@ -441,8 +439,6 @@ Funding was provided by the Smithsonian Institution, ....
 `r appendix_lit_review_methods_title`
 
 `r NEON_sites_legend`
-
-`r Tealeaves_parameters_legend` 
 
 `r SIfig_NEON_all_legend`
 

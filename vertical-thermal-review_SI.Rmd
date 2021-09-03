@@ -44,11 +44,9 @@ appendix_lit_review_methods_title<- "Methods S3. Methods for literature review"
 
 #SI table numbers
 NEON_sites = "S1"
-Tealeaves_parameters = "S2"
 
 #SI table captions
 NEON_sites_legend = "Table S1. National Ecological Observatory Network (NEON) sites included in the analysis of vertical gradients of key biophysical characteristics"
-Tealeaves_parameters_legend <- "Table S2. (Tealeaves parameters)"
 
 #SI figure numbers
 SIfig_NEON_all = "S1"
@@ -80,8 +78,7 @@ Thus, vegetation temperature ($T_{veg}$) does not always equal or approximate $T
 
 #  `r appendix_tealeaves_methods_title`
 
-Energy balance for a typical overstory sun leaf and understory shade leaf were modeled in the R package *Tleaves* [@muir_tealeaves_2019], parameterized for *Quercus rubra* L. leaves at Harvard Forest, MA, USA (**GEOGRAPHIC COORDINATES).
-Parameters are presented in Table `r Tealeaves_parameters`.
+Energy balance for a typical overstory sun leaf and understory shade leaf were modeled in the R package *Tleaves* [@muir_tealeaves_2019], parameterized for *Quercus rubra* L. leaves at Harvard Forest, MA, USA (42.5369, -72.17266).
 
 *Describe where you came up with all the parameters:*
 
@@ -131,19 +128,6 @@ ft
 ```
 *Refers to forest type around the tower on which the vertical profile of micrometeorological instruments is mounted, as provided by NEON (Hongyan Luo, personal communication; [site descriptions on NEON website](https://www.neonscience.org/field-sites)). 
  
-\newpage
-# `r Tealeaves_parameters_legend `
-
-```{r eval = TRUE, echo=FALSE, warning=FALSE}
-library(flextable)
-set_flextable_defaults(font.family = "Arial", font.size = 9)
-parameters_table <- read.csv("NEON_height_profiles/HARV_neon_stats_handedit.csv", stringsAsFactors = FALSE, check.names = FALSE)
-parameters_table <- parameters_table[which(parameters_table$include==1),c(9, 1, 3)] #select and order columns for inclusion
-ft <- flextable(parameters_table)
-ft <- autofit(ft)
-ft
-```
-
 \newpage
 
 # `r SIfig_NEON_all_legend`
