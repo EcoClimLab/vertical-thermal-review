@@ -127,7 +127,7 @@ Through the above process, 202 articles were acquired into Zotero folders. The a
 library(flextable)
 set_flextable_defaults(font.family = "Arial", font.size = 9)
 NEON_table <- read.csv("NEON_height_profiles/NEON_sites_table.csv", stringsAsFactors = FALSE, check.names = FALSE)
-NEON_table <- NEON_table[c(2:4, 6:8)] #select and order columns for inclusion
+NEON_table <- NEON_table[c(2:4, 6:7,9)] #select and order columns for inclusion
 ft <- flextable(NEON_table)
 ft <- autofit(ft)
 ft <- width(ft, 1, width = .75)
@@ -135,7 +135,7 @@ ft <- width(ft, 2, width = 1.75)
 ft <- width(ft, 3, width = .5)
 ft <- width(ft, 4, width = .75)
 ft <- width(ft, 5, width = .8)
-ft <- width(ft, 6, width = 1.75)
+ft <- width(ft, 6, width = 2)
 ft
 ```
 

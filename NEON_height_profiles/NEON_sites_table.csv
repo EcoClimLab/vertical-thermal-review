@@ -1,8 +1,8 @@
-﻿NEON domain,site code,site name,US state,geographic coordinates,latitude,longitude,forest type,nlcd_class_tower
+﻿NEON domain,site code,site name,US state,geographic coordinates,latitude,longitude,forest_type,forest type
 D01,BART,Bartlett Experimental Forest Tower,NH,"44.063889, -71.287375",44.063889,-71.287375,deciduous broadleaf forest,"Eastern Deciduous Forest, Boreal ecotone"
 D19,BONA,Bonanza Creek,AK,"65.15401, -147.50258",65.15401,-147.50258,boreal mixed forest,Spruce forest on permafrost
-D7,CLBJ,Lyndon B. Johnson National Grassland,TX,"33.40123, -97.57",33.40123,-97.57,,A mosaic of the Cross Timbers forest (oak-dominated)  and grasslands
-D19,DEJU,Delta Junction,AK,"63.88112, -145.75136",63.88112,-145.75136,,Spruce forest on non-permafrost land
+D7,CLBJ,Lyndon B. Johnson National Grassland,TX,"33.40123, -97.57",33.40123,-97.57,oak-dominated forest in grassland mosaic,A mosaic of the Cross Timbers forest (oak-dominated)  and grasslands
+D19,DEJU,Delta Junction,AK,"63.88112, -145.75136",63.88112,-145.75136,spruce forest on non-permafrost land,Spruce forest on non-permafrost land
 D08,DELA,Dead Lake site,AL,"32.541727, -87.803877",32.541727,-87.803877,,"Mixed closed-canopy deciduous hardwood forest including cypress, red oak, black gum, shagbark hickory, oaks and green ash"
 D07,GRSM,"Great Smoky Mountains National Park, Twin Creeks",TN,"35.68896, -83.50195",35.68896,-83.50195,,Hardwood deciduous forest dominated by oaks and maples
 D04,GUAN,Guanica Forest ,PR,"17.96955, -66.8687",17.96955,-66.8687,,"Subtropical dry seasonal forest, dense closed canopy"
@@ -12,9 +12,9 @@ D08,LENO,Lenoir Landing ,AL,"31.85388, -88.16122",31.85388,-88.16122,,Oak-domina
 D07,MLBS,Mountain Lake Biological Station,VA,"37.37828, -80.52484",37.37828,-80.52484,,Eastern Deciduous Forest dominated by Oak
 D07,ORNL,Oak Ridge,TN,"35.96412, -84.2826",35.96412,-84.2826,,Eastern Uplands Deciduous forest
 D03,OSBS,Ordway-Swisher Biological Station,FL,"29.689282, -81.993431",29.689282,-81.993431,subtropical longleaf pine savanna,Open Longleaf-pine forest 
-D20,PUUM,Pu‘u Maka‘ala Natural Area Reserve,HI,"19.55309, -155.31731",19.55309,-155.31731,tropical montane broadleaf evergreen forest,tropical forest
-D02,SCBI,Smithsonian Conservation Biology Institute,VA,"38.892925, -78.139494",38.892925,-78.139494,broadleaf deciduous forest,deciduousForest; Tulip popular and oak dominated closed forest
-D02,SERC,Smithsonian Environmental Research Center,MD,"38.890131, -76.560014",38.890131,-76.560014,broadleaf deciduous forest,"hardwood deciduous forest dominant by tulip popular, oak and ash"
+D20,PUUM,Pu‘u Maka‘ala Natural Area Reserve,HI,"19.55309, -155.31731",19.55309,-155.31731,tropical montane broadleaf evergreen forest,Tropical montane broadleaf evergreen forest
+D02,SCBI,Smithsonian Conservation Biology Institute,VA,"38.892925, -78.139494",38.892925,-78.139494,broadleaf deciduous forest,Tulip popular and oak dominated closed forest
+D02,SERC,Smithsonian Environmental Research Center,MD,"38.890131, -76.560014",38.890131,-76.560014,broadleaf deciduous forest,"Hardwood deciduous forest dominant by tulip popular, oak and ash"
 D17,SJER,San Joaquin Experimental Range,CA,"37.10878, -119.73228",37.10878,-119.73228,,Oak-dominated woodland savanna
 D17,SOAP,Soaproot Saddle,CA,"37.03337, -119.26219",37.03337,-119.26219,,Pine-dominated forest
 D05,STEI,Steigerwaldt Land Services ,WI,"45.50894, -89.58637",45.50894,-89.58637,,Aspen dominated regenerating forest
