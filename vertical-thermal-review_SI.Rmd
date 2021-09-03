@@ -79,6 +79,7 @@ Recent advances in $T_{leaf}$ modeling (see "Scaling across Space and Time") wil
 
 #  `r appendix_NEON_methods_title`
 
+*be sure to cite @schimelNEONHierarchicallyDesigned2007.*
 
 METHODS ON NEON ANALYSIS GO HERE. Google doc: https://docs.google.com/document/d/1HdPa7X5AMrEwfLjazGMU92uTYMc6pObh/edit#heading=h.gjdgxs 
 
