@@ -335,13 +335,16 @@ groupPlots <- lapply(1:length(sites), function(X){
         labs(x = "",
              y = "") +
         theme_bw() +
-        theme(text = element_text(size=16))
+        theme(text = element_text(size=20))
       
       if(X==5){#only labels on bottom row for putting all 25 plots together
-        if(i %in% c(1,2)){ #windspeed, RH
+        if(i==1){ #windspeed
+          graph <- graph + 
+            xlab(bquote("max Windspeed [" ~m~s^'-1'~"]"))
+        } else if(i==2){ #RH
           graph <- graph + 
             xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
-          } else if(i==3){ #tempSingle
+        } else if(i==3){ #tempSingle
           graph <- graph +
             xlab(expression(
               paste("max T"["air"], " [",degree,"C]")))
@@ -351,7 +354,7 @@ groupPlots <- lapply(1:length(sites), function(X){
               paste("max T"["bio"], " [",degree,"C]")))
         } else if(i==5){ #PAR
           graph <- graph + 
-            xlab("max PAR")
+            xlab(bquote("max PAR [" ~mu ~ mol^'-2' ~ s^'-1'~"]"))
         }
       }
       
@@ -369,7 +372,7 @@ groupPlots <- lapply(1:length(sites), function(X){
       if(i==4){ #biotemp - legend purposes
         graph <- graph + 
           theme(legend.position=c(0.8,0.7), 
-                legend.text=element_text(size=14)) +
+                legend.text=element_text(size=16)) +
           guides(size=FALSE)
       } else {
         graph <- graph + theme(legend.position="none")
@@ -391,7 +394,7 @@ groupPlots <- lapply(1:length(sites), function(X){
     plots[["tempSingleMean"]] + plots[["bioTempMean"]]
   p <- p + 
     plot_annotation(title=titleTx, 
-                    theme = theme(plot.title = element_text(size = 18))) +
+                    theme = theme(plot.title = element_text(size = 20))) +
     plot_layout(ncol = 5)
   
   # p <- ggarrange(NULL, plot_0, NULL, NULL, NULL,
