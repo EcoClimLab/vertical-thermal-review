@@ -335,7 +335,8 @@ groupPlots <- lapply(1:length(sites), function(X){
         labs(x = "",
              y = "") +
         theme_bw() +
-        theme(text = element_text(size=20))
+        theme(text = element_text(size=20),
+              axis.ticks.length=unit(.25, "cm"))
       
       if(X==5){#only labels on bottom row for putting all 25 plots together
         if(i==1){ #windspeed
@@ -343,15 +344,15 @@ groupPlots <- lapply(1:length(sites), function(X){
             xlab(bquote("max Windspeed [" ~m~s^'-1'~"]"))
         } else if(i==2){ #RH
           graph <- graph + 
-            xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
+            xlab("min RH [ % ]")
         } else if(i==3){ #tempSingle
           graph <- graph +
             xlab(expression(
-              paste("max T"["air"], " [",degree,"C]")))
+              paste("max T"["air"], " [ ",degree,"C ]")))
         } else if(i==4){ #bioTempMean
           graph <- graph +
             xlab(expression(
-              paste("max T"["bio"], " [",degree,"C]")))
+              paste("max T"["bio"], " [ ",degree,"C ]")))
         } else if(i==5){ #PAR
           graph <- graph + 
             xlab(bquote("max PAR [" ~mu ~ mol^'-2' ~ s^'-1'~"]"))
