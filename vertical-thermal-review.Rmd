@@ -232,20 +232,20 @@ Similarly, in very open forests or savannas, trees growing close to the ground c
 
 ## Leaf traits 
 
-Leaf traits shape $T_{leaf}-T_{air}$ [@michaletzEnergeticCarbonEconomic2016] and leaf metabolism across forest vertical strata [@michaletzPlantThermoregulationEnergetics2015; @zwienieckiHydraulicLimitationsImposed2004].
+Leaf traits shape $T_{leaf}$, leaf metabolism, and its thermal sensitivity across forest vertical strata [@michaletzPlantThermoregulationEnergetics2015;@michaletzEnergeticCarbonEconomic2016;  @zwienieckiHydraulicLimitationsImposed2004].
 Leaf morphology adjusts to the previously experienced microenvironment during leaf formation in buds, and also during ongoing leaf expansion [@zwienieckiHydraulicLimitationsImposed2004], and the ratio of far red to red light and associated water demands determines the differentiation of traits of sun and shade leaves [@casasSunShadeLeaves2011; @zwienieckiHydraulicLimitationsImposed2004; @keenanGlobalLeafTrait2016]. 
 This dichotomy in leaves is observed along the vertical gradient where canopy-leaves vary dramatically from canopy-interior and understory due to the differences in biophysical conditions (Fig. `r fig_NEON_vertical`, Supporting Information Figure `r SIfig_NEON_all`). 
 
 Across the vertical gradient, traits vary (1) across sun and shade leaves within individuals, (2) across canopy and understory individuals of the same species, and (3) across canopy and understory species. 
-The majority of studies characterizing variation in leaf traits or metabolism examine intraspecific patterns (categories 1 and 2), which are therefore the main focus of this review (Table 1).
-However, when it comes to understanding and modeling forest ecosystem function, given that species traits strongly shape the propensity for trees to inhabit understory vs. canopy positions, ecosystem function is also shaped by interspecific trait variation [e.g., *Lamour, Serbin in prep*; @cavaleri_height_2010].
-
+The majority of studies characterizing variation in leaf traits or metabolism examine intraspecific patterns (categories 1 and 2), which are therefore the main focus of this review (Table `r table_leaf_traits`).
+However, when it comes to understanding and modeling forest ecosystem function, given that species traits strongly shape the propensity for trees to inhabit understory vs. canopy positions, ecosystem function is also shaped by interspecific trait variation [e.g., @cavaleri_height_2010].
 
 ### Intraspecific variation
 
 Within-canopy, leaf traits vary along the vertical light gradient [*i.e.,* sun and shade leaves, @casasSunShadeLeaves2011] at a biochemical, anatomical and structural level [Table `r table_leaf_traits`, @sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. 
-As much of our understanding of trait coordination is based on the leaf economics spectrum concept developed across diverse species [@wrightWorldwideLeafEconomics2004] which was developed using sun leaves [@chenLeafEconomicsSpectrum2020; @keenanGlobalLeafTrait2016], further research is needed to characterize trait relationships and responses vertically through the full range of canopy microenvironments. 
-It has been established that independently of the light environment, traits also vary within species along the ontogenetic trajectory from the understory to the canopy. For example, leaf mass per area (LMA), photosynthetic capacity ($A_A$) and $g_s$ have been observed to increase with height, independently of light [@thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @cavender-baresChangesDroughtResponse2000]. Therefore, ontogeny is bound to play a role in thermal sensitivity [@carterExperimentalWarmingTropical2021a; @niinemetsResponsesForestTrees2010a]. 
+Much of our understanding of trait coordination is based on the leaf economics spectrum concept developed across diverse species [@wrightWorldwideLeafEconomics2004], which was developed using sun leaves [@chenLeafEconomicsSpectrum2020; @keenanGlobalLeafTrait2016], so further research is needed to characterize trait relationships and responses vertically through the full range of canopy microenvironments. 
+It has been established that independently of the light environment, traits also vary within species along the ontogenetic trajectory from the understory to the canopy. For example, leaf mass per area (LMA), photosynthetic capacity ($A_A$) and $g_s$ have been observed to increase with height, independently of light [@thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @cavender-baresChangesDroughtResponse2000]. 
+Therefore, ontogeny is bound to play a role in shaping leaf traits and thermal sensitivity [@carterExperimentalWarmingTropical2021a; @niinemetsResponsesForestTrees2010a]. 
 
 \newpage
 **Table `r table_leaf_traits`.** Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
@@ -273,9 +273,15 @@ $\ddagger$ 1. Mau et al. 2018; 2. Coble and Cavaleri 2014; 3. Sack et al. 2006; 
 ```
 
 
-#### (Anatomical, Morphological and Physiological traits)
-
-Sun leaves have traits that reduce heat and water stress -- for instance, by being smaller, more pubescent, having higher vein density [Table 1, @leighInfluenceLeafSize2017; @vogelSunLeavesShade1968a; @sackHowStrongIntracanopy2006; @zwienieckiHydraulicLimitationsImposed2004;@mathurPhotosyntheticEfficiencySun2018a], and a steeper leaf-angle [@niinemetsAdjustmentFoliageStructure1998; @ballMaintenanceLeafTemperature1988]. These traits collectively aid heat dissipation and regulate $T_{leaf}$-photosynthetic balance. In contrast, shade leaves have traits that maximize light capture in the diffuse-light environment with sunflecks (e.g., lower LMA), but they are more likely to overheat than sun leaves due to greater thermal capacitance [@leighInfluenceLeafSize2017; @casasSunShadeLeaves2011; @schymanskiStomatalControlLeaf2013b]. In open canopies, where light is comparatively homogeneous, exposed leaves are shaped more by $T_{air_{max}}$ and VPD stress than by light [@mediavillaFoliarPlasticityRelated2019a].
+Sun leaves have anatomical, morphological, and physiological traits that reduce heat and water stress (Table `r table_leaf_traits`).
+They are generally smaller, thicker, and more deeply lobed, resulting in higher $g_b$ [*REFS*]. 
+Higher stomatal densities allow higher $g_s$.
+Higher cuticle thickness and trichome density reduce water loss, and higher vein densities... [*REFS*].
+Steeper leaf angles [@niinemetsAdjustmentFoliageStructure1998; @ballMaintenanceLeafTemperature1988] reduce radiation loads and thereby $T_{leaf}-T_{air}$.
+*... are more pubescent, having higher vein density [@leighInfluenceLeafSize2017; @vogelSunLeavesShade1968a; @sackHowStrongIntracanopy2006; @zwienieckiHydraulicLimitationsImposed2004;@mathurPhotosyntheticEfficiencySun2018a], and a steeper leaf-angle [@niinemetsAdjustmentFoliageStructure1998; @ballMaintenanceLeafTemperature1988].* 
+These traits collectively aid heat dissipation and regulate $T_{leaf}$-photosynthetic balance. 
+In contrast, shade leaves have traits that maximize light capture in the diffuse-light environment with sunflecks (e.g., lower LMA), but their greater thermal capacitance makes them more prone to overheating than sun leaves [@leighInfluenceLeafSize2017; @casasSunShadeLeaves2011; @schymanskiStomatalControlLeaf2013b]. 
+In open canopies, where light is comparatively homogeneous, exposed leaves are shaped more by $T_{air_{max}}$ and VPD stress than by light [@mediavillaFoliarPlasticityRelated2019a].
 
 #### (Biochemical and elemental traits, and isoprene)
 
