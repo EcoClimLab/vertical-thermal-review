@@ -82,9 +82,17 @@ Energy balance for a typical overstory sun leaf and understory shade leaf were m
 
 *Describe where you came up with all the parameters:*
 
-For normal scenario, micrometeorological data from Harvard NEON was used to parameterize biophysical constants, ie. the maximum mean of PAR, wind speed, RH and $T_{air}$ (Fig.3) for growing season months at vertical positions 60m (overstory) and 10m (understory). Leaf size parameters were selected for *Quercus rubra* sun and shade leaf based on personal observations (by Vinod) and verified as reasonable by @zwienieckiHydraulicLimitationsImposed2004. Stomatal conductance measurements were referred from *Tleaves* typical sun and shade measurements [@muir_tealeaves_2019] and @cavender-baresChangesDroughtResponse2000. 
+Micrometeorological data from Harvard NEON was used to parameterize biophysical constants, using the mean oof maximum PAR, wind speed, and $T_{air}$ (Fig.3) for growing season months at vertical positions 60m (overstory) and 10m (understory). 
+Leaf size parameters were selected for *Quercus rubra* sun and shade leaf based on personal observations (by Vinod) and verified as reasonable by @zwienieckiHydraulicLimitationsImposed2004. 
 
-For the drought scenario, biophysical constants were used from Harvard NEON data as well. For overstory drought PAR values, we used maximum Harvard NEON PAR value at 60m, and for understory drought PAR we used 50% increased PAR of understory normal value. Leaf trait measurements for leaf width is the same as normal scenario, stomatal conductance is kept constant at a minimum value of 0.01 $\mu mol/m^2/s/Pa$ for both overstory and understory. In each visual, all biophysical variables are constant except for the independent variable that represents a minimum - maximum range. 
+For the humid scenario, we used mean maximum RH.
+Stomatal conductance measurements were referred from *Tleaves* typical sun and shade measurements [@muir_tealeaves_2019] and @cavender-baresChangesDroughtResponse2000. 
+
+For the drought scenario, we reduced RH to 50% of the mean maximum.
+*For overstory drought PAR values, we used maximum Harvard NEON PAR value at 60m, and for understory drought PAR we used 50% increased PAR of understory normal value.* 
+We reduced stomatal conductance to a minimum value of 0.01 $\mu mol/m^2/s/Pa$ for both overstory and understory. 
+
+In each visual, all biophysical variables are constant except for the independent variable that represents a minimum - maximum range. 
 
 \newpage
 # `r appendix_lit_review_methods_title`
