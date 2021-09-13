@@ -203,7 +203,7 @@ However, when leaf water demand (influenced by VPD and stomatal opening) exceeds
 Therefore, at high solar radiation loads, leaves can maintain $T_{leaf}$ closer to $T_{air}$ at maximum $g_s$, but during $g_s$ - limitation solar radiation can drastically elevate $T_{leaf}$ above $T_{air}$, especially for larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020; @konradLeafTemperatureIts2021].
 
 
-## Vertical gradients 
+### Vertical gradients 
 
 The basic biophysical principles outlined above shape the tendency for $T_{leaf}$ to be elevated above $T_{air}$ across vertical gradients in closed-canopy forests.
 High radiation at the top of the vertical profile (Fig. `r fig_NEON_vertical`) implies that canopy leaves have much greater tendency for high $T_{leaf}-T_{air}$, such that they would be expected to be warmer than understory leaves under most conditions (Fig. `r fig_leaf_T`).
