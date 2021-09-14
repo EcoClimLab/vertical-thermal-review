@@ -269,7 +269,7 @@ $\ddagger$ 1. Mau et al. 2018; 2. Coble and Cavaleri 2014; 3. Sack et al. 2006; 
 
 
 Sun leaves have anatomical, morphological, and physiological traits that reduce heat and water stress (Table `r table_leaf_traits`).
-They are generally smaller, thicker, and more deeply lobed, resulting in higher $g_b$ [*REFS*]. 
+They are generally smaller, thicker, and more deeply lobed, resulting in higher $g_b$ and lower $T_{leaf}-T{air}$ [Fig. `r fig_leaf_T`, *REFS*]. 
 Higher stomatal densities allow higher $g_s$.
 Higher cuticle thickness and trichome density reduce water loss, and higher vein densities... [*REFS*].
 Steeper leaf angles [@niinemetsAdjustmentFoliageStructure1998; @ballMaintenanceLeafTemperature1988] reduce radiation loads and thereby $T_{leaf}-T_{air}$.
@@ -337,9 +337,14 @@ $\ddagger$ 1. Kafuti et al. 2020; 2. Van Wittenberghe et al. 2012; 3. Roberts et
 # refs in this table currently in the nocite field at top of document 
 ```
 
-### Stomatal conductance
+### Conductance
 
-Maximum $g_s$ increases with light, and is thus higher in the sun-exposed upper canopy than in sub-canopy or understory leaves (Table `r table_leaf_metabolism`). However, because of the high VPD and irradiance experienced by sun leaves,  midday stomatal depression is more prevalent in sun leaves than shade leaves in closed-canopy forests.  In sun leaves, $T_{leaf}$ thus further increases due to the lack of transpirational cooling [@sanchesDifferentialLeafTraits2010; @zwienieckiHydraulicLimitationsImposed2004; @kochDiurnalPatternsLeaf1994; @kosugiSeasonalFluctuationsTemperature2006]. The temperature at which $g_s$ is maximized, $T_{opt}$ of $g_s$, did not differ significantly between sun and shade leaves in three tropical tree species [@slotPhotosyntheticHeatTolerance2019], but sun leaves in the upper canopy show a stronger decrease in $g_s$ in response to rising $T_{air}$ than do shade leaves in the lower canopy [@hernandezSimilarTemperatureDependence2020; @carterExperimentalWarmingTropical2021a]. 
+Leaf hydraulic, stomatal, and boundary layer conductance are all critical for latent heat loss, which in turn can be important for regulating $T_{leaf}$ (Fig. `r fig_leaf_T`). 
+Due to higher wind, lower RH, and smaller leaf sizes in the canopy (Fig. `r fig_NEON_vertical`, Table `r table_leaf_traits`), boundary layer conductance increases with height (Table `r table_leaf_metabolism`).
+Maximum $g_s$ increases with light, and is thus higher in the sun-exposed upper canopy than in sub-canopy or understory leaves (Table `r table_leaf_metabolism`). 
+However, because water supply often cannot meat the demands incurred by the high irradiance and $g_b$ experienced by sun leaves, midday stomatal depression is more prevalent in sun leaves than shade leaves in closed-canopy forests (Table `r table_leaf_metabolism`).
+In sun leaves, $T_{leaf}$ thus further increases due to the lack of transpirational cooling [@sanchesDifferentialLeafTraits2010; @zwienieckiHydraulicLimitationsImposed2004; @kochDiurnalPatternsLeaf1994; @kosugiSeasonalFluctuationsTemperature2006]. 
+The temperature at which $g_s$ is maximized, $T_{opt}$ of $g_s$, did not differ significantly between sun and shade leaves in three tropical tree species [@slotPhotosyntheticHeatTolerance2019], but sun leaves in the upper canopy show a stronger decrease in $g_s$ in response to rising $T_{air}$ than do shade leaves in the lower canopy [@hernandezSimilarTemperatureDependence2020; @carterExperimentalWarmingTropical2021a]. 
 
 ### Photosynthesis
 
