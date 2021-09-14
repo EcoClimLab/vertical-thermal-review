@@ -285,7 +285,7 @@ However, @zhuPlasticityPhotosyntheticHeat2018 and @osullivanThermalLimitsLeaf201
 Biochemical protection against foliage light and heat damage also increases with irradiance, and thus tends to be higher in the upper canopy than in the understory (Table `r table_leaf_traits`). 
 Carotenoids and xanthophyll cycle pigments -- violaxanthin, antheraxanthin and zeaxanthin (VAZ) -- can play a role in antioxidant scavenging and converting excess excitation energy into heat to reduce photoinhibition [@niinemetsPhotosynthesisResourceDistribution2007a; @mathurPhotosyntheticEfficiencySun2018a; @niinemetsAcclimationHighIrradiance1998]. 
 The dissipation of excess light energy is also important for leaf acclimation to higher temperatures if high $T_{leaf}$ impairs the photochemical energy dissipation pathway [@havauxTemperaturedependentAdjustmentThermal1996]. 
-Heat-sensitive emissions of isoprene gas from tree leaves enhance photosynthetic thermal tolerance by regulating antioxidant defenses and other metabolic processes [@sharkeyIsopreneEmissionPlants2008; @taylorCapacityEmitIsoprene2019; @monsonLeafIsopreneEmission2021].
+Capacity for heat-sensitive emissions of isoprene gas from tree leaves enhances photosynthetic thermal tolerance by regulating antioxidant defenses and other metabolic processes [@sharkeyIsopreneEmissionPlants2008; @taylorCapacityEmitIsoprene2019; @monsonLeafIsopreneEmission2021].
 
 The vertical structure of microenvironments likely influences forest photosynthetic capacity [@rey-sanchez_spatial_2016] via leaf phenology. 
 In deciduous forests, the timing and extent of seasonal leaf gain and loss is structured across the vertical profile. 
@@ -389,12 +389,12 @@ Overall, however, we currently lack synthetic understanding of how and why the t
 
 ### VOC production
 
-Isoprene gas emission from tree leaves is associated with photosynthetic thermal tolerance [@taylorCapacityEmitIsoprene2019; @sharkeyIsopreneEmissionPlants2008], and within species, emission rates tend to increase toward brighter and hotter microenvironments [@niinemetsEmissionFactorVolatile2010]. 
+Emission of the VOC isoprene gas from tree leaves is associated with photosynthetic thermal tolerance [@taylorCapacityEmitIsoprene2019; @sharkeyIsopreneEmissionPlants2008], and within species, emission rates tend to increase toward brighter and hotter microenvironments [@niinemetsEmissionFactorVolatile2010]. 
 Across landscapes, emitting species increase in relative abundance toward hotter climates, exceeding half of trees in warm tropical forests [@taylorIsopreneEmissionStructures2018a].
 In contrast, vertical structuring of leaf isoprene emissions within forests may indicate the importance of temporal variability in thermal conditions as distinct from the long-term average.
 A recent inventory in an Amazon forest showed that both the abundance of emitting species and average emission rates were highest in the mid-canopy region instead of the hotter and brighter upper canopy [@taylorNewFieldInstrument2021]. 
 This observation is consistent with the hypothesis that temperature sensitive isoprene emissions enable real-time acclimation to rapidly changing leaf thermal environments typical of the mid-canopy region [@sharkeyIsopreneEmissionPlants2008], due to the sun's passage across a dynamically structured canopy surface. 
-This review focuses primarily on variation in mean conditions across the vertical profile, but future work should seek to understand how temporal dynamics of leaf heating [see @leighInfluenceLeafSize2017] vary through the canopy and influence leaf function.
+Future work seeking to understand how temporal dynamics of leaf heating [see @leighInfluenceLeafSize2017] vary through the canopy and influence leaf function will be important for resolving the role of isoprenes in forest thermal sensitivity across the vertical gradient.
 
 ## Whole-tree and ecosystem ecology
 
