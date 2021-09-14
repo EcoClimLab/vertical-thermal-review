@@ -4,7 +4,7 @@
 # Tleaves R package created by Chris Muir, 2019
 # Developed by: Nidhi Vinod, contact Anderson-Teixeira (teixeirak@si.edu)
 # R version 3.5.3 --First created in October 2020, updated on 5/28/2021
-# Oct-August 2021
+# Oct,2020-Oct,2021
 ####################################
 #install packages if needed
 library(latex2exp)
@@ -18,14 +18,7 @@ library(cowplot)
 library(gridExtra)
 library(RColorBrewer)
 ####################################
-#dataframe for biophysical parameters from NEON HARV data
-#normal scenario represents HARV NEON environmental parameters as observed. 
-#drought scenario represents similar HARV NEON parameters, with: 1) max PAR for overstory and 50% increase in normal PAR for understory, and 2) 50% decrease in normal relative humidity for both positions.
-#typical normal stomtal conductane(gs) values are referred from Tleaves supplementary manual for range of minimum and maximum values and obtained from Cavendar-Bares and Bazzaz, 2000.
-#drought condition ~gs values are set to a constant value of 0.01 umol/m^2/s/Pa for canopy and understory. 
-#respective leaf sizes (m) are measured from sun and shade red oak leaves 
-#all variables are constant except for the y-axis variables that represent minimum- maximum range
-####################################
+
 
 # create a dataframe for overstory and understory, for scenarios: normal and drought
 # 1. Short wave radiation, normal
@@ -152,8 +145,8 @@ dr_sw_u$dr_u_tleaf_tair<- dr_sw_u$tleaf - dr_sw_u$tair
 
 sw<- data.frame(l_tla = sw_l$l_tleaf_tair, u_tla = sw_u$u_tleaf_tair, dr_ltla = dr_sw_l$dr_l_tleaf_tair, dr_utla = dr_sw_u$dr_u_tleaf_tair, par = sw_l$par)
 
-l_tla<-data.frame(par = sw$par, tleaf_tair = sw$l_tla, canopy_position = "understory normal")
-u_tla<-data.frame(par = sw$par, tleaf_tair = sw$u_tla, canopy_position = "overstory normal")
+l_tla<-data.frame(par = sw$par, tleaf_tair = sw$l_tla, canopy_position = "understory humid")
+u_tla<-data.frame(par = sw$par, tleaf_tair = sw$u_tla, canopy_position = "overstory humid")
 dr_ltla<-data.frame(par = sw$par, tleaf_tair = sw$dr_ltla, canopy_position = "understory drought")
 dr_utla<-data.frame(par = sw$par, tleaf_tair = sw$dr_utla, canopy_position = "overstory drought") 
 
@@ -447,7 +440,7 @@ table<- data.frame(biophysical = c( "swr", "ws", "rh", "lw", "gs", "tair"),
                    normalno = c("153", 0.24, 0.49, 0.10, "1.01", "23"))
 
 colnames(table) <- c("variable",
-                 "overstory\nnormal", "understory\nnormal", "overstory\ndrought", "understory\ndrought")
+                 "overstory\nhumid", "understory\nhumid", "overstory\ndrought", "understory\ndrought")
 
 main.title <- "Biophysical Constants"
 
