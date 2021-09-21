@@ -158,7 +158,7 @@ a1<-ggplot(data = sw)+
   geom_smooth(aes(x = par, y = tleaf_tair, color = canopy_position, linetype = canopy_position), 
               method = lm, se = FALSE)+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("Short Wave Radiation (swr, W/m$^{2}$)"))+
-  theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)+
+  theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14)+
   geom_hline(yintercept=0, linetype='dotted', color = 'black')+
   scale_colour_manual(values=c("#008837","#7b3294","#008837","#7b3294"), name = "canopy position") + 
   scale_linetype_manual(values = c(1,1,2,2), name = "canopy position")+
@@ -240,7 +240,7 @@ b1<-ggplot(ws)+
   geom_smooth(aes(x = wind, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($°C$)"))+xlab(TeX("Wind Speed (ws, $m/s$)"))+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
-  theme_few()+theme(text = element_text(size = 14))+ ylim(-5, 14) 
+  theme_few()+theme(text = element_text(size = 15))+ ylim(-5, 14) 
 
 b1
 
@@ -302,7 +302,7 @@ c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("Stomatal Conductance ($g_{s}$, mmol $m^{-2} s^{-1}$)"))+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
-  theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14)
+  theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14)
 c1
 
 #########################################################################################################
@@ -363,7 +363,7 @@ d1<-ggplot(ls)+
   geom_smooth(aes(x = ls, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("Leaf Width (lw, m)")+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
-  theme_few()+theme(text = element_text(size = 14))+ylim(-5, 14) 
+  theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14) 
 d1
 
 ###################################################################################################################
@@ -427,7 +427,7 @@ e1<-ggplot(rh)+
   geom_smooth(aes(x = rh, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+ xlab("Relative Humidity (rh)")+
-  theme_few()+theme(text = element_text(size = 14))+ ylim (-5, 14) 
+  theme_few()+theme(text = element_text(size = 15))+ ylim (-5, 14) 
 e1
 
 #constructing a biophyscial constants table for the plot
