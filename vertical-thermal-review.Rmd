@@ -59,27 +59,27 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 **Title:** Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications
 
 **Authors:** 
-Nidhi Vinod^1^,
-Martijn Slot^2^,
-Ian McGregor^3^,
-Elsa M. Ordway^4,5^,
+Nidhi Vinod^1,2^,
+Martijn Slot^3^,
+Ian McGregor^4^,
+Elsa M. Ordway^2,5^,
 Marielle N. Smith^6^,
 Tyeen Taylor^7^,
-Lawren Sack^5^,
-Kristina J. Anderson-Teixeira^1,2^* 
+Lawren Sack^2^,
+Kristina J. Anderson-Teixeira^1,3^* 
 
 
 **Author Affiliations:**
 
 1. Conservation Ecology Center; Smithsonian Conservation Biology Institute; Front Royal, VA 22630, USA
 
-2. Smithsonian Tropical Research Institute; Panama, Republic of Panama
+2. Department of Ecology and Evolutionary Biology, UCLA, Los Angeles, CA 90039, USA
 
-3. Center for Geospatial Analytics; North Carolina State University; Raleigh, NC 27607, USA
+3. Smithsonian Tropical Research Institute; Panama, Republic of Panama
 
-4. Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA
+4. Center for Geospatial Analytics; North Carolina State University; Raleigh, NC 27607, USA
 
-5. Department of Ecology and Evolutionary Biology, UCLA, Los Angeles, CA 90039, USA
+5. Department of Organismic and Evolutionary Biology, Harvard University, Cambridge, MA 02138, USA
 
 6. Department of Forestry, Michigan State University, East Lansing, MI 48824, USA
 
