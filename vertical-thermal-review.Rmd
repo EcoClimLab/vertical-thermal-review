@@ -398,13 +398,13 @@ Future work seeking to understand how temporal dynamics of leaf heating [see @le
 
 Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism scale up to affect tree ecology, ecosystem ecology, and their temperature responses (Fig. `r fig_schematic`). 
 
-### Tree metabolism and growth, and survival
+### Tree metabolism, growth, and survival
 
 Tree metabolism and growth are shaped by the positioning of their crowns within the vertical gradient.
-Tree height, crown volume, and foliage biomass all scale with diameter at breast height (DBH), which in turn is a strong predictor of tree transpiration and photosynthesis [@meinzerWaterTransportTrees2001;@kunertRevisedHydrologicalModel2017; @anderson-teixeiraSizerelatedScalingTree2015].
+Tree height, crown volume, and foliage biomass all scale with diameter at breast height (DBH), which in turn is a strong predictor of tree transpiration  [@meinzerWaterTransportTrees2001;@kunertRevisedHydrologicalModel2017; @anderson-teixeiraSizerelatedScalingTree2015] and photosynthesis.
 Specifically, increases are linked to increased leaf area and the increasing probability that the crown is in the canopy [@muller-landauTestingMetabolicEcology2006], where higher light availability results in higher leaf area-specific photosynthesis (Table `r table_leaf_metabolism`).
 The net foliar photosynthate production is allocated among functions including respiration, above-ground woody growth, foliar turnover, root growth and allocation to root-associated microorganisms, reproduction, defense, and storage of non-structural carbohydrates (NSCs). 
-Within a stand, woody growth rates, measured as radial stem growth or biomass increment,  generally increase with tree size [e.g., @muller-landauTestingMetabolicEcology2006; @stephensonRateTreeCarbon2014]. 
+Within a stand, woody growth rates, measured as radial stem growth or biomass increment, generally increase with tree size [e.g., @muller-landauTestingMetabolicEcology2006; @stephensonRateTreeCarbon2014]. 
 NSC reserves also increase with tree size, such that larger trees have relatively more buffer against biological and biophysical stressors [@niinemetsResponsesForestTrees2010a].
 
 
