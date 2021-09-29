@@ -111,7 +111,7 @@ Rising temperatures are profoundly influencing forests on many scales with poten
 
 \newpage
 
-# Introduction
+# I. Introduction
 
 Forest responses and feedbacks to climate change will have a critical influence on the future of Earth's climate.
 Global average temperatures have risen 1.2$^\circ$C since 1900 [@rohdeBerkeleyEarthLand2020] and are expected to reach or even exceed +1.5$^\circ$C in the next 20 years [@ipccClimateChangeWidespread2021], accompanied by increasing severity and frequency of heat waves [@meehlMoreIntenseMore2004; @ipccClimateChangeWidespread2021] and hotter droughts [@trenberthGlobalWarmingChanges2014b].
@@ -137,9 +137,9 @@ We then consider the implications for understanding forest responses to global c
 ![**Figure `r fig_schematic`. Schematic summarizing vertical gradients in forests according to (1) biophysical environment, (2) leaf temperature ($T_{leaf}$), (3) leaf traits, (4) leaf metabolism, and (5) tree and ecosystem ecology.** Abbreviations are as follows: VPD: vapor pressure deficit;  $T_{leaf}$ - $T_{air}$: leaf-to-air temperature difference; LMA: leaf mass per area, VAZ: violaxanthin, antheraxanthin and zeaxanthin concentrations, VOC: volatile organic compounds; T sensitivity: temperature sensitivity; ET: evapotranspiration. Here, we summarize conditions in dense canopies during growing season and daytime conditions; patterns tend to be weaker, or sometimes reversed, in more open canopies, when canopy trees are seasonally deciduous, or at nighttime. Arrows indicate direction of increase, with double-pointed arrows indicating that observations have shown increases both higher and lower in the canopy. ](schematics/Schematic figure 1.png)
 
 
-# Review of vertical gradients
+# II. Review of vertical gradients
 
-## The biophysical environment
+## 1. The biophysical environment
 
 The biophysical environment, defined here to include the physical structure of the vegetation and associated physical conditions, varies across the vertical gradient from the forest floor to the top of the canopy (Figs. `r fig_schematic`, `r fig_NEON_vertical`), with physical conditions in large part determined by the structure of the forest.
 In this section, we supplement a review of the existing literature with a new analysis of data on vegetation structure and vertical microclimate profiles from focal sites within the U.S. National Ecological Observatory Network (NEON; Fig. `r fig_NEON_vertical`, Supporting Information Methods `r appendix_NEON_methods`, Supporting Information Figure `r SIfig_NEON_all`).
@@ -179,7 +179,7 @@ Typically, dense canopies buffer understories from high maximum $T_{air}$ more t
 Notably, this pattern can be reversed in open forests, where below-canopy maximum $T_{air}$ can be warmer than canopy $T_{air}$ due to turbulent air mixing and the thermal radiative flux from the soil and the canopy that is intercepted by lower-canopy layers, analogous to a 'canopy greenhouse effect' [e.g., OSBS, Fig. `r fig_NEON_vertical`g, Supporting Information Figure `r SIfig_NEON_all`b, @hadleyInfluenceKrummholzMat1987; @banerjeeExplainingConvectorEffect2017; @curtis_intracanopy_2019;@zweifelMiddayStomatalClosure2002; @ramboCanopyMicroclimateResponse2009; @hardwickRelationshipLeafArea2015].
 These usually-modest gradients in $T_{air}$ combine with the above-described gradients in micrometeorological conditions to shape $T_{leaf}$.
 
-## Leaf temperature 
+## 2. Leaf temperature 
 
 $T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (reviewed above) and by leaf traits and stomatal conductance (see "Leaf traits" and "Leaf gas exchange and its thermal sensitivity"), with leaves adjusting to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020; @drakeNoEvidenceHomeostatic2020]. 
 Leaves are typically cooler than the air at night, and under some daytime conditions (cloudy skies, high wind speeds, and high $T_{air}$). 
@@ -225,7 +225,7 @@ This mixing and light transmission can either neutralize a $T_{leaf}$ gradient o
 The latter can result from a combination of still air in the lower canopy, and the 'canopy greenhouse effect' or sunflecks, as mentioned above [@hardwickRelationshipLeafArea2015; @schymanskiStomatalControlLeaf2013b], and because shade leaves tend to have lower $g_s$ and greater thermal capacitance [capacity to hold heat, @schymanskiStomatalControlLeaf2013b]. 
 Similarly, in very open forests or savannas, trees growing close to the ground can experience greater heat stress in their lower than upper canopies [@hadleyInfluenceKrummholzMat1987; @curtis_intracanopy_2019; @johnstonWhatLiesVertical2020].
 
-## Leaf traits 
+## 3. Leaf traits 
 
 Leaf traits shape $T_{leaf}$, leaf metabolism, and leaf thermal sensitivity across forest vertical strata [@michaletzPlantThermoregulationEnergetics2015;@michaletzEnergeticCarbonEconomic2016;  @zwienieckiHydraulicLimitationsImposed2004].
 Leaf morphology adjusts to the previously experienced microenvironment during leaf formation in buds, and also during ongoing leaf expansion [@zwienieckiHydraulicLimitationsImposed2004], and the ratio of far red to red light and associated water demands determine the differentiation of traits of sun and shade leaves [@casasSunShadeLeaves2011; @zwienieckiHydraulicLimitationsImposed2004; @keenanGlobalLeafTrait2016]. 
@@ -302,7 +302,7 @@ However, exceptions exist: at least among evergreen species, shade tolerant spec
 Further, the range in trait values can be several times greater in multi-species canopy than in understory species, based on their inherent species-specific traits and responses to environmental conditions. 
 Therefore, vertical gradients in $T_{leaf}$ and metabolism within forest ecosystems are underpinned by both intra- and inter-specific variation in traits. 
 
-## Leaf gas exchange and its thermal sensitivity
+## 3. Leaf gas exchange and its thermal sensitivity
 
 Leaf metabolism is strongly shaped by $T_{leaf}$, and by the traits and environmental drivers reviewed above, all of which vary across vertical forest gradients (Fig. `r fig_schematic`). 
 However, as we detail below, few studies have evaluated temperature responses of leaf metabolic rates along a vertical canopy gradient, or compared sun and shade leaves (Table `r table_leaf_metabolism`).
@@ -394,7 +394,7 @@ A recent inventory in an Amazon forest showed that both the abundance of emittin
 This observation is consistent with the hypothesis that temperature sensitive isoprene emissions enable real-time acclimation to rapidly changing leaf thermal environments typical of the mid-canopy region [@sharkeyIsopreneEmissionPlants2008], due to the sun's passage across a dynamically structured canopy surface. 
 Future work seeking to understand how temporal dynamics of leaf heating [see @leighInfluenceLeafSize2017] vary through the canopy and influence leaf function will be important for resolving the role of isoprenes in forest thermal sensitivity across the vertical gradient.
 
-## Tree ecology
+## 4. Tree and ecosystem ecology
 
 Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism scale up to affect tree ecology, ecosystem ecology, and their temperature responses (Fig. `r fig_schematic`). 
 
@@ -431,7 +431,7 @@ While studies partitioning transpiration across forest vertical gradients are ra
 
 **It is less clear how thermal sensitivity of water and carbon fluxes vary across strata, but likely responses can be inferred based on the patterns and mechanisms reviewed above.** We expect that transpiration, GPP, and $ANPP_{woody}$ should all be sensitive to high temperatures-- at least under conditions of moderate to high VPD [@grossiordPlantResponsesRising2020]. Further, increases in canopy $T_{leaf}$ are also shown to reduce forest GPP in the tropics [@pauTropicalForestTemperature2018]. A rare example of a study comparing the climate sensitivity of C fluxes across size classes [@meakemRoleTreeSize2018] showed that $M_{woody}$ was more strongly elevated among large than small trees during an El Nino drought in Panama, while the smallest size classes had higher productivity during the drought, likely because of increased light in the understory. It remains far less clear how thermal sensitivity varies across forest strata under wet conditions, but both physiological mechanisms (Fig. `r fig_leaf_T`) and tree ring evidence (Fig. `r fig_treerings`) suggests that understory trees may respond more negatively to hot, wet conditions. Further research is required to better understand the thermal sensitivity of forest ecosystem function across strata.
 
-# Implications
+# III.  Implications
 
 Having established how physical conditions and biological form and function vary across vertical gradients, we now turn attention to the implications of these patterns for our understanding of how forest ecosystems may be impacted by global change, and our ability to project this across space and time.
 
@@ -487,7 +487,7 @@ Detailed structural information from lidar data has been used to measure tree he
 
 
 
-## Conclusions
+## IV. Conclusions
 
 
 - across vertical gradients, directional trends in biophysical environment and leaf traits are the rule, suggesting that the physiology and ecology that have these as their underpinnings should also vary
