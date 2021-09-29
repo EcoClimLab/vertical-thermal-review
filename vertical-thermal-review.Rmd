@@ -130,7 +130,7 @@ We focus on five key themes (Fig. `r fig_schematic`):
 (1) the biophysical environment;
 (2) leaf temperature ($T_{leaf}$);
 (3) the leaf traits that most strongly influence $T_{leaf}$;
-(4) leaf gas exchange, including stomatal and boundary layer conductance, photosynthesis, respiration, and volatile organic compound (VOC) production; and 
+(4) leaf gas exchange (including stomatal and boundary layer conductance, photosynthesis, respiration, and volatile organic compound emission) and its thermal sensitivity; and 
 (5) tree and ecosystem ecology.
 We then consider the implications for understanding forest responses to global change, including how these responses scale across space and time. 
 
@@ -158,12 +158,12 @@ In this review, we focus on growing season conditions (peak leaf area index, LAI
 Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor, with the profile shape modified by leaf area density, canopy height, and canopy structure across species and forest types [Fig. `r fig_NEON_vertical`a-d, Supporting Information Figure `r SIfig_NEON_all`, @koike_leaf_2001].
 This gradient is more pronounced in dense canopies, including broad-leaf and mixed forests (e.g., SCBI, SERC and HARV, Fig. `r fig_NEON_vertical`d), than in open canopy forests, including many conifer forests [e.g., OSBS, PUUM, and WREF, Fig. `r fig_NEON_vertical`d, Supporting Information Figure `r SIfig_NEON_all`, @chazdonPhotosyntheticLightEnvironments1984; @aussenacInteractionsForestStands2000a; @smithSeasonalDroughtrelatedChanges2019; @tymenQuantifyingMicroenvironmentalVariation2017;  @parkerConsequencesEnvironmentalHeterogeneity2019; @bartemucciOverstoryInfluencesLight2006; @baldocchiSeasonalVariationEnergy1997]. 
 Variability in the light environment decreases with height, with the shaded understory being highly influenced by sunflecks, or brief increases in solar radiation caused by small canopy gaps and wind-induced canopy movements [@waySunflecksTreesForests2012]. 
-The implication of this light gradient is that upper canopy leaves have higher potential photosynthetic rate (see section "Leaf gas exchange and its thermal sensitivity"), but also greater propensity towards elevated $T_{leaf}$ (see section "Leaf temperature").
+The implication of this light gradient is that upper canopy leaves have higher potential photosynthetic rate (see section "4. Leaf gas exchange and its thermal sensitivity"), but also greater propensity towards elevated $T_{leaf}$ (see section "2. Leaf temperature").
 
 Wind speeds are also higher at the top of the canopy, owing to the buffering effect of the canopy [@juckerCanopyStructureTopography2018].
 This holds true across the range of forest types [Fig. `r fig_NEON_vertical`e, Supporting Information Figure `r SIfig_NEON_all`, @barnardSeasonalVariationCanopy2016a; @mcgregorTreeHeightLeaf2021; @juckerCanopyStructureTopography2018; @mullerEvidenceEfficientNonevaporative2021; @hanberryOpenForestEcosystems2020a; @hanberryReconceptualizationOpenOak2018] and savannas [@curtis_intracanopy_2019;@johnstonWhatLiesVertical2020]. 
 Specifically, averaged across the NEON sites, maximum daily wind speeds were 4.1 m s^-1^ at the top of the vertical profile, compared to  $\le$ 1.1 m s^-1^ at the bottom of the vertical profile (Fig. `r fig_NEON_vertical`, Supporting Information Figure `r SIfig_NEON_all`).
-The implication is that upper canopy leaves have substantially higher boundary layer conductance ($g_b$) and therefore greater potential for both water and heat loss (see section "Leaf temperature").
+The implication is that upper canopy leaves have substantially higher boundary layer conductance ($g_b$) and therefore greater potential for both water and heat loss (see section "2. Leaf temperature").
 
 Atmospheric concentrations of carbon dioxide (CO~2~) and water vapor can also vary across the vertical gradient.
 Atmospheric CO~2~ concentrations tend to be higher near the ground at night, associated with plant and soil respiration, although the elevated CO~2~ quickly dissipates during the day [@koike_leaf_2001; @yang_spatial_1999]. Elevated CO~2~ may benefit understory seedlings operating close to their carbon compensation point, but given that differences are negligible for most of the day when photosynthesis is occurring, gradients in CO~2~ concentrations are unlikely to significantly affect the energy balance and metabolism of leaves across the forest vertical gradient.
@@ -171,7 +171,7 @@ Atmospheric CO~2~ concentrations tend to be higher near the ground at night, ass
 Relative humidity (RH) tends to be higher in the understory and decreases with height, although this trend is absent in open forests [Fig. `r fig_NEON_vertical`f, Supporting Information Figure `r SIfig_NEON_all`, e.g., @juckerCanopyStructureTopography2018; @mcgregorTreeHeightLeaf2021].
 Dense-canopy forests maintain higher daily maximum RH in the understory than open forests and nearby open areas, an effect that is greater in wetter conditions, and warmer months [@vonarxSpatiotemporalEffectsForest2012a; @hanberryOpenForestEcosystems2020a]. 
 In combination with $T_{air}$, RH determines vapor pressure deficit (VPD)-- the driving force of water loss from leaves--which tends to be greater in the upper canopy and canopy gaps than in the understory [@fauset_differences_2018; @tymenQuantifyingMicroenvironmentalVariation2017; @niinemetsPhotosyntheticAcclimationSimultaneous2004b]. Especially when canopy height and LAI are large, maximum $T_{air}$ and VPD are reduced in the understory [@juckerCanopyStructureTopography2018].
-The implication is that canopy leaves face higher $g_b$ and associated potential for water and heat loss (see section "Leaf temperature").
+The implication is that canopy leaves face higher $g_b$ and associated potential for water and heat loss (see section "2. Leaf temperature").
 
 Air temperature ($T_{air}$) often shows little variation across the vertical gradient, but under certain circumstances it can be significantly buffered by forest canopies (Fig. `r fig_NEON_vertical`, Supporting Information Figure `r SIfig_NEON_all`).
 The $T_{air}$ gradient from the upper canopy to the understory varies with factors such as radiation fluxes, local topography, vertical air mixing, cloud cover and vegetation type [@defrenneForestMicroclimatesClimate2021]. 
@@ -280,10 +280,13 @@ Sun leaves have higher concentrations (per unit area) of elements such as nitrog
 Increases in chlorophyll a/b ratios with height reflect the greater light availability in the upper canopy, while greater chlorophyll concentrations at lower heights within the canopy give shade leaves greater PAR absorptance efficiency (Table `r table_leaf_traits`).
 Higher photosynthetic rates (per unit leaf area) and more frequent stomatal closure higher (see "Leaf gas exchange and its thermal sensitivity" section, Table `r table_leaf_metabolism`) result in lower intercellular CO~2~ concentrations and higher $\delta^{13}$C concentrations in leaf tissues (Table `r table_leaf_traits`).
 
+*beta carotene and lutein are part of the caratenoids pool that responsible for light absorption, and also heat energy dissipation*
+
 Biochemical protection against foliage light and heat damage also increases with irradiance, and thus tends to be higher in the upper canopy than in the understory (Table `r table_leaf_traits`). 
 Carotenoids and xanthophyll cycle pigments -- violaxanthin, antheraxanthin and zeaxanthin (VAZ) -- can play a role in antioxidant scavenging and converting excess excitation energy into heat to reduce photoinhibition [@niinemetsPhotosynthesisResourceDistribution2007a; @mathurPhotosyntheticEfficiencySun2018a; @niinemetsAcclimationHighIrradiance1998]. 
 The dissipation of excess light energy is also important for leaf acclimation to higher temperatures if high $T_{leaf}$ impairs the photochemical energy dissipation pathway [@havauxTemperaturedependentAdjustmentThermal1996]. 
 Capacity for heat-sensitive emissions of isoprene gas from tree leaves enhances photosynthetic thermal tolerance by regulating antioxidant defenses and other metabolic processes [@sharkeyIsopreneEmissionPlants2008; @taylorCapacityEmitIsoprene2019; @monsonLeafIsopreneEmission2021].
+
 
 The vertical structure of microenvironments likely influences forest photosynthetic capacity [@rey-sanchez_spatial_2016] via leaf phenology. 
 In deciduous forests, the timing and extent of seasonal leaf gain and loss is structured across the vertical profile. 
@@ -385,7 +388,7 @@ In evergreen species, $Q_{10}$ has shown to be greater in younger than older lea
 Recent observations suggest that tropical understory leaves down-regulate $Q_{10}$ with rising $T_{air}$ [@carterExperimentalWarmingTropical2021a]. 
 Overall, however, we currently lack synthetic understanding of how and why the temperature sensitivity of respiration varies across the forest vertical profile. 
 
-### VOC production
+### VOC emissions
 
 Emission of the VOC isoprene gas from tree leaves is associated with photosynthetic thermal tolerance [@taylorCapacityEmitIsoprene2019; @sharkeyIsopreneEmissionPlants2008], and within species, emission rates tend to increase toward brighter and hotter microenvironments [@niinemetsEmissionFactorVolatile2010]. 
 Across landscapes, emitting species increase in relative abundance toward hotter climates, exceeding half of trees in warm tropical forests [@taylorIsopreneEmissionStructures2018a].
