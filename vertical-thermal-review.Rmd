@@ -497,7 +497,8 @@ Detailed structural information from lidar data has been used to measure tree he
 - Critically, change to the vertical gradient--e.g., through increased mortality of canopy trees--will change processses across forest strata, with potentially dramatic consequences. (some of the literature on forest degredation or fragmentation could inform what happens when those gradients change)
 
 ## Acknowledgements
-Thanks to ...., the ForestGEO Ecosystems & Climate lab at SCBI for helpful discussion.
+Thanks to Norbert Kunert, Camille Piponiot, and Andrew Davies for providing figure materials. 
+This manuscript benefited from feedback from Eleinis Ávila-Lovera, ... and the ForestGEO Ecosystems & Climate lab at SCBI.
 Funding was provided by the Smithsonian Institution, ....
 
 ## SI files
