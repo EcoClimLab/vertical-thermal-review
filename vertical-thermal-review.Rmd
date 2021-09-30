@@ -367,7 +367,7 @@ Shade leaves that do not experience midday depression continue to fix carbon eve
 Evaluating this would require diurnal monitoring of net photosynthesis across a vertical profile through the canopy.
 In the meantime, it remains unresolved whether photosynthesis is more affected by high temperatures in canopy or understory leaves, and how this might vary across forest types and environmental conditions.
 
-At very high $T_{leaf}$ (~40-60 $^{\circ}$C), photosystem II incurs irreversible damage, eventually leading to leaf necrosis and death [@bakerChlorophyllFluorescenceProbe2008; @feeley_thermal_2020] (**KUNERT REF**). 
+At very high $T_{leaf}$ (~40-60 $^{\circ}$C), photosystem II incurs irreversible damage, eventually leading to leaf necrosis and death [@bakerChlorophyllFluorescenceProbe2008; @feeley_thermal_2020; @kunertSummerTemperaturesReach]. 
 Thermal tolerance is described in terms of the temperature at which efficiency of photosystem II starts to decrease, $T_{crit}$, and the $T_{leaf}$ at which efficiency of photosystem II had decreased by 50%, $T_{50}$ [@slotLeafHeatTolerance2021]. 
 Thermal tolerances vary across species, with more variation explained by leaf traits than phylogeny [@feeley_thermal_2020; @slotLeafHeatTolerance2021]; for example, among tropical species, $T_{crit}$ and $T_{50}$ were found to be high in species with large leaves with high thermal capacitance and those with high LMA, respectively [@slotLeafHeatTolerance2021]. 
 Thermal tolerances vary globally across latitude and climate, where $T_{50}$ and $T_{crit}$ decrease across increasing latitudes, and with elevation among tropical forests [@feeley_thermal_2020;  @slotLeafHeatTolerance2021; @osullivanThermalLimitsLeaf2017].
@@ -477,16 +477,20 @@ The leaf-level responses are relatively well-understood: at the metabolic level,
 Beyond this inflection point, photosynthesis declines whereas respiration continues to increase exponentially, eventually shifting the carbon balance from sink to source, independent of water and irradiance [@duffyHowCloseAre2021]. 
 While leaves display substantial plasticity to adapt to warmer temperatures (**REFS**), failure to fully acclimate will result in reduced carbon sequestration at leaf and ecosystem levels [@huangAirTemperatureOptima2019; @wayJustRightTemperature2019; @tanOptimumAirTemperature2017; @bennettThermalOptimaGross2021]. 
 Exposed canopies are likely most vulnerable, as growing season $T_{air}$ is increasingly equaling or exceeding photosynthetic optima [@slotSituTemperatureResponse2017; @mauTemperateTropicalForest2018; @huangAirTemperatureOptima2019; @kumarathungeAcclimationAdaptationComponents2019]. 
-Particularly in mid-latitude forests, which have the narrowest thermal safety margin between historical maximum temperatures and leaf thermal tolerance levels [@osullivanThermalLimitsLeaf2017], $T_{leaf}$ of sun-exposed leaves may often approach thermal tolerance thresholds, resulting in photosynthetic decline or even leaf death [e.g., @osullivanThermalLimitsLeaf2017; @tiwariPhotosyntheticQuantumEfficiency2021] (**KUNERT, in press**). 
+Particularly in mid-latitude forests, which have the narrowest thermal safety margin between historical maximum temperatures and leaf thermal tolerance levels [@osullivanThermalLimitsLeaf2017], $T_{leaf}$ of sun-exposed leaves may approach thermal tolerance thresholds during heat waves, resulting in photosynthetic decline or even leaf death [e.g., @osullivanThermalLimitsLeaf2017; @tiwariPhotosyntheticQuantumEfficiency2021; @kunertSummerTemperaturesReach]. 
 
+Although understory leaves are unlikely to face the same absolute extremes of $T_{leaf}$ (unless exposed to sunflecks), they will also be affected by higher $T_{air}$, and in some ways are likely to prove more sensitive.
+A buffering effect from the canopies might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018].
+However, with $T_{air}$ more frequently equaling or exceeding photosynthetic optima, occasional exposure to sunflecks coupled with lower capacity to shed excess heat may prove disadvantageous. 
+While it is currently difficult to predict whether canopy or understory photosynthesis is likely to be more severely affected by higher $T_{air}$ (see section 4.2), tree-ring evidence indicates that understory trees tend to exhibit greater reductions in growth during unusually hot growing seasons [section 5.1, Fig `r fig_treerings`b, @rollinsonClimateSensitivityUnderstory2020].
 
-Although understory leaves are unlikely to face the same absolute extremes of $T_{leaf}$, they will also be affected by higher $T_{air}$, and in some ways are likely to prove more sensitive.
-A buffering effect from the canopies might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018], especially if RH in the understory does not inhibit transpirational cooling [Fig `r fig_treerings`, @rollinsonClimateSensitivityUnderstory2020].
-In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019]. 
+*In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019].* 
 
-Canopy disturbance (see next section) along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019]. 
 
 ### Canopy disturbance
+
+
+*Canopy disturbance along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019].* 
 
 Canopies are crucial to microclimatic stratification, as they buffer several aspects of forest microenvironments [Figs 1-2, @zellweger_seasonal_2019], particularly in wetter environments with dense canopies [@davisMicroclimaticBufferingForests2019]. 
 Severe droughts and rising temperatures place canopies at risk, as larger trees tend to suffer more during droughts [@bennettLargerTreesSuffer2015]. 
