@@ -439,7 +439,7 @@ Similarly, in a tropical forest in the Brazilian Amazon, canopy and subcanopy tr
 In terms of C cycling, it has been estimated that canopy strata contribute $\ge$ 64% of net daytime CO~2~ uptake [i.e., GPP - ecosystem respiration, including from soil; @missonPartitioningForestCarbon2007]. 
 Large trees also dominate in terms of woody above ground net primary productivity ($ANPP_{woody}$) and mortality ($M_{woody}$), with trees $\geq$ 10cm DBH usually contributing > 85% of $ANPP_{woody}$ and $M_{woody}$ across 25 globally distributed forests [Fig. `r fig_ecosystem`b, @piponiot_sizerelated_inreview]. 
 
-![**Figure `r fig_ecosystem`.** Vertical partitioning of (a) evapotranspiration and (b) C fluxes in tropical forests. Panel (a) is from @kunertRevisedHydrologicalModel2017; panel (b) presents averages for 14 tropical forests from @piponiot_sizerelated_inreview.](schematics/ecosystem vertical partitioning/ecosystem partitioning.png)
+![**Figure `r fig_ecosystem`. Vertical partitioning of (a) evapotranspiration and (b) C fluxes in tropical forests.** Panel (a) is from @kunertRevisedHydrologicalModel2017; panel (b) presents averages for 14 tropical forests from @piponiot_sizerelated_inreview.](schematics/ecosystem vertical partitioning/ecosystem partitioning.png)
 
 It is less clear how thermal sensitivity of water and carbon fluxes vary across strata, but probable responses can be inferred based on the patterns and mechanisms reviewed above.
 We expect that transpiration, GPP, and $ANPP_{woody}$ should all be more sensitive to high temperatures in the upper canopy than in the understory -- at least under conditions of moderate to high VPD [@grossiordPlantResponsesRising2020]. 
