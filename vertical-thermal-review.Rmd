@@ -486,11 +486,14 @@ While it is currently difficult to predict whether canopy or understory photosyn
 
 *In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019].* 
 
+*Canopy trees seem more vulnerable to mortality from distinct disturbances, such as drought or heat waves, whereas  more buffered understory trees may be exposed to chronic stress that could negatively impact their  carbon balance (which already has less reserves; @niinemetsResponsesForestTrees2010].*
+
+*Canopy disturbance along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019].* 
 
 ### Canopy disturbance
 
 
-*Canopy disturbance along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019].* 
+
 
 Canopies are crucial to microclimatic stratification, as they buffer several aspects of forest microenvironments [Figs 1-2, @zellweger_seasonal_2019], particularly in wetter environments with dense canopies [@davisMicroclimaticBufferingForests2019]. 
 Severe droughts and rising temperatures place canopies at risk, as larger trees tend to suffer more during droughts [@bennettLargerTreesSuffer2015]. 
