@@ -482,11 +482,14 @@ Particularly in mid-latitude forests, which have the narrowest thermal safety ma
 Although understory leaves are unlikely to face the same absolute extremes of $T_{leaf}$ (unless exposed to sunflecks), they will also be affected by higher $T_{air}$, and in some ways are likely to prove more sensitive.
 A buffering effect from the canopies might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018].
 However, with $T_{air}$ more frequently equaling or exceeding photosynthetic optima, occasional exposure to sunflecks coupled with lower capacity to shed excess heat may prove disadvantageous. 
+Moreover, increased nighttime $T_{air}$ may disproportionately increase respiration relative to photosynthesis, thereby negatively affecting the carbon balance.
 While it is currently difficult to predict whether canopy or understory photosynthesis is likely to be more severely affected by higher $T_{air}$ (see section 4.2), tree-ring evidence indicates that understory trees tend to exhibit greater reductions in growth during unusually hot growing seasons [section 5.1, Fig `r fig_treerings`b, @rollinsonClimateSensitivityUnderstory2020].
+Thus, while canopy trees are probably more vulnerable to mortality from distinct heat-related disturbances, such as drought or heat waves, trees in the more buffered understory may be more negatively affected by chronic stress from warming $T_{air}$, which may reduce growth and increase the risk of carbon starvation in these small trees, which have lower NSC reserves [@niinemetsResponsesForestTrees2010].
 
+Thus, in synthesis, warming on its own...
 *In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019].* 
 
-*Canopy trees seem more vulnerable to mortality from distinct disturbances, such as drought or heat waves, whereas  more buffered understory trees may be exposed to chronic stress that could negatively impact their  carbon balance (which already has less reserves; @niinemetsResponsesForestTrees2010].*
+
 
 *Canopy disturbance along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019].* 
 
@@ -496,8 +499,8 @@ While it is currently difficult to predict whether canopy or understory photosyn
 
 
 Canopies are crucial to microclimatic stratification, as they buffer several aspects of forest microenvironments [Figs 1-2, @zellweger_seasonal_2019], particularly in wetter environments with dense canopies [@davisMicroclimaticBufferingForests2019]. 
-Severe droughts and rising temperatures place canopies at risk, as larger trees tend to suffer more during droughts [@bennettLargerTreesSuffer2015]. 
-The disproportionate impact of stress on large trees holds for other types of disturbance, including forest fragmentation and logging [@lauranceRainForestFragmentation2006; @millerReducedImpactLogging2011], although fire tends to predominantly affect smaller trees [@brandoDroughtsWildfiresForest2019]. 
+Severe droughts and rising temperatures place canopies at risk, as larger trees tend to suffer more during droughts [@bennettLargerTreesSuffer2015] and are at higher risk of experiencing lethal leaf $T_{leaf}$ during heat waves.
+Beyond the warming and drought, the disproportionate impact of stress on large trees holds for other types of disturbance, including forest fragmentation and logging [@lauranceRainForestFragmentation2006; @millerReducedImpactLogging2011], although fire tends to predominantly affect smaller trees [@brandoDroughtsWildfiresForest2019]. 
 Canopy structure affects understory species composition, which has been shown to shift under warming and canopy disturbance [@majasalmiImpactTreeCanopy2020; @bertrandCommentForestMicroclimate2020; @maesPlantFunctionalTrait2020]
 
 In general, disturbances (e.g., drought, fire, fragmentation, and logging) reduce canopy cover, which in turn increases incident radiation levels and temperatures within the canopy [@starkReframingTropicalSavannization2020]. 
