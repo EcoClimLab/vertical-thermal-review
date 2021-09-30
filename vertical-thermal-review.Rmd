@@ -345,6 +345,7 @@ Maximum $g_s$ increases with light, and is thus higher in the sun-exposed upper 
 However, because water supply often cannot meet the demands incurred by the high irradiance and $g_b$ experienced by sun leaves, midday stomatal depression is more prevalent in sun leaves than shade leaves in closed-canopy forests (Table `r table_leaf_metabolism`).
 In sun leaves, $T_{leaf}$ thus further increases due to the lack of transpirational cooling [@sanchesDifferentialLeafTraits2010; @zwienieckiHydraulicLimitationsImposed2004; @kochDiurnalPatternsLeaf1994; @kosugiSeasonalFluctuationsTemperature2006]. 
 The temperature at which $g_s$ is maximized, $T_{opt}$ of $g_s$, did not differ significantly between sun and shade leaves in three tropical tree species [@slotPhotosyntheticHeatTolerance2019], but sun leaves in the upper canopy show a stronger decrease in $g_s$ in response to rising $T_{air}$ than do shade leaves in the lower canopy [@hernandezSimilarTemperatureDependence2020; @carterExperimentalWarmingTropical2021a]. 
+This, added to the tendency for sun leaves to have higher $T_{leaf}$, implies that high $T_{air}$  should decrease $g_s$ of canopy leaves more than understory leaves, particularly when water availability is limited.
 
 ### 4.2. Photosynthesis
 
@@ -363,17 +364,16 @@ In contrast, tropical experimental warming observations showed that $T_{opt}$, a
 @hernandezSimilarTemperatureDependence2020 also speculated that the observed lack of sun-shade differences in $T_{opt}$ may reflect acclimation to similar temperatures of peak photosynthesis. 
 Sun leaves experience higher temperatures, but maximum temperatures are associated with conditions of midday stomatal depression, and acclimation to optimize photosynthesis at these temperatures would not be advantageous. 
 Shade leaves that do not experience midday depression continue to fix carbon even when afternoon air temperatures peak [@millerOnlySunlitLeaves2021]. 
-Evaluating this requires diurnal monitoring of net photosynthesis through the canopy.
- 
-Irreversible damage to photosystem II, leading to leaf necrosis and eventually leaf death, occurs at $T_{leaf}$ of $40-60^{\circ}C$ [@bakerChlorophyllFluorescenceProbe2008; @feeley_thermal_2020]. 
-Thermal tolerance is described in terms of the temperature at which efficiency of photosystem II starts to decrease, $T_{crit}$, and the $T_{leaf}$ at which efficiency of photosystem II had decreased by 50%, $T_{50}$ [@slotLeafHeatTolerance2021]. 
-Thermal tolerance varies globally across latitude and climate, where $T_{50}$ and $T_{crit}$ decrease across increasing latitudes, and with elevation among tropical forests [@feeley_thermal_2020;  @slotLeafHeatTolerance2021; @osullivanThermalLimitsLeaf2017].
+Evaluating this would require diurnal monitoring of net photosynthesis across a vertical profile through the canopy.
+In the meantime, it remains unresolved whether photosynthesis is more affected by high temperatures in canopy or understory leaves, and how this might vary across forest types and environmental conditions.
 
-Leaf thermal tolerances are more closely adapted to microclimate than macroclimate [@feeley_thermal_2020; @slotLeafHeatTolerance2021]. 
-Chinquapin oak (*Quercus muehlenbergii*) growing in xeric, sunnier conditions showed higher $T_{50}$ by $2{^\circ}C$ than bur oak (*Quercus macrocarpa*) growing in shaded mesic conditions [@hamerlynckPhotosyntheticStomatalResponses1996a]. 
+At very high $T_{leaf}$ (~40-60 $^{\circ}$C), photosystem II incurs irreversible damage, eventually leading to leaf necrosis and death [@bakerChlorophyllFluorescenceProbe2008; @feeley_thermal_2020] (**KUNERT REF**). 
+Thermal tolerance is described in terms of the temperature at which efficiency of photosystem II starts to decrease, $T_{crit}$, and the $T_{leaf}$ at which efficiency of photosystem II had decreased by 50%, $T_{50}$ [@slotLeafHeatTolerance2021]. 
+Thermal tolerances vary across species, with more variation explained by leaf traits than phylogeny [@feeley_thermal_2020; @slotLeafHeatTolerance2021]; for example, among tropical species, $T_{crit}$ and $T_{50}$ were found to be high in species with large leaves with high thermal capacitance and those with high LMA, respectively [@slotLeafHeatTolerance2021]. 
+Thermal tolerances vary globally across latitude and climate, where $T_{50}$ and $T_{crit}$ decrease across increasing latitudes, and with elevation among tropical forests [@feeley_thermal_2020;  @slotLeafHeatTolerance2021; @osullivanThermalLimitsLeaf2017].
+However, they are more closely adapted to microclimate than macroclimate [@feeley_thermal_2020; @slotLeafHeatTolerance2021]. 
+For example, *Quercus muehlenbergii* growing in xeric, sunnier conditions showed higher $T_{50}$ by $2{^\circ}C$ than *Quercus macrocarpa* growing in shaded mesic conditions [@hamerlynckPhotosyntheticStomatalResponses1996a]. 
 In Australia, along a vertical gradient within the canopy, *Acacia papyrocarpa* showed greater $T_{50}$ and higher composite climate stress in the lower, north-facing canopy than other canopy positions, correlating with low wind speed, greater radiation and $T_{air}$, and lower rates of heat dissipation, as indicated by longer leaf thermal time constants [@curtis_intracanopy_2019]. 
-Additionally, thermal tolerances are explained more by leaf traits than phylogeny [@feeley_thermal_2020; @slotLeafHeatTolerance2021]. 
-$T_{crit}$ was found to be greater among tropical species with large leaves that had slow heating and cooling time, whereas $T_{50}$ was greater among species with greater LMA [@slotLeafHeatTolerance2021]. 
 Across species sun leaves that experienced higher maximum temperatures show higher photosynthetic heat tolerance [@perezPhotosyntheticHeatTolerances2020]. 
 However, considering sun and shade leaf differences within canopy (Table `r table_leaf_traits`), $T_{50}$ varies modestly, being slightly lower for shade than sun leaves for two of three tree species in Panama [@slotPhotosyntheticHeatTolerance2019]. 
 The small difference in $T_{50}$ coupled with large differences in $T_{leaf}$ across thermal microenvironments implies that more thermally tolerant leaves tend to operate closer to their thermal limits and could therefore be more vulnerable to heat anomalies [@perezPhotosyntheticHeatTolerances2020].
@@ -382,8 +382,7 @@ The small difference in $T_{50}$ coupled with large differences in $T_{leaf}$ ac
 
 Similar to photosynthesis, respiration tends to be higher in canopy sun-leaves [Table `r table_leaf_metabolism`, @chenLeafEconomicsSpectrum2020], but its temperature sensitivity ($Q_{10}$) shows no definite trend along the vertical gradient [@bolstad_foliar_1999; @weerasingheCanopyPositionAffects2014].
 Specifically, the $Q_{10}$ of respiration can be constant within vertical profiles and in seedling sun vs. shade leaves [@carterExperimentalWarmingTropical2021a; @weerasingheCanopyPositionAffects2014; @bolstad_foliar_1999; @zaragoza-castellsDoesGrowthIrradiance2007; @zaragoza-castellsClimatedependentVariationsLeaf2008; @xuSeasonalVariationTemperature2006], greater in upper-canopy leaves [@turnbullScalingFoliarRespiration2003; @harleyEffectsLightTemperature1996], or greater in the lower canopy [@griffinCanopyPositionAffects2002]. 
-This may vary based on forest type, acclimation to high temperature that decreases $Q_{10}$ [@slotGeneralPatternsAcclimation2015], or leaf traits and leaf age. 
-In evergreen species, $Q_{10}$ has shown to be greater in younger than older leaves [@zhouLeafageEffectsTemperature2015]. 
+This variation may be attributable to forest type, leaf traits and age [e.g., greater $Q_{10}$ in younger leaves, @zhouLeafageEffectsTemperature2015], or acclimation to high temperature that decreases $Q_{10}$ [@slotGeneralPatternsAcclimation2015]. 
 Recent observations suggest that tropical understory leaves down-regulate $Q_{10}$ with rising $T_{air}$ [@carterExperimentalWarmingTropical2021a]. 
 Overall, however, we currently lack synthetic understanding of how and why the temperature sensitivity of respiration varies across the forest vertical profile. 
 
