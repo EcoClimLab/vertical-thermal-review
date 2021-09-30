@@ -59,13 +59,38 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 
 \newpage
 
-#  `r appendix_NEON_methods_title`
+##  `r appendix_NEON_methods_title`
 
-*be sure to cite @schimelNEONHierarchicallyDesigned2007.*
 
-METHODS ON NEON ANALYSIS GO HERE. Google doc: https://docs.google.com/document/d/1HdPa7X5AMrEwfLjazGMU92uTYMc6pObh/edit#heading=h.gjdgxs 
+Google doc: https://docs.google.com/document/d/1HdPa7X5AMrEwfLjazGMU92uTYMc6pObh/edit#heading=h.gjdgxs 
 
 see [Issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) , [issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20) 
+
+
+# Study sites
+We analyzed vertical gradients in key biophysical variables from the National Ecological Observatory Network's Airborne Observatory Platform (NEON AOP) and meteorology towers at six focal NEON sites [Figs 2, S1, @schimelNEONHierarchicallyDesigned2007]. The sites are well distributed across the United States and represent key forest types and structures (Table S1).
+
+# Estimating forest and light environments from lidar
+
+*Data selection*
+
+We downloaded classified lidar point clouds as .laz files from the NEON (National Ecological Observatory Network, 2020) data portal. For each site, we analyzed forest structure and light environments using lidar data for the 1 x 1 km plot where the meteorology tower is located. If a large proportion of the plot containing the tower was deforested, we used the closest forested pixel instead. We selected the most recent lidar survey available at each site (all conducted in 2019), which most closely temporally-corresponded to the meteorological time series. All sites were surveyed in growing season months (April-July), except for PUUM (January survey), an evergreen site where total leaf area seasonality is expected to be low.
+
+*Lidar data processing*
+
+Lidar data were processed according to methods detailed in @starkAmazonForestCarbon2012. Outliers on the z plane (height) were removed by applying an interquartile range (IQR) approach. The IQR is calculated as the third quartile (Q3) minus the first quartile (Q1); lidar pulse returns were restricted to > Q1-(1.5xIQR) and < Q3+(1.5xIQR). Next, pulse return counts were quantified, or 'voxelized' within all 2 x 2 x 1 m voxels in a plot.
+
+Digital terrain models (DTMs) were created for each plot using minimum quantile spline regression and interpolation (see Shao et al. 2019) and used to normalize the voxelized lidar data with respect to the ground height. Leaf area density (LAD, $m^2$ $m^-3$) was estimated by applying the MacArthur-Horn transformation [@macarthurFoliageProfileVertical1969] to the voxelized pulse returns. We excluded LAD data at the bottom 5 m of the canopy, which are more uncertain due to limited pulse penetration within this region furthest away from the sensor [@starkAmazonForestCarbon2012]; for calibration purposes, we assumed the bottom 5 m to have a leaf area index (LAI) of 0.25 $m^2$ $m^{-2}$ [@shaoHighThroughputAssessment2019].
+
+We scaled LAD values by a factor of 5.5 so that they matched an independent estimate of LAI. Specifically, published estimates of LAI at SERC (average of 5.78 $m^2$ $m^{-2}$) derived from litterfall [@parkerCanopySurfaceStand2004], which were then in good agreement with our lidar-derived estimate (5.75 $m^2$ $m^-2$).
+Generating leaf area and light transmission profiles
+Mean LAD profiles for each site were calculated as the mean LAD at each height. Mean light transmission profiles (proportion of incident light) were estimated by applying a vertical light reduction model to LAD estimates [@starkAmazonForestCarbon2012]. To estimate the proportion of sun leaves along the vertical profile, we isolated voxels in the upper canopy surface layer (1-2 m from the local canopy surface, likely to containing the majority of sun leaves), calculated the mean LAD profile for this surface layer, and divided it by the total mean LAD profile.
+
+# Analyzing biophysical gradients from micrometeorological data
+
+Micrometeorological data was downloaded for each site from NEON (neonUtilies R package) at 30 minute intervals for 2015-2020. To focus on the middle of the growing season, the data was constrained to be for the month of July each year. Per site, we calculated the mean maximum and minimum values of each variable by day and by sensor height. In Figure S1 we expanded on Figure XX by including 22 sites representing five forest structure types.
+ 
+All data processing, analyses, and graphing were conducted using R (R core team 2020).
 
 *Note on interpreting $T_{veg}$*:
 
@@ -76,7 +101,7 @@ Thus, vegetation temperature ($T_{veg}$) does not always equal or approximate $T
 
 \newpage
 
-#  `r appendix_tealeaves_methods_title`
+##  `r appendix_tealeaves_methods_title`
 
 Energy balance for a typical overstory sun leaf and understory shade leaf were modeled in the R package *tealeaves* [@muir_tealeaves_2019], parameterized for *Quercus rubra* L. leaves at Harvard Forest, MA, USA (42.5369, -72.17266).
 
