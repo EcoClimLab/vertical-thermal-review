@@ -21,7 +21,8 @@ fig_schematic = 1
 fig_NEON_vertical =  2
 fig_leaf_T = 3
 fig_treerings= 4 
-fig_model=5
+fig_ecosystem=5
+fig_model=6
 
 #tables
 table_leaf_traits=1
