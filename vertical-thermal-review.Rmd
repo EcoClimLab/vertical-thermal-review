@@ -424,7 +424,7 @@ However, only a relatively limited number of studies have directly examined drou
 These have generally found greater sensitivity to low precipitation or seasonally high temperatures among larger, more exposed trees [Fig. `r fig_treerings`, @trouillierSizeMattersComparison2018; @gillerotTreeNeighbourhoodDiversity2020; @mcgregorTreeHeightLeaf2021], corroborating evidence from globally disurbed forest censuses that larger trees tend to undergo larger growth declines during drought [@bennettLargerTreesSuffer2015]. 
 In addition to lower drought resistance of growth, larger trees frequently exhibit lower ability to recover from stress [i.e., resilience, @mcgregorTreeHeightLeaf2021; @gillerotTreeNeighbourhoodDiversity2020], and greater increases in mortality [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019].
 Mechanistically, this is almost certainly driven in part by the fact that larger trees have their crowns in a microenvironment that is more challenging during drought [Figs. `r fig_schematic` - `r fig_leaf_T`, @scharnweberConfessionsSolitaryOaks2019], yet there is also reason to believe that height itself provides disadvantages [@olsonPlantHeightHydraulic2018; @couvreurWaterTransportThrough2018].  
-Indeed, despite the potential for shorter trees in open forests to experience greater environmental stress [@curtis_intracanopy_2019], greater drought sensitivity of larger trees has been observed in open as well as closed-canopy forests [@bennettLargerTreesSuffer2015; @anderson-teixeiraCarbonCyclingMature2021], supporting the latter concept.
+Indeed, despite the potential for shorter trees in open forests to experience greater environmental stress [@curtis_intracanopy_2019], greater drought sensitivity of larger trees has been observed in open as well as closed-canopy forests [@bennettLargerTreesSuffer2015; @anderson-teixeiraJointEffectsClimate2021], *although there is also evidence that short trees in young stands are more drought-sensitive than taller trees in mature forests [**REFS**]*.
 The relative importance of exposure versus height in shaping drought sensitivity remains to be disentangled.
 
 While it is clear that drought sensitivity increases with crown height though forest vertical gradients, and hence with DBH, it remains unclear how growth sensitivity to high $T_{air}$, independent of drought, varies across this gradient.
@@ -469,8 +469,12 @@ As climate change progresses, we anticipate increases in both mean daytime and n
 These changes will impact leaf and ecosystem gas exchange with the atmosphere, and, over longer time frames, forest structure, composition, and leaf trait distributions. 
 Our in-depth review sheds some light as to how responses are likely to vary across forest vertical gradients, yet important uncertainties remain.
 
-To the extent that warming is coupled to drought, we expect that the largest trees will usually be hardest-hit, at least in part because their crowns are positioned in a more challenging microenvironment (**FIGS, REFS**).
-*Unknown: Is there a difference between soil  drought and atmospheric drought, with the most extreme case being a heat wave under well-watered conditions?*
+To the extent that warming is coupled to drought, we expect that the largest trees will usually be hardest-hit, particularly in cases where the drought is severe, and that this will occur at least in part because their crowns are positioned in a more challenging microenvironment [section 5.1, Figs. `r fig_schematic`- `r fig_treerings`, e.g., @bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019; @anderson-teixeiraJointEffectsClimate2021].
+Specifically, warming will disproportionately stress tall canopy trees when $T_{air}$ and accompanying VPD rise enough that sun-exposed leaves cannot maintain both hydraulic safety and the transpirational cooling required to keep $T_{leaf}$ below damaging thresholds.
+In contrast, understory trees will be more sheltered during droughts and heat waves, and in some settings may benefit from increased light availability [@bennettLargerTreesSuffer2015].
+An interesting open question is to what extent these patterns vary with the nature of the drought, including the relative contributions to stress from low soil moisture versus high VPD. 
+While the two are coupled over longer time scales [@humphrey_soil_2021; @novickIncreasingImportanceAtmospheric2016], the latter can be intense for short periods even when soil moisture is high (e.g., during a heat wave) and exerts a stronger influence on ET in many biomes [@novickIncreasingImportanceAtmospheric2016]. 
+Given the mechanisms reviewed here, we might expect that atmospheric dryness in particular skews the stress more towards the exposed canopy trees.   
 
 What remains poorly understood is how responses to warming will vary across vertical gradients under mesic conditions. 
 The leaf-level responses are relatively well-understood: at the metabolic level, photosynthesis and respiration are coupled to photosynthetic thermal optima, which reflect adapation to the local climate but do not vary consistently with height in the canopy (see section 4.2, Table 2). 
@@ -486,16 +490,12 @@ Moreover, increased nighttime $T_{air}$ may disproportionately increase respirat
 While it is currently difficult to predict whether canopy or understory photosynthesis is likely to be more severely affected by higher $T_{air}$ (see section 4.2), tree-ring evidence indicates that understory trees tend to exhibit greater reductions in growth during unusually hot growing seasons [section 5.1, Fig `r fig_treerings`b, @rollinsonClimateSensitivityUnderstory2020].
 Thus, while canopy trees are probably more vulnerable to mortality from distinct heat-related disturbances, such as drought or heat waves, trees in the more buffered understory may be more negatively affected by chronic stress from warming $T_{air}$, which may reduce growth and increase the risk of carbon starvation in these small trees, which have lower NSC reserves [@niinemetsResponsesForestTrees2010].
 
-Thus, in synthesis, warming on its own...
-*In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019].* 
-
-
-
-*Canopy disturbance along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019].* 
+Thus, in synthesis, warming temperatures will affect trees across the vertical gradient, but the stress will be of a different nature at different heights.
+We expect that the tallest trees will be increasingly prone to hydraulic failure and damaging or lethal $T_{leaf}$'s, whereas understory trees may be increasingly prone to carbon starvation, particularly under humid conditions that make it more challenging to shed excess heat.
+Both groups -- but probably disproportionately the canopy trees -- are likely to experience increasing mortality, with the modes of mortality mirroring the current tendency for canopy trees to be more prone to climate-related disturbances including drought while understory trees are more prone to competition and carbon starvation [@gora_implications_2021].
+When the canopy trees die, this will open canopy gaps, as discussed in the following section.
 
 ### Canopy disturbance
-
-
 
 
 Canopies are crucial to microclimatic stratification, as they buffer several aspects of forest microenvironments [Figs 1-2, @zellweger_seasonal_2019], particularly in wetter environments with dense canopies [@davisMicroclimaticBufferingForests2019]. 
@@ -511,6 +511,14 @@ Variation in resistance and resilience among forests may drive different traject
 For example, African rainforests, with canopy trees that are more resilient to warming and drought than other forests [@bennettResistanceAfricanTropical2021]. 
 Species with smaller leaves and larger $g_s$ will be less vulnerable to temperature increase than species with larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020] and isoprene emitting species will have a selective advantage in a warming world [@taylorCapacityEmitIsoprene2019]. 
 Temperature acclimation [@slotGeneralPatternsAcclimation2015; @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019;  @cunninghamTemperateRainforestTrees2003] and recovery from canopy heat stress [@smithEmpiricalEvidenceResilience2020] will also help forests cope with warming.
+
+
+
+*In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019].* 
+
+
+
+*Canopy disturbance along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019].* 
 
 These shifts in forest structure at large may be detectable by lidar and thermal remote sensing. If we know how metabolism maps to the thermal profile, then the observed forest structural changes can inform prediction of forest function.
  
