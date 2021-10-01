@@ -561,18 +561,22 @@ The growing availability of these data makes this an opportune time to link fine
 ## IV. Conclusions
 
 
-- across vertical gradients, directional trends in biophysical environment and leaf traits are the rule, suggesting that the physiology and ecology that have these as their underpinnings should also vary
-- a number of studies confirm that this is the case.
-- However, when we ask the critical question of how the temperature sensitivities  of metabolism and woody growth varies across these different environments, we can't say much-- there are only a small number of studies, often showing insignificant differences or mixed results.
-- The preponderance of available data suggest that while large canopy trees are the most vulnerable to warming when water is limited, understory trees may be more vulnerable under more mesic conditions, but more research is needed. 
-- Critically, change to the vertical gradient--e.g., through increased mortality of canopy trees--will change processses across forest strata, with potentially dramatic consequences. (some of the literature on forest degredation or fragmentation could inform what happens when those gradients change)
+Across vertical gradients, directional trends in the biophysical environment and leaf traits are the rule, driving variation in the physiology and ecology that have these as their underpinnings (Fig. `r fig_schematic`).
+However, there remains a lot of uncertainty as to how the temperature sensitivities of metabolism and woody growth vary across these vertical gradients.
+The preponderance of available data suggest that while large canopy trees are the most vulnerable to warming when water is limited, understory trees may be more vulnerable under more mesic conditions, but more research is needed. 
 
-- under moderate temperatures, the canopy is the advantageous place for trees in terms of being able to have higher photosynthesis and growth. However, as temperatures increase, it will be increasingly common that it is the more stressful place to be.
+As the climate changes, patterns and processes across these vertical gradients are likely to shift as well.
+Under the historical temperatures to which tree species are acclimated, the canopy is an advantageous place for trees to have their crowns, as it affords higher photosynthesis and growth. 
+However, as temperatures increase, it is likely that exposed canopy positions will become physiologically stressful for increasing proportions of time.
+Ensuant increased mortality of canopy trees will create an increasing number of gaps, resulting in changes to understory conditions and community composition.
+Ultimately, mid- and understory trees communities will be critical to the resilience of forest ecosystems under changing climate, making improved understanding and model representation of their dynamics critical to understanding future forest dynamics.
+Integrating the patterns and mechanisms reviewed here, along with remote sensing data on forest structure and thermal environments, into cohort-based models that integrate with Earth system models will be critical to understanding and forecasting forest-climate feedbacks in the coming decades.
+
 
 ## Acknowledgements
 Thanks to Norbert Kunert, Camille Piponiot, Peter B. Boucher and Andrew B. Davies for providing figure materials. 
 This manuscript benefited from feedback from Eleinis Ávila-Lovera, ... and the ForestGEO Ecosystems & Climate lab at SCBI.
-Funding was provided by the Smithsonian Institution, ....
+Funding was provided by the Smithsonian Institution.
 
 ## SI files
 
