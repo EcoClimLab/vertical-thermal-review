@@ -479,7 +479,7 @@ Given the mechanisms reviewed here, we might expect that atmospheric dryness in 
 What remains poorly understood is how responses to warming will vary across vertical gradients under mesic conditions. 
 The leaf-level responses are relatively well-understood: at the metabolic level, photosynthesis and respiration are coupled to photosynthetic thermal optima, which reflect adapation to the local climate but do not vary consistently with height in the canopy (see section 4.2, Table 2). 
 Beyond this inflection point, photosynthesis declines whereas respiration continues to increase exponentially, eventually shifting the carbon balance from sink to source, independent of water and irradiance [@duffyHowCloseAre2021]. 
-While leaves display substantial plasticity to adapt to warmer temperatures (**REFS**), failure to fully acclimate will result in reduced carbon sequestration at leaf and ecosystem levels [@huangAirTemperatureOptima2019; @wayJustRightTemperature2019; @tanOptimumAirTemperature2017; @bennettThermalOptimaGross2021]. 
+While leaves display substantial plasticity to adapt to warmer temperatures  [@slotGeneralPatternsAcclimation2015; @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019;  @cunninghamTemperateRainforestTrees2003] and to recover from canopy heat stress [@smithEmpiricalEvidenceResilience2020], failure to fully acclimate will result in reduced carbon sequestration at leaf and ecosystem levels [@huangAirTemperatureOptima2019; @wayJustRightTemperature2019; @tanOptimumAirTemperature2017; @bennettThermalOptimaGross2021]. 
 Exposed canopies are likely most vulnerable, as growing season $T_{air}$ is increasingly equaling or exceeding photosynthetic optima [@slotSituTemperatureResponse2017; @mauTemperateTropicalForest2018; @huangAirTemperatureOptima2019; @kumarathungeAcclimationAdaptationComponents2019]. 
 Particularly in mid-latitude forests, which have the narrowest thermal safety margin between historical maximum temperatures and leaf thermal tolerance levels [@osullivanThermalLimitsLeaf2017], $T_{leaf}$ of sun-exposed leaves may approach thermal tolerance thresholds during heat waves, resulting in photosynthetic decline or even leaf death [e.g., @osullivanThermalLimitsLeaf2017; @tiwariPhotosyntheticQuantumEfficiency2021; @kunertSummerTemperaturesReach]. 
 
@@ -503,21 +503,19 @@ Forest fragmentation also disproportionately kills large trees by making them mo
 Thus, canopies are becoming increasingly prone to disturbance and gap formation, which in turn increases incident radiation levels and temperatures within the canopy [@starkReframingTropicalSavannization2020]. 
 While wetter forests can prove quite resilient to such changes [@millerReducedImpactLogging2011], this shift to hotter and drier microclimates can often make forests more susceptible to further disturbances, for example, increasing fire risk [@brandoAbruptIncreasesAmazonian2014; @aragao21stCenturyDroughtrelated2018]. 
 Severe degradation impacts can cause dramatic ecological state changes (e.g., the transition from forest to more open, savanna-like vegetation in tropical forest regions through 'savannization') and non-linear threshold responses in energy balance and associated microclimates, with implications for forest-atmosphere interactions [@starkReframingTropicalSavannization2020].
-Such dynamics are likely to be amplified by warming temperatures, such that climate change is pushing some of the world's forests into alternative stable states wherein forest can persist as long as the canopy remains largely intact, but has dramatically reduced probability of recovering from severe canopy disturbance [**REFS**, @tepley_vulnerability_2017; @miller_alternative_2019; @mcdowellPervasiveShiftsForest2020].
+Such dynamics are likely to be amplified by warming temperatures, such that climate change is pushing some of the world's forests into alternative stable states wherein forest can persist as long as the canopy remains largely intact, but has dramatically reduced probability of recovering and persisting when affected by severe canopy disturbance [**REFS**, @tepley_vulnerability_2017; @miller_alternative_2019; @mcdowellPervasiveShiftsForest2020].
 
 Variation in resistance and resilience among forests may drive different trajectories in the face of global climate change. 
 For example, canopy trees of African rainforests appear to be more resilient to warming and drought than other tropical forests [@bennettResistanceAfricanTropical2021]. 
 Species with smaller leaves and larger $g_s$ will be less vulnerable to temperature increase than species with larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020] and isoprene emitting species will have a selective advantage in a warming world [@taylorCapacityEmitIsoprene2019]. 
-Temperature acclimation [@slotGeneralPatternsAcclimation2015; @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019;  @cunninghamTemperateRainforestTrees2003] and recovery from canopy heat stress [@smithEmpiricalEvidenceResilience2020] will also help forests cope with warming.
 
-
+Canopy disturbance along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019]. 
 Canopy structure affects understory species composition, which has been shown to shift under warming and canopy disturbance [@majasalmiImpactTreeCanopy2020; @bertrandCommentForestMicroclimate2020; @maesPlantFunctionalTrait2020]
-
-*In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019].* 
-
+In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019]. 
 
 
-*Canopy disturbance along with a trend towards younger forests and again reduced tree growth associated with warming [@mcdowellPervasiveShiftsForest2020] poses an increasing threat to the biodiversity of microrefugia that are otherwise buffered from climatic extremes [@scheffersMicrohabitatsReduceAnimal2013; @greiserHidingClimateCharacterizing2019].* 
+
+*
 
 These shifts in forest structure at large may be detectable by lidar and thermal remote sensing. If we know how metabolism maps to the thermal profile, then the observed forest structural changes can inform prediction of forest function.
  
