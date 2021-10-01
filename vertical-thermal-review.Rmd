@@ -512,7 +512,8 @@ If such compositional shifts towards more thermally-adapted species fail to keep
 
 ## Scaling across space and time 
 
-As we have reviewed here, 
+As we have reviewed here, vertical profiles in forests strongly shape forest dynamics and climate change responses.
+Ultimately, to achieve the important goal of understanding feedbacks between the world's forests and climate change, it is essential that these mechanisms be sufficiently represented in models and scaled spatially via remote sensing. 
 
 ### Representing Vertical Gradients in Models
 
