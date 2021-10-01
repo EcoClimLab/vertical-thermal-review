@@ -108,7 +108,7 @@ Acknowledgments | ##	||
 ```
 
 Rising temperatures are influencing forests on many scales, with potentially strong variation vertically across forest strata. 
-Using published research and new analyses, we evaluate how microclimate, leaf temperatures, and foliar traits and metabolism vary vertically in forests, shaping tree ecology and ecosystem function. 
+Using published research and new analyses, we evaluate how microclimate and leaf temperatures, traits, and gas exchange vary vertically in forests, shaping tree ecology and ecosystem function. 
 In forests with dense canopies, upper-canopy leaves are exposed to the highest solar radiation and evaporative demand, which can elevate leaf temperature ($T_{leaf}$), particularly when transpirational cooling is curtailed by limited stomatal conductance.
 However, foliar traits also vary across height or light gradients, partially mitigating the elevation of upper-canopy $T_{leaf}$.
 Leaf metabolism generally increases with height across the vertical gradient, yet differences in thermal sensitivity and damage thresholds across the gradient appear modest.
