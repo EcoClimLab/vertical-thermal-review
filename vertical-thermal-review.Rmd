@@ -469,7 +469,7 @@ The complex interwoven relations between the biophysical environment and biologi
 
 ### Warming
 
-As climate change progresses, we anticipate increases in both mean daytime and nighttime $T_{air}$, as well as increased $T_{max}$s, with extreme increases during heat waves (@ipccClimateChangeWidespread2021).
+As climate change progresses, we anticipate increases in both mean daytime and nighttime $T_{air}$, as well as increased $T_{max}$s, with extreme increases during heat waves [@ipccClimateChangeWidespread2021].
 These changes will impact leaf and ecosystem gas exchange with the atmosphere, and, over longer time frames, forest structure, composition, and leaf trait distributions. 
 Our in-depth review sheds some light as to how responses are likely to vary across forest vertical gradients, yet important uncertainties remain.
 
