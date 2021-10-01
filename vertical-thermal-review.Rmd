@@ -465,7 +465,7 @@ The complex interwoven relations between the biophysical environment and biologi
 
 ### Warming
 
-As climate change progresses, we anticipate increases in both mean daytime and nighttime $T_{air}$, as well as increased $T_{max}$s, with extreme increases during heat waves (**CITE LATEST IPCC**).
+As climate change progresses, we anticipate increases in both mean daytime and nighttime $T_{air}$, as well as increased $T_{max}$s, with extreme increases during heat waves (@ipccClimateChangeWidespread2021).
 These changes will impact leaf and ecosystem gas exchange with the atmosphere, and, over longer time frames, forest structure, composition, and leaf trait distributions. 
 Our in-depth review sheds some light as to how responses are likely to vary across forest vertical gradients, yet important uncertainties remain.
 
@@ -498,7 +498,7 @@ When the canopy trees die, this will open canopy gaps, as discussed in the follo
 ### Canopy disturbance
 
 As discussed above, rising temperatures and severe droughts place the canopy trees at particularly elevated risk of mortality. 
-Moreover, large trees are also disproportionately impacted by other climate-related disturbances [e.g., wind, lighting;  @gora_implications_2021] that are expected to intensify with climate change (**IPCC REF**), and they are also targeted by selective logging operations [e.g., @millerReducedImpactLogging2011]. 
+Moreover, large trees are also disproportionately impacted by other climate-related disturbances [e.g., wind, lighting;  @gora_implications_2021] that are expected to intensify with climate change (@ipccClimateChangeWidespread2021), and they are also targeted by selective logging operations [e.g., @millerReducedImpactLogging2011]. 
 Forest fragmentation also disproportionately kills large trees by making them more vulnerable to wind, desiccation, and liana infestation [@lauranceRainForestFragmentation2006].
 Thus, canopies are becoming increasingly prone to disturbance and gap formation, which in turn increases incident radiation levels and temperatures within the canopy [@starkReframingTropicalSavannization2020]. 
 While wetter forests can prove quite resilient to such changes [@millerReducedImpactLogging2011], this shift to hotter and drier microclimates can often make forests more susceptible to further disturbances, for example, increasing fire risk [@brandoAbruptIncreasesAmazonian2014; @aragao21stCenturyDroughtrelated2018]. 
@@ -517,38 +517,44 @@ Ultimately, to achieve the important goal of understanding feedbacks between the
 
 ### Representing Vertical Gradients in Models
 
-Future forest dynamics remain one of the largest sources of uncertainty in Earth System Model (ESM) projections of the future of global carbon cycling and climate change [@friedlingsteinClimateCarbonCycle2006].
-Dynamic global vegetation models (DGVMs), which comprise the land surface models in ESMs, are used to predict the global distribution of vegetation types and biosphere-atmosphere feedbacks [@foleyIntegratedBiosphereModel1996; @sitchEvaluationEcosystemDynamics2003; @woodwardVegetationDynamicsSimulating2004]. 
+Future forest dynamics remain one of the largest sources of uncertainty in Earth system model projections of the future of global carbon cycling and climate change [@friedlingsteinClimateCarbonCycle2006].
+Dynamic global vegetation models (DGVMs), which comprise the land surface models in Earth system models, are used to predict the global distribution of vegetation types and biosphere-atmosphere feedbacks [@foleyIntegratedBiosphereModel1996; @sitchEvaluationEcosystemDynamics2003; @woodwardVegetationDynamicsSimulating2004]. 
 DGVMs operate at a range of scales and vary in complexity, from detailed individual-based models (i.e., forest gap models), which represent vegetation at the level of individual plants, capturing spatial variability in the light environment and microclimates at high vertical and horizontal spatial resolution [@shugartGapModelsTheir2018], to big-leaf models that reduce 3D vegetation structure across the entire biosphere into a single vegetation layer [@bonanDynamicGlobalVegetation2003; @krinnerDynamicGlobalVegetation2005]. 
 This simplification is computationally more efficient, although it comes at a cost of a lack of representation of important demographic processes and vertical light competition [@hurttTerrestrialModelsGlobal1998; @krinnerDynamicGlobalVegetation2005; @smithRepresentationVegetationDynamics2001]. 
-The computational middle-ground to representing vertical structure in DVGMs lies in cohort-based models (CBMs), which sit between the oversimplified vegetation dynamics in big-leaf models and the computational expense of individual-based models. 
-CBMs represent vegetation as cohorts of individual plants, grouped together based on properties including size, age, and functional type [@fisherVegetationDemographicsEarth2018].
+The computational middle-ground to representing vertical structure in DVGMs lies in cohort-based models, which represent vegetation as cohorts of individual plants, grouped together based on properties including size, age, and functional type [@fisherVegetationDemographicsEarth2018].
+These sit between the oversimplified vegetation dynamics in big-leaf models, which do not represent any vertical stratification, and individual-based models, whose computational expense prevents them from being integrated into Earth system models. 
 
-**The findings of this review reinforce the notion that representing vertical structuring is essential to capturing forest dynamics under global change.**
+The findings of this review reinforce the notion that representing vertical structuring, as can be done using cohort-based-models, is essential to capturing forest dynamics under global change.
 Improved representation of vertical variation in forest canopy architecture and ecosystem function is critical for representing thermal sensitivity and has repeatedly been identified as an important step toward reduced uncertainty and more accurate characterization of biologically mediated feedbacks [@moorcroftMethodScalingVegetation2001; @banerjeeEffectVerticalCanopy2018; @bonanMovingIncorrectUseful2021]. 
-In addition, this review finds that, although larger trees face disproportionate stress during drought, understory trees have fewer cooling mechanisms and may also be stifled under hot, humid conditions. 
-**A key question is whether existing models adequately represent the processes that underpin understory tree responses to thermal stress as well as large tree responses.** 
-Most models have been developed to capture dynamics in the canopy, or overstory, given the disproportionate role of these large trees in ecosystem dynamics. Less attention has focused on developing and validating understory tree dynamics and responses to perturbations in models. 
-This is likely due in large part to the fact that observations are only beginning to shed light on the vulnerability of understory trees to changes in temperature and other abiotic conditions [e.g., @rollinsonClimateSensitivityUnderstory2020]. 
+Moreover, given the anticipated importance of mid-canopy and understory trees in ecosystem resilience to increasing mortality of canopy trees, it is absolutely essential that models separately represent these strata. 
+
+A key question is whether existing models adequately represent the processes that underpin understory tree responses to thermal stress as well as large tree responses.
+Most models have been developed to capture dynamics in the canopy, or overstory, given the disproportionate role of these large trees in ecosystem dynamics (Fig. `r fig_ecosystem`). 
+Less attention has focused on developing and validating understory tree dynamics and responses to perturbations in models. 
+This is likely due in large part to the fact that observational and experimental studies required to resolve key patterns and underlying mechanisms remain somewhat sparse (see sections 4, 5).
+Pairing of models and observational studies will be important for further improving our mechanistic understanding of vertical gradients and their implications.
 
 Though an improvement over big-leaf models, DGVMs that separate the canopy into only two layers (e.g., sunlit and shaded portions) may not be able to capture important within-canopy variation in terms of leaf dynamics [e.g., seasonal shifts in vertical leaf area distributions, @smithSeasonalDroughtrelatedChanges2019a] and functions (e.g., thermal responses, as we present in this paper). 
 At the very least, multi-layered ecosystem models will likely be necessary for accurately predicting future forest function [e.g., @depurySimpleScalingPhotosynthesis1997; @bonanMovingIncorrectUseful2021].
-In addition, capturing the vertical gradients in NPP, GPP, and respiration, and subsequently the net ecosystem effects, requires improved characterization of the functional response of leaf-level processes to vertically varying abiotic conditions, and the role of traits and abiotic conditions in mediating responses to thermal sensitivity. 
+In addition, capturing the vertical gradients in ET, GPP, respiration, and woody growth, and subsequently the net ecosystem effects (Figs. `r fig_treerings` - `r fig_ecosystem`), requires improved characterization of the functional response of leaf-level processes (Table `r table_leaf_metabolism`, Fig. `r `fig_leaf_T`) to vertically varying abiotic conditions (Fig. `fig_NEON_vertical`), and the role of traits (Table `r table_leaf_traits`) in mediating responses to thermal sensitivity. 
 
-![**Figure `r fig_model`.** Lidar and thermal remote sensing data can be used to measure vertical canopy structure and plant thermal signatures at increasingly large scales. (a-b) Integrating in situ and remote sensing measurements will support our ability to scale understanding of vertical gradients within and across ecosystems. (c) In turn, these efforts can be used to directly inform ecosystem model development and parameterization. Vertically resolved in situ data could include any variable listed in Table 1 or 2. Panel b shows drone lidar point cloud data colored with thermal data from a savanna woodland in Kruger National Park, South Africa illustrating vertical and horizontal variation in vegetation temperature. Image courtesy of the Harvard Animal-Landscape Observatory, Peter B. Boucher and Andrew B. Davies.](schematics/fig_remote_sensing.png)
 
 ### Scaling in situ data with remote sensing
 
 Remote sensing data provide a valuable means to scale between *in situ* observations and DGVMs.
-Specifically, the increasing availability of airborne and spaceborne lidar and thermal remote sensing data offer a promising opportunity for mapping vertical thermal gradients in combination with vegetation structure at locations with in situ data and across larger landscapes (Fig. `r fig_model`). 
-Airborne and spaceborne lidar, as well as terrestrial laser scanning data yield detailed 3D reconstructions of whole tree and forest structure. These data can be leveraged in combination with thermal remote sensing data from the spaceborne ECOSTRESS sensor [@hulleyNewECOSTRESSMODIS2019; @fisherECOSTRESSNASANext2020] or drone- and tower-based FLIR cameras. 
+Specifically, the increasing availability of airborne and spaceborne lidar and thermal remote sensing data offer a promising opportunity for mapping vertical thermal gradients in combination with vegetation structure at locations with *in situ* data and across larger landscapes (Fig. `r fig_model`). 
+Airborne and spaceborne lidar, as well as terrestrial laser scanning data, yield detailed 3D reconstructions of whole tree and forest structure. 
+These data can be leveraged in combination with thermal remote sensing data from the spaceborne ECOSTRESS sensor [@hulleyNewECOSTRESSMODIS2019; @fisherECOSTRESSNASANext2020] or drone- and tower-based Forward Looking Infrared (FLIR) cameras. 
+
+
+![**Figure `r fig_model`.** Lidar and thermal remote sensing data can be used to measure vertical canopy structure and plant thermal signatures at increasingly large scales. (a-b) Integrating in situ and remote sensing measurements will support our ability to scale understanding of vertical gradients within and across ecosystems. (c) In turn, these efforts can be used to directly inform ecosystem model development and parameterization. Vertically resolved in situ data could include any variable listed in Table 1 or 2. Panel b shows drone lidar point cloud data colored with thermal data from a savanna woodland in Kruger National Park, South Africa illustrating vertical and horizontal variation in vegetation temperature. Image courtesy of the Harvard Animal-Landscape Observatory, Peter B. Boucher and Andrew B. Davies.](schematics/fig_remote_sensing.png)
 
 Detailed structural information from lidar data has been used to measure tree height, DBH, and crown dimensions [@fisherECOSTRESSNASANext2020], evaluate spatial variation in vertical leaf area density profiles [@dettoSpatialVariabilityTropical2015], and resolve complex seasonal and diurnal variation in shortwave radiation forcing in ecosystems [@musselmanEstimationSolarDirect2013].
 In addition, shading by the overstory can be better represented to predict understory temperatures by modeling the time-varying interaction of the forest canopy with solar radiation, as has been done in other lidar-based analyses [e.g., @davisLiDARderivedTopographyForest2019].
-Satellite and airborne thermal infrared remote sensing analyses are now being conducted at regional and continental scales, although very few applications exist at finer-scales necessary for understanding of vertical variation in plant canopy temperatures [@johnstonWhatLiesVertical2020 in review]. @pauTropicalForestTemperature2018 used data from a tower-based FLIR camera in combination with eddy-covariance data and found that tropical forest canopy temperatures were more strongly associated with GPP than $T_{air}$ or VPD. 
+Satellite and airborne thermal infrared remote sensing analyses are now being conducted at regional and continental scales, although very few applications exist at finer-scales necessary for understanding of vertical variation in plant canopy temperatures [@johnstonWhatLiesVertical2020]. 
+As an example of the type of insight that can be gained from this approach, @pauTropicalForestTemperature2018 used data from a tower-based FLIR camera in combination with eddy-covariance data and found that tropical forest canopy temperatures were more strongly associated with GPP than $T_{air}$ or VPD. 
 However, the authors did not consider vertical light environment conditions even though light directly influences the deviation between canopy temperature and $T_{air}$. 
-In a savanna system in the western U.S., [@johnstonWhatLiesVertical2020 in review] found significant vertical variation in plant temperature, with warmer temperatures in the understory compared to the top of the blue oak canopies. 
-This finding was the opposite of what was expected and occurred in association with very high grass temperatures.
+In a savanna system in the western U.S., @johnstonWhatLiesVertical2020 found significant vertical variation in plant temperature, with warmer temperatures in the understory compared to the top of the blue oak canopies -- a finding opposite of what was expected that occurred in association with very high grass temperatures.
 The growing availability of these data makes this an opportune time to link fine-scale and landscape-scale measurements with the type of *in situ* measurements reviewed above to further explore ecosystem-scale patterns in vertical temperature gradients seasonally and across biomes. 
 
 
