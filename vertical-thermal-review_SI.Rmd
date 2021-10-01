@@ -62,12 +62,6 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 
 #  `r appendix_NEON_methods_title`
 
-
-Google doc: https://docs.google.com/document/d/1HdPa7X5AMrEwfLjazGMU92uTYMc6pObh/edit#heading=h.gjdgxs 
-
-see [Issue 2](https://github.com/EcoClimLab/vertical-thermal-review/issues/2) , [issue 20](https://github.com/EcoClimLab/vertical-thermal-review/issues/20) 
-
-
 ## Study sites
 We analyzed vertical gradients in key biophysical variables from the National Ecological Observatory Network's Airborne Observatory Platform (NEON AOP) and meteorology towers at six focal NEON sites [Figs 2, S1, @schimelNEONHierarchicallyDesigned2007]. The sites are well distributed across the United States and represent key forest types and structures (Table S1).
 
@@ -89,7 +83,7 @@ Mean LAD profiles for each site were calculated as the mean LAD at each height. 
 
 ## Analyzing biophysical gradients from micrometeorological data
 
-Micrometeorological data was downloaded for each site from NEON (neonUtilies R package) at 30 minute intervals for 2015-2020. To focus on the middle of the growing season, the data was constrained to be for the month of July each year. Per site, we calculated the mean maximum and minimum values of each variable by day and by sensor height. In Figure S1 we expanded on Figure XX by including 22 sites representing five forest structure types.
+Micrometeorological data was downloaded for each site from NEON (neonUtilies R package) at 30 minute intervals for 2015-2020. To focus on the middle of the growing season, the data was constrained to be for the month of July each year. Per site, we calculated the mean maximum and minimum values of each variable by day and by sensor height. In Figure S1 we expanded on Figure `r fig_NEON_vertical` by including 22 sites representing five forest structure types.
  
 All data processing, analyses, and graphing were conducted using R (R core team 2020).
 
