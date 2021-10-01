@@ -108,12 +108,13 @@ Acknowledgments | ##	||
 ```
 
 Rising temperatures are profoundly influencing forests on many scales, with potentially strong variation vertically across forest strata. 
-Using published research and new analyses, we evaluate how environmental conditions, leaf temperatures, and foliar traits and metabolism vary across vertical gradients, shaping tree ecology and ecosystem function. 
+Using published research and new analyses, we evaluate how microclimate, leaf temperatures, and foliar traits and metabolism vary across vertical gradients, shaping tree ecology and ecosystem function. 
 In forests with dense canopies, canopy leaves are exposed to higher solar radiation and evaporative demand than understory leaves, and can experience elevated leaf temperature ($T_{leaf}$), particularly when transpirational cooling is curtailed by limited stomatal conductance.
-However, foliar traits that also vary strongly across height or light gradients can partially mitigate the elevation of $T_{leaf}$ in the upper canopy.
-Leaf metabolism generally increases with height across the vertical gradient, and tall trees have higher absolute metabolic capacity and growth at both individual and ecosystem levels. Yet, differences in thermal sensitivity and damage thresholds across the gradient are modest.
-Under climate warming and increased drought, larger trees often face disproportionate stress, yet understory trees have fewer cooling mechanisms and thus may be impacted the most under hot, humid conditions, or when the buffering provided by large trees is lost.
-As the climate changes, integrating the patterns and mechanisms reviewed here, along withdata on forest structure and thermal environments, into models will be critical to forecasting forest-climate feedbacks.
+However, foliar traits also vary strongly across height or light gradients and can partially mitigate the elevation of upper canopy $T_{leaf}$.
+Leaf metabolism generally increases with height across the vertical gradient, yet differences in thermal sensitivity and damage thresholds across the gradient are modest.
+Tall trees have higher absolute metabolic capacity and growth at both individual and ecosystem levels, yet are disproportionately vulnerable to drought and damaging $T_{leaf}$s, particularly under climate change. 
+In contrast, understory trees benefit from a buffered microclimate but hae fewer cooling mechanisms and thus may be disproportionately impacted under hot, humid conditions, or when the buffering provided by large trees is lost.
+As the climate changes, integrating the patterns and mechanisms reviewed here, along with data on forest structure and thermal environments, into models will be critical to forecasting forest-climate feedbacks.
 
 \newpage
 
