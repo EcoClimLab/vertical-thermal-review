@@ -591,6 +591,9 @@ Thanks to Norbert Kunert, Camille Piponiot, Peter B. Boucher and Andrew B. Davie
 This manuscript benefited from feedback from Eleinis Ávila-Lovera, ... and the ForestGEO Ecosystems & Climate lab at SCBI.
 Funding was provided by the Smithsonian Institution.
 
+## Author Contributions
+NV and KAT planned and designed the research, with contributions from all authors. NV reviewed the literature. NV, IM, EMO and MNS contributed data and analyses. All authors contributed to writing and revising of the manuscript.
+
 ## SI files
 
 `r appendix_NEON_methods_title`
