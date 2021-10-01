@@ -497,22 +497,21 @@ When the canopy trees die, this will open canopy gaps, as discussed in the follo
 
 ### Canopy disturbance
 
-
-Canopies are crucial to microclimatic stratification, as they buffer several aspects of forest microenvironments [Figs 1-2, @zellweger_seasonal_2019], particularly in wetter environments with dense canopies [@davisMicroclimaticBufferingForests2019]. 
-Severe droughts and rising temperatures place canopies at risk, as larger trees tend to suffer more during droughts [@bennettLargerTreesSuffer2015] and are at higher risk of experiencing lethal leaf $T_{leaf}$ during heat waves.
-Beyond the warming and drought, the disproportionate impact of stress on large trees holds for other types of disturbance, including forest fragmentation and logging [@lauranceRainForestFragmentation2006; @millerReducedImpactLogging2011], although fire tends to predominantly affect smaller trees [@brandoDroughtsWildfiresForest2019]. 
-Canopy structure affects understory species composition, which has been shown to shift under warming and canopy disturbance [@majasalmiImpactTreeCanopy2020; @bertrandCommentForestMicroclimate2020; @maesPlantFunctionalTrait2020]
-
-In general, disturbances (e.g., drought, fire, fragmentation, and logging) reduce canopy cover, which in turn increases incident radiation levels and temperatures within the canopy [@starkReframingTropicalSavannization2020]. 
-This shift to hotter and drier microclimates often makes forests more susceptible to further disturbances, for example, increasing fire risk [@brandoAbruptIncreasesAmazonian2014; @aragao21stCenturyDroughtrelated2018]. 
+As discussed above, rising temperatures and severe droughts place the canopy trees at particularly elevated risk of mortality. 
+Moreover, large trees are also disproportionately impacted by other climate-related disturbances [e.g., wind, lighting;  @gora_implications_2021] that are expected to intensify with climate change (**IPCC REF**), and they are also targeted by selective logging operations [e.g., @millerReducedImpactLogging2011]. 
+Forest fragmentation also disproportionately kills large trees by making them more vulnerable to wind, desiccation, and liana infestation [@lauranceRainForestFragmentation2006].
+Thus, canopies are becoming increasingly prone to disturbance and gap formation, which in turn increases incident radiation levels and temperatures within the canopy [@starkReframingTropicalSavannization2020]. 
+While wetter forests can prove quite resilient to such changes [@millerReducedImpactLogging2011], this shift to hotter and drier microclimates can often make forests more susceptible to further disturbances, for example, increasing fire risk [@brandoAbruptIncreasesAmazonian2014; @aragao21stCenturyDroughtrelated2018]. 
 Severe degradation impacts can cause dramatic ecological state changes (e.g., the transition from forest to more open, savanna-like vegetation in tropical forest regions through 'savannization') and non-linear threshold responses in energy balance and associated microclimates, with implications for forest-atmosphere interactions [@starkReframingTropicalSavannization2020].
+Such dynamics are likely to be amplified by warming temperatures, such that climate change is pushing some of the world's forests into alternative stable states wherein forest can persist as long as the canopy remains largely intact, but has dramatically reduced probability of recovering from severe canopy disturbance [**REFS**, @tepley_vulnerability_2017; @miller_alternative_2019; @mcdowellPervasiveShiftsForest2020].
 
 Variation in resistance and resilience among forests may drive different trajectories in the face of global climate change. 
-For example, African rainforests, with canopy trees that are more resilient to warming and drought than other forests [@bennettResistanceAfricanTropical2021]. 
+For example, canopy trees of African rainforests appear to be more resilient to warming and drought than other tropical forests [@bennettResistanceAfricanTropical2021]. 
 Species with smaller leaves and larger $g_s$ will be less vulnerable to temperature increase than species with larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020] and isoprene emitting species will have a selective advantage in a warming world [@taylorCapacityEmitIsoprene2019]. 
 Temperature acclimation [@slotGeneralPatternsAcclimation2015; @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019;  @cunninghamTemperateRainforestTrees2003] and recovery from canopy heat stress [@smithEmpiricalEvidenceResilience2020] will also help forests cope with warming.
 
 
+Canopy structure affects understory species composition, which has been shown to shift under warming and canopy disturbance [@majasalmiImpactTreeCanopy2020; @bertrandCommentForestMicroclimate2020; @maesPlantFunctionalTrait2020]
 
 *In the understory, warming is disproportionately affecting the less thermally-adapted plant species, resulting in associated plant community thermophilization [@zellwegerForestMicroclimateDynamics2020; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019].* 
 
