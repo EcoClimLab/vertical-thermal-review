@@ -91,8 +91,8 @@ Kristina J. Anderson-Teixeira^1,3^*
 Text | word count | other | n
 ---|---|-----|--------------------
 Total word count (excluding summary, references and legends) | 	8565 |	No. of figures | 	6 (all colour)
-Summary|  	183 | 	No. of Tables | 	2  
-Introduction|	495 |	No of Supporting Information files | 	6
+Summary|  	200 | 	No. of Tables | 	2  
+Introduction|	496 |	No of Supporting Information files | 	6
 Review of vertical gradients |	5976	||	 
 Implications |	1753	 ||
 Conclusions |	156	||
@@ -107,14 +107,14 @@ Acknowledgments | ##	||
 #  200 word limit, no bullet points  
 ```
 
-Rising temperatures are profoundly influencing forests on many scales, with potentially strong variation vertically across forest strata. 
-Using published research and new analyses, we evaluate how microclimate, leaf temperatures, and foliar traits and metabolism vary across vertical gradients, shaping tree ecology and ecosystem function. 
-In forests with dense canopies, canopy leaves are exposed to higher solar radiation and evaporative demand than understory leaves, and can experience elevated leaf temperature ($T_{leaf}$), particularly when transpirational cooling is curtailed by limited stomatal conductance.
-However, foliar traits also vary strongly across height or light gradients and can partially mitigate the elevation of upper canopy $T_{leaf}$.
-Leaf metabolism generally increases with height across the vertical gradient, yet differences in thermal sensitivity and damage thresholds across the gradient are modest.
-Tall trees have higher absolute metabolic capacity and growth at both individual and ecosystem levels, yet are disproportionately vulnerable to drought and damaging $T_{leaf}$s, particularly under climate change. 
-In contrast, understory trees benefit from a buffered microclimate but hae fewer cooling mechanisms and thus may be disproportionately impacted under hot, humid conditions, or when the buffering provided by large trees is lost.
-As the climate changes, integrating the patterns and mechanisms reviewed here, along with data on forest structure and thermal environments, into models will be critical to forecasting forest-climate feedbacks.
+Rising temperatures are influencing forests on many scales, with potentially strong variation vertically across forest strata. 
+Using published research and new analyses, we evaluate how microclimate, leaf temperatures, and foliar traits and metabolism vary vertically in forests, shaping tree ecology and ecosystem function. 
+In forests with dense canopies, upper-canopy leaves are exposed to the highest solar radiation and evaporative demand, which can elevate leaf temperature ($T_{leaf}$), particularly when transpirational cooling is curtailed by limited stomatal conductance.
+However, foliar traits also vary across height or light gradients, partially mitigating the elevation of upper-canopy $T_{leaf}$.
+Leaf metabolism generally increases with height across the vertical gradient, yet differences in thermal sensitivity and damage thresholds across the gradient appear modest.
+Scaling up, tall trees have higher absolute metabolic capacity and growth at both individual and ecosystem levels, yet are disproportionately vulnerable to drought and damaging $T_{leaf}$'s, particularly under climate change. 
+In contrast, understory trees benefit from a buffered microclimate but have fewer cooling mechanisms and thus may be disproportionately impacted under hot, humid conditions, or when the buffering provided by large trees is lost.
+As the climate changes, integrating the patterns and mechanisms reviewed here into models will be critical to forecasting forest-climate feedbacks.
 
 \newpage
 
