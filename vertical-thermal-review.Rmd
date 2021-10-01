@@ -116,6 +116,8 @@ Scaling up, tall trees have higher absolute metabolic capacity and growth at bot
 In contrast, understory trees benefit from a buffered microclimate but have fewer cooling mechanisms and thus may be disproportionately impacted under hot, humid conditions, or when the buffering provided by large trees is lost.
 As the climate changes, integrating the patterns and mechanisms reviewed here into models will be critical to forecasting forest-climate feedbacks.
 
+**Key words**: forest; vertical gradients; microclimate; leaf temperature; leaf traits; gas exchange; ecosystem; climate change 
+
 \newpage
 
 # I. Introduction
