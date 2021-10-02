@@ -253,7 +253,7 @@ It has been established that independently of the light environment, traits also
 Therefore, ontogeny is bound to play a role in shaping leaf traits and thermal sensitivity [@carterExperimentalWarmingTropical2021a; @niinemetsResponsesForestTrees2010a]. 
 
 \newpage
-**Table `r table_leaf_traits`.** Summary of observed variation in leaf traits across the vertical gradient and/or between sun and shade leaves. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
+**Table `r table_leaf_traits`.** Summary of observed variation in Leaf gas exchange and its thermal sensitivity across the vertical gradient and/or between sun and shade leaves. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
 
 ![](table1a.png)
 
@@ -263,16 +263,11 @@ Table `r table_leaf_traits`, cont.
 ![](table1b.png)
 
 
-\newpage
-Table `r table_leaf_traits`, cont.
-
-![](table1c.png)
-
-*Responses across height and light gradients are summarized, with up and down arrows indicating significant increasing or decreasing trends, respectively, $\approx$ indicates lack of any notable directional variation, and $\approx \uparrow$ or $\approx \downarrow$ indicate non-significant or mixed trends (e.g., significant in some but not all species studied). 
+*Responses across height and light gradients are summarized, with up and down arrows indicating significant increasing or decreasing trends, respectively, in response to height (H) or light (L). $\approx$ indicates lack of any notable directional variation, and $\approx \uparrow$ or $\approx \downarrow$ indicate non-significant or mixed trends (e.g., significant in some but not all species studied). 
 
 $\dagger$ Forest types are coded as follows: TrB = tropical broadleaf; TeB = temperate broadleaf; TeN = temperate needleleaf (conifer); BoN= boreal needleleaf (conifer).
 
-$\ddagger$ 1. Mau et al. 2018; 2. Coble and Cavaleri 2014; 3. Sack et al. 2006; 4. Chin and Sillett 2019; 5. Wyka et al. 2012; 6. Atherton et al. 2017; 7. Kenzo et al. 2015; 8. Kusi and Karasi 2020; 9. Dang et al. 1997; 10. Gebauer et al. 2015; 11. Marenco et al. 2017; 12. Kafuti et al. 2020; 13. Van Wittenberghe et al. 2012; 14. Zhang et al. 2019; 15. Weerasinghe et al. 2014; 16. Oldham et al. 2010; 17. Ichie et al. 2016; 18. Gregoriou et al. 2007; 19. Levizou et al. 2005; 20. Liakoura 1997; 21. Fauset et al. 2018; 22. Niinemets et al. 1998, 23. Ishida et al. 1998; 24. Millen and Clendon 1979; 25. Smith and Carter, 1988; 26. Hadley and Smith 1987; 27. Panditharathna et al. 2008; 28. Baltzer and Thomas 2005; 29. Coble et al. 2016; 30. Scartazza et al. 2016; 31. Duursma and Marshall, 2006; 32. Harley et al. 1996;  33. Hernandez et al. 2020; 34. Turnbull et al. 2003; 35. Chen et al. 2020; 36. van de Weg et al. 2012; 37. M.A Cavaleri et al. 2008;  38. Koniger et al. 1995; 39. Mastubara et al. 2009; 40. Harris and Medina 2013; 41. Hansen et al. 2001; 42. Poorter et al. 1995; 43. Coble et al. 2016; 44. Niinemets et al. 2004; 45. Poorter et al. 2000; 46. Zwieniecki et al. 2004; 47. Sack and Scoffoni, 2013; 48. Ball et al., 1988; 49. Taylor et al. 2021; 50. Niinemets et al. 2010 
+$\ddagger$ 1. Mau et al. 2018; 2. Coble and Cavaleri 2014; 3. Sack et al. 2006; 4. Chin and Sillett 2019; 5. Wyka et al. 2012; 6. Atherton et al. 2017; 7. Kenzo et al. 2015; 8. Kusi and Karasi 2020; 9. Dang et al. 1997; 10. Gebauer et al. 2015; 11. Marenco et al. 2017; 12. Kafuti et al. 2020; 13. Van Wittenberghe et al. 2012; 14. Zhang et al. 2019; 15. Weerasinghe et al. 2014; 16. Oldham et al. 2010; 17. Ichie et al. 2016; 18. Gregoriou et al. 2007; 19. Levizou et al. 2005; 20. Liakoura 1997; 21. Fauset et al. 2018; 22. Niinemets et al. 1998, 23. Ishida et al. 1998; 24. Millen and Clendon 1979; 25. Smith and Carter, 1988; 26. Hadley and Smith 1987; 28. Baltzer and Thomas 2005; 29. Coble et al. 2016; 30. Scartazza et al. 2016; 31. Duursma and Marshall, 2006; 32. Harley et al. 1996;  33. Hernandez et al. 2020; 34. Turnbull et al. 2003; 35. Chen et al. 2020; 36. van de Weg et al. 2012; 37. M.A Cavaleri et al. 2008;  38. Koniger et al. 1995; 39. Mastubara et al. 2009; 40. Harris and Medina 2013; 41. Hansen et al. 2001; 42. Poorter et al. 1995; 43. Coble et al. 2016; 44. Niinemets et al. 2004; 45. Poorter et al. 2000; 46. Zwieniecki et al. 2004; 47. Sack and Scoffoni, 2013; 48. Ball et al., 1988; 49. Taylor et al. 2021; 50. Niinemets et al. 2010 
 ```{r eval=FALSE, echo=FALSE}
 # refs in this table currently in the nocite field at top of document 
 ```
@@ -335,7 +330,7 @@ Table `r table_leaf_metabolism`, cont.
 
 ![](table2c.png)
 
-*Responses across height and light gradients are summarized, with up and down arrows indicating significant increasing or decreasing trends, respectively, $\approx$ indicates lack of any notable directional variation, and $\approx \uparrow$ or $\approx \downarrow$ indicate non-significant or mixed trends (e.g., significant in some but not all species studied). 
+*Responses across height and light gradients are summarized, with up and down arrows indicating significant increasing or decreasing trends, respectively, in response to height (H) or light (L). $\approx$ indicates lack of any notable directional variation, and $\approx \uparrow$ or $\approx \downarrow$ indicate non-significant or mixed trends (e.g., significant in some but not all species studied). 
 
 $\dagger$ Forest types are coded as follows: TrB = tropical broadleaf; TeB = temperate broadleaf; TeN = temperate needleleaf (conifer); BoN= boreal needleleaf (conifer).
 
