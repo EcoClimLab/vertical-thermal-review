@@ -115,7 +115,7 @@ In each visual, all biophysical variables are constant except for the independen
 \newpage
 # `r appendix_lit_review_methods_title`
 
-To summarize vertical gradients in leaf traits and gas exchange (Tables 1-2), we search the literature for relevant studies and recorded results from all studies meeting our criteria for inclusion.
+To summarize vertical gradients in leaf traits and gas exchange (Tables 1-2), we searched the literature for relevant studies and recorded results from all studies meeting our criteria for inclusion.
 
 The studies included in the review were based on a global geographic scope. 
 Ecosystem types included any studies with trees for mostly forests, but savannas were also considered. Herbaceous plant studies and seedling studies were excluded. 
@@ -124,22 +124,14 @@ Dependent variables of interest included variables known to influence leaf tempe
 
 ## Databases, search terms, and numbers of studies reviewed
 
-We searched for relevant studies using ISI Web of Science, Smithsonian online library, and Google Scholar, with the following key terms: 
+We searched for relevant studies using Smithsonian online library, Google Scholar and ISI Web of Science, with the following key terms, resepecitvely: 
 
 - (leaf traits OR foliar traits) AND (inter-canopy OR intra-canopy OR canopy height) AND (e.g. chlorophyll OR e.g. LMA OR stomatal conductance)
 - (leaf temperature and metabolism OR leaf thermal sensitivity  OR leaf thermal tolerance OR leaf traits OR foliar traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy height OR canopy gradient OR canopy profile OR canopy position) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical)
 - (leaf* temperature* and metabolism OR leaf thermal* sensitivity  OR leaf thermal tolerance OR leaf* traits OR foliar* traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy* height OR canopy gradient OR canopy profile) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical).
 
-In Google Scholar, 600 articles were screened, using the key terms (leaf temperature and metabolism OR leaf thermal sensitivity  OR leaf thermal tolerance OR leaf traits OR foliar traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy height OR canopy gradient OR canopy profile OR canopy position) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical). After screening the title and reading the abstract, 185 articles were identified as most relevant and saved for further careful reading.
-
-Similar search was conducted with the Smithsonian online library with the key terms (leaf traits OR foliar traits) AND (inter-canopy OR intra-canopy OR canopy height) AND (e.g. chlorophyll OR e.g. LMA OR stomatal conductance) provided most relevant results among the set of keywords mentioned above, with the field refine function that included botany, ecology, biology, environmental sciences, and forestry. Out of 150 relevant articles screened, 26 were most relevant after screening the title and reading the abstract, out of which 22 were already acquired through Google scholar search, such that 4 new articles were added. 
-
-For ISI Web of Science, a search of the key terms (leaf* temperature* and metabolism OR leaf thermal* sensitivity  OR leaf thermal tolerance OR leaf* traits OR foliar* traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy* height OR canopy gradient OR canopy profile) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical) yielded 410 relevant results. Of these, 37 were most relevant after screening the title and reading the abstract, out of which 24 were already acquired through the above process, such that 13 new articles were added.
-
-Through the above process, 202 articles were saved for careful evaluation. To this, additional studies were 
+Through the above process, 202 articles were saved with careful evaluation. To this, additional studies were 
 shared by co-authors.
-
-The articles were tagged after careful reading of each as added to the tables, irrelevant to the tables but relevant to the review (with a note on the reason), or irrelevant to the table and the review (with a note on the reason for exclusion). 
 
 In total, following careful review, we identified **75** articles as relevant and included their results in Tables 1-2.
 
