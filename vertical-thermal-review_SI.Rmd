@@ -136,11 +136,12 @@ Similar search was conducted with the Smithsonian online library with the key te
 
 For ISI Web of Science, a search of the key terms (leaf* temperature* and metabolism OR leaf thermal* sensitivity  OR leaf thermal tolerance OR leaf* traits OR foliar* traits) AND (within-canopy OR intra-canopy OR sun shade OR canopy* height OR canopy gradient OR canopy profile) AND (temperate forests OR boreal forest OR conifer OR savanna OR tropical) yielded 410 relevant results. Of these, 37 were most relevant after screening the title and reading the abstract, out of which 24 were already acquired through the above process, such that 13 new articles were added.
 
-Through the above process, 202 articles were saved for careful evaluation. To this, articles shared by co-authors and references mentioned in other studies collectively added 32 studies. 
+Through the above process, 202 articles were saved for careful evaluation. To this, additional studies were 
+shared by co-authors.
 
 The articles were tagged after careful reading of each as added to the tables, irrelevant to the tables but relevant to the review (with a note on the reason), or irrelevant to the table and the review (with a note on the reason for exclusion). 
 
-In total, following careful review, we identified **70** articles as relevant and included their results in Tables 1-2.
+In total, following careful review, we identified **75** articles as relevant and included their results in Tables 1-2.
 
 
 
