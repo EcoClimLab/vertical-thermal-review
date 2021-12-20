@@ -9,11 +9,41 @@ csl: new-phytologist.csl
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Decision: Major revision advised
+# (temporary section)
 
-# Referee: 1
+Nidhi, I like to use the following system for reviewer responses:
 
-## General comment:
+*italics = comments/ notes/ tentative responses that still require work* 
+
+**bold= completed responses**
+
+For issues that require discussion, it's helpful to open an issue and link to it under the reviewer comment.
+
+
+\newpage
+
+
+Dear Editor:
+
+We are pleased to submit a revised version of our manuscript, "Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications" (NPH-TR-2021-38020), for consideration for publication in *New Phytologist*. We have addressed all points raised by the reviewers, as detailed below. The most significant changes include:
+
+- ...
+
+- ...
+
+Thank you for considering this revised version, and we look forward to your response.
+
+Sincerely,
+
+Nidhi Vinod & Kristina Anderson-Teixeira (on behalf of all coauthors)
+
+\newpage
+
+# Response to Reviewer(s)' Comments to Author:
+
+## Referee: 1
+
+### General comment:
 
 The article is easy to read and well structured, I appreciated reading it. It covers a broad area and explains relatively complex ideas in simple terms and efficiently. I also enjoyed the changes in scale (leaf scale to ecosystem scale). I think this paper will be very useful as a reference for the plant physiologist community and for modelers.
 
@@ -22,7 +52,7 @@ I have been really interested in the comparison between gradients in canopy of i
 
 I find it interesting to try and link the empirical and theoretical knowledge on vertical gradients in forests with what is done in DGCMs and what should be done to improve their accuracy. However, I think there is a big step between the review (part I and II) and the author’s view on the implications for models (Scaling across space and time). I wonder if it would be possible to link a little bit more the different parts, and maybe without going that much in the technical details (cohort, big leaf, multi layers, ...) which I think are sometimes imprecise or maybe wrong. Would it be possible to explain more simply what are the vertical gradients presented in the section II, that are misrepresented today in DGCMs? Maybe by explaining which of the ‘biophysical variables’ and ‘leaf traits’ that you listed, are considered constant when they should be variable vertically?
 
-## Minor details that I hope will be of interest for the authors. Consider them as you see fit.
+### Minor details that I hope will be of interest for the authors. Consider them as you see fit.
 
 L30 I did not understand ‘Scaling up’ in this sentence.
 
@@ -117,7 +147,7 @@ Wong SC, Cowan IR, Farquhar GD. 1979. Stomatal conductance correlates with photo
 
 
 
-# Referee: 2
+## Referee: 2
 
 A defining feature of forest canopies is their vertical variation in environment and morphology and physiology, originally described through the sun-shade leaf dichotomy or even earlier through vertical stratification diagrams as in Pearson (1971), dating further back such as the classic work of P. W. Richards (1952). Such observations were carried through to the forest meteorology community by Monteith, Jarvis and others in the 1980s (Monteith & Unsworth 1990), and there are well-known patterns in micrometeorology through canopies and first-principle understanding of their meaning for energy balance within canopies. I read this review keenly interested in what these known aspects would mean for the interactions amongst leaf traits and sensitivity to temperature, tie them back to some empirical findings of more recent vintage, and possibly to gain some insights into canopy dieback phenomena during heat events or with climate warming. In the end, the latter weren’t discussed but the authors are applauded for taking on such a huge topic. Fig. 1 is a useful entrée to the subject area.
 
@@ -131,7 +161,7 @@ I was eager to see the part of the manuscript about photoprotection and also its
 In the first part of Section 5.1, the authors conclude this paragraph stating the 'dominant role of vertical profiles in microclimate in shaping tree growth rates'. However, I believe the text has confused the very large effect of light with other aspects of forest microclimate, and they very much need to clarify this. If they believe other aspects of microclimate apart from light are drivers, then I believe this would be a minority opinion in the forest biology community. If they wish to speculate about other microclimate factors that cannot be disentangled from light, I suggest that they clearly indicate their opinion and speculation. It is perhaps an area for future research to disentangle light microclimate from aspects of vertical microclimate.
 I am uncomfortable reading some of the major conclusions of the work here, such as speculation that large canopy trees are most vulnerable to warming when water is limited, but understory trees may be more vulnerable [to warming] when well-watered. This is not consistent with my knowledge of 'preponderance of available data'. Perhaps the authors implying that understory trees will succumb to warming earlier in a heat wave than large canopy trees? Is this based on the T50 evidence (l. 542-548) which is from 2 studies, or from one tree-ring study (l. 674-676), or both? An intriguing thought, but these studies and the corresponding author’s study have weaknesses and no clean experiment on this has been set up and done. I recommend that the more cautious language on l. 676-678 should in fact be repeated in the conclusions relevant to this point. It’s less stimulating and sober, but true, that it’s difficult to say so with strength of evidence and remains for further testing with good experimental design. An objective of such a review can stimulate further and better research.
 
-## Details
+### Details
 
 There are a few dense sentences or run-ons that could be revised. Lines 192-196 and lines 201-204, for instance. Please revise.
 
@@ -189,6 +219,7 @@ line510-525: There is a long discussion about whether Topt for gas exchange or i
 
 The section on VOC emissions was interesting and informative.
 
+**Thank you.**
 
 line641: 'tends to be greater in canopy trees'. Greater than what? Please state the comparison.
 
