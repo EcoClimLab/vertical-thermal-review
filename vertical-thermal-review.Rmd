@@ -191,8 +191,8 @@ These usually-modest gradients in $T_{air}$ combine with the above-described gra
 
 ## 2. Leaf temperature 
 
-$T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4), with leaves adjusting to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020; @drakeNoEvidenceHomeostatic2020]. 
-Leaves are typically cooler than the air at night, and under some daytime conditions (cloudy skies, high wind speeds, and high $T_{air}$). 
+$T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4). Leaves adjust to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes [@michaletzPlantThermoregulationEnergetics2015; @perezPhotosyntheticHeatTolerances2020; @drakeNoEvidenceHomeostatic2020]. 
+Therefore, leaves are typically cooler than the air at night, and under some daytime conditions (cloudy skies, high wind speeds, and high $T_{air}$). 
 Leaves are typically warmer than air when under full sunlight, especially under slow wind speeds and low $T_{air}$ [@doughtyAreTropicalForests2008].
 While $T_{leaf}$ is rarely exactly equal to $T_{air}$, it is most commonly within a few degrees [@cavaleriColdbloodedForestsWarming2020]. 
 
