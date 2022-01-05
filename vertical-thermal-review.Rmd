@@ -253,7 +253,7 @@ It has been established that independently of the light environment, traits also
 Therefore, ontogeny is bound to play a role in shaping leaf traits and thermal sensitivity [@carterExperimentalWarmingTropical2021a; @niinemetsResponsesForestTrees2010a]. 
 
 \newpage
-**Table `r table_leaf_traits`.** Summary of observed variation in Leaf gas exchange and its thermal sensitivity across the vertical gradient and/or between sun and shade leaves. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
+**Table `r table_leaf_traits`.** Summary of typically observed variation in leaf traits its thermal sensitivity across the vertical gradient and/or between sun and shade leaves. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
 
 ![](table1a.png)
 
