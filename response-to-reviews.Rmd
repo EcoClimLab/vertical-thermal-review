@@ -235,11 +235,15 @@ Fig. 1: In the diagram, stomatal density, leaf angle are separate categories yet
 
 Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun leaves are both computed quantities, and the basis of these should be clearer. Or at least state 'modelled LAD' and 'calculated proportion of sun leaves'.
 
+**Done**
+
 line165-172: refixation of respired CO2 in the understory isn’t mentioned here, but there have been a number of studies, particularly involving 13C, that have looked at this. Please mention along with at least 1 reference.
 
 line185: Buffering again. I supposed what is 'buffering' for the authors would conventionally be thought of differently by meteorologists. Please consult with one of them, and consider using different wording.
 
 line187: Where mentioning radiation fluxes, could I please ask the authors to use the phrase 'and sensible heat emission'? I think this is really what the authors are referring to, so why not say so?
+
+**Done**
 
 line188: 'dense canopies buffer understories' is one perspective, that there is far less radiant energy received and therefore understories stay cool is another. Can the authors please consider reflecting this perspective? I’ve studies canopies for a a score of years and I just don’t think 'buffering' is at play so much!
 
