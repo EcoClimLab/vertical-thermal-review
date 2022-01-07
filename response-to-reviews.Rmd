@@ -105,6 +105,8 @@ I thought that the comparison between intra species and interspecies gradients i
 
 L429 I am not fully sure if I understood this sentence, consider maybe developing the idea. Do you mean that the variation is higher in canopy made of multi species than on the canopy of single species? If so, I didn’t understand the comparison with understory species.
 
+*yes, I think this sentence is confusing now that I am reading it again, need to work on this*
+
 L470 A thought: Stomatal conductance is highly correlated to photosynthetic capacity (Wong et al., 1979) so the gradients in conductance are expected to follow the gradients in photosynthetic capacity. The water use efficiency (gs/A) or the slope parameter of conductance models (Medlyn et al., 2011) could change vertically inside the profiles. I don’t know if there are a lot of studies on the vertical variation of the water use efficiency or the slope parameter, but that could be something interesting to mention. See for example (Buckley, 2021).
 
 I also think you could describe a little bit more the hydraulic constraints that increase with height. See for example (Koch et al., 2004). I think there are also other papers discussing the effect of height on water potential and stomatal conductance. You mention some aspects of it later, around L 636.
@@ -216,6 +218,8 @@ I am uncomfortable reading some of the major conclusions of the work here, such 
 
 There are a few dense sentences or run-ons that could be revised. Lines 192-196 and lines 201-204, for instance. Please revise.
 
+**Done**
+
 line52: 'with decreases being more commonly documented across the world’s forests'
 
 line128: '… but understory leaf area density is often relatively high in the understory as well' sounds redundant. Please reword.
@@ -225,6 +229,9 @@ line140 'Light … decreases from the canopy top to the forest floor' – why is
 line148: 'Variability in the light environment decreases with height' – I don’t see this except perhaps at z = 0 and even so seems tenuous. Explain.
 
 Fig. 1: In the diagram, stomatal density, leaf angle are separate categories yet VAZ and VOC are not. As far as I know though, there is no biochemical link between VAZ and VOC, so these should be separate shouldn't they?
+
+**Done**
+*Need to replace updated Fig 1 image in the .rmd once all changes are made*
 
 Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun leaves are both computed quantities, and the basis of these should be clearer. Or at least state 'modelled LAD' and 'calculated proportion of sun leaves'.
 
