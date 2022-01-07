@@ -75,6 +75,8 @@ L205-206 Maybe add some references. How many degrees? In your Figure 3 there is 
 
 *Agree, but we're only changing the one variable at a time. Just need to make this clear.*
 
+*Yes, night time conditions entail a shift in Tair, which in our case is constant*
+
 L219, repetition with L 216
 
 Figure 3: TLeaf and Tleaf.
@@ -88,6 +90,8 @@ l258 under soil wet conditions?
 L298-299 Far red to red light: I think this could be developed here or somewhere else. You covered the vertical variation in light quantity inside the canopy, but you could also report the vertical change in light quality (light spectrum) as the leaves absorb preferentially some wavelengths but reflects or transmit others.
 
 L 322 consider homogenizing the photosynthetic capacity (AA) with the other notations in Table 2.
+
+**Done**
 
 Table 1: Unit for PAR absorptance (should be % I think)
 
