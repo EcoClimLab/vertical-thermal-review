@@ -249,7 +249,11 @@ line188: 'dense canopies buffer understories' is one perspective, that there is 
 
 line199 should end with something like 'to shape Tleaf patterns within canopies' rather than just drop at Tleaf.
 
+**Done**
+
 line206-207 'Leaves are typically warmer than air … '. That is not what is predicted in theory, proven by parts of the simulations in Fig. 3. Why not use 'Leaves can be warmer …'? That would be more consistent.
+
+**Done**
 
 Figure 3: Variables in the inset table need to be stated. I can guess what they are, but this should be explicit.
 
@@ -259,11 +263,16 @@ Figure 3: why not put a point that represents the leaf values for top and bottom
 
 Table 1: What is here is not leaf gas exchange, and it seems that the authors have repeated the caption for Table 2 in error. Please fix this. Also don’t capitalise ‘leaf’.
 
+**Done**
+*Need to add the updated table to .rmd*
+
 Lines 354-372 on sun versus shade leaves and Table 1. Most of what is here was known a long time ago, say in Vogel 1968 (cited) and Boardman 1977 (not cited) but pertains to within-canopy rather than between sun and shade plants. I would suggest that this would be improved if the authors started from these old studies that most readers will recognise, and state how we’ve advanced in understanding and progressed toward within-canopy work rather than between sun-and-shade habitats.
 
 line382: 'more frequent stomatal closure higher' is awkward and does not follow the comparative. Higher than what?
 
 line383: d13C is NOT a concentration, it is an isotope ratio. Please revise.
+
+**Done**
 
 line404-405: A cause-effect for an earlier, juvenile understory tree leaf-out is implied here, and I;m not sure that is demonstrated. There are other phenomena underlying this e.g. turgor, hydraulics, hormones, etc.
 
@@ -271,9 +280,13 @@ line475: 'because water supply often cannot meet the demands incurred …'. How 
 
 line478: 'intracellular CO_2' needs to be fixed.
 
+**Done**
+
 line479: 'In sun leaves, Tleaf thus further increases'. Further than what? Comparatives should have be clear what we’re comparing to.
 
 line481 'is maximized' or is maximal? Please correct.
+
+**Done**
 
 line485-487: It seems that VPD and its effect on gs is ignored here. Please clarify? The well-known stomatal closure at high VPD alone would mean higher Tair would decrease gs in the upper canopy (not 'canopy leaves' as stated) compared to the lower canopy. See Grossiord et al. (2020) Tansley Review. VPD only gets mentioned in the section on photosynthesis (l. 496). Please do so earlier.
 
