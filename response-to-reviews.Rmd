@@ -252,6 +252,9 @@ line165-172: refixation of respired CO2 in the understory isn’t mentioned here
 
 line185: Buffering again. I supposed what is 'buffering' for the authors would conventionally be thought of differently by meteorologists. Please consult with one of them, and consider using different wording.
 
+*Buffering was replaced with the following sentences:*
+*Wind speeds are also higher at the top of the canopy, that are substantially reduced moving into lower canopy layers due to resistance caused by canopy foliage  [@juckerCanopyStructureTopography2018; @jiao-junWindProfilesTrees2004].*
+
 line187: Where mentioning radiation fluxes, could I please ask the authors to use the phrase 'and sensible heat emission'? I think this is really what the authors are referring to, so why not say so?
 
 **Done**
