@@ -95,7 +95,7 @@ l258 under soil wet conditions?
 L298-299 Far red to red light: I think this could be developed here or somewhere else. You covered the vertical variation in light quantity inside the canopy, but you could also report the vertical change in light quality (light spectrum) as the leaves absorb preferentially some wavelengths but reflects or transmit others.
 
 **Added the following lines:**
-**Canopy foliage absorb a large portion of incoming light, predominantly, and selectively filter incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. This entails a decrease in red to far red ratio of light as it reaches the forest floor, where understories are enriched in near infra red radiation and absorb light in wavelengths of 700-1000nm [de Castro 2000].**
+**Canopy foliage absorb a large portion of PAR, and selectively filter incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. Along with decreasing PAR, this entails a decrease in red to far red ratio of light as it reaches the forest floor, where understories are enriched in near infra red radiation and absorb light in wavelengths of 700-1000nm [de Castro 2000; @poorterLeafOpticalProperties2000]**
 
 L 322 consider homogenizing the photosynthetic capacity (AA) with the other notations in Table 2.
 
@@ -230,7 +230,12 @@ line52: 'with decreases being more commonly documented across the world’s fore
 
 line128: '… but understory leaf area density is often relatively high in the understory as well' sounds redundant. Please reword.
 
+*removed the second 'understory' word here:* 
+*'… but understory leaf area density is often relatively high in the understory as well' sounds redundant.*
+
 line140 'Light … decreases from the canopy top to the forest floor' – why isn’t foliage clumping mentioned here amongst the other factors?
+
+**Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor. The profile shape of this light is modified by leaf area density, leaf clumping, canopy height, and canopy structure across species and forest types (Fig. 2a-d, Supporting Information Figure S1, Koike et al., 2001).** 
 
 line148: 'Variability in the light environment decreases with height' – I don’t see this except perhaps at z = 0 and even so seems tenuous. Explain.
 
