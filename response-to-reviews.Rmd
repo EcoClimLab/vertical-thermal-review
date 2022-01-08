@@ -94,6 +94,9 @@ l258 under soil wet conditions?
 
 L298-299 Far red to red light: I think this could be developed here or somewhere else. You covered the vertical variation in light quantity inside the canopy, but you could also report the vertical change in light quality (light spectrum) as the leaves absorb preferentially some wavelengths but reflects or transmit others.
 
+**Added the following lines:**
+**Canopy foliage absorb a large portion of incoming light, predominantly, and selectively filter incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. This entails a decrease in red to far red ratio of light as it reaches the forest floor, where understories are enriched in near infra red radiation and absorb light in wavelengths of 700-1000nm [de Castro 2000].**
+
 L 322 consider homogenizing the photosynthetic capacity (AA) with the other notations in Table 2.
 
 **Done**
