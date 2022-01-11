@@ -273,6 +273,12 @@ Figure 3: Variables in the inset table need to be stated. I can guess what they 
 
 Figure 3: Humid and drought is not a straight comparison. Well-watered vs. drought would be clearer as there are some assumptions about gs in these conditions that underlie the modelling being done here.
 
+*This is either a semantics issue, or a case where the reviewer is expecting greater realism that what we're actually doing. You should make that clear in the caption (also addresses comment above), and perhaps use "humid" and "dry" (rather than drought).
+
+Also note that well-watered would refer to soil moisture, and require modeling water transport through roots and stem. Drought could refer to either soil dryness or atmospheric dryness. In my mind, it's always been the latter.*
+
+*changed to "drought" to "dry"
+
 Figure 3: why not put a point that represents the leaf values for top and bottom of the canopy?
 
 Table 1: What is here is not leaf gas exchange, and it seems that the authors have repeated the caption for Table 2 in error. Please fix this. Also don’t capitalise ‘leaf’.
