@@ -499,7 +499,7 @@ While it is currently difficult to predict whether canopy or understory photosyn
 Thus, while canopy trees are probably more vulnerable to mortality from distinct heat-related disturbances, such as drought or heat waves, trees in the more buffered understory might be more negatively affected by chronic stress from warming $T_{air}$, which may reduce growth and increase the risk of carbon starvation in these small trees, which have lower NSC reserves [@niinemetsResponsesForestTrees2010].
 
 Thus, in synthesis, warming temperatures will affect trees across the vertical gradient, but the stress will be of a different nature at different heights.
-We expect that the tallest trees will be increasingly prone to hydraulic failure and damaging or lethal $T_{leaf}$'s, whereas understory trees may be increasingly prone to carbon starvation, particularly under humid conditions that make it more challenging to shed excess heat.
+We expect that the tallest trees will be increasingly prone to hydraulic failure and damaging or lethal $T_{leaf}$'s, while much larger uncertainty remains surrounding the resoponses of understory trees.
 Both groups -- but probably disproportionately the canopy trees -- are likely to experience increasing mortality, with the modes of mortality mirroring the current tendency for canopy trees to be more prone to climate-related disturbances including drought while understory trees are more prone to competition and carbon starvation [@goraImplicationsSizedependentTree2021].
 When the canopy trees die, this will open canopy gaps, as discussed in the following section.
 

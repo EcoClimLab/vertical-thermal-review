@@ -222,6 +222,8 @@ I am uncomfortable reading some of the major conclusions of the work here, such 
 
 - **"Implications: Global Change Responses : Warming" section, 4th par (previous lines 793-797: "While it is currently difficult to predict whether canopy or understory photosynthesis is likely to be more severely affected by higher $T_{air}$ (see section 4.2), *limited tree-ring evidence* indicates that understory trees *can* exhibit greater reductions in growth during unusually hot growing seasons [section 5.1, Fig 4b, @rollinsonClimateSensitivityUnderstory2020]."**
 
+- **"Implications: Global Change Responses : Warming" section, final par (previous lines 803-806: "We expect that the tallest trees will be increasingly prone to hydraulic failure and damaging or lethal $T_{leaf}$'s, *while much larger uncertainty remains surrounding the resoponses of understory trees*."**
+
 *[issue #90](https://github.com/EcoClimLab/vertical-thermal-review/issues/90)*
 
 ### Details
