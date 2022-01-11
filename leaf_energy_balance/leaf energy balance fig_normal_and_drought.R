@@ -147,8 +147,8 @@ sw<- data.frame(l_tla = sw_l$l_tleaf_tair, u_tla = sw_u$u_tleaf_tair, dr_ltla = 
 
 l_tla<-data.frame(par = sw$par, tleaf_tair = sw$l_tla, canopy_position = "understory humid")
 u_tla<-data.frame(par = sw$par, tleaf_tair = sw$u_tla, canopy_position = "overstory humid")
-dr_ltla<-data.frame(par = sw$par, tleaf_tair = sw$dr_ltla, canopy_position = "understory drought")
-dr_utla<-data.frame(par = sw$par, tleaf_tair = sw$dr_utla, canopy_position = "overstory drought") 
+dr_ltla<-data.frame(par = sw$par, tleaf_tair = sw$dr_ltla, canopy_position = "understory dry")
+dr_utla<-data.frame(par = sw$par, tleaf_tair = sw$dr_utla, canopy_position = "overstory dry") 
 
 sw<- data.frame(rbind(u_tla, l_tla, dr_utla, dr_ltla))
 
