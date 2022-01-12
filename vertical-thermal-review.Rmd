@@ -416,7 +416,7 @@ The net foliar photosynthate production is allocated among functions including r
 Among these, the process about which we know the most is woody aboveground growth, which consumes only a modest fraction of total photosynthate [~1/6 on the ecosystem level, @anderson-teixeiraCarbonCyclingMature2021] but is disproportionately important to long-term forest dynamics and carbon cycling in that it builds up woody tissues with a long residence time in the ecosystem [@russellResidenceTimesDecay2014].
 Radial stem growth may increase or decrease over time as trees grow in DBH depending on the light environment [@anderson-teixeiraJointEffectsClimate2022].
 In open forests and for open-growth individual trees, growth rate declines with DBH [@muller-landauTestingMetabolicEcology2006; @anderson-teixeiraJointEffectsClimate2022], whereas growth rate consistently increases with DBH for trees established in the understory of a closed-canopy forest [@muller-landauTestingMetabolicEcology2006; @anderson-teixeiraSizerelatedScalingTree2015]. 
-This points to a dominant role of vertical profiles in microclimate in shaping tree growth rates within forests. 
+This points to a dominant role of vertical profiles in the biophysical environment (Fig. `r fig_NEON_vertical`) in shaping tree growth rates within forests. 
 
 Vertical gradients also affect the climate sensitivity of metabolism and growth.
 Stomatal conductance tends to be more strongly limited by high atmospheric demand (high $T_{air}$ and VPD, low RH) even before soil water becomes limited in forests not experiencing drought [@novickIncreasingImportanceAtmospheric2016; @corlettImpactsWarmingTropical2011; @ruehrWaterAvailabilityDominant2016].
