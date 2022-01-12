@@ -326,6 +326,8 @@ The section on VOC emissions was interesting and informative.
 
 line641: 'tends to be greater in canopy trees'. Greater than what? Please state the comparison.
 
+**This sentence has been revised to read, "In turn, the drought sensitivity of woody growth tends to be greater in canopy trees than in smaller trees with less exposed crowns."**
+
 line650: 'In addition to lower drought resistance of growth, larger trees frequently exhibit lower ability to recover'. Having studied large overstory trees and young understory saplings, I have a very, very difficult time with this statement especially portraying it as categorically true even if consistent with the 4 cited studies. Very few researchers have studies the same species in this context, and in this review manuscript the authors cannot scientifically lay the effect on canopy position and microclimate rather than age or other confounding factors. I must challenge their assertion and ask a higher level of evidence to make these statements, which should be qualified.
 
 **As the point about resilience was not critical, we have removed that part of the statement. The sentence now reads, "In addition to lower drought resistance of growth, larger trees frequently exhibit greater increases in mortality [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019]."**
