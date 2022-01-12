@@ -218,7 +218,7 @@ In the first part of Section 5.1, the authors conclude this paragraph stating th
 
 I am uncomfortable reading some of the major conclusions of the work here, such as speculation that large canopy trees are most vulnerable to warming when water is limited, but understory trees may be more vulnerable [to warming] when well-watered. This is not consistent with my knowledge of 'preponderance of available data'. Perhaps the authors implying that understory trees will succumb to warming earlier in a heat wave than large canopy trees? Is this based on the T50 evidence (l. 542-548) which is from 2 studies, or from one tree-ring study (l. 674-676), or both? An intriguing thought, but these studies and the corresponding author’s study have weaknesses and no clean experiment on this has been set up and done. I recommend that the more cautious language on l. 676-678 should in fact be repeated in the conclusions relevant to this point. It’s less stimulating and sober, but true, that it’s difficult to say so with strength of evidence and remains for further testing with good experimental design. An objective of such a review can stimulate further and better research.
 
-**We agree that more caution is warrented on comparing canopy vs understory responses to warming, particularly because understory responses are highly uncertain. We have reworded relevant text as follows:**
+**We agree that more caution is warranted on comparing canopy vs understory responses to warming, particularly because understory responses are highly uncertain. We have reworded relevant text as follows:**
 
 - **"Implications: Global Change Responses : Warming" section, 4th par (previous lines 793-797: "While it is currently difficult to predict whether canopy or understory photosynthesis is likely to be more severely affected by higher $T_{air}$ (see section 4.2), *limited tree-ring evidence* indicates that understory trees *can* exhibit greater reductions in growth during unusually hot growing seasons [section 5.1, Fig 4b, @rollinsonClimateSensitivityUnderstory2020]."**
 
@@ -226,7 +226,6 @@ I am uncomfortable reading some of the major conclusions of the work here, such 
 
 - **Conclusions section, first par (text specifically cited in the comment above): "Similarly, much remains to be learned about how crown exposure influences the temperature sensitivity of woody stem growth. While the preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees, which might be more vulnerable to chronic warming stress under relatively mesic conditions (Fig. 4)."**
 
-*[issue #90](https://github.com/EcoClimLab/vertical-thermal-review/issues/90)*
 
 ### Details
 
