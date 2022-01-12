@@ -224,7 +224,7 @@ I am uncomfortable reading some of the major conclusions of the work here, such 
 
 - **"Implications: Global Change Responses : Warming" section, final par (previous lines 803-806: "We expect that the tallest trees will be increasingly prone to hydraulic failure and damaging or lethal $T_{leaf}$'s, *while much larger uncertainty remains surrounding the resoponses of understory trees*."**
 
-- **Conclusions section, first par (text specifically cited in the comment above): "The preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited. *While limited evidence suggests that understory trees may be more vulnerable to chronic warming stress under relatively mesic conditions*, more research is needed.**
+- **Conclusions section, first par (text specifically cited in the comment above): "Similarly, much remains to be learned about how crown exposure influences the temperature sensitivity of woody stem growth. While the preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees, which might be more vulnerable to chronic warming stress under relatively mesic conditions (Fig. 4)."**
 
 *[issue #90](https://github.com/EcoClimLab/vertical-thermal-review/issues/90)*
 
@@ -334,8 +334,8 @@ line650: 'In addition to lower drought resistance of growth, larger trees freque
 
 line946: '… how … temperature sensitivities of metabolism and woody growth vary across these vertical gradients'. I’m not sure why the authors are speculating on woody growth in this context, surely it would be extremely difficult to show that woody growth varied vertically in an individual? And that across-individual differences compound comparisons of individuals in different vertical strata? Shouldn’t these things be pointed out to readers?
 
+**This has been reworded to read, "However, there remains a lot of uncertainty as to how temperature sensitivity of foliar gas exchange varies across these vertical gradients. Similarly, much remains to be learned about how crown exposure influences the temperature sensitivity of woody stem growth. While the preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees, which might be more vulnerable to chronic warming stress under relatively mesic conditions (Fig. 4)."**
 
-*This requires rewording to clarify that we're not discussing intra-individual differences.*
 
 \newpage
 ## References
