@@ -571,7 +571,8 @@ The growing availability of these data makes this an opportune time to link fine
 
 Across vertical gradients, directional trends in the biophysical environment and leaf traits are the rule, driving variation in the physiology and ecology that have these as their underpinnings (Fig. `r fig_schematic`).
 However, there remains a lot of uncertainty as to how the temperature sensitivities of metabolism and woody growth vary across these vertical gradients.
-The preponderance of available data suggest that while large canopy trees are the most vulnerable to warming when water is limited, understory trees may be more vulnerable under more mesic conditions, but more research is needed. 
+The preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited.
+While limited evidence suggests that understory trees may be more vulnerable to chronic warming stress under relatively mesic conditions, more research is needed. 
 
 As the climate changes, patterns and processes across these vertical gradients are likely to shift as well.
 Under the historical temperatures to which tree species are acclimated, the canopy is an advantageous place for trees to have their crowns, as it affords higher photosynthesis and growth. 

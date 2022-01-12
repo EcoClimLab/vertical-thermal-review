@@ -224,6 +224,8 @@ I am uncomfortable reading some of the major conclusions of the work here, such 
 
 - **"Implications: Global Change Responses : Warming" section, final par (previous lines 803-806: "We expect that the tallest trees will be increasingly prone to hydraulic failure and damaging or lethal $T_{leaf}$'s, *while much larger uncertainty remains surrounding the resoponses of understory trees*."**
 
+- **Conclusions section, first par (text specifically cited in the comment above): "The preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited. *While limited evidence suggests that understory trees may be more vulnerable to chronic warming stress under relatively mesic conditions*, more research is needed.**
+
 *[issue #90](https://github.com/EcoClimLab/vertical-thermal-review/issues/90)*
 
 ### Details
