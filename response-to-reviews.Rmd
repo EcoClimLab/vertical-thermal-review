@@ -119,6 +119,11 @@ L470 A thought: Stomatal conductance is highly correlated to photosynthetic capa
 
 I also think you could describe a little bit more the hydraulic constraints that increase with height. See for example (Koch et al., 2004). I think there are also other papers discussing the effect of height on water potential and stomatal conductance. You mention some aspects of it later, around L 636.
 
+*need to add more water water use efficiency*
+
+**We added the following sentences related to hydraulic contraints with height:** 
+**Further, tree height also plays a role in determining the gradient of $g_s$ vertically, which has implications for $T_leaf$. With an increase in tree height, water travels a longer distance to meet the evaporative demands in sunlit canopy leaves. Longer water path length, high irradiance and VPD imposes hydraulic constraints in sunlit canopy leaves (Schäfer et al., 2000; Ambrose et al., 2010). Therefore, although typically $g_s$ increases with light, upper canopy leaves of taller trees have lower $g_s$ and leaf water potential to enable high leaf water-use efficiency (Rijkers et al., 2000; Kenzo et al., 2015). This, added to the tendency for sun leaves to have higher $T_leaf$, implies that high $T_air$ should decrease $g_s$ of canopy leaves more than understory leaves, particularly when water availability is limited.**
+
 L471, I think the word conductance is missing.
 
 **Done**
