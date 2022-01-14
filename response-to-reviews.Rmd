@@ -278,6 +278,8 @@ line206-207 'Leaves are typically warmer than air … '. That is not what is pre
 
 Figure 3: Variables in the inset table need to be stated. I can guess what they are, but this should be explicit.
 
+**Done**
+
 Figure 3: Humid and drought is not a straight comparison. Well-watered vs. drought would be clearer as there are some assumptions about gs in these conditions that underlie the modelling being done here.
 
 *This is either a semantics issue, or a case where the reviewer is expecting greater realism that what we're actually doing. You should make that clear in the caption (also addresses comment above), and perhaps use "humid" and "dry" (rather than drought).
