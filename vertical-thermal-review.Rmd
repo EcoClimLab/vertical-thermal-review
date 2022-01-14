@@ -309,7 +309,6 @@ Vertical gradients in the biophysical environment shape which plant strategies, 
 Generally, the pattern of fundamental trait adaptations to light gradients across forest species is similar to within-species trends in traits and sometimes metabolism [@rozendaalPlasticityLeafTraits2006; @thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012]. 
 For instance, across increasing tree size classes, there is an increase in the fractions of species that are deciduous [mirroring the faction of individuals, @conditQuantifyingDeciduousnessTropical2000c; @meakemRoleTreeSize2018]. 
 However, exceptions exist: at least among evergreen species, shade tolerant species tend to have higher LMA than light demanding species, by contrast with the generally higher LMA for sun than shade leaves within canopies [@luskWhyAreEvergreen2008].
-Further, the range in trait values can be several times greater in multi-species canopy than in understory species, based on their inherent species-specific traits and responses to environmental conditions. 
 Therefore, vertical gradients in $T_{leaf}$ and metabolism within forest ecosystems are underpinned by both intra- and inter-specific variation in traits. 
 
 ## 4. Leaf gas exchange and its thermal sensitivity

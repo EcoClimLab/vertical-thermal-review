@@ -111,6 +111,8 @@ I thought that the comparison between intra species and interspecies gradients i
 
 L429 I am not fully sure if I understood this sentence, consider maybe developing the idea. Do you mean that the variation is higher in canopy made of multi species than on the canopy of single species? If so, I didn’t understand the comparison with understory species.
 
+**We removed this sentence because yes, it is confusing, and the points addressed from comments above provide substantial information for inter- and intra-canopy leaf traits.**
+
 *yes, I think this sentence is confusing now that I am reading it again, need to work on this*
 
 L470 A thought: Stomatal conductance is highly correlated to photosynthetic capacity (Wong et al., 1979) so the gradients in conductance are expected to follow the gradients in photosynthetic capacity. The water use efficiency (gs/A) or the slope parameter of conductance models (Medlyn et al., 2011) could change vertically inside the profiles. I don’t know if there are a lot of studies on the vertical variation of the water use efficiency or the slope parameter, but that could be something interesting to mention. See for example (Buckley, 2021).
