@@ -264,6 +264,9 @@ Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun l
 
 line165-172: refixation of respired CO2 in the understory isn’t mentioned here, but there have been a number of studies, particularly involving 13C, that have looked at this. Please mention along with at least 1 reference.
 
+**Thank you for this suggestion, we added the following information:**
+*Vertical CO~2~ concentration gradients can influence gas exchange indicated by the ratio of leaf inter-cellular CO~2~ to ambient CO~2~ ($c_{i}/c_{a}$), and refixation of respired CO~2~ inferred by $\delta^{13}C$, where both tend to be higher in the lower canopy positions. Particularly, understory seedlings above ground can have highest rates of CO~2~ refixation [Brooks et al. 1997].*
+
 line185: Buffering again. I supposed what is 'buffering' for the authors would conventionally be thought of differently by meteorologists. Please consult with one of them, and consider using different wording.
 
 *Buffering was replaced with the following sentences:*
@@ -293,7 +296,7 @@ Figure 3: Humid and drought is not a straight comparison. Well-watered vs. droug
 
 Also note that well-watered would refer to soil moisture, and require modeling water transport through roots and stem. Drought could refer to either soil dryness or atmospheric dryness. In my mind, it's always been the latter.*
 
-*changed to "drought" to "dry"
+**changed to "drought" to "dry"**
 
 Figure 3: why not put a point that represents the leaf values for top and bottom of the canopy?
 
