@@ -43,7 +43,7 @@ for(i in 1:3){
   #create the plots and send to list
   plotsLAD[[i]] <- local({
     graph <- ggplot(df, aes(val, ht, color=site)) +
-      geom_path(size=0.7) + 
+      geom_path(size=1) + 
       ylim(0,80) + #80 to be standardized across all panels
       labs(x="", y = "") +
       theme_bw() +
@@ -52,16 +52,16 @@ for(i in 1:3){
     
     if(i==1){ #LAD
       graph <- graph +
-        xlab(expression(Leaf~area~density~(m^{2}~m^{-3}))) +
+        xlab(expression(Modelled~leaf~area~density~(m^{2}~m^{-3}))) +
         ylab("Height [m]")
     } else if(i==2){ # light profile
       graph <- graph +
-        xlab('Proportion incident light') +
+        xlab('Proportion of incident light') +
         theme(axis.text.y=element_blank(),
               axis.ticks.y=element_blank())
     } else if(i==3){ #sun leaves
       graph <- graph +
-        xlab("Proportion sun leaves") +
+        xlab("Calculated proportion of sun leaves") +
         theme(axis.text.y=element_blank(),
               axis.ticks.y=element_blank())
     } 
