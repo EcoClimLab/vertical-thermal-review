@@ -61,7 +61,7 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 **Authors:** 
 Nidhi Vinod^1,2^,
 Martijn Slot^3^,
-Ian McGregor^4^,
+Ian R. McGregor^4^,
 Elsa M. Ordway^2,5^,
 Marielle N. Smith^6^,
 Tyeen Taylor^7^,
