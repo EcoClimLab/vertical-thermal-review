@@ -245,7 +245,7 @@ line52: 'with decreases being more commonly documented across the world’s fore
 line128: '… but understory leaf area density is often relatively high in the understory as well' sounds redundant. Please reword.
 
 *removed the second 'understory' word here:* 
-*'… but understory leaf area density is often relatively high in the understory as well' sounds redundant.*
+*"Tropical and temperate forests with dense canopies dominated by broadleaf trees generally have highest leaf area density in the upper canopy layers, but understory leaf area density is often relatively high as well,"*
 
 line140 'Light … decreases from the canopy top to the forest floor' – why isn’t foliage clumping mentioned here amongst the other factors?
 
