@@ -269,14 +269,15 @@ line165-172: refixation of respired CO2 in the understory isn’t mentioned here
 
 line185: Buffering again. I supposed what is 'buffering' for the authors would conventionally be thought of differently by meteorologists. Please consult with one of them, and consider using different wording.
 
-*Buffering was replaced with the following sentences:*
-*Wind speeds are also higher at the top of the canopy, that are substantially reduced moving into lower canopy layers due to resistance caused by canopy foliage  [@juckerCanopyStructureTopography2018; @jiao-junWindProfilesTrees2004].*
+**This passage now occurs after the new paragraph about turbulent transport within canopies. We have reworded the passage as, “Despite the complexities of turbulent transport in canopies, wind speeds are generally much higher at the top of the canopy (Jiao-jun et al., 2004; Jucker et al., 2018).”**
 
 line187: Where mentioning radiation fluxes, could I please ask the authors to use the phrase 'and sensible heat emission'? I think this is really what the authors are referring to, so why not say so?
 
 **Done**
 
 line188: 'dense canopies buffer understories' is one perspective, that there is far less radiant energy received and therefore understories stay cool is another. Can the authors please consider reflecting this perspective? I’ve studies canopies for a a score of years and I just don’t think 'buffering' is at play so much!
+
+**We were using the term “buffer” in a functional or biological sense, meaning “protect,” rather than as a description of the underlying physics; i.e., the canopy protects the understory from large diel swings in both air temperature and radiation. We have reworded this passage to clarify: “Typically, diel temperature range is smaller beneath dense canopies than above, resulting in,  ~~dense canopies buffer understories from high maximum Tair more than open canopies, i.e., dense canopy understories can have~~ cooler maximum daytime Tair and warmer nighttime minimum Tair than open canopy understories or nearby clearings.”**
 
 line199 should end with something like 'to shape Tleaf patterns within canopies' rather than just drop at Tleaf.
 
