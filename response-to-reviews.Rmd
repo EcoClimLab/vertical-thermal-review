@@ -95,7 +95,7 @@ l258 under soil wet conditions?
 L298-299 Far red to red light: I think this could be developed here or somewhere else. You covered the vertical variation in light quantity inside the canopy, but you could also report the vertical change in light quality (light spectrum) as the leaves absorb preferentially some wavelengths but reflects or transmit others.
 
 **Added the following lines:**
-**Canopy foliage absorb a large portion of PAR, and selectively filter incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. Along with decreasing PAR, this entails a decrease in red to far red ratio of light as it reaches the forest floor, where understories are enriched in near infra red radiation and absorb light in wavelengths of 700-1000nm [de Castro 2000; @poorterLeafOpticalProperties2000]**
+**Canopy foliage absorb a large portion of PAR (400-700nm), and selectively filter incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. Along with decreasing PAR, there is a decrease in the red (~685-690 nm) to far red (~730-740 nm) ratio of light as it reaches the forest floor, where understories are enriched in near infrared radiation and absorb light in wavelengths of 700-1000 nm [@decastroLightSpectralComposition2000; @poorterLeafOpticalProperties2000]**
 
 L 322 consider homogenizing the photosynthetic capacity (AA) with the other notations in Table 2.
 
@@ -112,8 +112,6 @@ I thought that the comparison between intra species and interspecies gradients i
 L429 I am not fully sure if I understood this sentence, consider maybe developing the idea. Do you mean that the variation is higher in canopy made of multi species than on the canopy of single species? If so, I didn’t understand the comparison with understory species.
 
 **We removed this sentence because yes, it is confusing, and the points addressed from comments above provide substantial information for inter- and intra-canopy leaf traits.**
-
-*yes, I think this sentence is confusing now that I am reading it again, need to work on this*
 
 L470 A thought: Stomatal conductance is highly correlated to photosynthetic capacity (Wong et al., 1979) so the gradients in conductance are expected to follow the gradients in photosynthetic capacity. The water use efficiency (gs/A) or the slope parameter of conductance models (Medlyn et al., 2011) could change vertically inside the profiles. I don’t know if there are a lot of studies on the vertical variation of the water use efficiency or the slope parameter, but that could be something interesting to mention. See for example (Buckley, 2021).
 
@@ -238,25 +236,33 @@ I am uncomfortable reading some of the major conclusions of the work here, such 
 
 There are a few dense sentences or run-ons that could be revised. Lines 192-196 and lines 201-204, for instance. Please revise.
 
-**Done**
+**We revised the following lines:**
+
+- **Lines 192-196: Notably, this pattern can be reversed in open forests, where below-canopy maximum $T_{air}$ can be warmer than canopy $T_{air}$ due to turbulent air mixing and the thermal radiative flux from the soil and the canopy that is intercepted by lower-canopy layers, analogous to a ‘canopy greenhouse effect’**
+
+- **Notably, this pattern can be reversed in open forests. Analogous to a 'canopy greenhouse effect', in open forests, below-canopy maximum $T_{air}$ can be warmer than canopy $T_{air}$. This is due to turbulent air mixing and the thermal radiative flux from the soil and the canopy that is intercepted by lower-canopy layers** 
+
+- **Lines 201-204: $T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4), with leaves adjusting to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes (Drake et al., 2020; Perez & Feeley, 2020; Michaletz et al., 2015)**
+
+- **$T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4). Leaves adjust to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes **
 
 line52: 'with decreases being more commonly documented across the world’s forests'
 
 line128: '… but understory leaf area density is often relatively high in the understory as well' sounds redundant. Please reword.
 
-*removed the second 'understory' word here:* 
-*"Tropical and temperate forests with dense canopies dominated by broadleaf trees generally have highest leaf area density in the upper canopy layers, but understory leaf area density is often relatively high as well,"*
+**We removed the second 'understory' word here:** 
+**Tropical and temperate forests with dense canopies dominated by broadleaf trees generally have highest leaf area density in the upper canopy layers, but understory leaf area density is often relatively high ~~in the understory~~ as well**
 
 line140 'Light … decreases from the canopy top to the forest floor' – why isn’t foliage clumping mentioned here amongst the other factors?
 
-**Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor. The profile shape of this light is modified by leaf area density, leaf clumping, canopy height, and canopy structure across species and forest types (Fig. 2a-d, Supporting Information Figure S1, Koike et al., 2001).** 
+**We added foliage clumping into the list of factors influencing light gradient here:**
+**"Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor. The profile shape of this light is modified by leaf area density, leaf clumping, canopy height, and canopy structure across species and forest types (Fig. 2a-d, Supporting Information Figure S1, Koike et al., 2001)."** 
 
 line148: 'Variability in the light environment decreases with height' – I don’t see this except perhaps at z = 0 and even so seems tenuous. Explain.
 
 Fig. 1: In the diagram, stomatal density, leaf angle are separate categories yet VAZ and VOC are not. As far as I know though, there is no biochemical link between VAZ and VOC, so these should be separate shouldn't they?
 
-**Done**
-*Need to replace updated Fig 1 image in the .rmd once all changes are made*
+**We agree to the suggestions. Therefore, to make it more clearer, we added photoprotection as one of the factors in Fig.1 instead of VAZ and VOC in the same line.**
 
 Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun leaves are both computed quantities, and the basis of these should be clearer. Or at least state 'modelled LAD' and 'calculated proportion of sun leaves'.
 
@@ -265,7 +271,7 @@ Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun l
 line165-172: refixation of respired CO2 in the understory isn’t mentioned here, but there have been a number of studies, particularly involving 13C, that have looked at this. Please mention along with at least 1 reference.
 
 **Thank you for this suggestion, we added the following information:**
-*Vertical CO~2~ concentration gradients can influence gas exchange indicated by the ratio of leaf inter-cellular CO~2~ to ambient CO~2~ ($c_{i}/c_{a}$), and refixation of respired CO~2~ inferred by $\delta^{13}C$, where both tend to be higher in the lower canopy positions. Particularly, understory seedlings above ground can have highest rates of CO~2~ refixation [Brooks et al. 1997].*
+*"Vertical CO~2~ concentration gradients can influence the ratio of leaf inter-cellular CO~2~ to ambient CO~2~ ($c_{i}/c_{a}$), and refixation of respired CO~2~ inferred by $\delta^{13}C$, where both tend to be higher in the lower canopy positions. Particularly, understory seedlings above ground can have highest rates of CO~2~ refixation [Brooks et al. 1997]."*
 
 line185: Buffering again. I supposed what is 'buffering' for the authors would conventionally be thought of differently by meteorologists. Please consult with one of them, and consider using different wording.
 
@@ -289,15 +295,15 @@ line206-207 'Leaves are typically warmer than air … '. That is not what is pre
 
 Figure 3: Variables in the inset table need to be stated. I can guess what they are, but this should be explicit.
 
-**Done**
+**Variables in the inset table are now described in the figure caption as: "Biohphysical constants in the the table include: shortwave radiation (swr), wind speed (ws), relative humidity (rh), leaf width (lw), stomatal conductance (gs), air temperature (tair)."**
 
 Figure 3: Humid and drought is not a straight comparison. Well-watered vs. drought would be clearer as there are some assumptions about gs in these conditions that underlie the modelling being done here.
 
-*This is either a semantics issue, or a case where the reviewer is expecting greater realism that what we're actually doing. You should make that clear in the caption (also addresses comment above), and perhaps use "humid" and "dry" (rather than drought).
+*This is either a semantics issue, or a case where the reviewer is expecting greater realism that what we're actually doing. You should make that clear in the caption (also addresses comment above), and perhaps use "humid" and "dry" (rather than drought).*
 
-Also note that well-watered would refer to soil moisture, and require modeling water transport through roots and stem. Drought could refer to either soil dryness or atmospheric dryness. In my mind, it's always been the latter.*
+*Also note that well-watered would refer to soil moisture, and require modeling water transport through roots and stem. Drought could refer to either soil dryness or atmospheric dryness. In my mind, it's always been the latter.*
 
-**changed to "drought" to "dry"**
+**changed to "drought" to "dry" in the figure to refer to atmospheric dryness.**
 
 Figure 3: why not put a point that represents the leaf values for top and bottom of the canopy?
 
