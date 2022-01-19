@@ -115,7 +115,7 @@ Using published research and new analyses, we evaluate how microclimate and leaf
 In forests with dense canopies, upper-canopy leaves are exposed to the highest solar radiation and evaporative demand, which can elevate leaf temperature ($T_{leaf}$), particularly when transpirational cooling is curtailed by limited stomatal conductance.
 However, foliar traits also vary across height or light gradients, partially mitigating the elevation of upper-canopy $T_{leaf}$.
 Leaf metabolism generally increases with height across the vertical gradient, yet differences in thermal sensitivity and damage thresholds across the gradient appear modest.
-Scaling up, tall trees have higher absolute metabolic capacity and growth at both individual and ecosystem levels, yet are disproportionately vulnerable to drought and damaging $T_{leaf}$'s, particularly under climate change. 
+Scaling up from leaves to trees, tall trees have higher absolute metabolic capacity and growth at both individual and ecosystem levels, yet are disproportionately vulnerable to drought and damaging $T_{leaf}$'s, particularly under climate change. 
 In contrast, understory trees benefit from a buffered microclimate but have fewer cooling mechanisms and thus may be disproportionately impacted under hot, humid conditions, or when the buffering provided by large trees is lost.
 As the climate changes, integrating the patterns and mechanisms reviewed here into models will be critical to forecasting forest-climate feedbacks.
 
