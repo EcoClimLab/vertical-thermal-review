@@ -535,7 +535,7 @@ This simplification is computationally more efficient, although it comes at a co
 The computational middle-ground to representing vertical structure in DVGMs lies in cohort-based models, which represent vegetation as cohorts of individual plants, grouped together based on properties including size, age, and functional type [@fisherVegetationDemographicsEarth2018].
 These sit between the oversimplified vegetation dynamics in big-leaf models, which do not represent any vertical stratification, and individual-based models, whose computational expense prevents them from being integrated into Earth system models. 
 
-The findings of this review reinforce the notion that representing vertical structuring, as can be done using cohort-based-models, is essential to capturing forest dynamics under global change.
+The findings of this review reinforce the notion that representing vertical structuring, as can be done more thoroughly using cohort-based-models, is essential to capturing forest dynamics under global change.
 Improved representation of vertical variation in forest canopy architecture and ecosystem function is critical for representing thermal sensitivity and has repeatedly been identified as an important step toward reduced uncertainty and more accurate characterization of biologically mediated feedbacks [@moorcroftMethodScalingVegetation2001; @banerjeeEffectVerticalCanopy2018; @bonanMovingIncorrectUseful2021]. 
 Moreover, given the anticipated importance of mid-canopy and understory trees in ecosystem resilience to increasing mortality of canopy trees, it is absolutely essential that models separately represent these strata. 
 
