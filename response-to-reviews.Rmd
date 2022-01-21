@@ -60,6 +60,8 @@ I find it interesting to try and link the empirical and theoretical knowledge on
 
 L30 I did not understand ‘Scaling up’ in this sentence.
 
+**We specified "Scaling up" here as "Scaling up from leaves to trees,"**
+
 Figure 1 is nice. I struggled with ‘Tleaf sensitivity to shortwave radiation’ but I think it is clear after, when reading the text. Consider using the same words in the paragraph where you detail it (line 268?) and adding the reference to the figure in the text. Or maybe change the term (‘thermal capacitance’ ?) if this is the part you are referring to in the text.
 
 **Done**
@@ -73,7 +75,7 @@ I like your figures, but maybe consider homogenizing a little bit the styles for
 
 L205-206 Maybe add some references. How many degrees? In your Figure 3 there is not really a difference between Tleaf and Tair when SWR = 0. Given that the transpiration nearly stops at night (high humidity, low conductance) I would expect Tleaf – Tair to be very close to zero.
 
-**Added the following references to L205-206:**
+**$T_{leaf}$ can be well below $T_{air}$ on clear nights despite low transpiration, due to radiative coupling with the very cold sky. Added the following references to L205-206:**
 **Therefore, leaves are typically cooler than the air at night, and under some daytime conditions (cloudy skies, high wind speeds, and high $T_{air}$)[@rey-sanchez_spatial_2016; @vogelLeavesLowestHighest2009; @cavaleriColdbloodedForestsWarming2020]**
 
 *Agree, but we're only changing the one variable at a time. Just need to make this clear.*
@@ -94,8 +96,8 @@ l258 under soil wet conditions?
 
 L298-299 Far red to red light: I think this could be developed here or somewhere else. You covered the vertical variation in light quantity inside the canopy, but you could also report the vertical change in light quality (light spectrum) as the leaves absorb preferentially some wavelengths but reflects or transmit others.
 
-**Added the following lines:**
-**Canopy foliage absorb a large portion of PAR, and selectively filter incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. Along with decreasing PAR, this entails a decrease in red to far red ratio of light as it reaches the forest floor, where understories are enriched in near infra red radiation and absorb light in wavelengths of 700-1000nm [de Castro 2000; @poorterLeafOpticalProperties2000]**
+**Thank you for the suggestion, we added the following lines to Lines (xxx):**
+**Canopy foliage absorbs a large portion of PAR (400-700nm), and selectively filters incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. Along with decreasing PAR, there is a decrease in the red (~685-690 nm) to far red (~730-740 nm) ratio of light as it reaches the forest floor, where understories are enriched in near infrared radiation and absorb light in wavelengths of 700-1000 nm [@decastroLightSpectralComposition2000; @poorterLeafOpticalProperties2000]**
 
 L 322 consider homogenizing the photosynthetic capacity (AA) with the other notations in Table 2.
 
@@ -112,17 +114,26 @@ I thought that the comparison between intra species and interspecies gradients i
 L429 I am not fully sure if I understood this sentence, consider maybe developing the idea. Do you mean that the variation is higher in canopy made of multi species than on the canopy of single species? If so, I didn’t understand the comparison with understory species.
 
 **We removed this sentence because yes, it is confusing, and the points addressed from comments above provide substantial information for inter- and intra-canopy leaf traits.**
+<<<<<<< HEAD
 
 *yes, I think this sentence is confusing now that I am reading it again, need to work on this*
+=======
+>>>>>>> 7efe6dec9735684c5bad06d93b5c7f35427f16df
 
 L470 A thought: Stomatal conductance is highly correlated to photosynthetic capacity (Wong et al., 1979) so the gradients in conductance are expected to follow the gradients in photosynthetic capacity. The water use efficiency (gs/A) or the slope parameter of conductance models (Medlyn et al., 2011) could change vertically inside the profiles. I don’t know if there are a lot of studies on the vertical variation of the water use efficiency or the slope parameter, but that could be something interesting to mention. See for example (Buckley, 2021).
 
+**We appreciate this comment, and have added mention of the fact that maximum $g_s$ increases with light in the canopy because it typically tracks photosynthetic capacity, per @wongStomatalConductanceCorrelates1979. There is a great deal of literature showing that the relative limitation of photosynthesis by stomata (gs/A, or intrinsic WUE) tends to be greater in the upper canopy, which results in lower intercellular CO~2~ and C isotope discrimination, as noted in the original manuscript (lines xxx).**
+
 I also think you could describe a little bit more the hydraulic constraints that increase with height. See for example (Koch et al., 2004). I think there are also other papers discussing the effect of height on water potential and stomatal conductance. You mention some aspects of it later, around L 636.
 
+<<<<<<< HEAD
 *need to add more water water use efficiency*
 
 **We added the following sentences related to hydraulic contraints with height:** 
 **Further, tree height also plays a role in determining the gradient of $g_s$ vertically, which has implications for $T_leaf$. With an increase in tree height, water travels a longer distance to meet the evaporative demands in sunlit canopy leaves. Longer water path length, high irradiance and VPD imposes hydraulic constraints in sunlit canopy leaves (Schäfer et al., 2000; Ambrose et al., 2010). Therefore, although typically $g_s$ increases with light, upper canopy leaves of taller trees have lower $g_s$ and leaf water potential to enable high leaf water-use efficiency (Rijkers et al., 2000; Kenzo et al., 2015). This, added to the tendency for sun leaves to have higher $T_leaf$, implies that high $T_air$ should decrease $g_s$ of canopy leaves more than understory leaves, particularly when water availability is limited.**
+=======
+**We have added mention of a few papers documenting the hydraulic constraints with height as they affect stomatal conductance [@yoderEvidenceReducedPhotosynthetic1994; @kochLimitsTreeHeight2004; @sillettIncreasingWoodProduction2010].**
+>>>>>>> 7efe6dec9735684c5bad06d93b5c7f35427f16df
 
 L471, I think the word conductance is missing.
 
@@ -143,6 +154,9 @@ More details on my thoughts for the ‘Scaling across space and time’ paragrap
 Most DGCMs represent a vertical variability in the main physiological parameters (Vcmax, Jmax, Rdark, Na). See for example (Krinner et al., 2005; Clark et al., 2011; Oleson et al., 2013). They all use some form of an exponential decrease in the photosynthetic parameters from the canopy to the ground. Since a lot of parameters and variables depend on Vcmax (for example A and therefore gs), this allows the representation of the vertical variation of a lot of leaf traits and variables. Big leaf models have this capability (see for example Krinner et al. 2005 that you cited, Appendix, or Clark et al. 2011). I think it is not clear in the way you wrote this paragraph, and it looks like ‘big leaf’ models do not represent any vertical variation at all. Note also that it is possible to use multi-layer models with or without considering shaded and sunlit leaves (See for example Clark et al. 2011).
 
 *[issue #82](https://github.com/EcoClimLab/vertical-thermal-review/issues/82)*
+
+**Thank you for noting the need to clarify this point. We have added a passage at the end of the sentence that mentions big-leaf models to clarify that they do indeed account for assumed vertical profiles: “...to big-leaf models that reduce 3D vegetation structure across the entire biosphere into a single vegetation layer, ***implicitly capturing vertical profiles in light, photosynthetic capacity and other features by assuming those profiles are exponential and thus can be integrated analytically…”***(added text underlined here). We also deleted the clause that occurred two sentences later, that had said about big-leaf models: “...which do not represent any vertical stratification…”**
+
 
 
 To me, an important remark is that most gradients in DGVMs are prescribed. More data would of course help to better understand and quantify the gradients, and to compare them with model representations (part ‘Scaling in situ data with remote sensing’ of your paper). But in the end, the mechanisms explaining those gradients are still not really known, in the sense that they can’t be efficiently modeled prognostically. This is due to the multiple sources of parameters variation that you highlighted (light environment, temperature, hydraulic, …). A lot of research is done using optimality frameworks to try and predict the photosynthetic and other vegetation traits based on environmental variables. See for example (Ali et al., 2016; Buckley, 2021). A question I have, is if including more precise cohorts as you suggest, would improve the accuracy of models given all the uncertainty in the parametrization of their traits.
@@ -212,16 +226,23 @@ Given the depth of what is known about within-canopy micrometeorology, I would h
 
 Certainly, a discussion with a micrometeorologist or atmospheric scientist, if not already had, could improve the manuscript. Statements like l. 156: 'Wind speeds are also higher at the top of the canopy, owing to the buffering effect of the canopy' are an awkward read. Buffering? There could be much improvement by looking at it the other way: wind will blow as it does at the top of the canopy until encountering the plant canopy top as an aerodynamic drag element; then the additional leaf area entrains air movement and sweep-eject motion and eddies are attenuated through the canopy resulting in progressively lower windspeeds deeper into canopies. I don’t know how buffering enters into this, or what the authors mean here.
 
-
 *[issue #95](https://github.com/EcoClimLab/vertical-thermal-review/issues/95)*
+
+**We appreciate these comments and have added a discussion of canopy transport from a more theoretical perspective (lines xxx-xxx), immediately after the paragraph about canopy radiation profiles and before those on CO~2~, H~2~O and temperature profiles. We have also modified the subsequent paragraph about wind speeds to eliminate the use of the confusing term “buffering”.**
+
+**We had also used the word “buffering” in different context, where the intention was to describe how canopy attenuation (of radiation and wind) can reduce daily extremes of temperature in the lower canopy and understory. We have modified the text in those places to clarify. For example,** 
+- **“Canopy foliage acts as the primary physical barrier between the atmosphere and the forest floor, buffering multiple aspects of the understory conditions ***from large fluctuations in conditions above the canopy”; (line xxx)***(new text underlined)**
+- **“Air temperature (Tair) often shows little variation across the vertical gradient, but under certain circumstances, ***attenuation of radiation and vertical transport of sensible heat by the canopy can buffer the lower canopy and understory from large diurnal swings in air temperature***~~it can be significantly buffered by forest canopies~~"; (line xxx)**
+- **“Typically, ***diurnal temperature range is smaller beneath dense canopies than above, resulting in,***~~dense canopies buffer understories from high maximum Tair more than open canopies, i.e., dense canopy understories can have~~cooler maximum daytime Tair and warmer nighttime minimum Tair than open canopy understories or nearby clearings.” (line xxx)**
 
 I was eager to see the part of the manuscript about photoprotection and also its relationship to heat damage. The opening sentence (l. 384) was obvious to the point of being painful to read.  Of course photoprotection is higher in the upper canopy: radiation levels are higher! Can this first sentence get revised to increase information content? This is one of the more exciting topics of the review, yet is handled only in a cursory fashion. If the authors could manage a bit more discussion of this topic it would be useful – instead they move (in the same paragraph) to VOC emissions, something I view as a separate capability of some plants. This is also confused in Fig. 1 where VAZ and VOC are placed on the same line. I’d like to see a more complete discussion of photoprotection and heat dissipation by NPQ first, and a separate paragraph about VOC. Also, there is nothing about critical temperature until late in the manuscript even though the authors skirt the issue in their text about photoprotection. This kind of thermal sensitivity is different from gas exchange (the section where the text about Tcrit occurs, l. 530-555), and should have been discussed earlier in the manuscript.
 
 *[issue #92](https://github.com/EcoClimLab/vertical-thermal-review/issues/92)*
+**It is not necessarily obvious that mid- or lower-canopy leaves should have less photoprotection, given that they may experience nearly the same peak radiation loads, during sunflecks, as leaves in the upper canopy, despite generally having less capacity to dissipate light by photochemistry.** 
 
 In the first part of Section 5.1, the authors conclude this paragraph stating the 'dominant role of vertical profiles in microclimate in shaping tree growth rates'. However, I believe the text has confused the very large effect of light with other aspects of forest microclimate, and they very much need to clarify this. If they believe other aspects of microclimate apart from light are drivers, then I believe this would be a minority opinion in the forest biology community. If they wish to speculate about other microclimate factors that cannot be disentangled from light, I suggest that they clearly indicate their opinion and speculation. It is perhaps an area for future research to disentangle light microclimate from aspects of vertical microclimate.
 
-**We did not intend to argue that light was not the dominant factor, but the wording was misleading. This sentence has been revised to read, "This points to a dominant role of vertical profiles in the biophysical environment (Fig. 2) in shaping tree growth rates within forests."**
+**We did not intend to argue that light was not the dominant factor, but the wording was misleading. This sentence has been revised to read, "This points to a dominant role of vertical profiles in the biophysical environment, particularly light (Fig. 2) in shaping tree growth rates within forests."**
 
 I am uncomfortable reading some of the major conclusions of the work here, such as speculation that large canopy trees are most vulnerable to warming when water is limited, but understory trees may be more vulnerable [to warming] when well-watered. This is not consistent with my knowledge of 'preponderance of available data'. Perhaps the authors implying that understory trees will succumb to warming earlier in a heat wave than large canopy trees? Is this based on the T50 evidence (l. 542-548) which is from 2 studies, or from one tree-ring study (l. 674-676), or both? An intriguing thought, but these studies and the corresponding author’s study have weaknesses and no clean experiment on this has been set up and done. I recommend that the more cautious language on l. 676-678 should in fact be repeated in the conclusions relevant to this point. It’s less stimulating and sober, but true, that it’s difficult to say so with strength of evidence and remains for further testing with good experimental design. An objective of such a review can stimulate further and better research.
 
@@ -238,25 +259,33 @@ I am uncomfortable reading some of the major conclusions of the work here, such 
 
 There are a few dense sentences or run-ons that could be revised. Lines 192-196 and lines 201-204, for instance. Please revise.
 
-**Done**
+**We revised the following lines:**
+
+- **Lines 192-196: Notably, this pattern can be reversed in open forests, where below-canopy maximum $T_{air}$ can be warmer than canopy $T_{air}$ due to turbulent air mixing and the thermal radiative flux from the soil and the canopy that is intercepted by lower-canopy layers, analogous to a ‘canopy greenhouse effect’**
+
+- **Notably, this pattern can be reversed in open forests. Analogous to a 'canopy greenhouse effect', in open forests, below-canopy maximum $T_{air}$ can be warmer than canopy $T_{air}$. This is due to turbulent air mixing and the thermal radiative flux from the soil and the canopy that is intercepted by lower-canopy layers** 
+
+- **Lines 201-204: $T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4), with leaves adjusting to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes (Drake et al., 2020; Perez & Feeley, 2020; Michaletz et al., 2015)**
+
+- **$T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4). Leaves adjust to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes **
 
 line52: 'with decreases being more commonly documented across the world’s forests'
 
 line128: '… but understory leaf area density is often relatively high in the understory as well' sounds redundant. Please reword.
 
-*removed the second 'understory' word here:* 
-*'… but understory leaf area density is often relatively high in the understory as well' sounds redundant.*
+**We removed the second 'understory' word here:** 
+**Tropical and temperate forests with dense canopies dominated by broadleaf trees generally have highest leaf area density in the upper canopy layers, but understory leaf area density is often relatively high ~~in the understory~~ as well**
 
 line140 'Light … decreases from the canopy top to the forest floor' – why isn’t foliage clumping mentioned here amongst the other factors?
 
-**Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor. The profile shape of this light is modified by leaf area density, leaf clumping, canopy height, and canopy structure across species and forest types (Fig. 2a-d, Supporting Information Figure S1, Koike et al., 2001).** 
+**We added foliage clumping into the list of factors influencing vertical light gradient here:**
+**"Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor. The profile shape of this light is modified by leaf area density, leaf clumping, canopy height, and canopy structure across species and forest types (Fig. 2a-d, Supporting Information Figure S1, Koike et al., 2001)."** 
 
 line148: 'Variability in the light environment decreases with height' – I don’t see this except perhaps at z = 0 and even so seems tenuous. Explain.
 
 Fig. 1: In the diagram, stomatal density, leaf angle are separate categories yet VAZ and VOC are not. As far as I know though, there is no biochemical link between VAZ and VOC, so these should be separate shouldn't they?
 
-**Done**
-*Need to replace updated Fig 1 image in the .rmd once all changes are made*
+**We agree with the suggestions. Therefore, to make it more clearer, we added photoprotection as one of the factors in Fig.1 instead of VAZ and VOC in the same line.**
 
 Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun leaves are both computed quantities, and the basis of these should be clearer. Or at least state 'modelled LAD' and 'calculated proportion of sun leaves'.
 
@@ -264,16 +293,20 @@ Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun l
 
 line165-172: refixation of respired CO2 in the understory isn’t mentioned here, but there have been a number of studies, particularly involving 13C, that have looked at this. Please mention along with at least 1 reference.
 
+**Thank you for this suggestion, we added the following information:**
+*"Vertical CO~2~ concentration gradients can influence the ratio of leaf inter-cellular CO~2~ to ambient CO~2~ ($c_{i}/c_{a}$), and refixation of respired CO~2~ inferred by $\delta^{13}C$, where both tend to be higher in the lower canopy positions. Particularly, understory seedlings above ground can have highest rates of CO~2~ refixation [Brooks et al. 1997]."*
+
 line185: Buffering again. I supposed what is 'buffering' for the authors would conventionally be thought of differently by meteorologists. Please consult with one of them, and consider using different wording.
 
-*Buffering was replaced with the following sentences:*
-*Wind speeds are also higher at the top of the canopy, that are substantially reduced moving into lower canopy layers due to resistance caused by canopy foliage  [@juckerCanopyStructureTopography2018; @jiao-junWindProfilesTrees2004].*
+**This passage now occurs after the new paragraph about turbulent transport within canopies. We have reworded the passage as, “Despite the complexities of turbulent transport in canopies, wind speeds are generally much higher at the top of the canopy (Jiao-jun et al., 2004; Jucker et al., 2018).”**
 
 line187: Where mentioning radiation fluxes, could I please ask the authors to use the phrase 'and sensible heat emission'? I think this is really what the authors are referring to, so why not say so?
 
 **Done**
 
 line188: 'dense canopies buffer understories' is one perspective, that there is far less radiant energy received and therefore understories stay cool is another. Can the authors please consider reflecting this perspective? I’ve studies canopies for a a score of years and I just don’t think 'buffering' is at play so much!
+
+**We were using the term “buffer” in a functional or biological sense, meaning “protect,” rather than as a description of the underlying physics; i.e., the canopy protects the understory from large diel swings in both air temperature and radiation. We have reworded this passage to clarify: “Typically, ***diel temperature range is smaller beneath dense canopies than above, resulting in,***~~dense canopies buffer understories from high maximum Tair more than open canopies, i.e., dense canopy understories can have~~ cooler maximum daytime Tair and warmer nighttime minimum Tair than open canopy understories or nearby clearings.”**
 
 line199 should end with something like 'to shape Tleaf patterns within canopies' rather than just drop at Tleaf.
 
@@ -285,15 +318,15 @@ line206-207 'Leaves are typically warmer than air … '. That is not what is pre
 
 Figure 3: Variables in the inset table need to be stated. I can guess what they are, but this should be explicit.
 
-**Done**
+**Variables in the inset table are now described in the figure caption as: "Biohphysical constants in the the table include: shortwave radiation (swr), wind speed (ws), relative humidity (rh), leaf width (lw), stomatal conductance (gs), air temperature (tair)."**
 
 Figure 3: Humid and drought is not a straight comparison. Well-watered vs. drought would be clearer as there are some assumptions about gs in these conditions that underlie the modelling being done here.
 
-*This is either a semantics issue, or a case where the reviewer is expecting greater realism that what we're actually doing. You should make that clear in the caption (also addresses comment above), and perhaps use "humid" and "dry" (rather than drought).
+*This is either a semantics issue, or a case where the reviewer is expecting greater realism that what we're actually doing. You should make that clear in the caption (also addresses comment above), and perhaps use "humid" and "dry" (rather than drought).*
 
-Also note that well-watered would refer to soil moisture, and require modeling water transport through roots and stem. Drought could refer to either soil dryness or atmospheric dryness. In my mind, it's always been the latter.*
+*Also note that well-watered would refer to soil moisture, and require modeling water transport through roots and stem. Drought could refer to either soil dryness or atmospheric dryness. In my mind, it's always been the latter.*
 
-*changed to "drought" to "dry"
+**changed to "drought" to "dry" in the figure to refer to atmospheric dryness.**
 
 Figure 3: why not put a point that represents the leaf values for top and bottom of the canopy?
 
@@ -314,17 +347,23 @@ line404-405: A cause-effect for an earlier, juvenile understory tree leaf-out is
 
 line475: 'because water supply often cannot meet the demands incurred …'. How do we know how frequent this is? Evidence?
 
+**We have added four references showing that stomatal conductance is often limited by imbalance of water supply and evaporative demand for leaves in more elevated or more sunlit canopy positions [@yoderEvidenceReducedPhotosynthetic1994; @kochLimitsTreeHeight2004; @sillettIncreasingWoodProduction2010].**
+
 line478: 'intracellular CO_2' needs to be fixed.
 
 **Done**
 
 line479: 'In sun leaves, Tleaf thus further increases'. Further than what? Comparatives should have be clear what we’re comparing to.
 
+**This sentence has been rewritten as, “Stomatal closure reduces transpirational cooling, thus amplifying the warming of sun leaves by high radiation loads.”**
+
 line481 'is maximized' or is maximal? Please correct.
 
-**Done**
+**We have replaced “maximal” with “greatest”.**
 
 line485-487: It seems that VPD and its effect on gs is ignored here. Please clarify? The well-known stomatal closure at high VPD alone would mean higher Tair would decrease gs in the upper canopy (not 'canopy leaves' as stated) compared to the lower canopy. See Grossiord et al. (2020) Tansley Review. VPD only gets mentioned in the section on photosynthesis (l. 496). Please do so earlier.
+
+**We agree, and have modified the text in this section to emphasize the role of VPD in driving stomatal closure in sun leaves (new text underlined): “However, ~~because~~ water supply often cannot meet the demands incurred by the high irradiance and $g_b$ experienced by sun leaves ***with fully open stomata, because of height-related constraints on water transport (e.g., Yoder et al. 1994, Koch et al. 2004, Sillett et al 2010) and/or because of increased evaporative demand (VPD) caused by leaf warming in sunlit canopy locations (Buckley et al. 2014)***. As a result, midday stomatal depression is more prevalent in sun leaves than shade leaves in closed-canopy forests (Table 2), which drives the lower intracellular CO2 and carbon isotope discrimination discussed in section 3.1 (Table 1).  Stomatal depression reduces transpirational cooling, thus amplifying the warming of sun leaves by high radiation loads ~~In sun leaves, Tleaf thus further increases due to the lack of transpirational cooling.~~” We have also added the phrase ***“(driven by increased VPD)”***after “sun leaves in the upper canopy show a stronger decrease in gs in response to rising Tair”, and clarified that “high Tair should decrease gs of ***upper canopy***leaves”.**
 
 line510-525: There is a long discussion about whether Topt for gas exchange or its components differs between overstory and understory. Here the authors aren’t clear, but such a comparison only matters if the same species is measured in different canopy layers.
 

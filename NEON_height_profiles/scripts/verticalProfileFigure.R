@@ -145,13 +145,15 @@ for(i in 1:length(dp[,name])){
       scale_color_manual(values = clrs, name = "Sites") +
       ylim(0,80)
     
-    graph <- graph +
+    graph <-
+      graph +
       geom_point(aes(x = all_mean, y = plotHeight, color = site), 
-                 shape=19) +
-      geom_path(aes(x = all_mean, y = plotHeight, color = site)) +
+                 shape=19, size=4) +
+      geom_line(aes(x = all_mean, y = plotHeight, color = site), size=1) +
       ggplot2::geom_errorbarh(aes(xmin = all_mean - all_sd, 
                                   xmax = all_mean + all_sd, 
-                                  y=plotHeight, color = site, height=0.1)) +
+                                  y=plotHeight, color = site, height=0.1),
+                                  size=1) +
       labs(x = "",
            y = "") +
       theme_bw()
@@ -172,7 +174,7 @@ for(i in 1:length(dp[,name])){
           paste("max T"["bio"], " [",degree,"C]")))
     } else if(i==5){ #PAR
       graph <- graph + 
-        xlab("max PAR")
+        xlab(bquote("max PAR [" ~mu ~ mol^'-2' ~ s^'-1'~"]"))
     }
     
     ## remove y-axis from all but windspeed
