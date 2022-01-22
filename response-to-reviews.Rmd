@@ -164,6 +164,10 @@ To me, an important remark is that most gradients in DGVMs are prescribed. More 
 
 *[issue #82](https://github.com/EcoClimLab/vertical-thermal-review/issues/82)*
 
+*[This is essentially impossible to answer without doing the research. Perhaps you could just acknowledge that the value of different modeling approaches is difficult to judge a priori.]*
+
+*Agreed, although I think there is a recognition in the modeling community that we do need improved understanding of the mechanisms to better represent the level of vertical variation desired by some. I added a sentence: ("However, doing so will require improved understanding of the mechanisms controlling vertical gradients.") to acknowledge that and I also removed some of the language that emphasizes cohort based models as the only or best way to do this.* 
+
 Table S3: Including the words vertical or vertical gradient could have been useful.
 
 I included below some more references, mostly in the tropics.
