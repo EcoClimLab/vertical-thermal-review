@@ -157,7 +157,8 @@ Most DGCMs represent a vertical variability in the main physiological parameters
 
 **Thank you for noting the need to clarify this point. We have added a passage at the end of the sentence that mentions big-leaf models to clarify that they do indeed account for assumed vertical profiles: “...to big-leaf models that reduce 3D vegetation structure across the entire biosphere into a single vegetation layer, ***implicitly capturing vertical profiles in light, photosynthetic capacity and other features by assuming those profiles are exponential and thus can be integrated analytically…”***(added text underlined here). We also deleted the clause that occurred two sentences later, that had said about big-leaf models: “...which do not represent any vertical stratification…”**
 
-
+**We also added a paragraph that more clearly describes the methods used for light competition that enables the type of variation in physiological traits that you described (e.g., Vcmax). See lines X-X** 
+*Need to add these lines: "Owing to difference...".*
 
 To me, an important remark is that most gradients in DGVMs are prescribed. More data would of course help to better understand and quantify the gradients, and to compare them with model representations (part ‘Scaling in situ data with remote sensing’ of your paper). But in the end, the mechanisms explaining those gradients are still not really known, in the sense that they can’t be efficiently modeled prognostically. This is due to the multiple sources of parameters variation that you highlighted (light environment, temperature, hydraulic, …). A lot of research is done using optimality frameworks to try and predict the photosynthetic and other vegetation traits based on environmental variables. See for example (Ali et al., 2016; Buckley, 2021). A question I have, is if including more precise cohorts as you suggest, would improve the accuracy of models given all the uncertainty in the parametrization of their traits.
 
