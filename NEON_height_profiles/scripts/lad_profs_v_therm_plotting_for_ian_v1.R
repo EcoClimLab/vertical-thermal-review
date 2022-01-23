@@ -36,15 +36,15 @@ for(i in 1:3){
     df$val <- df$lad
   }
   
-  #normalize the height
-  ## as of Feb. 2021, we are not normalizing the height
-  # df$ht.norm <- df$ht/(df$max.ht)
+  #normalize the height. If not normalizing, comment this out and change the 
+  ## y-values of the plot to be ht instead of ht.norm
+  df$ht.norm <- df$ht/(df$max.ht)
   
   #create the plots and send to list
   plotsLAD[[i]] <- local({
-    graph <- ggplot(df, aes(val, ht, color=site)) +
+    graph <- ggplot(df, aes(val, ht.norm, color=site)) +
       geom_path(size=1) + 
-      ylim(0,80) + #80 to be standardized across all panels
+      ylim(0,1.75) + #if not normalizing height, ylim=c(0,80). Otherwise, c(0,2)
       labs(x="", y = "") +
       theme_bw() +
       # theme_classic(16)  + 
@@ -52,7 +52,7 @@ for(i in 1:3){
     
     if(i==1){ #LAD
       graph <- graph +
-        xlab(expression(Modelled~leaf~area~density~(m^{2}~m^{-3}))) +
+        xlab(expression(Modelled~leaf~area~density~"[m"^{2}~"m"^{-3}~"]")) +
         ylab("Height [m]")
     } else if(i==2){ # light profile
       graph <- graph +
