@@ -157,11 +157,11 @@ for(i in 1:length(dp[,name])){
       graph +
       geom_point(aes(x = all_mean, y = plotHeight, color = site), 
                  shape=19, size=4) +
-      geom_line(aes(x = all_mean, y = plotHeight, color = site), size=1) +
+      geom_path(aes(x = all_mean, y = plotHeight, color = site), size=1) +
       ggplot2::geom_errorbarh(aes(xmin = all_mean - all_sd, 
                                   xmax = all_mean + all_sd, 
-                                  y=plotHeight, color = site, height=0.1),
-                              size=1) +
+                                  y=plotHeight, color = site, height=0.1)) +
+      geom_hline(yintercept=1, linetype=2) +
       labs(x = "",
            y = "") +
       theme_bw()
@@ -197,6 +197,10 @@ for(i in 1:length(dp[,name])){
     } else {
       graph <- graph + theme(legend.position="none")
     }
+    
+    graph <- graph +
+      theme(axis.title = element_text(size=14),
+            axis.text = element_text(size=16))
   })
 }
 
@@ -205,11 +209,13 @@ names(plots) <- dp[,name]
 ## bring in LAD profiles
 source("scripts/lad_profs_v_therm_plotting_for_ian_v1.R")
 
-p <- ggarrange(plotsLAD[["LAD"]], plotsLAD[["sun"]], plotsLAD[["lgt"]], 
-               plots[["PARMean"]], 
-               plots[["windSpeedMean"]], plots[["RHMean"]], 
-               plots[["tempSingleMean"]], plots[["bioTempMean"]],
-               nrow=2, ncol=4, labels=c("A", "B", "C", "D", "E", "F", "G", "H"))
+p <- cowplot::plot_grid(plotsLAD[["LAD"]], plotsLAD[["sun"]], plotsLAD[["lgt"]], 
+                        plots[["PARMean"]], 
+                        plots[["windSpeedMean"]], plots[["RHMean"]], 
+                        plots[["tempSingleMean"]], plots[["bioTempMean"]],
+                        nrow=2, ncol=4, align="hv",
+                        labels=c("A", "B", "C", "D", "E", "F", "G", "H"),
+                        label_x=0.13)
 
 png(paste0("figures/Fig2_normalized.png"), height=600, width=960)
 print(p)
