@@ -372,6 +372,12 @@ line485-487: It seems that VPD and its effect on gs is ignored here. Please clar
 
 line510-525: There is a long discussion about whether Topt for gas exchange or its components differs between overstory and understory. Here the authors aren’t clear, but such a comparison only matters if the same species is measured in different canopy layers.
 
+**Thank you for noting this, we revised the sentence to make it clear, where we specify that majority of the studies are within species between sun and shade leaves of the same trees. However there are few studies comparing between overstory and understory, other than @carterExperimentalWarmingTropical2021**
+
+- **We have very little evidence as to how the temperature sensitivity of photosynthesis compares between sun and shade leaves, and existing studies, that are predominately within species between sun and shade leaves of the same trees reveal no pronounced overall trend with height in the optimum temperatures for photosynthetic processes**
+
+- **We also made similar changes specifying within canopy sun and shade from lines (xx-xx)**
+
 The section on VOC emissions was interesting and informative.
 
 **Thank you.**
