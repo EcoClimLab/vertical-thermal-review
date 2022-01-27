@@ -293,14 +293,15 @@ dr_gsu$u_tla<- dr_gsu$tleaf - dr_gsu$tair
 
 #create a data frame for Tleaf-Tair, for overstory and understory, in normal and drought scenario
 gs<-data.frame(l_tla = gs_l$l_tleaf_tair, u_tla = gs_u$u_tleaf_tair, dr_ltla = dr_gsl$l_tla, dr_utla = dr_gsu$u_tla, gs = gs_l$gs)
-
+gs$gs<-gs$gs/10#changing units from umol/m^2/s/Pa
+View(gs)
 #plot gs
 c1<-ggplot(gs)+
   geom_smooth(aes(x = gs, y = l_tla),  method = lm, se = FALSE, color = "#7b3294")+
   geom_smooth(aes(x = gs, y = u_tla),  method = lm, color = "#008837", se = FALSE)+
   geom_smooth(aes(x = gs, y = dr_ltla),  method = lm, color = "#7b3294", se = FALSE, linetype = "dashed")+
   geom_smooth(aes(x = gs, y = dr_utla),  method = lm, color = "#008837", se = FALSE, linetype = "dashed")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("Stomatal Conductance ($g_{s}$, mmol $m^{-2} s^{-1}$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab(TeX("Stomatal Conductance ($g_{s}$, mol $m^{-2} s^{-1}$)"))+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14)
 c1
@@ -434,10 +435,10 @@ e1
 
 
 table<- data.frame(biophysical = c("swr", "ws", "rh", "lw", "gs", "tair"),
-                   normalno = c("871", 2.88, 0.91, 0.04, "404", "25"),
-                   normal_u = c("102", 0.24, 0.97, 0.10, "202", "23"),
-                   drought_o = c("1151", 2.88, 0.46, 0.04, "1.01", "25"),
-                   normalno = c("153", 0.24, 0.49, 0.10, "1.01", "23"))
+                   normalno = c("871", 2.88, 0.91, 0.04, "0.4", "25"),
+                   normal_u = c("102", 0.24, 0.97, 0.10, "0.2", "23"),
+                   drought_o = c("1151", 2.88, 0.46, 0.04, "0.001", "25"),
+                   normalno = c("153", 0.24, 0.49, 0.10, "0.001", "23"))
 
 colnames(table) <- c("variable",
                  "overstory\nhumid", "understory\nhumid", "overstory\ndrought", "understory\ndrought")
