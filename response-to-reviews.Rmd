@@ -60,7 +60,7 @@ I find it interesting to try and link the empirical and theoretical knowledge on
 
 L30 I did not understand ‘Scaling up’ in this sentence.
 
-**We specified "Scaling up" here as "Scaling up from leaves to trees,"**
+**We specified "Scaling up" here as "Scaling up from leaves to trees,".**
 
 Figure 1 is nice. I struggled with ‘Tleaf sensitivity to shortwave radiation’ but I think it is clear after, when reading the text. Consider using the same words in the paragraph where you detail it (line 268?) and adding the reference to the figure in the text. Or maybe change the term (‘thermal capacitance’ ?) if this is the part you are referring to in the text.
 
@@ -135,7 +135,7 @@ L 513 Vcmax (c in subscript?)
 
 L 609 It is a detail, but you sometimes use the word ‘canopy’ to describe the top of the vegetation, and sometimes you precise ‘top of canopy’. You also use canopy to describe all the vegetation from understory to the canopy, and you sometimes change definition from one sentence to another. Usually, it is easy to understand with the context of the sentence, but you might want to be consistent everywhere.
 
-**We agree with the suggestion. To make the useage of different synonyms clearer, we added a note in lines(xxx)--(throughout we use "overstory", "top" and "upper" canopies as synonyms)--**
+**We agree with the suggestion. To make the useage of different synonyms clearer, we added a note in lines(xxx)"--(throughout we use "overstory", "top" and "upper" canopies as synonyms)--"**
 
 L 665 though
 
@@ -304,7 +304,7 @@ Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun l
 line165-172: refixation of respired CO2 in the understory isn’t mentioned here, but there have been a number of studies, particularly involving 13C, that have looked at this. Please mention along with at least 1 reference.
 
 **Thank you for this suggestion, we added the following information:**
-**"Vertical CO~2~ concentration gradients can influence the ratio of leaf inter-cellular CO~2~ to ambient CO~2~ ($c_{i}/c_{a}$), and refixation of respired CO~2~ inferred by $\delta^{13}C$, where both tend to be higher in the lower canopy positions. Particularly, understory seedlings above ground benefit from elevated CO~2~, therefore showing highest rates of CO~2~ refixation [Brooks et al. 1997]."**
+**"Vertical CO~2~ concentration gradients can influence the ratio of leaf inter-cellular CO~2~ to ambient CO~2~ ($c_{i}/c_{a}$), and refixation of respired CO~2~, where both tend to be higher in the lower canopy positions. Particularly, understory seedlings above ground benefit from elevated CO~2~, therefore showing highest rates of CO~2~ refixation [@brooksVerticalGradientsPhotosynthetic1997a]."**
 
 line185: Buffering again. I supposed what is 'buffering' for the authors would conventionally be thought of differently by meteorologists. Please consult with one of them, and consider using different wording.
 
@@ -328,7 +328,7 @@ line206-207 'Leaves are typically warmer than air … '. That is not what is pre
 
 Figure 3: Variables in the inset table need to be stated. I can guess what they are, but this should be explicit.
 
-**Variables in the inset table are now described in the figure caption as: "Biohphysical constants in the the table include: shortwave radiation (swr), wind speed (ws), relative humidity (rh), leaf width (lw), stomatal conductance (gs), air temperature (tair)."**
+**We added the description for the variables as part of the figure caption: Variables in the inset table are now described in the figure caption as: "Biohphysical constants in the the table include: shortwave radiation (swr), wind speed (ws), relative humidity (rh), leaf width (lw), stomatal conductance (gs), air temperature (tair)."**
 
 Figure 3: Humid and drought is not a straight comparison. Well-watered vs. drought would be clearer as there are some assumptions about gs in these conditions that underlie the modelling being done here.
 
@@ -379,7 +379,7 @@ line485-487: It seems that VPD and its effect on gs is ignored here. Please clar
 
 line510-525: There is a long discussion about whether Topt for gas exchange or its components differs between overstory and understory. Here the authors aren’t clear, but such a comparison only matters if the same species is measured in different canopy layers.
 
-**Thank you for noting this, we revised the sentence to make it clear, where we specify that majority of the studies are within species between sun and shade leaves of the same trees. However there are few studies comparing between overstory and understory, other than @carterExperimentalWarmingTropical2021**
+**Thank you for noting this, we revised the sentence to make it clear, where we specify that majority of the studies are within species between sun and shade leaves of the same trees. @carterExperimentalWarmingTropical2021 is one of the only studies comparing between overstory and understory.**
 
 - **We have very little evidence as to how the temperature sensitivity of photosynthesis compares between sun and shade leaves, and existing studies, that are predominately within species between sun and shade leaves of the same trees reveal no pronounced overall trend with height in the optimum temperatures for photosynthetic processes**
 
