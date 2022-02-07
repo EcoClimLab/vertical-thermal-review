@@ -104,14 +104,12 @@ Figure 3: TLeaf and Tleaf.
 
 l258 under soil wet conditions?
 
-*doing this because I don't think we want to talk about soil conditions. I've always had atmospheric conditions in my mind as I've thought about this.*
-*[suggestion: you could say ‘conditions conducive to stomatal opening’. If by ‘wet’ you meant high humidity, then the sentence is probably incorrect, because high humidity by itself would suppress evaporative cooling.]*
+**We have reworded this sentence to read, "In contrast, under conditions conducive to stomatal opening, higher wind speeds and $g_b$ enable cooling in the upper canopy, whereas lower wind and $g_b$ in the understory allow much less evaporative cooling  [Fig. 3b,d, @robertsStomatalBoundaryLayerConductances1990a; @martin_boundary_1999; @leighInfluenceLeafSize2017;  @songTreeSurfaceTemperature2020]."**
 
 
 L298-299 Far red to red light: I think this could be developed here or somewhere else. You covered the vertical variation in light quantity inside the canopy, but you could also report the vertical change in light quality (light spectrum) as the leaves absorb preferentially some wavelengths but reflects or transmit others.
 
-**Thank you for the suggestion, we added the following lines to Lines (xxx):**
-**Canopy foliage absorbs a large portion of PAR (400-700nm), and selectively filters incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. Along with decreasing PAR, there is a decrease in the red (~685-690 nm) to far red (~730-740 nm) ratio of light as it reaches the forest floor, where understories are enriched in near infrared radiation and absorb light in wavelengths of 700-1000 nm [@decastroLightSpectralComposition2000; @poorterLeafOpticalProperties2000]**
+**Thank you for the suggestion, we added the following here:"Canopy foliage absorbs a large portion of PAR (400-700nm), and selectively filters incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy layers. Along with decreasing PAR, there is a decrease in the red (~685-690 nm) to far red (~730-740 nm) ratio of light as it reaches the forest floor, where understories are enriched in near infrared radiation and absorb light in wavelengths of 700-1000 nm [@decastroLightSpectralComposition2000; @poorterLeafOpticalProperties2000]."**
 
 L 322 consider homogenizing the photosynthetic capacity (AA) with the other notations in Table 2.
 
