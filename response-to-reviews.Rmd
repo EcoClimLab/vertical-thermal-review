@@ -59,8 +59,11 @@ The article is easy to read and well structured, I appreciated reading it. It co
 
 I have been really interested in the comparison between gradients in canopy of individual trees and canopy made of an assemblage of species (paragraph 3.1 and 3.2. However, the paragraph 3.2 is relatively short, and I am curious if it can be developed a little bit more (maybe not!).
 
+*[issue #99](https://github.com/EcoClimLab/vertical-thermal-review/issues/99)*
 
 I find it interesting to try and link the empirical and theoretical knowledge on vertical gradients in forests with what is done in DGCMs and what should be done to improve their accuracy. However, I think there is a big step between the review (part I and II) and the author’s view on the implications for models (Scaling across space and time). I wonder if it would be possible to link a little bit more the different parts, and maybe without going that much in the technical details (cohort, big leaf, multi layers, ...) which I think are sometimes imprecise or maybe wrong. Would it be possible to explain more simply what are the vertical gradients presented in the section II, that are misrepresented today in DGCMs? Maybe by explaining which of the ‘biophysical variables’ and ‘leaf traits’ that you listed, are considered constant when they should be variable vertically?
+
+*[issue #82](https://github.com/EcoClimLab/vertical-thermal-review/issues/82)*
 
 ### Minor details that I hope will be of interest for the authors. Consider them as you see fit.
 
@@ -74,19 +77,22 @@ Figure 1 is nice. I struggled with ‘Tleaf sensitivity to shortwave radiation�
 
 Figure 2: Homogenize the units (in parenthesis or in bracket) and add the unit for PAR.
 
-*[issue #83](https://github.com/EcoClimLab/vertical-thermal-review/issues/83)*
+**Done.**
 
 I like your figures, but maybe consider homogenizing a little bit the styles for the plots between figures 2 3 and 4.
 
+**This will be done by the New Phytologist editorial staff (because it is a Tansley review). We will work with them to ensure that all the figures look good.**
 
 L205-206 Maybe add some references. How many degrees? In your Figure 3 there is not really a difference between Tleaf and Tair when SWR = 0. Given that the transpiration nearly stops at night (high humidity, low conductance) I would expect Tleaf – Tair to be very close to zero.
 
-**$T_{leaf}$ can be well below $T_{air}$ on clear nights despite low transpiration, due to radiative coupling with the very cold sky. Added the following references to L205-206:**
-**Therefore, leaves are typically cooler than the air at night, and under some daytime conditions (cloudy skies, high wind speeds, and high $T_{air}$)[@rey-sanchez_spatial_2016; @vogelLeavesLowestHighest2009; @cavaleriColdbloodedForestsWarming2020]**
+**We revised and added references to this sentence in question, which now reads: **
+**"Leaves are often cooler than the air on clear nights due to radiative coupling with the very cold sky, and under some daytime conditions [cloudy skies, high wind speeds, and high $T_{air}$, @vogelLeavesLowestHighest2009; @rey-sanchez_spatial_2016;  @cavaleriColdbloodedForestsWarming2020]."**
 
-*Agree, but we're only changing the one variable at a time. Just need to make this clear.*
+**Figure 3 shows the effect of each variable while the others are held constant (as specified in the caption). Thus, it does not represent the full suite of night-time conditions.** 
 
-*Yes, night time conditions entail a shift in Tair, which in our case is constant*
+
+*Nidhi, is this all correct??.*
+
 
 L219, repetition with L 216
 
