@@ -55,7 +55,8 @@ Nidhi Vinod & Kristina Anderson-Teixeira (on behalf of all coauthors)
 
 The article is easy to read and well structured, I appreciated reading it. It covers a broad area and explains relatively complex ideas in simple terms and efficiently. I also enjoyed the changes in scale (leaf scale to ecosystem scale). I think this paper will be very useful as a reference for the plant physiologist community and for modelers.
 
-**Thank you.**
+
+**Thank you for the review!**
 
 I have been really interested in the comparison between gradients in canopy of individual trees and canopy made of an assemblage of species (paragraph 3.1 and 3.2. However, the paragraph 3.2 is relatively short, and I am curious if it can be developed a little bit more (maybe not!).
 
@@ -220,8 +221,6 @@ Wong SC, Cowan IR, Farquhar GD. 1979. Stomatal conductance correlates with photo
 
 
 
-**Thank you for the review!**
-
 
 ## Referee: 2
 
@@ -293,7 +292,7 @@ There are a few dense sentences or run-ons that could be revised. Lines 192-196 
 
 line52: 'with decreases being more commonly documented across the world’s forests'
 
-*I don't understand what needs to be done with the sentence*
+**We do not understand this comment, but have verified that this sentence is correct.**
 
 line128: '… but understory leaf area density is often relatively high in the understory as well' sounds redundant. Please reword.
 
@@ -352,11 +351,7 @@ Figure 3: Variables in the inset table need to be stated. I can guess what they 
 
 Figure 3: Humid and drought is not a straight comparison. Well-watered vs. drought would be clearer as there are some assumptions about gs in these conditions that underlie the modelling being done here.
 
-*This is either a semantics issue, or a case where the reviewer is expecting greater realism that what we're actually doing. You should make that clear in the caption (also addresses comment above), and perhaps use "humid" and "dry" (rather than drought).*
-
-*Also note that well-watered would refer to soil moisture, and require modeling water transport through roots and stem. Drought could refer to either soil dryness or atmospheric dryness. In my mind, it's always been the latter.*
-
-**changed to "drought" to "dry" in the figure to refer to atmospheric dryness.**
+**We changed to "humid" to "moist" (as opposed to "well-watered"). We chose the term "moist" because it conveys both high soil moisture and atmospheric humidity, which is what we aim to capture.**
 
 Figure 3: why not put a point that represents the leaf values for top and bottom of the canopy?
 

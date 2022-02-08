@@ -103,7 +103,7 @@ Energy balance for a typical overstory sun leaf and understory shade leaf were m
 Micrometeorological data from the NEON tower at Harvard Forest (Fig. `r fig_NEON_vertical`, Supporting Information Methods `r appendix_NEON_methods`) was used to parameterize biophysical constants, using the mean of maximum PAR, wind speed, and $T_{air}$ for growing season months at vertical positions 60m (overstory) and 10m (understory). 
 Leaf size parameters were selected for *Quercus rubra* sun and shade leaf based on personal observations (by Vinod) and verified as reasonable by @zwienieckiHydraulicLimitationsImposed2004. 
 
-For the humid scenario, we used mean maximum RH from the NEON tower at Harvard Forest.
+For the moist scenario, we used mean maximum RH from the NEON tower at Harvard Forest.
 Stomatal conductance measurements were referred from *Tleaves* typical sun and shade measurements [@muir_tealeaves_2019] and @cavender-baresChangesDroughtResponse2000. 
 
 For the drought scenario, we reduced RH to 50% of the mean maximum from the NEON tower at Harvard Forest.
