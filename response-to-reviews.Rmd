@@ -146,9 +146,7 @@ L 513 Vcmax (c in subscript?)
 
 L 609 It is a detail, but you sometimes use the word ‘canopy’ to describe the top of the vegetation, and sometimes you precise ‘top of canopy’. You also use canopy to describe all the vegetation from understory to the canopy, and you sometimes change definition from one sentence to another. Usually, it is easy to understand with the context of the sentence, but you might want to be consistent everywhere.
 
-**We agree with the suggestion. To make the useage of different synonyms clearer, we added a note in lines(xxx)"--(throughout we use "overstory", "top" and "upper" canopies as synonyms)--"**
-
-*(incomplete)*
+**Thanks for pointing this out. We have revisited the use of the term "canopy" throughout the entire manuscript and employed with consistent terminology, using "canopy" to refer only to the layer formed by dominant trees, and using a term such as to "vertical profile" to refer to the entire gradient from understory to the canopy.**
 
 L 665 though
 
