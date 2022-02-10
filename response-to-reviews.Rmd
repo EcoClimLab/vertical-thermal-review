@@ -64,6 +64,13 @@ I have been really interested in the comparison between gradients in canopy of i
 
 I find it interesting to try and link the empirical and theoretical knowledge on vertical gradients in forests with what is done in DGCMs and what should be done to improve their accuracy. However, I think there is a big step between the review (part I and II) and the author’s view on the implications for models (Scaling across space and time). I wonder if it would be possible to link a little bit more the different parts, and maybe without going that much in the technical details (cohort, big leaf, multi layers, ...) which I think are sometimes imprecise or maybe wrong. Would it be possible to explain more simply what are the vertical gradients presented in the section II, that are misrepresented today in DGCMs? Maybe by explaining which of the ‘biophysical variables’ and ‘leaf traits’ that you listed, are considered constant when they should be variable vertically?
 
+**Thank you for the comment. We included a section that explains how vertical gradients are represented in models:**
+
+- **Models partition incoming radiation and radiation within the forest vertical profile (i.e., direct vs. diffuse light) using radiative transfer models or a system of two coupled ordinary differential equations, referred to as a two-stream approximation [@sellersCanopyReflectancePhotosynthesis1985; @fisherVegetationDemographicsEarth2018a]. Using the latter method, single canopy layers are divided into sun and shade fractions (e.g., CLM), while models with multiple vegetative layers can analytically solve the 2-stream approximation for each layer. Thus, even in single-layer models, key physiological parameters like $V_{cmax}$ and $J_{max}$ vary, decreasing with increasing LAI, or lower light conditions [e.g., @krinnerDynamicGlobalVegetation2005a].** 
+
+**Given that models vary greatly in how they capture vertical light gradients, what biophysical variables are included and how those variables are parameterized to vary (or not) across vertical gradients, we feel that it is beyond the scope of this paper to comprehensively list or explain which of those variables vary vertically across different models.**
+
+
 *[issue #82](https://github.com/EcoClimLab/vertical-thermal-review/issues/82)*
 
 ### Minor details that I hope will be of interest for the authors. Consider them as you see fit.
