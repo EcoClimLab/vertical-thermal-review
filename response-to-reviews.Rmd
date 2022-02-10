@@ -118,7 +118,7 @@ L 322 consider homogenizing the photosynthetic capacity (AA) with the other nota
 
 Table 1: Unit for PAR absorptance (should be % I think)
 
-**The units in the table are in %nm i.e. % wavelength**
+**Done**
 
 Paragraphs 3.1 and 3.2:
 I thought that the comparison between intra species and interspecies gradients is very interesting. I wondered if there are more studies to expand it. One key article that I know is (Lloyd et al., 2010) which showed that within tree gradients and between tree gradients are similar for a lot of leaf traits in tropical forests. I think this is one of the reasons why DGCMs are relatively accurate even if the canopy description is quite simple. (The vertical gradients in photosynthetic parameters are scaled on Na gradients, which are the same intra and between species in this study).
