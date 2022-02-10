@@ -98,10 +98,6 @@ L205-206 Maybe add some references. How many degrees? In your Figure 3 there is 
 
 **Figure 3 shows the effect of each variable while the others are held constant (as specified in the caption). Thus, it does not represent the full suite of night-time conditions.** 
 
-
-*Nidhi, is this all correct??.*
-
-
 L219, repetition with L 216
 
 **Done**
