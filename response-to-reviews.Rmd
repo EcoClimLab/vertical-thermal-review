@@ -139,7 +139,6 @@ I thought that the comparison between intra species and interspecies gradients i
 
 **Thanks for pointing out the Lloyd reference, which we had previously missed. We have added citations to this (e.g., *2nd* paragraph of the traits section), and have also added it to our tables).** 
 
-*https://github.com/EcoClimLab/vertical-thermal-review/issues/101*
 
 L429 I am not fully sure if I understood this sentence, consider maybe developing the idea. Do you mean that the variation is higher in canopy made of multi species than on the canopy of single species? If so, I didn’t understand the comparison with understory species.
 
@@ -267,15 +266,13 @@ Certainly, a discussion with a micrometeorologist or atmospheric scientist, if n
 
 I was eager to see the part of the manuscript about photoprotection and also its relationship to heat damage. The opening sentence (l. 384) was obvious to the point of being painful to read.  Of course photoprotection is higher in the upper canopy: radiation levels are higher! Can this first sentence get revised to increase information content? This is one of the more exciting topics of the review, yet is handled only in a cursory fashion. If the authors could manage a bit more discussion of this topic it would be useful – instead they move (in the same paragraph) to VOC emissions, something I view as a separate capability of some plants. This is also confused in Fig. 1 where VAZ and VOC are placed on the same line. I’d like to see a more complete discussion of photoprotection and heat dissipation by NPQ first, and a separate paragraph about VOC. Also, there is nothing about critical temperature until late in the manuscript even though the authors skirt the issue in their text about photoprotection. This kind of thermal sensitivity is different from gas exchange (the section where the text about Tcrit occurs, l. 530-555), and should have been discussed earlier in the manuscript.
 
-*[issue #92](https://github.com/EcoClimLab/vertical-thermal-review/issues/92)*
-
-**We have revised the first sentence to read: "Biochemical protection against foliage light and heat damage increase with peak radiation loads, and thus tend to be higher in the upper canopy than in the understory (Table 1)." We note that it is not necessarily obvious that mid- or lower-canopy leaves should have less photoprotection, given that they may experience nearly the same peak radiation loads, during sunflecks, as leaves in the upper canopy, despite generally having less capacity to dissipate light by photochemistry. We also choose to keep this rather obvious sentence because we feel that basic topic sentences are important for helping to guide readers from a diversity of sub-disciplines through the manuscript.** 
+**We have revised the first sentence here to read: "Biochemical protection against foliage light and heat damage increase with peak radiation loads, and thus tend to be higher in the upper canopy than in the understory (Table 1)." We note that it is not necessarily obvious that mid- or lower-canopy leaves should have less photoprotection, given that they may experience nearly the same peak radiation loads, during sunflecks, as leaves in the upper canopy, despite generally having less capacity to dissipate light by photochemistry. We also choose to keep this rather obvious sentence because we feel that basic topic sentences are important for helping to guide readers from a diversity of sub-disciplines through the manuscript.** 
 
 **We separated VAZ section from VOC, and provided further context to NPQ in the following paragraph:**
 
 - **Heat and associated VPD can indirectly impact the photosynthetic machinery by reducing the capacity to use light energy for photochemistry, thereby increasing the potential for photoinhibition. Accumulation of excess light energy results in overreduction of the electron transport chain and the formation of harmful reactive oxygen species (ROS) [@niyogiSafetyValvesPhotosynthesis2000; @suzukiReactiveOxygenSpecies2006a]. A ubiquitous defense is a rapidly inducible non-photochemical quenching (NPQ) mechanism that responds to the increased thylakoid pH gradient caused by accumulated light energy [@niyogiSafetyValvesPhotosynthesis2000; @gossBiodiversityNPQ2015]. This form of NPQ is accomplished by the interconversion of xanthophyll cycle pigments—violaxanthin, antheraxanthin, and zeaxanthin (VAZ)—which regulates the capacity for de-excitation of chlorophyll through thermal dissipation instead of photochemistry. Due to higher leaf temperatures and hydraulic limitations, upper canopy leaves spend more time with stomata closed, and therefore require a high capacity to dissipate excess light energy [@niinemetsPhotosynthesisResourceDistribution2007]. Correspondingly, leaves in higher light environments show a greater capacity for NPQ and higher concentrations of VAZ as well as other carotenoids (e.g., beta carotene and lutein) employed as antioxidant defenses [Table 1, @niinemetsAcclimationHighIrradiance1998; @garcia-plazaolaAcclimationAntioxidantPools2004a; @scartazzaInvestigatingEuropeanBeech2016a]. In contrast, leaves deeper in the canopy experience rapid light and temperature surges (can exceed 10˚C) during sunflecks [@waySunflecksTreesForests2012]. In order to maximize carbon uptake and minimize damage during sunflecks, shade-acclimated leaves tend to induce photochemical processes more quickly [@urbanInductionPhotosynthesisImportance2007], and also show a steeper response of NPQ to light compared to sun-acclimated, upper canopy leaves [@scartazzaInvestigatingEuropeanBeech2016a].**
 
-**We also moved thermal sensitivity paragraph to the earlier part of the manuscript, the paragph after the discussion on VOC.**
+**We also moved thermal sensitivity content to the traits section (now with its own sub-heading).**
 
 In the first part of Section 5.1, the authors conclude this paragraph stating the 'dominant role of vertical profiles in microclimate in shaping tree growth rates'. However, I believe the text has confused the very large effect of light with other aspects of forest microclimate, and they very much need to clarify this. If they believe other aspects of microclimate apart from light are drivers, then I believe this would be a minority opinion in the forest biology community. If they wish to speculate about other microclimate factors that cannot be disentangled from light, I suggest that they clearly indicate their opinion and speculation. It is perhaps an area for future research to disentangle light microclimate from aspects of vertical microclimate.
 
@@ -371,7 +368,9 @@ Figure 3: Humid and drought is not a straight comparison. Well-watered vs. droug
 
 Figure 3: why not put a point that represents the leaf values for top and bottom of the canopy?
 
-*https://github.com/EcoClimLab/vertical-thermal-review/issues/84* 
+**We have added points along each line to indicate the constants applied in the other modeling scenarios. These dots represent our best estimates of "typical" values.** 
+
+*(this remains to be done: https://github.com/EcoClimLab/vertical-thermal-review/issues/84)* 
 
 Table 1: What is here is not leaf gas exchange, and it seems that the authors have repeated the caption for Table 2 in error. Please fix this. Also don’t capitalise ‘leaf’.
 
