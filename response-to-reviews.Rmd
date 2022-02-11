@@ -336,7 +336,7 @@ Fig. 2 is a mix of computed and measured quantities. LAD and proportion of sun l
 line165-172: refixation of respired CO2 in the understory isn’t mentioned here, but there have been a number of studies, particularly involving 13C, that have looked at this. Please mention along with at least 1 reference.
 
 **Thank you for this suggestion, we added the following information:**
-**"Vertical CO~2~ concentration gradients can influence the ratio of leaf inter-cellular CO~2~ to ambient CO~2~ ($c_{i}/c_{a}$), and refixation of respired CO~2~, where both tend to be higher in the lower canopy positions. Particularly, understory seedlings above ground benefit from elevated CO~2~, therefore showing highest rates of CO~2~ refixation [@brooksVerticalGradientsPhotosynthetic1997a]."**
+**"Vertical CO~2~ concentration gradients can influence the ratio of leaf inter-cellular CO~2~ to ambient CO~2~ ($c_{i}/c_{a}$) calculated from $\delta^{13}C$, and refixation of respired CO~2~, where both tend to be higher in the lower canopy positions. Particularly, understory seedlings above ground benefit from elevated CO~2~, therefore showing highest rates of CO~2~ refixation [@brooksVerticalGradientsPhotosynthetic1997a]."**
 
 line185: Buffering again. I supposed what is 'buffering' for the authors would conventionally be thought of differently by meteorologists. Please consult with one of them, and consider using different wording.
 
