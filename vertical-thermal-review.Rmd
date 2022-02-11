@@ -263,17 +263,14 @@ Therefore, a continuum of sun and shade leaves are observed throughout the verti
 
 Across the vertical gradient, traits vary (1) across sun and shade leaves within individuals, (2) across canopy and understory individuals of the same species, and (3) across canopy and understory species. 
 The majority of studies characterizing variation in leaf traits or metabolism examine intraspecific patterns (categories 1 and 2), which are therefore the main focus of this review (Table `r table_leaf_traits`).
-However, when it comes to understanding and modeling forest ecosystem function, given that species traits strongly shape the propensity for trees to inhabit understory vs. canopy positions, ecosystem function is also shaped by interspecific trait variation [e.g., @cavaleri_height_2010].
-
-Vertical gradients in the biophysical environment shape which plant strategies, or sets of traits, are competitive in canopy versus understory conditions, thereby shaping community composition across size classes. 
-Generally, the pattern of fundamental trait adaptations to light gradients across forest species is similar to within-species trends in traits and sometimes metabolism [@rozendaalPlasticityLeafTraits2006; @thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @binLeafTraitExpression2022]. 
-However, exceptions exist: at least among evergreen species, shade tolerant species tend to have higher LMA than light demanding species, by contrast with the generally higher LMA for sun than shade leaves within canopies [@luskWhyAreEvergreen2008].
-Therefore, vertical gradients in $T_{leaf}$ and metabolism within forest ecosystems are underpinned by both intra- and inter-specific variation in traits. 
+Generally, the pattern of fundamental trait adaptations to light gradients across forest species is similar to within-species trends in traits and sometimes metabolism [@rozendaalPlasticityLeafTraits2006; @thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @binLeafTraitExpression2022; @cavaleri_height_2010]; however, counter-gradient variation can exist [e.g., @luskWhyAreEvergreen2008].
+Overall, when it comes to understanding and modeling forest ecosystem function, many leaf physiological parameters can be estimated based on foliage height profiles [e.g., @cavaleri_height_2010].
 
 Leaf traits vary along the vertical light gradient [*i.e.,* sun and shade leaves, @casasSunShadeLeaves2011; @binLeafTraitExpression2022] at a biochemical, anatomical and structural level [Table `r table_leaf_traits`, @sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020]. Much of our understanding of trait coordination is based on the leaf economics spectrum concept developed across diverse species [@wrightWorldwideLeafEconomics2004], sun leaves [@chenLeafEconomicsSpectrum2020; @keenanGlobalLeafTrait2016], so further research is needed to characterize trait relationships and responses across the full range of microenvironments spanning the forest vertical gradient. 
 It has been established that independent of the light environment, traits also vary within species along the ontogenetic trajectory from the understory to the upper canopy. 
 For example, leaf mass per area (LMA), photosynthetic capacity ($A_{max}$ per area) and $g_s$ have been observed to increase with height, independently of light [@thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @cavender-baresChangesDroughtResponse2000; @binLeafTraitExpression2022]. 
 Therefore, ontogeny is bound to play a role in shaping leaf traits and thermal sensitivity [@carterExperimentalWarmingTropical2021; @niinemetsResponsesForestTrees2010a]. 
+
 
 \newpage
 **Table `r table_leaf_traits`.** Summary of typically observed variation in leaf traits and its thermal sensitivity across the vertical gradient and/or between sun and shade leaves. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
