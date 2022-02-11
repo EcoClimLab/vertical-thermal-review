@@ -324,12 +324,16 @@ Less than half of tree species express significant light-dependent emissions [@k
 
 ## 3.# Thermal tolerance
 
-Thermal thresholds for leaves have also been hypothesized to vary with leaf temperature, and thus be higher in sun-exposed upper canopy leaves than in understory leaves. 
+<!--short par giving background on thermal tolerance-->
 The upper thermal thresholds for leaf survival can be approximated by assessing the photosystem II (PSII) functioning using chlorophyll fluorescence techniques [@krauseHightemperatureToleranceTropical2010]. 
-Considering sun and shade leaf differences within canopy (Table `r table_leaf_traits`), the temperature at which PSII efficiency declines, $T_{crit}$, and at which it has decreased by 50%, $T_{50}$, varies modestly across the canopy, being only slightly lower for shade than sun leaves for two of three tree species in Panama [@slotPhotosyntheticHeatTolerance2019]. 
 At very high $T_{leaf}$ (~40-60 $^{\circ}$C), photosystem II incurs irreversible damage, eventually leading to leaf necrosis and death [@bakerChlorophyllFluorescenceProbe2008; @feeley_thermal_2020; @kunertSummerTemperaturesReachinpress]. 
 Thermal tolerance is described in terms of the temperature at which efficiency of photosystem II starts to decrease, $T_{crit}$, and the $T_{leaf}$ at which efficiency of photosystem II had decreased by 50%, $T_{50}$ [@slotLeafHeatTolerance2021]. 
-Thermal thresholds for photosystem II functioning serve as good proxies for temperatures at which leaves get necrotic [@krauseHightemperatureToleranceTropical2010].
+
+
+Thermal thresholds for leaves have been hypothesized to vary with leaf temperature, and thus to be higher in sun-exposed upper canopy leaves than in understory leaves. 
+
+Considering sun and shade leaf differences within canopy (Table `r table_leaf_traits`), the temperature at which PSII efficiency declines, $T_{crit}$, and at which it has decreased by 50%, $T_{50}$, varies modestly across the canopy, being only slightly lower for shade than sun leaves for two of three tree species in Panama [@slotPhotosyntheticHeatTolerance2019]. 
+
 Thermal tolerances vary across species, with more variation explained by leaf traits than phylogeny [@feeley_thermal_2020; @slotLeafHeatTolerance2021]; for example, among tropical species, $T_{crit}$ and $T_{50}$ were found to be high in species with large leaves with high thermal capacitance and those with high LMA, respectively [@slotLeafHeatTolerance2021]. 
 Thermal tolerances vary globally across latitude and climate, where $T_{50}$ and $T_{crit}$ decrease across increasing latitudes, and with elevation among tropical forests [@feeley_thermal_2020;  @slotLeafHeatTolerance2021; @osullivanThermalLimitsLeaf2017].
 However, they are more closely adapted to microclimate than macroclimate [@feeley_thermal_2020; @slotLeafHeatTolerance2021]. 
