@@ -27,9 +27,11 @@ Dear Editor:
 
 We are pleased to submit a revised version of our manuscript, "Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications" (NPH-TR-2021-38020), for consideration for publication in *New Phytologist*. We have addressed all points raised by the reviewers, as detailed below. The most significant changes include:
 
-- We have brought in an additional author, Thomas Buckley, to round out the expertise of the author team and help address some of the reviewer comments (particularly R2).
+- We have brought in an additional author, Thomas Buckley, to round out the expertise of the author team and help address some of the reviewer comments (particularly Reviewer 2).
 
-- Revised three figures (Figs. 1-3) based on reviewer comments 
+- We did some modest reorganization, including moving the paragraph on $T_{crit}$ to the traits section (suggested by Reviewer 2) and reorganizing the traits section around trait groupings, as opposed to intra-specific/ interspecific. This rearrangement of the traits section better parallels Table 1 and the following section on leaf gas exchange.
+
+- We revised three figures (Figs. 1-3) based on reviewer comments 
 
 Regarding production of the figures, below are some specific criteria:
 <!--To ensure rapid handling of your manuscript we would be grateful if you could confirm, in the cover letter to the Editor, whether or not there are any important elements of the figures that need to be retained (eg. colours used, plant species drawn, layout and spacing, symbols, etc) and if you have specific instructions that you would like the illustrator to take on board.-->
@@ -60,7 +62,12 @@ The article is easy to read and well structured, I appreciated reading it. It co
 
 I have been really interested in the comparison between gradients in canopy of individual trees and canopy made of an assemblage of species (paragraph 3.1 and 3.2. However, the paragraph 3.2 is relatively short, and I am curious if it can be developed a little bit more (maybe not!).
 
-*[issue #99](https://github.com/EcoClimLab/vertical-thermal-review/issues/99)*
+
+**We ended up removing former section 3.2 because we reorganized the traits section around trait groupings, as opposed to intra-specific/ interspecific. This rearrangement of the traits section better parallels Table 1 and the following section on leaf gas exchange. We integrated the content that was previously in this section throughout the traits section, as appropriate.** 
+
+**Unfortunately, we've been unable to find many studies examining vertical gradients at the interspecific level, and have included those of which we are aware.**
+
+
 
 I find it interesting to try and link the empirical and theoretical knowledge on vertical gradients in forests with what is done in DGCMs and what should be done to improve their accuracy. However, I think there is a big step between the review (part I and II) and the author’s view on the implications for models (Scaling across space and time). I wonder if it would be possible to link a little bit more the different parts, and maybe without going that much in the technical details (cohort, big leaf, multi layers, ...) which I think are sometimes imprecise or maybe wrong. Would it be possible to explain more simply what are the vertical gradients presented in the section II, that are misrepresented today in DGCMs? Maybe by explaining which of the ‘biophysical variables’ and ‘leaf traits’ that you listed, are considered constant when they should be variable vertically?
 
@@ -126,7 +133,13 @@ Table 1: Unit for PAR absorptance (should be % I think)
 Paragraphs 3.1 and 3.2:
 I thought that the comparison between intra species and interspecies gradients is very interesting. I wondered if there are more studies to expand it. One key article that I know is (Lloyd et al., 2010) which showed that within tree gradients and between tree gradients are similar for a lot of leaf traits in tropical forests. I think this is one of the reasons why DGCMs are relatively accurate even if the canopy description is quite simple. (The vertical gradients in photosynthetic parameters are scaled on Na gradients, which are the same intra and between species in this study).
 
-*[issue #99](https://github.com/EcoClimLab/vertical-thermal-review/issues/99)*
+**We ended up removing former section 3.2 because we reorganized the traits section around trait groupings, as opposed to intra-specific/ interspecific. This rearrangement of the traits section better parallels Table 1 and the following section on leaf gas exchange. We integrated the content that was previously in this section throughout the traits section, as appropriate.** 
+
+**Unfortunately, we've been unable to find many studies examining vertical gradients at the interspecific level, and have included those of which we are aware.**
+
+**Thanks for pointing out the Lloyd reference, which we had previously missed. We have added citations to this (e.g., *2nd* paragraph of the traits section), and have also added it to our tables).** 
+
+*https://github.com/EcoClimLab/vertical-thermal-review/issues/101*
 
 L429 I am not fully sure if I understood this sentence, consider maybe developing the idea. Do you mean that the variation is higher in canopy made of multi species than on the canopy of single species? If so, I didn’t understand the comparison with understory species.
 
