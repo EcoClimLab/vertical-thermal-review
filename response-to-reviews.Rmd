@@ -276,7 +276,7 @@ I am uncomfortable reading some of the major conclusions of the work here, such 
 
 - **"Implications: Global Change Responses : Warming" section, final par (previous lines 803-806: "We expect that the tallest trees will be increasingly prone to hydraulic failure and damaging or lethal $T_{leaf}$'s, *while much larger uncertainty remains surrounding the resoponses of understory trees*."**
 
-- **Conclusions section, first par (text specifically cited in the comment above): "Similarly, much remains to be learned about how crown exposure influences the temperature sensitivity of woody stem growth. While the preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees, which might be more vulnerable to chronic warming stress under relatively mesic conditions (Fig. 4)."**
+- **Conclusions section, first part (text specifically cited in the comment above): "Similarly, much remains to be learned about how crown exposure influences the temperature sensitivity of woody stem growth. While the preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees, which might be more vulnerable to chronic warming stress under relatively mesic conditions (Fig. 4)."**
 
 
 ### Details
@@ -378,7 +378,7 @@ line383: d13C is NOT a concentration, it is an isotope ratio. Please revise.
 
 line404-405: A cause-effect for an earlier, juvenile understory tree leaf-out is implied here, and I;m not sure that is demonstrated. There are other phenomena underlying this e.g. turgor, hydraulics, hormones, etc.
 
-**Thank you for pointing this out. In line404-405, we are concentrated on interactions between microenvironments and function. We edited the text to emphasize the mechanisms for earlier bud break in the understory, including warmer temperatures, and the benefits of maximizing carbon gain before overstory closure reduces light availability [added ref. @leeSpringPhenologicalEscape2021]. We edited the rest of the paragraph to more clearly emphasize mechanisms of feedbacks between vertically structured microenvironments, leaf phenology, and forest function.**
+**Thank you for pointing this out. In line 404-405, we are concentrated on interactions between microenvironments and function. We edited the text to emphasize the mechanisms for earlier bud break in the understory, including warmer temperatures, and the benefits of maximizing carbon gain before overstory closure reduces light availability [added ref. @leeSpringPhenologicalEscape2021]. We edited the rest of the paragraph to more clearly emphasize mechanisms of feedbacks between vertically structured microenvironments, leaf phenology, and forest function.**
 
 
 line475: 'because water supply often cannot meet the demands incurred …'. How do we know how frequent this is? Evidence?
