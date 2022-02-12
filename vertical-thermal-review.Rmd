@@ -139,8 +139,8 @@ Here, we review how the biophysical environment and plant form and function vary
 We focus on five key themes (Fig. `r fig_schematic`):
 (1) the biophysical environment;
 (2) leaf temperature ($T_{leaf}$);
-(3) the leaf traits that most strongly influence $T_{leaf}$;
-(4) leaf gas exchange (including stomatal and boundary layer conductance, photosynthesis, respiration, and volatile organic compound emission) and its thermal sensitivity; and 
+(3) the leaf traits that most strongly influence $T_{leaf}$ and thermal tolerance;
+(4) leaf gas exchange (including stomatal and boundary layer conductance, photosynthesis, and respiration) and its thermal sensitivity; and 
 (5) tree and ecosystem ecology.
 We then consider the implications for understanding forest responses to global change, including how these responses scale across space and time. 
 
@@ -326,8 +326,21 @@ Correspondingly, leaves in higher light environments show a greater capacity for
 In contrast, leaves deeper in the canopy experience rapid light and temperature surges (can exceed 10˚C) during sunflecks [@waySunflecksTreesForests2012].
 In order to maximize carbon uptake and minimize damage during sunflecks, shade-acclimated leaves tend to induce photochemical processes more quickly [@urbanInductionPhotosynthesisImportance2007], and also show a steeper response of NPQ to light compared to sun-acclimated, upper canopy leaves [@scartazzaInvestigatingEuropeanBeech2016a].
 
+<!--VOCs-->
 Capacity for heat-sensitive, light-dependent (photosynthetically linked) emissions of volatile organic compounds (VOCs), including isoprene and monoterpenes, enhances photosynthetic thermal tolerance by regulating antioxidant defenses and other metabolic processes [@sharkeyIsopreneEmissionPlants2008; @taylorCapacityEmitIsoprene2019; @monsonLeafIsopreneEmission2021; @vickersUnifiedMechanismAction2009; @copoloviciCapacityThermalProtection2005; @riedlmeierMonoterpenesSupportSystemic2017]. 
-Less than half of tree species express significant light-dependent emissions [@kesselmeierBiogenicVolatileOrganic; @taylorIsopreneEmissionStructures2018], such that variation in emissions across the vertical profile can be influenced both by vertical variation in species compositions and plasticity in emission rate capacities [see section 4.4, @taylorNewFieldInstrument2021].
+Less than half of tree species express significant light-dependent emissions [@kesselmeierBiogenicVolatileOrganic; @taylorIsopreneEmissionStructures2018], such that variation in emissions across the vertical profile can be influenced both by vertical variation in species compositions and plasticity in emission rate capacities [@taylorNewFieldInstrument2021].
+
+
+Emission of the VOCs isoprene and a diversity of monoterpenes are similarly light and temperature sensitive, and play similar roles in photosynthetic thermal tolerance [@taylorCapacityEmitIsoprene2019; @sharkeyIsopreneEmissionPlants2008; @vickersUnifiedMechanismAction2009; @copoloviciCapacityThermalProtection2005]. 
+In contrast to VOCs stored in oils that are released passively by heat and wounding, such as the monoterpenes responsible for pine scent, light-dependent emissions are linked to photosynthetic substrate supply and are dynamically tuned to environmental and metabolic conditions as a component of metabolic regulatory processes [@monsonLeafIsopreneEmission2021; @laothawornkitkulBiogenicVolatileOrganic2009; @lantzIsopreneNewInsights2019; @riedlmeierMonoterpenesSupportSystemic2017]. 
+Due to its much higher emission rates and relative ease of detectability, isoprene has received far more study in the field, though both isoprene and monoterpenes are expressed by a wide diversity of angiosperms and gymnosperms across all biomes of the globe [see @taylorNewFieldInstrument2021 and references therein]. 
+Within species, isoprene emission rates tend to increase toward brighter and hotter microenvironments [@niinemetsPhotosynthesisResourceDistribution2007], and across landscapes, emitting species increase in relative abundance toward hotter climates, exceeding half of trees in warm tropical forests [@taylorIsopreneEmissionStructures2018]. 
+However, a recent study found a contrasting interspecific vertical structuring of emission capacities, with more emitting species and higher species-maximum emission rates in the mid-canopy region of an Amazonian forest [Table `r table_leaf_metabolism`, @taylorNewFieldInstrument2021]. 
+Similarly, within tree crowns of European beech, monoterpene emissions were found to be highest in semi-shaded leaves beneath the canopy surface [Table `r table_leaf_metabolism`, @simpragaVerticalCanopyGradient2013]. 
+This pattern may indicate the importance of temporal variability in thermal conditions as distinct from the long-term average. 
+Temperature sensitive VOC emissions have been hypothesized to enable real-time acclimation to rapidly changing leaf thermal environments typical of the mid-canopy region [see section 1, @sharkeyIsopreneEmissionPlants2008]. 
+Future work seeking to understand how temporal dynamics of leaf heating [see @leighInfluenceLeafSize2017] with height and influence leaf function will be important for resolving the role of VOCs in forest thermal sensitivity across the vertical gradient. 
+Given current understanding, we may hypothesize that light-dependent VOC emissions are important for mid-canopy thermal responses, while other traits play the same role in sun-exposed canopy leaves.
 
 
 ## 3.# Thermal tolerance
@@ -427,18 +440,7 @@ Specifically, the temperature sensitivity of respiration can be constant within 
 This variation may be attributable to forest type, leaf traits and age [e.g., greater $Q_{10}$ in younger leaves, @zhouLeafageEffectsTemperature2015], or acclimation to high temperature that decreases $Q_{10}$ [@slotGeneralPatternsAcclimation2015; @carterExperimentalWarmingTropical2021]. 
 Overall, however, we currently lack synthetic understanding of how and why the temperature sensitivity of respiration varies across the forest vertical profile. 
 
-### 4.4. VOC emissions
 
-Emission of the VOCs isoprene and a diversity of monoterpenes are similarly light and temperature sensitive, and play similar roles in photosynthetic thermal tolerance [@taylorCapacityEmitIsoprene2019; @sharkeyIsopreneEmissionPlants2008; @vickersUnifiedMechanismAction2009; @copoloviciCapacityThermalProtection2005]. 
-In contrast to VOCs stored in oils that are released passively by heat and wounding, such as the monoterpenes responsible for pine scent, light-dependent emissions are linked to photosynthetic substrate supply and are dynamically tuned to environmental and metabolic conditions as a component of metabolic regulatory processes [@monsonLeafIsopreneEmission2021; @laothawornkitkulBiogenicVolatileOrganic2009; @lantzIsopreneNewInsights2019; @riedlmeierMonoterpenesSupportSystemic2017]. 
-Due to its much higher emission rates and relative ease of detectability, isoprene has received far more study in the field, though both isoprene and monoterpenes are expressed by a wide diversity of angiosperms and gymnosperms across all biomes of the globe [see @taylorNewFieldInstrument2021 and references therein]. 
-Within species, isoprene emission rates tend to increase toward brighter and hotter microenvironments [@niinemetsPhotosynthesisResourceDistribution2007], and across landscapes, emitting species increase in relative abundance toward hotter climates, exceeding half of trees in warm tropical forests [@taylorIsopreneEmissionStructures2018]. 
-However, a recent study found a contrasting interspecific vertical structuring of emission capacities, with more emitting species and higher species-maximum emission rates in the mid-canopy region of an Amazonian forest [Table `r table_leaf_metabolism`, @taylorNewFieldInstrument2021]. 
-Similarly, within tree crowns of European beech, monoterpene emissions were found to be highest in semi-shaded leaves beneath the canopy surface [Table `r table_leaf_metabolism`, @simpragaVerticalCanopyGradient2013]. 
-This pattern may indicate the importance of temporal variability in thermal conditions as distinct from the long-term average. 
-Temperature sensitive VOC emissions have been hypothesized to enable real-time acclimation to rapidly changing leaf thermal environments typical of the mid-canopy region [see section 1, @sharkeyIsopreneEmissionPlants2008]. 
-Future work seeking to understand how temporal dynamics of leaf heating [see @leighInfluenceLeafSize2017] with height and influence leaf function will be important for resolving the role of VOCs in forest thermal sensitivity across the vertical gradient. 
-Given current understanding, we may hypothesize that light-dependent VOC emissions are important for mid-canopy thermal responses, while other traits play the same role in sun-exposed canopy leaves.
 
 ## 5. Tree and ecosystem ecology
 

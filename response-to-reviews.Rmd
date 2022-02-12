@@ -29,7 +29,7 @@ We are pleased to submit a revised version of our manuscript, "Thermal sensitivi
 
 - We have brought in an additional author, Thomas Buckley, to round out the expertise of the author team and help address some of the reviewer comments (particularly Reviewer 2).
 
-- We did some modest reorganization, including moving the paragraph on $T_{crit}$ to the traits section (suggested by Reviewer 2) and reorganizing the traits section around trait groupings, as opposed to intra-specific/ interspecific. This rearrangement of the traits section better parallels Table 1 and the following section on leaf gas exchange.
+- We did some modest reorganization, including moving the content on $T_{crit}$ and VOCs to the traits section (the former suggested by Reviewer 2) and reorganizing the traits section around trait groupings, as opposed to intra-specific/ interspecific. This rearrangement of the traits section better parallels Table 1 and the following section on leaf gas exchange.
 
 - We revised three figures (Figs. 1-3) based on reviewer comments 
 
