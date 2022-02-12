@@ -170,7 +170,7 @@ for(i in 1:length(dp[,name])){
       graph <- graph + 
         xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
       if(i==1){
-        graph <- graph + ylab("Height [m]")
+        graph <- graph + ylab("Normalized height")
       }
     } else if(i==3){ #tempSingle
       graph <- graph +
