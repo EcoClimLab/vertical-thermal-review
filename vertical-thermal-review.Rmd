@@ -281,6 +281,10 @@ Table `r table_leaf_traits`, cont.
 
 ![](table1b.png)
 
+\newpage
+Table `r table_leaf_traits`, cont.
+
+![](table1c.png)
 
 *Responses across height and light gradients are summarized, with up and down arrows indicating significant increasing or decreasing trends, respectively, in response to height (H) or light (L). $\approx$ indicates lack of any notable directional variation, and $\approx \uparrow$ or $\approx \downarrow$ indicate non-significant or mixed trends (e.g., significant in some but not all species studied). 
 
