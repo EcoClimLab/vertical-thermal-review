@@ -306,20 +306,21 @@ At the same time, sun leaves also have adaptations to protect against water stre
 In contrast, shade leaves have traits that maximize light capture in the diffuse-light environment with sunflecks (e.g., lower LMA and higher light absorptance efficiency per unit biomass), but larger leaf size and lower transpiration makes them more prone to overheating than sun leaves [@leighInfluenceLeafSize2017; @casasSunShadeLeaves2011; @schymanskiStomatalControlLeaf2013]. 
 In open canopies, where light is comparatively homogeneous, leaf traits may be more shaped by maximum $T_{air}$ and VPD stress than by light [@mediavillaFoliarPlasticityRelated2019a].
 
-## 3.2 Metabolic capacity and efficiency
+## 3.2. Leaf optical properties
+<!---need to cut parts of this paragraph or merge into 3.1?-->
+Leaf optical properties of leaves are influenced by a combination of anatomical, morphological, and biochemical traits outlined above, that vary vertically.
+Leaf light absorptance is maximized along the vertical light gradient and is balanced with leaf temperature regulation, where excess light can impair photosynthetic machinery (see below). Yet, leaf absorptance is only modestly greater in sun leaves or mid-canopy leaves than shade leaves. In higher light environment, PAR absorptance and thus heat load is reduced by reflecting light through leaf surface modifications as mentioned above, such as trichome and cuticle layer, or through biochemically dissipating heat through caretenoid concentrations [Table 1, @knappVariabilityLeafOptical1998; @leeCorrelatesLeafOptical1990]. Further, there is less a need for light absorption efficiency, but greater need to channel the higher availablity of light into deeper cell layers through "light pipes" or palisade layers that increase path length for light penetration, contributing to higher photosynthetic capacity.  The thickness of sun leaves also reduce light transmittance or light scattered after entering the leaf than shade leaves [@poorterLeafOpticalProperties1995; @leeCorrelatesLeafOptical1990]. However, in the understory or shade regions where PAR is more limiting, leaf light absorption efficiency is greater, enhanced by shade leaves maintaining higher SLA, denser layers of chloroplasts, shorter, fewer layers of conical palisade cells, higher nitrogen, and chlorophyll per unit biomass that exemplifies optical absorption capabilites, which realizes to be similar chlorophyll concentration per unit area as in sun leaves. Therefore, shade leaves can have comparable light harvesting capabilities as in sun leaves, and higher absorption effiency per unit biomass [@poorterLeafOpticalProperties1995; @poorterLeafOpticalProperties2000; @leeCorrelatesLeafOptical1990]. Therefore, while canopy leaves tend to invest more energy in metabolic activity and heat dissipation, understory leaves invest in light capture.
+
+## 3.3. Metabolic capacity and efficiency
 
 Most leaf biochemical traits also vary across light and height gradients (Table `r table_leaf_traits`), both shaping and resulting from gradients in metabolism (see section 4, Table `r table_leaf_metabolism`).
 Sun leaves have higher concentrations (per unit area) of elements such as nitrogen ($N_{area}$) and phosphorus ($P_{area}$) that are critical to leaf metabolism, including respiration [@meirLeafRespirationTwo2001;@weerasingheCanopyPositionAffects2014] and photosynthetic processes [@scartazzaInvestigatingEuropeanBeech2016a; @niinemetsPhotosyntheticAcclimationSimultaneous2004; @weerasingheCanopyPositionAffects2014].
 Increases in chlorophyll a/b ratios with height reflect the greater light availability in the upper canopy, while greater chlorophyll concentrations at lower heights within the forest vertical profile give shade leaves greater PAR absorptance efficiency (Table `r table_leaf_traits`).
 Higher photosynthetic rates (per unit leaf area) and more frequent stomatal closure in sun exposed canopies (see section 4, Table `r table_leaf_metabolism`) compared to shaded lower canopies, result in lower intercellular CO~2~ concentrations and higher $\delta^{13}$C isotopic ratios in leaf tissues (Table `r table_leaf_traits`).
 
-## 3.3 – Leaf optical properties
-<!---need to cut parts of this paragraph or merge into 3.1?-->
-Leaf optical properties of leaves are influenced by a combination of anatomical, morphological, and biochemical traits outlined above, that vary vertically.
-Leaf light absorptance is maximized along the vertical light gradient and is balanced with leaf temperature regulation, where excess light can impair photosynthetic machinery (see below). Yet, leaf absorptance is only modestly greater in sun leaves or mid-canopy leaves than shade leaves. In higher light environment, PAR absorptance and thus heat load is reduced by reflecting light through leaf surface modifications as mentioned above, such as trichome and cuticle layer, or through biochemically dissipating heat through caretenoid concentrations [Table 1, @knappVariabilityLeafOptical1998; @leeCorrelatesLeafOptical1990]. Further, there is less a need for light absorption efficiency, but greater need to channel the higher availablity of light into deeper cell layers through "light pipes" or palisade layers that increase path length for light penetration, contributing to higher photosynthetic capacity.  The thickness of sun leaves also reduce light transmittance or light scattered after entering the leaf than shade leaves [@poorterLeafOpticalProperties1995; @leeCorrelatesLeafOptical1990]. However, in the understory or shade regions where PAR is more limiting, leaf light absorption efficiency is greater, enhanced by shade leaves maintaining higher SLA, denser layers of chloroplasts, shorter, fewer layers of conical palisade cells, higher nitrogen, and chlorophyll per unit biomass that exemplifies optical absorption capabilites, which realizes to be similar chlorophyll concentration per unit area as in sun leaves. Therefore, shade leaves can have comparable light harvesting capabilities as in sun leaves, and higher absorption effiency per unit biomass [@poorterLeafOpticalProperties1995; @poorterLeafOpticalProperties2000; @leeCorrelatesLeafOptical1990]. Therefore, while canopy leaves tend to invest more energy in metabolic activity and heat dissipation, understory leaves invest in light capture.
 
 
-## 3.#. Biochemical protection against foliage light and heat damage
+## 3.4. Biochemical protection against foliage light and heat damage
 
 Biochemical protection against foliage light and heat damage increases with peak radiation loads, and thus tends to be higher in the upper canopy than in the understory (Table `r table_leaf_traits`). 
 Further, by reducing photosynthesis, heat and associated stomatal closure from VPD can indirectly reduce the capacity to use light energy for photochemistry, thereby increasing the potential for photoinhibition.
@@ -346,7 +347,7 @@ Future work seeking to understand how temporal dynamics of leaf heating [see @le
 Given current understanding, we may hypothesize that light-dependent VOC emissions are important for mid-canopy thermal responses, while other traits play the same role in sun-exposed canopy leaves.
 
 
-## 3.# Thermal tolerance
+## 3.5. Thermal tolerance
 
 <!--short par giving background on thermal tolerance-->
 The upper thermal thresholds for leaf survival can be approximated by assessing the photosystem II functioning using chlorophyll fluorescence techniques [@krauseHightemperatureToleranceTropical2010]. 
@@ -364,7 +365,7 @@ However, considering sun and shade leaf differences across the vertical profile 
 This small difference in $T_{50}$ coupled with larger differences in $T_{leaf}$ across thermal microenvironments implies that more thermally tolerant sun leaves tend to operate closer to their thermal limits and could therefore be more vulnerable to heat anomalies [@perezPhotosyntheticHeatTolerances2020].
 However, not enough studies have evaluated thermal tolerances across vertical gradients to make robust inferences.
 
-## 3.# Leaf phenology
+## 3.6. Leaf phenology
 
 The vertical structure of microenvironments likely influences forest photosynthetic capacity [@rey-sanchez_spatial_2016] via leaf phenology. 
 In deciduous forests, the timing and extent of seasonal leaf gain and loss is structured across the vertical profile. 
