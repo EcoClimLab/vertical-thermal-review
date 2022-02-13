@@ -53,8 +53,10 @@ for(i in 1:3){
     
     if(i==1){ #LAD
       graph <- graph +
-        xlab(expression(Modelled~leaf~area~density~"[m"^{2}~"m"^{-3}~"]")) +
-        ylab("Height [m]") +
+        # xlab(expression(Modelled~leaf~area~density~"[m"^{2}~"m"^{-3}~"]")) +
+        xlab("Leaf area density") +
+        ylab("Normalized height") +
+        xlim(c(0, 0.16)) +
         theme(axis.title.x = element_text(size=14),
               axis.text.x = element_text(size=16),
               axis.title.y = element_text(size=14),
@@ -70,7 +72,7 @@ for(i in 1:3){
       
     } else if(i==3){ #sun leaves
       graph <- graph +
-        xlab("Calculated proportion of sun leaves") +
+        xlab("Est. proportion of sun leaves") +
         theme(axis.text.y=element_blank(),
               axis.ticks.y=element_blank(),
               axis.title.x = element_text(size=14),
