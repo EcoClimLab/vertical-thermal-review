@@ -333,7 +333,7 @@ Higher photosynthetic rates (per unit leaf area) and more frequent stomatal clos
 ## 3.4. Biochemical protection against foliage light and heat damage
 
 Biochemical protection against foliage light and heat damage increases with peak radiation loads, and thus tends to be higher in the upper canopy than in the understory (Table `r table_leaf_traits`). 
-Further, by reducing photosynthesis, heat and VPD-associated stomatal closure can indirectly reduce the capacity to use light energy for photochemistry, thereby increasing the potential for photoinhibition [@ref <!--Nidhi, I feel like this sentence needs a reference-->].
+Further, by reducing photosynthesis, heat and VPD-associated stomatal closure can indirectly reduce the capacity to use light energy for photochemistry, thereby increasing the potential for photoinhibition [@niinemetsPhotosynthesisResourceDistribution2007] <!--Nidhi, I feel like this sentence needs a reference. {maybe this would be better as a topic sentence without a ref? but there is one Ty suggested-->].
 Accumulation of excess light energy results in overreduction of the electron transport chain and the formation of harmful reactive oxygen species [@niyogiSafetyValvesPhotosynthesis2000; @suzukiReactiveOxygenSpecies2006a].
 A ubiquitous defense is a rapidly inducible non-photochemical quenching (NPQ) mechanism that responds to the increased thylakoid pH gradient caused by accumulated light energy [@niyogiSafetyValvesPhotosynthesis2000; @gossBiodiversityNPQ2015].
 This form of NPQ is accomplished by the interconversion of xanthophyll cycle pigments—violaxanthin, antheraxanthin, and zeaxanthin (VAZ)—which regulates the capacity for de-excitation of chlorophyll through thermal dissipation instead of photochemistry.
