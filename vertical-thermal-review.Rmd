@@ -267,7 +267,8 @@ Plasticity throughout the canopy may emerge during new leaf development with lea
 Overall, leaves may optimize their biochemical, anatomical and structural traits according to their light environment and height (**cite Niinemets papers on this, as well as Japanese papers on N allocation throughout the canopy**). 
 Yet, while these studies have clarified many details of leaf differences throughout the canopy, no papers have integrated the many differences in leaf traits throughout the canopy in a cohesive framework.
 Rather, much of our understanding of trait coordination is based on the leaf economics spectrum concept developed across diverse species [@wrightWorldwideLeafEconomics2004], using sun leaves [@keenanGlobalLeafTrait2016; @chenLeafEconomicsSpectrum2020], and canopy shade is known to alter these trait relationships (**Osnas et al. 2018 PNAS**), and thus further research is needed to characterize trait relationships and responses vertically through the full range of canopy microenvironments.
-It has been established that independent of the light environment, traits also vary within species along the ontogenetic trajectory from the understory to the canopy. Therefore, ontogeny is bound to play a role in shaping leaf traits and thermal sensitivity.
+It has been established that independent of the light environment, traits also vary within species along the ontogenetic trajectory from the understory to the canopy.
+Therefore, ontogeny is bound to play a role in shaping leaf traits and thermal sensitivity.
 
 <!--older paragph-->
 
