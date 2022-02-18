@@ -4,7 +4,7 @@
 # Tleaves R package created by Chris Muir, 2019
 # Developed by: Nidhi Vinod, contact Anderson-Teixeira (teixeirak@si.edu)
 # R version 3.5.3 --First created in October 2020, updated on 5/28/2021
-# Oct,2020-Oct,2021
+# Oct,2020-Feb,2022
 ####################################
 #install packages if needed
 library(latex2exp)
