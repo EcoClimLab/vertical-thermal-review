@@ -353,7 +353,7 @@ Similarly, within tree crowns of European beech, monoterpene emissions were foun
 This pattern may indicate the importance of temporal variability in thermal conditions as distinct from the long-term average. 
 Temperature sensitive VOC emissions have been hypothesized to enable real-time acclimation to rapidly changing leaf thermal environments typical of the mid-canopy region [see section 1, @sharkeyIsopreneEmissionPlants2008]. 
 Future work seeking to understand how temporal dynamics of leaf heating [see @leighInfluenceLeafSize2017] vary with height and influence leaf function will be important for resolving the role of VOCs in forest thermal sensitivity across the vertical gradient. 
-Given current understanding, we may hypothesize that light-dependent VOC emissions are important for mid-canopy thermal responses, while other traits play the same role in sun-exposed canopy leaves.
+Given current understanding, we may hypothesize that light-dependent VOC emissions are important for mid-canopy thermal responses, while other traits play similar role in sun-exposed canopy leaves.
 
 
 ## 3.5. Thermal tolerance
