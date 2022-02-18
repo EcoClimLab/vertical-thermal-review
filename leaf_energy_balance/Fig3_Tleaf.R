@@ -4,7 +4,7 @@
 # Tleaves R package created by Chris Muir, 2019
 # Developed by: Nidhi Vinod, contact Anderson-Teixeira (teixeirak@si.edu)
 # R version 3.5.3 --First created in October 2020, updated on 5/28/2021
-# Oct,2020-Oct,2021
+# Oct,2020-Feb,2022
 ####################################
 #install packages if needed
 library(latex2exp)
@@ -379,7 +379,7 @@ d1<-ggplot(ls)+
   geom_point(aes(x=0.04, y=7.5), colour="#008837")+
   geom_point(aes(x=0.1, y=2.79), colour="#7b3294")+
   
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("leaf characteristic dimension (lcd, m)")+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("Leaf Characteristic Dimension (lcd, m)")+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14) 
 d1
