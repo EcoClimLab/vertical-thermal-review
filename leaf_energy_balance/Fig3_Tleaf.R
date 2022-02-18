@@ -379,7 +379,7 @@ d1<-ggplot(ls)+
   geom_point(aes(x=0.04, y=7.5), colour="#008837")+
   geom_point(aes(x=0.1, y=2.79), colour="#7b3294")+
   
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("leaf characteristic dimension (lcd, m)")+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (°C)"))+xlab("Leaf Characteristic Dimension (lcd, m)")+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14) 
 d1
