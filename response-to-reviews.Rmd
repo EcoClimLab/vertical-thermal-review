@@ -38,7 +38,7 @@ Regarding production of the figures, below are some specific criteria:
 
 - It will generally be fine to adjust colors, layout, and spacing on the figures.
 - We really like Figure 1 and would like to retain the background painting (by the lead author)
-- On Fig. 4, please adjust colors on panel (a) to correspond to those in panel (b), where "min MIN" color should match "understory" and "max DBH" should match "canopy". The same color scheme can be applied to all panels in (a), and there is no need to keep the line type differences (both can be solid). 
+- On Fig. 4, please adjust colors on panel (a) to correspond to those in panel (b), where "min MIN" color should match "understory" and "max DBH" should match "canopy". The same color scheme can be applied to all panels in (a), and there is no need to keep the line type differences (both can be solid). Also, please remove the vertical dashed lines and grey shading.
 
 
 Thank you for considering this revised version, and we look forward to your response.
