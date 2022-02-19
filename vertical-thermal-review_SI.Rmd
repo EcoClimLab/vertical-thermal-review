@@ -162,7 +162,7 @@ ft
 \newpage
 
 # `r SIfig_NEON_all_legend`
-![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in July mean ± 1 standard deviation for maximum photosyntehtically active ratiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Site information is given in Supporting Information Table `r NEON_sites`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`.](NEON_height_profiles/figures/profile_all_groups.png)
+![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in July mean ± 1 standard deviation for maximum photosynthetically active radiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Site information is given in Supporting Information Table `r NEON_sites`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`.](NEON_height_profiles/figures/profile_all_groups.png)
 
 \newpage
 # References
