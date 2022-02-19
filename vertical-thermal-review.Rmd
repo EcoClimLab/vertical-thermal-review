@@ -258,7 +258,7 @@ One of the few remote sensing studies combining drone lidar and thermal data fou
 However, the opposite trend was observed for a lone tree surrounded by grass in a California open oak woodland, with cooler temperatures at the top of the tree crown, indicating a strong influence of closed-canopy shading on vertical temperature gradients [@johnstonWhatLiesVerticalinpress]. 
 
 ## 3. Leaf traits 
-<!--Lawren's paragraph for R2 comments on having older citations and connecting to newer work-->
+
 Leaf traits vary vertically across forest strata at anatomical, structural and biochemical levels [Table `r table_leaf_traits`, @sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020], shaping $T_{leaf}$, leaf metabolism, and leaf thermal sensitivity across forest vertical strata [@michaletzPlantThermoregulationEnergetics2015a;@michaletzEnergeticCarbonEconomic2016a; @zwienieckiHydraulicLimitationsImposed2004]. 
 This vertical variation in leaf structure and composition has been long recognized, with sun and shade leaf traits distinguished for more than 100 years [@haberlandtPhysiologicalPlantAnatomy1914; @salisburyCausesEcologicalSignificance1928].
 Early work attributed differences among leaves to sun versus shade [@wyliePrinciplesFoliarOrganization1951; @vogelSunLeavesShade1968], and this tendency grew given the parallel differences observed for plants grown in sun versus shade conditions [@boardmanComparativePhotosynthesisSun1977; @abramsLeafStructuralCharacteristics1990].
