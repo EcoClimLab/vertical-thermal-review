@@ -99,7 +99,7 @@ Introduction|	391 |	No of Supporting Information files | 	6
 Review of vertical gradients |	6484	||	 
 Implications |	2408	 ||
 Conclusions |	276	||
-Acknowledgments | ##	||	
+Acknowledgments | 43	||	
 
 \newpage
 
