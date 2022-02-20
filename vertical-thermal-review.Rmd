@@ -311,15 +311,11 @@ In contrast, shade leaves have traits that maximize light capture in the diffuse
 In open canopies, where light is comparatively homogeneous, leaf traits may be more shaped by maximum $T_{air}$ and VPD stress than by light [@mediavillaFoliarPlasticityRelated2019a].
 
 ## 3.2. Leaf optical properties
-<!---need to cut parts of this paragraph or merge into 3.1?-->
-Leaf optical properties are influenced by a combination of anatomical, morphological, and biochemical traits that vary vertically, as outlined in sections 3.1 and 3.3.
-Along the vertical light gradient, leaf light absorptance is balanced with $T_{leaf}$ regulation, where excess light can impair photosynthetic machinery (see sections 3.4 and 3.5), and is only modestly greater in sun leaves or mid-canopy leaves than shade leaves (Table `r table_leaf_traits`). 
-In higher light environment, PAR absorptance and thus heat load is reduced by reflecting light through leaf surface modifications as mentioned above, such as trichome and cuticle layer, or through biochemically dissipating heat by caretenoids [Table `r table_leaf_traits`, @leeCorrelatesLeafOptical1990; @knappVariabilityLeafOptical1998].
-Further, there is less need for light absorption efficiency, but greater need to channel the higher availability of light into deeper cell layers through "light pipes" or palisade layers that increase path length for light penetration, contributing to higher photosynthetic capacity.
-The thickness of sun leaves also means that  light transmittance is lower than in shade leaves [@poorterLeafOpticalProperties1995; @leeCorrelatesLeafOptical1990]. In contrast, where PAR is more limiting, leaf light absorption efficiency is greater, as shade leaves maintain higher SLA, denser layers of chloroplasts, shorter, fewer layers of conical palisade cells, and higher concentrations of nitrogen, and chlorophyll (Table `r table_leaf_traits`). 
-Thus, while canopy leaves tend to invest more energy in metabolic activity and heat dissipation, understory leaves invest in light capture.
-Therefore, shade leaves can have light harvesting capabilities comparable to those of sun leaves, with higher absorption efficiency per unit biomass [@poorterLeafOpticalProperties1995; @poorterLeafOpticalProperties2000; @leeCorrelatesLeafOptical1990]. 
-
+Leaf optical properties are influenced by a combination of anatomical, morphological, and biochemical traits, all of which vary throughout the canopy, as outlined in sections 3.1 and 3.3.
+Higher up in the canopy, a modestly greater leaf light absorptance can impair photosynthetic machinery and would be in part mitigated by $T_{leaf}$ regulation (see sections 3.4 and 3.5; Table `r table_leaf_traits`). 
+For leaves in higher light environments, light absorptance and thus heat load can be reduced by leaf surface modifications that increase reflectance, as mentioned above, such as trichome and cuticle, and heat may be dissipated biochemically  by carotenoids, including xanthophylls [Table `r table_leaf_traits`, @leeCorrelatesLeafOptical1990; @knappVariabilityLeafOptical1998].
+Further, sun leaves allocate toward a thicker lamina with more layers of palisade cells, which act as “light pipes”, and channel the abundant light into deeper cell layers, contributing to higher photosynthetic capacity  [@poorterLeafOpticalProperties1995; @leeCorrelatesLeafOptical1990]. 
+In contrast, where shade leaves develop a  higher SLA, gaining in light absorption efficiency per mass investment, as well as denser layers of chloroplasts, and a greater proportion of spongy mesophyll, more effective for capturing diffuse light (Table `r table_leaf_traits`) [@poorterLeafOpticalProperties1995; @poorterLeafOpticalProperties2000; @leeCorrelatesLeafOptical1990]. 
 
 ## 3.3. Metabolic capacity and efficiency
 
