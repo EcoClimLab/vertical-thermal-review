@@ -93,10 +93,10 @@ Kristina J. Anderson-Teixeira^1,3^*
 
 Text | word count | other | n
 ---|---|-----|--------------------
-Total word count (excluding summary, references and legends) | 	9559 |	No. of figures | 	6 (all colour)
+Total word count (excluding summary, references and legends) | 	9495 |	No. of figures | 	6 (all colour)
 Summary|  	200 | 	No. of Tables | 	2  
-Introduction|	391 |	No of Supporting Information files | 	6
-Review of vertical gradients |	6484	||	 
+Introduction|	393 |	No of Supporting Information files | 	6
+Review of vertical gradients |	6374	||	 
 Implications |	2408	 ||
 Conclusions |	276	||
 Acknowledgments | 43	||	
