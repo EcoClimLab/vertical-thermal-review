@@ -32,6 +32,8 @@ table_leaf_metabolism=2
 # SI
 ## appendices
 
+Notes_S1<- "Notes S1"
+
 appendix_NEON_methods <- "S1"
 appendix_tealeaves_methods <- "S2"
 appendix_lit_review_methods <- "S3"
@@ -60,6 +62,17 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 
 \newpage
 
+# `r Notes_S1`
+
+## Note S1: Vertical variation in forest structure across forests types
+
+
+
+
+
+
+
+\newpage
 #  `r appendix_NEON_methods_title`
 
 ## Study sites
