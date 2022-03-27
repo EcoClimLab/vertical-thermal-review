@@ -66,6 +66,12 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 
 ## Note S1: Vertical variation in forest structure across forests types
 
+Tropical and temperate forests with dense canopies dominated by broadleaf trees generally have highest leaf area density in the canopy layer (i.e., that formed by the crowns of dominant trees), but understory leaf area density is often relatively high as well, sometimes causing undulating patterns with height [e.g., SCBI, SERC and HARV, Fig. `r fig_NEON_vertical`a,@terborghVerticalComponentPlant1985; @ashtonComparisonsStructureMixed1992; @koikeCanopyStructureTropical1993; @parkerVerticalProfileCanopy1989; @dominguesParameterizationCanopyStructure2005]. 
+In forests with more open upper canopies, including many needle-leaf forests, leaf area density can be predominantly accumulated in the lower canopy or understory layers [e.g., PUUM and WREF, Fig. `r fig_NEON_vertical`a, @baldocchiSeasonalVariationEnergy1997; @hanberryOpenForestEcosystems2020; @lawLeafAreaDistribution2001;@bonan_ecological_2016]. 
+Soil moisture conditions, topography, and gap formations following disturbances all alter foliage patterns [e.g., @bonan_ecological_2016; @almeidaContrastingFireDamage2016; @starkAmazonForestCarbon2012; @hanberryOpenForestEcosystems2020].
+
+The profile shape of light is modified by leaf area density, leaf clumping, canopy height, and vertical structure across species and forest types [Fig. `r fig_NEON_vertical`a-d, Supporting Information Figure `r SIfig_NEON_all`, @koike_leaf_2001; @binLeafTraitExpression2022; @belandVerticalStructureHeterogeneity2021]. 
+
 
 
 

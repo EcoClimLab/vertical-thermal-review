@@ -30,6 +30,9 @@ table_leaf_metabolism=2
 # SUPPLEMENTARY INFO (this chunk must be repeated in MEE_manuscript_SI.Rmd)
 
 #Appendices
+
+Notes_S1<- "Notes S1"
+
 appendix_NEON_methods <- "S1"
 appendix_tealeaves_methods <- "S2"
 appendix_lit_review_methods <- "S3"
@@ -158,12 +161,11 @@ While the focus here is on vertical gradients, it is important to note that in h
 ![**Figure `r fig_NEON_vertical`. Vertical gradients in the biophysical environment for six US forest sites in the National Ecological Observatory Network (NEON)**. Height profiles, normalized relative to the top of the canopy, are shown for: growing season (a) modelled leaf area density, (b) estimated proportion of sun leaves, and (c) proportion of light incident to the top of the canopy (as fraction relative to to top of canopy), and for July mean ± 1 standard deviation for (d) maximum photosynthetically active radiation (PAR), (e) maximum wind speed, (f) minimum humidity (min RH), (g) maximum air temperature ($T_{air}$), and (h) maximum biological temperature, ($T_{bio}$). Measurements extend from ground level (normalized height = 0 m) to the top of the canopy (horizontal dashed line at normalized height = 1) or above (d-g). Variables shown in panels a-c are derived from lidar, and those shown in panels d-h from micrometeorological tower data. Sites, which represent a variety of forest structures, include a mixed northern hardwood forest (Harvard Forest, MA; HARV), a subtropical longleaf pine savanna (Ordway-Swisher Biological Station, FL; OSBS), a tropical montane broadleaf evergreen forest (Pu'u Maka'ala Natural Area Reserve, Hawai'i; PUUM), two temperate broadleaf forests (Smithsonian Conservation Biology Institute, VA, SCBI; Smithsonian Environmental Research Center, MD, SERC), and a coniferous forest (Wind River Experimental Forests, WA; WREF). Further site information is given in Supporting Information Table `r NEON_sites`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`. Vertical profiles in micrometeorological variables (d-h) at all forested NEON sites are shown in Supporting Information Figure `r SIfig_NEON_all`.](NEON_height_profiles/figures/Fig2_normalized.png)
 
 Canopy foliage acts as the primary physical barrier between the atmosphere and the forest floor, buffering multiple aspects of the understory conditions from large fluctuations in conditions experienced above the canopy. It is critical in influencing -- and is influenced by -- the vertical biophysical gradient (Fig. `r fig_NEON_vertical`).
-Leaf area density (*i.e.*, leaf area per unit volume) patterns along the vertical gradient are heterogeneous across forests (Fig. `r fig_NEON_vertical`a-b, Supporting Information Figure `r SIfig_NEON_all`). 
+Leaf area density (*i.e.*, leaf area per unit volume) patterns along the vertical gradient are heterogeneous across forests (Fig. `r fig_NEON_vertical`a-b, Supporting Information Figure `r SIfig_NEON_all`, `r Notes_S1`). 
 In addition, seasonally dry and wet conditions, deciduousness, and phenology contribute to temporally shifting leaf area density patterns [@parkerStructuralPhenologyLeaf2004; @parkerConsequencesEnvironmentalHeterogeneity2019; @smithSeasonalDroughtrelatedChanges2019; @tangLightdrivenGrowthAmazon2017; @nunesForestFragmentationImpacts2022]. 
 In this review, we focus on growing season conditions (peak leaf area index, LAI) unless otherwise noted.
 
-Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor.
-The profile shape of light is modified by leaf area density, leaf clumping, canopy height, and vertical structure across species and forest types [Fig. `r fig_NEON_vertical`a-d, Supporting Information Figure `r SIfig_NEON_all`, @koike_leaf_2001; @binLeafTraitExpression2022; @belandVerticalStructureHeterogeneity2021]. 
+Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor (`r Notes_S1`).
 Canopy foliage absorb a large portion of the direct light in PAR (400-700nm), and selectively filter incident light along the gradient, therefore altering the spectral characteristics of light received in the lower canopy and understory layers. 
 Along with decreasing PAR, there is a decrease in the red (~685-690 nm) to far red (~730-740 nm) ratio of light as it reaches the forest floor, where understories receive diffused light enriched in near infrared radiation, and absorb light in wavelengths of 700-1000 nm [@decastroLightSpectralComposition2000; @poorterLeafOpticalProperties2000].
 Mid-canopies and understories experience a highly dynamic light environment due to sunflecks, or brief increases in direct solar radiation, caused by small canopy gaps, wind-induced canopy movements or the sun's passage across a dynamically structured canopy surface [@waySunflecksTreesForests2012].
@@ -651,8 +653,6 @@ NV and KAT planned and designed the research, with contributions from all author
 No new data were created in this study. New analyses are based upon data available from the National Ecological Observatory Network (NEON; https://www.neonscience.org/). The R scripts used for new analyses are (*will be*) available via GitHub (https://github.com/EcoClimLab/vertical-thermal-review) and archived in Zenodo (DOI: [TBD]). 
 
 ## SI files
-
-
 
 `r appendix_NEON_methods_title`
 
