@@ -213,26 +213,11 @@ Leaves are often cooler than the air on clear nights due to radiative coupling w
 Leaves can be warmer than air in full sunlight, especially under slow wind speeds and low $T_{air}$ [@doughtyAreTropicalForests2008].
 $T_{leaf}$ is usually within a few degrees of $T_{air}$ [@cavaleriColdbloodedForestsWarming2020]. 
 
-
-### 2.1. Biophysical drivers of $T_{leaf}$
-
-Fundamentally, $T_{leaf}$ is determined by the energy balance and can be estimated based on biophysical principles: $T_{leaf}-T_{air}$ depends on energy input from net radiation ($R_n$, including shortwave and longwave) minus heat lost to the environment [Fig. `r fig_leaf_T`, @campbell_introduction_1998; @muir_tealeaves_2019].
-High $R_n$ loads can elevate $T_{leaf}$ above $T_{air}$ (Fig. `r fig_leaf_T`a). 
-Sensible heat flux between leaf and air is regulated by leaf boundary layer conductance, which is greater in smaller leaves (Fig. `r fig_leaf_T`d) and under higher wind speeds (Fig. `r fig_leaf_T`b). 
-Latent heat flux ($\lambda E$) through transpiration cools the leaf, and is determined by stomatal and boundary layer conductances ($g_s$ and $g_b$) and VPD:$g_b$ increases with wind speed, and $g_s$ generally declines as VPD increases due to stomatal closure [@darwinIXObservationsStomata1898; @mottStomatalResponsesHumidity1991].
-Therefore, $T_{leaf}-T_{air}$ decreases in magnitude with wind speed [Fig. `r fig_leaf_T`b, @daudetWindSpeedLeaf1999], increases with RH (Fig. `r fig_leaf_T`c), increases with leaf size (Fig. `r fig_leaf_T`d), and $T_{leaf}$ decreases absolutely with $g_s$ (Fig. `r fig_leaf_T`e).
-
 ![**Figure `r fig_leaf_T`. Theoretical expectations for variation in the difference between leaf and air temperatures, $T_{Leaf}-T_{air}$, in response to (a) shortwave radiation, (b) wind speed, (c) relative humidity, (d) leaf characteristic dimension, and (e) stomatal conductance.** Leaf temperatures were modeled using the  *tealeaves* R package of @muir_tealeaves_2019 parameterized to represent a broadleaf species (*Quercus rubra* L.) in a mesic temperate forest (Harvard Forest, Massachusetts, USA) under hypothetical moist and drought conditions, as detailed in Supplementary Information Methods `r appendix_tealeaves_methods`. In each scenario, the independent variable was allowed to vary while other parameters were held constant at the values given in the table of biophysical constants. Dots along each line correspond to the biophysical constant assigned for the independent variable in the other scenarios, and therefore represent the modeled value for $T_{Leaf}-T_{air}$ with all parameters set to the biophysical constants given in the table. Biohphysical constants in the the table include: shortwave radiation (swr), wind speed (ws), relative humidity (rh), leaf characteristic dimension (lcd), stomatal conductance (gs), air temperature (tair). ](leaf_energy_balance/fig3_leafenergy.png)
 
-Under hot and dry conditions, leaves face a trade-off between $T_{leaf}$ regulation and water conservation [@fauset_differences_2018; @kochDiurnalPatternsLeaf1994]. 
-With adequate water, high $\lambda E$ can dissipate excess heat, particularly for smaller leaves (higher $g_b$) [@songTreeSurfaceTemperature2020; @dongBiophysicalHomoeostasisLeaf2017; @konradLeafTemperatureIts2021a; @leighInfluenceLeafSize2017; @leuzingerTreeSpeciesDiversity2007].
-However, when transpiration exceeds water supply, stomata close to conserve water, increasing $T_{leaf}$ [Fig. `r fig_leaf_T`e, @fauset_differences_2018].
-Therefore, at high solar radiation loads, latent cooling can maintain $T_{leaf}$ closer to $T_{air}$, but if stomatal opening is limited, solar radiation can drastically elevate $T_{leaf}$ above $T_{air}$, especially for larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020; @konradLeafTemperatureIts2021a].
+### 2.1 Vertical gradients in leaf temperature
 
-
-### 2.2 Vertical gradients in leaf temperature
-
-The bbiophysical principles outlined above determine how $T_{leaf}$ is above $T_{air}$ across vertical gradients in closed-canopy forests.
+Biophysical principles (`r Notes_S1`) determine how elevated $T_{leaf}$ is above $T_{air}$ across vertical gradients in closed-canopy forests.
 High radiation in the upper canopy (Fig. `r fig_NEON_vertical`) implies that upper canopy leaves often have higher $T_{leaf}-T_{air}$, and thus are often warmer than understory leaves (Fig. `r fig_leaf_T`).
 However, higher wind speeds (Fig. `r fig_NEON_vertical`) reduce leaf-air temperature differences [Fig. `r fig_leaf_T`b, @niinemetsPhotosyntheticAcclimationSimultaneous2004; @bonan_ecological_2016]. 
 In addition, adaptive leaf traits that increase $g_b$ and $g_s$ (see sections 3, 4.1) mediate the direct effects of solar radiation on upper canopy leaves and result in higher rates of heat loss (Fig. `r fig_leaf_T`b-e). 
@@ -642,6 +627,8 @@ NV and KAT planned and designed the research, with contributions from all author
 No new data were created in this study. New analyses are based upon data available from the National Ecological Observatory Network (NEON; https://www.neonscience.org/). The R scripts used for new analyses are (*will be*) available via GitHub (https://github.com/EcoClimLab/vertical-thermal-review) and archived in Zenodo (DOI: [TBD]). 
 
 ## SI files
+
+`r Notes_S1`
 
 `r appendix_NEON_methods_title`
 

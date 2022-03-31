@@ -30,6 +30,10 @@ table_leaf_metabolism=2
 
 
 # SI
+##Notes
+
+Notes_S1<- "Notes S1"
+
 ## appendices
 
 appendix_NEON_methods <- "S1"
@@ -60,16 +64,20 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 
 \newpage
 
-<<<<<<< HEAD
-# `r Notes_S1`
 
-## Note S1: Vertical variation in forest structure across forests types
+# `r Notes_S1`: Biophysical drivers of $T_{leaf}$
 
-Tropical and temperate forests with dense canopies dominated by broadleaf trees generally have highest leaf area density in the canopy layer (i.e., that formed by the crowns of dominant trees), but understory leaf area density is often relatively high as well, sometimes causing undulating patterns with height [e.g., SCBI, SERC and HARV, Fig. `r fig_NEON_vertical`a,@terborghVerticalComponentPlant1985; @ashtonComparisonsStructureMixed1992; @koikeCanopyStructureTropical1993; @parkerVerticalProfileCanopy1989; @dominguesParameterizationCanopyStructure2005]. 
-In forests with more open upper canopies, including many needle-leaf forests, leaf area density can be predominantly accumulated in the lower canopy or understory layers [e.g., PUUM and WREF, Fig. `r fig_NEON_vertical`a, @baldocchiSeasonalVariationEnergy1997; @hanberryOpenForestEcosystems2020; @lawLeafAreaDistribution2001;@bonan_ecological_2016]. 
-Soil moisture conditions, topography, and gap formations following disturbances all alter foliage patterns [e.g., @bonan_ecological_2016; @almeidaContrastingFireDamage2016; @starkAmazonForestCarbon2012; @hanberryOpenForestEcosystems2020].
+Fundamentally, $T_{leaf}$ is determined by the energy balance and can be estimated based on biophysical principles: $T_{leaf}-T_{air}$ depends on energy input from net radiation ($R_n$, including shortwave and longwave) minus heat lost to the environment [Fig. `r fig_leaf_T`, @campbell_introduction_1998; @muir_tealeaves_2019].
+High $R_n$ loads can elevate $T_{leaf}$ above $T_{air}$ (Fig. 3a). 
+Sensible heat flux between leaf and air is regulated by leaf boundary layer conductance, which is greater in smaller leaves (Fig. 3d) and under higher wind speeds (Fig. 3b). 
+Latent heat flux ($\lambda E$) through transpiration cools the leaf, and is determined by stomatal and boundary layer conductances ($g_s$ and $g_b$) and VPD:$g_b$ increases with wind speed, and $g_s$ generally declines as VPD increases due to stomatal closure [@darwinIXObservationsStomata1898; @mottStomatalResponsesHumidity1991].
+Therefore, $T_{leaf}-T_{air}$ decreases in magnitude with wind speed [Fig. 3b, @daudetWindSpeedLeaf1999], increases with RH (Fig. `r fig_leaf_T`c), increases with leaf size (Fig. `r fig_leaf_T`d), and $T_{leaf}$ decreases absolutely with $g_s$ (Fig. 3e).
 
-The profile shape of light is modified by leaf area density, leaf clumping, canopy height, and vertical structure across species and forest types [Fig. `r fig_NEON_vertical`a-d, Supporting Information Figure `r SIfig_NEON_all`, @koike_leaf_2001; @binLeafTraitExpression2022; @belandVerticalStructureHeterogeneity2021]. 
+Under hot and dry conditions, leaves face a trade-off between $T_{leaf}$ regulation and water conservation [@fauset_differences_2018; @kochDiurnalPatternsLeaf1994]. 
+With adequate water, high $\lambda E$ can dissipate excess heat, particularly for smaller leaves (higher $g_b$) [@songTreeSurfaceTemperature2020; @dongBiophysicalHomoeostasisLeaf2017; @konradLeafTemperatureIts2021a; @leighInfluenceLeafSize2017; @leuzingerTreeSpeciesDiversity2007].
+However, when transpiration exceeds water supply, stomata close to conserve water, increasing $T_{leaf}$ [Fig. 3e, @fauset_differences_2018].
+Therefore, at high solar radiation loads, latent cooling can maintain $T_{leaf}$ closer to $T_{air}$, but if stomatal opening is limited, solar radiation can drastically elevate $T_{leaf}$ above $T_{air}$, especially for larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020; @konradLeafTemperatureIts2021a].
+
 
 
 
@@ -78,8 +86,7 @@ The profile shape of light is modified by leaf area density, leaf clumping, cano
 
 
 \newpage
-=======
->>>>>>> parent of ea297dc (moving content to SI)
+
 #  `r appendix_NEON_methods_title`
 
 ## Study sites
