@@ -280,11 +280,11 @@ There are a few dense sentences or run-ons that could be revised. Lines 192-196 
 
 - **Lines 192-196: Notably, this pattern can be reversed in open forests, where below-canopy maximum $T_{air}$ can be warmer than canopy $T_{air}$ due to turbulent air mixing and the thermal radiative flux from the soil and the canopy that is intercepted by lower-canopy layers, analogous to a ‘canopy greenhouse effect’**
 
-- **Notably, buffering against high maximum daytime $T_{air}$ becomes weaker and can be reversed as canopies become more open. Analogous to a 'canopy greenhouse effect', in open forests, below-canopy maximum $T_{air}$ can be warmer than canopy $T_{air}$. This is due to turbulent air mixing and the thermal radiative flux from the soil and the canopy that is intercepted by lower-canopy layers** 
+- **Notably, buffering against high maximum daytime $T_{air}$ becomes weaker and can be reversed as canopies become more open [@curtis_intracanopy_2019; @meeussenMicroclimaticEdgetointeriorGradients2021]. Analogous to a 'canopy greenhouse effect', in open forests, below-canopy maximum $T_{air}$ can be warmer than canopy $T_{air}$, due to turbulent air mixing and interception of thermal radiative flux from the soil and the canopy by lower-canopy layers.** 
 
 - **Lines 201-204: $T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4), with leaves adjusting to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes (Drake et al., 2020; Perez & Feeley, 2020; Michaletz et al., 2015)**
 
-- **$T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4). Leaves adjust to their environment to approach, when possible, an optimal $T_{leaf}$ for carbon assimilation and metabolic processes **
+- **$T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4). Leaves adjust to their environment to approach, when possible, an optimal $T_{leaf}$ for photosynthesis and metabolism [@michaletzPlantThermoregulationEnergetics2015a <!--@perezPhotosyntheticHeatTolerances2020; @drakeNoEvidenceHomeostatic2020-->]. **
 
 line52: 'with decreases being more commonly documented across the world’s forests'
 
@@ -293,12 +293,12 @@ line52: 'with decreases being more commonly documented across the world’s fore
 line128: '… but understory leaf area density is often relatively high in the understory as well' sounds redundant. Please reword.
 
 **We removed the second 'understory' word here:** 
-**"Tropical and temperate forests with dense canopies dominated by broadleaf trees generally have highest leaf area density in the upper canopy layers, but understory leaf area density is often relatively high ~~in the understory~~ as well"**
+**"In tropical and temperate forests with dense broadleaf canopies, leaf area density is generally highest in the canopy layer (i.e., that formed by the crowns of dominant trees), but understory leaf area density is often relatively high ~~in the understory~~ as well"**
 
 line140 'Light … decreases from the canopy top to the forest floor' – why isn’t foliage clumping mentioned here amongst the other factors?
 
 **We added foliage clumping into the list of factors influencing vertical light gradient here:**
-**"Light, specifically the proportion of incident light and photosynthetically active radiation (PAR), decreases from the canopy top to the forest floor. The profile shape of light is modified by leaf area density, leaf clumping, canopy height, and canopy structure across species and forest types (Fig. 2a-d, Supporting Information Figure S1, Koike et al., 2001)."** 
+**"The intensity of visible and photosynthetically active radiation (PAR, 400-700nm) decreases from the canopy top to the forest floor, with a profile whose shape is modified by leaf area density, leaf clumping, canopy height, and vertical structure across species and forest types [Fig. 2a-d, Supporting Information Figure S1, @belandVerticalStructureHeterogeneity2021; @koike_leaf_2001; @binLeafTraitExpression2022]."** 
 
 line148: 'Variability in the light environment decreases with height' – I don’t see this except perhaps at z = 0 and even so seems tenuous. Explain.
 
