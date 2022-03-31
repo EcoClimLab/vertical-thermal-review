@@ -58,7 +58,7 @@ I find it interesting to try and link the empirical and theoretical knowledge on
 
 **Thank you for the comment. We included a section that explains how vertical gradients are represented in models:**
 
-- **Models partition incoming radiation and radiation within the forest vertical profile (i.e., direct vs. diffuse light) using radiative transfer models or a system of two coupled ordinary differential equations, referred to as a two-stream approximation [@sellersCanopyReflectancePhotosynthesis1985; @fisherVegetationDemographicsEarth2018]. Using the latter method, single canopy layers are divided into sun and shade fractions (e.g., CLM), while models with multiple vegetative layers can analytically solve the 2-stream approximation for each layer. Thus, even in single-layer models, key physiological parameters like $V_{cmax}$ and $J_{max}$ vary, decreasing with increasing LAI, or lower light conditions [e.g., @krinnerDynamicGlobalVegetation2005a].** 
+- **Models partition radiation above and within the forest vertical profile (i.e., direct vs. diffuse light) using radiative transfer models or a system of two coupled ordinary differential equations, referred to as a two-stream approximation [@sellersCanopyReflectancePhotosynthesis1985; @fisherVegetationDemographicsEarth2018]. Using the latter method, single canopy layers are divided into sun and shade fractions (e.g., in the Community Land Model, CLM model), while models with multiple vegetative layers can analytically solve the two-stream approximation for each layer. Thus, even in single-layer models, key physiological parameters like $V_{cmax}$ and $J_{max}$ vary, decreasing with increasing cumulative LAI or lower light conditions [Table 2, e.g., @krinnerDynamicGlobalVegetation2005]. ** 
 
 **Given that models vary greatly in how they capture vertical light gradients, what biophysical variables are included and how those variables are parameterized to vary (or not) across vertical gradients, we feel that it is beyond the scope of this paper to comprehensively list or explain which of those variables vary vertically across different models.**
 
@@ -84,7 +84,7 @@ I like your figures, but maybe consider homogenizing a little bit the styles for
 L205-206 Maybe add some references. How many degrees? In your Figure 3 there is not really a difference between Tleaf and Tair when SWR = 0. Given that the transpiration nearly stops at night (high humidity, low conductance) I would expect Tleaf – Tair to be very close to zero.
 
 **We revised and added references to this sentence in question, which now reads: **
-**"Leaves are often cooler than the air on clear nights due to radiative coupling with the very cold sky, and under some daytime conditions [cloudy skies, high wind speeds, and high $T_{air}$, @vogelLeavesLowestHighest2009; @rey-sanchez_spatial_2016;  @cavaleriColdbloodedForestsWarming2020]."**
+**Leaves are often cooler than the air on clear nights due to radiative coupling with the very cold sky, and under some daytime conditions [cloudy skies, high wind speeds, and high $T_{air}$, @vogelLeavesLowestHighest2009; @rey-sanchez_spatial_2016;  @cavaleriColdbloodedForestsWarming2020].**
 
 **Figure 3 shows the effect of each variable while the others are held constant (as specified in the caption). Thus, it does not represent the full suite of night-time conditions.** 
 
@@ -98,7 +98,7 @@ Figure 3: TLeaf and Tleaf.
 
 l258 under soil wet conditions?
 
-**We have reworded this sentence to read, "In contrast, under conditions conducive to stomatal opening, higher wind speeds and $g_b$ enable cooling in the upper canopy, whereas lower wind and $g_b$ in the understory allow much less evaporative cooling  [Fig. 3b,d, @robertsStomatalBoundaryLayerConductances1990a; @martin_boundary_1999; @leighInfluenceLeafSize2017;  @songTreeSurfaceTemperature2020]."**
+**We have reworded this sentence to read, "In contrast, under conditions conducive to stomatal opening, higher wind speeds and $g_b$ enable cooling in the upper canopy, whereas lower wind and $g_b$ in the understory limit evaporative cooling  [Fig. `r fig_leaf_T`b,d, @robertsStomatalBoundaryLayerConductances1990; @martin_boundary_1999; @leighInfluenceLeafSize2017]."**
 
 
 L298-299 Far red to red light: I think this could be developed here or somewhere else. You covered the vertical variation in light quantity inside the canopy, but you could also report the vertical change in light quality (light spectrum) as the leaves absorb preferentially some wavelengths but reflects or transmit others.
