@@ -306,18 +306,18 @@ In contrast, shade leaves have traits that maximize light capture (e.g., lower L
 In open canopies, where light is comparatively homogeneous, leaf traits may be shaped more by maximum $T_{air}$ and VPD stress than by light [@mediavillaFoliarPlasticityRelated2019a].
 
 ## 3.2. Leaf optical properties
-Leaf optical properties are influenced by a combination of anatomical, morphological, and biochemical traits, all of which vary throughout the canopy, as outlined in sections 3.1 and 3.3.
-Higher up in the canopy, a modestly greater leaf light absorptance can impair photosynthetic machinery and would be in part be mitigated by $T_{leaf}$ regulation (see sections 3.4 and 3.5; Table `r table_leaf_traits`). 
-For leaves in higher light environments, light absorptance and thus heat load can be reduced by leaf surface modifications that increase reflectance, as mentioned above, such as trichome and cuticle, and heat may be dissipated biochemically  by carotenoids, including xanthophylls [Table `r table_leaf_traits`, @leeCorrelatesLeafOptical1990; @knappVariabilityLeafOptical1998].
-Further, sun leaves allocate toward a thicker lamina with more layers of palisade cells, which act as “light pipes”, and channel the abundant light into deeper cell layers, contributing to higher photosynthetic capacity  [@poorterLeafOpticalProperties1995; @leeCorrelatesLeafOptical1990]. 
-In contrast, where shade leaves develop a  higher SLA, gaining in light absorption efficiency per mass investment, as well as denser layers of chloroplasts, and a greater proportion of spongy mesophyll, more effective for capturing diffuse light (Table `r table_leaf_traits`) [@poorterLeafOpticalProperties1995; @poorterLeafOpticalProperties2000; @leeCorrelatesLeafOptical1990]. 
+Leaf optical properties are influenced by anatomical, morphological, and biochemical traits, that vary throughout the canopy, as outlined in sections 3.1 and 3.3.
+High in the canopy, high light absorptance can lead to photoinhibition and would be in part be mitigated by $T_{leaf}$ regulation (see sections 3.4 and 3.5; Table `r table_leaf_traits`). 
+For leaves in higher light environments, light absorptance and thus heat load can be reduced by leaf surface modifications that increase reflectance, such as trichome and cuticle, and heat may be dissipated biochemically  by carotenoids, including xanthophylls [Table `r table_leaf_traits`, @leeCorrelatesLeafOptical1990; @knappVariabilityLeafOptical1998].
+Further, sun leaves tend to be thicker, with more palisade layers, which act as “light pipes”, and channel abundant light into deeper cell layers, enhancing photosynthetic capacity  [@poorterLeafOpticalProperties1995; @leeCorrelatesLeafOptical1990]. 
+In contrast, shade leaves have lower LMA and absorb more light per unit mass investment, as well as denser chloroplasts layers and a greater proportion of spongy mesophyll, more effective for capturing diffuse light (Table `r table_leaf_traits`) [@poorterLeafOpticalProperties1995; @poorterLeafOpticalProperties2000; @leeCorrelatesLeafOptical1990]. 
 
 ## 3.3. Metabolic capacity and efficiency
 
 Most leaf biochemical traits also vary across light and height gradients (Table `r table_leaf_traits`), both shaping and resulting from gradients in metabolism (see section 4, Table `r table_leaf_metabolism`).
-Sun leaves have higher concentrations (per unit area) of elements such as nitrogen ($N_{area}$) and phosphorus ($P_{area}$) that are critical to leaf metabolism, including respiration [@meirLeafRespirationTwo2001;@weerasingheCanopyPositionAffects2014] and photosynthesis [@scartazzaInvestigatingEuropeanBeech2016a; @niinemetsPhotosyntheticAcclimationSimultaneous2004; @weerasingheCanopyPositionAffects2014].
-Increases in chlorophyll a/b ratios with height reflect the greater light availability in the upper canopy, while greater chlorophyll concentrations at lower heights within the forest vertical profile contribute to the reater PAR absorptance efficiency of shade leaves (Table `r table_leaf_traits`).
-Higher photosynthetic rates (per unit leaf area) and more frequent stomatal closure in sun exposed canopies (see section 4, Table `r table_leaf_metabolism`) compared to shaded lower canopies, result in lower intercellular CO~2~ concentrations and higher $\delta^{13}$C isotopic ratios in leaf tissues (Table `r table_leaf_traits`).
+Sun leaves have higher concentrations area-based concentrations of elements like nitrogen ($N_{area}$) and phosphorus ($P_{area}$) that are critical for respiration [@meirLeafRespirationTwo2001;@weerasingheCanopyPositionAffects2014] and photosynthesis [@scartazzaInvestigatingEuropeanBeech2016a; @niinemetsPhotosyntheticAcclimationSimultaneous2004; @weerasingheCanopyPositionAffects2014].
+Increases in chlorophyll a/b ratios with height reflect greater light availability in the upper canopy, while greater chlorophyll concentrations at lower heights within the forest vertical profile increase PAR absorptance efficiency of shade leaves (Table `r table_leaf_traits`).
+Higher photosynthetic rates (per unit leaf area) and more frequent stomatal closure in sun exposed canopies (see section 4, Table `r table_leaf_metabolism`) compared to shaded lower canopies, reduce intercellular CO~2~ concentrations and increase leaf $\delta^{13}$C (Table `r table_leaf_traits`).
 
 
 
