@@ -606,34 +606,34 @@ In addition, capturing vertical gradients in ET, GPP, respiration, and woody gro
 ### Scaling in situ data with remote sensing
 
 Remote sensing data provide a valuable means to scale between *in situ* observations and DGVMs.
-Specifically, the increasing availability of airborne and spaceborne lidar and thermal remote sensing data offer a promising opportunity for mapping vertical thermal gradients in combination with vegetation structure at locations with *in situ* data and across larger landscapes (Fig. `r fig_model`). 
-Airborne and spaceborne lidar, as well as terrestrial laser scanning data, yield detailed 3D reconstructions of whole tree and forest structure. 
-These data can be leveraged in combination with thermal remote sensing data from the spaceborne ECOSTRESS sensor [@hulleyNewECOSTRESSMODIS2019; @fisherECOSTRESSNASANext2020] or drone- and tower-based Forward Looking Infrared (FLIR) cameras. 
+Specifically, the increasing availability of airborne and spaceborne lidar and thermal remote sensing data offer a promising opportunity for mapping vertical thermal gradients and vegetation structure across scales (Fig. `r fig_model`). 
+Airborne, spaceborne and terrestrial laser scanning data yield detailed 3D reconstructions of whole tree and forest structure. 
+These data can be combined with thermal remote sensing data from the spaceborne ECOSTRESS sensor [@hulleyNewECOSTRESSMODIS2019; @fisherECOSTRESSNASANext2020] or drone- and tower-based Forward Looking Infrared (FLIR) cameras. 
 
 
 ![**Figure `r fig_model`.** Lidar and thermal remote sensing data can be used to measure vertical forest structure and plant thermal signatures at increasingly large scales. (a-b) Integrating in situ and remote sensing measurements will support our ability to scale understanding of vertical gradients within and across ecosystems. (c) In turn, these efforts can be used to directly inform ecosystem model development and parameterization. Vertically resolved in situ data could include any variable listed in Table 1 or 2. Panel b shows drone lidar point cloud data colored with thermal data from a savanna woodland in Kruger National Park, South Africa illustrating vertical and horizontal variation in vegetation temperature. Image courtesy of the Harvard Animal-Landscape Observatory, Peter B. Boucher and Andrew B. Davies.](schematics/fig_remote_sensing.png)
 
 Detailed structural information from lidar data can be used to measure tree height, DBH, and crown dimensions [@fisherECOSTRESSNASANext2020], evaluate spatial variation in vertical leaf area density profiles [@dettoSpatialVariabilityTropical2015], and resolve complex seasonal and diurnal variation in shortwave radiation forcing in ecosystems [@musselmanEstimationSolarDirect2013].
 Canopy shading can be better represented to predict understory temperatures by modeling the time-varying interaction of the forest canopy with solar radiation, as has been done in other lidar-based analyses [e.g., @davisLiDARderivedTopographyForest2019].
-Satellite and airborne thermal infrared remote sensing analyses are now being conducted at regional and continental scales, although very few applications exist at finer-scales necessary for understanding of vertical variation in plant canopy temperatures [@johnstonWhatLiesVerticalinpress]. 
-As an example of the type of insight that can be gained from this approach, @pauTropicalForestTemperature2018 used data from a tower-based FLIR camera in combination with eddy-covariance data and found that tropical forest canopy temperatures were more strongly associated with GPP than $T_{air}$ or VPD.
-In a savanna system in the western U.S., @johnstonWhatLiesVerticalinpress found significant vertical variation in plant temperature, with warmer temperatures in the understory compared to the top of the blue oak canopies -- a finding that occurred in association with very high grass temperatures and consistent with the principles outlined in sections 1-2 (Fig. `r SIfig_NEON_all`).
-The growing availability of these data makes this an opportune time to link fine-scale and landscape-scale measurements with the type of *in situ* measurements reviewed above to explore ecosystem-scale patterns in vertical temperature gradients seasonally and across biomes. 
+Satellite and airborne thermal infrared remote sensing analyses are now being conducted at regional and continental scales, although few applications exist at finer-scales needed to understand vertical variation in canopy temperatures [@johnstonWhatLiesVerticalinpress]. 
+As an example of the type of insight possible with this approach, @pauTropicalForestTemperature2018 used data from a tower-based FLIR camera in combination with eddy-covariance data and found that tropical forest GPP was more strongly associated with canopy temperature than $T_{air}$ or VPD.
+In a a western-U.S. savanna system in the western U.S., @johnstonWhatLiesVerticalinpress found significant vertical variation in plant temperature, with warmer temperatures in the understory compared to the top of the blue oak canopies, together with very high grass temperatures and consistent with the principles outlined in sections 1-2 (Fig. `r SIfig_NEON_all`).
+The growing availability of such data makes this an opportune time to link *in situ* measurements with fine- and landscape-scale measurements to further explore ecosystem-scale patterns in vertical temperature gradients seasonally and across biomes. 
 
 
 ## IV. Conclusions
 
 Across vertical gradients, directional trends in the biophysical environment and leaf traits are the rule, driving variation in the physiology and ecology that have these as their underpinnings (Fig. `r fig_schematic`).
-However, uncertainty remains as to how temperature sensitivity of foliar gas exchange varies across these vertical gradients.
-Similarly, much remains to be learned about how crown exposure influences the temperature sensitivity of woody stem growth. 
-While the preponderance of available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees, which might be more vulnerable to chronic warming stress under relatively mesic conditions (Fig. `r fig_treerings`). 
+However, uncertainty remains about how temperature sensitivity of foliar gas exchange varies across these vertical gradients.
+Similarly, much remains unknown about how crown exposure influences the temperature sensitivity of woody stem growth. 
+While most available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees, which might be more vulnerable to chronic warming stress under relatively mesic conditions (Fig. `r fig_treerings`). 
 
-As the climate changes, patterns and processes across these vertical gradients are likely to shift as well.
-Under the historical temperatures to which tree species are adapted, the canopy is an advantageous place for trees to have their crowns, as it affords higher photosynthesis and growth. 
-However, as temperatures increase, it is likely that exposed canopy positions will become physiologically stressful for increasing proportions of time.
-Ensuant increased mortality of canopy trees will create an increasing number of gaps, resulting in changes to understory conditions and community composition.
-Ultimately, mid- and understory tree communities will be critical to the resilience of forest ecosystems under changing climate, making improved understanding and model representation of their dynamics critical to understanding future forest dynamics.
-Integrating the patterns and mechanisms reviewed here, along with remote sensing data on forest structure and thermal environments, into cohort-based models that integrate with Earth system models will be critical to understanding and forecasting forest-climate feedbacks in the coming decades.
+As climate changes, patterns and processes across vertical gradients will likely to shift as well.
+In the historical climates to which trees adapted, the canopy was an advantageous place for photosynthesis and growth. 
+However, as temperatures increase, it is likely that exposed canopy positions will more often be physiologically stressful.
+Ensuant increased mortality of canopy trees will create ever more gaps, changing understory conditions and community composition.
+Ultimately, mid- and understory tree communities will be critical to the resilience of forest ecosystems under changing climate, making improved understanding and model representation of their dynamics essential to understanding future forest dynamics.
+Integrating the patterns and mechanisms reviewed here, along with remote sensing data on forest structure and thermal environments, into cohort-based models that integrate with Earth system models will be crucial to understanding and forecasting forest-climate feedbacks in the coming decades.
 
 
 ## Acknowledgements
