@@ -409,11 +409,11 @@ The section on VOC emissions was interesting and informative.
 
 line641: 'tends to be greater in canopy trees'. Greater than what? Please state the comparison.
 
-**This sentence has been revised to read, "In turn, the drought sensitivity of woody growth tends to be greater in canopy trees than in smaller trees with less exposed crowns."**
+**This sentence has been revised to read, "In turn, the drought sensitivity of woody growth tends to be greater in upper-canopy trees than in smaller trees with less exposed crowns."**
 
 line650: 'In addition to lower drought resistance of growth, larger trees frequently exhibit lower ability to recover'. Having studied large overstory trees and young understory saplings, I have a very, very difficult time with this statement especially portraying it as categorically true even if consistent with the 4 cited studies. Very few researchers have studies the same species in this context, and in this review manuscript the authors cannot scientifically lay the effect on canopy position and microclimate rather than age or other confounding factors. I must challenge their assertion and ask a higher level of evidence to make these statements, which should be qualified.
 
-**As the point about resilience was not critical, we have removed that part of the statement. The sentence now reads, "In addition to lower drought resistance of growth, larger trees frequently exhibit greater increases in mortality [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019]."**
+**As the point about resilience was not critical, we have removed that part of the statement. The sentence now reads, "Drought also causes greater mortality in larger trees [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019]."**
 
 line946: '… how … temperature sensitivities of metabolism and woody growth vary across these vertical gradients'. I’m not sure why the authors are speculating on woody growth in this context, surely it would be extremely difficult to show that woody growth varied vertically in an individual? And that across-individual differences compound comparisons of individuals in different vertical strata? Shouldn’t these things be pointed out to readers?
 
