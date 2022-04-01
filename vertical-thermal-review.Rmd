@@ -31,7 +31,7 @@ table_leaf_metabolism=2
 
 #Appendices
 
-Notes_S1<- "Notes S1"
+Notes_leafTbiophysics<- "S1"
 
 appendix_NEON_methods <- "S1"
 appendix_tealeaves_methods <- "S2"
@@ -208,16 +208,14 @@ These usually-modest gradients in $T_{air}$ combine with the above-described gra
 
 ## 2. Leaf temperature 
 
-$T_{leaf}$ is strongly tied to $T_{air}$, and is further influenced by other micrometeorological drivers (section 1) and by leaf traits and stomatal conductance (see sections 3-4). Leaves adjust to their environment to approach, when possible, an optimal $T_{leaf}$ for photosynthesis and metabolism [@michaletzPlantThermoregulationEnergetics2015a <!--@perezPhotosyntheticHeatTolerances2020; @drakeNoEvidenceHomeostatic2020-->]. 
-Leaves are often cooler than the air on clear nights due to radiative coupling with the very cold sky, and under some daytime conditions [cloudy skies, high wind speeds, and high $T_{air}$, @vogelLeavesLowestHighest2009; @rey-sanchez_spatial_2016;  @cavaleriColdbloodedForestsWarming2020].
-Leaves can be warmer than air in full sunlight, especially under slow wind speeds and low $T_{air}$ [@doughtyAreTropicalForests2008].
-$T_{leaf}$ is usually within a few degrees of $T_{air}$ [@cavaleriColdbloodedForestsWarming2020]. 
+$T_{leaf}$ is strongly tied, and usually within a few degrees of, $T_{air}$ [@cavaleriColdbloodedForestsWarming2020], but can be substantially warmer or cooler under certain conditions (Fig. `r fig_leaf_T`; Note `r Notes_leafTbiophysics`). 
+Deviation of $T_{leaf}$ from $T_{air}$ is influenced by other micrometeorological drivers and by leaf traits and stomatal conductance (Note `r Notes_leafTbiophysics`), all of which vary across forest vertical gradients (Fig. `r fig_schematic`).
+Leaves adjust to their environment to approach, when possible, an optimal $T_{leaf}$ for photosynthesis and metabolism [@michaletzPlantThermoregulationEnergetics2015a <!--@perezPhotosyntheticHeatTolerances2020; @drakeNoEvidenceHomeostatic2020-->]. 
+
 
 ![**Figure `r fig_leaf_T`. Theoretical expectations for variation in the difference between leaf and air temperatures, $T_{Leaf}-T_{air}$, in response to (a) shortwave radiation, (b) wind speed, (c) relative humidity, (d) leaf characteristic dimension, and (e) stomatal conductance.** Leaf temperatures were modeled using the  *tealeaves* R package of @muir_tealeaves_2019 parameterized to represent a broadleaf species (*Quercus rubra* L.) in a mesic temperate forest (Harvard Forest, Massachusetts, USA) under hypothetical moist and drought conditions, as detailed in Supplementary Information Methods `r appendix_tealeaves_methods`. In each scenario, the independent variable was allowed to vary while other parameters were held constant at the values given in the table of biophysical constants. Dots along each line correspond to the biophysical constant assigned for the independent variable in the other scenarios, and therefore represent the modeled value for $T_{Leaf}-T_{air}$ with all parameters set to the biophysical constants given in the table. Biohphysical constants in the the table include: shortwave radiation (swr), wind speed (ws), relative humidity (rh), leaf characteristic dimension (lcd), stomatal conductance (gs), air temperature (tair). ](leaf_energy_balance/fig3_leafenergy.png)
 
-### 2.1 Vertical gradients in leaf temperature
-
-Biophysical principles (`r Notes_S1`) determine how elevated $T_{leaf}$ is above $T_{air}$ across vertical gradients in closed-canopy forests.
+Biophysical principles (Note `r Notes_leafTbiophysics`) shape $T_{leaf}-T_{air}$ across vertical gradients in closed-canopy forests.
 High radiation in the upper canopy (Fig. `r fig_NEON_vertical`) implies that upper canopy leaves often have higher $T_{leaf}-T_{air}$, and thus are often warmer than understory leaves (Fig. `r fig_leaf_T`).
 However, higher wind speeds (Fig. `r fig_NEON_vertical`) reduce leaf-air temperature differences [Fig. `r fig_leaf_T`b, @niinemetsPhotosyntheticAcclimationSimultaneous2004; @bonan_ecological_2016]. 
 In addition, adaptive leaf traits that increase $g_b$ and $g_s$ (see sections 3, 4.1) mediate the direct effects of solar radiation on upper canopy leaves and result in higher rates of heat loss (Fig. `r fig_leaf_T`b-e). 
@@ -628,7 +626,7 @@ No new data were created in this study. New analyses are based upon data availab
 
 ## SI files
 
-`r Notes_S1`
+`r Notes_leafTbiophysics`
 
 `r appendix_NEON_methods_title`
 
