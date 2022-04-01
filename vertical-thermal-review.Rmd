@@ -208,7 +208,7 @@ These usually-modest gradients in $T_{air}$ combine with the above-described gra
 
 ## 2. Leaf temperature 
 
-$T_{leaf}$ is strongly tied, and usually within a few degrees of, $T_{air}$ [@cavaleriColdbloodedForestsWarming2020], but can be substantially warmer or cooler under certain conditions (Fig. `r fig_leaf_T`; Note `r Notes_leafTbiophysics`). 
+$T_{leaf}$ is strongly tied, and usually within a few degrees of, $T_{air}$ [@drakeNoEvidenceHomeostatic2020], but can be substantially warmer or cooler under certain conditions (Fig. `r fig_leaf_T`; Note `r Notes_leafTbiophysics`). 
 Deviation of $T_{leaf}$ from $T_{air}$ is influenced by other micrometeorological drivers and by leaf traits and stomatal conductance (Note `r Notes_leafTbiophysics`), all of which vary across forest vertical gradients (Fig. `r fig_schematic`).
 Leaves adjust to their environment to approach, when possible, an optimal $T_{leaf}$ for photosynthesis and metabolism [@michaletzPlantThermoregulationEnergetics2015a <!--@perezPhotosyntheticHeatTolerances2020; @drakeNoEvidenceHomeostatic2020-->]. 
 
