@@ -64,7 +64,9 @@ w_traits= 2477
 w_met=1000
 w_ecol=1352
 w_vertgradients=w_biophys+w_tleaf+w_traits+w_met+w_ecol
-w_implications=2333
+w_imp_gc=1102
+w_imp_modeling_scaling=1231
+w_implications=w_imp_gc+w_imp_modeling_scaling
 w_conclusions=248
 w_total=w_intro+w_vertgradients+w_implications+w_conclusions
 
@@ -524,7 +526,7 @@ The complex interwoven relations between the biophysical environment and biologi
 ### Warming
 
 As climate change progresses, we anticipate increases in both mean daytime and nighttime $T_{air}$, as well as increased maximum temperatures, with extreme increases during heat waves [@ipccClimateChange20212021].
-To the extent that warming is coupled to drought, we expect that the tallest trees to usually be hardest-hit, particularly in severe drought, partly because their crowns are positioned in a more challenging microenvironment [section 5.1, Figs. `r fig_schematic`- `r fig_treerings`, e.g., @bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019; @anderson-teixeiraJointEffectsClimate2022].
+To the extent that warming is coupled to drought, we expect that the tallest trees to usually be hardest-hit, particularly in severe drought, partly because their crowns are positioned in a more challenging microenvironment [section 5.1, Figs. `r fig_schematic`- `r fig_treerings`].
 In contrast, understory trees will be more sheltered during droughts and heat waves, and in some settings may benefit from increased light availability [@bennettLargerTreesSuffer2015;@hoganDroughtInterannualVariability2019; @nunesForestFragmentationImpacts2022].
 An interesting open question is to what extent these patterns vary with the nature of the drought, including the relative contributions to stress from low soil moisture versus high VPD. 
 While the two are coupled over longer time scales [@humphreySoilMoistureAtmosphere2021; @novickIncreasingImportanceAtmospheric2016], the latter can be intense for short periods even when soil moisture is high (e.g., during a heat wave) and exerts a stronger influence on ET in many biomes [@novickIncreasingImportanceAtmospheric2016]. 
