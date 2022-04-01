@@ -32,7 +32,7 @@ table_leaf_metabolism=2
 # SI
 ##Notes
 
-Notes_S1<- "Notes S1"
+Notes_leafTbiophysics<- "S1"
 
 ## appendices
 
@@ -65,7 +65,7 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 \newpage
 
 
-# `r Notes_S1`: Biophysical drivers of $T_{leaf}$
+# Note `r Notes_leafTbiophysics`: Biophysical drivers of T~leaf~
 
 Fundamentally, $T_{leaf}$ is determined by the energy balance and can be estimated based on biophysical principles: $T_{leaf}-T_{air}$ depends on energy input from net radiation ($R_n$, including shortwave and longwave) minus heat lost to the environment [Fig. `r fig_leaf_T`, @campbell_introduction_1998; @muir_tealeaves_2019].
 High $R_n$ loads can elevate $T_{leaf}$ above $T_{air}$ (Fig. 3a). 
@@ -81,10 +81,6 @@ Therefore, at high solar radiation loads, latent cooling can maintain $T_{leaf}$
 Leaves can be substantially warmer or cooler under certain conditions. 
 They can be  warmer than air in full sunlight, especially under slow wind speeds and low $T_{air}$ [@doughtyAreTropicalForests2008].
 Leaves are often cooler than the air on clear nights due to radiative coupling with the very cold sky, and under some daytime conditions [cloudy skies, high wind speeds, and high $T_{air}$, @vogelLeavesLowestHighest2009; @rey-sanchez_spatial_2016].
-
-
-
-
 
 
 \newpage
