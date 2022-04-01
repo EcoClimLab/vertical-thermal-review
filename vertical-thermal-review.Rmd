@@ -64,7 +64,7 @@ w_traits= 2477
 w_met=1000
 w_ecol=1352
 w_vertgradients=w_biophys+w_tleaf+w_traits+w_met+w_ecol
-w_implications=2399
+w_implications=2333
 w_conclusions=248
 w_total=w_intro+w_vertgradients+w_implications+w_conclusions
 
@@ -530,20 +530,16 @@ An interesting open question is to what extent these patterns vary with the natu
 While the two are coupled over longer time scales [@humphreySoilMoistureAtmosphere2021; @novickIncreasingImportanceAtmospheric2016], the latter can be intense for short periods even when soil moisture is high (e.g., during a heat wave) and exerts a stronger influence on ET in many biomes [@novickIncreasingImportanceAtmospheric2016]. 
 Given the mechanisms reviewed here, we might expect that VPD in particular skews the stress more towards the exposed canopy trees.   
 
-<!--the following two paragraphs could be shortened/ condensed into one-->
 It remains poorly understood how responses to warming will vary across vertical gradients under mesic conditions. 
-Leaf-level responses are relatively well-understood: at the metabolic level, photosynthesis and respiration are coupled to photosynthetic thermal optima, which reflect adaptation to local climate but do not vary consistently with height (see section 4.2, Table 2). 
-Beyond the optimal temperature, photosynthesis declines whereas respiration continues to increase, shifting the carbon balance from source to sink, independent of water and irradiance [@duffyHowCloseAre2021]. 
-While leaves display substantial plasticity to adapt to warmer temperatures [<!--@slotGeneralPatternsAcclimation2015;--> @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019;@cunninghamTemperateRainforestTrees2003] and to recover from heat stress [@smithEmpiricalEvidenceResilience2020], failure to fully acclimate will reduce carbon sequestration at leaf and ecosystem levels [@huangAirTemperatureOptima2019; @wayJustRightTemperature2019; @tanOptimumAirTemperature2017; @bennettThermalOptimaGross2021]. 
-Exposed canopies are likely most vulnerable, as growing season $T_{air}$ is increasingly equaling or exceeding photosynthetic optima [@slotSituTemperatureResponse2017; @mauTemperateTropicalForest2018; @huangAirTemperatureOptima2019; @kumarathungeAcclimationAdaptationComponents2019]. 
-Particularly in mid-latitude forests, which have the narrowest thermal safety margin between historical maximum temperatures and leaf thermal tolerance levels [@osullivanThermalLimitsLeaf2017], $T_{leaf}$ of sun-exposed leaves may approach tolerance thresholds during heat waves, causing photosynthetic decline or even leaf death [@osullivanThermalLimitsLeaf2017; @tiwariPhotosyntheticQuantumEfficiency2021; @kunertSummerTemperaturesReachinpress]. 
-
-Although understory leaves are unlikely to face the same absolute extremes of $T_{leaf}$ (unless exposed to sunflecks), they will also be affected by higher $T_{air}$, and in some ways are likely to prove more sensitive.
+Leaves display substantial plasticity to adapt to warmer temperatures [<!--@slotGeneralPatternsAcclimation2015;--> @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019;@cunninghamTemperateRainforestTrees2003] and to recover from heat stress [@smithEmpiricalEvidenceResilience2020], yet failure to fully acclimate will reduce carbon sequestration at leaf, tree, and ecosystem levels [@huangAirTemperatureOptima2019; @wayJustRightTemperature2019; @tanOptimumAirTemperature2017; @bennettThermalOptimaGross2021]. 
+As growing season $T_{air}$ increasingly equals or exceeds photosynthetic optima [@slotSituTemperatureResponse2017; @mauTemperateTropicalForest2018; @huangAirTemperatureOptima2019; @kumarathungeAcclimationAdaptationComponents2019], exposed crowns are likely most vulnerable. 
+Particularly in mid-latitude forests, which have the narrowest thermal safety margin between historical maximum temperatures and $T_{crit}$ [@osullivanThermalLimitsLeaf2017], $T_{leaf}$ of sun-exposed leaves may approach tolerance thresholds during heat waves, causing photosynthetic decline or even leaf death [@osullivanThermalLimitsLeaf2017; @tiwariPhotosyntheticQuantumEfficiency2021; @kunertSummerTemperaturesReachinpress]. 
+In contrast, understory leaves and trees are unlikely to face the same absolute extremes of $T_{leaf}$ (unless exposed to sunflecks), but in some ways are likely to prove more sensitive to higher $T_{air}$.
 Protection from thermal stress associated with high direct radiation might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018a].
 However, with $T_{air}$ more frequently equaling or exceeding photosynthetic optima, occasional exposure to sunflecks coupled with lower capacity to dissipate excess heat may prove disadvantageous. 
 <!--Moreover, increased nighttime $T_{air}$ may disproportionately increase respiration relative to photosynthesis, thereby negatively affecting the carbon balance.-->
 While it is currently difficult to predict whether canopy or understory photosynthesis will be more severely affected by warming (see section 4.2), limited tree-ring evidence indicates that unusually hot growing seasons can reduce growth more for understory trees [section 5.1, Fig `r fig_treerings`b, @rollinsonClimateSensitivityUnderstory2020].
-Thus, while canopy trees are probably more vulnerable to mortality from distinct heat-related disturbances, such as drought or heat waves, trees in the understory might be more negatively affected by chronic stress from warming $T_{air}$, which may reduce growth and increase the risk of carbon starvation in these small trees, which have lower NSC reserves [@niinemetsResponsesForestTrees2010].
+Thus, while canopy trees are probably more vulnerable to mortality from distinct heat-related disturbances, such as drought or heat waves, trees in the understory might be more negatively affected by chronic stress from warming $T_{air}$, which may reduce growth and increase the risk of carbon starvation in these small trees, whose lower NSC reserves make them more vulnerable [@niinemetsResponsesForestTrees2010].
 
 ### Canopy disturbance
 
