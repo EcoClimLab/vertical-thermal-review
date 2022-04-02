@@ -57,7 +57,7 @@ SIfig_NEON_all = "S1"
 SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)"
 
 #Word count
-w_intro=374
+w_intro=369
 w_biophys=1548
 w_tleaf=736
 w_traits= 2460
@@ -141,16 +141,16 @@ As the climate changes, integrating the patterns and mechanisms reviewed here in
 # I. Introduction
 
 Global average temperatures have risen 1.2$^\circ$C since 1900 [@rohdeBerkeleyEarthLand2020] and are expected to reach +1.5$^\circ$C by 2040 [@ipccClimateChange20212021], accompanied by increasing severity and frequency of heat waves and hotter droughts [@meehlMoreIntenseMore2004; @ipccClimateChange20212021].
-These changes are expected to affect tree metabolism and forest ecosystem function [@breshearsUnderappreciatedPlantVulnerabilities2021; @portnerScientificOutcomeIPBESIPCC2021] by altering rates of photosynthesis and respiration [@breshearsUnderappreciatedPlantVulnerabilities2021; <!--@corlettImpactsWarmingTropical2011;--> @scafaroResponsesLeafRespiration2021], causing foliar damage during heat waves [@osullivanThermalLimitsLeaf2017; @corlettImpactsWarmingTropical2011], and reducing growth and elevating mortality during drought [@breshearsUnderappreciatedPlantVulnerabilities2021; @mcdowellPervasiveShiftsForest2020]. 
+These changes are affecting tree metabolism and forest ecosystem function [@breshearsUnderappreciatedPlantVulnerabilities2021; @portnerScientificOutcomeIPBESIPCC2021] by altering rates of photosynthesis and respiration [@breshearsUnderappreciatedPlantVulnerabilities2021; <!--@corlettImpactsWarmingTropical2011;--> @scafaroResponsesLeafRespiration2021], causing foliar damage during heat waves [@osullivanThermalLimitsLeaf2017; @corlettImpactsWarmingTropical2011], and reducing growth and elevating mortality during drought [@breshearsUnderappreciatedPlantVulnerabilities2021; @mcdowellPervasiveShiftsForest2020]. 
 The resulting feedbacks to climate and carbon storage, and changes in albedo and hydrology will in turn impact the future trajectory of climate change [@bonan_ecological_2016], yet future forest dynamics remain one of the largest sources of uncertainty in Earth system model climate change projections [@friedlingsteinClimateCarbonCycle2006; @krauseLargeUncertaintyCarbon2018; @aroraCarbonConcentrationCarbon2020].
  
-Future forest dynamics will depend on the impacts of climate change across trees varying in height and crown position. 
+Future forest dynamics will depend on how climate change impacts trees of varying height and crown position. 
 Forests are vertically stratified, and canopies moderate climatic conditions [@ozanneBiodiversityMeetsAtmosphere2003; @nakamuraForestsTheirCanopies2017], including buffering understory microclimates from extreme meteorological conditions [@zellweger_seasonal_2019]. 
 Vertical gradients in biophysical variables such as temperature, light, wind, humidity and carbon dioxide (CO~2~) concentrations influence leaf temperatures, traits, and metabolism, with implications for whole plant performance [@fauset_differences_2018; @michaletzEnergeticCarbonEconomic2016a].
 Although forest vertical stratification strongly influences plant metabolism, demography, and ecology, we lack comprehensive understanding of these gradients [but see @niinemetsPhotosyntheticAcclimationSimultaneous2004].
 Importantly, this limits our ability to understand how warming temperatures will affect leaf-level metabolism, whole-plant performance, and, in turn, forest dynamics, biodiversity, energy balance, ecosystem function, and biosphere-atmosphere interactions.
 
-Here, we review vertical gradients in the biophysical environment and plant form and function in forests, focusing on five key themes (Fig. `r fig_schematic`):
+Here, we review vertical gradients in the biophysical environment and plant form and function in forests, focusing on five themes (Fig. `r fig_schematic`):
 (1) the biophysical environment;
 (2) leaf temperature ($T_{leaf}$);
 (3) the leaf traits that most strongly influence $T_{leaf}$ and thermal tolerance;
@@ -158,7 +158,7 @@ Here, we review vertical gradients in the biophysical environment and plant form
 (5) tree and ecosystem ecology.
 We then consider the implications for understanding forest responses to global change and how they scale across space and time. 
 
-![**Figure `r fig_schematic`. Schematic summarizing vertical gradients in forests according to (1) biophysical environment, (2) leaf temperature ($T_{leaf}$), (3) leaf traits, (4) leaf metabolism, and (5) tree and ecosystem ecology.** Abbreviations are as follows: $T_{air}$: air temperature, VPD: vapor pressure deficit;  $T_{leaf}$ - $T_{air}$: leaf-to-air temperature difference; LMA: leaf mass per area; T sensitivity: temperature sensitivity; ET: evapotranspiration. Here, we summarize conditions in closed-canopy forests during growing season and daytime conditions; patterns tend to be weaker, or sometimes reversed, in more open forests, when canopy trees are seasonally deciduous, or at nighttime. Arrows indicate direction of increase, with double-pointed arrows indicating that the direction of the trend is uncertain or inconsistent. *Isoprene emission has also been observed to peak in mid-canopy (Table `r table_leaf_traits`).](schematics/Schematic figure 1.png)
+![**Figure `r fig_schematic`. Schematic summarizing typical vertical gradients in (1) biophysical environment, (2) leaf temperature ($T_{leaf}$), (3) leaf traits, (4) leaf metabolism, and (5) tree and ecosystem ecology within closed-canopy forests during daytime growing season conditions.** Arrows indicate direction of increase, with double-pointed arrows indicating that the direction of the trend is uncertain or inconsistent. Patterns tend to be weaker, or sometimes reversed, in more open forests, when canopy trees are seasonally deciduous, or at nighttime. Abbreviations are as follows: $T_{air}$: air temperature, VPD: vapor pressure deficit;  $T_{leaf} - T_{air}$: leaf-to-air temperature difference; LMA: leaf mass per area; T sensitivity: temperature sensitivity; ET: evapotranspiration. *Isoprene emission has also been observed to peak in mid-canopy (Table `r table_leaf_traits`).](schematics/Schematic figure 1.png)
 
 
 # II. Review of vertical gradients
