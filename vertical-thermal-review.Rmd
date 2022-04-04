@@ -64,10 +64,10 @@ w_traits= 2392
 w_met=941
 w_ecol=1357
 w_vertgradients=w_biophys+w_tleaf+w_traits+w_met+w_ecol
-w_imp_gc=1088
-w_imp_modeling_scaling=1186
+w_imp_gc=1071
+w_imp_modeling_scaling=1173
 w_implications=w_imp_gc+w_imp_modeling_scaling
-w_conclusions=248
+w_conclusions=247
 w_total=w_intro+w_vertgradients+w_implications+w_conclusions
 
 ```
@@ -522,13 +522,13 @@ The complex interwoven relations between the biophysical environment and biologi
 ### Warming
 
 As climate change progresses, we anticipate increases in both mean daytime and nighttime $T_{air}$, as well as increased maximum temperatures, with extreme increases during heat waves [@ipccClimateChange20212021].
-To the extent that warming is coupled to drought, we expect that the tallest trees to usually be hardest-hit, particularly in severe drought, partly because their crowns are positioned in a more challenging microenvironment [section 5.1, Figs. `r fig_schematic`- `r fig_treerings`].
+To the extent that warming is coupled to drought, we expect that tall trees with exposed crowns will usually be hardest-hit, particularly in severe drought, partly because their crowns are positioned in a more challenging microenvironment (section 5.1, Figs. `r fig_schematic`- `r fig_treerings`).
 In contrast, understory trees will be more sheltered during droughts and heat waves, and in some settings may benefit from increased light availability [@bennettLargerTreesSuffer2015;@hoganDroughtInterannualVariability2019; @nunesForestFragmentationImpacts2022].
-An interesting open question is to what extent these patterns vary with the nature of the drought, including the relative contributions to stress from low soil moisture versus high VPD. 
+It remains unclear how these patterns vary with the nature of the drought, including the relative contributions to stress from low soil moisture versus high VPD. 
 While the two are coupled over longer time scales [@humphreySoilMoistureAtmosphere2021; @novickIncreasingImportanceAtmospheric2016], the latter can be intense for short periods even when soil moisture is high (e.g., during a heat wave) and exerts a stronger influence on ET in many biomes [@novickIncreasingImportanceAtmospheric2016]. 
-Given the mechanisms reviewed here, we might expect that VPD in particular skews the stress more towards the exposed canopy trees.   
+Given the mechanisms reviewed here, we might expect that high VPD in particular skews the stress more towards the exposed canopy trees.   
 
-It remains poorly understood how responses to warming will vary across vertical gradients under mesic conditions. 
+It remains uncertain how responses to warming will vary across vertical gradients under mesic conditions. 
 Leaves display substantial plasticity to adapt to warmer temperatures [<!--@slotGeneralPatternsAcclimation2015;--> @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019;@cunninghamTemperateRainforestTrees2003] and to recover from heat stress [@smithEmpiricalEvidenceResilience2020], yet failure to fully acclimate will reduce carbon sequestration at leaf, tree, and ecosystem levels [@huangAirTemperatureOptima2019; @wayJustRightTemperature2019; @tanOptimumAirTemperature2017; @bennettThermalOptimaGross2021]. 
 As growing season $T_{air}$ increasingly equals or exceeds photosynthetic optima [@slotSituTemperatureResponse2017; @mauTemperateTropicalForest2018; @huangAirTemperatureOptima2019; @kumarathungeAcclimationAdaptationComponents2019], exposed crowns are likely most vulnerable. 
 Particularly in mid-latitude forests, which have the narrowest thermal safety margin between historical maximum temperatures and $T_{crit}$ [@osullivanThermalLimitsLeaf2017], $T_{leaf}$ of sun-exposed leaves may approach tolerance thresholds during heat waves, causing photosynthetic decline or even leaf death [@osullivanThermalLimitsLeaf2017; @tiwariPhotosyntheticQuantumEfficiency2021; @kunertSummerTemperaturesReachinpress]. 
@@ -536,14 +536,13 @@ In contrast, understory leaves and trees are unlikely to face the same absolute 
 Protection from thermal stress associated with high direct radiation might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018a].
 However, with $T_{air}$ more frequently equaling or exceeding photosynthetic optima, occasional exposure to sunflecks coupled with lower capacity to dissipate excess heat may prove disadvantageous. 
 <!--Moreover, increased nighttime $T_{air}$ may disproportionately increase respiration relative to photosynthesis, thereby negatively affecting the carbon balance.-->
-While it is currently difficult to predict whether canopy or understory photosynthesis will be more severely affected by warming (section 4.2), limited tree-ring evidence indicates that unusually hot growing seasons can reduce growth more for understory trees [section 5.1, Fig `r fig_treerings`b, @rollinsonClimateSensitivityUnderstory2020].
+While it is currently difficult to predict whether canopy or understory photosynthesis will be more severely affected by warming (section 4.2), limited tree-ring evidence indicates that unusually hot growing seasons can reduce growth more for understory trees [Fig `r fig_treerings`b, @rollinsonClimateSensitivityUnderstory2020].
 Thus, while canopy trees are probably more vulnerable to mortality from distinct heat-related disturbances, such as drought or heat waves, trees in the understory might be more negatively affected by chronic stress from warming $T_{air}$, which may reduce growth and increase the risk of carbon starvation in these small trees, whose lower NSC reserves make them more vulnerable [@niinemetsResponsesForestTrees2010].
 
 ### Canopy disturbance
 
-Rising temperatures and severe droughts place canopy trees at particularly elevated risk of mortality. 
-Large trees are also disproportionately impacted by other climate-related disturbances [e.g., wind, lighting,  @goraImplicationsSizedependentTree2021] that are expected to intensify with climate change [@ipccClimateChange20212021], and they are also targeted by selective logging [@millerReducedImpactLogging2011]. 
-Increasing severity and frequency of heat waves, accompanied with increases in VPD and ET, can exacerbate effects of drought on predominantly canopy trees, potentially causing large scale canopy die-back [@matusickSuddenForestCanopy2013; @teskeyResponsesTreeSpecies2015; @breshearsUnderappreciatedPlantVulnerabilities2021].
+Increasing severity and frequency of heat waves, accompanied with increases in VPD and ET, place canopy trees at particularly elevated risk of mortality (section 5.1), potentially causing large scale canopy die-back [@matusickSuddenForestCanopy2013; @teskeyResponsesTreeSpecies2015; @breshearsUnderappreciatedPlantVulnerabilities2021].
+Large trees are also disproportionately impacted by other climate-related disturbances [e.g., wind, lighting, @goraImplicationsSizedependentTree2021] that are expected to intensify with climate change [@ipccClimateChange20212021], and they are also targeted by selective logging [@millerReducedImpactLogging2011]. 
 Forest fragmentation also disproportionately kills large trees by making them more vulnerable to wind, desiccation, and liana infestation [@lauranceRainForestFragmentation2006].
 Thus, canopies are becoming increasingly prone to disturbance and gap formation, which in turn increases radiation and temperatures within the forest [@juckerCanopyStructureTopography2018; @starkReframingTropicalSavannization2020]. 
 Such changes often enhance growth of smaller trees, which benefit from increased light [@hoganDroughtInterannualVariability2019;@bennettLargerTreesSuffer2015; @nunesForestFragmentationImpacts2022], and wetter forests can prove quite resilient to canopy disturbance [@millerReducedImpactLogging2011].
@@ -571,14 +570,14 @@ The computational middle-ground lies in cohort-based models, which represent veg
 Owing to differences in the representation of forest vertical strata, DVGMs vary in their capacity to incorporate vertical variation in leaf traits and physiological processes. 
 In general, however, this variation is accounted for via light competition. 
 Models partition radiation above and within the forest vertical profile (i.e., direct vs. diffuse light) using radiative transfer models or a system of two coupled ordinary differential equations, referred to as a two-stream approximation [@sellersCanopyReflectancePhotosynthesis1985; @fisherVegetationDemographicsEarth2018]. 
-Using the latter method, single canopy layers are divided into sun and shade fractions (e.g., in the Community Land Model, CLM model), while models with multiple vegetative layers can analytically solve the two-stream approximation for each layer. 
+Using the latter method, single canopy layers are divided into sun and shade fractions (e.g., in the Community Land Model), while models with multiple vegetative layers can analytically solve the two-stream approximation for each layer. 
 Thus, even in single-layer models, key physiological parameters like $V_{cmax}$ and $J_{max}$ vary, decreasing with increasing cumulative LAI or lower light conditions [Table `r table_leaf_metabolism`, e.g., @krinnerDynamicGlobalVegetation2005]. 
-Recent years have seen growing efforts to incorporate vertical variation more directly in models, specifically involving leaf water potential and light absorption, along with a increasing interest in confronting models directly with field measurements [@fisherPerspectivesFutureLand2020]. Several recent model developments are at the cutting edge of representing vertical variation. 
-Model developments by @chenColumnCanopyAirTurbulent2019, @bonanModelingCanopyinducedTurbulence2018, and @longoBiophysicsEcologyBiogeochemistry2019 implement vertical gradients of irradiance, water content, $T_{leaf},$ and humidification of canopy air by transpiration, modulated by turbulence within the forest and a roughness layer that extends to roughly twice the canopy height [@fisherPerspectivesFutureLand2020]. 
+Recent years have seen growing efforts to incorporate vertical variation more directly in models, specifically involving leaf water potential and light absorption, along with a increasing interest in confronting models directly with field measurements [@fisherPerspectivesFutureLand2020].
+Recent model developments at the cutting edge of representing vertical variation [@chenColumnCanopyAirTurbulent2019;@bonanModelingCanopyinducedTurbulence2018; @longoBiophysicsEcologyBiogeochemistry2019] implement vertical gradients of irradiance, water content, $T_{leaf}$, and humidification of canopy air by transpiration, modulated by turbulence within the forest and a roughness layer that extends to roughly twice the canopy height [@fisherPerspectivesFutureLand2020]. 
 
 The findings of this review reinforce the notion that representing vertical structuring is essential to capturing forest dynamics under global change.
 Improved representation of vertical variation in forest structure and ecosystem function is critical for representing thermal sensitivity and has repeatedly been identified as important for reducing uncertainty and accuratly characterizating of biologically mediated feedbacks [@moorcroftMethodScalingVegetation2001; @banerjeeEffectVerticalCanopy2018; @bonanMovingIncorrectUseful2021]. 
-Moreover, given the anticipated importance of mid-canopy and understory trees in ecosystem resilience given increasing mortality of canopy trees, it is essential that models separately represent these strata. 
+Moreover, given the anticipated importance of mid-canopy and understory trees in ecosystem resilience given increasing mortality of canopy trees, it is essential that models separately represent these strata.
 A key question is whether existing models adequately represent the processes that underpin understory and large tree responses to thermal stress.
 Most models have been developed to capture dynamics in the upper canopy, given the disproportionate role of large trees in ecosystem dynamics (Fig. `r fig_ecosystem`). 
 Less attention has focused on developing and validating understory tree dynamics and responses to perturbations in models, in large part to the paucity of observational and experimental studies needed to resolve key patterns and underlying mechanisms (sections 4, 5).
@@ -603,7 +602,7 @@ Detailed structural information from lidar data can be used to measure tree heig
 Canopy shading can be better represented to predict understory temperatures by modeling the time-varying interaction of the forest canopy with solar radiation, as has been done in other lidar-based analyses [e.g., @davisLiDARderivedTopographyForest2019].
 Satellite and airborne thermal infrared remote sensing analyses are now being conducted at regional and continental scales, although few applications exist at finer-scales needed to understand vertical variation in canopy temperatures [@johnstonWhatLiesVerticalinpress]. 
 As an example of the type of insight possible with this approach, @pauTropicalForestTemperature2018 used data from a tower-based infrared camera in combination with eddy-covariance data and found that tropical forest GPP was more strongly associated with canopy temperature than $T_{air}$ or VPD.
-In a a western-U.S. savanna system in the western U.S., @johnstonWhatLiesVerticalinpress found significant vertical variation in plant temperature, with warmer temperatures in the understory compared to the tops of tree crowns, together with very high grass temperatures and consistent with the principles outlined in sections 1-2 (Fig. `r SIfig_NEON_all`).
+In a a western-U.S. savanna system in the western U.S., @johnstonWhatLiesVerticalinpress found lower foliage temperatures at the tops of tree crowns than in the understory, which was influenced by very high grass temperatures, consistent with the principles outlined in sections 1-2 (Fig. `r SIfig_NEON_all`).
 The growing availability of such data makes this an opportune time to link *in situ* measurements with fine- and landscape-scale measurements to further explore ecosystem-scale patterns in vertical temperature gradients seasonally and across biomes. 
 
 
@@ -616,7 +615,7 @@ While most available data suggest that large canopy trees are the most vulnerabl
 
 As climate changes, patterns and processes across vertical gradients will likely to shift as well.
 In the historical climates to which trees adapted, the canopy was an advantageous place for photosynthesis and growth. 
-However, as temperatures increase, it is likely that exposed canopy positions will more often be physiologically stressful.
+However, as temperatures increase, it is likely that exposed canopy positions will become increasingly physiologically stressful.
 Ensuant increased mortality of canopy trees will create ever more gaps, changing understory conditions and community composition.
 Ultimately, mid- and understory tree communities will be critical to the resilience of forest ecosystems under changing climate, making improved understanding and model representation of their dynamics essential to understanding future forest dynamics.
 Integrating the patterns and mechanisms reviewed here, along with remote sensing data on forest structure and thermal environments, into cohort-based models that integrate with Earth system models will be crucial to understanding and forecasting forest-climate feedbacks in the coming decades.
@@ -635,7 +634,7 @@ No new data were created in this study. New analyses are based upon data availab
 
 ## SI files
 
-`r Notes_leafTbiophysics`
+Note `r Notes_leafTbiophysics`. Biophysical drivers of T~leaf~
 
 `r appendix_NEON_methods_title`
 
