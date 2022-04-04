@@ -60,7 +60,7 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 w_intro=369
 w_biophys=1515
 w_tleaf=749
-w_traits= 2460
+w_traits= 2391
 w_met=1000
 w_ecol=1353
 w_vertgradients=w_biophys+w_tleaf+w_traits+w_met+w_ecol
@@ -255,14 +255,14 @@ However, the opposite trend was observed for a lone tree surrounded by grass in 
 ## 3. Leaf traits 
 
 Anatomical, structural and biochemical leaf traits vary vertically across forest strata [Table `r table_leaf_traits`, @sackHowStrongIntracanopy2006; @niinemetsWorldwideAnalysisWithincanopy2015; @chenLeafEconomicsSpectrum2020], shaping vertical profiles of leaf temperature, metabolism, and thermal sensitivity [@michaletzPlantThermoregulationEnergetics2015a;@michaletzEnergeticCarbonEconomic2016a; @zwienieckiHydraulicLimitationsImposed2004]. 
-Vertical variation in leaf structure and composition has been long recognized, with sun and shade leaf traits distinguished for over a century [@haberlandtPhysiologicalPlantAnatomy1914; @salisburyCausesEcologicalSignificance1928].
+Vertical variation in leaf structure and composition has long been recognized, with sun and shade leaf traits distinguished for over a century [@haberlandtPhysiologicalPlantAnatomy1914; @salisburyCausesEcologicalSignificance1928].
 Early work attributed differences among leaves to sun versus shade [@wyliePrinciplesFoliarOrganization1951; @vogelSunLeavesShade1968], and this tendency grew given the parallel differences observed for plants grown in sun versus shade [@boardmanComparativePhotosynthesisSun1977; @abramsLeafStructuralCharacteristics1990].
-More recent work has extended the focus from light alone to leaf height, as the latter shapes differences in leaf structure and function that can partially mitigate the effects of gravity and hydraulic pathlength on leaves higher up in the canopy [@sackHowStrongIntracanopy2006; @kochLimitsTreeHeight2004; @burgessRegressionsLeafTraits2006].
+More recent work has extended the focus from light alone to height in the vertical profile, as the latter shapes differences in leaf structure and function that can partially mitigate the effects of gravity and hydraulic pathlength on leaves higher up in the canopy [@sackHowStrongIntracanopy2006; @kochLimitsTreeHeight2004; @burgessRegressionsLeafTraits2006].
 For example, leaf mass per area (LMA), photosynthetic capacity ($A_{max}$ per area) and $g_s$ have been observed to increase with height, independently of light [@thomasPhotosyntheticDifferencesSaplings2002; @houterOntogeneticChangesLeaf2012; @cavender-baresChangesDroughtResponse2000; @binLeafTraitExpression2022].
 Thus, leaves develop differently according to the irradiance and hydraulic stress associated with their canopy location, height and evaporative load, with additional potential influences of branch ontogenetic stage [@carterExperimentalWarmingTropical2021; @niinemetsResponsesForestTrees2010; @casasSunShadeLeaves2011;  @keenanGlobalLeafTrait2016; @binLeafTraitExpression2022; @sackHowStrongIntracanopy2006; @chenLeafEconomicsSpectrum2020; @niinemetsVariabilityLeafMorphology2015].
 Plasticity throughout the canopy may emerge when development of new leaves is influenced by information from adjacent mature leaves or apical meristems, including a “memory” of previous conditions in that location, and may also acclimate during and after expansion to the current microclimate [@zwienieckiHydraulicLimitationsImposed2004].
-Overall, leaves may optimize their biochemistry, anatomy and structure for their local conditions [@lloydOptimisationPhotosyntheticCarbon2010; @buckleyOptimalCarbonPartitioning2021; @hikosakaOptimalNitrogenDistribution2014; @kitaoCanopyNitrogenDistribution2018; @niinemetsPhotosynthesisResourceDistribution2007]. 
-Yet, while these studies have clarified many details of leaf differences throughout the canopy, no papers have integrated the many differences in leaf traits throughout the canopy in a cohesive framework.
+Overall, leaf biochemistry, anatomy and structure may be optimized to local conditions [@lloydOptimisationPhotosyntheticCarbon2010; @buckleyOptimalCarbonPartitioning2021; @hikosakaOptimalNitrogenDistribution2014; @kitaoCanopyNitrogenDistribution2018; @niinemetsPhotosynthesisResourceDistribution2007]. 
+However, we lack a a cohesive framework for integrating the many differences in leaf traits throughout the canopy.
 Rather, much of our understanding of trait coordination is based on the leaf economics spectrum concept developed across diverse species using sun leaves [@wrightWorldwideLeafEconomics2004; @keenanGlobalLeafTrait2016; @chenLeafEconomicsSpectrum2020]. 
 As canopy shade is known to alter these trait relationships [@osnasDivergentDriversLeaf2018], further research is needed to characterize trait relationships and responses vertically through the full range of canopy microenvironments.
 
@@ -306,30 +306,28 @@ In contrast, shade leaves have traits that maximize light capture (e.g., lower L
 In open canopies, where light is comparatively homogeneous, leaf traits may be shaped more by maximum $T_{air}$ and VPD stress than by light [@mediavillaFoliarPlasticityRelated2019a].
 
 ## 3.2. Leaf optical properties
-Leaf optical properties are influenced by anatomical, morphological, and biochemical traits, that vary throughout the canopy, as outlined in sections 3.1 and 3.3.
-High in the canopy, high light absorptance can lead to photoinhibition and would be in part be mitigated by $T_{leaf}$ regulation (sections 3.4 and 3.5; Table `r table_leaf_traits`). 
-For leaves in higher light environments, light absorptance and thus heat load can be reduced by leaf surface modifications that increase reflectance, such as trichome and cuticle, and heat may be dissipated biochemically  by carotenoids, including xanthophylls [Table `r table_leaf_traits`, @leeCorrelatesLeafOptical1990; @knappVariabilityLeafOptical1998].
-Further, sun leaves tend to be thicker, with more palisade layers, which act as “light pipes”, and channel abundant light into deeper cell layers, enhancing photosynthetic capacity  [@poorterLeafOpticalProperties1995; @leeCorrelatesLeafOptical1990]. 
-In contrast, shade leaves have lower LMA and absorb more light per unit mass investment, as well as denser chloroplasts layers and a greater proportion of spongy mesophyll, more effective for capturing diffuse light (Table `r table_leaf_traits`) [@poorterLeafOpticalProperties1995; @poorterLeafOpticalProperties2000; @leeCorrelatesLeafOptical1990]. 
+Leaf optical properties are influenced by anatomical, morphological, and biochemical traits that vary throughout the canopy (sections 3.1, 3.3).
+High in the canopy, high light absorptance can lead to photoinhibition and would be in part be mitigated by $T_{leaf}$ regulation (sections 3.4, 3.5; Table `r table_leaf_traits`). 
+For leaves in higher light environments, light absorptance and thus heat load can be reduced by leaf surface modifications (e.g., trichomes, cuticle) that increase reflectance, and heat may be dissipated biochemically  by carotenoids, including xanthophylls [Table `r table_leaf_traits`, @leeCorrelatesLeafOptical1990; @knappVariabilityLeafOptical1998].
+Further, sun leaves tend to be thicker, with more palisade layers, which act as “light pipes” that channel abundant light into deeper cell layers, enhancing photosynthetic capacity [@poorterLeafOpticalProperties1995; @leeCorrelatesLeafOptical1990]. 
+In contrast, shade leaves have lower LMA and absorb more light per unit mass investment, as well as denser chloroplasts layers and a greater proportion of spongy mesophyll, more effective for capturing diffuse light [Table `r table_leaf_traits`, @leeCorrelatesLeafOptical1990;@poorterLeafOpticalProperties1995; @poorterLeafOpticalProperties2000]. 
 
 ## 3.3. Metabolic capacity and efficiency
 
-Most leaf biochemical traits also vary across light and height gradients (Table `r table_leaf_traits`), both shaping and resulting from gradients in metabolism (section 4, Table `r table_leaf_metabolism`).
-Sun leaves have higher concentrations area-based concentrations of elements like nitrogen ($N_{area}$) and phosphorus ($P_{area}$) that are critical for respiration [@meirLeafRespirationTwo2001;@weerasingheCanopyPositionAffects2014] and photosynthesis [@scartazzaInvestigatingEuropeanBeech2016a; @niinemetsPhotosyntheticAcclimationSimultaneous2004; @weerasingheCanopyPositionAffects2014].
-Increases in chlorophyll a/b ratios with height reflect greater light availability in the upper canopy, while greater chlorophyll concentrations at lower heights within the forest vertical profile increase PAR absorptance efficiency of shade leaves (Table `r table_leaf_traits`).
-Higher photosynthetic rates (per unit leaf area) and more frequent stomatal closure in sun exposed canopies (section 4, Table `r table_leaf_metabolism`) compared to shaded lower canopies, reduce intercellular CO~2~ concentrations and increase leaf $\delta^{13}$C (Table `r table_leaf_traits`).
-
+Most leaf biochemical traits also vary across light and height gradients (Table `r table_leaf_traits`), both shaping and resulting from gradients in metabolism (section 4).
+Sun leaves have higher area-based concentrations of elements like nitrogen ($N_{area}$) and phosphorus ($P_{area}$) that are critical for respiration [@meirLeafRespirationTwo2001;@weerasingheCanopyPositionAffects2014] and photosynthesis [@scartazzaInvestigatingEuropeanBeech2016a; @niinemetsPhotosyntheticAcclimationSimultaneous2004; @weerasingheCanopyPositionAffects2014].
+Increases in chlorophyll a/b ratios with height reflect greater light availability in the upper canopy, while greater chlorophyll concentrations at lower heights increase PAR absorptance efficiency of shade leaves (Table `r table_leaf_traits`).
+Higher photosynthetic rates (area-based) and more frequent stomatal closure in sun exposed canopies (section 4), reduce intercellular CO~2~ concentrations and increase leaf $\delta^{13}$C (Table `r table_leaf_traits`).
 
 
 ## 3.4. Biochemical protection against foliage light and heat damage
 
-Biochemical protection against light and heat damage increases with peak radiation loads, and thus tends to be higher in the upper canopy than in the understory (Table `r table_leaf_traits`). 
-Further, by reducing photosynthesis, VPD-associated stomatal closure can reduce the capacity to use light energy for photochemistry, thereby increasing the potential for photoinhibition [@niinemetsPhotosynthesisResourceDistribution2007] <!--Nidhi, I feel like this sentence needs a reference. {maybe this would be better as a topic sentence without a ref? but there is one Ty suggested-->.
+Biochemical protection against light and heat damage increases with peak radiation loads and thus tends to be higher in the upper canopy, which is subject to higher $T_{leaf}$ and hydraulic limitations, than in the understory (Table `r table_leaf_traits`). 
+More frequent stomatal closure in upper canoopy leaves (section 4) reduces their the capacity to use light energy for photochemistry, thereby requiring a high capacity to dissipate excess light energy and protect against photoinhibition [@niinemetsPhotosynthesisResourceDistribution2007].
 Accumulation of excess light energy causes overreduction of the electron transport chain and the formation of harmful reactive oxygen species [@niyogiSafetyValvesPhotosynthesis2000; @suzukiReactiveOxygenSpecies2006a].
 A ubiquitous defense is a rapidly inducible non-photochemical quenching (NPQ) mechanism that responds to the increased thylakoid pH gradient caused by excess light [@niyogiSafetyValvesPhotosynthesis2000; @gossBiodiversityNPQ2015].
 This form of NPQ entails interconversion of xanthophyll cycle pigments—violaxanthin, antheraxanthin, and zeaxanthin (VAZ)—which regulates the capacity for de-excitation of chlorophyll through thermal dissipation instead of photochemistry.
-Due to higher leaf temperatures and hydraulic limitations, upper canopy leaves spend more time with stomata closed (Table 2), and therefore require a high capacity to dissipate excess light energy [@niinemetsPhotosynthesisResourceDistribution2007].
-Correspondingly, leaves in higher light environments show a greater capacity for NPQ and higher concentrations of VAZ as well as other carotenoids (e.g., beta carotene and lutein) employed as antioxidant defenses [Table `r table_leaf_traits`, @niinemetsAcclimationHighIrradiance1998; @garcia-plazaolaAcclimationAntioxidantPools2004a; @scartazzaInvestigatingEuropeanBeech2016a].
+Leaves in higher light environments show a greater capacity for NPQ and higher concentrations of VAZ as well as other carotenoids (e.g., beta carotene and lutein) employed as antioxidant defenses [Table `r table_leaf_traits`, @niinemetsAcclimationHighIrradiance1998; @garcia-plazaolaAcclimationAntioxidantPools2004a; @scartazzaInvestigatingEuropeanBeech2016a].
 In contrast, to maximize photosynthesis and minimize damage during $T_{leaf}$ surges caused by sunflecks (section 2), shade-acclimated leaves tend to induce photochemical processes more quickly [@urbanInductionPhotosynthesisImportance2007], and also show a steeper response of NPQ to light than sun-acclimated upper canopy leaves [@scartazzaInvestigatingEuropeanBeech2016a].
 
 <!--VOCs-->
@@ -343,15 +341,15 @@ However, a recent study found a contrasting interspecific vertical structuring o
 Similarly, within European beech crowns, monoterpene emissions were highest in semi-shaded leaves beneath the canopy surface [Table `r table_leaf_traits`, @simpragaVerticalCanopyGradient2013]. 
 This pattern may indicate the importance of temporal variability in thermal conditions as distinct from the long-term average. 
 Temperature-sensitive VOC emissions have been hypothesized to enable real-time acclimation to rapidly changing leaf thermal environments typical of the mid-canopy region [section 1, @sharkeyIsopreneEmissionPlants2008]. 
-Future work to understand how temporal dynamics of $T_{leaf}$ [see @leighInfluenceLeafSize2017] vary with height and influence leaf function will be important for resolving the role of VOCs in forest thermal sensitivity across the vertical gradient. 
+Future work to understand how temporal dynamics of $T_{leaf}$ vary with height and influence leaf function will be important for resolving the role of VOCs in forest thermal sensitivity across the vertical gradient. 
 Given current understanding, we may hypothesize that light-dependent VOC emissions are important for mid-canopy thermal responses, while other traits play similar roles in upper-canopy leaves.
 
 
 ## 3.5. Thermal tolerance
 
 <!--short par giving background on thermal tolerance-->
-Upper thermal thresholds for leaf survival can be approximated by assessing the photosystem II functioning via using chlorophyll fluorescence techniques [@krauseHightemperatureToleranceTropical2010]. 
 Very high $T_{leaf}$ (~40-60$^{\circ}$C) irreversibly damages photosystem II, leading to leaf necrosis and death [@bakerChlorophyllFluorescenceProbe2008; @feeley_thermal_2020; @kunertSummerTemperaturesReachinpress]. 
+Upper thermal thresholds for leaf survival can be approximated by assessing the photosystem II functioning via using chlorophyll fluorescence techniques [@krauseHightemperatureToleranceTropical2010]. 
 Thermal tolerance is described in terms of the $T_{leaf}s$ at which photosystem II efficiency starts to decrease ($T_{crit}$) is reduced by 50%, $T_{50}$ [e.g., @slotLeafHeatTolerance2021]. 
 Thermal tolerances vary across species, being more closely linked to leaf traits than phylogeny [@feeley_thermal_2020; @slotLeafHeatTolerance2021]<!--; for example, among tropical species, $T_{crit}$ and $T_{50}$ were found to be high in species with large leaves with high thermal capacitance and those with high LMA, respectively [@slotLeafHeatTolerance2021]-->, and being greater in leaves that experience higher maximum temperatures [@perezPhotosyntheticHeatTolerances2020].
 $T_{50}$ and $T_{crit}$ decrease across increasing latitudes, and with elevation among tropical forests [@feeley_thermal_2020;  @slotLeafHeatTolerance2021; @osullivanThermalLimitsLeaf2017].
@@ -359,23 +357,23 @@ However, they appear more closely adapted to microclimate than macroclimate [@fe
 <!--For example, *Quercus muehlenbergii* Engelm. growing in xeric, sunnier conditions showed higher $T_{50}$ by $2{^\circ}C$ than *Quercus macrocarpa* Michx. growing in shaded mesic conditions [@hamerlynckPhotosyntheticStomatalResponses1996a]. (removed because I had trouble finding this in the paper, plus it's not really needed, but feel free to reinstate) -->
 
 <!--par on thermal tolerance across vertical gradients-->
-Thermal tolerance metrics are hypothesized to be greatest for the leaves with the greatest radiation loads and highest temperatures along the vertical gradient. 
+Thermal tolerance is hypothesized to be greatest for the leaves with the greatest radiation loads and highest temperatures along the vertical gradient. 
 Indeed, considering sun and shade leaf differences across the vertical profile of a closed-canopy forest in Panama, $T_{50}$ was 0.7 - 1.4$^\circ$C lower for shade than sun leaves for two of three tree species [Table `r table_leaf_traits`, @slotPhotosyntheticHeatTolerance2019]. 
-Similarly, within a very open canopy in *Acacia papyrocarpa* Benth. canopy, $T_{50}$ was highest (*albiet* by <1$^\circ$C) in the lower, north-facing leaves, which faced the greatest composite climate stress (low wind speed, greater radiation and $T_{air}$, and lower rates of heat dissipation) [Table `r table_leaf_traits`, @curtis_intracanopy_2019]. 
+Similarly, within a very open canopy in *Acacia papyrocarpa* canopy, $T_{50}$ was highest (*albiet* by <1$^\circ$C) in the lower, north-facing leaves, which faced the greatest composite climate stress (low wind speed, greater radiation and $T_{air}$, and lower rates of heat dissipation) [Table `r table_leaf_traits`, @curtis_intracanopy_2019]. 
 These modest differences in $T_{50}$ coupled with larger differences in $T_{leaf}$ across thermal microenvironments imply that more thermally tolerant sun leaves tend to operate closer to their thermal limits and could therefore be more vulnerable to heat anomalies [@perezPhotosyntheticHeatTolerances2020].
 However, not enough studies have evaluated thermal tolerances across vertical gradients to make robust inferences.
 
 ## 3.6. Leaf phenology
 
-Leaf phenology likely influences the vertical structure of microenvironments, $T_{leaf}$, and forest photosynthetic capacity [@rey-sanchez_spatial_2016]. 
+Leaf phenology influences the vertical structure of microenvironments, $T_{leaf}$, and forest photosynthetic capacity [@rey-sanchez_spatial_2016]. 
 In deciduous forests, the timing and extent of seasonal leaf gain and loss is structured across the vertical profile. 
-In temperate deciduous forests, seasonal warming occurs earlier in the sheltered understory, facilitating earlier spring bud-break compared to the cooler upper canopy [@augspurgerDifferencesLeafPhenology2003]. 
+In temperate climates, seasonal warming occurs earlier in the sheltered understory, facilitating earlier spring bud-break compared to the cooler upper canopy [@augspurgerDifferencesLeafPhenology2003]. 
 Early leaf-out gives saplings and seedlings a window for disproportionately high photosynthesis -- contributing the majority of annual carbon fixation for some seedlings -- before canopy foliage and reduces light availability [@augspurgerDifferencesLeafPhenology2003; @leeSpringPhenologicalEscape2021]. 
 Within tropical dry-season-deciduous species, the fraction of seasonally deciduous individuals is greater in larger trees in hotter, brighter environments, with understory individuals typically remaining evergreen [@conditQuantifyingDeciduousnessTropical2000c].
 Similarly, fractions of deciduous species increase with tree size class [@conditQuantifyingDeciduousnessTropical2000c; @meakemRoleTreeSize2018].
 Even in evergreen tropical forests, seasonal variation in leaf quantities follows distinct vertical patterns throughout the vertical profile depending on height and light environments [@smithSeasonalDroughtrelatedChanges2019;@tangLightdrivenGrowthAmazon2017;@nunesForestFragmentationImpacts2022]. 
 For instance, in a central Amazonian forest, the upper canopies of both interior and edge forests shed leaves when maximum daily $T_{air}$ exceeded ~35$^\circ$C [@nunesForestFragmentationImpacts2022].
-Because leaf turnover is faster in the upper canopy than the understory [@osadaLeafDynamicsMaintenance2001], and as a result upper canopy leaves are, on average, younger than shade leaves.
+In evergreen forests, leaf turnover is faster in the upper canopy than the understory [@osadaLeafDynamicsMaintenance2001], and as a result upper canopy leaves are, on average, younger than shade leaves.
 Leaf age distributions affect forest photosynthetic capacity [@wuLeafDevelopmentDemography2016; @niinemetsLeafAgeDependent2016] and stress tolerance via age specific leaf function [@albertAgedependentLeafPhysiology2018; @kikuzawaSynthesisRelationshipsLeaf2006; <!--@mariasImpactsLeafAge2017;--> @zhouLeafageEffectsTemperature2015].
 Leaf phenology thereby both responds to and influences the vertical structure of forest microenvironments and function.
 
