@@ -288,7 +288,7 @@ There are a few dense sentences or run-ons that could be revised. Lines 192-196 
 
 line52: 'with decreases being more commonly documented across the world’s forests'
 
-**We do not understand this comment, but have verified that this sentence is correct.**
+**We agree that this sentence seems confusing. Therefore, we removed the sentence.**
 
 line128: '… but understory leaf area density is often relatively high in the understory as well' sounds redundant. Please reword.
 
@@ -306,7 +306,7 @@ line148: 'Variability in the light environment decreases with height' – I don�
 
 - **Previous sentences: Variability in the light environment decreases with height, with the shaded understory being highly influenced by sunflecks, or brief increases in solar radiation caused by small canopy gaps and wind-induced canopy movements [@waySunflecksTreesForests2012]. Likewise, the mid-canopy experiences a highly variable light environment due to the sun's passage across a dynamically structured canopy surface [@waySunflecksTreesForests2012].**
 
-- **Changed sentences: Mid-canopies and understories experience a highly dynamic light environment due to sunflecks, or brief increases in direct solar radiation, caused by small canopy gaps, wind-induced canopy movements or the sun's passage across a dynamically structured canopy surface [@waySunflecksTreesForests2012].**
+- **Changed sentences: Mid-canopies and understories experience a highly dynamic light environment due to sunflecks, or brief increases in direct solar radiation, caused by small canopy gaps, wind-induced canopy movements or the sun's passage across a dynamically structured canopy surface [@waySunflecksTreesForests2012]. **
 
 Fig. 1: In the diagram, stomatal density, leaf angle are separate categories yet VAZ and VOC are not. As far as I know though, there is no biochemical link between VAZ and VOC, so these should be separate shouldn't they?
 
@@ -330,7 +330,7 @@ line187: Where mentioning radiation fluxes, could I please ask the authors to us
 
 line188: 'dense canopies buffer understories' is one perspective, that there is far less radiant energy received and therefore understories stay cool is another. Can the authors please consider reflecting this perspective? I’ve studies canopies for a a score of years and I just don’t think 'buffering' is at play so much!
 
-**We were using the term “buffer” in a functional or biological sense, meaning “protect,” rather than as a description of the underlying physics; i.e., the canopy protects the understory from large diel swings in both air temperature and radiation. We have reworded this passage to clarify: “Typically, ***diel temperature range is smaller beneath dense canopies than above, resulting from***~~dense canopies buffer understories from high maximum $T_{air}$ more than open canopies, i.e., dense canopy understories can have~~ lower maximum daytime $T_{air}$ and warmer nighttime minimum $T_{air}$ than beneath open canopies or in nearby clearings ”**
+**We were using the term “buffer” in a functional or biological sense, meaning “protect,” rather than as a description of the underlying physics; i.e., the canopy protects the understory from large diel swings in both air temperature and radiation. We have reworded this passage to clarify: “***Diel temperature range is typically smaller beneath dense canopies than above, resulting from***~~dense canopies buffer understories from high maximum $T_{air}$ more than open canopies, i.e., dense canopy understories can have~~ $T_{air}$ and warmer nighttime minimum $T_{air}$ than beneath open canopies or in nearby clearings.”**
 
 line199 should end with something like 'to shape Tleaf patterns within canopies' rather than just drop at Tleaf.
 
@@ -365,7 +365,8 @@ Lines 354-372 on sun versus shade leaves and Table 1. Most of what is here was k
 
 line382: 'more frequent stomatal closure higher' is awkward and does not follow the comparative. Higher than what?
 
-**We agree that the comparison is not very clear here. We added "compared to shaded lower canopies" to the sentence: "Higher photosynthetic rates (per unit leaf area) and more frequent stomatal closure in sun exposed canopies ***compared to shaded lower canopies,***rreduce intercellular CO~2~ concentrations and increase leaf $\delta^{13}$C (Table 1).**
+**We agree that the comparison is not very clear here. We reworded the sentences to make it clearer:** 
+**Increases in chlorophyll a/b ratios with height reflect greater light availability in the upper canopy, while greater chlorophyll concentrations at lower heights increase PAR absorptance efficiency of shade leaves (Table 1). Higher photosynthetic rates (area-based) and more frequent stomatal closure in sun exposed canopies (section 4), reduce intercellular CO~2~ concentrations and increase leaf $\delta^{13}$C (Table 1).**
 
 line383: d13C is NOT a concentration, it is an isotope ratio. Please revise.
 
@@ -374,7 +375,6 @@ line383: d13C is NOT a concentration, it is an isotope ratio. Please revise.
 line404-405: A cause-effect for an earlier, juvenile understory tree leaf-out is implied here, and I;m not sure that is demonstrated. There are other phenomena underlying this e.g. turgor, hydraulics, hormones, etc.
 
 **Thank you for pointing this out. In line 404-405, we are concentrated on interactions between microenvironments and function. We edited the text to emphasize the mechanisms for earlier bud break in the understory, including warmer temperatures, and the benefits of maximizing carbon gain before overstory closure reduces light availability [added ref. @leeSpringPhenologicalEscape2021]. We edited the rest of the paragraph to more clearly emphasize mechanisms of feedbacks between vertically structured microenvironments, leaf phenology, and forest function.**
-
 
 line475: 'because water supply often cannot meet the demands incurred …'. How do we know how frequent this is? Evidence?
 
@@ -394,7 +394,7 @@ line481 'is maximized' or is maximal? Please correct.
 
 line485-487: It seems that VPD and its effect on gs is ignored here. Please clarify? The well-known stomatal closure at high VPD alone would mean higher Tair would decrease gs in the upper canopy (not 'canopy leaves' as stated) compared to the lower canopy. See Grossiord et al. (2020) Tansley Review. VPD only gets mentioned in the section on photosynthesis (l. 496). Please do so earlier.
 
-**We agree, and have modified the text in this section to emphasize the role of VPD in driving stomatal closure in sun leaves (new text italicized): “However, ~~because~~ cannot meet the demands caused by the high radiation and $g_b$ in sun leaves ***with fully open stomata, because of height-related constraints on water transport (e.g., Yoder et al. 1994, Koch et al. 2004, Sillett et al 2010) and/or increased leaf-air VPD caused by leaf warming in sunlit canopy locations [@buckleyStomatalConductanceOptimized2014]***. These constraints tend to reduce leaf water potential, making midday stomatal depression more prevalent in sun leaves than shade leaves in closed-canopy forests (Table 2), which drives the lower intracellular CO~2~ and $\delta^{13}C$ discussed in section 3.3 (Table 1).  Stomatal depression reduces transpirational cooling (Fig. 3), thus amplifying the warming of sun leaves by high radiation. ~~In sun leaves, Tleaf thus further increases due to the lack of transpirational cooling.~~” We have also added the phrase ***“(driven by increased VPD)”***after “sun leaves in the upper canopy show a stronger decrease in $g_s$ in response to rising $T_{air}$”, and clarified that “high $T_{air}$ should decrease $g_s$ of ***upper canopy***leaves”.**
+**We agree, and have modified the text in this section to emphasize the role of VPD in driving stomatal closure in sun leaves (new text italicized): “However, ~~because~~ cannot meet the demands caused by the high radiation and $g_b$ in sun leaves ***with fully open stomata, in part because of height-related constraints on water transport (e.g., Yoder et al. 1994, Koch et al. 2004, Sillett et al 2010) and/or increased leaf-air VPD caused by leaf warming in sunlit canopy locations [@buckleyStomatalConductanceOptimized2014]***. These constraints tend to reduce leaf water potential, making midday stomatal depression more prevalent in sun leaves than shade leaves in closed-canopy forests (Table 2), which drives the lower intracellular CO~2~ and $\delta^{13}C$ discussed in section 3.3 (Table 1).  Stomatal depression reduces transpirational cooling (Fig. 3), thus amplifying the warming of sun leaves by high radiation. ~~In sun leaves, Tleaf thus further increases due to the lack of transpirational cooling.~~” We have also added the phrase ***“(driven by increased VPD)”***after “sun leaves in the upper canopy show a stronger decrease in $g_s$ in response to rising $T_{air}$”, and clarified that “high $T_{air}$ should decrease $g_s$ of ***upper canopy***leaves”.**
 
 
 line510-525: There is a long discussion about whether Topt for gas exchange or its components differs between overstory and understory. Here the authors aren’t clear, but such a comparison only matters if the same species is measured in different canopy layers.
