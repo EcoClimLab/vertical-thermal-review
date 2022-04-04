@@ -62,7 +62,7 @@ w_biophys=1515
 w_tleaf=749
 w_traits= 2392
 w_met=941
-w_ecol=1353
+w_ecol=1357
 w_vertgradients=w_biophys+w_tleaf+w_traits+w_met+w_ecol
 w_imp_gc=1088
 w_imp_modeling_scaling=1186
@@ -452,18 +452,18 @@ Overall, however, we currently lack mechanistic understanding of how and why the
 
 ## 5. Tree and ecosystem ecology
 
-Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism scale up to affect tree ecology, ecosystem ecology, and their temperature responses (Fig. `r fig_schematic`). 
+Differences across forest vertical gradients in biophysical conditions, plant traits, and metabolism scale up to affect ecological rates and their temperature responses at tree and ecosystem levels (Fig. `r fig_schematic`). 
 
 ### 5.1. Tree metabolism, growth, and survival
 
 Tree metabolism and growth are shaped by crown location in the vertical gradient.
 Tree height, crown volume, and foliage biomass all scale with diameter at breast height (DBH), which strongly predicts tree transpiration  [@meinzerWaterTransportTrees2001;@kunertRevisedHydrologicalModel2017; @anderson-teixeiraSizerelatedScalingTree2015] photosynthesis, and intra-canopy trait variation [@binLeafTraitExpression2022].
-Specifically, increases are linked to increased leaf area and the increasing probability that the crown is in the canopy [@muller-landauTestingMetabolicEcology2006], where leaves receive more light and have higher leaf area-specific photosynthesis (Table `r table_leaf_metabolism`).
+Specifically, increases are linked to greater leaf area and the increasing probability that the crown is in the canopy [@muller-landauTestingMetabolicEcology2006], where leaves receive more light and have higher leaf area-specific photosynthesis (Table `r table_leaf_metabolism`).
 Photosynthate production is allocated among functions including respiration, aboveground woody growth, foliar turnover, root growth and allocation to root-associated microorganisms, reproduction, defense, and storage of non-structural carbohydrates (NSCs). 
 Among these, the best-studied process is aboveground woody growth, which consumes only a modest fraction of total photosynthate [~1/6 on the ecosystem level, @anderson-teixeiraCarbonCyclingMature2021] but is disproportionately important to long-term forest dynamics and carbon cycling because woody tissues have a long residence time in the ecosystem [@russellResidenceTimesDecay2014].
 Radial stem growth may increase or decrease over time as trees grow in DBH depending on the light environment [@anderson-teixeiraJointEffectsClimate2022].
-In open forests and for open-growth individual trees, growth rate declines with DBH [@muller-landauTestingMetabolicEcology2006; @anderson-teixeiraJointEffectsClimate2022], whereas growth rate consistently increases with DBH for trees established in the understory of a closed-canopy forest [@muller-landauTestingMetabolicEcology2006; @anderson-teixeiraSizerelatedScalingTree2015]. 
-This points to a dominant role of vertical profiles in the biophysical environment, particularly light (Fig. `r fig_NEON_vertical`), in shaping tree growth rates within forests. 
+In open forests and for open-growth individual trees, growth rate declines with DBH, whereas growth rate consistently increases with DBH for trees established in the understory of a closed-canopy forest [@muller-landauTestingMetabolicEcology2006; @anderson-teixeiraSizerelatedScalingTree2015;@anderson-teixeiraJointEffectsClimate2022]. 
+This points to a dominant role of vertical profiles in the biophysical environment, particularly light, in shaping tree growth rates within forests. 
 
 Vertical gradients also affect the climate sensitivity of metabolism and growth.
 Stomatal conductance can be strongly limited by high VPD even when soil water is plentiful [@novickIncreasingImportanceAtmospheric2016; @corlettImpactsWarmingTropical2011; @ruehrWaterAvailabilityDominant2016].
@@ -473,12 +473,13 @@ More active regulation of transpiration by tall canopy trees [e.g., @mediavillaS
 This reduces carbon isotope discrimination, indicative of greater $g_s$ limitation, with increasing tree height [Table `r table_leaf_traits`, @mcdowellRelationshipTreeHeight2011].
 
 In turn, the drought sensitivity of woody growth tends to be greater in upper-canopy trees than in smaller trees with less exposed crowns. 
-Dendrochronologists generally agree tree ring records of large, exposed trees are best suited for climate reconstructions because their annual growth is most sensitive to interannual climate variation [@frittsTreeRingsClimate1976]. 
+Dendrochronologists generally agree that tree ring records of large, exposed trees are best suited for climate reconstructions because their annual growth is most sensitive to interannual climate variation [@frittsTreeRingsClimate1976]. 
 However, few studies have directly examined drought- or temperature-sensitivities as a function of tree size.
 Most have found greater sensitivity to low precipitation or seasonally high temperatures among larger, more exposed trees [Fig. `r fig_treerings`, @trouillierSizeMattersComparison2018; @gillerotTreeNeighbourhoodDiversity2020; @mcgregorTreeHeightLeaf2021;@anderson-teixeiraJointEffectsClimate2022; @heilmanEcologicalForecastingTree2022], corroborating evidence from global forest censuses that drought reduces growth more in large trees [@bennettLargerTreesSuffer2015]. 
 Drought also causes greater mortality in larger trees [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019].
-Mechanistically, this is likely driven in part by larger trees having crown in microenvironments that are more challenging during drought [Figs. `r fig_schematic` - `r fig_leaf_T`, @scharnweberConfessionsSolitaryOaks2019], yet height itself also creates disadvantages [@olsonPlantHeightHydraulic2018; @couvreurWaterTransportTall2018].
-Indeed, despite the potential for shorter trees in open forests to experience greater environmental stress [@curtis_intracanopy_2019], greater drought sensitivity of larger trees has been observed in open as well as closed-canopy forests [@bennettLargerTreesSuffer2015; @anderson-teixeiraJointEffectsClimate2022], although some evidence indicates that short trees in young stands can be more drought-sensitive than taller trees in mature forests [@irvineAgerelatedChangesEcosystem2004].
+Mechanistically, this is likely driven in part by larger trees having their crowns in microenvironments that are more challenging during drought [Figs. `r fig_schematic` - `r fig_leaf_T`, @scharnweberConfessionsSolitaryOaks2019], yet height itself also creates disadvantages [@olsonPlantHeightHydraulic2018; @couvreurWaterTransportTall2018].
+Indeed, despite the potential for shorter trees in open forests to experience greater environmental stress [@curtis_intracanopy_2019], greater drought sensitivity of larger trees has been observed in open as well as closed-canopy forests [@bennettLargerTreesSuffer2015; @anderson-teixeiraJointEffectsClimate2022].
+However, evidence that short trees in young stands can be more drought-sensitive than taller trees in mature forests [@irvineAgerelatedChangesEcosystem2004;@wangDiscrepancyGrowthResilience2022] reinforces the importance of exposure in shaping drought sensitivity.
 The relative importance of exposure versus height in shaping drought sensitivity remains to be disentangled.
 
 Although drought sensitivity clearly increases with crown height and hence with DBH, it remains unclear how growth sensitivity to high $T_{air}$, independent of drought, varies along the vertical gradient.
@@ -496,12 +497,12 @@ Canopy trees account for the majority of forest ecosystem water and carbon cycli
 While studies partitioning transpiration across forest vertical gradients are rare, both evapo-transpiration (ET) and transpiration have been shown to increase with height in a *Picea abies* forest in Germany, where the upper half of the canopy contributed an estimated 80% of daytime ET [@staudtVerticalStructureEvapotranspiration2011]. 
 Similarly, in a tropical forest in the Brazilian Amazon, canopy and subcanopy trees jointly contributed ~93% of ET, or 88% of transpiration [Fig `r fig_ecosystem`a, @kunertRevisedHydrologicalModel2017], and trees >33 cm DBH contributed >80% of transpiration in a forest in Costa Rica [@mooreUpscalingTranspirationDiverse2018]. 
 In terms of C cycling, it has been estimated that the canopy strata contributes $\ge$ 64% of net daytime CO~2~ uptake [i.e., GPP - ecosystem respiration, including from soil, @missonPartitioningForestCarbon2007]. 
-Large trees also dominate woody above ground net primary productivity ($ANPP_{woody}$) and mortality ($M_{woody}$), with trees $\geq$ 10cm DBH usually contributing > 85% of $ANPP_{woody}$ and $M_{woody}$ across 25 globally distributed forests [Fig. `r fig_ecosystem`b, @piponiotDistributionBiomassDynamicsinpress]. 
+Large trees also dominate woody aboveground net primary productivity ($ANPP_{woody}$) and mortality ($M_{woody}$), with trees $\geq$ 10cm DBH usually contributing > 85% of $ANPP_{woody}$ and $M_{woody}$ across 25 globally distributed forests [Fig. `r fig_ecosystem`b, @piponiotDistributionBiomassDynamicsinpress]. 
 
 ![**Figure `r fig_ecosystem`. Vertical partitioning of (a) evapotranspiration and (b) C fluxes in tropical forests.** Panel (a) is from @kunertRevisedHydrologicalModel2017; panel (b) presents averages for 14 tropical forests from @piponiotDistributionBiomassDynamicsinpress.](schematics/ecosystem vertical partitioning/ecosystem partitioning.png)
 
 It is less clear how thermal sensitivity of water and carbon fluxes vary across strata, but probable responses can be inferred based on the patterns and mechanisms reviewed above.
-We expect that transpiration, GPP, and $ANPP_{woody}$ should all be more sensitive to high temperatures in the upper canopy than in the understory -- at least under conditions of moderate to high VPD [@grossiordPlantResponsesRising2020; @nunesForestFragmentationImpacts2022]. 
+We expect that under conditions of moderate to high VPD, transpiration, GPP, and $ANPP_{woody}$ should all be more sensitive to high temperatures in the upper canopy than in the understory [@grossiordPlantResponsesRising2020; @nunesForestFragmentationImpacts2022]. 
 Because canopy trees dominate these fluxes (Fig. `r fig_ecosystem`), their responses will strongly influence the whole-ecosystem response, potentially with modest buffering by the understory. 
 Thus, for example, increases in canopy temperature reduce forest GPP in the tropics [@pauTropicalForestTemperature2018]. 
 Yet evidence also suggests GPP and ecosystem respiration are less sensitive to heat and drought stress in older forests than in young forests [@xuSeasonalVariabilityForest2020], perhaps in part because of more complex vertical structuring [@jonesManagingRedPine2019;@nunesForestFragmentationImpacts2022].
