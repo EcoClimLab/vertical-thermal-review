@@ -479,7 +479,7 @@ Most have found greater sensitivity to low precipitation or seasonally high temp
 Drought also causes greater mortality in larger trees [@bennettLargerTreesSuffer2015; @stovallTreeHeightExplains2019].
 Mechanistically, this is likely driven in part by larger trees having their crowns in microenvironments that are more challenging during drought [Figs. `r fig_schematic` - `r fig_leaf_T`, @scharnweberConfessionsSolitaryOaks2019], yet height itself also creates disadvantages [@olsonPlantHeightHydraulic2018; @couvreurWaterTransportTall2018].
 Indeed, despite the potential for shorter trees in open forests to experience greater environmental stress [@curtis_intracanopy_2019], greater drought sensitivity of larger trees has been observed in open as well as closed-canopy forests [@bennettLargerTreesSuffer2015; @anderson-teixeiraJointEffectsClimate2022].
-However, evidence that short trees in young stands can be more drought-sensitive than taller trees in mature forests [@irvineAgerelatedChangesEcosystem2004;@wangDiscrepancyGrowthResilience2022] reinforces the importance of exposure in shaping drought sensitivity.
+However, evidence that short trees in young stands can be more drought-sensitive than taller trees in mature forests [@irvineAgerelatedChangesEcosystem2004;@wangDiscrepancyGrowthResilience2022a] reinforces the importance of exposure in shaping drought sensitivity.
 The relative importance of exposure versus height in shaping drought sensitivity remains to be disentangled.
 
 Although drought sensitivity clearly increases with crown height and hence with DBH, it remains unclear how growth sensitivity to high $T_{air}$, independent of drought, varies along the vertical gradient.
