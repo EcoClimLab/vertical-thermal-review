@@ -118,9 +118,10 @@ I make a major point of revisions around this idea (l. 35-36) that 'understory t
 
 **(4) changed the statement, "...and tree ring evidence (Fig. 4) suggest that understory trees may respond more negatively to hot, wet conditions." to read "...and some tree ring evidence [@anderson-teixeiraJointEffectsClimate2022; @rollinsonClimateSensitivityUnderstory2020] raise the possibility that understory trees may be at a relative disadvantage under hot, humid conditions."**
 
-*...*
+**(5) revised discussion in the "Warming" section to read: "In contrast, understory leaves and trees are unlikely to face the same absolute extremes of *T~leaf~*, and protection from thermal stress associated with high direct radiation might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018a]. However, with *T~air~* more frequently equaling or exceeding photosynthetic optima, occasional exposure to sunflecks coupled with lower capacity to dissipate excess heat may prove disadvantageous. While it is currently difficult to predict whether canopy or understory photosynthesis will be more severely affected by warming (section 4.2), limited tree-ring evidence indicates that unusually hot growing seasons can dramatically reduce the growth of understory trees [@rollinsonClimateSensitivityUnderstory2020], and these small trees may be at higher risk of carbon starvation because they have lower NSC reserves [@niinemetsResponsesForestTrees2010]. Thus, despite their buffered microclimate, it is possible that understory trees could be more adversely impacted by warming temperatures than their canopy counterparts under some conditions."**  
 
-*https://github.com/EcoClimLab/vertical-thermal-review/issues/120*
+**(6) in the conclusions section, removed the statement  "...[understory trees] might be more vulnerable to chronic warming stress under relatively mesic conditions [@rollinsonClimateSensitivityUnderstory2020]"**
+
 
 These are wording issues where the writing can improve:
 
@@ -149,6 +150,11 @@ l.579 'implies that high 𝑇𝑎𝑖𝑟 should decrease 𝑔𝑠 of upper cano
 l.629 'we currently lack mechanistic understanding of how and why the temperature sensitivity of respiration varies across the forest vertical profile'. Other than that it varies according to the prevailing temperature difference? I think the temperature difference between upper and lower canopy positions, the theme of this review, should be mentioned in regard to this.
 
 l.806-807 'trees in the understory might be more negatively affected by chronic stress from warming 𝑇𝑎𝑖𝑟'. This is based on such very thin evidence, almost no evidence. Nor do I think that the  authors are appropriately highlighting a lack of knowledge very well by their speculation (which is not based on data). They are inferring what would happen with climate warming on the basis of historical evidence, highly indirect in Fig. 4B which only shows modelled results, and when there are highly overlapping CI's. I hardly find it a basis for a strong statement landing in the abstract, especially when it is contradicted by other statements throughout the review.
+
+**We have revised the second half of the paragraph containing this statement as follows: "In contrast, understory leaves and trees are unlikely to face the same absolute extremes of *T~leaf~*, and protection from thermal stress associated with high direct radiation might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018a]. However, with *T~air~* more frequently equaling or exceeding photosynthetic optima, occasional exposure to sunflecks coupled with lower capacity to dissipate excess heat may prove disadvantageous. While it is currently difficult to predict whether canopy or understory photosynthesis will be more severely affected by warming (section 4.2), limited tree-ring evidence indicates that unusually hot growing seasons can dramatically reduce the growth of understory trees [@rollinsonClimateSensitivityUnderstory2020], and these small trees may be at higher risk of carbon starvation because they have lower NSC reserves [@niinemetsResponsesForestTrees2010]. Thus, despite their buffered microclimate, it is possible that understory trees could be more adversely impacted by warming temperatures than their canopy counterparts under some conditions."**  
+
+**We have modified the abstract sentence to read, "In contrast, understory trees experience fewer extreme high *T~leaf~*'s but have fewer cooling mechanisms and thus may be strongly impacted by warming under some conditions, particularly when exposed to a harsher microenvironment through canopy disturbance."**
+
 
 
 \newpage

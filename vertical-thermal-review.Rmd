@@ -89,7 +89,7 @@ Kristina J. Anderson-Teixeira^1,3^*
 
 **Author Affiliations:**
 
-1. Conservation Ecology Center; Smithsonian National Zoo & Conservation Biology Institute; Front Royal, VA 22630, USA
+1. Conservation Ecology Center; Smithsonian's National Zoo & Conservation Biology Institute; Front Royal, VA 22630, USA
 
 2. Department of Ecology and Evolutionary Biology, UCLA, Los Angeles, CA 90039, USA
 
@@ -532,12 +532,11 @@ It remains uncertain how responses to warming will vary across vertical gradient
 Leaves display substantial plasticity to adapt to warmer temperatures [<!--@slotGeneralPatternsAcclimation2015;--> @slotPhotosyntheticPlasticityTropical2021; @wayJustRightTemperature2019;@cunninghamTemperateRainforestTrees2003] and to recover from heat stress [@smithEmpiricalEvidenceResilience2020], yet failure to fully acclimate will reduce carbon sequestration at leaf, tree, and ecosystem levels [@huangAirTemperatureOptima2019; @wayJustRightTemperature2019; @tanOptimumAirTemperature2017; @bennettThermalOptimaGross2021]. 
 As growing season *T~air~* increasingly equals or exceeds photosynthetic optima [@slotSituTemperatureResponse2017; @mauTemperateTropicalForest2018; @huangAirTemperatureOptima2019; @kumarathungeAcclimationAdaptationComponents2019], exposed crowns are likely most vulnerable. 
 Particularly in mid-latitude forests, which have the narrowest thermal safety margin between historical maximum temperatures and *T~crit~* [@osullivanThermalLimitsLeaf2017], *T~leaf~* of sun-exposed leaves may approach tolerance thresholds during heat waves, causing photosynthetic decline or even leaf death [@osullivanThermalLimitsLeaf2017; @tiwariPhotosyntheticQuantumEfficiency2021; @kunertSummerTemperaturesReachinpress]. 
-In contrast, understory leaves and trees are unlikely to face the same absolute extremes of *T~leaf~* (unless exposed to sunflecks), but in some ways are likely to prove more sensitive to higher *T~air~*.
-Protection from thermal stress associated with high direct radiation might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018a].
+In contrast, understory leaves and trees are unlikely to face the same absolute extremes of *T~leaf~*, and protection from thermal stress associated with high direct radiation might allow shaded layers to photosynthesize longer in the day [@millerOnlySunlitLeaves2021; @heChangesShadowShifting2018a].
 However, with *T~air~* more frequently equaling or exceeding photosynthetic optima, occasional exposure to sunflecks coupled with lower capacity to dissipate excess heat may prove disadvantageous. 
 <!--Moreover, increased nighttime *T~air~* may disproportionately increase respiration relative to photosynthesis, thereby negatively affecting the carbon balance.-->
-While it is currently difficult to predict whether canopy or understory photosynthesis will be more severely affected by warming (section 4.2), limited tree-ring evidence indicates that unusually hot growing seasons can reduce growth more for understory trees [@rollinsonClimateSensitivityUnderstory2020].
-Thus, while canopy trees are probably more vulnerable to mortality from distinct heat-related disturbances, such as drought or heat waves, trees in the understory might be more negatively affected by chronic stress from warming *T~air~*, which may reduce growth and increase the risk of carbon starvation in these small trees, whose lower NSC reserves make them more vulnerable [@niinemetsResponsesForestTrees2010].
+While it is currently difficult to predict whether canopy or understory photosynthesis will be more severely affected by warming (section 4.2), limited tree-ring evidence indicates that unusually hot growing seasons can dramatically reduce the growth of understory trees [@rollinsonClimateSensitivityUnderstory2020], and these small trees may be at higher risk of carbon starvation because they have lower NSC reserves [@niinemetsResponsesForestTrees2010].
+Thus, despite their buffered microclimate, it is possible that understory trees could be more adversely impacted by warming temperatures than their canopy counterparts under some conditions.
 
 ### Canopy disturbance
 
@@ -611,7 +610,7 @@ The growing availability of such data makes this an opportune time to link *in s
 Across vertical gradients, directional trends in the biophysical environment and leaf traits are the rule, driving variation in the physiology and ecology that have these as their underpinnings (Fig. `r fig_schematic`).
 However, uncertainty remains about how temperature sensitivity of foliar gas exchange varies across these vertical gradients.
 Similarly, much remains unknown about how crown exposure influences the temperature sensitivity of woody stem growth. 
-While most available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees, which might be more vulnerable to chronic warming stress under relatively mesic conditions [@rollinsonClimateSensitivityUnderstory2020]. 
+While most available data suggest that large canopy trees are the most vulnerable to warming when water is limited, far less is known about the responses of understory trees. 
 
 As climate changes, patterns and processes across vertical gradients will likely to shift as well.
 In the historical climates to which trees adapted, the canopy was an advantageous place for photosynthesis and growth. 
