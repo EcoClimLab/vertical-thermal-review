@@ -43,18 +43,23 @@ Some minor points :
 
 -PAR units in Fig 2d
 
+*https://github.com/EcoClimLab/vertical-thermal-review/issues/118*
 
 -Fig 3 caption: TLeaf and some other discreptances with rest of the paper abreviations or format (tair, gs)
 
+*Nidhi*
 
 -l304 Not sure about the structure of the sentence and causality. Gravity and hydraulic pathlength (due to height) could mitigate the effect of light alone ?
 
+**The full sentence reads: "More recent work has extended the focus from light alone to *height* in the vertical profile, as *the latter* shapes differences in leaf structure and function that can partially mitigate the effects of gravity and hydraulic pathlength on leaves higher up in the canopy." Thus, we're saying that *height* shapes differences in leaf traits that caould mitigate effects of gravity and hydraulic pathlength. We believe the sentence to be correct as written.**
 
 -Table 2, gb unit, mmol m-2 s-1 ?
 
+*Nidhi*
 
 -I found the x axes labels in Fig 4.a difficult to understand, there is maybe a more intuitive way to write them. Note that PET is not defined. °C for the units.
 
+*https://github.com/EcoClimLab/vertical-thermal-review/issues/119*
 
 ## Referee: 2
 
