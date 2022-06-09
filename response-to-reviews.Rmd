@@ -72,9 +72,23 @@ The authors have done a good job of addressing the reviewers' comments from my i
 
 The words 'disproportionate' or 'disproportionately' are used l. 33, 35, 504, 648, 814, 838. For instance, l. 35 'disproportionately impacted under hot, humid conditions': disproportionate to what? The implication is disproportionate to canopy trees, but there is almost no evidence of this. The authors need to be clear what the comparative is in each case that a form of 'disproportionate' is used, especially in their abstract.
 
+**We have modified these statements as follows:**
 
+**l.33 - ...**
+
+**l.35 - "In contrast, understory trees experience fewer extreme high *T~leaf~*'s but have fewer cooling mechanisms and thus may be strongly impacted by warming under some conditions, particularly when exposed to a harsher microenvironment through canopy disturbance."**
+
+**l.504 - ...**
+
+**l.648 - ...**
+
+**l.814 - ...**
+
+**l.838 - ...**
 
 In fact, the abstract reads like the authors cannot decide whether tall trees '... are disproportionately vulnerable to drought and damaging 𝑇𝑙𝑒𝑎𝑓' (l. 33) or understory trees (l. 35). It cannot be both if one is comparing them. In this aspect the abstract comes off indecisive or unclear. This is an element in the review as well (see below).
+
+**We modified this sentence to read, "In contrast, understory trees experience fewer extreme high *T~leaf~*'s but have fewer cooling mechanisms and thus may be strongly impacted by warming under some conditions, particularly when exposed to a harsher microenvironment through canopy disturbance."**
 
 I have issue with the ecosystem level being mentioned in the Abstract. There was little true 'ecosystem level' assessment done in the manuscript, and most of the 'ecosystem level' inferences are based on these statements which are indirect:
 
@@ -84,12 +98,27 @@ l.898 'disproportionate role of large trees in ecosystem dynamics'
 
 So perhaps the authors can greatly soften their ecosystem level assessment. To their credit, and what truly should be emphasised, is the further research needed on ecosystem function (l. 757).
 
+*response required*
 
 l.32 tall trees have higher absolute metabolic capacity and growth at both individual *and ecosystem levels* (please remove the text between the asterices).
 
 **Done.**
 
 I make a major point of revisions around this idea (l. 35-36) that 'understory trees may be disproportionately impacted under hot, humid conditions'. What evidence is there? There is speculation about what might happen in sunflecks (l. 800-801) but little direct evidence, and there is Fig. 4b which is one study with smoothed results that are not convincing (see above). Yet this statement is contrary to statements made in the actual review, like l. 200-201 to the effect that upper canopy is warming with higher VPD than understory, l. 232 that there are higher leaf-air temperature difference in the upper canopy than understory, l. 275-276 that leaves in the upper canopy have higher leaf-air temperature difference and maximum temperatures than understory, also l. 775-776. If so many arguments have been made for a harsher environment and higher leaf temperatures in the upper canopy than understory, it comes off as illogical to reverse and conclude on the basis of Fig. 4b which is flimsy evidence that, as stated in the abstract l. 35-36: 'understory trees may be disproportionately impacted under hot, humid conditions'. I would suggest that the authors clean up their contentions and not come off so contrary to their own evidence and logic. Certainly this titillating idea of understory tree damage is not to be highlighted in the abstract if so much evidence to the contrary is presented in the review. I would like to see direct observations of the impacts that they suggest for the understory, but in the absence of strong arguments the balance of the review would support upper canopy vulnerability rather than the understory. This is a major aspect for the authors to clarify.
+
+**We have greatly de-emphasized the discussion of the potential for stronger negative effects of rising temperatures on understory trees, including the following:**
+
+**(1) removed Fig. 4b [from @rollinsonClimateSensitivityUnderstory2020];**
+
+**(2) modified the abstract sentence to read, "In contrast, understory trees experience fewer extreme high *T~leaf~*'s but have fewer cooling mechanisms and thus may be strongly impacted by warming under some conditions, particularly when exposed to a harsher microenvironment through canopy disturbance."**
+
+**(3) changed statement summarizing @rollinsonClimateSensitivityUnderstory2020 to a more generic statement: "Indeed, there are cases where tree-ring records show more negative or less positive $T_{air}$-responses of understory trees compared to canopy dominants [@anderson-teixeiraJointEffectsClimate2022; @rollinsonClimateSensitivityUnderstory2020]."**
+
+**(4) changed the statement, "...and tree ring evidence (Fig. 4) suggest that understory trees may respond more negatively to hot, wet conditions." to read "...and some tree ring evidence [@anderson-teixeiraJointEffectsClimate2022; @rollinsonClimateSensitivityUnderstory2020] raise the possibility that understory trees may be at a relative disadvantage under hot, humid conditions."**
+
+*...*
+
+*https://github.com/EcoClimLab/vertical-thermal-review/issues/120*
 
 These are wording issues where the writing can improve:
 

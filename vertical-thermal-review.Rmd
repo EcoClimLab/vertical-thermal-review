@@ -131,7 +131,7 @@ In closed-canopy forests, upper-canopy leaves are exposed to the highest solar r
 However, foliar traits also vary across height or light gradients, partially mitigating and protecting against the elevation of upper-canopy *T~leaf~*.
 Leaf metabolism generally increases with height across the vertical gradient, yet differences in thermal sensitivity across the gradient appear modest.
 Scaling from leaves to trees, tall trees have higher absolute metabolic capacity and growth, yet are disproportionately vulnerable to drought and damaging *T~leaf~*, particularly under climate change. 
-In contrast, understory trees experience fewer extreme high *T~leaf~*'s but have fewer cooling mechanisms and thus may be disproportionately impacted under hot, humid conditions, or when exposed to harsher conditions through canopy disturbance.
+In contrast, understory trees experience fewer extreme high *T~leaf~*'s but have fewer cooling mechanisms and thus may be strongly impacted by warming under some conditions, particularly when exposed to a harsher microenvironment through canopy disturbance.
 As the climate changes, integrating the patterns and mechanisms reviewed here into models will be critical to forecasting forest-climate feedbacks.
 
 **Key words**: forest; vertical gradients; microclimate; leaf temperature; leaf traits; gas exchange; ecosystem; climate change 
