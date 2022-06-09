@@ -59,7 +59,7 @@ Some minor points :
 
 -I found the x axes labels in Fig 4.a difficult to understand, there is maybe a more intuitive way to write them. Note that PET is not defined. °C for the units.
 
-*https://github.com/EcoClimLab/vertical-thermal-review/issues/119*
+**We have fixed the axes labels to list units as °C and updated the caption to define PET and better explain the x-axis labels.**
 
 ## Referee: 2
 
@@ -69,6 +69,8 @@ The authors seek to tackle a fairly complex topic in this review article. Whilst
 **Thank you.**
 
 The authors have done a good job of addressing the reviewers' comments from my inspection. This reviewer apologises for needing to raise additional points that were not raised in the previous reviews of the article, but some conceptual aspects and some of the writing are perhaps flawed or require clarification. There are some additions done in the review process that have confused things, or a few aspects that were not picked up in the initial review. The authors and readers both benefit from a clearer picture emerging in this review. There are still a number of places where the authors could improve and one cannot resist letting these past at this point.
+
+**Thank you for your additional comments.**
 
 The words 'disproportionate' or 'disproportionately' are used l. 33, 35, 504, 648, 814, 838. For instance, l. 35 'disproportionately impacted under hot, humid conditions': disproportionate to what? The implication is disproportionate to canopy trees, but there is almost no evidence of this. The authors need to be clear what the comparative is in each case that a form of 'disproportionate' is used, especially in their abstract.
 
