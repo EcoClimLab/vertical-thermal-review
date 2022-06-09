@@ -89,7 +89,7 @@ Kristina J. Anderson-Teixeira^1,3^*
 
 **Author Affiliations:**
 
-1. Conservation Ecology Center; Smithsonian Conservation Biology Institute; Front Royal, VA 22630, USA
+1. Conservation Ecology Center; Smithsonian National Zoo & Conservation Biology Institute; Front Royal, VA 22630, USA
 
 2. Department of Ecology and Evolutionary Biology, UCLA, Los Angeles, CA 90039, USA
 
@@ -623,7 +623,7 @@ Integrating the patterns and mechanisms reviewed here, along with remote sensing
 
 ## Acknowledgements
 Thanks to Valentine Herrmann, Norbert Kunert, Camille Piponiot, Peter B. Boucher and Andrew B. Davies for providing figure materials. 
-This manuscript benefited from feedback from Eleinis Ávila-Lovera and the ForestGEO Ecosystems & Climate lab at SCBI.
+This manuscript benefited from feedback from Eleinis Ávila-Lovera, the ForestGEO Ecosystems & Climate lab at NZCBI, and two anonymous reviewers.
 Funding was provided by the Smithsonian Institution.
 
 ## Author Contributions
