@@ -203,14 +203,14 @@ This holds true across the range of forest types [Fig. `r fig_NEON_vertical`e, S
 As a result, upper canopy leaves have substantially higher boundary layer conductance (*g~b~*) and therefore greater potential for exchange of both mass and sensible heat exchange (sections 2, 4.1).
 
 ### 1.4 Atmospheric concentrations of CO~2~ and water vapor
-Atmospheric CO~2~ concentrations tend to be higher near the ground at night, associated with plant and soil respiration, but the elevated CO~2~ quickly dissipates during the day such that differences are negligible for most of the day when photosynthesis is occurring [@koike_leaf_2001; @yang_spatial_1999; @brooksVerticalGradientsPhotosynthetic1997]. 
+Atmospheric CO~2~ concentrations tend to be higher near the ground at night, associated with plant and soil respiration, but the elevated CO~2~ quickly dissipates during the day such that CO~2~ concentration differences are negligible for most of the day when photosynthesis is occurring [@koike_leaf_2001; @yang_spatial_1999; @brooksVerticalGradientsPhotosynthetic1997]. 
 While understory seedlings may benefit modestly from higher CO~2~ concentrations near the ground during some parts of the day [e.g., 6% of C fixation from recently respired CO~2~, @brooksVerticalGradientsPhotosynthetic1997], gradients in CO~2~ concentrations concentrations likely have little effect on energy balance and metabolism of trees across the vertical gradient [@brooksVerticalGradientsPhotosynthetic1997]. 
  
 Relative humidity (RH) tends to be higher in the understory and decreases with height, although this trend is absent in open forests [Fig. `r fig_NEON_vertical`f, Supporting Information Figure `r SIfig_NEON_all`, @juckerCanopyStructureTopography2018; <!--@mcgregorTreeHeightLeaf2021;-->@binLeafTraitExpression2022].
 Dense-canopy forests maintain higher daily maximum RH in the understory than open forests and nearby open areas, an effect that is greater in wetter conditions, and warmer months [@vonarxSpatiotemporalEffectsForest2012a; @hanberryOpenForestEcosystems2020]. 
 In combination with *T~air~* and *T~leaf~*, RH determines leaf-to-air vapor pressure deficit (VPD) -- the driving force of water loss from leaves -- which tends to be greater in the upper canopy and canopy gaps than in the understory [@fauset_differences_2018; @tymenQuantifyingMicroenvironmentalVariation2017; @niinemetsPhotosyntheticAcclimationSimultaneous2004]. 
 Especially when canopy height and leaf area index (LAI) are large, maximum *T~air~* and VPD are reduced in the understory [@juckerCanopyStructureTopography2018].
-The implication is that upper canopy leaves have higher *g~b~* and associated potential for water and heat loss (sections 2, 4.1).
+The implication is that upper canopy leaves have higher *g~b~* and associated potential for water and heat loss compared to understory leaves (sections 2, 4.1).
 
 ### 1.5 Air temperature 
 Vertical gradients in air temperature (*T~air~*) vary widely (Fig. `r fig_NEON_vertical`, Supporting Information Figure `r SIfig_NEON_all`), depending on factors such as vegetation type, local topography, vertical air mixing, cloud cover, sensible heat emissions, and times of day and year [@defrenneForestMicroclimatesClimate2021; @zellweger_seasonal_2019]. 
@@ -236,7 +236,7 @@ Leaves in these normally-shaded locations can experience rapid light and tempera
 
 
 Elevation of *T~leaf~* above *T~air~* varies with micrometeorological conditions. 
-During drought (hot and dry, with higher-than-average solar radiation), when *g~s~* is limiting, *T~leaf~* - *T~air~* will tend to be higher in the upper canopy compared to the understory (Fig. `r fig_leaf_T`).
+During drought (associated with conditions that are hot and dry, with higher-than-average solar radiation), when *g~s~* is limiting, *T~leaf~* - *T~air~* will tend to be higher in the upper canopy compared to the understory (Fig. `r fig_leaf_T`).
 This is because sun leaves are exposed to higher irradiance and VPD, and therefore have stronger *g~s~* limitation than shade leaves [Fig. `r fig_leaf_T`e, @leighInfluenceLeafSize2017; @fauset_differences_2018]. 
 In contrast, under conditions conducive to stomatal opening, higher wind speeds and *g~b~* enable cooling in the upper canopy, whereas lower wind and *g~b~* in the understory limit evaporative cooling  [Fig. `r fig_leaf_T`b,d, @robertsStomatalBoundaryLayerConductances1990; @martin_boundary_1999; @leighInfluenceLeafSize2017 <!-- @songTreeSurfaceTemperature2020-->]. 
 Thus, while understory and within-canopy shade leaves can remain cooler under lower radiation, their environment is less conducive to dissipating excess heat compared to upper-canopy leaves. 

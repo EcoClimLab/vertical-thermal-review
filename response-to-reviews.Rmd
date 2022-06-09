@@ -124,11 +124,17 @@ These are wording issues where the writing can improve:
 
 l.187: 'but the elevated CO2 quickly dissipates during the day such that differences are negligible for most of the day when photosynthesis is occurring'. Please specify 'CO2 concentration differences' where it says differences, to increase clarity.
 
+**Revised as suggested.**
+
 l.200 'upper canopy leaves have higher 𝑔𝑏 and associated potential for water and heat loss' compared to what??? Please clarify.
+
+**Done. The sentence now reads: "The implication is that upper canopy leaves have higher *g~b~* and associated potential for water and heat loss compared to understory leaves (sections 2, 4.1)."**
 
 l.256: The statement "During drought (hot and dry, with higher-than-average solar radiation) ..." is worded in a confusing manner. Meteorological 'Drought' is conventionally defined as a prolonged shortage in the supply of water to land or plants, but with no link made to temperature or cloudiness. It is fine if the authors associate drought with high temperatures and high radiation, but the parenthetical should emphasise this association, whereas it could be read to imply a one-for-one relationship which is incorrect.
 
 I suggest revising as 'associated with conditions that are hot ...'.
+
+**Revised as suggested.**
 
 l.264-265 'their environment is less conducive to dissipating excess heat compared to upper-canopy leaves.' What evidence? This is a logical argument and should either be backed with references or labelled as a logical outcome of the conditions they have stated.
 
