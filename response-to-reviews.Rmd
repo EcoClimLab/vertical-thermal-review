@@ -141,13 +141,23 @@ I suggest revising as 'associated with conditions that are hot ...'.
 
 l.264-265 'their environment is less conducive to dissipating excess heat compared to upper-canopy leaves.' What evidence? This is a logical argument and should either be backed with references or labelled as a logical outcome of the conditions they have stated.
 
+*response required*
+
 l.269 How does lower VPD in the understory inhibit evaporative cooling, if VPD is the major driver for evaporation? I think I understand how this can be counter-intuitive, but the reasoning isn't explained so it all becomes opaque to the reader. Please explain very briefly.
+
+*response required*
 
 l.313 'information from adjacent mature leaves or apical meristems, including a “memory” of previous conditions in that location, ...'.  This was not in the previous version that I can see, and I don't see the basis for inclusion of this statement. As well, use of the term 'memory' seems awkward if not entirely wrong (even reading between quotes). Please revise.
 
+*response required*
+
 l.579 'implies that high 𝑇𝑎𝑖𝑟 should decrease 𝑔𝑠 of upper canopy leaves more than understory leaves'. The authors here are ignoring what they’ve said previously, that high Tair is associated with high VPD (l. 199-200), and that VPD is conclusively a much stronger driver of gs than Tleaf (Leuning 1995, Grossiord). I think the sentence should be corrected and include VPD.  I'm not yet aware of a good study that has decoupled VPD and Tleaf to prove that Tleaf intrinsically causes reduction in gs. So the authors cannot conclude this.
 
+*response required*
+
 l.629 'we currently lack mechanistic understanding of how and why the temperature sensitivity of respiration varies across the forest vertical profile'. Other than that it varies according to the prevailing temperature difference? I think the temperature difference between upper and lower canopy positions, the theme of this review, should be mentioned in regard to this.
+
+*response required*
 
 l.806-807 'trees in the understory might be more negatively affected by chronic stress from warming 𝑇𝑎𝑖𝑟'. This is based on such very thin evidence, almost no evidence. Nor do I think that the  authors are appropriately highlighting a lack of knowledge very well by their speculation (which is not based on data). They are inferring what would happen with climate warming on the basis of historical evidence, highly indirect in Fig. 4B which only shows modelled results, and when there are highly overlapping CI's. I hardly find it a basis for a strong statement landing in the abstract, especially when it is contradicted by other statements throughout the review.
 
