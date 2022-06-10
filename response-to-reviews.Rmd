@@ -100,7 +100,8 @@ l.898 'disproportionate role of large trees in ecosystem dynamics'
 
 So perhaps the authors can greatly soften their ecosystem level assessment. To their credit, and what truly should be emphasised, is the further research needed on ecosystem function (l. 757).
 
-*response required*
+**We have reworded the abstract sentence to place less emphasis on ecosystems: "Using published research and new analyses, we evaluate how microclimate and leaf temperatures, traits, and gas exchange vary vertically in forests, shaping tree and ecosystem ecology." This wording parallels the section headers in the main manuscript. While we agree that there is little information on how ecosystem function varies across vertical profiles, this was included within the scope of our review, and we dedicate a 450-word subsection (sec. 5.2) plus a figure to this theme.** 
+
 
 l.32 tall trees have higher absolute metabolic capacity and growth at both individual *and ecosystem levels* (please remove the text between the asterices).
 
