@@ -47,7 +47,7 @@ Some minor points :
 
 -Fig 3 caption: TLeaf and some other discreptances with rest of the paper abreviations or format (tair, gs)
 
-*Nidhi*
+*https://github.com/EcoClimLab/vertical-thermal-review/issues/121*
 
 -l304 Not sure about the structure of the sentence and causality. Gravity and hydraulic pathlength (due to height) could mitigate the effect of light alone ?
 
@@ -76,17 +76,17 @@ The words 'disproportionate' or 'disproportionately' are used l. 33, 35, 504, 64
 
 **We have modified these statements as follows:**
 
-**l.33 - ...**
+**l.33 - "Scaling from leaves to trees, canopy trees have higher absolute metabolic capacity and growth, yet are more vulnerable to drought and damaging *T~leaf~* than their smaller counterparts, particularly under climate change."**
 
 **l.35 - "In contrast, understory trees experience fewer extreme high *T~leaf~*'s but have fewer cooling mechanisms and thus may be strongly impacted by warming under some conditions, particularly when exposed to a harsher microenvironment through canopy disturbance."**
 
-**l.504 - ...**
+**l.504 - "Early leaf-out gives saplings and seedlings a window for high photosynthesis before they are shaded by canopy leaves-- contributing the majority of annual carbon fixation for some seedlings -- before canopy foliage and reduces light availability [@augspurgerDifferencesLeafPhenology2003; @leeSpringPhenologicalEscape2021]. "**
 
-**l.648 - ...**
+**l.648 - "Among these, the best-studied process is aboveground woody growth, which consumes only a modest fraction of total photosynthate [~1/6 on the ecosystem level, @anderson-teixeiraCarbonCyclingMature2021] but, is critically important to long-term forest dynamics and carbon cycling because woody tissues have a long residence time in the ecosystem [@russellResidenceTimesDecay2014]."**
 
-**l.814 - ...**
+**l.814 - "Large trees are also the most vulnerable to other climate-related disturbances [e.g., wind, lighting, @goraImplicationsSizedependentTree2021] that are expected to intensify with climate change [@ipccClimateChange20212021], and they are also targeted by selective logging [@millerReducedImpactLogging2011]."**
 
-**l.838 - ...**
+**l.838 - "In the understory, warming reduces the abundance of less thermally-adapted plant species, causing thermophilization of the plant community [@zellwegerForestMicroclimateDynamics2020b; @duqueThermophilizationAdultJuvenile2015; @greiserHidingClimateCharacterizing2019]."**
 
 In fact, the abstract reads like the authors cannot decide whether tall trees '... are disproportionately vulnerable to drought and damaging 𝑇𝑙𝑒𝑎𝑓' (l. 33) or understory trees (l. 35). It cannot be both if one is comparing them. In this aspect the abstract comes off indecisive or unclear. This is an element in the review as well (see below).
 
