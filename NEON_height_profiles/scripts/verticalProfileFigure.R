@@ -182,7 +182,7 @@ for(i in 1:length(dp[,name])){
           paste("max T"["bio"], " [",degree,"C]")))
     } else if(i==5){ #PAR
       graph <- graph + 
-        xlab(bquote("max PAR [" ~mu ~ mol^'-2' ~ s^'-1'~"]"))
+        xlab(bquote("max PAR [" ~mu ~mol ~m^'-2' ~ s^'-1'~"]"))
     }
     
     ## remove y-axis from all but windspeed
