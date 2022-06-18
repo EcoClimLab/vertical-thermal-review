@@ -55,7 +55,7 @@ Some minor points :
 
 -Table 2, gb unit, mmol m-2 s-1 ?
 
-*Nidhi*
+**Done**
 
 -I found the x axes labels in Fig 4.a difficult to understand, there is maybe a more intuitive way to write them. Note that PET is not defined. °C for the units.
 
