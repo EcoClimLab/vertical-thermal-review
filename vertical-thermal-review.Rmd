@@ -446,7 +446,7 @@ In the meantime, it remains unresolved whether photosynthesis is more affected b
 Similar to photosynthesis, respiration tends to be higher in upper-canopy sun leaves, but its temperature sensitivity (*Q~10~* or *E~0~*) shows no definite trend along the vertical gradient.
 Specifically, the temperature sensitivity of respiration can be constant within vertical profiles and in seedling sun vs. shade leaves<!--[<!--@carterExperimentalWarmingTropical2021-> @weerasingheCanopyPositionAffects2014; @bolstad_foliar_1999; @zaragoza-castellsDoesGrowthIrradiance2007 <!--@zaragoza-castellsClimatedependentVariationsLeaf2008; @xuSeasonalVariationTemperature2006->]-->, greater in upper-canopy leaves<!--[@turnbullScalingFoliarRespiration2003; @harleyEffectsLightTemperature1996]-->, or greater in the lower canopy <!--[@griffinCanopyPositionAffects2002]--> (Table `r table_leaf_metabolism`). 
 This variation may be attributable to forest type, leaf traits and age [e.g., greater *Q~10~* in younger leaves, @zhouLeafageEffectsTemperature2015], or acclimation to high temperature that decreases *Q~10~* [@slotGeneralPatternsAcclimation2015; @carterExperimentalWarmingTropical2021]. 
-Overall, although *Q~10~* is influenced by the temperature difference between upper and lower canopy positions, we currently lack mechanistic understanding of how and why the temperature sensitivity of respiration varies across the forest vertical profile. 
+Overall, although *Q~10~* is influenced by the temperature difference between upper and lower canopy positions, we currently lack mechanistic understanding of how and why *Q~10~* varies across the forest vertical profile. 
 
 
 
