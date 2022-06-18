@@ -158,7 +158,8 @@ l.579 'implies that high 𝑇𝑎𝑖𝑟 should decrease 𝑔𝑠 of upper cano
 
 l.629 'we currently lack mechanistic understanding of how and why the temperature sensitivity of respiration varies across the forest vertical profile'. Other than that it varies according to the prevailing temperature difference? I think the temperature difference between upper and lower canopy positions, the theme of this review, should be mentioned in regard to this.
 
-*response required*
+**Thanks for suggesting. We included the following sentence:**
+**Overall, although *Q~10~* is influenced by the temperature difference between upper and lower canopy positions, we currently lack mechanistic understanding of how and why *Q~10~* varies across the forest vertical profile.**
 
 l.806-807 'trees in the understory might be more negatively affected by chronic stress from warming 𝑇𝑎𝑖𝑟'. This is based on such very thin evidence, almost no evidence. Nor do I think that the  authors are appropriately highlighting a lack of knowledge very well by their speculation (which is not based on data). They are inferring what would happen with climate warming on the basis of historical evidence, highly indirect in Fig. 4B which only shows modelled results, and when there are highly overlapping CI's. I hardly find it a basis for a strong statement landing in the abstract, especially when it is contradicted by other statements throughout the review.
 
