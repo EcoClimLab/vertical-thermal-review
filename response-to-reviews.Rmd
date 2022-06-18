@@ -142,11 +142,12 @@ I suggest revising as 'associated with conditions that are hot ...'.
 
 l.264-265 'their environment is less conducive to dissipating excess heat compared to upper-canopy leaves.' What evidence? This is a logical argument and should either be backed with references or labelled as a logical outcome of the conditions they have stated.
 
-*response required*
+**We added an explanation to l.264-265 with references:**
+**"Thus, while understory and within-canopy shade leaves can remain cooler under lower radiation, their environment is less conducive to dissipating excess heat compared to upper-canopy leaves, *because wind speeds and hence boundary layer conductance are generally smaller in the lower canopy [@robertsStomatalBoundaryLayerConductances1990; @martin_boundary_1999].***
 
 l.269 How does lower VPD in the understory inhibit evaporative cooling, if VPD is the major driver for evaporation? I think I understand how this can be counter-intuitive, but the reasoning isn't explained so it all becomes opaque to the reader. Please explain very briefly.
 
-*response required*
+**Lower VPD inhibits evaporative cooling precisely because VPD is the major driver for evaporation: Transpiration rate generally increases as VPD increases, and decreases as VPD decreases. Therefore lower VPD will mean less transpiration and hence less evaporative cooling. Perhaps the word *‘inhibits’* confused the issue; we have replaced *‘inhibits’* with *‘reduces’*. We have also modified the sentence to read, ‘In addition to lower wind speeds, higher RH (lower VPD) in the understory and inner canopy also reduces evaporative cooling (because evaporation rate generally increases with VPD), thus increasing Tleaf – Tair …’.” (phrase “because evaporation rate generally increases with VPD” added)**
 
 l.313 'information from adjacent mature leaves or apical meristems, including a “memory” of previous conditions in that location, ...'.  This was not in the previous version that I can see, and I don't see the basis for inclusion of this statement. As well, use of the term 'memory' seems awkward if not entirely wrong (even reading between quotes). Please revise.
 
