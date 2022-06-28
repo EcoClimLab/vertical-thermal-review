@@ -12,15 +12,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Dear Editor:
 
-We are pleased to submit a revised version of our manuscript, "Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications" (NPH-TR-2021-38020), for consideration for publication in *New Phytologist*. We have addressed all points raised by the reviewers, as detailed below. The most significant changes include:
-
-...
+We are pleased to submit a revised version of our manuscript, "Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications" (NPH-TR-2021-38020), for consideration for publication in *New Phytologist*. We have addressed all points raised by the reviewers, as detailed in our responses to the reviewers. The most significant change was de-emphasizing the discussion of the potential for stronger negative effects of rising temperatures on understory trees, including removal of former Fig. 4b and modifying the text throughout to give a more consistent message (as requested by reviewer #2).
 
 Regarding production of the figures, below are some specific criteria:
 <!--To ensure rapid handling of your manuscript we would be grateful if you could confirm, in the cover letter to the Editor, whether or not there are any important elements of the figures that need to be retained (eg. colours used, plant species drawn, layout and spacing, symbols, etc) and if you have specific instructions that you would like the illustrator to take on board.-->
 
 - It will generally be fine to adjust colors, layout, and spacing on the figures.
-- We really like Figure 1 and would like to retain the background painting (by the lead author)
+- We would like to retain the background painting in Figure 1 (by the lead author)
 
 Thank you for considering this revised version, and we look forward to your response.
 
@@ -35,6 +33,7 @@ Nidhi Vinod & Kristina Anderson-Teixeira (on behalf of all coauthors)
 ## Referee: 1
 
 Comments to the Author
+
 I am satisfied with the corrections and the responses to the comments. I like the new structure, the writting is very precise while covering broad areas and the paper very interesting.
 
 **Thank you.**
@@ -43,15 +42,15 @@ Some minor points :
 
 -PAR units in Fig 2d
 
-*https://github.com/EcoClimLab/vertical-thermal-review/issues/118*
+**Fixed.**
 
 -Fig 3 caption: TLeaf and some other discreptances with rest of the paper abreviations or format (tair, gs)
 
-*https://github.com/EcoClimLab/vertical-thermal-review/issues/121*
+**Fixed.**
 
 -l304 Not sure about the structure of the sentence and causality. Gravity and hydraulic pathlength (due to height) could mitigate the effect of light alone ?
 
-**The full sentence reads: "More recent work has extended the focus from light alone to *height* in the vertical profile, as *the latter* shapes differences in leaf structure and function that can partially mitigate the effects of gravity and hydraulic pathlength on leaves higher up in the canopy." Thus, we're saying that *height* shapes differences in leaf traits that caould mitigate effects of gravity and hydraulic pathlength. We believe the sentence to be correct as written.**
+**The full sentence reads: "More recent work has extended the focus from light alone to *height* in the vertical profile, as *the latter* shapes differences in leaf structure and function that can partially mitigate the effects of gravity and hydraulic pathlength on leaves higher up in the canopy." Thus, we're saying that *height* shapes differences in leaf traits that could mitigate effects of gravity and hydraulic pathlength. We believe the sentence to be correct as written.**
 
 -Table 2, gb unit, mmol m-2 s-1 ?
 
@@ -157,7 +156,7 @@ l.579 'implies that high 𝑇𝑎𝑖𝑟 should decrease 𝑔𝑠 of upper cano
 
 **We have removed the quoted sentence as it was redundant with that which had preceded it, but had confusingly couched the message of the preceding sentence as if it were a speculation rather than an empirical fact. The preceding sentence, which we have retained, read:**
 *“…sun leaves in the upper canopy show a stronger decrease in* *g~s~* *in response to rising* *T~air~* *(driven by increased VPD) than lower-canopy shade leaves (Hernández et al., 2020; Carter et al., 2021)”.*
-**That is an empirical result. The fact that the effect of *T~air~* on *g~s~* in that result is driven by VPD rather than somehow directly by *T~air~* itself is indicated by the fact that increasing temperature itself apparently *opens* stomata, rather than closing them. This is also germane to the reviewer’s final comment about decoupling VPD and *T~leaf~*. There are in fact six published studies that have decoupled VPD and *T~leaf~*, and they all suggest temperature per se causes an increase, not a reduction, in stomatal conductance. We have added the following sentence to the end of the paragraph to clarify this matter, citing three of the six studies due to limit on word count: “Available data also suggest that high *T~air~* can directly drive stomatal opening, if vapor pressure is experimentally adjusted in tandem with *T~air~* to keep VPD constant [@schulzeRoleAirHumidity1974; @hallRegulationWaterLoss1975; @hallStomatalResponseEnvironment1975; @fredeenTemperatureHumidityEffects1999a; @mottStomatalResponsesHumidity2010; @urbanStomatalConductanceIncreases2017a], though it appears that the negative effect of temperature on *g~s~*, mediated by VPD, generally overrides the positive effect of temperature per se in nature, causing *g~s~* to decline when the leaf warms.**
+**That is an empirical result. The fact that the effect of *T~air~* on *g~s~* in that result is driven by VPD rather than somehow directly by *T~air~* itself is indicated by the fact that increasing temperature itself apparently *opens* stomata, rather than closing them. This is also germane to the reviewer’s final comment about decoupling VPD and *T~leaf~*. There are in fact six published studies that have decoupled VPD and *T~leaf~* [@schulzeRoleAirHumidity1974; @hallRegulationWaterLoss1975; @hallStomatalResponseEnvironment1975; @fredeenTemperatureHumidityEffects1999a; @mottStomatalResponsesHumidity2010; @urbanStomatalConductanceIncreases2017a], and they all suggest temperature per se causes an increase, not a reduction, in stomatal conductance. We have added the following sentence to the end of the paragraph to clarify this matter, citing three of the six studies due to limit on word count: "Available data also suggest that high Tair can directly drive stomatal opening, if vapor pressure is experimentally adjusted in tandem with Tair to keep VPD constant (Fredeen & Sage, 1999; Mott & Peak, 2010; Urban et al., 2017), though it appears that the negative effect of temperature on gs, mediated by VPD, generally overrides the positive effect of temperature per se in nature, causing gs to decline when the leaf warms."**
 
 
 l.629 'we currently lack mechanistic understanding of how and why the temperature sensitivity of respiration varies across the forest vertical profile'. Other than that it varies according to the prevailing temperature difference? I think the temperature difference between upper and lower canopy positions, the theme of this review, should be mentioned in regard to this.
