@@ -91,7 +91,7 @@ g) Figure legends:
 
 •       Fig. 4: please amend the spelling of ‘Tailand’ in the top panel of the figure.
 
-*https://github.com/EcoClimLab/vertical-thermal-review/issues/123*
+**Fixed.**
 
 •       Fig. 5(a): please add text to the legend to explain the meaning of the different thickness of arrows used (if this is significant).
 
