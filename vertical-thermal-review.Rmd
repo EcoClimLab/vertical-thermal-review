@@ -79,9 +79,9 @@ w_total=w_intro+w_vertgradients+w_implications+w_conclusions
 
 Nidhi Vinod^1,2^
 
-Martijn Slot^3^
+Martijn Slot^3^ (ORCID: 0000-0002-5558-1792; Twitter: @martijn_slot; Facebook: martijn.slot.52)
 
-Ian R. McGregor^4^ (ORCID: 0000-0002-5763-021X)
+Ian R. McGregor^4^ (ORCID: 0000-0002-5763-021X; Twitter: @ecoterrestrian)
 
 Elsa M. Ordway^2,5^ (ORCID: 0000-0002-7720-1754; Twitter: @ElsaOrdway)
 
@@ -103,7 +103,7 @@ Kristina J. Anderson-Teixeira^1,3^* (Orcid ID : 0000-0001-8461-9713; Twitter: @K
 
 2. Department of Ecology and Evolutionary Biology, UCLA, Los Angeles, CA 90039, USA
 
-3. Forest Global Earth Observatory, Smithsonian Tropical Research Institute, Apartado Postal 0843-03092, Panama City, Panama
+3. Smithsonian Tropical Research Institute, Apartado Postal 0843-03092, Panama City, Panama
 
 4. Center for Geospatial Analytics; North Carolina State University; Raleigh, NC 27607, USA
 
