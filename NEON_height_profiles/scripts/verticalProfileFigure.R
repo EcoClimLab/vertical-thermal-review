@@ -401,7 +401,7 @@ groupPlots <- lapply(1:length(sites), function(X){
   
   # void <- ggplot() + theme_void()
   
-  if(X==1) titleTx <- "(A) (Sub) Subtropical and warm temperate broadleaf forests"
+  if(X==1) titleTx <- "(A) (Sub)tropical and warm temperate broadleaf forests"
   if(X==2) titleTx <- "(B) Temperate open forests / savanna"
   if(X==3) titleTx <- "(C) Temperate mesic broadleaf forests"
   if(X==4) titleTx <- "(D) Temperate conifer forests"
@@ -423,6 +423,7 @@ groupPlots <- lapply(1:length(sites), function(X){
   return(list(p, allNEON))
 })
 
+# NB the warnings from the code above are ok.
 
 #get numbers for manuscript
 aggNeon <- rbindlist(lapply(groupPlots, `[[`, 2))
@@ -458,7 +459,7 @@ q <- ggarrange(groupPlots[["subBroad"]], groupPlots[["savOpenTemp"]],
                groupPlots[["tempBroad"]], groupPlots[["tempCon"]],
                groupPlots[["northBor"]],
                nrow=5, ncol=1)
-png(paste0("figures/profile_all_groups.png"), 
+png(paste0("figures/profile_all_groups1.png"), 
     height=1800, width=1500)
 print(q)
 dev.off()
