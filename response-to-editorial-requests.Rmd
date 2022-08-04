@@ -30,13 +30,21 @@ a) Title page:
 
 •       Tyeen C. Taylor appears in ScholarOne as ‘Tyeen Taylor’ and Kristina J. Anderson-Teixeira appears in ScholarOne as ‘Kristina Anderson-Teixeira’. Please ensure that the names appear as you wish for publication in the main text file.
 
+**We wish to include the middle initials in both names.**
+
 •       Insert postal/ZIP code for the author affiliation number 3 listed on the paper.
 
+**Done**
+
 •       Insert the ORCID details for the authors listed on the paper (where available).
+
+*I filled in a couple-- not yet complete.*
 
 •       Insert any individual or lab-associated social media accounts (e.g. Twitter, Facebook, Instagram, WeChat etc.), if available, which can be used for social media promotion of your article. (Note, this information will not appear in your published paper.)
 
 b) I note that one author (Thomas Buckley) was added to the paper between revisions. It is unusual for authorship of an article to change during the revision stages, and it is journal policy that we seek the approval of all the authors on the paper for any such changes. Please clarify this change to the authorship of your paper and provide reasons for why this author has now been included. Once this has been supplied, I will contact your co-authors to obtain their approval for this change (as per journal policy).
+
+**We addressed this via email on August 3.**
 
 c) Acknowledgements: please check your Acknowledgements section to ensure that details of funding bodies and grant numbers are complete and correct.
 
@@ -44,7 +52,11 @@ d) Author contributions: please insert the individual contributions for Martijn 
 
 e) Data availability section: amend the wording ‘The R scripts used for new analyses are (will be) available via GitHub (https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2FEcoClimLab%2Fvertical-thermal-review&amp;data=05%7C01%7CTeixeiraK%40si.edu%7Ca48e6afee6224253138208da7528be6f%7C989b5e2a14e44efe93b78cdd5fc5d11c%7C0%7C0%7C637951116144876893%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=ujAgGxmh7t64HbF5ZDuTe4%2F9fWNaww80PaYZXcMZDn8%3D&amp;reserved=0) and archived in Zenodo (DOI: [TBD])’. Ensure that the GitHub link is live and that the Zenodo DOI is added (to assist readers).
 
+*We need fo finish organizing the repo, make it public, and archive in Zenodo.*
+
 f) References:
+
+*NIDHI*
 
 •       Ensure article titles are given in the References section in journal style (e.g. Latin/gene names appropriately italicised; subscript/superscript characters).
 
@@ -114,19 +126,35 @@ Please address the following points.
 
 •       Title page: insert the author names (but not the superscript numbers/symbols or affiliations) and the article acceptance date: 31 July 2022.
 
+**Done.**
+
 •       Title page and page 2: please relabel ‘Note S1’ to ‘Notes S1’, for journal style and amend the main text citations accordingly.
+
+**Done.**
 
 •       Methods S1: please insert to the references section the full reference for the R Core Team citation given in Methods S1 (page 4).
 
+*NIDHI*
+
 •       Please add the full refence for this citation to the refence list at the end of the file.
+
+*NIDHI*
 
 •       Fig. S1: the figure includes panels (a)–(e). Please add a mention to each panel to the figure legend.
 
+**Done.**
+
 •       References section: Doughty & Goulden (2008), Muir (2019): add the page ranges for these journal articles.
+
+*NIDHI*
 
 •       National Ecological Observatory Network (NEON) (2022b, 2022a, 2022c, 2022d, 2022e): please include URL and date accessed for these references, to aid the reader.
 
+*NIDHI*
+
 •       Convert your final Supporting Information file provided as a Word file to PDF format. We recommend that you scan through the PDF to ensure that all is correct before uploading this file (this is the final file that will be published on Wiley Online Library).
+
+*(LATER STEP)*
 
 ## 4)      Permissions
 
