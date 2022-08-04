@@ -81,9 +81,9 @@ Nidhi Vinod^1,2^
 
 Martijn Slot^3^
 
-Ian R. McGregor^4^ (Orcid ID: 0000-0002-5763-021X)
+Ian R. McGregor^4^ (ORCID: 0000-0002-5763-021X)
 
-Elsa M. Ordway^2,5^
+Elsa M. Ordway^2,5^ (ORCID: 0000-0002-7720-1754; Twitter: @ElsaOrdway)
 
 Marielle N. Smith^6^
 
@@ -91,9 +91,9 @@ Tyeen C. Taylor^7^
 
 Lawren Sack^2^
 
-Thomas N. Buckley^8^
+Thomas N. Buckley^8^ (ORCID: 0000-0001-7610-7136; Twitter: @TomBuckleyLab)
 
-Kristina J. Anderson-Teixeira^1,3^* ( Orcid ID : 0000-0001-8461-9713)
+Kristina J. Anderson-Teixeira^1,3^* (Orcid ID : 0000-0001-8461-9713; Twitter: @K_A_Teixeira)
 
 
 
@@ -633,7 +633,7 @@ Integrating the patterns and mechanisms reviewed here, along with remote sensing
 ## Acknowledgements
 Thanks to Valentine Herrmann, Norbert Kunert, Camille Piponiot, Peter B. Boucher and Andrew B. Davies for providing figure materials. 
 This manuscript benefited from feedback from Eleinis Ávila-Lovera, the ForestGEO Ecosystems & Climate lab at NZCBI, and two anonymous reviewers.
-Funding was provided by the Smithsonian Institution.
+Funding was provided by the Smithsonian Institution, NSF grant #1951244 to LS and TNB, and USDA-NIFA Hatch project grant #1016439 to TNB.
 
 ## Author Contributions
 NV and KAT planned and designed the research, with contributions from all authors. NV reviewed the literature. NV, IM, EMO and MNS contributed data and analyses. All authors contributed to writing and revising of the manuscript.

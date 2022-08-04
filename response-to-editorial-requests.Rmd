@@ -42,6 +42,7 @@ a) Title page:
 
 •       Insert any individual or lab-associated social media accounts (e.g. Twitter, Facebook, Instagram, WeChat etc.), if available, which can be used for social media promotion of your article. (Note, this information will not appear in your published paper.)
 
+
 b) I note that one author (Thomas Buckley) was added to the paper between revisions. It is unusual for authorship of an article to change during the revision stages, and it is journal policy that we seek the approval of all the authors on the paper for any such changes. Please clarify this change to the authorship of your paper and provide reasons for why this author has now been included. Once this has been supplied, I will contact your co-authors to obtain their approval for this change (as per journal policy).
 
 **We addressed this via email on August 3.**
@@ -89,6 +90,8 @@ f) References:
 g) Figure legends:
 
 •       Fig. 4: please amend the spelling of ‘Tailand’ in the top panel of the figure.
+
+*https://github.com/EcoClimLab/vertical-thermal-review/issues/123*
 
 •       Fig. 5(a): please add text to the legend to explain the meaning of the different thickness of arrows used (if this is significant).
 
