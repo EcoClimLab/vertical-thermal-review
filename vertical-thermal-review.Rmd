@@ -85,13 +85,13 @@ Ian R. McGregor^4^ (ORCID: 0000-0002-5763-021X; Twitter: ecoterrestrian)
 
 Elsa M. Ordway^2,5^ (ORCID: 0000-0002-7720-1754; Twitter: ElsaOrdway)
 
-Marielle N. Smith^6^
+Marielle N. Smith^6,7^ (ORCID: 0000-0003-2323-331X; Twitter: marielle_smith1)
 
-Tyeen C. Taylor^7^
+Tyeen C. Taylor^8^ (ORCID: 0000-0002-0926-098X)
 
 Lawren Sack^2^
 
-Thomas N. Buckley^8^ (ORCID: 0000-0001-7610-7136; Twitter: TomBuckleyLab)
+Thomas N. Buckley^9^ (ORCID: 0000-0001-7610-7136; Twitter: TomBuckleyLab)
 
 Kristina J. Anderson-Teixeira^1,3^* (Orcid ID : 0000-0001-8461-9713; Twitter: K_A_Teixeira)
 
@@ -111,9 +111,11 @@ Kristina J. Anderson-Teixeira^1,3^* (Orcid ID : 0000-0001-8461-9713; Twitter: K_
 
 6. Department of Forestry, Michigan State University, East Lansing, MI 48824, USA
 
-7. Department of Civil & Environmental Engineering, University of Michigan, Ann Arbor, MI 48109, USA
+7. School of Natural Sciences, College of Environmental Sciences and Engineering, Bangor University, Bangor LL57 2DG, United Kingdom
 
-8. Department of Plant Sciences; University of California; Davis, CA, 95616, USA
+8. Department of Civil & Environmental Engineering, University of Michigan, Ann Arbor, MI 48109, USA
+
+9. Department of Plant Sciences; University of California; Davis, CA, 95616, USA
 
 *corresponding author: teixeirak@si.edu; +1 540 635 6546
 
@@ -634,6 +636,7 @@ Integrating the patterns and mechanisms reviewed here, along with remote sensing
 Thanks to Valentine Herrmann, Norbert Kunert, Camille Piponiot, Peter B. Boucher and Andrew B. Davies for providing figure materials. 
 This manuscript benefited from feedback from Eleinis Ávila-Lovera, the ForestGEO Ecosystems & Climate lab at NZCBI, and two anonymous reviewers.
 Funding was provided by the Smithsonian Institution, NSF grant #1951244 to LS and TNB, and USDA-NIFA Hatch project grant #1016439 to TNB.
+MNS was supported by NSF DEB grant (no. 1950080) to Michigan State University.
 
 ## Author Contributions
 NV and KAT planned and designed the research, with contributions from all authors. NV reviewed the literature. NV, IM, EMO and MNS contributed data and analyses. All authors contributed to writing and revising of the manuscript.
