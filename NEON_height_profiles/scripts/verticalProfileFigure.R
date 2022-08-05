@@ -166,12 +166,13 @@ for(i in 1:length(dp[,name])){
            y = "") +
       theme_bw()
     
-    if(i %in% c(1,2)){ #windspeed, RH
+    if(i ==1){ #windspeed
+      graph <- graph + 
+        xlab(bquote("max Windspeed ["~m ~s^'-1'~"]")) + 
+        ylab("Normalized height")
+    } else if(i==2){ #RH
       graph <- graph + 
         xlab(paste0(dp[,stat][i], " ", dp[,xlabs][i]))
-      if(i==1){
-        graph <- graph + ylab("Normalized height")
-      }
     } else if(i==3){ #tempSingle
       graph <- graph +
         xlab(expression(
@@ -182,7 +183,7 @@ for(i in 1:length(dp[,name])){
           paste("max T"["bio"], " [",degree,"C]")))
     } else if(i==5){ #PAR
       graph <- graph + 
-        xlab(bquote("max PAR [" ~mu ~mol ~m^'-2' ~ s^'-1'~"]"))
+        xlab(bquote("max PAR ["~mu ~mol ~m^'-2' ~ s^'-1'~"]"))
     }
     
     ## remove y-axis from all but windspeed
@@ -204,6 +205,7 @@ for(i in 1:length(dp[,name])){
   })
 }
 
+# NB the warnings from the code above are ok.
 names(plots) <- dp[,name]
 
 ## bring in LAD profiles
