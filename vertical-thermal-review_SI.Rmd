@@ -61,11 +61,23 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 
 ```
 
+**Authors:** 
+Nidhi Vinod,
+Martijn Slot,
+Ian R. McGregor,
+Elsa M. Ordway,
+Marielle N. Smith,
+Tyeen C. Taylor,
+Lawren Sack,
+Thomas N. Buckley,
+Kristina J. Anderson-Teixeira
+
+**Article acceptance date:** 31 July 2022.
 
 \newpage
 
 
-# Note `r Notes_leafTbiophysics`: Biophysical drivers of T~leaf~
+# Notes `r Notes_leafTbiophysics`: Biophysical drivers of T~leaf~
 
 Fundamentally, $T_{leaf}$ is determined by the energy balance and can be estimated based on biophysical principles: $T_{leaf}-T_{air}$ depends on energy input from net radiation ($R_n$, including shortwave and longwave) minus heat lost to the environment [Fig. `r fig_leaf_T`, @campbell_introduction_1998; @muir_tealeaves_2019].
 High $R_n$ loads can elevate $T_{leaf}$ above $T_{air}$ (Fig. 3a). 
@@ -187,7 +199,7 @@ ft
 \newpage
 
 # `r SIfig_NEON_all_legend`
-![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in July mean ± 1 standard deviation for maximum photosynthetically active radiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Site information is given in Supporting Information Table `r NEON_sites`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`.](NEON_height_profiles/figures/profile_all_groups.png)
+![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Sites are grouped into five forest types: (sub)tropical and warm temperate broadleaf deciduous forests (A), temperate open forests and savannas (B), temperate mesic broadleaf forests (C), temperate conifer forests (D), and northern and boreal forests (E). Shown are  height profiles in July mean ± 1 standard deviation for maximum photosynthetically active radiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Site information is given in Supporting Information Table `r NEON_sites`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`.](NEON_height_profiles/figures/profile_all_groups.png)
 
 \newpage
 # References

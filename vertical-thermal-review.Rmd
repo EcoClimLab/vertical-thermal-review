@@ -76,15 +76,25 @@ w_total=w_intro+w_vertgradients+w_implications+w_conclusions
 **Title:** Thermal sensitivity across forest vertical profiles: patterns, mechanisms, and ecological implications
 
 **Authors:** 
-Nidhi Vinod^1,2^,
-Martijn Slot^3^,
-Ian R. McGregor^4^,
-Elsa M. Ordway^2,5^,
-Marielle N. Smith^6^,
-Tyeen C. Taylor^7^,
-Lawren Sack^2^,
-Thomas N. Buckley^8^,
-Kristina J. Anderson-Teixeira^1,3^* 
+
+Nidhi Vinod^1,2^
+
+Martijn Slot^3^ (ORCID: 0000-0002-5558-1792; Twitter: martijn_slot; Facebook: martijn.slot.52)
+
+Ian R. McGregor^4^ (ORCID: 0000-0002-5763-021X; Twitter: ecoterrestrian)
+
+Elsa M. Ordway^2,5^ (ORCID: 0000-0002-7720-1754; Twitter: ElsaOrdway)
+
+Marielle N. Smith^6,7^ (ORCID: 0000-0003-2323-331X; Twitter: marielle_smith1)
+
+Tyeen C. Taylor^8^ (ORCID: 0000-0002-0926-098X)
+
+Lawren Sack^2^
+
+Thomas N. Buckley^9^ (ORCID: 0000-0001-7610-7136; Twitter: TomBuckleyLab)
+
+Kristina J. Anderson-Teixeira^1,3^* (Orcid ID : 0000-0001-8461-9713; Twitter: K_A_Teixeira)
+
 
 
 **Author Affiliations:**
@@ -93,7 +103,7 @@ Kristina J. Anderson-Teixeira^1,3^*
 
 2. Department of Ecology and Evolutionary Biology, UCLA, Los Angeles, CA 90039, USA
 
-3. Smithsonian Tropical Research Institute; Panama, Republic of Panama
+3. Smithsonian Tropical Research Institute, Apartado Postal 0843-03092, Panama City, Panama
 
 4. Center for Geospatial Analytics; North Carolina State University; Raleigh, NC 27607, USA
 
@@ -101,9 +111,11 @@ Kristina J. Anderson-Teixeira^1,3^*
 
 6. Department of Forestry, Michigan State University, East Lansing, MI 48824, USA
 
-7. Department of Civil & Environmental Engineering, University of Michigan, Ann Arbor, MI 48109, USA
+7. School of Natural Sciences, College of Environmental Sciences and Engineering, Bangor University, Bangor LL57 2DG, United Kingdom
 
-8. Department of Plant Sciences; University of California; Davis, CA, 95616, USA
+8. Department of Civil & Environmental Engineering, University of Michigan, Ann Arbor, MI 48109, USA
+
+9. Department of Plant Sciences; University of California; Davis, CA, 95616, USA
 
 *corresponding author: teixeirak@si.edu; +1 540 635 6546
 
@@ -222,11 +234,11 @@ These usually-modest gradients in *T~air~* combine with the above-described grad
 
 ## 2. Leaf temperature 
 
-*T~leaf~* is strongly tied to, and usually within a few degrees of, *T~air~* [@drakeNoEvidenceHomeostatic2020;@rey-sanchez_spatial_2016], but can be substantially warmer or cooler under certain conditions [Note `r Notes_leafTbiophysics`,@doughtyAreTropicalForests2008;@rey-sanchez_spatial_2016;@vogelLeavesLowestHighest2009]. 
-Deviation of *T~leaf~* from *T~air~* is influenced by other micrometeorological drivers and by leaf traits and stomatal conductance (*g~s~*; Fig. `r fig_leaf_T`; Note `r Notes_leafTbiophysics`), all of which vary across forest vertical gradients (Fig. `r fig_schematic`).
+*T~leaf~* is strongly tied to, and usually within a few degrees of, *T~air~* [@drakeNoEvidenceHomeostatic2020;@rey-sanchez_spatial_2016], but can be substantially warmer or cooler under certain conditions [Notes `r Notes_leafTbiophysics`,@doughtyAreTropicalForests2008;@rey-sanchez_spatial_2016;@vogelLeavesLowestHighest2009]. 
+Deviation of *T~leaf~* from *T~air~* is influenced by other micrometeorological drivers and by leaf traits and stomatal conductance (*g~s~*; Fig. `r fig_leaf_T`; Notes `r Notes_leafTbiophysics`), all of which vary across forest vertical gradients (Fig. `r fig_schematic`).
 High radiation in the upper canopy implies that upper canopy leaves often have higher *T~leaf~* - *T~air~*, and thus are often warmer than understory leaves (Fig. `r fig_leaf_T`a).
 However, higher wind speeds reduce *T~leaf~* - *T~air~* [Fig. `r fig_leaf_T`b, @niinemetsPhotosyntheticAcclimationSimultaneous2004; @bonan_ecological_2016]. 
-In addition, adaptive leaf traits that increase *g~s~* and *g~b~*, such as small size and high stomatal density (Note `r Notes_leafTbiophysics`; sections 3, 4.1), mediate the direct effects of solar radiation on upper canopy leaves and result in higher rates of heat loss (Fig. `r fig_leaf_T`b-e). 
+In addition, adaptive leaf traits that increase *g~s~* and *g~b~*, such as small size and high stomatal density (Notes `r Notes_leafTbiophysics`; sections 3, 4.1), mediate the direct effects of solar radiation on upper canopy leaves and result in higher rates of heat loss (Fig. `r fig_leaf_T`b-e). 
 In contrast, in the lower canopy, greater RH (reduced VPD) and lower wind speeds (reduced *g~b~*) may limit leaf cooling via latent heat flux, increasing *T~leaf~* [@perezIncreasingHumidityThreatens2018; @tibbittsHumidityPlants1979].
 Leaves in these normally-shaded locations can experience rapid light and temperature surges during sunflecks [>10°C, @waySunflecksTreesForests2012].
 
@@ -623,7 +635,8 @@ Integrating the patterns and mechanisms reviewed here, along with remote sensing
 ## Acknowledgements
 Thanks to Valentine Herrmann, Norbert Kunert, Camille Piponiot, Peter B. Boucher and Andrew B. Davies for providing figure materials. 
 This manuscript benefited from feedback from Eleinis Ávila-Lovera, the ForestGEO Ecosystems & Climate lab at NZCBI, and two anonymous reviewers.
-Funding was provided by the Smithsonian Institution.
+Funding was provided by the Smithsonian Institution, NSF grant #1951244 to LS and TNB, and USDA-NIFA Hatch project grant #1016439 to TNB.
+MNS was supported by NSF DEB grant (no. 1950080) to Michigan State University.
 
 ## Author Contributions
 NV and KAT planned and designed the research, with contributions from all authors. NV reviewed the literature. NV, IM, EMO and MNS contributed data and analyses. All authors contributed to writing and revising of the manuscript.
@@ -633,7 +646,7 @@ No new data were created in this study. New analyses are based upon data availab
 
 ## SI files
 
-Note `r Notes_leafTbiophysics`. Biophysical drivers of T~leaf~
+Notes `r Notes_leafTbiophysics`. Biophysical drivers of T~leaf~
 
 `r appendix_NEON_methods_title`
 
