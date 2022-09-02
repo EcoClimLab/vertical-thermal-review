@@ -38,7 +38,7 @@ a) Title page:
 
 •       Insert the ORCID details for the authors listed on the paper (where available).
 
-*I filled in a couple-- not yet complete.*
+**Done.**
 
 •       Insert any individual or lab-associated social media accounts (e.g. Twitter, Facebook, Instagram, WeChat etc.), if available, which can be used for social media promotion of your article. (Note, this information will not appear in your published paper.)
 
