@@ -59,7 +59,7 @@ e) Data availability section: amend the wording ‘The R scripts used for new an
 
 f) References:
 
-*NIDHI*
+**Done.**
 
 •       Ensure article titles are given in the References section in journal style (e.g. Latin/gene names appropriately italicised; subscript/superscript characters).
 
