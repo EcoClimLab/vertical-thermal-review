@@ -51,6 +51,8 @@ c) Acknowledgements: please check your Acknowledgements section to ensure that d
 
 d) Author contributions: please insert the individual contributions for Martijn Slot, Tyeen C. Taylor, Lawren Sack and Thomas N. Buckley (as has been done for other authors on the paper), as it is journal style that the initials of each author should appear in section to acknowledge their contribution to the work.
 
+**Done.**
+
 e) Data availability section: amend the wording ‘The R scripts used for new analyses are (will be) available via GitHub (https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2FEcoClimLab%2Fvertical-thermal-review&amp;data=05%7C01%7CTeixeiraK%40si.edu%7Ca48e6afee6224253138208da7528be6f%7C989b5e2a14e44efe93b78cdd5fc5d11c%7C0%7C0%7C637951116144876893%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=ujAgGxmh7t64HbF5ZDuTe4%2F9fWNaww80PaYZXcMZDn8%3D&amp;reserved=0) and archived in Zenodo (DOI: [TBD])’. Ensure that the GitHub link is live and that the Zenodo DOI is added (to assist readers).
 
 *We need fo finish organizing the repo, make it public, and archive in Zenodo.*
@@ -107,9 +109,11 @@ h) Table legends:
 
 •       Table 1: please add text to the table footnote to explain the meaning of ‘TrS’, as has been done for TrB, TeB, TeN and BoN.
 
-**Fixed.**
+**Done.**
 
 •       Table 2: the references presented in the right-most column are given twice at the end of the table. Please remove one set of this duplicated information. The footnote also includes the text ‘** composite climatic stress variable integrating temperature, vapour pressure deficit, and relative humidity is higher in lower canopy’ however I cannot see ‘**’ in the table (my apologies if I have missed it). Please check.
+
+**We couldn't find the duplicated reference at the end of the table in the right-most column in table 2. We moved the text to table 1 as the note was supposed to be in the first table.**
 
 ## 2)      Figs 1–6
 
