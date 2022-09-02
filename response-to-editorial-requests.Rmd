@@ -149,7 +149,7 @@ Please address the following points.
 
 •       References section: Doughty & Goulden (2008), Muir (2019): add the page ranges for these journal articles.
 
-*NIDHI*
+**Done.**
 
 •       National Ecological Observatory Network (NEON) (2022b, 2022a, 2022c, 2022d, 2022e): please include URL and date accessed for these references, to aid the reader.
 

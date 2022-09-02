@@ -124,7 +124,7 @@ Site-level LAD profiles were calculated as the mean LAD at each height. Mean lig
 
 Micrometeorological data was downloaded for each site from NEON (neonUtilies R package) at 30 minute intervals for 2015-2020 [@https://doi.org/10.48443/77n6-eh42;  @https://doi.org/10.48443/0tyt-ky71;  @https://doi.org/10.48443/7rs6-ff56;  @https://doi.org/10.48443/8a01-0677;  @https://doi.org/10.48443/w9nf-k476]. To focus on the middle of the growing season, the data was constrained to be for the month of July each year. Per site, we calculated the mean maximum and minimum values of each variable by day and by sensor height. In Figure S1 we expanded on Figure `r fig_NEON_vertical` by including 22 sites representing five forest structure types.
  
-All data processing, analyses, and graphing were conducted using R (R core team 2020).
+All data processing, analyses, and graphing were conducted using R [@rcoreteamCoreTeam20212021].
 
 *Note on interpreting $T_{veg}$*:
 
