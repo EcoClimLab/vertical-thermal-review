@@ -165,6 +165,7 @@ Please address the following points.
 
 *NIDHI*
 
+
 •       Convert your final Supporting Information file provided as a Word file to PDF format. We recommend that you scan through the PDF to ensure that all is correct before uploading this file (this is the final file that will be published on Wiley Online Library).
 
 *(LATER STEP)*
@@ -174,6 +175,8 @@ Please address the following points.
 Please address the following point.
 
 •       Fig. 5(a): the legend notes that the figure is from Kunert et al. (2017). Please check the permissions policy of ‘Agricultural and Forest Meteorology’ regarding reusing published figures and then either send me a copy of the permission granted to adapt the figure, or confirm that permission is not required.
+
+**We have obtained permission to use the figure and will send a copy.**
 
 ## 5) Licence/copyright form: 
 please note that you will be contacted by the publisher in due course regarding the licence/copyright form for your article. Once your article has been received by Wiley for production you will receive an email from Wiley’s Author Services system which will ask you to log in and will present you with the appropriate license for completion. If you have any questions, please do not hesitate to get in touch with us directly. Note, your article cannot be published until the publisher has received the appropriate signed license agreement.
