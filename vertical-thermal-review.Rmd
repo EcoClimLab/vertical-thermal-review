@@ -639,7 +639,7 @@ Funding was provided by the Smithsonian Institution, NSF grant #1951244 to LS an
 MNS was supported by NSF DEB grant (no. 1950080) to Michigan State University.
 
 ## Author Contributions
-NV and KAT planned and designed the research, with contributions from all authors. NV reviewed the literature. NV, IM, EMO and MNS contributed data and analyses. All authors contributed to writing and revising of the manuscript.
+NV and KAT planned and designed the research, with contributions from all authors. NV reviewed the literature. NV, IM, EMO and MNS contributed data and analyses. MS, TCT, LS, TNB contributed to writing and revising of the manuscript.
 
 ## Data Availability
 No new data were created in this study. New analyses are based upon data available from the National Ecological Observatory Network (NEON; https://www.neonscience.org/). The R scripts used for new analyses are (*will be*) available via GitHub (https://github.com/EcoClimLab/vertical-thermal-review) and archived in Zenodo (DOI: [TBD]). 
