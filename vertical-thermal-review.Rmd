@@ -286,17 +286,17 @@ Many leaf physiological parameters can be estimated based on foliage height prof
 \newpage
 **Table `r table_leaf_traits`.** Summary of typically observed variation in leaf traits and its thermal sensitivity across the vertical gradient and/or between sun and shade leaves. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
 
-![](table1a.png)
+![](tables/table1a.png)
 
 \newpage
 Table `r table_leaf_traits`, cont.
 
-![](table1b.png)
+![](tables/table1b.png)
 
 \newpage
 Table `r table_leaf_traits`, cont.
 
-![](table1c.png)
+![](tables/table1c.png)
 
 *Responses across height and light gradients are summarized, with up and down arrows indicating significant increasing or decreasing trends, respectively, in response to height (H) or light (L). $\approx$ indicates lack of any notable directional variation, and $\approx \uparrow$ or $\approx \downarrow$ indicate non-significant or mixed trends (e.g., significant in some but not all species studied). 
 
@@ -399,19 +399,19 @@ However, as we detail below, few studies have evaluated how temperature response
 
 **Table `r table_leaf_metabolism`.** Summary of observed variation in Leaf gas exchange and its thermal sensitivity across the vertical gradient and/or between sun and shade leaves. Studies listed here were compiled using a systematic review process, as described in Supplementary Information Methods `r appendix_lit_review_methods`.
 
-![](table2a.png)
+![](tables/table2a.png)
 
 \newpage
 
 Table `r table_leaf_metabolism`, cont.
 
-![](table2b.png)
+![](tables/table2b.png)
 
 \newpage
 
 Table `r table_leaf_metabolism`, cont.
 
-![](table2c.png)
+![](tables/table2c.png)
 
 *Responses across height and light gradients are summarized, with up and down arrows indicating significant increasing or decreasing trends, respectively, in response to height (H) or light (L). $\approx$ indicates lack of any notable directional variation, and $\approx \uparrow$ or $\approx \downarrow$ indicate non-significant or mixed trends (e.g., significant in some but not all species studied). 
 
