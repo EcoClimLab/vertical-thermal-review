@@ -113,7 +113,7 @@ h) Table legends:
 
 •       Table 2: the references presented in the right-most column are given twice at the end of the table. Please remove one set of this duplicated information. The footnote also includes the text ‘** composite climatic stress variable integrating temperature, vapour pressure deficit, and relative humidity is higher in lower canopy’ however I cannot see ‘**’ in the table (my apologies if I have missed it). Please check.
 
-**We couldn't find the duplicated reference at the end of the table in the right-most column in table 2. We moved the text to table 1 as the note was supposed to be in the first table.**
+**We couldn't find the duplicated reference at the end of the table in the right-most column in table 2. However, we moved the text to table 1 as the note was supposed to be in the first table.**
 
 ## 2)      Figs 1–6
 
