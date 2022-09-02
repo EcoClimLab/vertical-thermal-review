@@ -77,7 +77,7 @@ w_total=w_intro+w_vertgradients+w_implications+w_conclusions
 
 **Authors:** 
 
-Nidhi Vinod^1,2^
+Nidhi Vinod^1,2^ (ORCID: 0000-0003-2726-4105; Twitter: NidhiVinod4)
 
 Martijn Slot^3^ (ORCID: 0000-0002-5558-1792; Twitter: martijn_slot; Facebook: martijn.slot.52)
 
