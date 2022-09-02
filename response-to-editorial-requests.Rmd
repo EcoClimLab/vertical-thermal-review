@@ -99,6 +99,8 @@ g) Figure legends:
 
 •       Fig. 5(a): please add text to the legend to explain the meaning of the different thickness of arrows used (if this is significant).
 
+**Since the thickness of the arrows do not indicate significance, we decided to leave the caption as it is.** 
+
 •       Fig. 5(b): please amend ‘in press’ to ‘2022’ in the last line of the legend.
 
 **Done.**
