@@ -55,7 +55,7 @@ d) Author contributions: please insert the individual contributions for Martijn 
 
 e) Data availability section: amend the wording ‘The R scripts used for new analyses are (will be) available via GitHub (https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2FEcoClimLab%2Fvertical-thermal-review&amp;data=05%7C01%7CTeixeiraK%40si.edu%7Ca48e6afee6224253138208da7528be6f%7C989b5e2a14e44efe93b78cdd5fc5d11c%7C0%7C0%7C637951116144876893%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=ujAgGxmh7t64HbF5ZDuTe4%2F9fWNaww80PaYZXcMZDn8%3D&amp;reserved=0) and archived in Zenodo (DOI: [TBD])’. Ensure that the GitHub link is live and that the Zenodo DOI is added (to assist readers).
 
-*We need fo finish organizing the repo, make it public, and archive in Zenodo.*
+**This is complete, and the Zenodo DOI is inserted in the manuscript.**
 
 f) References:
 
@@ -189,6 +189,6 @@ please note that you will be contacted by the publisher in due course regarding 
 ## 6) Data Deposition
 Finally, we remind authors that new sequence data should be deposited in the EMBL/GenBank/DDBJ Nucleotide Sequence Databases, and accession numbers should be included in the final publication. In addition, please note that New Phytologist requires authors to ensure that data integral to the paper is available to readers in a form which allows for verification and replication of the results in the paper. For full details please refer to the author guidelines: https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fnph.onlinelibrary.wiley.com%2Fhub%2Fjournal%2F14698137%2Fabout%2Fauthor-guidelines&amp;data=05%7C01%7CTeixeiraK%40si.edu%7Ca48e6afee6224253138208da7528be6f%7C989b5e2a14e44efe93b78cdd5fc5d11c%7C0%7C0%7C637951116144876893%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=g2wQGlViohQQ%2BL9F6b9WoWkOsurgYVyF5Fd4yj%2Bcumk%3D&amp;reserved=0.
 
-
+**This requirement is met We describe data deposition in our data availability statement: "No new data were created in this study. New analyses are based upon data available from the National Ecological Observatory Network (NEON; https://www.neonscience.org/). The R scripts used for new analyses are available via GitHub (https://github.com/EcoClimLab/vertical-thermal-review) and archived in Zenodo (DOI: 10.5281/zenodo.7050582)."**
 
 
