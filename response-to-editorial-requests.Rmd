@@ -109,7 +109,7 @@ h) Table legends:
 
 •       I notice that the tables are pasted into the main text file as graphics and, unfortunately it is not possible to typeset the tables from this format. Insert the two tables in editable form in the main text file or upload separate Excel files.
 
-**We will be uploading tables separatly in word documents.**
+**We have pasted word versions of the tables into the main document.**
 
 •       Table 1: please add text to the table footnote to explain the meaning of ‘TrS’, as has been done for TrB, TeB, TeN and BoN.
 
