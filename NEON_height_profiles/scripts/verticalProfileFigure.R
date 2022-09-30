@@ -218,10 +218,11 @@ p <- cowplot::plot_grid(plotsLAD[["LAD"]], plotsLAD[["sun"]], plotsLAD[["lgt"]],
                         nrow=2, ncol=4, align="hv",
                         labels=c("A", "B", "C", "D", "E", "F", "G", "H"),
                         label_x=0.13)
-
+#p
 png(paste0("figures/Fig2_normalized.png"), height=600, width=960)
 print(p)
 dev.off()
+dev.copy2pdf(file = "Fig2_normalized.pdf", useDingbats=FALSE, width = 13, height = 8)
 
 ##########################################################################
 ## Make plots for SI ####
