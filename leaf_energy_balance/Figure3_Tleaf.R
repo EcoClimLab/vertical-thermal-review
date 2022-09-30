@@ -157,7 +157,7 @@ sw<- data.frame(rbind(u_tla, l_tla, dr_utla, dr_ltla))
 a1<-ggplot(data = sw)+
   geom_smooth(aes(x = par, y = tleaf_tair, color = canopy_position, linetype = canopy_position), 
               method = lm, se = FALSE)+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (째C)"))+xlab(TeX("Short Wave Radiation (swr, Wm$^{-2}$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (캜)"))+xlab(TeX("Short Wave Radiation (swr, Wm$^{-2}$)"))+
   theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14)+
   geom_hline(yintercept=0, linetype='dotted', color = 'black')+
   scale_colour_manual(values=c("#008837","#7b3294","#008837","#7b3294"), name = "canopy position") + 
@@ -246,7 +246,7 @@ b1<-ggplot(ws)+
   geom_point(aes(x=2.88, y=8.9), colour="#008837")+
   geom_point(aes(x=0.24, y=2.8), colour="#7b3294")+
   geom_point(aes(x=0.24, y=1.4), colour="#7b3294")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ ($째C$)"))+xlab(TeX("Wind Speed (ws, $ms^{-1}$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (캜)"))+xlab(TeX("Wind Speed (ws, $ms^{-1}$)"))+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 15))+ ylim(-5, 14) 
 
@@ -313,7 +313,7 @@ c1<-ggplot(gs)+
   geom_point(aes(x=0.2, y=1.4), colour="#7b3294")+
   geom_point(aes(x=0.001, y=8.1), colour="#008837")+
   geom_point(aes(x=0.001, y=1.82), colour="#7b3294")+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (째C)"))+xlab(TeX("Stomatal Conductance ($g_{s}$, mol $m^{-2} s^{-1}$)"))+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (캜)"))+xlab(TeX("Stomatal Conductance ($g_{s}$, mol $m^{-2} s^{-1}$)"))+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14)
 c1
@@ -379,7 +379,7 @@ d1<-ggplot(ls)+
   geom_point(aes(x=0.04, y=7.5), colour="#008837")+
   geom_point(aes(x=0.1, y=2.79), colour="#7b3294")+
   
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (째C)"))+xlab("leaf characteristic dimension (lcd, m)")+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (캜)"))+xlab("leaf characteristic dimension (lcd, m)")+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
   theme_few()+theme(text = element_text(size = 15))+ylim(-5, 14) 
 d1
@@ -448,7 +448,7 @@ e1<-ggplot(rh)+
   geom_point(aes(x=0.46, y=8.72), colour="#008837")+
   geom_point(aes(x=0.49, y=2.78), colour="#7b3294")+
   geom_hline(yintercept=0, linetype='dotted', col = 'black')+
-  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (째C)"))+ xlab("Relative Humidity (rh)")+
+  ylab(TeX("$T_{Leaf}$ - $T_{air}$ (캜)"))+ xlab("Relative Humidity (RH)")+
   theme_few()+theme(text = element_text(size = 15))+ ylim (-5, 14) 
 e1
 
@@ -480,4 +480,6 @@ figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c('hv'),
                    labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
 figure1
 
+dev.copy2pdf(file="FigureTleaf2.pdf", useDingbats=FALSE, width=16, height=8)
 #plot saved as .png
+
