@@ -1,1 +1,0 @@
-(function(w) {var data={"t":[]};if (!w.trackingConfig) w.trackingConfig = {};w.trackingConfig.activeQuestionnaireTriggers = data.t || [];})(window);

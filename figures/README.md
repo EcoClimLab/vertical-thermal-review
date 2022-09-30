@@ -1,0 +1,1 @@
+This folder contains images for which little or no new analysis was performed.

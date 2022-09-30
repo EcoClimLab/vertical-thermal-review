@@ -30,6 +30,10 @@ table_leaf_metabolism=2
 
 
 # SI
+##Notes
+
+Notes_leafTbiophysics<- "S1"
+
 ## appendices
 
 appendix_NEON_methods <- "S1"
@@ -57,6 +61,39 @@ SIfig_NEON_all_legend <- "Figure S1. Vertical gradients in micrometeorological c
 
 ```
 
+**Authors:** 
+Nidhi Vinod,
+Martijn Slot,
+Ian R. McGregor,
+Elsa M. Ordway,
+Marielle N. Smith,
+Tyeen C. Taylor,
+Lawren Sack,
+Thomas N. Buckley,
+Kristina J. Anderson-Teixeira
+
+**Article acceptance date:** 31 July 2022.
+
+\newpage
+
+
+# Notes `r Notes_leafTbiophysics`: Biophysical drivers of T~leaf~
+
+Fundamentally, $T_{leaf}$ is determined by the energy balance and can be estimated based on biophysical principles: $T_{leaf}-T_{air}$ depends on energy input from net radiation ($R_n$, including shortwave and longwave) minus heat lost to the environment [Fig. `r fig_leaf_T`, @campbell_introduction_1998; @muir_tealeaves_2019].
+High $R_n$ loads can elevate $T_{leaf}$ above $T_{air}$ (Fig. 3a). 
+Sensible heat flux between leaf and air is regulated by leaf boundary layer conductance, which is greater in smaller leaves (Fig. 3d) and under higher wind speeds (Fig. 3b). 
+Latent heat flux ($\lambda E$) through transpiration cools the leaf, and is determined by stomatal and boundary layer conductances ($g_s$ and $g_b$) and VPD:$g_b$ increases with wind speed, and $g_s$ generally declines as VPD increases due to stomatal closure [@darwinIXObservationsStomata1898; @mottStomatalResponsesHumidity1991].
+Therefore, $T_{leaf}-T_{air}$ decreases in magnitude with wind speed [Fig. 3b, @daudetWindSpeedLeaf1999], increases with RH (Fig. `r fig_leaf_T`c), increases with leaf size (Fig. `r fig_leaf_T`d), and $T_{leaf}$ decreases absolutely with $g_s$ (Fig. 3e).
+
+Under hot and dry conditions, leaves face a trade-off between $T_{leaf}$ regulation and water conservation [@fauset_differences_2018; @kochDiurnalPatternsLeaf1994]. 
+With adequate water, high $\lambda E$ can dissipate excess heat, particularly for smaller leaves (higher $g_b$) [@songTreeSurfaceTemperature2020; @dongBiophysicalHomoeostasisLeaf2017; @konradLeafTemperatureIts2021a; @leighInfluenceLeafSize2017; @leuzingerTreeSpeciesDiversity2007].
+However, when transpiration exceeds water supply, stomata close to conserve water, increasing $T_{leaf}$ [Fig. 3e, @fauset_differences_2018].
+Therefore, at high solar radiation loads, latent cooling can maintain $T_{leaf}$ closer to $T_{air}$, but if stomatal opening is limited, solar radiation can drastically elevate $T_{leaf}$ above $T_{air}$, especially for larger leaves [@fauset_differences_2018; @songTreeSurfaceTemperature2020; @konradLeafTemperatureIts2021a].
+
+Leaves can be substantially warmer or cooler under certain conditions. 
+They can be  warmer than air in full sunlight, especially under slow wind speeds and low $T_{air}$ [@doughtyAreTropicalForests2008].
+Leaves are often cooler than the air on clear nights due to radiative coupling with the very cold sky, and under some daytime conditions [cloudy skies, high wind speeds, and high $T_{air}$, @vogelLeavesLowestHighest2009; @rey-sanchez_spatial_2016].
+
 
 \newpage
 
@@ -75,22 +112,24 @@ We downloaded classified lidar point clouds as .laz files from the NEON (Nationa
 
 Lidar data were processed according to methods detailed in @starkAmazonForestCarbon2012. Outliers on the z plane (height) were removed by applying an interquartile range (IQR) approach. The IQR is calculated as the third quartile (Q3) minus the first quartile (Q1); lidar pulse returns were restricted to > Q1-(1.5xIQR) and < Q3+(1.5xIQR). Next, pulse return counts were quantified, or 'voxelized' within all 2 x 2 x 1 m voxels in a plot.
 
-Digital terrain models (DTMs) were created for each plot using minimum quantile spline regression and interpolation (see Shao et al. 2019) and used to normalize the voxelized lidar data with respect to the ground height. Leaf area density (LAD, $m^2$ $m^{-3}$) was estimated by applying the MacArthur-Horn transformation [@macarthurFoliageProfileVertical1969] to the voxelized pulse returns. We excluded LAD data at the bottom 5 m of the vertical profile, which are more uncertain due to limited pulse penetration within this region furthest away from the sensor [@starkAmazonForestCarbon2012]; for calibration purposes, we assumed the bottom 5 m to have a leaf area index (LAI) of 0.25 $m^2$ $m^{-2}$ [@shaoHighThroughputAssessment2019].
+Digital terrain models (DTMs) were created for each plot using minimum quantile spline regression and interpolation (see Shao et al. 2019) and used to normalize the voxelized lidar data with respect to the ground height. Leaf area density (LAD, $m^2$ $m^{-3}$) was estimated by applying the MacArthur-Horn transformation [@macarthurFoliageProfileVertical1969] to the voxelized pulse returns. We excluded LAD data at the bottom 5 m of the vertical profile, due to limited pulse penetration within this region furthest away from the sensor [@starkAmazonForestCarbon2012]; for calibration purposes, we assumed the bottom 5 m to have a leaf area index (LAI) of 0.25 $m^2 m^{-2}$ [@shaoHighThroughputAssessment2019].
 
-We scaled LAD values by a factor of 5.5 so that they matched an independent estimate of LAI. Specifically, published estimates of LAI at SERC (average of 5.78 $m^2$ $m^{-2}$) derived from litterfall [@parkerCanopySurfaceStand2004], which were then in good agreement with our lidar-derived estimate (5.75 $m^2$ $m^-2$).
-Generating leaf area and light transmission profiles
-Mean LAD profiles for each site were calculated as the mean LAD at each height. Mean light transmission profiles (proportion of incident light) were estimated by applying a vertical light reduction model to LAD estimates [@starkAmazonForestCarbon2012]. To estimate the proportion of sun leaves along the vertical profile, we isolated voxels in the upper canopy surface layer (1-2 m from the local canopy surface, likely to containing the majority of sun leaves), calculated the mean LAD profile for this surface layer, and divided it by the total mean LAD profile.
+We scaled LAD values by a factor of 5.5 so that they matched an independent estimate of LAI. Specifically, published estimates of LAI at SERC (average of 5.78 $m^2$ $m^{-2}$) derived from litterfall [@parkerPortableLIDARSystem2004], which were then in good agreement with our lidar-derived estimate (5.75 $m^2 m^-2$).
+
+*Generating leaf area and light transmission profiles.*
+
+Site-level LAD profiles were calculated as the mean LAD at each height. Mean light transmission profiles (proportion of incident light) were estimated by applying a vertical light reduction model to LAD estimates [@starkAmazonForestCarbon2012]. To estimate the proportion of sun leaves along the vertical profile, we isolated voxels in the upper canopy surface layer (1-2 m from the local canopy surface, likely contain the majority of sun leaves), calculated the mean LAD profile for this surface layer, and divided it by the total mean LAD profile.
 
 ## Analyzing biophysical gradients from micrometeorological data
 
-Micrometeorological data was downloaded for each site from NEON (neonUtilies R package) at 30 minute intervals for 2015-2020. To focus on the middle of the growing season, the data was constrained to be for the month of July each year. Per site, we calculated the mean maximum and minimum values of each variable by day and by sensor height. In Figure S1 we expanded on Figure `r fig_NEON_vertical` by including 22 sites representing five forest structure types.
+Micrometeorological data was downloaded for each site from NEON (neonUtilies R package) at 30 minute intervals for 2015-2020 [@https://doi.org/10.48443/77n6-eh42;  @https://doi.org/10.48443/0tyt-ky71;  @https://doi.org/10.48443/7rs6-ff56;  @https://doi.org/10.48443/8a01-0677;  @https://doi.org/10.48443/w9nf-k476]. To focus on the middle of the growing season, the data was constrained to be for the month of July each year. Per site, we calculated the mean maximum and minimum values of each variable by day and by sensor height. In Figure S1 we expanded on Figure `r fig_NEON_vertical` by including 22 sites representing five forest structure types.
  
-All data processing, analyses, and graphing were conducted using R (R core team 2020).
+All data processing, analyses, and graphing were conducted using R [@rCoreTeam20212021].
 
 *Note on interpreting $T_{veg}$*:
 
 Vegetation temperature ($T_{veg}$) is measured using infrared sensors that integrate across both leaves and woody vegetation. 
-Leaf and branch temperatures often differ substantially; for instance, exposed tropical tree bark can be much warmer than leaves [@pauTropicalForestTemperature2018; @stillImagingCanopyTemperature2021; @johnstonWhatLiesVertical2020].
+Leaf and branch temperatures often differ substantially; for instance, exposed tropical tree bark can be much warmer than leaves [@pauTropicalForestTemperature2018; @stillImagingCanopyTemperature2021; @johnstonWhatLiesVertical2022a].
 Thus, vegetation temperature ($T_{veg}$) does not always equal or approximate $T_{leaf}$, particularly in settings where leaf area is low relative to woody vegetation (i.e., low-LAI ecosystems and understories).
 
 
@@ -160,7 +199,7 @@ ft
 \newpage
 
 # `r SIfig_NEON_all_legend`
-![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Shown are  height profiles in July mean ± 1 standard deviation for maximum photosyntehtically active ratiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Site information is given in Supporting Information Table `r NEON_sites`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`.](NEON_height_profiles/figures/profile_all_groups.png)
+![**Figure `r SIfig_NEON_all`. Vertical gradients in micrometeorological conditions for all forested sites in the National Ecological Observatory Network (NEON)**. Sites are grouped into five forest types: (sub)tropical and warm temperate broadleaf deciduous forests (A), temperate open forests and savannas (B), temperate mesic broadleaf forests (C), temperate conifer forests (D), and northern and boreal forests (E). Shown are  height profiles in July mean ± 1 standard deviation for maximum photosynthetically active radiation (PAR), maximum wind speed, minimum humidity, maximum $T_{air}$, and maximum biological temperature, $T_{bio}$. Site information is given in Supporting Information Table `r NEON_sites`, and analysis details in Supporting Information Methods `r appendix_NEON_methods`.](NEON_height_profiles/figures/profile_all_groups.png)
 
 \newpage
 # References
