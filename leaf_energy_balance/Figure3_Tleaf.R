@@ -480,6 +480,6 @@ figure1<-ggarrange(a1, b1, e1, d1, c1, table1, ncol=3, nrow =2, align = c('hv'),
                    labels = c("(a)", "(b)", "(c)", "(d)", "(e)"))
 figure1
 
-dev.copy2pdf(file="FigureTleaf2.pdf", useDingbats=FALSE, width=16, height=8)
+dev.copy2pdf(file="FigureTleaf2.pdf", useDingbats=FALSE, width=17, height=10)
 #plot saved as .png
 
